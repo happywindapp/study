@@ -1,0 +1,1446 @@
+
+===== BOOK PAGE 1 =====
+
+Kaamran Hafeez/The New Yorker Collection/The Cartoon Bank
+Systems Analysis 
+Fundamentals
+PART
+I
+
+
+===== BOOK PAGE 2 =====
+
+2
+1 
+CHAPTER
+Systems, Roles, and 
+Development Methodologies
+LEARNING OBJECTIVES
+Once you have mastered the material in this chapter, you will be able to:
+1 Understand the need for systems analysis and design in organizations.
+2 Realize what the many roles of a systems analyst are.
+3 Comprehend the fundamentals of the systems development life cycle (SDLC).
+4 Understand the agile methodology for systems development.
+5 Gain an appreciation for object-oriented systems design.
+6 Understand the importance of cloud computing and the cloud development life cycle (CDLC).
+7 Learn how to choose which systems development method to use.
+8 Discover what open source software is and how it is developed.
+Organizations have long recognized the importance of managing key resources such as people 
+and raw materials. Information has now moved to its rightful place as a key resource. Decision 
+makers understand that information is not just a by-product of conducting business; rather, it 
+fuels business and can be the critical factor in determining the success or failure of a business.
+To maximize the usefulness of information, a business must manage it correctly, 
+just as it manages other resources. Managers need to understand that costs are associ-
+ated with the production, distribution, security, storage, and retrieval of all information. 
+Although information is all around us, it is not free, and its strategic use for positioning a 
+business competitively should not be taken for granted.
+The ready availability of networked computers, along with access to the Internet and 
+the web, has created an information explosion throughout society in general and in busi-
+ness in particular. Managing computer-generated information differs in significant ways 
+from handling manually produced data. There is usually a greater quantity of computer 
+information to administer. Costs of organizing and maintaining it can increase at alarming 
+rates, and users often treat it less skeptically than information obtained in different ways. 
+This chapter examines the fundamentals of different kinds of information systems, the 
+varied roles of systems analysts, and the phases in the systems development life cycle 
+(SDLC) as they relate to human–computer interaction (HCI) factors; choosing among alter-
+natives to the SDLC such as the agile approach, object-oriented systems analysis and 
+design, the cloud development life cycle; and participating in open source software devel-
+opment. It also introduces computer-aided software engineering tools.
+
+
+===== BOOK PAGE 3 =====
+
+CHAPTER  1  •  S y S TEMS ,  Rol ES ,  A n D  D E v E lo PME n T  M ETH o D ologi ES     3
+NEED FOR SYSTEMS ANALYSIS AND DESIGN
+Systems analysis and design, as performed by systems analysts, is used to understand what 
+people need to be able to systematically analyze data input or data flow, process or transform 
+data, store data, and output information in the context of a particular organization or enterprise. 
+Systems analysts seek to identify and solve the right problems by performing a thorough analysis 
+of the client’s system. Furthermore, systems analysis and design is used to analyze, design, and 
+implement improvements to the computerized information systems that support users and the 
+functions of businesses.
+Security is critical to the functioning of organizational information systems, and security is 
+a challenge for everyone involved in systems development. Information systems present multiple 
+vulnerabilities, and the idea of perfect security is a fantasy. Rather, organizations make trade-offs, 
+weighing the value of the data they are storing with the risk that they will experience a security 
+breach. As a systems developer, it is important that you design new systems with an awareness 
+of what you can do to design security into a system from the very beginning. Developing privacy 
+controls and security by design, from the outset of systems design, is much more desirable and effec-
+tive than adding it to older, legacy systems. Of course, you should always examine systems you are 
+updating or improving for ways to address vulnerabilities and improve training for security issues.
+Developing a system without proper planning leads to great user dissatisfaction and frequently 
+causes the system to fall into disuse. Systems analysis and design lends structure to the analysis 
+and design of information systems, a costly endeavor that might otherwise have been done in a 
+haphazard way. It can be thought of as a series of processes systematically undertaken to improve 
+a business by using computerized information systems. Systems analysis and design involves 
+working with current and eventual users of information systems to support them in working with 
+technologies in an organizational setting.
+User involvement throughout a systems project is critical to the successful development of 
+computerized information systems. Systems analysts, whose roles in the organization are dis-
+cussed next, are the other essential component in developing useful information systems.
+Users are moving to the forefront as software development teams become more international 
+in their composition. This means that there is more emphasis on working with software users; 
+on performing analysis of their business, problems, and objectives; and on communicating the 
+analysis and design of the planned system to all involved.
+In this video, the topic of delivering sensational service is explored 
+in a humorous way. As implied in the video, as a systems analyst 
+you need to care for your clients, ask clients what they need and 
+be responsive to those needs, anticipate the clients’ needs (perhaps 
+even surprise them), be efficient and take action. After you view the 
+video, please reflect on the following questions:
+1.
+ Ho
+w can you, as a systems analyst, gain the trust of your 
+clients?
+2.
+ Ho
+w can you communicate your enthusiasm about working 
+with your clients in ways other than in words?
+3.
+ What are some of the mistak
+es that the pet consultant in the 
+video made in working with her client?
+4.
+ The systems analyst must be ethical. F
+or example, you 
+shouldn’t promise features of software that you may not 
+deliver. What are other ethical standards that forming a 
+relationship with a client might entail?
+SYSTEMS SCENARIO  
+Delivering Service to the Client
+This chapter begins with the need for systems analysis, followed 
+by a description of the roles of the systems analyst and the quali-
+ties a systems analyst must possess to do their job successfully.  
+To view the video for this scenario,  
+see eText Chapter 1.
+Seven Dimensions/Boclips
+
+
+===== BOOK PAGE 4 =====
+
+4    PART i •  S y STEMS AnAly SiS FUnDAMEnTAlS
+ROLES OF A SYSTEMS ANALYST
+A systems analyst systematically assesses how users interact with technology and how businesses 
+function by examining the inputting and processing of data and the outputting of information with 
+the intent of improving organization processes. Many improvements involve better support of 
+users’ work tasks and business functions by using computerized information systems. This defini-
+tion emphasizes a systematic, methodical approach to analyzing—and potentially improving—
+what is occurring in the specific context experienced by users and created by a business.
+Our definition of a systems analyst is necessarily broad. An analyst must be able to work with 
+people of all descriptions and be experienced in working with computers. An analyst plays many 
+roles, sometimes balancing several at the same time. The three primary roles of a systems analyst 
+are consultant, supporting expert, and agent of change.
+Systems Analyst as Consultant
+A systems analyst frequently acts as a systems consultant to people and their businesses and, 
+thus, may be hired specifically to address information systems issues within a business. Such 
+hiring can be an advantage because outside consultants bring with them a fresh perspective that 
+people in an organization do not possess. On the other hand, it also means that outside analysts are 
+at a disadvantage because an outsider can never know the true organization culture or subcultures. 
+presentations, drawing diagrams, or interviewing users. If they 
+understand decision making, it will make their job easier. Also, 
+Marathon is interested in integrating ecommerce into the entire busi-
+ness. We need someone who at least grasps the strategic importance 
+of the web; page design is such a small part of it.”
+Ginger interjects again with a healthy dose of practicality, 
+saying, “Leave that to management. I still say the new person should 
+be a good coder.” Then she ponders aloud, “I wonder how important 
+UML will be?”
+After listening patiently to everyone’s wish list, one of the 
+analysts who has worked for Marathon Vitamin Shops from 
+the beginning, Kal Siem, speaks up, joking, “We’d better see if 
+Superman is available!”
+As the group shares a laugh, Al sees an opportunity to try for 
+some consensus, saying, “We’ve had a chance to hear several dif-
+ferent qualifications. Let’s each take a moment and make a list of 
+the qualifications we personally think are essential for the new 
+ecommerce development person to possess. We’ll share them and 
+continue discussing until we can describe the person in enough 
+detail to turn a description over to the human resources group 
+for processing.”
+What qualifications should the systems analysis team be 
+looking for when hiring their new ecommerce development team 
+member? Is it more important to know specific languages or to 
+have an aptitude for picking up languages and software packages 
+quickly? How important is it that the person being hired has some 
+basic business understanding? Should all team members possess 
+identical competencies and skills? What personality or character 
+traits are desirable in a systems analyst who will be working in 
+ecommerce development?
+CONSULTING OPPORTUNITY 1.1 
+Healthy Hiring: Ecommerce Help Wanted
+“You’ll be happy to know that we made a strong case to man-
+agement that we should hire a new systems analyst to specialize 
+in ecommerce development,” says Al Falfa, a systems analyst for 
+the multioutlet international chain Marathon Vitamin Shops. He 
+is meeting with his large team of systems analysts to decide on 
+the qualifications that their new team member should possess. Al 
+continues, saying, “In fact, they were so excited by the possibility 
+of our team helping to move Marathon into an ecommerce strategy 
+that they’ve said we should start our search now and not wait until 
+the fall.”
+Ginger Rute, a senior analyst, agrees, saying, “The demand for 
+website developers is still outstripping the supply. We should move 
+quickly. I think our new person should be knowledgeable in system 
+modeling, JavaScript, C++, Rational Rose, and be familiar with 
+Ajax, just to name a few.”
+Al looks surprised at Ginger’s long list of skills but then replies, 
+“Well, that’s certainly one way we could go. But I would also like to 
+see a person with some business savvy. Most of the people coming 
+out of school will have solid coding skills, but they should know about 
+accounting, inventory, and distribution of goods and services too.”
+The newest member of the systems analysis group, Vita Minh, 
+finally breaks into the discussion. She says, “One of the reasons  
+I chose to come to work with all of you was that I thought we all got 
+along quite well together. Because I had some other opportunities, I 
+looked very carefully at what the atmosphere was here. From what 
+I’ve seen, we’re a friendly group. Let’s be sure to hire someone who 
+has a good personality and who fits in well with us.”
+Al concurs, continuing, “Vita’s right. The new person should 
+be able to communicate well with us, and with business clients 
+too. We are always communicating in some way, through formal
+
+
+===== BOOK PAGE 5 =====
+
+CHAPTER 1  •  Sy STEMS , RolES , AnD  DEvEloPMEnT  METHoDologiES     5
+As an outside consultant, you will rely heavily on the systematic methods discussed throughout 
+this text to analyze and design appropriate information systems for users working in a particular 
+business. In addition, you will rely on information systems users to help you understand the orga-
+nizational culture and subcultures from others’ viewpoints.
+Systems Analyst as Supporting Expert
+Another role that you may be required to play is that of supporting expert within a business for 
+which you are regularly employed in some systems capacity. In this role, an analyst draws on 
+professional expertise concerning computer hardware and software and their uses in the business. 
+This work is often not a full-blown systems project and may entail only a small modification or 
+a decision affecting a single department.
+As the supporting expert, you are not managing the project; you are merely serving as a 
+resource for those who are managing it. If you are a systems analyst employed by a manufacturing 
+or service organization, many of your daily activities may be encompassed by this role.
+Systems Analyst as Agent of Change
+The most comprehensive and responsible role that the systems analyst takes on is that of an agent 
+of change, whether internal or external to the business. As an analyst, you are an agent of change 
+whenever you perform any of the activities in the systems development life cycle (discussed in the 
+next section) and are present and interacting with users and the business for an extended period 
+(from two weeks to more than a year).
+Your presence in the business changes it. As a systems analyst, you must recognize this fact 
+and use it as a starting point for your analysis. Hence, you must interact with users and manage-
+ment (if they are not one and the same) from the very beginning of your project. Without their 
+help, you cannot understand what they need to support their work in the organization, and real 
+change cannot take place.
+Qualities of a Systems Analyst
+From the foregoing descriptions of the roles the systems analyst plays, it is easy to see that a suc-
+cessful systems analyst must possess a wide range of qualities. Above all, an analyst is a problem 
+solver. They are people who view the analysis of problems as a challenge and who enjoy devising 
+workable solutions. When necessary, an analyst must be able to systematically tackle the situation 
+at hand through a skillful application of tools, techniques, and experience.
+An analyst must also be a communicator capable of relating meaningfully to other people over 
+extended periods of time. Systems analysts need to be able to understand humans’ needs when 
+interacting with technology, and they need enough computer experience to code, understand the 
+capabilities of computers, glean information requirements from users, and communicate what is 
+needed to coders. Analysts also need to possess strong personal and professional ethics to help 
+them shape their client relationships.
+A systems analyst must be a self-disciplined, self-motivated individual who is able to manage 
+and coordinate other people as well as innumerable project resources. Systems analysis is a 
+demanding career, but, in compensation, it is an ever-changing and always challenging one.
+THE SYSTEMS DEVELOPMENT LIFE CYCLE
+Throughout this chapter, we refer to the systematic approach analysts take to the analysis and 
+design of information systems. Much of this is embodied in the three approaches we describe in 
+this book. The first approach is called the systems development life cycle (SDLC). The SDLC 
+is a phased approach to analysis and design processes based on the assumption that systems are 
+best developed by using a specific cycle of analyst and user activities. It has also been called 
+the waterfall method because the system analysis completes the first phase, then moves down 
+to the next, and so on, like water flowing steadily downward from one rock to another. The Proj-
+ect Management Institute (PMI) calls this a predictive life cycle with planned phases unfolding 
+sequentially (2021). (In Chapter 3, you’ll learn more about project management and the PMI.)
+Analysts disagree on exactly how many phases there are in the SDLC, but they generally laud 
+its organized approach. Here we have divided the cycle into seven phases, as shown in Figure 1.1.
+
+
+===== BOOK PAGE 6 =====
+
+6    PART i •  S y STEMS AnAly SiS FUnDAMEnTAlS
+Although each phase is presented discretely, it is never accomplished as a separate step. Instead, 
+several activities may occur simultaneously, and activities may be repeated.
+Identifying Problems, Opportunities, and Objectives
+In this first phase of the SDLC, an analyst is concerned with correctly identifying problems, 
+opportunities, and objectives. This stage is critical to the success of the rest of the project because 
+no one wants to waste time addressing the wrong problem.
+The first phase requires that the analyst look honestly at what is occurring in a business. Then, 
+together with organization members, the analyst pinpoints problems. Others often bring up these 
+problems, and they are the reason the analyst was initially called. Opportunities are situations 
+that the analyst believes can be improved by using computerized information systems. Seizing 
+opportunities may allow the business to gain a competitive edge or set an industry standard.
+Identifying objectives is also an important component of the first phase. The analyst must 
+first discover what the business is trying to do. Then the analyst will be able to see whether some 
+aspect of information systems applications can help the business reach its objectives by addressing 
+specific problems or opportunities.
+The people involved in the first phase are the users, analysts, and systems managers coordi-
+nating the project. In Chapter 3 we discuss them as stakeholders in the SDLC process. Activities 
+in this phase consist of interviewing user management, summarizing the knowledge obtained, 
+estimating the scope of the project, and documenting the results. The output of this phase is a 
+feasibility report that contains a problem definition and summarizes the objectives. Management 
+must then decide whether to proceed with the proposed project. If the user group does not have 
+sufficient funds in its budget or if it wishes to tackle unrelated problems, or if the problems do not 
+require a computer system, a different solution may be recommended, and the systems project 
+does not proceed any further.
+Determining Human Information Requirements
+In the next phase, the analyst determines the human needs of the users involved, using a variety of 
+tools to understand how users interact in the work context with their current information systems. 
+The analyst uses interactive methods such as interviewing, sampling as well as investigating hard 
+data, and using questionnaires; unobtrusive methods, such as observing decision makers’ behavior 
+and their office environments; and all-encompassing methods, such as prototyping.
+The analyst will use these methods to pose and answer many questions concerning human–
+computer interaction (HCI), including questions such as, “What are the users’ physical strengths 
+and limitations?” In other words, “What needs to be done to make the system audible, legible, and 
+safe?” “How can the new system’s interfaces be designed to be easy to use, learn, and remember?” 
+“How can the system be made pleasing or even fun to use?” and “How can the system support a 
+user’s individual work tasks and make them more productive in new ways?”
+In the information requirements phase of the SDLC, the analyst is striving to understand 
+what information users need to perform their jobs. At this point, the analyst is examining how to 
+FIGURE 1.1 
+The seven phases of the systems 
+development life cycle.
+1
+7
+6 5
+4
+Developing and
+documenting
+software
+3
+2 Determining human
+information
+requirements
+Analyzing
+system needs
+Designing the
+recommended
+system
+Testing and
+maintaining
+the system
+Implementing
+and evaluating
+the system
+Identifying problems,
+opportunities, and
+objectives
+
+
+===== BOOK PAGE 7 =====
+
+CHAPTER 1  •  Sy STEMS , RolES , AnD  DEvEloPMEnT  METHoDologiES     7
+make the system useful to the people involved. How can the system better support individual tasks 
+that need to be done? What new tasks are enabled by the new system that users were unable to 
+do without it? How can the new system extend a user’s capabilities beyond what the old system 
+provided? How can the analyst create a system that is rewarding for workers to use?
+The people involved in this phase are the analysts and users, typically operations managers 
+and operations workers. The systems analyst needs to know the details of current system func-
+tions: the who (the people who are involved), what (the business activity), where (the environ-
+ment in which the work takes place), when (the timing), and how (how the current procedures 
+are performed) of the business under study. The analyst must then ask why the business uses the 
+current system. There may be good reasons for doing business using the current methods, and 
+these should be considered when designing any new system.
+If the reason for current operations is that “it’s always been done that way,” the analyst may 
+wish to improve on the procedures. At the completion of this phase, the analyst should understand 
+how users accomplish their work when interacting with a computer and begin to know how to 
+make the new system more useful and usable. The analyst should also know how the business 
+functions and have complete information on the people, goals, data, and procedures involved.
+Analyzing System Needs
+The next phase that the systems analyst undertakes involves analyzing system needs. Again, spe-
+cial tools and techniques help the analyst make requirements determinations. Tools such as data 
+flow diagrams (DFDs) record the input, processes, and output of the business’s functions, and 
+activity diagrams or sequence diagrams show the sequence of events, illustrating systems in a 
+structured, graphic form. From data flow, sequence, or other diagrams, a data dictionary is devel-
+oped that lists all the data items used in the system, as well as their specifications.
+During this phase, the systems analyst also analyzes the structured decisions made. Struc-
+tured decisions are those for which the conditions, condition alternatives, actions, and action rules 
+can be determined. Three major tools are used when analyzing structured decisions: structured 
+English, decision tables, and decision trees.
+At this point in the SDLC, the systems analyst prepares a systems proposal that summarizes 
+what has been discovered about the users, usability, and usefulness of current systems; provides 
+cost–benefit analyses of alternatives; and makes recommendations on what (if anything) should be 
+done. If one of the recommendations is acceptable to management, the analyst proceeds along that 
+course. Each systems problem is unique, and there is never just one correct solution. The way a 
+recommendation or solution is formulated depends on the individual qualities and professional train-
+ing of each analyst and the analyst’s interaction with users in the context of their work environment.
+Designing the Recommended System
+In the design phase of the SDLC, the systems analyst uses the information collected earlier to 
+accomplish the logical design of the information system. The analyst designs procedures for users 
+to help them accurately enter data so that data going into the information system are correct.  
+At home and in our visits to university campuses and businesses 
+around the world, we’ve noticed that students and organizations are 
+increasingly showing an interest in Macs. Therefore, we thought it 
+would add a little bit of interest to show some of the Mac options 
+available to a systems designer. Today, about 15 percent of personal 
+computers purchased in the United States are Macs. For 14 years, 
+Apple used Intel CPUs (similar to PCs) along with 3rd party graphics 
+processors and other parts. Apple redesigned this collection of parts 
+in 2020 as a system on a chip (SoC). It is commonly called Apple 
+silicon. Apple desktops and notebooks could still run Windows on 
+their M-series processors, but only by using virtualization software. 
+The first application to do so was Parallels Desktop for Mac.
+Adopters of Macs have cited many reasons for using Macs, 
+including better security built into the Mac operating system, 
+intelligent backup using the built-in Time Machine, the multi-
+tude of applications already included, the reliability of setup and 
+networking, and the ability to sync Macs with other Macs and 
+iPhones. The most compelling reason, we think, is the design itself.
+MAC APPEAL
+
+
+===== BOOK PAGE 8 =====
+
+8    PART i •  S y STEMS AnAly SiS FUnDAMEnTAlS
+In addition, the analyst provides for users to complete effective input to the information system 
+by using techniques of good form and web page or screen design.
+Part of the logical design of the information system is devising the human–computer 
+interaction (HCI). The interface connects the user with the system and is extremely important. 
+The user interface is designed with the help of users to make sure the system is audible, legible, 
+and safe, as well as attractive and enjoyable to use. Examples of physical user interfaces include 
+a keyboard (to type in questions and answers), onscreen menus (to elicit user commands), and a 
+variety of graphical user interfaces (GUIs) that use a mouse or touch screen.
+The design phase also includes designing databases that will store much of the data needed by 
+decision makers in the organization. Users benefit from a well-organized database that is logical to 
+them and corresponds to the way they view their work. In this phase, the analyst also works with 
+users to design output (either onscreen or printed) that meets their information needs.
+Developing and Documenting Software
+In the fifth phase of the SDLC, the analyst works with coders to develop any original software that is 
+needed. During this phase, the analyst works with users to develop effective documentation for soft-
+ware, including procedure manuals, online help, and websites featuring frequently asked questions 
+(FAQs) or Read Me files shipped with new software. Because users are involved from the beginning, 
+documentation should address the questions they have raised and solved jointly with the analyst. 
+Documentation tells users how to use software and what to do if software problems occur.
+Coders have a key role in this phase because they design, code, and remove syntactical errors 
+from computer programs. To ensure quality, a coder may conduct either a design or a code walk-
+through, explaining complex portions of the software to a team of other coders.
+Testing and Maintaining the System
+Before an information system can be used, it must be tested. It is much less costly to catch prob-
+lems before rather than after the system is signed over to users. Coders alone complete some of the 
+testing, and some testing is done by systems analysts in conjunction with coders. A series of tests 
+to pinpoint problems is run, first with sample data and eventually with actual data from the current 
+system. Test plans often are created early in the SDLC and are refined as the project progresses.
+Maintenance of the system and its documentation begins in this phase and is carried out 
+routinely throughout the life of the information system. Much of the coder’s routine work consists 
+of maintenance, and businesses spend a great deal of money on maintenance. Some maintenance, 
+such as program updates, can be done automatically via a vendor site on the web. Many of the 
+systematic procedures the analyst employs throughout the SDLC can help ensure that maintenance 
+is kept to a minimum.
+Implementing and Evaluating the System
+In this last phase of systems development, the analyst helps implement the information system. 
+This phase involves training users to handle the system. Vendors do some training, but oversight 
+of training is the responsibility of the systems analyst. In addition, the analyst needs to plan for 
+a smooth conversion from the old system to the new one. This process includes converting files 
+from old formats to new ones or building a database, installing equipment, and bringing the new 
+system into production.
+Evaluation is included as part of this final phase of the SDLC, but in fact evaluation takes 
+place during every phase. A key criterion that must be satisfied is whether the intended users are 
+indeed using the system. It should be noted that systems work is often cyclical. When an analyst 
+finishes one phase of systems development and proceeds to the next, the discovery of a problem 
+may force the analyst to return to the previous phase and modify the work done there.
+The Impact of Maintenance
+After the system is installed, it must be maintained, meaning that the computer applications must 
+be modified and kept up to date. Estimates of the time spent by departments on maintenance 
+have ranged from 48 percent to 60 percent of the total time spent developing systems. Very little 
+time remains for new systems development. As the number of programs written increases, so does 
+the amount of maintenance they require.
+
+
+===== BOOK PAGE 9 =====
+
+CHAPTER 1  •  Sy STEMS , RolES , AnD  DEvEloPMEnT  METHoDologiES     9
+Maintenance is performed for two reasons. The first of these is to correct software errors. 
+No matter how thoroughly a system is tested, bugs or errors creep into computer applications. 
+Bugs in commercial PC software are often documented as “known anomalies,” and they are cor-
+rected when new versions of the software are released or in an interim release. In custom software 
+(also called bespoke software), bugs must be corrected as they are detected.
+The other reason for performing system maintenance is to enhance the software’s capabili-
+ties in response to changing organizational needs, generally involving one of the following three 
+situations:
+1. Users often request additional features after they become familiar with the computer 
+system and its capabilities.
+2. The business changes over time.
+3. Hardware and software are changing at an accelerated pace.
+Figure 1.2 illustrates the number of resources—usually time and money—spent on systems 
+development and maintenance. The area under the curve represents the total dollar amount spent. 
+You can see that, over time, the total cost of maintenance is likely to exceed that of systems 
+development. At a certain point it becomes more feasible to perform a new systems study because 
+the cost of continued maintenance is clearly greater than the cost of creating an entirely new 
+information system.
+In summary, maintenance is an ongoing process over the life cycle of an information system. 
+After the information system is installed, maintenance usually takes the form of correcting previously 
+undetected software errors. Once these are corrected, the system approaches a steady state, provid-
+ing dependable service to its users. Maintenance during this period may consist of removing a few 
+previously undetected bugs and updating the system with a few minor enhancements. As time goes 
+on and the business and technology changes, however, the maintenance effort increases dramatically.
+Using CASE Tools
+Analysts who adopt the SDLC approach often benefit from productivity tools called computer-
+aided software engineering (CASE) tools, created explicitly to improve their routine work using 
+automated support. Analysts rely on CASE tools to increase productivity, communicate more 
+effectively with users, and integrate the work that they do on the system from the beginning to 
+the end of the life cycle.
+All the information about the project is stored in an encyclopedia called the CASE reposi-
+tory, a large collection of records, elements, diagrams, screens, reports, and other information 
+(see Figure 1.3). Analysis reports may be produced using the repository information to show 
+where the design is incomplete or contains errors.
+Visible Analyst (V A) is one example of a CASE tool that enables systems analysts to do 
+graphical planning, analysis, and design to build complex client/server applications and databases. 
+Visible Analyst and software products such as Microsoft Visio or OmniGraffle allow users to draw 
+and modify diagrams easily. However, V A is a full-fledged CASE tool with a repository and other 
+features, whereas the other two are not. Instead, they are software for drawing diagrams.
+FIGURE 1.2 
+Resource consumption over the 
+system life.
+Amount of
+Resources
+Consumed,
+Time and
+Money
+Systems
+Development
+Postinstallation
+Bugs
+Minor Changes
+Due to Bugs and
+Enhancements
+Major Changes
+in Both Business
+and Technology
+Time
+Installation
+Day
+
+
+===== BOOK PAGE 10 =====
+
+10    PART i •  S y STEMS AnAly SiS FUnDAMEnTAlS
+Analysts and users alike report that CASE tools afford them a means of communication 
+about the system during its conceptualization. Using automated support featuring onscreen out-
+put, clients can readily see how data flows and other system concepts are depicted, and they can 
+then request corrections or changes that would have taken too much time with older tools. CASE 
+tools also help support the modeling of an organization’s functional requirements, assist analysts 
+and users in drawing the boundaries for a given project, and help them visualize how the project 
+meshes with other parts of the organization. In later chapters, we consider process and task mining 
+tools that help identify where automating business processes would be most helpful.
+THE AGILE APPROACH
+Although this text takes as its starting point SDLC processes, at times, an analyst will recognize 
+that their organization could benefit from an alternative approach. Perhaps a systems project using 
+a structured approach has recently failed, or perhaps the organization subcultures, composed of 
+several different user groups, seem more in step with an alternative method. We cannot do justice 
+to these methods in a small space; each deserves and has inspired its own books and research. 
+FIGURE 1.3 
+The repository concept.
+ADD CUSTOMER
+NUMBER XXXXXX
+NAME XXXXXXXXXXXX
+STREET XXXXXXXXXXXX
+CITY XXXXXXXXXXXX
+STATE XX
+ZIP XXXXX-XXXX
+SALES ANALYSIS REPORT
+ITEM
+DESCRIPTION
+TOTAL
+SALES
+XXXXXXXXXXXXXX
+XXXXXXXXXXXXXX
+XXXXXXXXXXXXXX
+XXXXXXXXXXXXXX
+XXXXXXXXXXXXXX
+XXXXXXXXXXXXXX
+ZZ,ZZ9
+ZZ,ZZ9
+ZZ,ZZ9
+ZZ,ZZ9
+ZZ,ZZ9
+ZZ,ZZ9
+Screen and
+Report Design
+System Diagrams
+and Models
+DO WHILE NOT End of ﬁle
+Read Item record
+IF Item is low in stock
+Print Purchase Order
+Update Item record
+ENDIF
+ENDDO
+Data Dictionary and
+Process Logic
+Project Management
+System Requirements
+• Add new customers
+• Identify fast- and slow-selling
+items
+• Enter customer orders
+• Look up customer credit
+balance
+• Maintain adequate inventory
+Deliverables
+• Add customer screen
+• Item Analysis Report
+• Customer order entry screen
+• Customer inquiry screen
+• Vendor purchase order
+program
+• Seasonal forecasting
+Number +
+Description +
+Cost +
+Price +
+Quantity on hand +
+Quantity on order +
+Reorder point +
+Monthly sales +
+Year to date sales
+Item =
+
+
+===== BOOK PAGE 11 =====
+
+CHAPTER 1  •  Sy STEMS , RolES , AnD  DEvEloPMEnT  METHoDologiES     11
+By mentioning these approaches here, however, we hope to help you become aware that under 
+certain circumstances, your organization may want to consider an alternative or a supplement to 
+structured analysis and design and to the SDLC.
+Agile development is a methodology that is an outgrowth of the object-oriented approach 
+(OOA) to systems development that includes a method of development (including generating 
+information requirements) as well as software tools. In this text, it is paired with prototyping in 
+Chapter 6. (There is more about OOAs in Chapter 10.) According to the Project Management 
+Institute, Agile development is an adaptive lifecycle. (2021).
+The agile approach is a software development methodology based on values, principles, 
+and core practices. The four values are communication, simplicity, feedback, and courage. We 
+recommend that systems analysts adopt these values in all projects they undertake, not just when 
+adopting the agile approach.
+To finish a project, adjustments often need to be made in project management. In Chapter 6, 
+we will see that agile  methods can ensure successful completion of a project by adjusting the 
+important resources of time, cost, quality, and scope. When these four control variables are prop-
+erly included in the planning, there is a state of balance among the resources and the activities 
+needed to complete the project.
+Taking development practices to the extreme is most noticeable when one pursues practices 
+that are unique to agile development. In Chapter 6 we discuss four core agile practices: short 
+releases, the 40-hour workweek, hosting an onsite customer, and using pair programming. At first 
+glance these practices appear extreme, but as you will see, we can learn some important lessons 
+from incorporating many of the values and practices of the agile approach into systems analysis 
+and design projects.
+We also explore an agile method called Scrum, which is named after a starting position in 
+the sport of rugby. Scrum’s success has much to do with its extremely quick releases. A typical 
+sprint cycle will last between two and four weeks. At the end of that period, the development team 
+is expected to produce a potentially releasable product. That means that applications or websites 
+are constantly changing. Each iteration boasts a new set of features produced during the sprint 
+cycle. Scrum is also unique because team members choose what they want to work on as a team. 
+Scrum is discussed further in Chapter 6. Let’s return to discussing the agile approach in general.
+Activities and behaviors shape the way development team members and customers act during 
+the development of an agile project. Two words that characterize a project done following the agile 
+methodology are interactive and incremental. Figure 1.4 illustrates the five distinct stages of the 
+agile approach: exploration, planning, iterations to the first release, productionizing, and mainte-
+nance. Notice the three red arrows that loop back into the “Iterations” box and symbolize incremental 
+changes created through repeated testing and feedback that eventually lead to a stable but evolving 
+system. Also, note that multiple looping arrows feed back into the productionizing phase. These 
+symbolize that the pace of iterations increases after a product is released. The red arrow is shown 
+leaving the maintenance stage and returning to the planning stage, illustrating a continuous feedback 
+loop involving customers and the development team as they agree to alter the evolving system.
+Exploration
+During the exploration phase , you explore your environment, asserting your conviction that 
+the problem can and should be approached with agile development, assemble the team, and 
+assess team member skills. This stage takes anywhere from a few weeks (if you already know 
+your team members and technology) to a few months (if everything is new). You also will be 
+actively examining potential technologies needed to build the new system. During this stage you 
+should practice estimating the time needed for a variety of tasks. In exploration, customers also are 
+experimenting with writing user stories. The goal is to get the customer to refine a story enough 
+so that you can competently estimate the amount of time it will take to build the solution into the 
+system you are planning. This stage is all about adopting a playful and curious attitude toward the 
+work environment, its problems, technologies, and people.
+Planning
+The next stage of the agile development process is called the planning phase. In contrast to the 
+first stage, planning may take only a few days to accomplish. In this stage, you and your customers 
+agree on a date anywhere from two months to half a year from the current date to deliver solutions
+
+
+===== BOOK PAGE 12 =====
+
+12    PART i •  S y STEMS AnAly SiS FUnDAMEnTAlS
+to their most pressing business problems (you will be addressing the smallest, most valuable set 
+of stories). If your exploration activities were sufficient, this stage should be very short.
+The entire agile planning process has been characterized using the idea of a planning game, 
+as devised by Kent Beck, the father of Extreme Programming. The planning game spells out rules 
+that can help formulate the agile development team’s relationship with their business customers. 
+Although the rules form an idea of how you want each party to act during development, they 
+are not meant as a replacement for a relationship. They are a basis for building and maintaining 
+a relationship.
+Using the metaphor of a game, we talk in terms of the goal of the game, the strategy to pursue, 
+the pieces to move, and the players involved. The goal of the game is to maximize the value of the 
+system produced by the agile team. To arrive at the value, you have to deduct costs of development 
+and the time, expense, and uncertainty taken on so that the development project can go forward.
+The strategy pursued by the agile development team is always one of limiting uncertainty 
+(downplaying risk). To do that they design the simplest solution possible, put the system into 
+production as soon as possible, get feedback from the business customer about what’s working, 
+and adapt their design from there. Story cards become the pieces in the planning game that briefly 
+describe the task, provide notes, and provide an area for task tracking.
+The two main players in the planning game are the development team and the business cus-
+tomer. Deciding which business group will be the business customer is not always easy because 
+the agile process is an unusually demanding role for the customer to play. Customers decide 
+what the development team should tackle first. Their decisions will set priorities and check func-
+tionalities throughout the process.
+Iterations to the First Release
+The third stage in the agile development process is composed of iterations to the first release. 
+Typically, these iterations (cycles of testing, feedback, and change) are about three weeks in 
+duration. You will be pushing yourself to sketch out the entire architecture of the system, even 
+though it is just in outline or skeletal form. One goal is to run customer-written function tests at 
+the end of each iteration. During the iterations stage you should also question whether the schedule 
+FIGURE 1.4 
+The five stages of the agile 
+modeling development process 
+show that frequent iterations are 
+essential for successful system 
+development.
+Planning
+Exploration
+Maintenance
+Iterations to the
+First Release
+Productionizing
+. . . and increase
+the pace of
+iterations after
+the product is
+released.
+Agile methods involve
+the customer in many
+iterations prior to
+the ﬁrst
+release . . .
+
+
+===== BOOK PAGE 13 =====
+
+CHAPTER 1  •  Sy STEMS , RolES , AnD  DEvEloPMEnT  METHoDologiES     13
+needs to be altered or whether you are tackling too many stories. Make small rituals out of each 
+successful iteration, involving customers as well as developers. Always celebrate your progress, 
+even if it is small, because this is part of the culture of motivating everyone to work extremely 
+hard on the project.
+Productionizing
+Several activities occur during the productionizing phase. In this phase the feedback cycle speeds 
+up so that rather than receiving feedback for an iteration every three weeks, software revisions 
+are being turned around in one week. You may institute daily briefings, so everyone knows what 
+everyone else is doing. The product is released in this phase, but it may be improved by adding 
+other features. Getting a system into production is an exciting event. Make time to celebrate with 
+your teammates and mark the occasion. One of the keys to the agile approach, which we heartily 
+embrace, is that it is supposed to be fun to develop systems!
+Maintenance
+Once a system has been released, it needs to be kept running smoothly, which is called the main-
+tenance phase. New features may be added, riskier customer suggestions may be considered, and 
+team members may be rotated on or off the team. The attitude you take at this point in the develop-
+ment process is more conservative than at any other time. You are now in a “keeper of the flame” 
+mode rather than the playful one you experienced during exploration.
+OBJECT-ORIENTED SYSTEMS ANALYSIS AND DESIGN
+Object-oriented (O-O) systems analysis and design is an approach intended to facilitate the 
+development of systems that must change rapidly in response to dynamic business environments. 
+Chapter 10 helps you understand what O-O systems analysis and design is, how it differs from the 
+structured approach of the SDLC, and when it may be appropriate to use an OOA.
+Object-oriented techniques often work well in situations in which complicated informa-
+tion systems are undergoing continuous maintenance, adaptation, and redesign. Object-oriented 
+approaches use the industry standard for modeling O-O systems, called unified modeling 
+language (UML), to break down a system into a use case model.
+Object-oriented programming differs from traditional procedural programming in that it 
+examines objects that are part of a system. Each object is a computer representation of some 
+actual thing or event. Objects may be customers, items, orders, and so on. Objects are represented 
+by and grouped into classes that are optimal for reuse and maintainability. A class defines the set 
+of shared attributes and behaviors found in each object in the class.
+Object-Oriented Similarities to SDLC
+The phases in UML are like those in the SDLC. Because these two methods share rigid and exact-
+ing modeling, they happen at a slower, more deliberate pace than the phases of agile modeling. 
+An analyst goes through problem and identification phases, an analysis phase, and a design phase, 
+as shown in Figure 1.5.
+Although the specifics are discussed in Chapters 2 and 10, the following steps provide a brief 
+description of the UML process.
+Define the Use Case Model. In this phase, the analyst identifies the actors and the major events 
+initiated by the actors. Often the analyst starts by drawing a diagram with stick figures rep-
+resenting the actors and arrows showing how the actors relate. This is called a use case dia-
+gram (Chapter 2), and it represents the standard flow of events in the system. Then an analyst 
+typically writes up a use case scenario (Chapter 2), which describes in words the steps that are 
+normally performed.
+During the Systems Analysis Phase, Begin Drawing UML Diagrams.  In the second phase 
+(Chapter 10), the analyst draws activity diagrams, which illustrate all the major activities in the 
+use case. In addition, the analyst creates one or more sequence diagrams for each use case that 
+show the sequence of activities and their timing. This is an opportunity to go back and review the 
+use cases, rethink them, and modify them, if necessary.
+
+
+===== BOOK PAGE 14 =====
+
+14    PART i •  S y STEMS AnAly SiS FUnDAMEnTAlS
+Continuing in the Analysis Phase, Develop Class Diagrams. The nouns in the use cases are objects 
+that potentially can be grouped into classes. For example, every automobile is an object that shares 
+characteristics with other automobiles. Together, they make up a class.
+Still in the Analysis Phase, Draw Statechart Diagrams. The class diagrams are used to draw state-
+chart diagrams, which help in understanding complex processes that cannot be fully derived by 
+the sequence diagrams. The statechart diagrams are extremely useful in modifying class diagrams, 
+so the iterative process of UML modeling continues.
+Begin Systems Design by Modifying the UML Diagrams, then Complete the Specifications. Systems 
+design means modifying the existing system, and that implies modifying the diagrams drawn in 
+the previous phase. These diagrams can be used to derive classes, their attributes, and methods 
+(methods are simply operations). An analyst will need to write class specifications for each class, 
+including the attributes, methods, and their descriptions. The analyst also will develop method 
+specifications that detail the input and output requirements for each method, along with a detailed 
+description of the internal processing of the method.
+Develop and Document the System. UML is, of course, a modeling language. An analyst may 
+create wonderful models, but if the system isn’t developed, there is not much point in building 
+models. Documentation is critical. The more complete the information you provide to the devel-
+opment team through documentation and UML diagrams is, the faster the development and the 
+more solid the final production system.
+Object-oriented methodologies often focus on small, quick iterations of development, some-
+times called the spiral model. Analysis is performed on a small part of the system, usually starting 
+with a high-priority item or perhaps the item that has the greatest risk. This is followed by design 
+and implementation. The cycle is repeated with analysis of the next part, design, and some imple-
+mentation, and this is repeated until the project is complete. Reworking diagrams and the compo-
+nents themselves is normal. UML is a powerful modeling tool that can greatly improve the quality 
+of your systems analysis and design and the final product.
+FIGURE 1.5 
+The steps in the UML 
+development process.
+Modify Diagrams and
+Complete
+Speciﬁcations
+ Develop and
+Document the
+System
+Draw Use Case
+Diagrams
+Write Use Case
+Scenarios
+Derive Activity
+Diagrams from Use
+Cases
+Develop Sequence
+Diagrams
+Draw Statechart
+Diagrams
+Create Class
+Diagrams
+Systems Analysis
+Phase
+Systems Design
+Phase
+Problem Identiﬁcation
+Phase
+Begin Object-Oriented
+Analysis and Design
+
+
+===== BOOK PAGE 15 =====
+
+CHAPTER 1  •  Sy STEMS , RolES , AnD  DEvEloPMEnT  METHoDologiES     15
+CLOUD DEVELOPMENT LIFE CYCLE
+Cloud Computing
+The most rapidly growing type of computing is cloud computing. Cloud computing has been 
+described as a metaphor for the internet because the internet is often drawn as a cloud in network 
+diagrams. Using cloud computing, organizations and individual users can use web services, database 
+services, and application services over the internet without having to invest in corporate or personal 
+hardware, software, or software tools. Figure 1.6 depicts the exchanges between client computers 
+and services in the cloud. Businesses use web browsers such as Google Chrome or Mozilla Firefox 
+to access applications. As you can see, servers store software and data for businesses.
+Many large, well-established hardware, software, and consulting companies such as Cisco, 
+Dell, IBM, HP, Microsoft, SAP, Amazon Web Services (AWS), and others are creating massive 
+cloud computing endeavors, often with what are termed “virtualized resources.” What is distinct 
+about these approaches is their ability to grow and adapt to changing business needs. That is, they 
+are scalable to suit growing (or changing) demand by users. The model of Software as a Service 
+(SaaS) is included in the concept of cloud computing.
+Users do not need to understand, control, or be experts in the technology infrastructure that 
+composes the complex cloud infrastructure that enables them to accomplish their work. Often, 
+organizations do not need to keep IT staff to scale up systems or scale down systems, even when 
+FIGURE 1.6 
+Cloud computing offers many 
+services.
+Web Services Application ServicesDatabase Services
+Client Computers
+
+
+===== BOOK PAGE 16 =====
+
+16    PART i •  S y STEMS AnAly SiS FUnDAMEnTAlS
+a contract or company budget changes upward or downward because of the lessened impact of 
+these changes.
+Often organizations that are using cloud computing do not find it necessary to make up-front 
+capital expenditures on IT infrastructure, so it enables smaller companies with smaller and less 
+predictable budgets to make advances in processing more quickly. It also allows larger corpora-
+tions to invest in strategic projects rather than IT infrastructure. Sharing IT resources via cloud 
+computing means that a large collection of corporate users share web services, but also then 
+jointly bear the lowered cost of them, realizing increases in peak-load capacity and ensuring that 
+underutilized systems are used more efficiently and widely.
+Companies also hope to improve their ability to perform disaster recovery by using cloud 
+computing, which provides many redundant sites. Cloud computing is not immune to outages, 
+but it can spread the risk to multiple servers.
+Organizations try to improve security via cloud computing by using services that are sold 
+as possessing a security focus. However, there are concerns that centralization of this sort can 
+translate into loss of control over mission-critical data. Users might benefit from the mobility 
+afforded by being liberated from a single computer installation or a single interface. Rather, web 
+browsers and web-based services made available through cloud computing free users to access 
+applications from anywhere at any time without regard for location or the device they are using.
+Many large software companies (some of which are called “pure players” because they have 
+never existed as brick-and-mortar enterprises) are offering applications using cloud computing, 
+and users can use their web browser to access applications. These include Google Apps (for spread-
+sheets and calendars), AWS, Akami, and customer relationship management (CRM) software by 
+Salesforce.com, which is now available on the iPhone as well. These software purveyors state 
+that they are attempting to lower the cost to the user, as well as to provide increased flexibility.
+Some observers believe that the move to cloud computing is a way for older, larger companies 
+to solidify and retain their core businesses by incorporating SaaS, SOA (service-oriented architec-
+ture), virtualization, open source, and many other trends from the past decade into their offerings 
+of software, software tools, services, and computing power via the internet.
+Cloud Computing Trade-Offs. Researchers note that concern about privacy and security serve as 
+key barriers to organizations’ adoption of cloud technology. They note that there are many ways 
+to address such barriers; most frequently these take the form of fixes via technology (hardware or 
+software) that can be implemented or business responses (improved staff training, making security 
+of cloud computing a strategic priority, and so on) that can be strategized through management. 
+Sometimes it is the local IT department that is wary of giving control over corporate data and pro-
+cesses to cloud providers that unnecessarily impede the adoption of cloud computing, raising fears 
+that are not supported by risk assessment but rather bolstered by instincts for self-preservation, or 
+at the very least, preservation of the status quo.
+By now you are accustomed to the idea that businesses must make trade-offs in the adoption 
+of a technological or organizational solution. Inevitably, businesses will be evaluating cloud pro-
+viders, sometimes with the participation of the systems analyst. If that is the case, your ability to 
+systematically evaluate and compare cloud providers can be valuable to your client.
+One major decision is whether to use an external cloud provider (public cloud) or an internal 
+one (private cloud) that can be realized by centralizing the organization’s data centers through a 
+privately configured cloud service. Sometimes the decision to use a public cloud has to do with 
+how critical it is for the company to strategically control data. A hybrid approach, in which more 
+critical data linked to strategic aims and corporate intellectual property are held in a private cloud, 
+and less critical data for the same organization makes use of a public cloud, may be a solution.
+One of the biggest contributions an analyst can make is to help with weighing risks to security 
+of data versus the value of the data being stored and used. One way is to evaluate the disaster 
+recovery plans of cloud providers who are dealing with any mission-critical data that are being 
+considered as candidates for cloud storage.
+Factors in Choosing a Cloud Provider. Here are a few questions you will want to pose as you 
+evaluate cloud service providers for your information systems clients:
+1. If a client of the cloud services provider is hacked, how will it adversely affect other busi-
+nesses the cloud provider is hosting?
+
+
+===== BOOK PAGE 17 =====
+
+CHAPTER 1  •  Sy STEMS , RolES , AnD  DEvEloPMEnT  METHoDologiES     17
+2. How can your client be sure data are completely deleted from cloud systems when these 
+systems are eventually decommissioned?
+3. Are the data architectures being used by the cloud provider standard and transparent so if 
+the client wants to switch providers over cost or security concerns, it would be realistic to 
+do so?
+4. Are there too many nonstandard practices and proprietary programming structures in use, 
+making transferring data out of the question?
+5. How can your client be certain that no one at the cloud provider or their staff working for 
+other clients has access to your organization’s data?
+Once you are able to compare answers of the cloud providers, you and your client can decide 
+which cloud service provider is most appropriate for the type of computing requirements that 
+have surfaced over the course of your project engagement. Because different countries and juris-
+dictions (for example, the European Union or the United States) have differing laws covering 
+privacy of data stored in cloud systems and whether the government can have access to data of 
+private citizens, it has, in some cases, become a consideration to find out where cloud providers 
+are located and whether all laws and regulations regarding privacy and security of the users and 
+their location are being properly observed by cloud providers.
+ERP Systems and the Cloud. Researchers are suggesting that many of the issues and challenges 
+associated with implementing enterprise resource planning (ERP) systems can be mitigated 
+by new, lower-cost ERP offerings that take advantage of cloud computing. Organizations do not 
+have to purchase costly new IT; new versions and upgrades of ERP software are maintained and 
+installed by the ERP cloud vendor and switching to other modules may be less cumbersome 
+than before.
+A vendor called Workday (www.workday.com; created by two PeopleSoft veterans), pro-
+vides SaaS solutions for midrange to large organizations. These solutions are advertised as low 
+cost and easy to upgrade, offer a reduction in data storage costs, provide a greener IT footprint, 
+and are less cumbersome than traditional ERP implementations using a predictable subscrip-
+tion pricing model. In addition, Workday asserts that its systems address some of the long-
+standing problems experienced with legacy ERP implementations, including unpredictable costs 
+of on-premises ERP systems, piecemeal solutions to IT business problems, and variable level 
+of service.
+Another prominent cloud ERP vendor is NetSuite (www.netsuite.com), which offers account-
+ing software, real-time inventory management, CRM software, ecommerce, and real-time global 
+business management to small and medium-sized enterprises. NetSuite, which was acquired by 
+Oracle in 2016, differentiates its services by emphasizing reduced IT cost and real-time visibility 
+and anywhere, anytime access to business information that decision makers find critical to running 
+an organization.
+As with any other endeavor in the cloud, but especially an ERP system that can store sensitive 
+corporate data and run mission-critical applications, organizations are creating new tools to assess 
+the potential value to furthering strategic objectives, assess the risk to the enterprise, examine 
+the security issues, gauge the probability of user acceptance, and gauge the likelihood of success 
+in integrating a cloud-based ERP into their IT supply chain. As an analyst, you have developed 
+several data collection and analytical tools that can facilitate the ability of the organization to come 
+to reasonable decisions about adopting cloud-based ERP.
+Implementing CDLC
+According to NIST (National Institute of Standards and Technology of the U.S. Department of 
+Commerce), it is useful to think of the cloud model as possessing five essential characteristics, 
+three service models, and four deployment models (Mell & Grance, 2011).
+The five essential characteristics include:
+1. On-demand self service
+2. Broad network access
+3. Resource pooling
+4. Rapid elasticity
+5. Measured service
+
+
+===== BOOK PAGE 18 =====
+
+18    PART i •  S y STEMS AnAly SiS FUnDAMEnTAlS
+The three service models include:
+1. Software as a Service (SaaS)
+2. Platform as a Service (PaaS)
+3. Infrastructure as a Service (IaaS)
+The four deployment models include:
+1. Private cloud
+2. Community cloud
+3. Public cloud
+4. Hybrid cloud
+When we compare the SDLC to the cloud development life cycle (CDLC), we notice several 
+key differences. Above all it is important to note that the two differ in terms of when hardware 
+decisions are made, and this change in the life cycle may push the decision maker to go with 
+cloud computing earlier rather than later in the development process. The CDLC is a predictive 
+life cycle, and you can see the similarities between the phases of the SDLC and the CDLC.
+The six phases of the CDLC are data gathering, development, launch, continuing operations, 
+optimization, and improvement. The SDLC and the CDLC differ in development and launch 
+phases. The cloud development life cycle can offer inexpensive testing, in that “pentesting” (also 
+known as penetration testing, or a simulated cyberattack) can be done on servers that are part of 
+development relatively inexpensively. The SDLC does not offer that because implementation of 
+testing is done after installation of hardware and software.
+The CDLC also differs from the SDLC in that collaboration with the development ecosystem 
+permits the developers access to data and a lower amount of time invested for other tasks such as 
+a diverse range of system tests. Additionally, using a CDLC approach is faster than the traditional 
+SDLC. Implementation times can be reduced when the infrastructure is maintained and managed 
+by the cloud supplier rather than the development team of the host organization. Both collabora-
+tion and integration with cloud services (such as AWS) give the business the potential to scale 
+up across the organization rapidly and to interface with outside software vendors rapidly as well.
+There are five strategic considerations in implementing cloud-based systems (adapted from 
+Elman, 2020; Hill, 2019):
+1. Choose cloud computing if the overriding justification for the systems project is to 
+save money usually spent for on-premises data centers, their maintenance, and support 
+personnel.
+2. Start small and build your cloud endeavors gradually so that they can be expanded later.
+3. Choose multiple cloud providers in order to avoid getting stuck with one vendor.
+4. Monitor changes created by cloud computing as closely as you would for any other IT 
+transformation project. This includes ensuring visibility of applications and data from 
+multiple systems.
+5. Develop an integration strategy. Make the most of the hybrid ecosystem, capitalizing on 
+new synergies, relationships, and rapid development opportunities created by your cloud 
+implementations.
+CHOOSING WHICH SYSTEMS DEVELOPMENT  
+METHOD TO USE
+The differences among the four approaches described here are not as large as they seem at the 
+outset. In all four approaches, the analyst needs to understand the organization first (Chapter 
+2). Then the analyst or project team needs to budget time and resources and develop a project 
+proposal (Chapter 3). Next, they need to interview organization members and gather detailed 
+data using questionnaires (Chapter 4) and sample data from existing reports and by observing 
+how business is currently transacted (Chapter 5). The four approaches have all of these activities 
+in common.
+Even the methods themselves have similarities. The SDLC and OOAs both require extensive 
+planning and diagramming. The agile approach and the OOA both allow subsystems to be built
+
+
+===== BOOK PAGE 19 =====
+
+CHAPTER 1  •  Sy STEMS , RolES , AnD  DEvEloPMEnT  METHoDologiES     19
+one at a time until the entire system is complete. The agile, SDLC, and CDLC approaches are all 
+concerned with the way data logically moves through the system.
+So, given a choice to develop a system using an SDLC approach, an agile approach, an OOA, 
+or a CDLC approach, which would you choose? Figure 1.7 provides a set of guidelines to help 
+you choose which method to use when developing your next system.
+DEVELOPING OPEN SOURCE SOFTWARE
+An alternative to traditional software development in which proprietary code is hidden from the 
+users is called open source software (OSS). With OSS, many users and coders can study, share, 
+and modify the code or computer instructions. Rules of this community include the idea that any 
+program modifications must be shared with all the people on the project and that all licenses must 
+be adhered to.
+Development of OSS also has been characterized as a philosophy rather than simply as the 
+process of creating new software. Those involved in OSS communities often view it as a way to 
+help societies change. However, it would be an oversimplification to think of OSS as a monolithic 
+movement, and it does little to reveal what type of users or user analysts are developing OSS 
+projects and on what basis.
+Open source software is code that is meant to be just that: open to the public to be seen, 
+changed, and distributed however the developer sees as appropriate. It is created in a coopera-
+tive way with the understanding that each participant will contribute, and all who contribute 
+FIGURE 1.7 
+How to decide which development 
+method to use.
+The Cloud Development Life
+Cycle (CDLC) Approach
+•   the justiﬁcation for the systems project is to save
+     money usually spent for on-premises data centers
+•   the project can start small and build
+•   multiple cloud providers can be used
+•   changes created by the cloud can be monitored for
+     visibility of apps and data from multiple systems
+•   an integration strategy can be developed to capitalize
+     on new synergies
+Choose When 
+Agile Methodologies
+The Systems Development
+Life Cycle (SDLC) Approach
+Object-Oriented
+Methodologies
+•   the customer is satisﬁed with incremental improvements
+•   applications need to be developed quickly in response to
+     a dynamic environment 
+•   there is a project champion of agile methods in the
+    organization
+•   a rescue takes place (the system failed and there is no time
+     to ﬁgure out what went wrong)
+•   executives and analysts agree with the principles of agile
+     methodologies
+•   the problems modeled lend themselves to classes 
+•   an organization supports the UML learning 
+•   systems can be added gradually, one subsystem at a time
+•   reuse of previously written software is a possibility
+•   it is acceptable to tackle the difﬁcult problems ﬁrst
+•   systems have been developed and documented using SDLC
+•   it is important to document each step of the way
+•   communication of how new systems work is important
+•   upper-level management feels more comfortable or safe
+     using SDLC
+•   there are adequate resources and time to complete the full
+     SDLC
+
+
+===== BOOK PAGE 20 =====
+
+20    PART i •  S y STEMS AnAly SiS FUnDAMEnTAlS
+will benefit. It is a communal process and product. All open source code is governed by open 
+source licenses, and licenses must go through a review process before being accepted.
+If you have an Android phone, you are using an open source operating system. Widely known 
+open source projects include Apache for developing a web server, the browser Mozilla Firefox, 
+and Linux, which is a Unix-like free open source operating system. Other open source technolo-
+gies that are current and increasing in popularity include blockchain, cybersecurity, the Internet 
+of Things (IoT), cloud computing, big data analytics, and many more. You can read about these 
+technologies in upcoming chapters.
+The Open Source Movement
+To help us understand the open source movement, researchers have recently categorized open source 
+communities into four types—ad hoc, standardized, organized, and commercial—along six different 
+dimensions: general structure, environment, goals, methods, user community, and licensing. Some 
+researchers argue that OSS is at a crossroads and that the commercial and community open source 
+groups need to understand where they converge and where the potential for conflict exists.
+Large nonprofit foundations that support the use of open source projects include The Apache 
+Foundation, which was formed by a group of developers of the Apache HTTP server and The 
+Linux Foundation. The Linux Foundation is a nonprofit organization dedicated to advancing 
+the technical improvement of the open source Linux operating system and education and col-
+laboration around open source development of the Linux kernel, as well as the tools and services 
+that go along with it. The foundation hosts over 500 open source projects. It helps open source 
+projects with formation, governance, and collaboration.
+Online, GitHub (purchased by Microsoft in 2018) serves as a software development platform 
+for developers who want to store, track their work, and collaborate on open source projects. If 
+you are using GitHub, you can upload your own code files and collaborate with others. Interest-
+ingly, GitHub is versatile in serving as a social networking website as well. It fosters the culture 
+of a community that puts developers in touch with each other to collaborate and even to sell new 
+projects they would like to attract others to. GitHub uses Git, which is the most-used open source 
+version control software used by developers. It is important in tracking all sorts of version histories 
+but, most importantly tracking file code versions.
+The Third Design Space
+Widespread collaboration among open source community members and corporations is a rela-
+tively new phenomenon. In the past, corporations were focused on developing proprietary soft-
+ware, the code for which was watchfully guarded against outsiders, in order to give the company 
+an edge against competitors regarding new software products and IT strategy. Open source com-
+munities were pursuing improvement of code and building a supportive community for the values 
+and practices of open source software.
+Our research team identified and described new collaboration between corporate developers 
+and communities of developers as the Third Design Space. It is a metaphorical, not actual 
+physical, space. (Kendall, Kendall, Germonprez, & Mathiassen, 2020).
+Participants in the Third Design Space together make a new design environment happen; they 
+create new design associations and circulate shared design resources. Their collaborations result 
+in new, shared software and innovative software development processes. The process of creating 
+shared software artifacts extend the impact of working in this emergent corporate-communal 
+environment. While the Third Design Space arose out of prior relationships, affiliations, and 
+interactions, it is ever changing and evolving. Collaboration in this innovative way leads to new 
+characteristics of developers who can be thought of as both corporate and communal in this inno-
+vative space. New software innovations not possible in a strictly commercial or an independent 
+open source community are developed in the Third Design Space.
+Benefits of Corporate Participation in Open Source  
+Software Development
+As you can see, there are several benefits to you and your employer for participating in the 
+design of open source software. Our research team used game theory to examine interviews with 
+corporate participants about open source collaboration to understand why companies participate
+
+
+===== BOOK PAGE 21 =====
+
+CHAPTER 1  •  Sy STEMS , RolES , AnD  DEvEloPMEnT  METHoDologiES     21
+in open source software development (Kendall, Kendall, and Germonprez 2016). We identified 
+six rational and six emotional reasons why for-profit corporations choose to develop open source 
+software. They are shown in Figure 1.8.
+Licensing and Compliance
+Since licensing is a critical factor in the development and use of all open source software, there 
+are several popular licenses, including Apache License 2.0, GNU General Public License (GPL), 
+Common Development and Distribution License, and Mozilla Public License 2.0. Licenses are the 
+product of community consensus, so different communities use different licenses. It is important to 
+choose a license that is right for your project. On the user side of open source licenses, you need 
+to identify the license that is being used for reporting purposes as well as for being sure you are 
+compliant with the license.
+There are accurate, efficient ways to identify what license being used in open software 
+you would like to use, and there are tools, and even work groups (one sponsored by The Linux 
+Foundation) called SPDX Working Group. (The initials SPDX stand for Software Package Data 
+Exchange.)
+A Linux Foundation Project called FOSSology is an open source license software system 
+and toolkit. According to their website, “you can run license, copyright and export control scans 
+from the command line.” Additionally, FOSSology provides a compliance workflow. You can use 
+FOSSology to generate an SPDX file or to generate a ReadMe file with copyrights all with one 
+click. FOSSology can scan an entire open source distribution, automatically submit a new version, 
+and only files that have been changed will get rescanned. A great deal of time can be saved with 
+this software, especially with large projects.
+On an individual level, experience with open source is a skill you can add to your resume 
+and is likely to help you find a position. Recently, it was reported that over 90 percent of hiring 
+managers are running into a shortage of sufficient open source talent to fill positions. Many 
+hiring managers are seeking certified open source workers, while about the same percentage 
+(over 85 percent) are willing to help employees get certifications in the open source skills the 
+organization is seeking. You can join projects by registering with GitHub, registering with specific 
+projects on the Linux Foundation site, or even finding out whether your employer has an open 
+source group that you can participate in.
+The Role of the Analyst in Open Source Software
+As an analyst you may find yourself, at the request of your chief employer, participating in an 
+open source community. Over 75 percent of organizations polled said they were more reliant on 
+open source software in 2022 than they were the prior year (“2022 State of Open Source Report,” 
+2022). Due to this increase in demand, there is a shortage of open source developers. One widely 
+known open source community is that surrounding the Linux kernel. This is a large, mostly virtual 
+community of developers who all have different levels or types of participation and who all have 
+FIGURE 1.8 
+Six rational and six emotional 
+reasons why for-profit corpora-
+tions choose to develop open 
+source software.
+Saving money
+Performing less maintenance
+Contributing within limits
+Reducing long-term costs
+Increasing marketing beneﬁts
+Making the ﬁrst move
+Accepting responsibility
+Improving shared software
+Gaining community inﬂuence
+Relinquishing the gatekeeper role
+Improving developers’ skills
+Extending the life of projects
+Rational Emotional
+
+
+===== BOOK PAGE 22 =====
+
+22    PART i •  S y STEMS AnAly SiS FUnDAMEnTAlS
+different reasons for being involved. Other well-known open source projects include Mozilla 
+Firefox, Android, Apache projects, and many more. Even NASA, the U.S. National Aeronau-
+tics and Space Administration, has a lively open source community (see http://ti.arc.nasa.gov/
+opensource/).
+One reason your company may ask you to participate in an open source community is curi-
+osity about what the software benefits to the organization might be. This may be a result of a 
+sort of bandwagon effect, for when it becomes known that competitors are already participating, 
+your organization may want to get involved. With competitors actively participating in an open 
+community, an organization may calculate that it is something that should at least be investigated 
+seriously, not dismissed summarily. Another reason your company might ask you to participate 
+as a developer in an open community is to achieve what researchers have labeled “responsive 
+design.” Responsive design means that while you are participating in the open source community, 
+you are at the same time employed by an organization that wants to leverage your participation 
+in the open source community to incorporate OSS designs into proprietary products, processes, 
+knowledge, and IT artifacts that it is developing and that it hopes to eventually sell as a product 
+that is differentiated from what the open source community has produced. Through a process of 
+responsive design, the IT artifact is imbued with both community and organization structures, 
+knowledge, and practices.
+Summary
+Systems analysis and design is a systematic approach to identifying problems, opportunities, and objectives; 
+to analyzing human- and computer-generated information flows in organizations; and to designing computer-
+ized information systems to solve problems. Systems analysts are required to take on many roles in the course 
+of their work. Some of these roles are (1) an outside consultant to business, (2) a supporting expert within a 
+business, and (3) an agent of change in both internal and external situations. It is important that you design 
+new systems with an awareness of what you can do to design security into a system from the very beginning.
+Analysts possess a wide range of skills. First and foremost, an analyst is a problem solver, someone 
+who enjoys the challenge of analyzing a problem and devising a workable solution. Systems analysts require 
+communication skills that enable them to relate meaningfully to many different kinds of people on a daily 
+basis, as well as computer skills. Understanding and relating well to users is critical to their success.
+Analysts proceed systematically. The framework for their systematic approach is provided in what is 
+called the systems development life cycle (SDLC). The processes of this life cycle can be divided into seven 
+sequential phases, although in reality the phases are interrelated and are often accomplished simultaneously. 
+The seven phases are identifying problems, opportunities, and objectives; determining human information 
+requirements; analyzing system needs; designing the recommended system; developing and documenting 
+software; testing and maintaining the system; and implementing and evaluating the system.
+The agile approach is a software development methodology based on values, principles, and core prac-
+tices. Systems that are designed using agile methods can be developed rapidly. Scrum is an agile method that 
+emphasizes short releases and allows teams to choose what they want to work on. Stages in the agile devel-
+opment process are exploration, planning, iterations to the first release, productionizing, and maintenance.
+A third approach to systems development is called object-oriented analysis design. These techniques 
+are based on object-oriented programming concepts that have become codified in unified modeling language 
+(UML), a standardized modeling language in which objects that are created include not only code about data 
+but also instructions about the operations to be performed on the data. Key diagrams help analyze, design, and 
+communicate UML-developed systems. These systems are usually developed as components and reworking 
+the components many times is typical in object-oriented analysis and design.
+Cloud computing allows commerce, applications, and data storage to be served using the internet. The 
+move to cloud computing is a potential way for older, larger companies to solidify and retain their core busi-
+nesses by incorporating SaaS (Software as a Service), SOA (service-oriented architecture), virtualization, 
+open source, and many other trends from the past decade into their offerings of software, software tools, 
+services, and computing power via the internet. Analysts can implement cloud computing using the cloud 
+development life cycle (CDLC). There are trade-offs in choosing cloud technology, including organization 
+privacy and security. Analysts need to help companies decide between using a public or private cloud or 
+adopting a hybrid approach instead.
+Analysts will have increasing opportunities to participate in open source development communities, 
+often through their primary organization. Open source software (OSS) is code that is meant to be just that: 
+open to the public to be seen, changed, and distributed however the developer sees as appropriate. It is created
+
+
+===== BOOK PAGE 23 =====
+
+CHAPTER 1  •  Sy STEMS , RolES , AnD  DEvEloPMEnT  METHoDologiES     23
+in a cooperative way with the understanding that each participant will contribute, and all who contribute will 
+benefit. It is a communal process and product.
+All open source code is governed by open source licenses, and licenses must go through a review process 
+before being accepted.
+Widespread collaboration among open source community members and corporations is a relatively 
+new phenomenon. Our research team identified a metaphorical Third Design Space where participants from 
+corporations and open source communities come together to create a new design environment; they make 
+new design associations and circulate shared design resources. Their collaborations result in new, shared 
+software and innovative software development processes.
+Organizations participate in development of open source for many reasons including lowering costs, 
+speeding up development, and a desire to give back something of value to the community.
+Keywords and Phrases
+adaptive lifecyle
+agent of change
+agile approach
+bespoke software
+cloud computing
+computer-assisted software engineering (CASE)
+enterprise resource planning (ERP) system
+exploration phase
+human–computer interaction (HCI)
+iterations to the first release phase
+Linux kernel
+maintenance phase
+object-oriented (O-O) systems analysis and 
+design
+open source communities
+open source software (OSS)
+planning game
+planning phase
+predictive lifecycle
+private cloud
+productionizing phase
+prototyping
+public cloud
+Scrum
+security
+stakeholder
+systems analysis and design
+systems analyst
+systems consultant
+systems development life cycle (SDLC)
+Third Design Space
+unified modeling language (UML)
+Review Questions
+1. List the advantages of using systems analysis and design techniques in approaching computerized 
+information systems for business.
+2. Why is security of information systems an important consideration in systems development and 
+design?
+3. List three roles that a systems analyst is called upon to play. Provide a definition for each one.
+4. What personal qualities are helpful to a systems analyst? List them.
+5. List and briefly define the seven phases of the systems development life cycle (SDLC).
+6. What are CASE tools used for?
+7. Explain what is meant by the agile approach.
+8. What is the meaning of the phrase planning game?
+9. What are the stages in agile development?
+10. What is Scrum?
+11. Define the term object-oriented analysis and design.
+12. What is UML?
+13. What are the benefits of implementing systems and software using cloud computing?
+14. What is a private cloud?
+15. What is the difference between a private cloud and a public cloud?
+16. Explain why ERP systems served with a cloud platform might be more affordable to small and 
+medium-sized businesses than traditional ERP installations.
+17. What is the cloud development life cycle (CDLC)?
+18. What is open source software?
+19. What are two ways a programmer can begin to contribute to open source projects?
+20. What is the role of a systems analyst working in a corporation in the development of open source 
+software?
+21. List two reasons an organization may want its analysts to participate in an open source community.
+
+
+===== BOOK PAGE 24 =====
+
+24    PART i •  S y STEMS AnAly SiS FUnDAMEnTAlS
+Selected Bibliography
+2022 State of Open Source Report. (2022). https://www.openlogic.com/
+resources/2022-open-source-report.
+Beck, K., & Andres, C. (2004). Extreme programming explained: Embrace change (2nd ed.). 
+Addison-Wesley.
+Coad, P., & Yourdon, E. (1991). Object-oriented analysis (2nd ed.). Prentice Hall.
+Davis, G. B., & Olson, M. H. (1985). Management information systems: Conceptual foundation, 
+structure, and development (2nd ed.). McGraw-Hill.
+Elman, D. (2020). The unexpected challenge of cloud transformation. https://techresearchonline.com/ 
+wp-content/uploads/white-papers/nucleusresearchtheunexpectedchallengesofcloudtransformation.pdf
+Germonprez, M., Kendall, J. E., Kendall, K. E., Mathiassen, L., Young, B., & Warner, B. (2017). A theory 
+of responsive design: A field study of corporate engagement with open source communities. Informa-
+tion Systems Research, 28(1), 64–83.
+Germonprez, M., & Warner, B. (2012). Commercial participation in open innovation communities.  
+In E. Lundström, J. S. Z. M. Wiberg, S. Hrastinski, M. Edenius, & P. J. Ägerfalk (Eds.), Managing 
+open innovation technologies. Springer-Verlag, 35–52.
+Hill, R. (2019, May 16). Use 12 steps to a successful cloud implementation. https://gcn.com/
+cloud-infrastructure/2019/05/12-steps-to-a-successful-cloud-implementation/297931/.
+Kendall, J. E., Kendall, K. E., & Germonprez, M. (2016). Game theory and open source contribution: 
+Rationale behind corporate participation in open source software development. Journal of Organiza-
+tional Computing and Electronic Commerce, 26(4), 323–343.
+Kendall, K. E., Kendall, J. E., Germonprez, M., & Mathiassen, L. (2020). The third design space:  
+A postcolonial perspective on corporate engagement with open source software communities. 
+Information Systems Journal, 30(2), 369–402.
+Kendall, J. E., Kendall, K. E., & Kong, S. (2006). Improving quality through the use of agile methods in 
+systems development: People and values in the quest for quality. In E. W. Duggan and H. Reichgelt 
+(Eds.), Measuring information systems delivery quality (pp. 201–222). Idea Group Publishing.
+Kendall, K. E., Kong, S., & Kendall, J. E. (2010). The impact of agile methodologies on the quality of 
+information systems: Factors shaping strategic adoption of agile practices. International Journal of 
+Strategic Decision Sciences, 1(1), 41–56.
+Laudon, K. C., & Laudon, J. P. (2018). Management information systems (15th ed.). Pearson.
+Lee, G., & Cole, R. (2003). From a firm-based to a community-based model of knowledge creation: The 
+case of the Linux kernel development. Organization Science, 14, 633–649.
+Mehta, P. (2021). Pen testing (penetration testing). https://www.techtarget.com/searchsecurity/definition/
+penetration-testing.
+Mell, P., & Grance, T. (2011, September). SP 800-145: The NIST definition of cloud computing. https://
+csrc.nist.gov/publications/detail/sp/800-145/final.
+Open Source Technology Trends 2022 – What’s there for you? [Blog] (2022, January 13). https://www.
+hiddenbrains.com/blog/open-source-technology-trends.html.
+Project Management Institute. (2021). A guide to the Project Management Body of Knowledge (PMBOK 
+guide) (7th ed.). Project Management Institute.
+Saroyan, S. (2017, July 20). How chatbots are helping ecommerce evolve. https://venturebeat.
+com/2017/07/20/how-chatbots-are-helping-ecommerce-evolve/.
+Sharma, M. (2021, September 21). Open source talent is in seriously high demand. https://www.techradar.
+com/news/open-source-talent-is-in-seriously-high-demand.
+SPDX Software Package Data Exchange. (n.d.). SPDX IDs. https://spdx.dev/ids.
+SDLC VS. CDLC – Why more organizations are turning to the cloud. (2020, February 12). https://threat-
+modeler.com/sdlc-vs-cdlc-why-more-organizations-are-turning-to-the-cloud/.
+Visible Enterprise Products. (n.d.). www.visible.com/Products/index.htm.
+What is GitHub and how do you use it? (n.d.). https://devmountain.com/?s=github.
+What is open source? (2019, October 24). https://www.redhat.com/en/topics/open-source/
+what-is-open-source.
+Whitley, E. A., Willcocks, L. P., & Venters, W. (2013). Privacy and security in the cloud: A review of 
+guidance and responses. Journal of International Technology and Information Management, 22(3), 
+75–92.
+Yourdon, E. (1989). Modern structured analysis. Prentice Hall.
+Zhang, P., Carey, J., Te’eni, D., & Tremaine, M. (2005). Integrating human–computer interaction develop-
+ment into the systems development life cycle: A methodology. Communications of the Association 
+for Information Systems, 15, 512–543.
+
+
+===== BOOK PAGE 25 =====
+
+25
+CHAPTER
+2 
+Understanding and Modeling 
+Organizational Systems
+LEARNING OBJECTIVES
+Once you have mastered the material in this chapter, you will be able to:
+1 Understand that organizations are large systems composed of interrelated subsystems.
+2 Depict systems graphically using context-level data flow diagrams and entity-relationship 
+models.
+3 Model “use cases” and understand how use case modeling helps systems analysis.
+4 Recognize that different levels of management in organizations require different systems.
+5 Appreciate how organizational culture influences the design of information systems.
+To analyze and design appropriate information systems, systems analysts need to compre-
+hend the organizations they work in as systems shaped through the interactions of three 
+main forces: levels of management, design of organizations, and organizational cultures.
+Organizations are large systems composed of interrelated subsystems. The subsys-
+tems are influenced by three broad levels of management decision makers— operations, 
+middle management, and strategic management—that cut horizontally across the 
+ organizational system. To understand organizations properly, systems analysts start 
+depicting them graphically as soon as they begin working with a company. These differ-
+ent ways of seeing the organization include drawing context-level data flow diagrams and 
+entity- relationship (E-R) models, developing use cases, and writing use case scenarios. 
+ Collaborative design can help systems analysts include users from many parts of the 
+organization. Organizational cultures and subcultures influence the way people in sub-
+systems interrelate. Many technologies are available to support the creation of productive 
+cultures and subcultures, including work-sanctioned social media sites such as Slack. 
+These topics and their implications for information systems development are considered 
+in this chapter.
+

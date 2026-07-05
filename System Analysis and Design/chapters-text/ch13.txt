@@ -1,0 +1,2614 @@
+
+===== BOOK PAGE 393 =====
+
+CHAPTER 13  •  DEsigning D ATAb A sEs     393
+DATABASES
+A database is not merely a collection of files; it is a central source of data meant to be shared by 
+many users for a variety of applications. The heart of a database is the database management 
+system (DBMS), which allows the creation, modification, and updating of the database; the 
+retrieval of data; and the generation of reports and displays. A person who ensures that a database 
+meets its objectives is called a database administrator.
+The effectiveness objectives of a database include the following:
+1. Ensure that data can be shared among users for a variety of applications.
+2. Maintain accurate and consistent data.
+3. Ensure that all data required for current and future applications is readily available.
+4. Allow the database to evolve as the needs of users grow.
+5. Allow users to construct their personal view of the data without concern for the way data 
+are physically stored.
+This list of objectives provides us with a reminder of the advantages and disadvantages of the 
+database approach.
+One advantage of shared data is that data need to be stored only once. That helps achieve data 
+integrity because changes to data are accomplished more easily and reliably if the data appear 
+once rather than in many different files.
+When a user needs particular data, a well-designed database anticipates the need for such 
+data (or perhaps the data has already been used for another application). Consequently, the data 
+have a higher probability of being available in a database than in a conventional file system.  
+A well-designed database is more flexible than separate files because it can evolve as the 
+applications and the needs of users change.
+Finally, the database approach has the advantage of allowing users to have their own view of 
+the data. Users need not be concerned with the structure of the database or its physical storage.
+Many users are extracting parts of the central database from mainframes and downloading 
+them onto PCs or handheld devices. These smaller databases are then used to generate reports or 
+to answer queries specific to the end user’s needs.
+Relational databases for PCs have improved dramatically over the last few years. One major 
+technological change has been the design of database software that takes advantage of the graphi-
+cal user interface. With the advent of programs such as Microsoft Access, users can drag and 
+identified, and algorithms can be used to predict behavior. We 
+must be responsible, however, so as not to introduce bias and not 
+to violate privacy. This video explains how big data is changing the 
+world and suggests that we need new tools to manage all this data. 
+After you view the video, reflect on the following questions.
+1. What could go wrong if we use data incorrectly by interpret-
+ing results based on certain biases?
+2. It is better if humans can understand what an algorithm is 
+doing. This is called information algorithmic transparency. 
+Consider its importance.
+3. Privacy of data in systems can be a concern. Why is it easier 
+for big data to readily identify a person?
+4. What are the drawbacks of algorithms making assumptions 
+about each of us based on the data we supply or based on the 
+people and groups we associate with?
+SYSTEMS SCENARIO  
+Understanding the Power of Big Data
+Throughout this chapter, we discuss organizing data for efficient 
+data storage and retrieval, but the introduction of data warehouses 
+and data lakes means that data can be stored, patterns could be 
+To view the video for this scenario,  
+see eText Chapter 13.
+Crash Course Statistics/Boclips
+
+
+===== BOOK PAGE 394 =====
+
+394    PART iV  •  THE EssEnTiALs  OF DEsign
+drop fields between two or more tables. Developing relational databases with these tools has 
+been made relatively easy. In addition, the Microsoft Office Suite has special functions that allow 
+users to export data from a corporate database to other applications. These data can be imported 
+to Microsoft Access as well.
+Databases are highly useful technologies for organizations to store, access, and retrieve their 
+data, but many security issues surround their design and use. For those who are designing the data-
+base as well as for those who are administering it and using it, important security issues will arise. 
+It is critical that everyone involved in the design of the database agrees on the value of the data 
+and the cost of protecting it because securing data has costs as well as benefits. Risk assessment 
+is an essential part of database planning.
+Cyberattacks, including malware and denial-of-service attacks, are on the increase, and 
+companies must consider these questions: What is the likelihood of an attack? What is the value of 
+the data that are being protected? What are the implications of a security breach for the company’s 
+customers and, in the aftermath, for the company’s image? Everyone involved in using a database 
+including database administrators and users needs to undergo appropriate training on security 
+issues and the accessing of databases. Getting users involved in business continuity planning and 
+disaster recovery approaches will help make databases and the organization resilient if and when 
+security is breached, thereby minimizing damage.
+DATA CONCEPTS
+It is important to understand how data are represented before considering the use of files or the 
+database approach. In this section, critical definitions are examined, including the abstraction of 
+data from the real world to the storage of data in tables and database relations.
+Reality, Data, and Metadata
+Data collected about people, places, or events in reality will eventually be stored in a file or data-
+base. (In this section, we refer to the real world as reality.) To understand the form and structure 
+of the data, information about the data themselves is required. The information that describes data 
+is referred to as metadata.
+in-house sales, and some specialize in heavy equipment, such as floor 
+strippers and waxers. Records were kept in separate files.”
+You recall Marc saying, “The problem is that we have no way 
+to compare the profits of each division. We would like to set up 
+incentive programs for salespeople and provide better balance in 
+allocating salespeople to each product line.”
+When you talk with Shakina, however, she adds, “Each division 
+has its own incentive system. Commissions vary. I don’t see how 
+we can have a common system. Besides, I can get our reports out 
+quickly because our files are set up the way we want them. We have 
+never issued a paycheck late.”
+In a paragraph, describe how you would go about analyzing 
+the data storage needs of the Marc Schnieder Janitorial Supply 
+Company. Would you trash the old system or just polish it up a 
+bit? Answer the question by making a recommendation to scrap the 
+old system or just to improve it. Discuss the implications of your 
+decision in two paragraphs.
+CONSULTING OPPORTUNITY 13.1 
+Hitch Your Cleaning Cart to a Star
+T he Marc Schnieder Janitorial Supply Company has asked for 
+your assistance in cleaning up its data storage. As soon as you 
+begin asking Marc Schnieder detailed questions about his data-
+base, his face gets flushed. “We don’t really have a database as 
+you describe it,” he says with some embarrassment. “I’ve always 
+wanted to clean up our records, but I couldn’t find a capable person 
+to head the effort.”
+After talking with Marc, you walk down the hall to the closet-
+sized office of Shakina Obi, the chief programmer. Shakina fills you 
+in on the historical development of the current information system. 
+“The Marc Schnieder Janitorial Supply Company is a rags-to-riches 
+story,” Shakina remarks. “Marc’s first job was as a janitor in a bowling 
+alley. He saved enough money to buy some products and started 
+selling them to other alleys. Soon he decided to expand the janitorial 
+supply business. As his business grew, he added more product lines 
+and types of customers. Salespeople in the company are assigned to 
+different major product lines (stores, offices, and so on), some are
+
+
+===== BOOK PAGE 395 =====
+
+CHAPTER 13  •  DEsigning D ATAb A sEs     395
+The relationship between reality, data, and metadata is shown in Figure 13.1. Within the 
+realm of reality are entities and attributes; within the realm of actual data are record occurrences 
+and data item occurrences; and within the realm of metadata are record definitions and data item 
+definitions. The meanings of these terms are discussed in the following subsections.
+Entities. Any object or event about which someone chooses to collect data is an entity. An entity 
+may be a person, place, or thing (for example, a salesperson, a city, or a product). An entity can 
+also be an event or a unit of time, such as a machine breakdown, a sale, or a month or year.
+An entity subtype is a special one-to-one relationship used to represent additional attributes 
+(fields) of another entity that may not be present on every record of the first entity. Its symbol is a 
+smaller rectangle within the entity rectangle. Entity subtypes eliminate the situation in which an 
+entity may have null fields stored on database tables.
+An example is the primary entity of a customer. Preferred customers may have special fields 
+containing discount information, and this information would be in an entity subtype. Another 
+example is students who have internships. The STUDENT MASTER should not have to contain 
+information about internships for each student because only a small number of students may 
+have internships.
+Relationships. Relationships are associations between entities (sometimes referred to as data 
+associations). Figure 13.2 shows a number of entity-relationship (E-R) diagrams that portray 
+a variety of relationships.
+The first type of relationship is a one-to-one relationship (designated 1:1). The diagram 
+shows that there is only one PRODUCT PACKAGE for each PRODUCT. The second one-
+to-one relationship shows that each EMPLOYEE has a unique OFFICE. Notice that all these 
+entities can be described further (for example, a product price would not be an entity, nor would 
+a phone extension).
+Another type of relationship is a one-to-many (1:M) or many-to-one association. As shown 
+in the figure, a PHYSICIAN in a health maintenance organization is assigned many PATIENTS, 
+but a PATIENT is assigned only one PHYSICIAN. Another example shows that an EMPLOYEE 
+is a member of only one DEPARTMENT, but each DEPARTMENT has many EMPLOYEES.
+Finally, a many-to-many relationship (designated as M:N) describes the possibility that 
+entities may have many associations in either direction. For example, a STUDENT can have 
+many COURSE(s), and at the same time a COURSE may have many STUDENT(s) enrolled in it. 
+The second M:N example in Figure 13.2 shows that a SALESPERSON can call on many CITY(s) 
+and a CITY can be a sales area for many SALESPERSON(s).
+The standard symbols for E-R diagrams, the official explanation of the symbols, and what 
+they mean are given in Figure 13.3. Notice that the symbol for an entity is a rectangle. An entity 
+is defined as a class of a person, place, or thing. A rectangle with a diamond inside stands for an 
+associative entity, which is used to join two entities. A rectangle with an oval in it stands for 
+an attributive entity, which is used for repeating groups.
+The other notations necessary to draw E-R diagrams are the connections, of which there are 
+five different types. In the lower portion of the figure, the meaning of the notation is explained. 
+When a straight line connects two plain entities and the ends of the line are both marked with 
+two short marks (||), a one-to-one relationship exists. Following that you will notice a crow’s foot 
+with a short mark (|); when this notation links entities, it indicates a relationship of one-to-one or 
+one-to-many (to one or more).
+FIGURE 13.1
+Reality, data, and metadata.Reality
+Data
+Metadata Data Item
+Deﬁnitions
+Record
+Deﬁnitions
+Data Item
+Occurrences
+Record
+Occurrences
+AttributesEntities
+
+
+===== BOOK PAGE 396 =====
+
+396    PART iV  •  THE EssEnTiALs  OF DEsign
+Entities linked with a straight line plus a short mark (|) and a zero (which looks more like a 
+circle, O) are depicting a relationship of one-to-zero or one-to-one (only zero or one). A fourth 
+type of link for relating entities is drawn with a straight line marked on the end with a zero (O) 
+followed by a crow’s foot. This type shows a zero-to-zero, zero-to-one, or zero-to-many relation-
+ship. Finally, a straight line linking entities with a crow’s foot at the end depicts a relationship to 
+more than one.
+An entity may have a relationship connecting it to itself. This type of relationship is called 
+a self-join relationship; the implication is that there must be a way to link one record in a file to 
+another record in the same file. An example of a self-join relationship can be found in the HYPER-
+CASE simulations found throughout the text. A task may have a precedent task (that is, one that 
+must be completed before starting the current task). In this situation, one record (the current task) 
+points to another record (the precedent task) in the same file.
+FIGURE 13.2
+Entity-relationship diagrams can 
+show one-to-one, one-to-many, 
+many-to-one, or many-to-many 
+associations.
+is
+assigned
+to
+has One-to-one
+(1:1)
+belongs
+totreats
+One-to-many
+(1:M)
+or
+Many-to-one
+(M:1)
+servestakes Many-to-many
+(M:N)
+Examples of E-R Diagrams Relationships
+Oﬃce
+Employee
+Product Package
+Product
+Department
+Physician Employee
+Salesperson
+Patient
+Student
+Course City
+
+
+===== BOOK PAGE 397 =====
+
+CHAPTER 13  •  DEsigning D ATAb A sEs     397
+The relationships in words can be written along the top or the side of each connecting line. 
+In practice, you see the relationship in one direction, although you can write relationships on both 
+sides of the line, each representing the point of view of one of the two entities. (See Chapter 2 for 
+more details about drawing E-R diagrams.)
+An Entity-Relationship Example. An E-R diagram containing many entities, many different types 
+of relations, and numerous attributes is featured in Figure 13.4. In this E-R diagram, we are 
+concerned about a billing system, and in particular with the prescription part of the system. 
+(For simplicity, we assume that office visits are handled differently and are outside the scope of 
+this system.)
+The entities are PRESCRIPTION, PHYSICIAN, PATIENT, and INSURANCE CARRIER. 
+The entity TREATMENT is not important for the billing system, but it is part of the E-R diagram 
+because it is used to bridge the gap between PRESCRIPTION and PATIENT. We therefore drew 
+it as an associative entity in the figure.
+Here, a PHYSICIAN treats many PATIENT(s) (1:M), who each subscribe to an individual 
+INSURANCE CARRIER. Of course, the PATIENT is only one of many patients that subscribe 
+to that particular INSURANCE CARRIER (M:1).
+To complete the PHYSICIAN’s records, the physician needs to keep information about the 
+treatments a PATIENT has. Many PATIENT(s) experience many TREATMENT(s), making it a 
+M:N relationship. TREATMENT is represented as an associative entity because it is not important 
+in our billing system by itself. TREATMENT(s) can include the taking of PRESCRIPTION(s), 
+and thus is also an M:N relationship, because many treatments may call for combinations of 
+pharmaceuticals and many drugs may work for many treatments.
+Some detail is then filled in for the attributes. The attributes are listed next to each of the enti-
+ties, and the key is underlined. For example, the entity PRESCRIPTION has a PRODUCT-NAME, 
+FIGURE 13.3
+Entity-relationship diagram 
+symbols and their meanings.
+Entity
+Symbol Oﬃcial Explanation What It Really Means
+Associative entity
+Attributive entity
+To 1 relationship
+To many relationship
+To 0 or 1 relationship
+To 0 or more relationship
+To more than 1 relationship
+A class of persons, places, or things
+Used to join two entities
+Used for repeating groups
+Exactly one
+One or more
+Only zero or one
+Can be zero, one, or more
+Greater than one
+
+
+===== BOOK PAGE 398 =====
+
+398    PART iV  •  THE EssEnTiALs  OF DEsign
+DOSAGE, MANUFACTURER, and AMOUNT. Ideally, it would be beneficial to design a data-
+base in this fashion, using E-R diagrams and then filling in the details concerning attributes. This 
+top-down approach is desirable, but it is sometimes very difficult to achieve.
+Attributes. An attribute is some characteristic of an entity, and each entity may have many 
+attributes. For example, a patient (entity) can have many attributes, such as last name, first name, 
+street address, city, state, and so on. The date of the patient’s last visit as well as the prescription 
+details are additional attributes. The smallest particular described in a data dictionary is called a 
+data element (see Chapter 8). When files and databases are discussed, these data elements are 
+generally referred to as data items. Data items are in fact the smallest units in a file or database. 
+The term data item is also used interchangeably with the word attribute.
+Data items can have values. These values can be of fixed or variable length; they can be 
+alphabetic, numeric, special characters, or alphanumeric. Examples of data items and their values 
+are illustrated in Figure 13.5.
+Sometimes a data item is also referred to as a field. A field, however, represents something 
+physical, not logical. Therefore, many data items can be packed into a field; the field can be read 
+and converted to a number of data items. A common example of this is to store the date in a single 
+field as MM/DD/YYYY . To sort the file in order by date, three separate data items are extracted 
+from the field and sorted first by YYYY , then by MM, and finally by DD.
+Records. A record is a collection of data items that have something in common with the entity 
+described. Figure 13.6 illustrates a record with many related data items. The record shown is 
+for an order placed with a mail-order company. ORDER-#, LAST NAME, INITIAL, STREET 
+ADDRESS, CITY , STATE, and CREDIT CARD are all attributes. Most records are of fixed 
+length, so there is no need to determine the length of the record each time.
+Under certain circumstances (for instance, when space is at a premium), variable-length 
+records are used. A variable-length record is used as an alternative to reserving a large amount of 
+space for the longest possible record, such as the maximum number of visits a patient has made to 
+a physician. Each visit would contain many data items that would be part of the patient’s full record 
+(or file folder in a manual system). Later in this chapter, normalization of a relation is discussed. 
+Normalization is a process that eliminates repeating groups found in variable-length records.
+Keys. A key is one of the data items in a record that is used to identify a record. When a key 
+uniquely identifies a record, it is called a primary key. For example, ORDER-# can be a primary 
+FIGURE 13.4
+An entity-relationship diagram for 
+patient treatment. Attributes can 
+be listed alongside the entities. In 
+each case, the key is underlined.
+treatsis taken
+care of by
+insures subscribes
+to
+experiences
+is given to
+( Physician-Name,
+Physician-Address,
+Physician-Phone,
+Specialty)
+Patient-Address,
+Patient-Phone,
+Date-First-Visit)
+Carrier-Address,
+Plan-Description)
+( Patient-Name,
+includesbelongs
+to
+(Product-Name,
+Patient-Name,
+Description,
+Date,
+Symptom)
+( Product-Name,
+Dosage,
+Manufacturer,
+Amount)
+( Carrier-Name,
+Physician
+Patient
+Prescription
+Treatment
+Insurance
+Carrier
+
+
+===== BOOK PAGE 399 =====
+
+CHAPTER 13  •  DEsigning D ATAb A sEs     399
+key because only one number is assigned to each customer order. In this way, the primary key 
+identifies the real-world entity (customer order).
+Special care must be taken when designing the primary key. Often it is a sequential number 
+or a sequential number with a self-checking number (called a check digit) at the end of the digits. 
+At times there is some meaning built into the primary key, but defining a primary key based on an 
+attribute is considered a risk. If the attribute changes, the primary key will also change, creating 
+a dependency between the primary key and the data.
+An example of a primary key based on data is a state abbreviation for the state name or an 
+airline luggage code for an airport name. An attribute or a collection of attributes that can serve 
+as a primary key is called a candidate key. A primary key should be minimal and contain no more 
+attributes than those necessary to identify a record.
+A key is called a secondary key if it cannot uniquely identify a record. Secondary keys may 
+be unique or may identify multiple records in a database. Secondary keys can be used to select a 
+group of records that belong to a set (for example, orders from the state of New Jersey).
+When it is not possible to identify a record uniquely by using one of the data items found 
+in a record, a key can be constructed by choosing two or more data items and combining them. 
+FIGURE 13.5
+Typical values assigned to data 
+items may be numbers, alphabetic 
+characters, special characters, and 
+combinations of all three.
+Entity Data Item Value
+Salesperson
+Package
+Order
+Salesperson Number
+Salesperson Name
+Company Name
+Address
+Sales
+Width
+Height
+Length
+Weight
+Mailing Address
+Return Address
+Product(s)
+Description(s)
+Quantity Ordered
+Last Name of Customer
+First Initial
+Street Address
+City
+State
+Zip Code
+Credit Card Number
+Date Order Was Placed
+Amount
+Status
+87254
+Kaytell
+Music Unlimited
+45 Arpeum Circle
+$20,765
+2
+6
+6
+1
+765 Dulcinea Drive
+P.O. Box 341, Spring Valley, MN
+B521
+“My Fair Lady” compact disc
+1
+Owoh
+N
+765 Dulcinea Drive
+La Mancha
+CA
+93407
+65-8798-87
+01/03/2021
+$6.99
+Backordered
+FIGURE 13.6
+A record has a primary key and 
+may have many attributes.
+ORDER-# LAST NAME     INITIAL    STREET ADDRESS     CITY     STATE    CREDIT CARD
+Record
+Key Attributes
+
+
+===== BOOK PAGE 400 =====
+
+400    PART iV  •  THE EssEnTiALs  OF DEsign
+This key is called a concatenated key, or composite key. When a data item is used as a key in a 
+record, the description is underlined. Therefore, in the ORDER record (ORDER-#, LAST NAME, 
+INITIAL, STREET ADDRESS, CITY , STATE, CREDIT CARD), the key is ORDER-#. If an 
+attribute is a key in another file, it should be underlined with a dashed line.
+Some databases allow a developer to use an object identifier (OID), which is a unique key 
+for each record in the database, not just in a table. Given an object identifier, one record will 
+be obtained regardless of the table on which it exists. This may be included with an order or a 
+payment confirmation, along with a message like, “This is your confirmation number.”
+Metadata. Metadata are data about the data in a file or database. Metadata describe the name 
+given and the length assigned to each data item. Metadata also describe the length and composi-
+tion of each of the records.
+Figure 13.7 is an example of metadata for a database for some generic software. The length 
+of each data item is indicated according to a convention; for example, 7.2 means that seven spaces 
+are reserved for the number, two of which are to the right of the decimal point. The letter N signi-
+fies “numeric,” and the A stands for “alphanumeric.” The D stands for “date” and is automatically 
+in the form MM/DD/YYYY . Some programs, such as Microsoft Access, use plain English for 
+metadata, so words such as text, currency, and number are used.
+Files
+A file contains groups of records used to provide information for operations, planning, manage-
+ment, and decision making. The types of files used are discussed next, followed by a description 
+of the many ways conventional files can be organized.
+FIGURE 13.7
+Metadata include a description of 
+what the value of each data item 
+looks like.
+Data Item Value
+Salesperson Number
+Salesperson Name
+Company Name
+Address
+Sales
+Width
+Height
+Length
+Weight
+Mailing Address
+Return Address
+Product(s)
+Description(s)
+Quantity Ordered
+Last Name of Customer
+First Initial
+Street Address
+City
+State
+Zip Code
+Credit Card Number
+Date Order Was Placed
+Amount
+Status
+N 5
+A 20
+A 26
+A 36
+N 9.2
+N 2
+N 2
+N 2
+N 2
+A 36
+A 36
+A 4
+A 30
+N 2
+A 24
+A 1
+A 28
+A 12
+A 2
+N 9
+N 10
+D 8  MM/DD/YYYY
+$ 7.2
+A 22
+Fields
+N Numeric
+A Alphanumeric or text
+D Date MM/DD/YYYY
+$ Currency
+M Memo
+Special formats
+for ﬁelds may
+be speciﬁed.
+7. 2 means that
+the ﬁeld takes up
+7 digits, two of 
+which are right of
+the decimal.
+
+
+===== BOOK PAGE 401 =====
+
+CHAPTER 13  •  DEsigning D ATAb A sEs     401
+File Types. Files can be used for storing data for an indefinite period of time, or they can be 
+used to store data temporarily for a specific purpose. Master files and table files are used to 
+store data for a long period. Temporary files are usually called transaction files, work files, or 
+report files.
+Master Files Master files contain records for a group of entities. The attributes may be updated 
+often, but the records themselves are relatively permanent. These files tend to have large records 
+containing all the information about a data entity. Each record usually contains a primary key and 
+several secondary keys.
+Although an analyst is free to arrange the data elements in a master file in any order, a stan-
+dard arrangement is to place the primary key field first, followed by descriptive elements, and 
+finally by elements that change frequently with business activities. Examples of a master file 
+include patient records, customer records, a personnel file, and a parts inventory file.
+Table Files  A table file contains data used to calculate more data or performance measures. 
+One example is a table of postage rates used to determine the shipping costs of a package. Another 
+example is a tax table. Table files are usually read only by a program.
+Transaction Files A transaction file is used to enter changes that update the master file and pro-
+duce reports. Suppose a newspaper subscriber master file needs to be updated; the transaction 
+file would contain the subscriber number and a transaction code such as E for extending the 
+subscription, C for canceling the subscription, or A for address change. Then only information 
+relevant to the updating needs to be entered; that is, the length of renewal if E and the address if 
+A. No additional information would be needed if the subscription were canceled. The rest of the 
+information already exists in the master file. Transaction files may contain several different types 
+of records, such as the three used for updating the newspaper subscription master, with a code on 
+the transaction file indicating the type of transaction.
+Report Files When it is necessary to print a report when no printer is available (for example, when 
+the printer is busy printing other jobs), a report file is used. Sending the output to a file rather 
+than a printer is called spooling. Later, when the device is ready, the document can be printed. 
+Report files are very useful because users can take files to other computer systems and output to 
+specialty devices.
+Relational Databases
+Databases can be organized in several ways. The most common type of database is a relational 
+database. A relational database is organized in meaningful tables, which minimizes the repetition 
+of data, which in turn minimizes errors and storage space.
+Logical and Physical Views of Data. A database, unlike a file, is intended to be shared by many 
+users. It is clear that users see data in different ways. We refer to the way a user pictures and 
+describes the data as a user view. The problem, however, is those different users have different 
+user views. These views need to be examined by the systems analyst so an overall logical model 
+of the database can be developed. Finally, the logical view of the database must be transformed 
+into a corresponding physical database design. The physical view is involved with how data are 
+stored and related, as well as how they are accessed.
+In database literature, views are referred to as schema. Figure 13.8 shows how the user reports 
+and user views (user schema) are related to the logical model (conceptual schema) and physical 
+design (internal schema).
+There are three main types of logically structured databases: hierarchical, network, and 
+relational. The first two types may be found in legacy (older) systems. An analyst today would 
+typically design a relational database.
+Relational Data Structures. A relational data structure consists of one or more two-dimensional 
+tables, which are referred to as relations. The rows of the table represent the records, and the 
+columns contain attributes.
+Figure 13.9 shows the relational structure for a music CD ordering database. Here, 
+three tables are needed to (1) describe the items and keep track of the current price of CDs
+
+
+===== BOOK PAGE 402 =====
+
+402    PART iV  •  THE EssEnTiALs  OF DEsign
+(ITEM PRICE), (2) describe the details of the order (ORDER), and (3) identify the status of the 
+order (ITEM STATUS).
+To determine the price of an item, we need to know the item number to be able to find it in 
+the relation ITEM PRICE. To update G. MacRae’s credit card number, we can search the ORDER 
+relation for MacRae and correct it only once, even though he ordered many CDs. To find out the 
+status of part of an order, however, we must know the ITEM-# and ORDER-#, and then we must 
+locate that information in the relation ITEM STATUS.
+Maintaining the tables in a relational structure is usually quite simple compared to maintaining 
+a hierarchical or network structure. One of the primary advantages of relational structures is that 
+ad hoc queries are handled efficiently.
+When relational structures are discussed in database literature, different terminology is often 
+used. A file is called either a table or a relation, a record is usually referred to as a tuple, and the 
+attribute value set is called a domain.
+For relational structures to be useful and manageable, the relational tables must first be 
+normalized.
+NORMALIZATION
+Normalization is the transformation of complex user views and data stores to a set of smaller, 
+stable data structures. In addition to being simpler and more stable, normalized data structures 
+are more easily maintained than other data structures.
+FIGURE 13.8
+Database design includes synthe-
+sizing user reports, user views, and 
+logical and physical designs.
+User Reports
+(Tabular Outputs, Graphs, etc.)
+Conceptual Schema
+(Logical Design Model of the Database)
+Internal Schema
+(Physical Design Model of the Database)
+User Views or User Schema
+(User’s Description of Data Needed)
+
+
+===== BOOK PAGE 403 =====
+
+CHAPTER 13  •  DEsigning D ATAb A sEs     403
+The Three Steps of Normalization
+Beginning with either a user view or a data store developed for a data dictionary (see Chapter 8), 
+an analyst normalizes a data structure in three steps, as shown in Figure 13.10. Each step involves 
+an important procedure that simplifies the data structure.
+The relation derived from the user view or data store will most likely be unnormalized. The 
+first stage of the process involves removing all repeating groups and identifying the primary key. 
+To do so, the relation needs to be broken up into two or more relations. At this point, the relations 
+may already be of the third normal form, but it is likely more steps will be needed to transform 
+the relations to the third normal form.
+The second step involves ensuring that all nonkey attributes are fully dependent on the pri-
+mary key. All partial dependencies are removed and placed in another relation.
+The third step involves removing any transitive dependencies. A transitive dependency is 
+one in which nonkey attributes are dependent on other nonkey attributes.
+A Normalization Example
+Figure 13.11 is a user view for the Al S. Well Hydraulic Equipment Company. The report shows 
+the (1) SALESPERSON-NUMBER, (2) SALESPERSON-NAME, and (3) SALES-AREA. The 
+body of the report shows the (4) CUSTOMER-NUMBER and (5) CUSTOMER-NAME. Next 
+is the (6) WAREHOUSE-NUMBER that will service the customer, followed by the (7) WARE-
+HOUSE-LOCATION, which is the city in which the company is located. The final information 
+contained in the user view is the (8) SALES-AMOUNT. The rows (one for each customer) on the 
+user view show that items 4 through 8 form a repeating group.
+If the analyst were using a data flow/data dictionary approach, the same information in the 
+user view would appear in a data structure. Figure 13.12 shows how the data structure would 
+FIGURE 13.9
+In a relational data structure, data 
+are stored in many tables.
+B235 Guys and Dolls 8.99
+B521 My Fair Lady 6.99
+B894 42nd Street 10.99
+B992 A Chorus Line 10.99
+B235 10784 Shipped 5/12
+B235 19796 Shipped 5/14
+B235 11872 In Process
+B521 11821 In Process
+B894 11845 Backordered
+B894 11872 Shipped 5/12
+B992 10784 Shipped 5/12
+10784 MacRae G 2314 Curly Circle Lincoln NE 45-4654-76
+10796 Jones S 34 Dream Lane Oklahoma City OK 44-9876-74
+11821 Preston R 1008 Madison Ave. River City IA 34-7642-64
+11845 Channing C 454 Harmonia St. New York NY 34-0876-87
+11872 Owoh N 765 Dulcinea Drive La Mancha CA 65-8798-87
+ORDER-# LAST NAME
+ORDER-#ITEM-# STATUS
+TITLEITEM-# PRICE
+STREET ADDRESS CHARGE ACCTCITYI ST
+ITEM PRICE
+ITEM STATUS
+ORDER
+
+
+===== BOOK PAGE 404 =====
+
+404    PART iV  •  THE EssEnTiALs  OF DEsign
+appear at the data dictionary stage of analysis. The repeating group is also indicated in the data 
+structure by an asterisk (*) and indentation.
+Before proceeding, note the data associations of the data elements in Figure 13.13. This type 
+of illustration is called a bubble diagram or a data model diagram. Each entity is enclosed in 
+an ellipse, and arrows are used to show the relationships. Although it is possible to draw these 
+relationships with an E-R diagram, it is sometimes easier to use the simpler bubble diagram to 
+model the data.
+FIGURE 13.10
+Normalization of a relation is 
+accomplished in three major steps.
+Step 1 Remove Repeating Groups
+Step 2 Remove Partial Dependencies
+Step 3 Remove Transitive Dependencies
+Third Normal
+Form Relations
+(3NF)
+Normalized
+Relations
+(1NF)
+Unnormalized
+Relationship
+Second Normal
+Form Relations
+(2NF)
+User
+Views
+FIGURE 13.11
+A user report for the Al S. Well 
+Hydraulic Equipment Company.
+CUSTOMER
+NUMBER SALESCUSTOMER
+NAME
+WAREHOUSE
+NUMBER
+WAREHOUSE
+LOCATION
+Salesperson #:  3462
+Name:  Ruwa
+Sales Area:  West
+Al S. Well
+Hydraulic Equipment Company
+Spring Valley, Minnesota
+18765 Delta Services 4 Fargo 13,540
+18830 M. Levy and Sons 3 Bismarck 10,600
+
+
+===== BOOK PAGE 405 =====
+
+CHAPTER 13  •  DEsigning D ATAb A sEs     405
+In this example, there is only one SALESPERSON-NUMBER assigned to each SALES-
+PERSON-NAME, and that person will cover only one SALES-AREA, but each SALES-AREA 
+may be assigned to many salespeople, hence the double arrow notation from SALES-AREA 
+to SALESPERSON-NUMBER. For each SALESPERSON-NUMBER, there may be many 
+CUSTOMER-NUMBER(s).
+Furthermore, there would be a one-to-one correspondence between CUSTOMER-NUMBER 
+and CUSTOMER-NAME; the same is true for WAREHOUSE-NUMBER and WAREHOUSE-
+LOCATION. CUSTOMER-NUMBER will have only one WAREHOUSE-NUMBER and 
+FIGURE 13.12
+The analyst would find a data 
+structure (from a data dictionary) 
+useful in developing a database.
+SALESPERSON-NUMBER
+SALESPERSON-NAME
+SALES-AREA
+CUSTOMER-NUMBER* (1-)
+     CUSTOMER-NAME
+     WAREHOUSE-NUMBER
+     WAREHOUSE-LOCATION
+     SALES-AMOUNT
+FIGURE 13.13
+Drawing data model diagrams for 
+data associations sometimes helps 
+analysts appreciate the complexity 
+of data storage.
+SALES-AREA
+CUSTOMER-
+NAME
+WAREHOUSE-
+LOCATION
+WAREHOUSE-
+LOCATION
+SALES-AMOUNT
+SALESPERSON-
+NUMBER
+CUSTOMER-
+NUMBER
+WAREHOUSE-
+NUMBER
+WAREHOUSE-
+NUMBER
+CUSTOMER-
+NUMBER
+SALESPERSON-
+NUMBER
++
+CUSTOMER-
+NUMBER
+SALESPERSON-
+NAME
+
+
+===== BOOK PAGE 406 =====
+
+406    PART iV  •  THE EssEnTiALs  OF DEsign
+WAREHOUSE-LOCATION, but each WAREHOUSE-NUMBER or WAREHOUSE-LOCATION 
+may service many CUSTOMER-NUMBER(s). Finally, to determine the SALES-AMOUNT for 
+one salesperson’s calls to a particular company, it is necessary to know both the SALESPERSON-
+NUMBER and the CUSTOMER-NUMBER.
+The main objective of the normalization process is to simplify all the complex data items that 
+are often found in user views. For example, if the analyst were to take the user view just discussed 
+and attempt to make a relational table out of it, the table would look like Figure 13.14. Because 
+this relation is based on our initial user view, we refer to it as SALES-REPORT.
+SALES-REPORT is an unnormalized relation because it has repeating groups. It is impor-
+tant to observe that a single attribute such as SALESPERSON-NUMBER cannot serve as the key. 
+The reason is clear when one examines the relationships between SALESPERSON-NUMBER 
+and the other attributes in Figure 13.15. Although there is a one-to-one correspondence between 
+SALESPERSON-NUMBER and two attributes (SALESPERSON-NAME and SALES-AREA), 
+there is a one-to-many relationship between SALESPERSON-NUMBER and the other five 
+attributes (CUSTOMER-NUMBER, CUSTOMER-NAME, WAREHOUSE-NUMBER, WARE-
+HOUSE-LOCATION, and SALES-AMOUNT).
+FIGURE 13.14
+If the data were listed in an unnor-
+malized table, there could be 
+repeating groups.
+SALESPERSON
+NUMBER
+SALESPERSON
+NAME
+SALES
+AREA
+CUSTOMER
+NAME
+CUSTOMER
+NUMBER
+WAREHOUSE
+NUMBER
+WAREHOUSE
+LOCATION
+SALES
+AMOUNT
+3462 Ruwa West 18765 Delta Systems 4 Fargo 13,540
+18830 M. Levy and Sons 3 Bismarck 10,600
+19242 Ranier Company 3 Bismarck 9,700
+3593 Dryne East 18841 R. W. Flood Inc. 2 Superior 11,560
+18899 Seward Systems 2 Superior 2,590
+19565 Stodola’s Inc. 1 Plymouth 8,800
+etc.
+FIGURE 13.15
+A data model diagram shows 
+that in the unnormalized relation, 
+SALESPERSON-NUMBER, has 
+a one-to-many association with 
+some attributes.
+CUSTOMER-
+NUMBER
+CUSTOMER-
+NAME
+SALESPERSON-
+NAME
+SALES-AREA
+WAREHOUSE-
+NUMBER
+WAREHOUSE-
+LOCATION
+SALES-AMOUNT
+SALESPERSON-
+NUMBER
+
+
+===== BOOK PAGE 407 =====
+
+CHAPTER 13  •  DEsigning D ATAb A sEs     407
+FIGURE 13.16
+The original unnormalized relation 
+SALES-REPORT is separated into 
+two relations, SALESPERSON 
+(3NF) and SALESPERSON- 
+CUSTOMER (1NF).
+3462 Ruwa West
+3593 Dryne East
+etc.
+SALESPERSON
+SALES-REPORT
+SALESPERSON-CUSTOMER
+3462 18765 Delta Systems 4 Fargo 13,540
+3462 18830 M. Levy and Sons 3 Bismarck 10,600
+3462 19242 Ranier Company 3 Bismarck 9,700
+3593 18841 R. W. Flood Inc. 2 Superior 11,560
+3593 18899 Seward Systems 2 Superior 2,590
+3593 19565 Stodola’s Inc. 1 Plymouth 8,800
+etc.
+SALESPERSON
+NUMBER
+SALESPERSON
+NUMBER
+SALESPERSON
+NAME
+SALESPERSON
+NAME
+SALES
+AREA
+SALES
+AREA
+CUSTOMER
+NUMBER
+CUSTOMER
+NAME
+WAREHOUSE
+NUMBER
+WAREHOUSE
+LOCATION
+SALES
+AMOUNT
+CUSTOMER
+NUMBER
+CUSTOMER
+NAME
+WAREHOUSE
+NUMBER
+WAREHOUSE
+LOCATION
+SALES
+AMOUNT
+SALESPERSON
+NUMBER
+SALES-REPORT can be expressed in the following shorthand notation:
+SALES-REPORT (SALESPERSON-NUMBER, 
+SALESPERSON-NAME, SALES-AREA, 
+(CUSTOMER-NUMBER, 
+CUSTOMER-NAME, 
+WAREHOUSE-NUMBER, 
+WAREHOUSE-LOCATION, 
+SALES-AMOUNT))
+where the inner set of parentheses represents the repeated group.
+First Normal Form. The first step in normalizing a relation, the first normal form (1NF), is to 
+remove the repeating groups. In our example, the unnormalized relation SALES-REPORT will 
+be broken into two separate relations. These new relations will be named SALESPERSON and 
+SALESPERSON-CUSTOMER.
+Figure 13.16 shows how the original, unnormalized relation SALES-REPORT is normalized 
+by separating the relation into two new relations. Notice that the relation SALESPERSON con-
+tains the primary key SALESPERSON-NUMBER and all the attributes that were not repeating 
+(SALESPERSON-NAME and SALES-AREA).
+The second relation, SALESPERSON-CUSTOMER, contains the primary key from the 
+relation SALESPERSON (the primary key of SALESPERSON is SALESPERSON-NUMBER), 
+as well as all the attributes that were part of the repeating group (CUSTOMER-NUMBER, 
+CUSTOMER-NAME, WAREHOUSE-NUMBER, WAREHOUSE-LOCATION, and SALES-
+AMOUNT). Knowing the SALESPERSON-NUMBER, however, does not automatically mean 
+that you will know the CUSTOMER-NAME, SALES-AMOUNT, WAREHOUSE-LOCATION, 
+and so on. In this relation, one must use a concatenated key (both SALESPERSON-NUMBER and
+
+
+===== BOOK PAGE 408 =====
+
+408    PART iV  •  THE EssEnTiALs  OF DEsign
+CUSTOMER-NUMBER) to access the rest of the information. It is possible to write the relations 
+in shorthand notation as follows:
+SALESPERSON (SALESPERSON-NUMBER, 
+SALESPERSON-NAME, SALES AREA)
+and
+SALESPERSON-CUSTOMER (SALESPERSON-NUMBER,
+CUSTOMER-NUMBER, 
+CUSTOMER-NAME, 
+WAREHOUSE-NUMBER, 
+WAREHOUSE-LOCATION, 
+SALES-AMOUNT)
+The relation SALESPERSON-CUSTOMER is a first normal relation, but it is not in its ideal 
+form. Problems arise because some of the attributes are not functionally dependent on the primary 
+key (that is, SALESPERSON-NUMBER, CUSTOMER-NUMBER). In other words, some of the 
+nonkey attributes are dependent only on CUSTOMER-NUMBER and not on the concatenated 
+key. The data model diagram in Figure 13.17 shows that SALES-AMOUNT is dependent on 
+both SALESPERSON-NUMBER and CUSTOMER-NUMBER, but the other three attributes are 
+dependent only on CUSTOMER-NUMBER.
+Second Normal Form. In the second normal form (2NF), all the attributes will be functionally 
+dependent on the primary key. Therefore, the next step is to remove all the partially dependent 
+attributes and place them in another relation. Figure 13.18 shows how the relation SALESPER-
+SON-CUSTOMER is split into two new relations: SALES and CUSTOMER-WAREHOUSE. 
+The relation CUSTOMER-WAREHOUSE is in the second normal form. It can still be simplified 
+further because there are additional dependencies in the relation. Some of the nonkey attributes 
+are dependent not only on the primary key but also on a nonkey attribute. This dependency is 
+referred to as a transitive dependency.
+These relations can also be expressed as follows:
+SALES (SALESPERSON-NUMBER, CUSTOMER-NUMBER, 
+SALES-AMOUNT)
+and
+CUSTOMER-WAREHOUSE (CUSTOMER-NUMBER, CUSTOMER-NAME, 
+WAREHOUSE-NUMBER, WAREHOUSE-LOCATION)
+FIGURE 13.17
+A data model diagram shows that 
+three attributes are dependent on 
+CUSTOMER-NUMBER, so the 
+relation is not yet normalized. 
+Both SALESPERSON-NUMBER 
+and CUSTOMER-NUMBER 
+are required to look up 
+SALES-AMOUNT.
+CUSTOMER-
+NAME
+WAREHOUSE-
+NUMBER
+WAREHOUSE-
+LOCATION
+CUSTOMER-
+NUMBER
+SALES-
+AMOUNT
+SALESPERSON-
+NUMBER
+
+
+===== BOOK PAGE 409 =====
+
+CHAPTER 13  •  DEsigning D ATAb A sEs     409
+Figure 13.19 shows the dependencies in the relation CUSTOMER-WAREHOUSE. For 
+the relation to be 2NF, all the attributes must be dependent on the primary key CUSTOMER-
+NUMBER, as shown in the diagram. WAREHOUSE-LOCATION, however, is obviously depen-
+dent on WAREHOUSE-NUMBER also. To simplify this relation, another step is required.
+FIGURE 13.18
+The relation SALESPERSON-
+CUSTOMER is separated into 
+a relation called CUSTOMER-
+WAREHOUSE (2NF) and a rela-
+tion called SALES (1NF).CUSTOMER
+NUMBER
+CUSTOMER
+NAME
+WAREHOUSE
+NUMBER
+WAREHOUSE
+LOCATION
+18765 Delta Systems 4 Fargo
+18830 M. Levy and Sons 3 Bismarck
+19242 Ranier Company 3 Bismarck
+18841 R. W. Flood Inc. 2 Superior
+18899 Seward Systems 2 Superior
+19565 Stodola’s Inc. 1 Plymouth
+etc.
+SALESPERSON
+NUMBER
+CUSTOMER
+NUMBER
+SALES
+AMOUNT
+SALESPERSON
+NUMBER
+SALES
+AMOUNT
+3462 18765 13,540
+3462 18830 10,600
+3462 19242 9,700
+3593 18841 11,560
+3593 18899 2,590
+3593 19565 8,800
+etc.
+SALESPERSON-CUSTOMER
+CUSTOMER-WAREHOUSE
+SALES
+CUSTOMER
+NUMBER
+CUSTOMER
+NAME
+WAREHOUSE
+NUMBER
+WAREHOUSE
+LOCATION
+FIGURE 13.19
+This data model diagram 
+shows that a transitive 
+dependency exists between 
+WAREHOUSE-NUMBER and 
+WAREHOUSE-LOCATION.
+CUSTOMER-
+NUMBER
+CUSTOMER-
+NAME
+WAREHOUSE-
+LOCATION
+WAREHOUSE-
+NUMBER
+
+
+===== BOOK PAGE 410 =====
+
+410    PART iV  •  THE EssEnTiALs  OF DEsign
+Third Normal Form. A normalized relation is in the third normal form (3NF) if all the nonkey 
+attributes are fully functionally dependent on the primary key and there are no transitive (nonkey) 
+dependencies. In a manner similar to the previous steps, it is possible to break apart the relation 
+CUSTOMER-WAREHOUSE into two relations, as shown in Figure 13.20.
+The two new relations are called CUSTOMER and WAREHOUSE and can be written as 
+follows:
+CUSTOMER (CUSTOMER-NUMBER, CUSTOMER-NAME, 
+WAREHOUSE-NUMBER)
+and
+WAREHOUSE (WAREHOUSE-NUMBER, WAREHOUSE- 
+LOCATION)
+The primary key for the relation CUSTOMER is CUSTOMER-NUMBER, and the primary key 
+for the relation WAREHOUSE is WAREHOUSE-NUMBER.
+In addition to these primary keys, we can identify WAREHOUSE-NUMBER to be a foreign 
+key in the relation CUSTOMER. A foreign key is any attribute that is nonkey in one relation but 
+a primary key in another relation. We designated WAREHOUSE-NUMBER as a foreign key in 
+the previous notation and in the figures by underscoring it with a dashed line: _ _ _ _ _ _.
+Finally, the original, unnormalized relation SALES-REPORT has been transformed into four 
+3NF relations. In reviewing the relations shown in Figure 13.21, we can see that the single relation 
+SALES-REPORT was transformed into the following four relations:
+SALESPERSON (SALESPERSON-NUMBER, SALESPERSON-NAME,  
+SALES-AREA)
+SALES (SALESPERSON-NUMBER, CUSTOMER-NUMBER, 
+SALES-AMOUNT)
+CUSTOMER (CUSTOMER-NUMBER,  
+CUSTOMER-NAME, WAREHOUSE-NUMBER)
+WAREHOUSE (WAREHOUSE-NUMBER,  
+WAREHOUSE-LOCATION)
+The 3NF is adequate for most database design problems. The simplification gained from 
+transforming an unnormalized relation into a set of 3NF relations is a tremendous benefit when it 
+comes time to insert, delete, and update information in the database.
+_ _ _ _ _ _ _ _ _ _ _ _ _
+FIGURE 13.20
+The relation CUSTOMER-
+WAREHOUSE is separated into 
+two relations called CUSTOMER 
+(1NF) and WAREHOUSE (1NF).
+18765 Delta Systems 4
+18830 M. Levy and Sons 3
+19242 Ranier Company 3
+18841 R. W. Flood Inc. 2
+18899 Seward Systems 2
+19565 Stodola’s Inc. 1
+etc.
+CUSTOMER
+CUSTOMER-WAREHOUSE
+4 Fargo
+3 Bismarck
+2 Superior
+1 Plymouth
+etc.
+WAREHOUSE
+CUSTOMER
+NUMBER
+CUSTOMER
+NAME
+WAREHOUSE
+NUMBER
+CUSTOMER
+NUMBER
+CUSTOMER
+NAME
+WAREHOUSE
+NUMBER
+WAREHOUSE
+LOCATION
+WAREHOUSE
+NUMBER
+WAREHOUSE
+LOCATION
+
+
+===== BOOK PAGE 411 =====
+
+CHAPTER 13  •  DEsigning D ATAb A sEs     411
+An E-R diagram for the database is shown in Figure 13.22. One SALESPERSON serves 
+many CUSTOMER(s), who generate SALES and receive their items from one WAREHOUSE (the 
+closest WAREHOUSE to their location). Take the time to notice how the entities and attributes 
+relate to the database.
+FIGURE 13.21
+The complete database consists of 
+four 1NF relations called SALES-
+PERSON, SALES, CUSTOMER, 
+and WAREHOUSE.
+SALESPERSON
+NAME
+SALES
+AREA
+3462 Ruwa West
+3593 Dryne East
+etc.
+SALESPERSON
+3462 18765 13,540
+3462 18830 10,600
+3462 19242 9,700
+3593 18841 11,560
+3593 18899 2,590
+3593 19565 8,800
+etc.
+SALES
+18765 Delta Systems 4
+18830 M. Levy and Sons 3
+19242 Ranier Company 3
+18841 R. W. Flood Inc. 2
+18899 Seward Systems 2
+19565 Stodola’s Inc. 1
+etc.
+CUSTOMER
+4 Fargo
+3 Bismarck
+2 Superior
+1 Plymouth
+etc.
+WAREHOUSE
+CUSTOMER
+NUMBER
+CUSTOMER
+NUMBER
+CUSTOMER
+NAME
+WAREHOUSE
+NUMBER
+WAREHOUSE
+NUMBER
+WAREHOUSE
+LOCATION
+SALESPERSON
+NUMBER
+SALESPERSON
+NUMBER
+SALES
+AMOUNT
+FIGURE 13.22
+An E-R diagram for the Al S. Well 
+Hydraulic Company database.
+(Salesperson-Number,
+Salesperson-Name,
+Sales-Area)
+generatesare
+made by
+are
+purchased
+by
+agrees
+to
+receives from
+sends to
+(Salesperson-Number,
+Customer-Number,
+Sales-Amount)
+(Customer-Number,
+Customer-Name,
+Warehouse-Number)
+(Warehouse-Number,
+Warehouse-Location)
+Salesperson
+Customer
+Sales
+Warehouse
+
+
+===== BOOK PAGE 412 =====
+
+412    PART iV  •  THE EssEnTiALs  OF DEsign
+Using an Entity-Relationship Diagram to Determine Record Keys
+An E-R diagram can be used to determine the keys required for a record or a database relation. 
+The first step is to construct the E-R diagram and label a unique (primary) key for each data entity. 
+Figure 13.23 shows an E-R diagram for a customer order system. There are three data entities: 
+CUSTOMER, with a primary key of CUSTOMER-NUMBER; ORDER, with a primary key of 
+ORDER-NUMBER; and ITEM, with ITEM-NUMBER  as the primary key. One CUSTOMER 
+may place many orders, but each ORDER can be placed by one CUSTOMER only, so the relation-
+ship is one-to-many. Each ORDER may contain many ITEM(s), and each ITEM may be contained 
+in many ORDER(s), so the ORDER-ITEM relationship is many-to-many.
+A foreign key is a data field on a given file that is the primary key of a different master file. For 
+example, a DEPARTMENT-NUMBER indicating a student’s major may exist on the STUDENT 
+MASTER table. DEPARTMENT-NUMBER could also be the unique key for the DEPARTMENT 
+MASTER table.
+One-to-Many Relationships
+A one-to-many relationship is the most common type of relationship because all many-to-many 
+relationships must be broken down into two or more one-to-many relationships. When a one-to-
+many relationship occurs, the primary key in placed on the table at the one end of the relationship 
+as a foreign key and on the many end of the relationship. For example, one customer may have 
+many orders, so you place the customer number on the order record.
+The design of web pages, displays, or reports that include information from only one record 
+of the many relationship, along with information from the one end of the relationship, is easy to 
+construct. The display will not have any repeating information. An example is an order inquiry 
+using an order number to look up a single order. Because the order is for one customer, the result 
+would be fields from the order and a single customer.
+Designing the reverse is more complicated because the table at the one end of the relation-
+ship may have many records for the many end. These are implemented in a variety of ways. For 
+a simple display screen, the information from the one end is displayed with a repeating number 
+of groups of information from the many end of the relationship. In Microsoft Access, this might 
+be a form with a subform, such as a customer with a subform of all the customers’ orders. If there 
+were a large number of records from the many end, scroll bars would appear.
+In simple situations, the relationship might be implemented using a drop-down list, with each 
+record from the many end becoming one entry in the one end; an example is the display of a car 
+along with a drop-down list containing all the models for the car. When designing websites, the 
+information from the one end might be at the top of the page, with multiple groups of data below 
+it or multiple links to the data. An example is one search engine topic resulting in many matching 
+links or one genre of music and many artists that match the genre.
+Many-to-Many Relationships
+With a many-to-many relationship, three tables are necessary: one for each data entity and one 
+for the relationship. The ORDER and ITEM entities in our example have a many-to-many rela-
+tionship. The primary key of each data entity is stored as a foreign key of the relational table. 
+The relational table may simply contain the primary keys for each data entity or may contain 
+additional data, such as the grade received for a course or the quantity of an item ordered. Refer 
+to the table layout illustrated in Figure 13.24. The ORDER-ITEM table contains information 
+about which order contains which items and provides a link between the ORDER table and the 
+ITEM MASTER table.
+The relationship table should be indexed on each foreign key—one for each of the tables in 
+the relationship—and may have a primary key consisting of a combination of the two foreign keys.  
+FIGURE 13.23
+An entity-relationship diagram for 
+customer orders.
+places
+Customer-Number
+contains
+Order-Number
+Customer-Number
+Item-Number
+Customer Order Item
+
+
+===== BOOK PAGE 413 =====
+
+CHAPTER 13  •  DEsigning D ATAb A sEs     413
+Often corporations will use a unique key, such as sequence number, as the primary key for 
+the relational table. To find many records from a second table given the first table, directly 
+read the relational table for the desired key. Locate the matching record in the second many table. 
+Continue to loop through the relational table until the desired key is no longer found. For example, 
+to find records in the ITEM MASTER for a specific record in the ORDER table, you directly 
+read the ORDER-ITEM table, using the ORDER-NUMBER as the index. Records are logically 
+sequenced based on the data in the index, so all records for the same ORDER-NUMBER are 
+grouped together. For each ORDER-ITEM record that matches the desired ORDER NUMBER, 
+directly read the ITEM MASTER table using the ITEM-NUMBER as an index.
+The logic is the same for the reverse situation, such as finding all the orders for a backordered 
+item that has been received. Use the desired ITEM-NUMBER to read the ORDER-ITEM table 
+directly. The ORDER-ITEM index is set to the ITEM-NUMBER. For all matching ORDER-
+ITEM records, use the ORDER-NUMBER to read the ORDER table directly. Finally, read the 
+CUSTOMER MASTER table directly to obtain the CUSTOMER-NAME and ADDRESS using 
+the CUSTOMER-NUMBER on the ORDER table.
+Relational tables may have relationships to more tables in the database than just the two to 
+which they directly connect. For example, there might be a relational table called Class or Section 
+to link students and courses because each student may take many courses, and each course may 
+have many students. The Section table may have a relationship to the Textbook or to the Instruc-
+tor for that section.
+GUIDELINES FOR MASTER FILE/DATABASE  
+RELATION DESIGN
+The following guidelines should be considered when designing master files or database relations:
+1. Each separate data entity should create a master database table. Do not combine two 
+distinct entities on one file. For example, items are purchased from vendors. The ITEM 
+MASTER table should contain only item information, and the VENDOR MASTER table 
+should contain only vendor information.
+2. A specific data field should exist only on one master table. For example, CUSTOMER 
+NAME should exist only on the CUSTOMER MASTER table, not on the ORDER table or 
+any other master table. The exceptions to this guideline are the key or index fields, which 
+may be on as many tables as necessary. If a report or screen needs information from many 
+tables, the indexes should provide the linkage for obtaining the required records.
+3. Each master table or database relation should have programs to create, read, update, and 
+delete (CRUD) the records. Ideally, only one program should add new records and only 
+one program should delete specified records. Many programs, however, may be respon-
+sible for changing data fields in the course of normal business activities. For example, a 
+CUSTOMER MASTER file may have a CURRENT BALANCE field that is increased 
+by the ORDER TOTAL in the order processing program and decreased by a PAYMENT 
+AMOUNT or an AMOUNT RETURNED from two additional programs.
+FIGURE 13.24
+With a many-to-many relationship, 
+three files are necessary.
+ORDER
+NUMBER
+CUSTOMER
+NUMBER
+ORDER
+DATE
+QUANTITY
+ORDERED
+ITEM
+NUMBER
+ITEM
+DECRIPTION
+ITEM
+COST
+ITEM
+PRICE
+QUANTITY
+ON HAND
+ORDER
+ORDER-ITEM
+ITEM MASTER
+ORDER
+NUMBER
+ITEM
+NUMBER
+The
+ORDER-ITEM
+serves as a link.
+
+
+===== BOOK PAGE 414 =====
+
+414    PART iV  •  THE EssEnTiALs  OF DEsign
+Integrity Constraints
+Integrity constraints are rules that govern changing and deleting records and that help keep the data 
+in the database accurate. Three types of integrity constraints apply to a database: entity integrity, 
+referential integrity, and domain integrity.
+Entity integrity constraints are rules that govern the composition of primary keys. The primary 
+key cannot have a null value, and if the primary key is a composite key, none of the component 
+fields in the key can contain a null value. Some databases allow you to define a unique constraint or 
+a unique key. This unique key identifies only one record, which is not a primary key. The difference 
+between a unique key and a primary key is that a unique key may contain a null value.
+Referential integrity governs the nature of records in a one-to-many relationship. The table 
+that is connected to the one end of the relationship is called the parent. The table connected to the 
+many end of the relationship is called the child table. Referential integrity means that all foreign 
+keys in the many table (the child table) must have a matching record in the parent table. Hence, 
+you cannot add a record in the child (many) table without a matching record in the parent table.
+You cannot change a primary key that has matching child table records. If you could change 
+the parent record, the result would be a child record that would have a different parent record 
+or an orphan record, or a child record without a parent record. Examples are a GRADE record 
+for a student that would not be on the STUDENT MASTER table and an ORDER record for a 
+CUSTOMER-NUMBER that did not exist. The last implication of referential integrity is that you 
+cannot delete a parent record that has child records. That would also lead to the orphan records 
+mentioned earlier.
+Microsoft Word, Excel, and PowerPoint are available for the Mac oper-
+ating system, but the only way to run Microsoft Access on a Mac is 
+to run Windows in virtualization mode or by booting into Windows. 
+However, there are a couple of other database options for the Mac. 
+One is FileMaker Pro by Claris (Claris is a subsidiary of Apple). 
+FileMaker Pro is a full relational database program that has support 
+for direct access to SQL databases. Its distinguishing characteristic 
+is that the screens, forms, and reports that access the database are 
+fully integrated with the database engine. Another option is to use 
+iDatabase by Apimac. iDatabase is a personal database that allows 
+users to efficiently gather information from the address book, calendar 
+application, Apple Mail, and Microsoft Excel, and then quickly 
+add new fields to create a customizable database. It has more than  
+20 ready-to-use templates, and users can exchange templates by email.
+MAC APPEAL
+FIGURE 13. MAC
+A screen from iDatabase, 
+available for the Mac operating 
+system. (Screenshot from 
+iDatabase, a personal database. 
+Copyright © by Apimac. 
+Reprinted with permission.)
+
+
+===== BOOK PAGE 415 =====
+
+CHAPTER 13  •  DEsigning D ATAb A sEs     415
+Referential integrity is implemented in two different ways. One way is to have a restricted 
+database, in which the system can update or delete a parent record only if there are no matching 
+child records. A cascaded database will delete or update all child records when a parent record is 
+deleted or changed (the parent triggers the changes).
+A restricted relationship is better when deleting records. You would not want to delete a 
+customer record and have all the outstanding invoices deleted as well! The cascaded approach is 
+better when changing records. If the primary key of a student record is changed, all the course 
+records for that student would have their foreign keys (the STUDENT NUMBER on the COURSE 
+MASTER) changed as well.
+Domain integrity rules are used to validate the data, such as table, limit, range, and other 
+validation checks. They are further explained in Chapter 15. The domain integrity rules are usually 
+stored in the database structure in one of two forms. Check constraints are defined at the table level 
+and can refer to one or more fields in the table. An example is that the DATE OF PURCHASE is 
+always less than or equal to the current date. Rules are defined at the database level as separate 
+objects and can be used with several fields. An example is a value that is greater than zero, used 
+to validate a number of elements.
+Anomalies
+Four anomalies may occur when creating database tables:
+1. Data redundancy
+2. Insert anomaly
+3. Deletion anomaly
+4. Update anomaly
+Data redundancy occurs when the same data are stored in more than one place in the database 
+(except for primary keys stored as foreign keys). This problem is solved by creating tables that 
+are in 3NF.
+An insert anomaly occurs when the entire primary key is not known and the database cannot 
+insert a new record, which would violate entity integrity. This problem usually occurs when the 
+primary key is a composite key containing several smaller attributes. An insert anomaly may be 
+avoided by using a sequence number for the primary key.
+A deletion anomaly happens when a record is deleted, resulting in the loss of other related 
+data. An example is an item that has a vendor number, and a particular item is the only reference 
+to a certain vendor. If that item is deleted, there would be no reference to the vendor record.
+An update anomaly results when a change to one attribute value either causes the database 
+to contain inconsistent data or causes multiple records to need changing. An example is when a 
+street name changes in a city. You might change some of the street names and not others, or you 
+will have to ensure that all street names have been changed. This can occur when you have transi-
+tive dependencies and may be prevented by creating tables that are in 3NF (although in the street 
+example the data may be in 3NF).
+MAKING USE OF A DATABASE
+Several steps must be taken in sequential order to ensure that the database will be useful for 
+presenting data.
+Steps in Retrieving and Presenting Data
+There are eight steps in the retrieval and presentation of data:
+1. Choose a relation from the database.
+2. Join the relations together.
+3. Project columns from the relation.
+4. Select rows from the relation.
+5. Derive new attributes.
+
+
+===== BOOK PAGE 416 =====
+
+416    PART iV  •  THE EssEnTiALs  OF DEsign
+6. Index or sort rows.
+7. Calculate totals and performance measures.
+8. Present the data.
+The first and last steps must be done, but the six steps in between are optional, depending on how 
+data are to be used. Figure 13.25 is a visual guide to the steps.
+The final step in the retrieval of data is presentation. Presentation of the data abstracted 
+from the database can take many forms. Sometimes the data will be presented in tabular form, 
+sometimes in graphs, and other times as a single-word answer on a screen. Output design 
+(see Chapter 11) provides a more detailed look at presentation objectives, forms, and methods.
+FIGURE 13.25
+Data are retrieved and presented in 
+eight distinct steps.
+Choose a relation(s)
+from the database.
+Join the relations
+together.
+Project columns from
+the relation.
+Select rows from
+the relation.
+Derive new attributes.
+Index or sort rows.
+Calculate totals and
+performance measures.
+Present data.REPORT
+
+
+===== BOOK PAGE 417 =====
+
+CHAPTER 13  •  DEsigning D ATAb A sEs     417
+DENORMALIZATION
+One of the main reasons for normalization is to organize data in order to reduce redundant data. 
+If you are not required to store the same data repeatedly, you can save a great deal of space. Such 
+organization allows an analyst to reduce the amount of storage needed, which was very important 
+when storage was expensive.
+To use normalized data, we must progress through a series of steps that involve joining, 
+sorting, and summarizing. When speed of querying the database (that is, asking a question and 
+requiring a rapid response) is critical, it may be important to store data in other ways.
+Denormalization is the process of transforming a logical data model into a physical model that 
+is efficient for the most-often-needed tasks. These tasks can include report generation, but they also 
+can mean more efficient queries. Complex queries such as online analytical processing (OLAP), 
+as well as data mining and knowledge data discovery processes, also use denormalized databases.
+Denormalization can be accomplished in several different ways. Figure 13.26 depicts some 
+of these approaches. In a many-to-many relationship, such as that of SALESPERSON and CUS-
+TOMER, which share the associative entity SALES, the attributes from SALESPERSON and 
+SALES can be combined to avoid one of the join processes. This may result in a considerable 
+amount of data duplication, but it makes the queries about sales patterns more efficient.
+Another reason for denormalization is to avoid repeated reference to a look-up table. It may be 
+more efficient to repeat the same information—for example, the city, state, and postal code—even 
+though this information can usually be stored as a postal code only. Hence, in the sales example, 
+CUSTOMER and WAREHOUSE may be combined.
+Finally, we look at one-to-one relationships because they are very likely to be combined 
+for practical reasons. If we learn that many of the queries regarding orders are also interested in 
+how the order was shipped, it makes sense to combine, or denormalize. Hence, in the example, 
+some of the details can appear in both ORDER-DETAILS and SHIPPING-DETAILS when we 
+go through denormalization.
+DATA WAREHOUSES
+Data warehouses differ from traditional databases. The purpose of a data warehouse is to organize 
+information for quick and effective queries. Data warehouses are seen as a critical part of business 
+intelligence. In effect, they store denormalized data, but they go one step further. They organize 
+data around subjects. Most often, a data warehouse consists of more than one database in which 
+the data represented are processed in uniform ways. The data stored in data warehouses comes 
+from different sources, usually databases that were set up for different purposes.
+The data warehouse concept is unique. Differences between data warehouses and traditional 
+databases include the following:
+1. In a data warehouse, data are organized around major subjects rather than individual 
+transactions.
+2. Data in a data warehouse are typically stored as summarized data rather than the detailed, 
+raw data found in a transaction-oriented database.
+3. Data in a data warehouse cover a much longer time frame than data in traditional 
+transaction-oriented databases because queries usually concern longer-term decision 
+making rather than daily transaction details.
+4. Most data warehouses are organized for fast queries, whereas more traditional databases 
+are normalized and structured to provide efficient storage of information.
+5. Data warehouses are usually optimized for answering complex queries, known as OLAP, 
+from managers and analysts rather than simple, repeatedly asked queries.
+6. Data warehouses allow easy access via data-mining software (called siftware) that searches 
+for patterns and can identify relationships not imagined by human decision makers.
+7. Data warehouses include not just one but multiple databases that have been processed so that 
+the warehouse’s data are defined uniformly. These databases are referred to as clean data.
+8. Data warehouses usually include data from outside sources (such as an industry report, the 
+company’s Security and Exchange Commission filing, or even information about competi-
+tors’ products), as well as data generated for internal use.
+
+
+===== BOOK PAGE 418 =====
+
+418    PART iV  •  THE EssEnTiALs  OF DEsign
+FIGURE 13.26
+Three examples of denormalization in order to make access more efficient.
+SALESPERSON
+SALESPERSON
+NUMBER
+SALESPERSON
+NAME
+SALES
+AREA
+SALESPERSON-SALES-DENORMALIZED
+SALESPERSON
+NUMBER
+CUSTOMER
+NUMBER
+CUSTOMER
+NUMBER
+SALES
+AMOUNT
+SALES
+WAREHOUSE
+NUMBER
+WAREHOUSE
+LOCATION
+WAREHOUSE
+CUSTOMER
+NUMBER
+CUSTOMER
+NAME
+SALES
+AMOUNT
+WAREHOUSE
+NUMBER
+CUSTOMER
+CUSTOMER
+NUMBER
+CUSTOMER
+NAME
+WAREHOUSE
+NUMBER
+WAREHOUSE
+LOCATION
+CUSTOMER-DENORMALIZED
+CUSTOMER
+NUMBER
+CUSTOMER
+NAME
+ORDER
+NUMBER
+ORDER
+DATE
+ORDER
+AMOUNT
+ORDER-DETAILS
+ORDER-DETAILS-DENORMALIZED
+SHIPPING
+NUMBER
+SHIP-TO
+NAME
+SHIP-TO
+ADDRESS
+SHIPPING
+DATE
+SHIPPING
+METHOD
+CUSTOMER
+NUMBER
+SHIPPING-DETAILS
+SHIPPING
+NUMBER
+SHIP-TO
+NAME
+SHIP-TO
+ADDRESS
+SHIPPING
+DATE
+SHIPPING
+METHOD
+CUSTOMER
+NUMBER
+SHIPPING-DETAILS-DENORMALIZED
+ORDER
+NUMBER
+ORDER
+DATE
+SALESPERSON
+NUMBER
+SALESPERSON
+NAME
+SALES
+AREA
+CUSTOMER
+NUMBER
+CUSTOMER
+NAME
+ORDER
+NUMBER
+ORDER
+DATE
+ORDER
+AMOUNT
+SHIPPING
+NUMBER
+SHIP-TO
+NAME
+SHIP-TO
+ADDRESS
+SHIPPING
+DATE
+Combining an
+entity with an
+associative
+entity
+Combining
+1 : 1
+relationshipsCombining 
+look-up
+tables
+
+
+===== BOOK PAGE 419 =====
+
+CHAPTER 13  •  DEsigning D ATAb A sEs     419
+Building a data warehouse is a monumental task. An analyst needs to gather data from a 
+variety of sources and translate those data into a common form. For example, one database may 
+store information about internal customers as “I” and external customers as “E,” another may store 
+it as “Int” and “Ext,” and a third may store it as “1” and “0.” An analyst needs to set a standard 
+and convert all the data to the same format.
+Once the data are clean, the analyst must decide how to summarize the data. Once summa-
+rized, the detail is lost, so an analyst has to predict the type of queries that might be asked.
+Then the analyst needs to design the data warehouse by logically organizing, and perhaps 
+even physically clustering, the data by subject, requiring much analysis and design. The analyst 
+needs to know a substantial amount about the business.
+Typical data warehouses tend to be from 50 gigabytes to tens of terabytes in size. Because 
+they are large, they are also expensive. Most data warehouses cost millions of dollars.
+Online Analytical Processing
+First introduced in 1993 by E. F. Codd, online analytical processing (OLAP)  was meant to 
+answer decision makers’ complex questions. Codd concluded that a decision maker had to look 
+at data in several different ways. Therefore, the database itself had to be multidimensional. Many 
+people picture OLAP as the Rubik’s Cube of data. You can look at the data from all different sides 
+and can manipulate the data by twisting or turning it so it makes sense.
+This OLAP approach validated the concept of data warehouses. It then made sense for data 
+to be organized in ways that allowed efficient queries. Of course, OLAP involves the processing 
+of data through manipulation, summarization, and calculation, so more than a data warehouse 
+is involved. Business intelligence (coming up in a later section) includes querying as well as 
+reporting OLAP and sending a variety of notifications to users.
+Data Mining
+Data mining can identify patterns a human is unable to detect. Either the decision maker may not 
+be able to see a pattern, or perhaps the decision maker is not able to think about asking whether 
+that pattern exists. Data-mining algorithms search data warehouses for patterns using algorithms. 
+Figure 13.27 illustrates the concept of data mining.
+another. I don’t know if it depends on their income level or the inter-
+est they have in leisure activities. Sports, for example.”
+“I see, Esther See,” Bill chuckles at his own joke, “but do you 
+have anything in mind?”
+“Yes, Bill,” she says more formally. “We should organize the 
+data we have about our customers using a data warehouse concept. 
+We can merge the data we have with data from other sources. Then 
+we can look for patterns in our data. Maybe we can identify existing 
+patterns and predict new trends.”
+Think about how you would organize a data warehouse for 
+Marathon Vitamin Shops. What other databases would you like 
+to merge into the data warehouse? What sort of patterns should 
+Bill Berry be looking for? Identify these patterns by type (asso-
+ciations, sequences, clustering, or trends) and discuss them in a 
+page or two.
+CONSULTING OPPORTUNITY 13.2 
+Storing Minerals for Health, Data for Mining
+O ne of Marathon Vitamin Shops’ employees, Esther See, 
+approaches the owner, Bill Berry, about an observation she had. 
+“I’ve noticed that our customers have different habits. Some come in 
+regularly, and others are less predictable,” Esther says. “When I see a 
+regular customer, I pride myself on knowing what the customer will 
+buy and maybe even suggest other vitamins the customer might like. 
+I think I generate more sales that way. The customer is happier too.”
+Esther continues, “I wish I could be better at helping out some 
+of the customers who come in less frequently, though.”
+“That’s a very nurturing attitude, Esther, and it helps out our 
+store as well,” Bill replies. “I know that we can benefit in other ways 
+by getting a better handle on customer patterns. For instance, we can 
+be sure that we have an item in stock.”
+Esther nods in agreement and adds, “It’s not just the type of 
+vitamin I’m talking about. Some customers prefer one brand over
+
+
+===== BOOK PAGE 420 =====
+
+420    PART iV  •  THE EssEnTiALs  OF DEsign
+The types of patterns decision makers try to identify include associations, sequences, 
+clustering, and trends. Associations are patterns that occur together at the same time. For example, 
+a person who buys cereal usually buys milk to go with the cereal. Sequences, on the other hand, 
+are patterns of actions that take place over a period of time. For example, if a family buys a house 
+this year, it will most likely buy durables (a refrigerator or washer and dryer) next year. Clustering 
+is the pattern that develops among a group of people. For example, customers who live in a 
+particular zip code may tend to buy a particular car. Finally, trends are patterns that are noticed 
+over a period of time. For example, consumers may move from buying generic goods to buying 
+premium brand-name products.
+The concept of data mining came from the desire to use a database for more selective target-
+ing of customers. Early approaches to direct mail included using zip code information as a way 
+to determine what a family’s income might be (assuming that a family must generate sufficient 
+income to afford to live in the prestigious Beverly Hills zip code 90210 or some other affluent 
+neighborhood). It was a way (not perfect, of course) to limit the number of catalogs sent.
+Data mining takes this concept one step further. Assuming that past behavior is a good predic-
+tor of future purchases, large numbers of data are gathered on a particular person from credit card 
+purchases, social media posts, and emails. A company can identify what stores we shop in, what 
+we have purchased, how much we paid for an item, and when and how frequently we travel. Data 
+are also entered, stored, and used for a variety of purposes when we fill out warranties, apply for 
+a driver’s license, respond to a free offer, or apply for a membership in a fitness club. Moreover, 
+companies share these data and often make money on the sale of them as well.
+American Express has been a leader in data mining for marketing purposes. American 
+Express will send customers discount offers for new stores or entertainment when it sends their 
+credit card bill, having determined that you have shopped in similar stores or attended similar 
+events. General Motors offers a MasterCard that allows customers to accumulate bonus points 
+toward the purchase of a new car and then sends out information about new vehicles at the most 
+likely time that a consumer would be interested in purchasing a new car.
+FIGURE 13.27
+Data mining collects personal 
+information about customers in 
+an effort to be more specific in 
+interpreting and anticipating their 
+preferences.
+External
+Data
+Data
+Maintained
+Internally
+Prospects/mailing
+lists from
+other
+companies
+Customer
+purchase history
+from credit
+card
+Customer
+demographics
+from municipality
+Warranty card
+customer
+sent in Information
+from survey that
+customer ﬁlled
+out
+Customer proﬁle
+obtained when
+customer made
+purchase from
+the WebSpecial
+promotional
+oﬀer for
+customer
+External
+Data
+External
+Data
+Customer
+Process 1
+Customer Order
+Contains customer order information and is used to update the
+customer master and item ﬁles and to produce an order record.
+ID
+Name
+Description
+Comments
+Source
+Destination
+Type of Data Flow
+File Screen Report Form InternalData Structure Traveling with the Flow
+Volume/TimeOrder Information
+10/hour
+An order record information for one customer order . The order
+may be received online by mail, by FAX, or by the customer telephoning the
+order processing department directly.
+
+
+===== BOOK PAGE 421 =====
+
+CHAPTER 13  •  DEsigning D ATAb A sEs     421
+The data-mining approach is not without problems, however. First, the costs may be too high 
+to justify data mining, and this may be discovered only after huge setup costs have been accrued. 
+Second, data mining must be coordinated so that various departments or subsidiaries do not all try 
+to reach the customer at the same time. In addition, customers may think their privacy has been 
+invaded and resent the offers that are coming their way. Finally, customers may think profiles 
+created solely based on their credit card purchases, social media posts, or emails present a highly 
+distorted image of who they are.
+Analysts should take responsibility for considering the ethical aspects of any data-mining 
+projects that are proposed. Questions about the length of time profile material is kept, its confi-
+dentiality, the privacy safeguards included, and the uses to which inferences are put should all 
+be asked and considered with the client. The opportunities for abuse are apparent and must be 
+guarded against. For consumers, data mining is another push technology, and if consumers resist 
+or resent being pushed, the data-mining efforts will backfire.
+“I’m expected to identify which prospects are bad. That’s not too 
+hard if you only have a thousand of them, but what do you do when 
+you have over a quarter of a million?”
+Yimo continues, “Because we use this data frequently for large 
+mailings, it is very important for us to ensure that the names and 
+addresses on that file are as accurate as possible. For example, they 
+should conform to postal standards and should not be duplicates.
+“We achieve this through a technique called data hygiene. 
+How’s that for a geeky term? Data hygiene is usually accomplished 
+with specialized software, which is used to determine the validity of 
+an address. This software matches the database address to its own 
+internal database of valid streets and number ranges in a given city 
+or zip code.”
+Yimo resumes, “One of the other data challenges faced by mar-
+keters is eliminating duplicate records in the marketing database. 
+There are two types of duplicates we look for: internal duplicates, 
+which are the existence of multiple records of the same customer or 
+prospect, and external duplicates, which represent our inability to 
+eliminate customers from our prospect data.
+“Internal duplicates create reporting problems and increase 
+mailing costs. External duplicates are even worse; they are both 
+costly and embarrassing,” Yimo explains. “One of the most embar-
+rassing things for a sales representative is to make a prospecting 
+call only to find out that the business is already our customer. 
+The customer is generally left feeling like only a number in one 
+of our computer systems. It creates a poor impression and wastes 
+valuable time and resources.”
+In two paragraphs, describe some techniques Yimo could use 
+to help identify internal and external duplicates in his company’s 
+marketing database. In a paragraph, describe how you would build 
+a marketing database to minimize duplicates. Are there operational 
+methods that might cut down on this problem? List them. Who 
+else in the organization could help with this process? Provide a 
+brief list. In a paragraph, recommend methods to Ning and your 
+other systems analysis team members that can be used to help 
+enlist and secure the assistance of other relevant members of 
+the organization.
+CONSULTING OPPORTUNITY 13.3 
+Losing Prospects
+“Market share can be a real problem,” says Yimo Yang, 
+director of marketing systems for a large East Coast health insurer. 
+“One of the greatest challenges we face is how to identify good 
+leads for our salespeople. With over 50 percent market share, we 
+must eliminate the names of most of the prospects we buy before 
+populating our marketing database. It is important that we get 
+it right because our marketing database is a critical part of our 
+company’s arsenal of strategic information tools.”
+Yimo explains to Ning Wu, one of your systems analysis team 
+members, “A marketing database is a powerful, relational database 
+that is the heart of marketing systems. Our marketing database 
+provides information for all marketing systems. They include pro-
+ductivity tools such as our Sales Force Automation and our Mass 
+Mailing Systems, which are designed to aid our salespeople in man-
+aging the sales cycle. They also include analytical tools such as our 
+geographic information systems or graphical query language tools, 
+which are designed to provide decision support.
+“The primary function of a marketing database, though, is to 
+track information on our customers and prospects. We currently 
+track geographic information, demographic information, and psy-
+chographic information or, as I like to say, where they live, who they 
+are, and how they think.
+“The simplest marketing databases can be made up of just three 
+files: Prospect Profile, Customer Profile, and Purchase and Payment 
+History.
+“Once you have designed your marketing database, the next 
+challenge is deciding how to populate it. We currently purchase our 
+prospect information from a list vendor. Because our company’s 
+marketing strategy is based on mass marketing, we buy every 
+business in our area. Because of this volume, we pay less than a 
+dime for each prospect. If, however, a company is practicing product 
+differentiation, their prospect base will likely be more defined. This 
+company would likely pay a premium for more detailed data that 
+have been carefully validated,” explains Yimo.
+“We face a real challenge. If I had a dollar for every time a 
+rep complained to me about the address on a prospect being 
+wrong, I could retire and move to warmer climes,” Yimo quips.
+
+
+===== BOOK PAGE 422 =====
+
+422    PART iV  •  THE EssEnTiALs  OF DEsign
+BUSINESS INTELLIGENCE
+Although not a new concept, business intelligence (BI) has grown in prominence since the late 
+1980s, and its uses have spread to several types of organizational employees, not just those few at 
+the strategic level of decision making. Business intelligence is at the heart of a decision support 
+system (DSS) for organizational decision makers. It is composed of features that gather and store 
+data and uses knowledge management approaches combined with analysis. This becomes input 
+to decision makers’ decision-making processes.
+Business intelligence is built around the idea of processing large volumes of data. As a 
+systems analyst, you may be asked to create systems that support BI, such as a data warehouse, 
+the data from which is considered as the input to analytics. Or you might be involved with the 
+creation of dashboards or even spreadsheets that convey BI to users. When data sets become too 
+large or too complex to be handled with traditional tools or within traditional databases or data 
+warehouses, they are often referred to as “big data.”
+Demand for experts possessing information management skills is ever increasing because the 
+growth in data far outstrips our abilities to meaningfully store, process, or analyze it. Big data also 
+has been called an approach to design for companies, essentially a strategy that permits organiza-
+tions to cope with ever-increasing amounts of data from myriad sources—some human-generated 
+but many more generated via sensors of some type (for example, electronic road toll collections, 
+satellite weather monitors).
+Often analysts are in charge of the interface between users and a data warehouse. As with 
+other systems, it is important to understand the data generated by the organization, the business 
+itself, and the information requirements of the analysts who will be interpreting the output of any 
+statistical models supported by the DSS.
+Five prominent methods are used for analyzing business intelligence: slice-and-dice drill-
+down, ad hoc queries, real-time analysis, forecasting, and scenarios. Although there has been 
+some consolidation in the industry, there are many large and small providers of BI software. Some 
+are moving their services to the cloud to provide on-demand services, reduce overall costs, and 
+improve startup times.
+Business analytics (BA) is a term that covers the ideas of using big data along with a variety 
+of quantitatively based analytical tools (such as statistics and predictive modeling) to answer 
+management questions about trends and what-if questions that analyze a number of actions as 
+part of strategic scenarios. Their output may be used as input for decision makers or as input for 
+computerized systems.
+Some of the problems inherent in BI are how systems handle semistructured and unstructured 
+data. Most organizations still have many documents that are not available for analysis through 
+BI because they don’t fit the structured, stringent requirements of data warehouse entries. This 
+means that a large portion of the important information and data an organization and its customers 
+generate goes unanalyzed and, therefore, unused or underused in decision making. One approach 
+to making the best use of this information is called data analytics.
+DATA ANALYTICS
+Data analytics use powerful algorithms to analyze vast amounts of structured data found in 
+databases or to analyze huge quantities of unstructured real-time data that can support decision 
+makers in making fact-based decisions. Analytics can refer to solving business problems and the 
+decision-making process as well as the analytical approaches that help organizations create value 
+through collecting, analyzing, and distributing large volumes of data. A broader term for both is 
+business intelligence, or BI.
+To understand the role the systems analyst plays in the use of data analytics (both the process 
+and the tools), we consider eight aspects of this type of analysis:
+1. Ensure the quality of the data.
+2. Facilitate communication between users and data analytics professionals.
+3. Educate users and decision makers about how to use analytical tools and how to interpret 
+reports based on use of those tools.
+4. Create reports that can be user generated.
+5. Work with users who prefer to have a data analytics professional create reports.
+
+
+===== BOOK PAGE 423 =====
+
+CHAPTER 13  •  DEsigning D ATAb A sEs     423
+6. Develop a collaborative business intelligence platform by collaborating on the creation of 
+reports and making it possible for decision makers to share insights.
+7. Ensure that the process of data analytics has the desired impact on a business.
+8. Provide deep insights and understanding that supports decision makers and data analysts in 
+making sense of their individual and organizational experience.
+Any or all these eight actions may fall within the scope of the responsibilities of a systems 
+analyst. Observe that many of these activities place the analyst as a collaborative partner with 
+their client, and perhaps other data analysts. Ensuring the quality of the data to be analyzed is of 
+utmost importance, as is a user-centered focus for any data analytics work done.
+There are numerous ethical, privacy, and security considerations in using data generated in 
+large, nonconventional databases. These databases include big data generated by people who 
+participate on a routine or almost daily basis in social networks, blogs of social influencers, 
+cloud applications for the public cloud, and public and government-sponsored data. Data 
+are generated by people interacting with such systems who are largely unaware that the data are 
+being used for data analytics purposes. A developer may use mashups of big data, combining 
+Google maps and data from social media to develop networks, relationships, or predictions 
+of behavior.
+Researchers have gone further in their suggestions about what data analytics has to offer 
+users in terms of helping users and data analysts find ways to make sense of their organizational 
+experience and even to use past events as predictive of future occurrences. Systems analysts should 
+be aware of these larger purposes, including retrospection, social engagement/collaboration, cue 
+extraction, plausibility, and ongoing access (Namvar et al., 2016).
+DATA LAKES
+As you have read, data analytics are powerful tools to help decision makers make sense of 
+copious amounts of formally structured data stored in data warehouses through the use of business 
+intelligence. As powerful as they are, data warehouses have limitations.
+The creation of data lakes reflects a response to the drawbacks users experience when 
+using data warehouses. Cloud-based data lakes free developers and users from the need for 
+committing to highly structured data in a (often proprietary) predetermined format. Data lakes 
+allow users to simply query immense data sets that store all kinds of data. The data can be 
+raw data without any formatting, normalized data suitable for a data warehouse, or something 
+in between. Data lakes make use of a flat architecture and object stores with metatags and 
+a one-of-a-kind, unique identifier that makes accessing and locating data accessible across 
+regions easier.
+Data lakes use the metaphor of a lake, as shown in Figure 13.28 (which is populated by fish, 
+turtles, clams, and so on) and contain other elements such as rocks, sand, and mud. But lakes 
+can also be very deep and conceal mysterious or abandoned manufactured objects. Therefore, 
+we can picture data lakes as a vast collection of raw, unstructured, or semistructured data pulled 
+from a multiplicity of sources, such as relational and nonrelational databases, IoT data, and 
+apps of all kinds. Fortunately, a data lake can be queried for its contents or provide insights; 
+its content needn’t remain concealed or mysterious. Users query data stored in a data lake to 
+gain insights into system and customer behavior unavailable through structured queries of 
+relational databases. The decision maker does not need to set up predetermined, structured files, 
+as are mandatory for a data warehouse, in order to make use of a data lake. Data lakes support 
+machine learning.
+1. Data lakes are repositories for raw data and normalized and unnormalized data.
+2. Data deposited in data lakes need not be structured and predefined.
+3. Data lakes can be queried.
+4. Data lakes are intended to make use of the vast array of data that organizations collect.
+5. Data lakes can provide insights into customer behavior.
+First, data lakes are repositories for raw data, normalized and unnormalized data from 
+relational databases and nonrelational data from the Internet of Things, mobile devices, and apps
+
+
+===== BOOK PAGE 424 =====
+
+424    PART iV  •  THE EssEnTiALs  OF DEsign
+of all kinds. Second, data deposited in data lakes are not structured and predefined before they are 
+collected. Decision makers do not have to foresee what questions they may need answered from 
+data in the future. Third, data lakes can be queried with simple or elaborate queries constructed 
+with the help of business intelligence, data analytics, and text analytics. Furthermore, data lakes 
+are intended to make use of the vast array of data that organizations collect (sometimes unobtru-
+sively) but that is not readily available for decision making because of its unstructured and ubiq-
+uitous nature. Finally, data lakes can provide insights into customer behavior that is unavailable 
+in structured, relational databases.
+From a strategic perspective, most organizations will want to develop both data warehouses 
+and data lakes to leverage the data they can retrieve both internally and externally to better under-
+stand their business relationships and realize their goals. Google recently announced BigLake, a 
+new data lake storage engine that will make it easier for organizations to perform analysis on the 
+data in their data lakes and data warehouses.
+BLOCKCHAINS
+A blockchain network is a data structure built on an Internet platform that permits sharing and 
+creation of a digital ledger of data, which can be shared with others on a network that is either 
+public or private. It is useful whenever a business or an individual wants to possess a verifiable 
+electronic record to track any kind of business asset: digital currency, materials that contribute to 
+a manufactured product (whether it is organic or inorganic), a tangible asset, an intangible asset, 
+or a digital asset. It requires no intermediary (such as a commercial bank for digital currency) to 
+conduct transactions.
+Blockchains came into the public consciousness with the introduction of the crypto currency 
+called bitcoins, but blockchains have many other uses. For example, a blockchain can be used 
+to verify that food labeled “organic” actually arises from organic farming practices in every step 
+of growing, harvesting, and packaging. Or it can be used to track the provenance of an artist’s 
+work such as a painting, showing who created the painting, where and when it was painted, who 
+exhibited it, who purchased the painting, and whether it is held in a private collection or in a 
+museum. A big advantage of a blockchain is that it cannot be altered. IBM Blockchain provides 
+a way for member banks of a global banking network to share reference data. IBM Blockchain is 
+also being used to track the origin and movement of automotive parts through a complex supply 
+chain including manufacturer, components, and original sources of all components that compose 
+a vehicle.
+FIGURE 13.28
+Differences between a data ware-
+house and a data lake.
+Data Mining and OLAP
+Data
+Data Data
+Data
+Data
+DataData
+Data
+DataData
+Data
+Data DataData
+Data Data
+Data
+DataData
+DataData
+Data
+Data Data
+Data Data
+Data
+Data
+Data
+Data
+Data
+Data
+Data
+Data
+Data
+Data
+Data
+Data
+Data
+Data
+Data
+Data
+Data
+Data
+Data
+Data
+Data
+Data
+Machine Learning, Data Analytics, Business Intelligence
+DATA WAREHOUSE
+Reﬁned Data
+Medium Size
+Relational
+DATA LAKE
+Raw Data
+Large Size
+Unstructured
+
+
+===== BOOK PAGE 425 =====
+
+CHAPTER 13  •  DEsigning D ATAb A sEs     425
+Blockchain is especially useful in food supply chains for tracking perishable products. For 
+instance, a blockchain would be useful to track which cows in the herd contributed milk to produc-
+tion of certain numbered cartons, at what time the milk was contributed to storage vats after cows 
+were milked, at what temperature the vats were maintained during storage and before milk was 
+bottled. It could also track the trucks and drivers that had milk product put on their trucks and at 
+what time and what locations, as well as how the milk was handled while it was on a refrigerated 
+delivery truck. The blockchain ledger could reveal how long particular cases of milk product sat 
+on the loading dock before being taken to coolers in the backroom of the store, and even when it 
+was loaded into dairy cases for customers to purchase.
+Large deviations in delivery time, temperatures in trucks, length of wait on a delivery dock, 
+and temperatures in grocery store display cases can all be added to transactional data in the block-
+chain. Thus, a blockchain could help pinpoint defects in perishable products (possible exposure to 
+higher-than-average temperatures, or slowdown of offloading product due to a shortage of docks 
+for unloading, for example) and could speed recall of products that experienced logged deviations 
+in the expected supply chain.
+A blockchain is an open, immutable record of transactions. Blockchains were created to 
+solve problems that habitually arise from conducting transactions. They are meant to improve 
+security, cut down on risk, and improve reliability and efficiency when conducting transactions 
+of all sorts.
+Blockchains can be thought of as distributed databases that feature controls on informa-
+tion that also store information and share it. Blockchains are integrating technology platforms 
+worldwide.
+A proprietary, London-based firm called Blockchain makes software that allows consumers 
+and businesses to make transactions using digital currencies such as bitcoin. It has made ease of 
+use an important feature, explaining that an ordinary consumer who is not tech savvy can use it 
+on their smartphone with no problem or special training.
+Businesses use special permissioned blockchains. A permissioned blockchain offers better 
+privacy, upgraded auditability, and increased efficiency for operations. A permissioned block-
+chain means that transactions can be trusted, costs are lower because there is little duplication 
+of effort, and the rapidity of transactions is more akin to what actually happens in business 
+transactions in real time, rather than a prolonged wait for outside authorities to approve or 
+update transactions before they can be executed. Many large businesses are announcing new 
+blockchain-based products, including introduction of blockchain-based insurance products in 
+the next few years.
+Blockchain needs designers who can bridge the technical complexities of blockchain and 
+make it usable for less tech-savvy customers. This includes creating interfaces that allow partici-
+pants to examine information they need in the supply chain based on blockchain and being able 
+to trust what they are seeing without needing to know the underlying technical complexities of 
+blockchain (Schwab, 2017).
+Startups such as blockgeeks.com, which is a blockchain media tech startup in Toronto, 
+Canada, states: “Our mission at Blockgeeks is to teach over 10,000 developers a year in block-
+chain to accelerate the ecosystem.” They are proposing to do most training online, and they are 
+projecting that the demand for blockchain developers will increase rapidly over the next few years.
+In the community space, there is Hyperledger (https://www.hyperledger.org), “an open 
+source collaborative effort created to advance cross-industry blockchain technologies. It is a 
+global collaboration, hosted by The Linux Foundation, including leaders in finance, banking, the 
+IoT, supply chain, manufacturing, and technology.” Hyperledger released its updated version of 
+Hyperledger Fabric, a type of distributed ledger code that will allow corporations to begin building 
+blockchain-based business applications.
+Four critical features of a blockchain network are (1) consensus, all parties to a transaction 
+must agree that it is valid; (2) provenance, all parties to the transaction are aware of where the 
+asset has come from and understand how it has changed over time; (3) immutability, once a 
+transaction has been recorded to the ledger, none of the parties can tamper with it or change it  
+(a separate transaction is required to remedy an error and both transactions are visible to members 
+of the network); and (4) finality, there is only one place for anyone to check ownership of an asset 
+or whether a transaction has been completed.
+
+
+===== BOOK PAGE 426 =====
+
+426    PART iV  •  THE EssEnTiALs  OF DEsign
+Trust still poses one of the biggest organizational barriers to blockchain adoption (Clancy, 
+2016). Customers and developers still must get accustomed to the idea that their supply chain 
+data will not be in a central repository but will be shared across the supply chain with a variety of 
+entities who have a vital interest in the information that is accessible via the blockchain. Trust in 
+the capabilities of participants is also key when implementing blockchain. Participants must be 
+trusted to enter transactions accurately and honestly into the blockchain ledger.
+Web 3.0
+While Web 2.0 is notable for interactivity, building on the original centralization of the web for 
+searching, it is built on blockchain. Considering that we have just learned that blockchain engenders 
+trust in secure transactions, we can say that Web 3.0 is about decentralization of data and data owner-
+ship. Users will own their own data. Indeed, they will be able to monetize pieces of it, rather than just 
+handing it all over to a company in exchange for a service. Many of the apps that will make Web 3.0 
+a reality are not built yet, but we can sketch out how they may act when executing a transaction.
+For example, if you order groceries online, the delivery service will accumulate data about 
+what you purchase, how much you spend, your preferred payment, whether you pay on time or 
+use buy now, pay later (BNPL), your preferred delivery date, and so on. For your part, you just 
+want the groceries you ordered delivered to arrive on time and in good condition. Depending on 
+their business relationships, the grocery delivery company can give or sell parts of your record to 
+grocery vendors, local bakeries, delivery services, and so on.
+With Web 3.0, users will own their data and eventually be able to monetize it 24/7 via the 
+blockchain. However, users will not need to be involved in microtransactions such as when a large 
+delivery service would like all of the preferred delivery times of every one of their customers in a 
+particular zip code. If you agree to sell your data that was collected by the grocery delivery service 
+but owned by you, you can sign up to do so, and those transactions will be executed automati-
+cally whenever there is a purchaser of the type you have approved, typically in cryptocurrency, 
+on Web 3.0, without you needing to be present or even awake for the transaction to take place. 
+Whenever your data or a relevant piece of it is accessed, you will be paid.
+On the other hand, you may prefer that some of the data about your food consumption to go 
+to a nonprofit research hospital examining the relationship between certain foods and longevity. 
+You will be able to make that specific designation of that part of your grocery store transaction, 
+and you will be donating part of your data to a cause you believe in, but will not, in that case, be 
+monetizing it. The point is that Web 3.0 users will be in control of who (other than the individual) 
+gets their data and whether it will be monetized or not. Web. 3.0 is about “tokenization of the data” 
+as well as building the data economy.
+Since transactions having to do with data are automatic, you may wonder what the role of 
+systems analysts will be. However, there is still plenty of room for the work of systems analysts on 
+Web 3.0. Not surprisingly, many users will not be interested in or capable of setting up accounts 
+and managing their data. Systems analysts can serve as consultants for organizations and users. 
+In that role, you can facilitate contracts and transactions that set up and maintain users’ decentral-
+ized, automated, and secure transactions on the blockchain. Analysts will also serve as translators 
+for users, helping them understand the implications of Web 3.0 for their work and personal lives.
+Summary
+How to store data is often an important decision in the design of an information system. There are two 
+approaches to storing data. The first approach is to store data in individual files, one file for each application. 
+The second approach is to develop a database that can be shared by many users for a variety of applications 
+as the need arises.
+It is critical that everyone involved in the design of the database agrees on the value of the data and the 
+cost of protecting it because securing data has costs as well as benefits. Risk assessment is an essential part 
+of database planning.
+An understanding of data storage requires a grasp of three realms: reality, data, and metadata. An entity 
+is an object or event for which we are willing to collect and store data. Attributes are the actual characteristics 
+of these entities. Data items can have values and can be organized into records that can be accessed by a key. 
+Metadata describe the data and can contain restrictions about the value of a data item (such as numeric only).
+
+
+===== BOOK PAGE 427 =====
+
+CHAPTER 13  •  DEsigning D ATAb A sEs     427
+Examples of conventional files include master files, table files, transaction files, work files, and report 
+files. Databases typically are constructed with a relational structure. Legacy systems can have hierarchical 
+or network structures, however.
+Normalization is a process that transforms user views into less-complex structures called normalized 
+relations. There are three steps in the normalization process. First, all repeating groups are removed. Second, 
+all partial dependencies are removed. Finally, the transitive dependencies are taken out. After these three 
+steps are completed, the result is the creation of numerous relations that are of third normal form (3NF).
+An entity-relationship diagram may be used to determine the keys required for a record or a database 
+relation. The three guidelines to follow when designing master tables or database relations are that (1) each 
+separate data entity should create a master table (do not combine two distinct entities within one table), (2) 
+a specific data field should exist only on one master table, and (3) each master table or database relation 
+should have programs to create, read, update, and delete records.
+The process of retrieving data may involve as many as eight steps: (1) choosing a relation, (2) joining two 
+relations together, (3) projecting (choosing) columns, (4) selecting relevant rows, (5) deriving new attributes, 
+(6) sorting or indexing rows, (7) calculating totals and performance measures, and (8) presenting the results 
+to the user.
+Denormalization is a process that transforms the logical data model into a physical model that is efficient 
+for tasks that are most needed. Data warehouses differ from traditional databases in many ways; one is that 
+they store denormalized data, which are organized around subjects. Data warehouses allow easy access via 
+data-mining software, called siftware, which searches for patterns and identifies relationships not imagined 
+by human decision makers.
+Data mining involves using a database for more selective targeting of customers. Assuming that past 
+behavior is a good predictor for future purchases, companies collect data about a person from past credit 
+card purchases, driver’s license applications, warranty cards, and so on. Data mining can be powerful, but 
+it may be costly, and it needs to be coordinated. In addition, it may infringe on consumer privacy or even a 
+person’s civil rights.
+Business intelligence is composed of features that gather and store data, as well as using knowledge 
+management approaches combined with analysis. This becomes input to decision makers’ decision-making 
+processes. Business analytics refers to statistical tools and models to quantitatively process structured data 
+like that found in data warehouses. This in turn is input for both humans and computers. When data sets 
+become too large or too complex to handle with traditional tools or within traditional databases or data 
+warehouses, they are often referred to as “big data.” Data analytics use powerful algorithms to analyze vast 
+amounts of structured data found in databases or to analyze huge quantities of unstructured real-time data 
+that can support decision makers in making fact-based decisions.
+Data lakes are repositories for raw data, normalized and unnormalized data from relational databases, 
+and nonrelational data from the Internet of Things, mobile devices, and apps of all kinds. Data deposited 
+in data lakes are not structured and predefined before they are collected. Data lakes can be queried to gain 
+heretofore unknown insights into customers and their relationships to business goals. From a strategic per-
+spective, most organizations will want to develop both data warehouses and data lakes to leverage the data 
+they can retrieve both internally and externally.
+A blockchain network is a data structure built on an internet platform that permits the creation of a 
+digital ledger of data, which can be shared with others on a network that is either public or private. A block-
+chain is an open, unchangeable record of transactions. It is useful whenever a business or individual wants to 
+possess a verifiable electronic record in order to track any kind of business asset. The biggest organizational 
+barrier to participating in blockchain is trust—trust that the data are safe even though they are not in a central 
+repository but shared across the supply chain with interested parties, and trust that the participants in the 
+supply chain will enter transactions accurately and honestly.
+Web 3.0 is built on blockchain. Considering that blockchain engenders trust in secure transactions, we 
+can say that Web 3.0 is about decentralization of data and data ownership. Users will own their own data. 
+Indeed, they will be able to monetize pieces of it, rather than just handing it all over to a company in exchange 
+for a service. Web 3.0 is just being built now, but opportunities to participate will be growing.
+Keywords and Phrases
+attribute
+big data
+blockchain
+bubble diagram
+business analytics (BA)
+business intelligence (BI)
+clean data
+concatenated key
+
+
+===== BOOK PAGE 428 =====
+
+428    PART iV  •  THE EssEnTiALs  OF DEsign
+Review Questions
+1. What are the advantages of organizing data storage as separate files?
+2. What are the advantages of organizing data storage using a database approach?
+3. What are the effectiveness measures of database design?
+4. List three questions analysts can pose to database administrators and users about database security.
+5. List some examples of entities and their attributes.
+6. What is the difference between a primary key and an object identifier?
+7. Define the term metadata. What is the purpose of metadata?
+8. List types of commonly used conventional files. Which of these are temporary files?
+9. Name the three main types of database organization.
+10. Define the term normalization.
+11. What is removed when a relation is converted to the first normal form?
+12. What is removed when a relation is converted from 1NF to 2NF?
+13. What is removed when a relation is converted from 2NF to 3NF?
+14. List the three entity constraints. In a sentence, describe the meaning of each entity constraint.
+15. Describe the four anomalies that may occur when creating database tables.
+16. List the eight steps for retrieving, presorting, and presenting data.
+17. What does a join do? What is projection? What is selection?
+18. Define denormalization.
+19. Explain the differences between traditional databases and data warehouses.
+20. What is data mining?
+21. What features compose business intelligence?
+22. What is big data?
+23. Define business analytics.
+24. What five attributes differentiate data lakes from data warehouses?
+25. Describe how data in a data lake differs from that in a data warehouse.
+26. What is a blockchain network? Provide an example from business.
+27. What are the four critical features of a blockchain network? List them.
+28. How will Web 3.0 differ from Web 2.0?
+29. What role can systems analysts play in developing Web 3.0?
+conventional file
+CRUD (create, read, update, and delete)
+cyberattack
+data analytics
+data element
+data item
+data lakes
+data mining
+data model diagram
+data storage
+data warehouse
+database
+database administrator
+database management system (DBMS)
+deletion anomaly
+denormalization
+domain integrity
+entity
+entity integrity constraint
+entity-relationship (E-R) diagram
+entity subtype
+first normal form (1NF)
+hierarchical data structure
+logical view
+master file
+metadata
+network data structure
+normalization
+object identifier (OID)
+online analytical processing (OLAP)
+partial dependencies
+physical view
+primary key
+record
+referential integrity
+relational data structure
+relationship
+repeating group
+report file
+retrieval
+risk assessment
+second normal form (2NF)
+secondary key
+special characters
+table file
+third normal form (3NF)
+transaction file
+transitive dependency
+unnormalized relation
+update anomaly
+Web 3.0
+work file
+
+
+===== BOOK PAGE 429 =====
+
+CHAPTER 13  •  DEsigning D ATAb A sEs     429
+Problems
+1. Given the following file of renters:
+Record 
+Number Last Name
+Apartment 
+Number Rent Lease Expires
+41 Warkentin 102 550 4/30
+42 Buffington 204 600 4/30
+43 Schuldt 103 550 4/30
+44 Tang 209 600 5/31
+45 Cho 203 550 5/31
+46 Yoo 203 550 6/30
+47 Pyle 101 500 6/30
+a. Show an example of projection.
+b. Show an example of selection.
+c. Show two different examples of sorting rows.
+d. Show an example of calculating totals.
+2. The following is an example of a grade report for two students at the University of Southern New 
+Jersey:
+USNJ Grade Report Spring Semester 2017
+Name: I. M. Smarte Major: MIS
+Student: 053-6929-24 Status: Senior
+Course Number Course Title Professor
+Professor’s 
+Department Grade
+MIS 403 Systems Analysis Abdelhamid, M. MIS A
+MIS 411 Conceptual Foundations Umar, G. MIS A
+MIS 420 Human Factors in IS Umar, G. MIS B
+CIS 412 Database Design Li, I. CIS A
+DESC 353 Management Models Kim, J. MIS A
+USNJ Grade Report Spring Semester 2017
+Name: E. Z. Grayed Major: MIS
+Student: 472-6124-59 Status: Senior
+Course Number Course Title Professor
+Professor’s 
+Department Grade
+MIS 403 Systems Analysis Abdelhamid, M. MIS B
+MIS 411 Conceptual Foundations Umar, G. MIS A
+  Draw a data model diagram with associations for the user view.
+3. Convert the user view in Problem 2 to a 3NF relation. Show each step along the way.
+4. What problem might arise when using a primary key of course number for the data in Problem 2? 
+(Hint: Think about what would happen if the Department Name [not shown in the data] changes.)
+5. Draw an entity-relationship diagram for the following situation: Many students play many different 
+sports. One person, called the head coach, assumes the role of coaching all these sports. Each of 
+the entities has a number and a name. (Make any assumptions necessary to complete a reasonable 
+diagram. List your assumptions.)
+6. The E-R diagram you drew in Problem 5 represents the data entities that are needed to implement a 
+system for tracking students and the sports that they play. List the tables that are needed to implement 
+the system, along with primary, secondary, and foreign keys that are required to link the tables.
+7. Draw an E-R diagram for the following situation: A commercial bakery makes many different 
+products. These products include breads, desserts, specialty cakes, and many other baked goods. 
+Ingredients such as flour, spices, and milk are purchased from vendors. Sometimes an ingredient is 
+purchased from a single vendor, and other times an ingredient is purchased from many vendors. The 
+bakery has commercial customers, such as schools and restaurants, that regularly place orders for 
+baked goods. Each baked good has a specialist that oversees the setup of the bakery operation and 
+inspects the finished product.
+
+
+===== BOOK PAGE 430 =====
+
+430    PART iV  •  THE EssEnTiALs  OF DEsign
+8. List the tables and keys that are needed to implement the commercial bakery system in Problem 7.
+9. Draw an E-R diagram for the ordering system in Figure 13.24.
+10. Draw a data flow diagram for placing an order. Base your data flow diagram on the E-R diagram in 
+Problem 9.
+11. Create an E-R diagram for a genealogy software package called PeopleTree to keep track of ances-
+tors. Assume that each person will be on a Person table and that one person may have one biological 
+father and mother as well as an adopted mother and father. The mothers and fathers must be stored 
+on the Person table as well. Each person should have only one birthplace, stored on the Place table. 
+Many people may be born in the same place.
+12. Define the primary key used for the Person and Place tables in Problem 11.
+13. GaiaOrganix is an organic food wholesale co-op that links producers and consumers. GaiaOrganix 
+negotiates purchases by grocery and other stores from farmers who raise a variety of crops, such as 
+fruits, vegetables, and grain. Each farmer may produce several crops, and each crop may be pro-
+duced by a number of farmers. To provide the highest level of fresh products, the produce is shipped 
+directly from the farm to the store. Each store may purchase from many farms, and each farm may 
+sell to many stores.
+a. Draw an E-R diagram in the third normal form showing the relationship between the producer 
+(farms) and the retailer (stores).
+b. In a paragraph, describe how a blockchain application might be used to guarantee the freshness of 
+the organic food sold through GaiaOrganix.
+14. ArticleIndex.com is a company that produces indexes of magazine and periodical articles for a given 
+discipline. A web user should be able to enter an article topic or author and receive a detailed list of 
+all the articles and periodicals in which the topic was found. Each article may have many authors, 
+and each author may write many articles. An article may be found in only one periodical, but each 
+periodical will usually contain many articles. Each article may have many topics, and each topic may 
+be in many articles. Draw an E-R diagram in the third normal form for the articles, authors, periodi-
+cals, and topics.
+15. Identify the primary and foreign keys for the E-R diagram created in Problem 14.
+16. Develop a list of questions to help you make a risk assessment of a database you are developing 
+that keeps track of all patents applied for by a new electronics firm called ElectricEel, LLC. Write 
+a list of five key questions you would like to ask executives, managers, and software engineers who 
+are applying for patents of their work and who will use the database to store original plans for new 
+smartphones, intelligent personal agents, and so on, and records of team meetings and data about 
+customers and vendors.
+17. Leon & Lim, a Milan-based Chinese fashion design company run by business partners Daiyu 
+and Muchen, would like to use data analytics to understand their customers better through their 
+database. In two paragraphs, discuss how you can help Daiyu and Muchen approach the use 
+of data analytics for this application. Include a list of six questions you will ask them about their 
+needs for data.
+Group Project
+1. Douglas Williams orders tickets on the web for two concerts to be held in Philadelphia. He is able to 
+choose his preferred seat locations for two passes to each concert, one by the rock band Moon Cave 
+and one by the band Orbiter 3. His orders are processed, exact seat locations are confirmed, and the 
+tickets are posted in the mail separately. One of the sets of tickets gets lost in the mail. When Doug 
+calls the service number, he does not remember the date he chose for the concert tickets that are 
+missing, or the seat numbers, but the ticket agency is able to locate his tickets quickly because the 
+agency has denormalized the relation. Describe the ticket ordering system by listing the data elements 
+that are kept on the order form and the shipping form. What information did Doug give the ticket 
+agency to retrieve the information?
+Selected Bibliography
+Agrawal, R., Ailamaki, A., Bernstein, P. A., Brewer, E. A., Carey, M. J., Chaudhuri, S., et al. (2009). The 
+Claremont report on database research. Communications of the ACM, 52(6), 56–65.
+Avison, D. E. (1992). Information systems development: A database approach (2nd ed.). Blackwell 
+Scientific.
+Bellatreche, L., Valduriez, P., & Morzy, T. (2018). Advances in databases and information systems. 
+Information Systems Frontiers, 20, 1–6.
+
+
+===== BOOK PAGE 431 =====
+
+CHAPTER 13  •  DEsigning D ATAb A sEs     431
+Big Data. (2017, various volumes). A peer-reviewed journal that provides a unique forum for world-class 
+research exploring the challenges and opportunities in collecting, analyzing, and disseminating 
+vast amounts of data, including data science, big data infrastructure and analytics, and pervasive 
+computing.
+Blockgeeks. (n.d.). Jobs at Blockgeeks. https://angel.co/blockgeeks/jobs/234918-blockchain-mentor
+Clancy, H. (2016, December 8). Why IBM sees blockchain as a breakthrough for traceability. https://www.
+greenbiz.com/article/why-ibm-sees-blockchain-breakthrough-traceability
+Codd, E. F. (1970). A relational model of data for large shared data banks. Communications of the ACM, 
+13(6), 377–387.
+Databricks. (n.d.). Introduction to data lakes. https://databricks.com/discover/data-lakes/introduction
+Davenport, T. H., & Harris, J. G. (2007). Competing on analytics: The new science of winning. Harvard 
+Business School Press.
+Dietel, H. M., Dietel, P. J., & Nieto, T. R. (2001). E-business and e-commerce: How to program. Prentice 
+Hall.
+Evelson, B. (2010, April 29). Want to know what Forrester’s lead data analysts are thinking about BI and 
+the data domain? [Blog post]. blogs.forrester.com/boris_evelson/10-04-29-want_know_what_for-
+resters_lead_data_analysts_are_thinking_about_bi_and_data_domain, https://go.forrester.com/blogs/
+want-to-know-what-forresters-lead-data-analysts-are-thinking-about-bi-and-the-data-domain/
+Gane, C., & Sarson, T. (1979). Structured systems analysis: Tools and techniques. Prentice Hall.
+Gray, P. (1999). Data warehousing: Three major applications and their significance. In K. E. Kendall 
+(Eds.), Emerging information technologies: Improving decision, cooperation, and infrastructure  
+(pp. 99–116). Sage.
+Gupta, M. (2018). Blockchain for dummies (2nd ed.). Wiley.
+Hoffer, J. A., Venkataraman, R., & Topi, H. (2016). Modern database management (12th ed.). Pearson.
+IBM Support Portal. Business Analytics Client Center. https://www.ibm.com/analytics/business-analytics
+Lardinois, F. (2022, April 6). Google Cloud launches BigLake, a new cross-
+platform data storage engine. https://techcrunch.com/2022/04/05/
+google-cloud-launches-biglake-a-new-cross-platform-data-storage-engine/
+McFarland, R. (2014). Information security basics: Fundamental reading for InfoSec including the CISSP , 
+CISM, CCNA-Security certification exams (Kindle ed.). Amazon Digital Services.
+Morris, J. (2018, July 15). Top 10 categories for big data sources and mining technologies. http://www.
+zdnet.com/article/top-10-categories-for-big-data-sources-and-mining-technologies/
+Namvar, M., Cybulski, J. L., & Perera, L. (2016). Using business intelligence to support the process of 
+organizational sensemaking. Communications of the Association for Information Systems, 38(20), 
+330–352.
+Negash, S., & Gray, P. (2008). Business intelligence. In F. Burstein & C. W. Holsapple (Eds.), Handbook 
+of decision support systems (V ol. 2, pp. 175–193). Springer.
+Sanders, G. L. (1995). Data modeling. Thomson.
+Schwab, K. (2017, August 22). Why blockchain needs design. https://www.fastcodesign.com/90136657/
+why-blockchain-needs-designers?partner=rss&utm_campaign=rss+fastcodesign&utm_
+content=rss&utm_medium=feed&utm_source=rss
+Seckel, S. (2022, March 8). Web 3.0: What is it? Interview with ASU engineering expert 
+(Dragan Boscovic) on the next wave of the internet. ASU News. https://news.asu.
+edu/20220308-solutions-web-30-what-it
+Shim, J. P., French, A. M., Guo, C., & Jablonski, J. (2015). Big data and analytics: Issues, solutions, and 
+ROI. Communications of the Association for Information Systems, 37(39), 797–810.
+Shin, S. K., & Sanders, G. L. (2006). Denormalization strategies for data retrieval from data warehouses. 
+Decision Support Systems, 42(1), 267–282.
+
+
+===== BOOK PAGE 432 =====
+
+432
+Human–Computer 
+Interaction and UX Design
+LEARNING OBJECTIVES
+Once you have mastered the material in this chapter, you will be able to:
+1 Understand human–computer (HCI) interaction.
+2 Appreciate the concept of usability.
+3 Identify the types of user interfaces.
+4 Apply user experience design when developing customer-centered experiences.
+5 Discover how to design interfaces for smartphones and tablets.
+6 Learn about design for intelligent personal assistants.
+7 Discover designing for virtual reality and augmented reality.
+8 Know the guidelines for dialog design.
+9 Understand the importance of user feedback.
+10 Know about the design considerations for ecommerce.
+11 Formulate different types of queries that permit users to search the web.
+Your awareness of human–computer interaction (HCI) and its significance to your task as a 
+systems analyst is important. The next step is to master the concepts surrounding HCI and 
+become proficient at assessing human information requirements and incorporating your 
+findings into your designs. Ensure that systems are user centered and appropriately include 
+users’ needs as well as organizational needs. Understanding HCI concepts, considering 
+interfaces in light of HCI issues, and applying standard design concepts to computers in new 
+ways is central to an HCI approach.
+User experience (UX) design is a customer-first method for designing software. It 
+is a process that observes the behavior of customers and strives to enhance customer 
+satisfaction and loyalty. It accomplishes this by improving usability and ease of use. UX 
+is also a design culture that emphasizes a good experience for the user over maximizing 
+short-term profit.
+This chapter fills in some of the details about HCI and working with users and reveals 
+the potential of UX design. It also gives you some experience in applying HCI and UX 
+concepts in your design of human–computer interfaces for computers, smartphones, and 
+tablets; feedback; ecommerce websites; and webqueries.
+14 
+CHAPTER
+

@@ -1,0 +1,3484 @@
+
+===== BOOK PAGE 55 =====
+
+CHAPTER 3  •  PR ojECT  MAnA gEMEnT     55
+PROJECT INITIATION
+Systems projects are initiated by many different sources for a variety of reasons. Some of the 
+projects suggested will survive various stages of evaluation to be worked on by you (or you and 
+your team); others will not and should not get that far. Businesspeople suggest systems projects 
+for two broad reasons: (1) because they experience problems that lend themselves to systems solu-
+tions and (2) because they recognize opportunities for improvement through upgrading, altering, 
+or installing new systems. Both situations can arise as an organization adapts to and copes with 
+natural, evolutionary change.
+Problems in an Organization
+Managers do not like to conceive of their organization as having problems, let alone talk 
+about those problems or share them with someone from outside. Good managers, however, 
+realize that recognizing symptoms of problems or, at a later stage, diagnosing the problems 
+themselves and then confronting them is imperative if the business is to keep functioning at 
+its highest potential.
+Problems surface in many different ways. In some instances, problems are uncovered because 
+performance measures are not being met. Problems (or symptoms of problems) with processes 
+that are visible in output and that could require the help of a systems analyst include excessive 
+errors and work performed too slowly, incompletely, incorrectly, or not at all. Other symptoms 
+of problems become evident when people do not meet baseline performance goals. Changes in 
+employee behavior such as unusually high absenteeism, high job dissatisfaction, or high worker 
+turnover should alert managers to potential problems. Any of these changes, alone or in combina-
+tion, might be a sufficient reason to request the help of a systems analyst.
+Although difficulties such as those just described occur in an organization, feedback on how 
+well the organization is meeting intended goals may come from outside, in the form of complaints 
+or suggestions from customers, vendors, or suppliers, as well as lost or unexpectedly low sales. 
+This feedback from the external environment is extremely important and should not be ignored. 
+A summary of symptoms of problems and approaches useful in problem detection is provided 
+in Figure 3.1.
+and monitoring performance along the way. The video introduction 
+for this chapter emphasizes the importance of project management. 
+After you view the video, please reflect on the following questions:
+1. Why is it important to define the project’s objectives before 
+trying to schedule activities?
+2. While it is essential to schedule activities for a project to 
+be completed in the time allowed, why is it also critical 
+to consider the budget, people involved, and the promised 
+deliverables of the system?
+3. Communicating with your project team and the client is 
+crucial to the success of the project. What are the important 
+elements to consider in communicating about the project?
+4. Scope creep is any deviation from the original scope of 
+the project. Scope creep can cause delays in a project or 
+put the entire project in jeopardy. How can scope creep be 
+prevented?
+SYSTEMS SCENARIO  
+Strengthening Project Management
+The topic of this chapter is project management. That includes 
+defining the objectives of projects, analysis of alternatives, deter -
+mining whether it is cost effective to complete a project, sched-
+uling activities needed to complete a project, managing the team, 
+To view the video for this scenario, 
+see eText Chapter 3. 
+Seven Dimensions/Boclips
+
+
+===== BOOK PAGE 56 =====
+
+56    PART I  •  SYSTEMS AnALYSIS FUnDAMEnTALS
+Defining the Problem
+Whether using the classic systems development life cycle (SDLC) approach or an object-oriented 
+approach, an analyst first defines the problems and objectives of the system. These form the foun-
+dation for determining what needs to be accomplished by the system.
+A problem definition usually contains some sort of problem statement, summarized in a 
+paragraph or two. This is followed by a series of issues or major independent pieces of the prob-
+lem. The issues are followed by a series of objectives or goals that match the issues point by point. 
+Issues are the current situation; objectives are the desired situation. The objectives may be very 
+specific or worded as a general statement.
+FIGURE 3.1
+Checking output, observing 
+employee behavior, and listening 
+to feedback are all ways to help 
+the analyst pinpoint systems prob-
+lems and opportunities.
+Check output against performance criteria.
+Observe behavior of employees.
+Listen to external feedback from:
+   Vendors and service providers.
+   Customers.
+   Suppliers.
+•  Too many errors
+•  Work completed slowly
+•  Work done incorrectly
+•  Work done incompletely
+•  Work not done at all
+•  High absenteeism
+•  High job dissatisfaction
+•  High job turnover
+Look for These Speciﬁc Signs:To Identify Problems
+•  Complaints
+•  Suggestions for improvement
+•  Loss of sales
+•  Lower sales
+Agua concurs, saying, “It would be music to my ears, it would 
+be really sweet if they would work with us to spot trends and 
+changes—and then respond quickly.”
+Stern’s, based in Blackpool, England, is a European beverage 
+maker and the developer and producer of Sipps. Sipps is a sweet, fruit-
+flavored, nonalcoholic, noncarbonated drink served chilled or with ice, 
+and it is particularly popular when the weather is hot. Sipps has sold 
+briskly in Europe and grown in popularity in the United States and 
+Mexico since its introduction five years ago, but the company has had a 
+difficult time adequately managing inventory and keeping up with U.S. 
+customer demand, which is affected by seasonal temperature fluctua-
+tions. Places with year-round, warm-temperature climates and lots of 
+tourists (such as Florida and California) have large standing orders, but 
+other areas of the country could benefit from a less cumbersome, more 
+responsive order-placing process. A network of local distributors located 
+throughout the United States, Canada, and Mexico distributes Sipps.
+As one of the systems analysts assigned to work with the U.S. dis-
+tributors of Sipps, you begin your analysis by listing some of the key 
+symptoms and problems you have identified after studying the infor-
+mation flows, ordering process, and inventory management and after 
+interviewing Ms. Agua and her assistant. In a paragraph, describe 
+which problems might indicate the need for a systems solution.
+Note: This consulting opportunity is loosely based on Perez (1997), pp. 31 
+and 34.
+CONSULTING OPPORTUNITY 3.1 
+The Sweetest Sound I’ve Ever Sipped
+S olana Agua, who represents one of the many U.S. distributors of 
+the European soft drink Sipps, gazes unhappily at the weather app on 
+her smartphone, which shows a map of the United States saturated 
+with dark red, indicating that most of the country is experiencing 
+an early spring heat wave, with no signs of a letup. Holding up the 
+screen of her smartphone as she speaks to the assembled systems 
+group, she says, “It’s the best thing that could happen to us, or at 
+least it should be. But when we had to place our orders three months 
+ago, we had no idea that this spring monster heat wave was going 
+to devour the country this way!” Nodding her head toward a picture 
+of their European production plant hung on the wall, she continues, 
+“We need to be able to tell them when things are hot over here so we 
+can get enough product. Otherwise, we’ll miss out every time. This 
+happened two years ago, and it just about ruined us.
+“Each of us distributors meets with our district managers to do 
+three-month planning. When we agree, we upload our orders to 
+European headquarters. They make their own adjustments, bottle 
+the drinks, and then we get our modified orders about 9 to 15 weeks 
+later. But we need ways to tell them what’s going on now. Why we 
+even have some new superstores that are opening up here. They 
+should know we have extra-high demand.”
+Corky, her assistant, agrees, saying, “Yeah, they should at least 
+look at our past sales around this time of year. Some springs are hot; 
+others are just average.”
+
+
+===== BOOK PAGE 57 =====
+
+CHAPTER 3  •  PR ojECT  MAnA gEMEnT     57
+Here are some examples of business questions relating to business objectives:
+• What are the purposes of the organization?
+• Is the organization a for-profit or nonprofit organization?
+• Does the company plan to grow or expand?
+• How do the organizational strategy and the IT strategy align?
+• What is the organization’s attitude (culture) about technology?
+• What is the organization’s budget for IT?
+• Does the organization’s staff have the expertise?
+Needless to say, a systems analyst needs to understand how a business works.
+Finally, the problem definition contains requirements—the things that must be accomplished—
+along with the possible solutions and the constraints that limit the development of the system. 
+The requirements section may include security, usability, government requirements, and so on. 
+Constraints often include the word not, indicating a limitation, and may contain budget restric-
+tions or time limitations.
+The problem definition is produced after completing interviews, observations, and document 
+analysis with the users. The result of gathering this information is a wealth of facts and important 
+opinions in need of summary. The first step in producing the problem definition is to find several 
+points that may be included in one issue. Major points can be identified in the interview in a 
+number of ways:
+1. Users may identify an issue, a topic, or a theme that is repeated several times, sometimes 
+by different people in several interviews.
+2. Users may communicate using the same metaphors, such as saying the business is a jour-
+ney, a war, a game, an organism, a machine, a family, and so on.
+3. Users may tell a story to illustrate a problem that includes a beginning, a middle, and an 
+ending; a hero; obstacles to overcome; and a successful (or hoped-for) resolution.
+4. Users may speak at length on a topic.
+5. Users may tell you outright, “This is a major problem.”
+6. Users may communicate importance using body language or may speak emphatically on an 
+issue.
+7. The problem may be the first thing the user mentions.
+Once the issues have been identified, the objectives must be stated. An analyst may have to 
+do a follow-up interview to obtain more precise information about the objectives. After the objec-
+tives are stated, the relative importance of the issues or objectives must be determined. If there 
+are not enough funds to develop the complete system, the critical objectives must be completed 
+first. Users are the best people to identify critical objectives (with the support of analysts) because 
+users are domain experts in their business area and know how they work best with technologies in 
+the organization. In addition to looking through data and interviewing people, a systems analyst 
+should try to witness the problem firsthand.
+A Problem Definition Example: Catherine’s Catering. Catherine’s Catering is a small business that 
+caters meals, receptions, and banquets for business and social occasions such as luncheon meet-
+ings and weddings. It was inspired by Catherine’s love of cooking and talent for preparing fine 
+meals. At first it was a small company with a handful of employees working on small projects. 
+Catherine met with customers to determine the number of guests, the types of meals, and other 
+information necessary to cater an event. As her company’s reputation for creating superb food 
+and the quality of the service began to blossom, the number of events started to increase. A new 
+convention center built in the city and a prospering business community increased the number of 
+catering events.
+Catherine was able to manage the business using spreadsheets and word processing but had 
+difficulty keeping up with the endless phone calls about what types of meals were available, 
+changes to the number of guests attending the event, and the availability of special dietary items, 
+such as vegan, vegetarian, low-fat, low-carbohydrate, gluten-free, and so on. Catherine hired a 
+number of part-time employees to cook and cater the events; however, the complexity of sched-
+uling personnel was becoming overwhelming to the new human resources manager. Catherine 
+decided to hire an IT and business consulting company to help her address the problems her 
+catering enterprise was facing.
+
+
+===== BOOK PAGE 58 =====
+
+58    PART I  •  SYSTEMS AnALYSIS FUnDAMEnTALS
+After performing interviews and observing a number of key staff, the consultants found the 
+following concerns:
+1. The chef ordered supplies (produce, meat, and so on) from suppliers for each event. The 
+suppliers would provide discounts if greater quantities were ordered at a single time for all 
+events occurring in a given time frame.
+2. Customers often called to change the number of guests for an event, with some changes 
+made only one or two days before the event was to occur.
+3. It was too time-consuming for Catherine and her staff to handle each request for catering, 
+with about 60 percent of the calls resulting in a contract.
+4. Conflicts in employee schedules were occurring, and some events were understaffed. 
+Complaints about the timeliness of service were becoming more frequent.
+5. Catherine does not have any summary information about the number of events and types of 
+meals. It would be helpful to have trend information to help guide customers in their choice 
+of meals.
+6. Events that include service for sit-down meals are often held in banquet rooms and at other 
+meeting halls. There are problems with scheduling sufficient wait staff and responding to 
+changes in the number of guests.
+The problem definition is shown in Figure 3.2. Notice the weights on the right, representing 
+an average of the weights assigned by each employee. Objectives match the issues. Each objective 
+is used to create user requirements.
+User requirements are then used to create either use cases and a use case diagram or processes 
+on a data flow diagram. Each objective may have one or more user requirements, several objec-
+tives may lead to the creation of one or perhaps no use cases (use cases are not often created for 
+simple reports), or each requirement may lead to the creation of one data flow diagram process. 
+The user requirements for Catherine’s Catering are to:
+1. Create a dynamic website to allow current and potential clients to view and obtain pricing 
+information for a variety of different products.
+2. Allow current and potential clients to submit a request with their catering choices, with the 
+request routed to an account manager.
+3. Add clients to the client database, assigning each a userID and a password for access to 
+their projects.
+4. Create a website for clients to view and update the number of guests for an event  
+and restrict changes in the number of guests when the event is less than five days in  
+the future.
+5. Obtain or create software to communicate directly with event facility personnel.
+6. Develop or purchase a human resources system for scheduling part-time employees  
+that allows management to add employees and schedule them using multiple  
+constraints.
+7. Provide queries or reports with summary information.
+Each requirement may be used to create a preliminary test plan. Few details are available at 
+this time, so the test plan will be revised as the project progresses.
+A simple test plan for Catherine’s Catering is:
+1. Design test data to allow clients to view each different type of product.
+2. Test to ensure that a catering request has been entered with valid data, as well as each pos-
+sible condition of invalid data. (Data are defined later.) Ensure that the request is routed to 
+the appropriate account manager.
+3. Test that all data fields pass all validation criteria for each field. Test good data to ensure 
+that clients are added to the client database and that a userID and a password are correctly 
+assigned.
+4. Create a test plan that will confirm that clients are able to view event information. Test that 
+updates may not be made within five days of the event. Design test data to ensure correct 
+updating of the number of guests for an event.
+5. Test that the software works correctly for communicating directly with event facility 
+personnel.
+
+
+===== BOOK PAGE 59 =====
+
+CHAPTER 3  •  PR ojECT  MAnA gEMEnT     59
+6. Test the human resources system for scheduling part-time employees, checking that 
+employees have been correctly added and that all invalid values for each field are detected 
+and reported. Check scheduling software for valid updates and each invalid entry.
+7. Check that all queries and reports work correctly and contain the correct summary 
+information.
+Selection of Projects
+Projects come from many different sources and for many reasons. Not all should be selected for 
+further study. You must be clear in your own mind about the reasons for recommending a systems 
+study on a project that seems to address a problem or could bring about improvement. Consider the 
+motivation that prompts a proposal on the project. You need to be sure that the project under con-
+sideration is not being proposed simply to enhance your own political reputation or power or that 
+of the person or group proposing it because there is a high probability that such a project will be 
+ill conceived and eventually poorly accepted.
+As outlined in Chapter 2, prospective projects need to be examined from a systems perspective, 
+considering the impact of the proposed change on the entire organization. Recall that the various 
+FIGURE 3.2
+Problem definition for Catherine’s 
+Catering developed with the help 
+of users.
+Problem Deﬁnition
+Catherine’s Catering is experiencing problems with handling the number of routine calls with customers, as well as 
+coordinating with external partners such as suppliers and meeting facilities. The growth in the number of part-time 
+staﬀ is leading to scheduling conﬂicts and understaﬀed events.
+Issues
+1.  Customer contact takes an inordinate amount of time for routine questions.
+2.  Managing part-time employees is time consuming and leads to scheduling errors.
+3.  It is diﬃcult to accommodate last-minute changes for events.
+4.  Supplies are ordered for each event. Often shipments are received several times a day.
+5.  There are often problems communicating changes to event facilities.
+6.  There is little historical information about customers and meals.
+Objectives
+1.  Provide a web system for customers to obtain pricing information and place orders.
+2.  Create or purchase a human resources system with a scheduling component.
+3.  After customers have signed an event contract, provide them with Web access to their 
+     account and a means for them to update the number of guests. Notify management of changes.
+4.  Provide a means to determine overall quantities of supplies for events occurring within a 
+     concurrent time frame.
+5.  Provide a system for communicating changes to key personnel at event facilities.
+6.  Store all event data and make summary information available in a variety of formats.
+Requirements
+1.  The system must be secure.
+2.  Feedback must be entered by event managers at the close of each event.
+3.  There must be a means for event facilities to change their contact person.
+4.  The system must be easy to use by nontechnical people.
+Constraints
+1.  Development costs must not exceed $50,000.
+2.  The initial website for customer orders must be ready by March 1 to accommodate requests 
+     for graduation parties and weddings.
+ 
+10
+9
+7
+6
+5
+3
+Weight
+
+
+===== BOOK PAGE 60 =====
+
+60    PART I  •  SYSTEMS AnALYSIS FUnDAMEnTALS
+subsystems of an organization are interrelated and interdependent, so a change to one subsystem 
+might affect all the others. Even though the decision makers directly involved ultimately set the 
+boundaries for a systems project, a systems project cannot be contemplated or selected in isolation 
+from the rest of the organization.
+Beyond these general considerations are five specific questions that need to be asked regarding 
+project selection:
+1. Does it have backing from management?
+2. Is the timing of the project commitment appropriate?
+3. Is it possible to improve attainment of strategic organization goals?
+4. Is it practical in terms of resources for the systems analyst and organization?
+5. Is it a worthwhile project compared with other ways the organization could invest 
+resources?
+First and foremost is backing from management. Absolutely nothing can be accomplished 
+without the endorsement of the people who will eventually foot the bill. This statement does not 
+mean that you lack influence in directing the project or that people other than management can’t 
+be included; however, management backing is essential.
+Another important criterion for project selection is timing for you and the organization. Ask 
+yourself and the others who are involved whether the business is presently capable of making a 
+time commitment for installation of new systems or improvement to existing ones. You must also 
+be able to commit all or a portion of your time for the duration.
+A third criterion is the possibility of improving attainment of strategic organization goals 
+such as (1) improving corporate profits, (2) supporting the competitive strategy of the organiza-
+tion, (3) improving cooperation with vendors and partners, (4) improving internal operations 
+support so that goods and services are produced efficiently and effectively, (5) improving inter -
+nal decision support so that decisions are more effective, (6) improving customer service, and 
+(7) improving employee morale. The project should put the organization on target, not deter it 
+from its ultimate goals.
+A fourth criterion is selecting a project that is practicable in terms of your resources and capa-
+bilities as well as those of the business. Some projects will not fall within your realm of expertise, 
+and you must be able to recognize them.
+Finally, you need to come to a basic agreement with the organization about the worthiness 
+of the systems project relative to any other possible project being considered. There are many 
+possibilities for improvements, including (1) speeding up a process, (2) streamlining a process 
+through the elimination of unnecessary or duplicated steps, (3) combining processes, (4) reducing 
+errors in input through changes of forms and display screens, (5) moving key systems to the cloud, 
+(6) reducing redundant storage, (7) reducing redundant output, and (8) improving integration of 
+systems and subsystems. Remember that when a business commits to one project, it is commit-
+ting resources that thereby become unavailable for other projects. It is useful to view all possible 
+projects as competing for the business resources of time, money, and people.
+DETERMINING FEASIBILITY
+Once the number of projects has been narrowed according to the criteria discussed previously, it is 
+still necessary to determine whether the selected projects are feasible. Our definition of feasibility 
+goes much deeper than the common usage of the term. Systems project feasibility is assessed in 
+three principal ways: operationally, technically, and economically. A feasibility study is not a full-
+blown systems study. Rather, a feasibility study is used to gather broad data for the members of 
+management that enables them to decide whether to proceed with a systems study.
+Determining Whether It Is Possible
+After an analyst determines reasonable objectives for a project, the analyst needs to deter -
+mine whether it is possible for the organization and its members to see the project through to 
+completion. Generally, the process of feasibility assessment is effective in screening out projects 
+that are inconsistent with the business’s strategic objectives, that are technically impossible, or that 
+have no economic merit.
+
+
+===== BOOK PAGE 61 =====
+
+CHAPTER 3  •  PR ojECT  MAnA gEMEnT     61
+Although it is painstaking, studying feasibility is worthwhile because it saves businesses and 
+systems analysts time and money. In order for an analyst to recommend further development, a 
+project must show that it is feasible technically, economically, and operationally (see Figure 3.3).
+Technical Feasibility. An analyst must find out whether it is possible to develop a new system 
+given the current technical resources. If not, can the system be upgraded or added to in a manner 
+that fulfills the request under consideration? If existing systems cannot be added to or upgraded, 
+the next question becomes whether there is technology in existence that meets the specifications.
+At the same time, the analyst can ask whether the organization has staff who are techni-
+cally proficient to accomplish the objectives. If not, can the organization hire additional coders, 
+testers, experts, or others who may have different coding skills from theirs, or perhaps outsource 
+the project completely? In addition, are software packages available that can accomplish the 
+objectives, and how significantly does that software need to be customized for the organization?
+Economic Feasibility. Economic feasibility is the second part of resource determination. The 
+basic resources to consider are your time and that of the systems analysis team, the cost of doing 
+a full systems study (including the time of employees you will be working with), the cost of 
+the business employee time, the estimated cost of hardware, and the estimated cost of software, 
+software development, or software customization.
+The organization must be able to see the value of the investment it is pondering before 
+committing to an entire systems study. If short-term costs are not overshadowed by long-term 
+gains or if the project produces no immediate reduction in operating costs, the system is not 
+economically feasible and should not proceed further.
+Operational Feasibility. Suppose for a moment that technical and economic resources are both 
+judged adequate. The systems analyst must now consider the operational feasibility  of the 
+requested project. Operational feasibility is dependent on the human resources available for 
+the project and involves forecasting whether the system will operate and be used once it is put 
+into service.
+If users are virtually wed to the present system, see no problems with it, and generally are not 
+involved in requesting a new system, resistance to implementing the new system will be strong. 
+The new system has a low chance of becoming operational.
+Alternatively, if users themselves have expressed a need for a system that is operational more 
+of the time and is more efficient and more accessible, chances are better that the requested system 
+will eventually be used. Much of the art of determining operational feasibility rests with the user 
+interfaces that are chosen, as we see in Chapter 14.
+Estimating Workloads
+The next step in ascertaining hardware needs is to estimate workloads. Thus, systems analysts 
+formulate numbers that represent both current and projected workloads for the system so that any 
+hardware obtained will be capable of handling current and future workloads.
+FIGURE 3.3
+The three key elements of 
+feasibility are technical, economic, 
+and operational feasibility.
+The Three Key Elements of Feasibility
+       Technical Feasibility
+              Add on to present system
+              Technology available to meet users’ needs
+       Economic Feasibility
+              Systems analysts’ time
+              Cost of systems study
+              Cost of employees’ time for study
+              Estimated cost of hardware
+              Cost of packaged software or software development
+      Operational Feasibility
+              Whether the system will operate when put in service
+              Whether the system will be used
+
+
+===== BOOK PAGE 62 =====
+
+62    PART I  •  SYSTEMS AnALYSIS FUnDAMEnTALS
+If estimates are accurate, the business should not have to replace hardware solely due to 
+unforeseen growth in system use. (Other events, however, such as superior technological innova-
+tions, may dictate hardware replacement if the business wants to maintain its competitive edge.)
+Out of necessity, workloads are sampled rather than actually put through several computer 
+systems. The guidelines given in Chapter 5 can be of use here because in workload sampling 
+the systems analyst is taking a sample of necessary tasks and the computer resources required to 
+complete them.
+Figure 3.4 compares the time required by existing and proposed information systems (IS) that 
+are supposed to handle a given workload. Notice that the company is currently using a legacy com-
+puter system to prepare a summary of shipments to its distribution warehouses, and a web-based 
+dashboard is being suggested. The workload comparison looks at when and how each process is 
+done, how much human time is required, and how much computer time is needed. Notice that 
+the newly proposed system should reduce the required human and computer time significantly.
+ASCERTAINING HARDWARE AND SOFTWARE NEEDS
+Assessing technical feasibility includes evaluating the ability of computer hardware and software 
+to handle workloads adequately. Figure 3.5 shows the steps a systems analyst takes in ascertaining 
+hardware and software needs. First, all current computer hardware the organization owns must be 
+inventoried to discover what is on hand and what is usable.
+A systems analyst needs to work with users to determine what hardware will be 
+needed. Hardware determinations can be made only in conjunction with determining human 
+FIGURE 3.4
+Comparisons of workloads 
+between existing and proposed 
+systems.
+Compare performance of
+distribution warehouses
+by running the summary  
+program.
+Computer programs are
+run when needed; processing 
+is done from the workstation.
+Updates occur immediately;
+processing is done online.
+Distribution manager Distribution manager
+Daily:
+Enter shipments on Excel 
+spreadsheet; verify accuracy
+of spreadsheet manually; and
+media.
+then write ﬁles to backup
+Monthly:
+Run program that
+summarizes daily records
+and prints report; get 
+report and make evaluations.
+Daily:
+Enter shipments on the
+Web-based system using
+automatically backed up
+drop-down boxes. Data are 
+to remote location.
+Monthly:
+Compare warehouses online
+using the performance
+dashboard; print only if
+needed.
+Daily: 20 minutes Daily: 10 minutes
+Monthly: 30 minutes Monthly: 10 minutes
+Daily: 20 minutes Daily: 10 minutes
+Monthly: 30 minutes Monthly: 10 minutes
+Task
+Method
+Personnel
+When and how
+Human time
+requirements
+Computer time
+requirements
+Compare performance of
+distribution warehouses
+on the Web-based
+dashboard.
+Existing System Proposed System
+
+
+===== BOOK PAGE 63 =====
+
+CHAPTER 3  •  PR ojECT  MAnA gEMEnT     63
+FIGURE 3.5
+Steps in choosing hardware and 
+software.
+Choose Hardware
+Vendor
+Choose Cloud
+Service Provider
+Design and
+Develop In-house
+Choose SaaS
+Provider
+Choose Software
+Manufacturer
+Buy New
+Hardware
+Choose
+COTS
+Software
+Use SaaS
+Provider
+Create Your
+Own Software
+Use Cloud
+Services
+Estimate
+Workloads
+Inventory
+Computer
+Hardware
+Evaluate
+Hardware
+Alternatives
+Evaluate
+Software
+Alternatives
+information requirements. Knowledge of the organization structure and how users interact with 
+technologies in an organization setting also can be helpful in hardware decisions. Only when 
+systems analysts, users, and management have a good grasp of what kinds of tasks must be 
+accomplished can hardware options be considered.
+Inventorying Computer Hardware
+A systems analyst needs to inventory what computer hardware is already available in the organi-
+zation. As will become apparent, some of the hardware options involve expanding or recycling 
+current hardware, so it is important to know what is on hand.
+If an updated computer hardware inventory is unavailable, the systems analyst needs to set 
+one up quickly and carry through on it. It is important to know the following:
+1. The type of equipment, including model number and manufacturer
+2. The operational status of the equipment, such as on order, operating, in storage, or in need 
+of repair
+
+
+===== BOOK PAGE 64 =====
+
+64    PART I  •  SYSTEMS AnALYSIS FUnDAMEnTALS
+3. The estimated age of the equipment
+4. The projected life of the equipment
+5. The physical location of the equipment
+6. The department or person considered responsible for the equipment
+7. The financial arrangement for the equipment, such as owned, leased, or rented
+Ascertaining the current hardware available will result in a sounder decision-making process 
+when hardware decisions are finally made because much of the guesswork about what exists will 
+have been eliminated. Through your earlier interviews with users, user surveys, and research of 
+archival data, you will already know the number of people available for data processing as well 
+as their skills and capabilities. Use this information to project how well the staffing needs for new 
+hardware can be met.
+Evaluating Computer Hardware for Purchase
+Evaluating new computer hardware is the shared responsibility of management, users, and systems 
+analysts. Although vendors will be supplying details about their offerings, analysts need to over-
+see the evaluation process personally because they will have the best interests of the business at 
+heart. In addition, systems analysts may have to educate users and management about the general 
+advantages and disadvantages of hardware before they can capably evaluate it.
+Based on the current inventory of computer equipment and adequate estimates of current and 
+forecasted workloads, the next step in the process is to consider the kinds of equipment available 
+that appear to meet projected needs. Information from vendors on possible systems and system 
+configurations becomes more pertinent at this stage and should be reviewed with management 
+and users.
+In addition, workloads can be simulated and run on different systems, including those already 
+used in the organization. This process is referred to as benchmarking.
+Criteria that the systems analysts and users should use to evaluate performance of different 
+systems hardware include the following:
+1. The time required for average transactions (including how long it takes to input data and 
+how long it takes to receive output)
+2. The total volume capacity of the system (how much can be processed at the same time 
+before a problem arises)
+3. The idle time of the CPU or network
+4. The size of the memory provided
+Some criteria will be shown in formal demonstrations; some cannot be simulated and must 
+be gleaned from manufacturers’ or service providers’ specifications. It is important to be clear 
+about the required and desired functions before getting too wrapped up in vendors’ claims during 
+demonstrations.
+Once functional requirements are known and the products currently available are compre-
+hended and compared with what already exists in the organization, the systems analysts in con-
+junction with users and management can make decisions about whether obtaining new hardware 
+is necessary.
+Advantages of Buying Computer Hardware. If the organization purchases its own computers, it 
+will have full control regarding the type of hardware and software. The company will decide when 
+to purchase it and when to replace it. Often it is cheaper in the long run to buy computer equipment 
+outright, but only if the organization buys the appropriate computer equipment. Buying computers 
+often has tax advantages in the United States because of the depreciation rules.
+Disadvantages of Buying Computer Hardware. Purchasing computers presents a problem because 
+the initial cost of buying the equipment is often very high. Phasing in computer equipment over 
+time doesn’t always work due to compatibility problems that exist with different models and 
+legacy devices but buying everything at once means tying up capital or borrowing money. The risk 
+of equipment obsolescence is a serious concern and getting stuck with equipment that is not useful 
+because someone made the wrong decision is a very large risk. Finally, the organization needs to 
+remember that the full responsibility for the operation and maintenance stays with the company 
+that buys the equipment. This can be a big disadvantage because it ties up people and money.
+
+
+===== BOOK PAGE 65 =====
+
+CHAPTER 3  •  PR ojECT  MAnA gEMEnT     65
+FIGURE 3.6
+Comparing the advantages and 
+disadvantages of buying computer 
+resources versus using cloud 
+services.
+Advantages Disadvantages
+• Full control over hardware
+ and software
+• Often cheaper in long run
+• Provides tax advantages through
+ depreciation
+• Initial cost is high
+• Risk of obsolescence
+• Risk of being stuck if choice
+ was wrong
+• Full responsibility for operation
+ and maintenance
+Buying
+computer
+hardware
+Using cloud
+services
+• Maintenance and upgrades
+ performed by provider
+• Ability to change software and
+ hardware rapidly
+• Scalable—can grow quickly
+• Consistent over multiple platforms
+• No capital is tied up
+• Company doesn’t control its
+ own data
+• Data security is at risk
+• Reliability risks of the Internet
+ platform
+• Proprietary APIs and software
+ may make switching providers
+ difﬁcult
+Renting Time and Space in the Cloud
+Instead of purchasing their own equipment, companies can use cloud services. Some of the 
+services available are web hosting, email hosting, application hosting, backup, storage and 
+processing of databases, archiving, and ecommerce support. The advantages and disadvantages 
+to buying hardware versus using cloud services are shown in Figure 3.6.
+Cloud services are scalable, which means if the business grows, the organization can easily 
+add computing power without procuring new hardware. Although few organizations save money 
+by purchasing cloud services, they prize the agility afforded by being able to add or stop cloud 
+services as needed.
+Three main categories of cloud computing are Software as a Service (SaaS), Infrastructure 
+as a Service (IaaS), and Platform as a Service (PaaS). With SaaS, the cloud vendor sells access 
+to applications (discussed later in this chapter, when we discuss software). With IaaS, also called 
+Hardware as a Service (HaaS) , an organization outsources its hardware operations needs to 
+the service provider. Using the PaaS approach, companies use the internet to rent all manner of 
+hardware, operating systems, storage, and even network capacity. Another option is to use a hybrid 
+approach in which some of the hardware is maintained in the local organization and some of the 
+software is cloud based. This includes public and private cloud services.
+Decisions on cloud computing can first be addressed on a strategic level. Cearley (2010) 
+states that a business should (1) define a high-level business case that focuses on the high-level 
+benefits of cloud computing for the organization; (2) define core requirements (perhaps making 
+a quick list to start) that support the migration of IT to the cloud, including dimensions such as 
+system performance, security desired in cloud relationships, IT governance, and predicted growth 
+of the enterprise; and (3) define core technologies for the enterprise, starting with a list of cloud 
+computing technologies that are helpful. As an analyst, you may be asked to facilitate any or all 
+of these steps, or your help might be solicited at some point in the process of moving computing 
+services to the cloud.
+Benefits of Cloud Computing. Some of the benefits of cloud computing include less time spent 
+maintaining legacy systems or even performing routine tasks such as maintenance or upgrading 
+of present systems. Using the cloud may make it simpler to acquire IT services and may also 
+make it easier and quicker to separate from or discontinue services that are no longer necessary. 
+Using cloud services makes your applications scalable, which means you can grow them easily by 
+adding more cloud resources. Cloud computing also has the potential to offer consistency across 
+multiple platforms that were previously disjointed or difficult to integrate. Finally, no capital is 
+tied up and no financing is required.
+Drawbacks of Cloud Computing. As with any other innovation, there are some disadvantages of 
+adopting cloud computing for organizations. Loss of control of data stored in the cloud is perhaps 
+the most striking concern when relying on cloud computing; if the cloud services provider ceased
+
+
+===== BOOK PAGE 66 =====
+
+66    PART I  •  SYSTEMS AnALYSIS FUnDAMEnTALS
+to exist, it is unclear what would happen to the organization’s data. Looming almost as large are 
+potential security threats to data that is not stored on premises or even on the organization’s own 
+computers. Reliability of the internet as a platform forms the third main concern for organizations. 
+Recently, the consulting firm Gartner, Inc. described DRaaS, or Diaster Recovery as a Service, 
+which they define as a “stand-alone restoration of enterprise applications at another location 
+in the event of a diaster that can range in scope from a self-service to fully managed offering” 
+(Blair & Hewitt, 2021). They note that organizations are unprepared to handle disaster recovery 
+with cloud providers and are overconfident about their abilities to weather data disasters in a cloud 
+environment. Furthermore, they note that the proliferation of cloud services results in difficulty 
+in choosing cloud services.
+Additionally, something that could dampen an organization’s maneuverability when it comes 
+to cloud computing is the prospect that the company could get stuck using application program-
+ming interfaces (APIs) that are proprietary with the cloud provider. This might make switching 
+among cloud computing providers more difficult. Another development in cloud computing of 
+which analysts should be aware is that some countries are now mandating that any company that 
+does business there must use cloud service providers based in that country. For example, Apple 
+is now obeying legislation like this in China.
+Evaluation of Vendor Support for Computer Hardware
+Several key areas need to be evaluated when weighing the support services vendors offer to busi-
+nesses. Most hardware vendors offer testing of hardware on delivery and a 90-day warranty cov-
+ering any factory defects, but you must ascertain what else the vendor has to offer. Cloud service 
+providers offer 30- or 60-day money-back guarantees. Vendors of comparable quality frequently 
+distinguish themselves from others in the range of support services they offer.
+A list of key criteria that ought to be checked when evaluating vendor support is provided 
+in Figure 3.7. Support services include routine and preventive maintenance of hardware, specified 
+response time (within six hours, next working day, and so on) in case of emergency equipment 
+breakdowns, loan of equipment in the event that hardware must be permanently replaced or off-
+site repair is required, and in-house training or off-site group seminars for users. Cloud providers 
+FIGURE 3.7
+Guidelines for vendor selection.
+Full line of hardware
+Quality products
+Warranty
+Complete software needs
+Custom programming
+Warranty
+Commitment to schedule
+In-house training
+Technical assistance
+Routine maintenance procedures
+Speciﬁed response time in emergencies
+Equipment loan while repair is being done
+Speciﬁcs Vendors Typically Offer
+Hardware Support
+Software Support
+Installation and Training
+Web hosting
+Email hosting
+Data storage
+Cloud Services
+Ensure 24/7 data recovery
+Mitigate risks of ransomware
+Migrate data center smoothly
+Disaster Recovery as
+a Service
+Maintenance
+Automatic software upgrades
+Support services
+Security and antivirus protection
+Software as a Service
+Vendor Services
+
+
+===== BOOK PAGE 67 =====
+
+CHAPTER 3  •  PR ojECT  MAnA gEMEnT     67
+make claims for uptime and promise to get back to you on a question within a certain amount 
+of time, such as 24 hours. Peruse the support services documents accompanying the purchase of 
+equipment and remember to involve appropriate legal staff before signing contracts for equipment 
+or services.
+Unfortunately, the process of evaluating computer hardware and cloud providers is not 
+as straightforward as simply comparing costs and choosing the least expensive option. Before 
+becoming convinced that buying cheaper compatibles is the way to endow your system with add-
+on capability, you need to do enough research to feel confident that a hardware vendor or cloud 
+provider is a stable corporate entity.
+Understanding the Bring Your Own Device Option
+Bring your own device (BYOD) or bring your own technology (BYOT) is a trend appearing in a 
+variety of organizations in different industries. These organizations range in size and have employ-
+ees of differing skills. In general, BYOD or BYOT means that rather than using a smartphone or 
+tablet issued by the organization, employees use their own devices to access corporate networks, 
+data, and services remotely when working outside the office. The BYOD approach is often pre-
+sented as a way to keep the organization’s hardware costs down and improve morale among 
+employees who, on average, already bring one or more mobile devices to work for personal tasks.
+As a systems analyst, you will work to discover through a combination of interviews, surveys, 
+and observation what personal technology is being used by most of the group. For example, if you 
+observe that all the executives in the decision-making group already bring in iPads every day, 
+you might conclude that designing dashboards for the iPad has some merit. They are devices you 
+want to include in your original design rather than as an afterthought. If your observations show 
+that most executives prefer face-to-face meetings, but they use their handheld devices (such as 
+mobile phones) to check other corporate data and emails during meetings, then you might want 
+to consider supporting corporate email on their personal phones.
+Benefits and Drawbacks of BYOD. The benefits of BYOD computing include building employee 
+morale; a potential for lowering the initial cost of organization IT hardware purchase; facilitat-
+ing remote, round-the-clock access to corporate computer networks regardless of location; and 
+building on a familiar user interface to access corporate computing services, applications, data-
+bases, and storage. Security risks posed by untrained users are probably the biggest drawback. 
+Identified threats are loss of the device itself, theft of the device and its data, unauthorized access 
+to corporate networks using personal mobile devices, and so on. Other threats are posed by com-
+monly occurring behavior with mobile devices that may be fine on the private side but not on the 
+corporate side, such as using free Wi-Fi hotspots, using apps such as Dropbox, and others.
+Creating Custom Software
+Analysts and organizations are increasingly faced with a make, buy, or outsource decision when 
+assessing software for IS projects, particularly when contemplating upgrades to existing or legacy 
+systems. Analysts have three choices: creating their own software, purchasing commercial-off-
+the-shelf (COTS) software, or using software from a SaaS provider. Figure 3.8 summarizes the 
+advantages and disadvantages of each of these options.
+Several situations call for the creation of original, custom software or software components. 
+The most likely instance is when COTS software does not exist or cannot be identified for the 
+desired application. Alternatively, the software may exist but be unaffordable or not easily pur -
+chased or licensed.
+Original software should be created when an organization is attempting to gain a competitive 
+advantage through the leveraged use of IS. This is often the case when an organization is creating 
+ecommerce or other innovative applications where none have existed. An organization also may 
+be a “first mover” in the use of a particular technology or in its particular industry. Organizations 
+that have highly specialized requirements or exist in niche industries also may benefit from creat-
+ing original software.
+The advantages of creating custom software include being able to respond to specialized 
+user and business needs, gaining a competitive advantage by creating innovative software, 
+having in-house staff available to maintain the software, and the pride of owning something you 
+have created.
+
+
+===== BOOK PAGE 68 =====
+
+68    PART I  •  SYSTEMS AnALYSIS FUnDAMEnTALS
+FIGURE 3.8
+Comparing the advantages and 
+disadvantages of creating custom 
+software, purchasing COTS 
+packages, and outsourcing to a 
+SaaS provider.
+Advantages Disadvantages
+• Speciﬁc response to
+ specialized business needs
+• Innovation may give ﬁrm a
+ competitive advantage
+• In-house staff available to
+ maintain software
+• Pride of ownership
+• May be signiﬁcantly higher
+ initial cost compared to COTS
+ software or ASP
+• Necessity of hiring or working
+ with a development team
+• Ongoing maintenance
+Creating Custom
+Software
+• Organizations that do not
+ specialize in information
+ systems can focus on what
+ they do best (their strategic
+ mission)
+• There is no need to hire,
+ train, or retain a large IT staff
+• There is no expenditure of
+ employee time on
+ nonessential IT tasks
+• Loss of control of data, systems,
+ IT employees, and schedules
+• Concern over the ﬁnancial
+ viability and long-run stability
+ of the SaaS provider
+• Security, conﬁdentiality, and
+ privacy concerns
+• Loss of potential strategic
+ corporate advantage regarding
+ innovativeness of applications
+Using SaaS
+• Reﬁned in the commercial
+ world
+• Increased reliability
+• Increased functionality
+• Often lower initial cost
+• Already in use by other
+ ﬁrms
+• Help and training comes
+ with software
+• Programming focused; not
+ business focused
+• Must live with the existing
+ features
+• Limited customization
+• Uncertain ﬁnancial future
+ of vendor
+• Less ownership and
+ commitment
+Purchasing COTS
+Packages
+The drawbacks of developing custom software include the potential for a significantly higher 
+initial cost compared to purchasing COTS software or contracting with a SaaS provider, the neces-
+sity of hiring or working with a development team, and the fact that you are responsible for the 
+ongoing maintenance because you created the software.
+Purchasing COTS Software
+COTS software includes such products as the Microsoft Office suite, which includes Word for 
+word processing, Excel for spreadsheets, Access for building databases, and other applications. 
+Other types of COTS software are for organization-level systems rather than office or personal 
+use. A website such as softwareadvice.com lists popular (but costly) enterprise resource planning 
+packages such as Oracle and SAP in their reviews of COTS software. These packages differ radi-
+cally in the amount of customization, support, and maintenance required compared to Microsoft 
+Office. COTS software also can refer to software components or objects (also called building 
+blocks) that can be purchased to provide a particular needed functionality in a system.
+You should consider using COTS software when you can easily integrate the applications or 
+packages into existing or planned systems and when you have identified no need to immediately 
+or continuously change or customize systems for users. Your forecasts should demonstrate that 
+the organization you are designing the system for is unlikely to undergo major changes after the 
+proposed purchase of COTS software, such as a dramatic increase in customers or large physical 
+expansions.
+There are some advantages to purchasing COTS software that you should keep in mind as 
+you weigh alternatives. One advantage is that these products have been refined through the pro-
+cess of commercial use and distribution and additional functionalities are often offered. Another 
+advantage is that packaged software is typically extensively tested and thus extremely reliable.
+Increased functionality is frequently offered with COTS software because a commercial 
+product is likely to have companion products, add-on features, and upgrades that enhance its
+
+
+===== BOOK PAGE 69 =====
+
+CHAPTER 3  •  PR ojECT  MAnA gEMEnT     69
+attractiveness. Also, analysts often find that the initial cost of COTS software is lower than the 
+cost for either in-house software development or the use of a SaaS provider.
+Another advantage of purchasing COTS packages is that many other companies use them, so 
+analysts are not experimenting on their clients with one-of-a-kind software applications. Finally, 
+COTS software boasts an advantage in the help and training that accompanies the purchase of 
+the packaged software.
+One example of the use of COTS software is from a theatre company in the nonprofit sector, 
+in which organizations (particularly in the performing arts) tend to lag behind their for-profit 
+counterparts in adoption of information communication technologies. The theatre company was 
+predictably slow to move to the web. When the company wanted to create ecommerce applica-
+tions, it was put in a position of having to hire outside designers to create ecommerce applications 
+for them. Considering the expense and lack of in-house expertise, many nonprofit organizations 
+simply did not move the business portion of their organizations to the web; instead, they waited for 
+COTS packages, such as PC-based box office software, or SaaS, such as online ticketing agencies 
+with automation already in place, to make these services available to patrons. In-house, custom 
+software development is out of the question for most of these groups, which typically have small 
+or nonexistent IT staffs and budgets and minimal internal IT expertise.
+There is a downside to the use of COTS software. Because it is not meant to be fully custom-
+izable, the theatre company lost its ability to change the software to include key features in its 
+donor database on which users relied. COTS software also may include errors that could expose 
+an organization to liability issues.
+There are other disadvantages to consider with the purchase of COTS software, including 
+the fact that packages are programmed rather than being focused on human users working in a 
+business. Users must live with whatever features exist in the software, whether they are appropri-
+ate or not. A disadvantage that grows out of this is the limited customizability of most packaged 
+software. Other disadvantages to purchasing COTS software include the necessity of investigating 
+the financial stability of the software vendor and the diminished sense of ownership and commit-
+ment that is inevitable when the software is considered a product rather than a process.
+To achieve some perspective on systems being developed, you should recognize that over 
+half of all projects are built from the ground up. According to goremotely.net about 71 percent 
+of companies use some type of agile approach for some projects and the others use traditional 
+methods like SDLC for some projects. Most of these are developed using an internal systems 
+analysis team adopting cloud technology. Computer programmers may be in-house or outsourced.
+Fewer than half of all projects are developed from existing applications or components. The 
+great majority are modified, some extensively. Less than 5 percent of software is off-the-shelf 
+software that requires no modifications at all.
+Using the Services of a SaaS Provider
+Organizations may realize some benefits from taking an entirely different approach to procuring 
+software: outsourcing some of the organization’s software needs to a SaaS provider that special-
+izes in IT applications.
+There are specific benefits to outsourcing applications to a SaaS provider. For example, organi-
+zations that want to retain their strategic focus and do what they’re best at may want to outsource the 
+production of IS applications. In addition, outsourcing software needs means that the organization 
+doing the outsourcing may be able to sidestep the need to hire, train, and retain a large IT staff. This 
+can result in significant savings. When an organization uses SaaS, there is little or no expenditure 
+of valuable employee time on nonessential IT tasks; these are handled professionally by SaaS.
+Hiring a SaaS provider should not be considered a magic formula for addressing software 
+requirements. Some drawbacks to the use of SaaS must be seriously considered. One disadvantage 
+is a general loss of control over corporate data, IS, IT employees, and even processing and project 
+schedules. Some companies believe that the heart of their business is their information, so even the 
+thought of relinquishing control over it is distressing. Another disadvantage is concern over the 
+financial viability of any SaaS that is chosen. There might also be concerns about the security of 
+the organization’s data and records, along with concern about confidentiality of data and client 
+privacy. Finally, when choosing a SaaS provider, there is a potential loss of strategic corporate 
+advantage that might have been gained through the company’s deployment of its own innovative 
+applications created by its employees.
+
+
+===== BOOK PAGE 70 =====
+
+70    PART I  •  SYSTEMS AnALYSIS FUnDAMEnTALS
+Evaluation of Vendor Support for Software and SaaS
+Whether you purchase a COTS package or contract for SaaS from a provider, you will be working 
+with vendors who may have their own best interests at heart. You must be willing to evaluate 
+software with users and not be unduly influenced by vendors’ sales pitches. Specifically, there are 
+six main categories on which to grade software, as shown in Figure 3.9: performance effectiveness, 
+performance efficiency, ease of use, flexibility, quality of documentation, and manufacturer support.
+Evaluate packaged software based on a demonstration using test data from your client’s 
+business and examine accompanying documentation. Vendors’ descriptions alone will not suffice. 
+Vendors typically certify that software is working, but they do not guarantee that it will be error-
+free in every instance, that it will not crash when users take incorrect actions, or that it will be 
+compatible with all other software the organization is currently running. Obviously, they will not 
+guarantee their packaged software if it is used in conjunction with faulty hardware.
+IDENTIFYING, FORECASTING, AND COMPARING  
+COSTS AND BENEFITS
+Costs and benefits of a proposed computer system must always be considered together because 
+they are interrelated and often interdependent. Although a systems analyst tries to propose 
+a system that fulfills various information requirements, decisions to continue with the proposed 
+system will be based on a cost–benefit analysis, not on information requirements. In many ways, 
+benefits are measured by costs, which becomes apparent in the next section.
+Forecasting
+Systems analysts are required to predict certain key variables before submitting a proposal to the 
+client. To some degree, a systems analyst will rely on a what-if analysis such as, “What if labor 
+costs rise only 5 percent per year for the next three years, rather than 10 percent?” The systems 
+analyst should realize, however, that they cannot rely on what-if analysis for everything if the 
+proposal is to be credible, meaningful, and valuable.
+calendar widget to track ad campaign rollouts. And I like the way 
+the menus for the screen displays could all be chosen by Roman 
+numerals. It was easy to follow. And the vendor isn’t going to be 
+hard to move on price. I think they’re already in a price war.”
+“Do you want to know my favorite, though?” Roman asks 
+archly. “It’s the one put out by Jupiter, Unlimited. I mean, it has 
+everything, doesn’t it? It costs a little extra coin, but it does what 
+we need it to do, and the documentation is heavenly. They don’t do 
+any training, of course. They think they’re above it.”
+To answer Roman’s burning questions by your March 15 dead-
+line, you need to systematically evaluate the software as well as the 
+vendors, and then render a decision. Evaluate each vendor and pack-
+age based on what Roman has said so far. (Assume that you can trust 
+his opinions.) What are Roman’s apparent biases when evaluating 
+software and vendors? What further information do you need about 
+each company and its software before you can make a selection? 
+Set up a table to evaluate each vendor. Answer each question in a 
+separate paragraph.
+CONSULTING OPPORTUNITY 3.2 
+Veni, Vidi, Vendi, or “I Came, I Saw, I Sold”
+“It’s really some choice. I mean, no single package seems to 
+have everything we want. Some of them come darn close, though,” 
+says Roman, an advertising executive for Empire Magazine with 
+whom you have been working on a systems project. Recently, 
+the two of you have decided that packaged software would 
+probably suit the advertising department’s needs and stem its 
+general decline.
+“The last salesperson’s demo we saw—you know, the one who 
+worked for Data Coliseum—really had a well-rounded pitch. And 
+I like their brochure. Full-color printing, on card stock. Classic,” 
+Roman asserts. “And what about those people from Vesta Systems? 
+They’re really fired up. And their package was easy to use with 
+a minimum of ceremony. Besides, they said they would train all 
+12 of us, on-site, at no charge. But look at their advertising. They 
+just take things off their printers.”
+Roman fiddles in his chair as he continues his ad hoc review 
+of software and software vendors. “That one package from Mars, 
+Inc. really sold me all on its own, though. I mean, it had a built-in
+
+
+===== BOOK PAGE 71 =====
+
+CHAPTER 3  •  PR ojECT  MAnA gEMEnT     71
+FIGURE 3.9
+Guidelines for evaluating software.
+ Able to perform all required tasks
+ Able to perform all tasks desired 
+ Well-designed display screens
+ Adequate capacity 
+Fast response time
+Efﬁcient input
+Efﬁcient output
+Efﬁcient storage of data
+Efﬁcient backup 
+Satisfactory user interface
+Help menus available
+“Read Me” ﬁles for last-minute changes
+Flexible interface
+Adequate feedback
+Good error recovery 
+Options for input
+Options for output
+Usable with other software
+Good organization
+Adequate online tutorial
+Website with FAQ
+Technical support hotline
+Newsletter/email
+Website with downloadable product updates 
+Software Requirements Speciﬁc Software Features
+Performance Efﬁciency
+Performance Effectiveness
+Ease of Use
+Flexibility
+Quality of Documentation
+Manufacturer Support
+A systems analyst has many forecasting models available. The main condition for choosing 
+a model is the availability of historical data. If historical data are unavailable, the analyst must 
+turn to one of the judgment methods: estimates from the sales force, surveys to estimate customer 
+demand, Delphi studies (a consensus forecast developed independently by a group of experts 
+through a series of iterations), creation of scenarios, or historical analogies.
+If historical data are available, the next differentiation between classes of techniques involves 
+whether the forecast is conditional or unconditional. Conditional implies that there is an asso-
+ciation among variables in the model or that such a causal relationship exists. Common meth-
+ods in this group include correlation, regression, leading indicators, econometrics, and input/
+output models.
+Unconditional forecasting means the analyst isn’t required to find or identify any causal rela-
+tionships. Consequently, systems analysts find that these methods are low-cost, easy-to-implement 
+alternatives. Included in this group are graphical judgment, moving averages, and analysis of time-
+series data. Because these methods are simple, reliable, and cost-effective, the remainder of the 
+section focuses on them.
+Estimation of Trends. Trends can be estimated in a number of different ways. One way to esti-
+mate trends is to use a moving average. This method is useful because some seasonal, cyclical, 
+or random patterns may be smoothed, leaving the trend pattern. The principle behind moving 
+averages is to calculate the arithmetic mean of data from a fixed number of periods; a three-month 
+moving average is simply the average of the past three months. For example, the average sales for 
+January, February, and March are used to predict the sales for April. Then the average sales for 
+February, March, and April are used to predict the sales for May, and so on.
+When the results are graphed, it is easily noticeable that the widely fluctuating data are 
+smoothed. The moving average method is useful for its smoothing ability, but it also has many 
+disadvantages. Moving averages are more strongly affected by extreme values than by using 
+graphical judgment or estimating by using other methods, such as least squares. An analyst should 
+learn forecasting well, as it often provides information that is valuable in justifying an entire project.
+
+
+===== BOOK PAGE 72 =====
+
+72    PART I  •  SYSTEMS AnALYSIS FUnDAMEnTALS
+Identifying Benefits and Costs
+Benefits and costs can be either tangible or intangible. Both tangible and intangible benefits and 
+costs must be taken into account when systems are considered.
+Tangible Benefits. Tangible benefits are advantages that are measurable in dollars that accrue 
+to the organization through the use of the information system. Examples of tangible benefits are 
+an increase in the speed of processing, access to otherwise inaccessible information, access to 
+information on a timelier basis than was possible before, the advantage of the computer’s superior 
+calculating power, and a decrease in the amount of employee time needed to complete specific 
+tasks. And there are other tangible benefits. Although measurement is not always easy, tangible 
+benefits can be measured in terms of actual dollars, resources, or time saved.
+“That’s interesting,” says Glinda, “but I’ve been doing my own 
+research. Some of our competitors have told me they let a company 
+do all the work for them. The company is called Lawn Wizards. 
+They do landscaping, but they also maintain accounts receivable 
+and scheduling packages.”
+So off they went to see the Wizards.
+Joel Green, the owner and creator of Lawn Wizards, is proud 
+of his software. “I spent a great deal of time working with my 
+suppliers, that is, nurseries, in the area, and we have developed 
+a coding system for everything,” he brags. “All the trees, sizes 
+of trees, shrubs, flowers, mulch, and even lawn care tools have 
+numbers.
+“I started with a small firm, but when customers realized I paid 
+attention to every little detail, my business blossomed.” He adds, 
+“My suppliers love my system because it cuts down on confusion.
+“I noticed that my competitors were working with the same 
+suppliers but were getting less preferential treatment because 
+they couldn’t communicate about products very effectively. So, 
+I decided I would offer my software for hire. I would make money 
+by renting out my software and demand even greater respect from 
+my suppliers. I can even deliver it through the cloud. My end-user 
+license agreement states that I own the software, product codes, and 
+data generated by the system.
+“Using my unique Wizards software, I can customize the pack-
+age a bit for the customer, but essentially all the lawn services in the 
+state will be using my database, codes, and B2B features. I maintain 
+my software. If you could see the software code, it would look just 
+like a manicured lawn.”
+Now Glinda and Elphaba are even more confused than before. 
+They have four distinct options: create a custom package on 
+their own, buy a standalone commercial software product such 
+as QuickBooks Pro, subscribe to an online plan such as Quick-
+Books Online, or outsource their needs to Lawn Wizards. Help 
+them learn the true secret of (software) happiness by helping 
+them articulate the pros and cons of each of their alternatives. 
+What would you recommend? In two paragraphs, write a recom-
+mendation that grows out of your consideration of their specific 
+business situation.
+CONSULTING OPPORTUNITY 3.3 
+We’re Off to See the Wizards
+E lphaba I. Menzel and Glinda K. Chenoweth are the owners of 
+Emerald City Beautyscapes, a commercial landscaping company. 
+They are trying to decide whether to write their own software, 
+perhaps using Microsoft Access as a basis; adopt a COTS software 
+package such as QuickBooks Pro; or hire a service called Lawn 
+Wizards, Inc. to perform all their bookkeeping functions.
+Elphaba turns to Glinda and asks, “Is it possible for us to create 
+a system of our own?”
+Glinda replies, “I suppose we could, but it would take for -
+ever. We would need to define all our fields, our queries, and our 
+reports. We would need to know who hasn’t paid us yet and how 
+long it has been since we last billed them.”
+“Yes,” says Elphaba, “and we would also have to create product 
+descriptions, service descriptions, and codes for everything we sell 
+and provide.”
+“If that were all we needed, we could probably do it,” says 
+Glinda. “But we also need to include a scheduling system. We need 
+to know when we can provide the services to our customers and 
+what to do if we fall behind schedule. Maybe it just isn’t worth it.
+“Still,” reflects Glinda, “my mother used to say ‘There’s no 
+place like home.’ Maybe there’s no software like homegrown.”
+“You see both sides of everything,” remarks Elphaba. “But the 
+path you want to take is too long and risky. We need a software 
+package that is ready for us to use now. I hear that there are products 
+they call commercial off-the-shelf software that we can buy and 
+adapt to our lawn service business. I’ll investigate.” So Elphaba sets 
+out to look for software that may be suitable.
+“I’ve found something,” cries Elphaba. “I found this software 
+called QuickBooks Pro at www.quickbooks.intuit.com, and it looks 
+like we can afford it. There are numerous versions of the software 
+already—one for accounting, one for construction, one for health 
+services. Maybe we can find a package that suits us. If not, it looks 
+like we can customize the generic version of QuickBooks Pro to fit 
+our needs.
+“Our system could grow too. QuickBooks Pro is readily scal-
+able. We can add customers, suppliers, or products easily. I just 
+wanted to plant the idea of buying a ready-made package on you. 
+Another possibility is to subscribe to a QuickBooks Online plan.”
+
+
+===== BOOK PAGE 73 =====
+
+CHAPTER 3  •  PR ojECT  MAnA gEMEnT     73
+Intangible Benefits. Some benefits that accrue to an organization from the use of an infor -
+mation system are difficult to measure but are important nonetheless. They are known as 
+intangible benefits.
+Intangible benefits include improving the decision-making process, enhancing accuracy, 
+becoming more competitive in customer service, maintaining a good business image, and 
+increasing job satisfaction for employees by eliminating tedious tasks. As you can see from this 
+list, intangible benefits are extremely important and can have far-reaching implications for a 
+business as it relates to people both outside and within the organization.
+Although intangible benefits of an information system are important factors that must be 
+considered when deciding whether to proceed with a system, a system built solely for its intan-
+gible benefits will not be successful. You must discuss both tangible and intangible benefits in 
+your proposal because presenting both will enable decision makers in the business to make a 
+well-informed decision about the proposed system.
+Tangible Costs. The concepts of tangible and intangible costs present a conceptual parallel to the 
+tangible and intangible benefits discussed already. Tangible costs are those that systems analysts 
+and the business’s accounting personnel can accurately project.
+Included in tangible costs are the cost of equipment such as computers and printers, the cost 
+of resources, the cost of systems analysts’ time, and the cost of computer programmers’ time and 
+other employees’ salaries. These costs are usually well established or can be discovered quite 
+easily; they are costs that will require the business to make a cash outlay.
+Intangible Costs. Intangible costs are difficult to estimate and may not be known. They include 
+losing a competitive edge, losing the reputation for being first with an innovation or the leader 
+in a field, declining company image due to increased customer dissatisfaction, and ineffective 
+decision making due to untimely or inaccessible information. As you can imagine, it is nearly 
+impossible to accurately project a dollar amount for intangible costs. To aid decision makers who 
+want to weigh a proposed system and all its implications, you must include intangible costs even 
+though they are not quantifiable.
+Comparing Costs and Benefits
+There are many well-known techniques for comparing the costs and benefits of a proposed system. 
+Two are break-even analysis and payback.
+Break-Even Analysis. By comparing costs alone, a systems analyst can use break-even analysis 
+to determine the break-even capacity of a proposed information system. The point at which the 
+total costs of the current system and the proposed system intersect represents the break-even 
+point, the point where it becomes profitable for the business to get the new information system.
+Total costs include the costs that recur during operation of a system plus the developmen-
+tal costs that occur only once (one-time costs of installing a new system)—that is, the tangible 
+costs that were discussed previously. Figure 3.10 illustrates a break-even analysis on Tamika’s 
+Equipment, a small store that maintains inventory using a manual system. As volume rises, the costs 
+of the manual system rise at an increasing rate. A new computer system would cost a substantial 
+sum up front, but the incremental costs for higher volume would be rather small. The graph shows 
+that the computer system would be cost-effective if the business sold about 600 units per week.
+Payback is useful when a business is growing, and volume is a key variable in costs. One 
+disadvantage of break-even analysis is that benefits are assumed to remain the same, regardless 
+of which system is in place. From our study of tangible and intangible benefits, we know that this 
+is clearly not the case.
+Payback analysis can determine how long it will take for the benefits of the system to pay 
+back the costs of developing it. Figure 3.11 illustrates a system with a payback period of three 
+and a half years.
+MANAGING TIME AND ACTIVITIES
+The process of analysis and design can become unwieldy, especially when the system being 
+developed is large. To keep the development activities as manageable as possible, systems analysts 
+usually use some of the techniques of project management to help get organized.
+
+
+===== BOOK PAGE 74 =====
+
+74    PART I  •  SYSTEMS AnALYSIS FUnDAMEnTALS
+The Work Breakdown Structure
+Systems analysts are responsible for completing projects on time and within budget and for 
+including the features promised. To accomplish all three of these goals, a project needs to be 
+broken down into smaller tasks or activities. These tasks together make up a work breakdown 
+structure (WBS).
+When defined properly, the tasks that comprise a WBS have special properties:
+1. Each task or activity contains one deliverable, or tangible outcome, from the activity.
+2. Each task can be assigned to a single individual or a single group.
+3. Each task has a responsible person monitoring and controlling performance.
+FIGURE 3.10
+Break-even analysis for a  
+proposed inventory system.
+Cost
+($)
+Break-Even
+Point
+Current
+System
+10,000
+20,000
+30,000
+40,000
+50,000
+60,000
+70,000
+0
+0 200 400 600 800 1,000 1,200
+Units Sold
+Cost of proposed
+system
+Cost of current
+system
+Tamika’s Equipment
+Proposed
+System
+FIGURE 3.11
+Payback analysis showing a payback period of three and a half years.
+Cost
+($)
+Costs
+Beneﬁts
+10,000
+20,000
+30,000
+40,000
+50,000
+60,000
+70,000
+0
+0
+1
+2
+3
+4
+5
+6
+Year Cost
+($)
+Cumulative
+Costs
+($)
+Cumulative
+Beneﬁts
+($)
+Beneﬁts
+($)
+30,000
+1,000
+2,000
+2,000
+3,000
+4,000
+4,000
+30,000
+31,000
+33,000
+35,000
+38,000
+42,000
+46,000
+0
+12,000
+12,000
+8,000
+8,000
+10,000
+15,000
+0
+12,000
+24,000
+32,000
+40,000
+50,000
+65,000
+0 1 2 3 4 5 6
+Year
+Cumulative beneﬁts from
+proposed system
+Cumulative costs of
+proposed system
+Payback
+Period
+
+
+===== BOOK PAGE 75 =====
+
+CHAPTER 3  •  PR ojECT  MAnA gEMEnT     75
+Activities in a WBS do not need to take the same amount of time or involve the same number 
+of team members. The activities defined must add up to 100 percent of the work, however.
+The main method for developing a WBS is decomposition or starting with large ideas and 
+then breaking them down into manageable activities. This subdivision of ideas into smaller ideas 
+and eventually into tasks stops when each task has only one deliverable.
+There are different types of work breakdown structures. A WBS can be product oriented. In 
+other words, building a website can be broken down into many parts, with each set of pages having 
+a specific purpose. You could divide a website into its home page, product description pages, a 
+frequently asked questions (FAQ) page, a contact page, and an ecommerce page. Each of these 
+pages could contain activities that you could use in your WBS.
+Another way is to create a process-oriented WBS. An example of this is shown in Figure 3.12. 
+This type of WBS is typical in systems analysis and design. In this example, we show the develop-
+ment of a website, but rather than show the development of each page, this example emphasizes 
+the importance of each phase in the SDLC.
+FIGURE 3.12
+A sample work breakdown 
+structure.
+1.0 Project Initiation
+1.1 Assemble and welcome project team
+1.2 Conduct historical research about the business
+1.3 Discuss objectives with client 
+2.0 Early Planning Phase
+2.1 Investigate feasibility
+2.2 Consider a make vs. buy decision
+2.3 Develop a work breakdown structure
+2.4 Provide time estimates
+2.5 Develop a project schedule
+2.6 Calculate cost estimates 
+2.7 Prepare project proposal to client
+2.8 Present proposal to client
+3.0 Develop supporting plans
+3.1 Develop a quality management plan
+3.2 Identify risks and build a risk management plan
+3.3 Describe a communications plan 
+3.4 Develop a procurement plan
+4.0 Analysis 
+4.1 Conduct interviews of key personnel
+4.2 Administer questionnaires
+4.3 Read company reports
+4.4 Analyze data ﬂow
+5.0 Design
+5.1 Build prototype website
+5.2 Obtain reactions from client
+5.3 Modify prototype website
+5.4 Seek ﬁnal recommendations from client
+5.5 Complete website
+6.0 Launch
+6.1 Create training manual
+6.2 Document website features and logic
+6.3 Present ﬁnal website to client
+
+
+===== BOOK PAGE 76 =====
+
+76    PART I  •  SYSTEMS AnALYSIS FUnDAMEnTALS
+Time Estimation Techniques
+The process of analysis and design can become unwieldy, especially when the system being 
+developed is large. To keep the development activities as manageable as possible, you can employ 
+some of the techniques of project management to help get organized. In this section, we discuss 
+keeping a project on schedule by using time management techniques and keeping a project on 
+budget by using cost management and control techniques.
+One of the difficult tasks is estimating the time it takes to complete each of the tasks. There 
+are numerous approaches:
+1. Relying on experience
+2. Using analogies
+3. Using three-point estimation
+4. Identifying function points
+5. Using time estimation software
+Relying on Experience. Experience pays off when it comes to estimating how long an activity 
+will take. If you have previous experience developing software, you will not only know how much 
+time some tasks will likely take, but you will also know how much time it will take if something 
+goes wrong. Your experience gives you a most likely estimate as well as a pessimistic estimate.
+Using Analogies. If you don’t have experience developing a particular piece of software but 
+have worked on other types of projects of any kind, you still may be able to arrive at meaningful 
+estimates. This approach involves identifying a project that is in some ways similar to the one 
+you are about to begin and then describing the analogy. This means you will need to build two 
+models, including two PERT or network diagrams, and compare their similarities. Then you can 
+have confidence when you provide time estimates for the new project.
+Using Three-Point Estimation. Three-point estimation has been used for many years and is still 
+a valid technique for time estimating. You start by developing three time estimates for complet-
+ing each task and then apply a simple formula to calculate a weighted average. The formula is:
+()=+ ∗ +Ea mb4/ 6
+where a is the best-case time estimate, b is the pessimistic or worst-case time estimate, and m is 
+the most likely time estimate.
+Typically, the best-case scenario would improve on the time elapsed a little, but the pessimis-
+tic or worst-case estimate would imply that something disastrous happens, such as a weather or 
+personnel delay. For example, writing a software module may take 10 days in most cases, but if 
+the project is easier than expected, it might take only 8 days. If, however, the coder accepts a job 
+elsewhere, it may take 30 days. If you apply the formula, you get this estimate:
+()=+ ∗ +
+=
+E 84 10 30 /6
+13 days
+In this case, you will estimate that it will take 13 days to finish the task.
+Using Function Point Analysis. Another way of estimating the amount of work that needs to be 
+done and how large a staff you need to complete a project is called function point analysis. This 
+method takes the five main components of a computer system—(1) external inputs, (2) external 
+outputs, (3) external queries, (4) internal logical files, and (5) external interface files—and rates 
+them in terms of complexity.
+You can use function point analysis to estimate the time it takes to develop a system in differ-
+ent computer languages and compare them to one another. For more information about function 
+point analysis, visit the International Function Point Users Group’s website at www.ifpug.org.
+Using Time Estimation Software. Estimating models, such as the Constructive Cost Model 
+(COCOMO II), Constructive Systems Engineering Cost Model (COSYSMO), or software based 
+on one or both of these models, such as SystemStar, work as follows. A systems analyst enters an 
+estimate of the size of the system. This can be entered in a number of different ways, including 
+the lines of source code of the current system.
+
+
+===== BOOK PAGE 77 =====
+
+CHAPTER 3  •  PR ojECT  MAnA gEMEnT     77
+A week later, Kim enters Bryce’s office with several pages 
+of interview notes in hand. “I’ve talked with most of the people 
+who have extensive contact with the system. They’re happy, 
+Bryce. And they’re not just talking nonsense. They know what 
+they’re doing.”
+“I’m sure the managers would like to have a newer system  
+than the guys at Quality Foods,” Bryce replies. “Did you talk to 
+them?”
+Kim says, “Yes. They’re satisfied.”
+“And how about the people in systems? Did they say the tech-
+nology to update our system is out there?” Bryce inquires insistently.
+“Yes. It can be done. That doesn’t mean it should be,” Kim 
+says firmly.
+As the systems analyst for AllFine Foods, how would you 
+assess the feasibility of the systems project Bryce is proposing? 
+Based on what Kim has said about the managers, users, and systems 
+people, what seems to be the operational feasibility of the proposed 
+project? What about the economic feasibility? What about the tech-
+nological feasibility? Based on what Kim and Bryce have discussed, 
+would you recommend that a full-blown systems study be done? 
+Answer yes or no, and then discuss your recommendation and the 
+reasoning behind it in a paragraph.
+CONSULTING OPPORTUNITY 3.4 
+Food for Thought
+“We could really make some changes. Shake up some people. 
+Let them know we’re with it. Technologically, I mean,” said Bryce 
+Bowen, vice president for AllFine Foods, a wholesale dairy prod-
+ucts distributor. “That old system should be overhauled. I think we 
+should just tell the staff that it’s time to change.”
+“Yes, but what would we actually be improving?” Kim Han, 
+assistant to the vice president, asks. “I mean, there aren’t any 
+substantial problems with the system input or output that I can see.”
+Bryce complains, “Kim, you’re purposely not seeing my point. 
+People out there see us as a stodgy firm. A new computer system 
+could help change that. Change the look of our invoices. Send 
+jazzier reports to the food store owners. Get some people excited 
+about us as leaders in wholesale food distributing and computers.”
+“Well, from what I’ve seen over the years,” Kim replies, “a new 
+system is very disruptive, even when the business really needs 
+it. People dislike change, and if the system is performing the way it 
+should, maybe there are other things we could do to update our 
+image that wouldn’t drive everyone nuts in the process. Besides, 
+you’re talking big bucks for a new gimmick.”
+Bryce says, “I don’t think just tossing it around here between 
+the two of us is going to solve anything. Check on it and get back to 
+me. Wouldn’t it be wonderful?”
+Also considered are other variables, such as the experience or capability of the team, the type 
+of platform or operating system, the level of usability of the finished software (for example, what 
+languages are necessary), and other factors that can drive up costs. Once the data are entered, you 
+can make calculations and get a rough projection of the completion date. As the project gets under 
+way, more specific estimates are possible.
+PROJECT SCHEDULING
+Planning includes all the activities required to select a systems analysis team, assign members 
+of the team to appropriate projects, estimate the time required to complete each task, and schedule 
+the project so that tasks are completed in a timely fashion. Control means using feedback to moni-
+tor the project, including comparing the plan for the project with its actual evolution. In addition, 
+control means taking appropriate action to expedite or reschedule activities to finish on time while 
+motivating team members to complete the job properly.
+This section contains an example in which a systems analyst, acting as a project manager, 
+begins with the basic activities of analysis, design, and implementation. Then the analyst uses 
+decomposition to break apart the main activities into smaller subtasks, as shown in Figure 3.13. 
+Then the analysis phase is further broken down into data gathering, data flow and decision 
+analysis, and proposal preparation. Design is broken down into data entry design, input and 
+output design, and data organization. The implementation phase is divided into implementation 
+and evaluation.
+In subsequent steps, a systems analyst needs to consider each of these tasks and break them 
+down further so that planning and scheduling can take place. Figure 3.14 shows how the analysis 
+phase is described in more detail. For example, data gathering is broken down into five activities, 
+from conducting interviews to observing reactions to the prototype. This particular project requires
+
+
+===== BOOK PAGE 78 =====
+
+78    PART I  •  SYSTEMS AnALYSIS FUnDAMEnTALS
+data flow analysis but not decision analysis, so the systems analyst has written in “analyze data 
+flow” as the single step in the middle phase. Finally, proposal preparation is broken down into 
+three steps: perform cost–benefit analysis, prepare proposal, and present proposal.
+The systems analyst, of course, has the option to break down steps further. For instance, the 
+analyst could specify each of the people to be interviewed. The amount of detail necessary depends 
+on the project, but all critical steps need to appear in the plans.
+Sometimes the most difficult part of project planning is the crucial step of estimating the time 
+it takes to complete each task or activity. When quizzed about reasons for lateness on a particular 
+project, project team members cited poor scheduling estimates that hampered the success of proj-
+ects from the outset. There is no substitute for experience in estimating time requirements, and 
+systems analysts who have had the opportunity of an apprenticeship or internship are fortunate 
+in this regard.
+Planners have attempted to reduce the inherent uncertainty in determining time estimates by 
+projecting most likely, pessimistic, and optimistic estimates and then using a weighted average 
+formula to determine the expected time an activity will take. This approach offers little more in 
+the way of confidence, however. Perhaps the best strategy for a systems analyst is to adhere to 
+a structured approach in identifying activities and describing these activities in sufficient detail. 
+In this manner, the systems analyst will at least be able to limit unpleasant surprises.
+Using Gantt Charts for Project Scheduling
+A Gantt chart  is a tool that enables you to easily schedule tasks. It is a chart on which bars 
+represent tasks or activities. The length of each bar represents the relative length of the task.
+FIGURE 3.13
+Beginning to plan a project by 
+breaking it into three major 
+activities.
+Phase Activity
+Analysis Data gathering
+Data ﬂow and decision analysis
+Proposal preparation
+Design Data entry design
+Input design
+Output design
+Data organization
+Implementation Implementation
+Evaluation
+Break apart
+the major
+activities into
+smaller ones.
+FIGURE 3.14
+Refining the planning and 
+scheduling of analysis activities 
+by adding detailed tasks and 
+establishing the time required to 
+complete the tasks.
+8
+Conduct interviews
+Administer questionnaires
+Read company reports
+Introduce prototype
+Observe reactions to prototype
+Analyze data ﬂow
+Perform cost-beneﬁt analysis
+Prepare proposal
+Present proposal
+Data gathering
+Data ﬂow and decision analysis
+Proposal preparation
+3
+4
+4
+5
+3
+3
+2
+2
+Weeks
+RequiredDetailed ActivityActivity
+Break these
+down further , then estimate
+time required.
+
+
+===== BOOK PAGE 79 =====
+
+CHAPTER 3  •  PR ojECT  MAnA gEMEnT     79
+FIGURE 3.15
+Using a two-dimensional Gantt 
+chart for planning activities that 
+can be accomplished in parallel.
+Activity
+I n co m p l e t e activity
+C o m p l e t e d activity
+P a r t i a l l y completed activity
+1 2 3 4 5 6 7 8 9 10 11 1 2 1 3 1 4 1 5 1 6 1 7 1 8 1 9 2 0 2 1 2 2 2 3
+Conduct interviews
+Administer questionnaires
+Read company reports
+Analyze data ﬂows
+Introduce prototype
+Observe reactions
+Perform cost-beneﬁt
+Prepare proposal
+Present proposal
+Weeks
+Current Week
+Figure 3.15 is an example of a two-dimensional Gantt chart in which time is indicated on 
+the horizontal dimension, and a description of activities makes up the vertical dimension. In this 
+example, the Gantt chart shows the analysis or information-gathering phase of the project. Notice 
+on the chart that conducting interviews will take three weeks, administering the questionnaire will 
+take four weeks, and so on. These activities overlap part of the time. In the chart the special symbol 
+▲ signifies that right now, it is week 9. The bars with color shading represent projects or parts 
+of projects that have been completed, telling us that the systems analyst is behind in introducing 
+prototypes but ahead in analyzing data flows. Action must be taken on introducing prototypes 
+soon so that other activities or even the project itself will not be delayed as a result.
+The main advantage of a Gantt chart is its simplicity. Not only is this technique easy to use, 
+but it also lends itself to worthwhile communication with end users. Another advantage of using a 
+Gantt chart is that the bars representing activities or tasks are drawn to scale; that is, the size of the 
+bars indicates the relative length of time it will take to complete each task. You can use Microsoft 
+Project to develop a Gantt chart.
+Using PERT Diagrams
+PERT is an acronym for Program Evaluation and Review Technique. A program (a synonym 
+for a project) is represented by a network of nodes and arrows that are evaluated to determine 
+the critical activities; improve the schedule, if necessary; and review progress once the project 
+is undertaken. PERT was developed in the late 1950s for use in the U.S. Navy’s Polaris nuclear 
+submarine project. It reportedly saved the U.S. Navy two years of development time. PERT charts 
+are called network diagrams in Microsoft Project.
+PERT is useful when activities can be done in parallel rather than in sequence. A systems 
+analyst can benefit from using PERT by applying it to systems projects on a smaller scale, espe-
+cially when some team members can be working on certain activities at the same time that other 
+team members are working on other tasks.
+Figure 3.16 compares a simple Gantt chart with a PERT diagram. Arrows in the PERT 
+diagram represent the activities expressed as bars in the Gantt chart. The length of the arrows has 
+no direct relationship with the activity durations. Circles on the PERT diagram are called events 
+and can be identified by numbers, letters, or any other arbitrary form of designation. The circular 
+nodes are present to (1) recognize that an activity is completed and (2) indicate which activities 
+need to be completed before new activities may be undertaken (which is called precedence).
+In the PERT example shown here, activity C may not be started until activity A is completed. 
+Precedence is not indicated at all in the Gantt chart, so it is not possible to tell whether activity C 
+is scheduled to start on day 4 on purpose or by coincidence.
+A project has a beginning, a middle, and an end; in this example, the beginning is event 10 
+and the end is event 50. To find the length of the project, each path from beginning to end is iden-
+tified and the length of each path is calculated. In this example, path 10–20–40–50 has a length
+
+
+===== BOOK PAGE 80 =====
+
+80    PART I  •  SYSTEMS AnALYSIS FUnDAMEnTALS
+of 15 days, whereas path 10–30–40–50 has a length of 11 days. Even though one person may be 
+working on path 10–20–40–50 and another on path 10–30–40–50, the project is not a race. The 
+project requires that both sets of activities (or paths) be completed; consequently, the project takes 
+15 days to complete.
+The longest path is referred to as the critical path. Although the critical path is determined 
+by calculating the longest path, it is defined as the path that will cause the whole project to fall 
+behind if even one day’s delay is encountered on that path. Note that if you are delayed one day 
+on path 10–20–40–50, the entire project will take longer, but if you are delayed one day on path 
+10–30–40–50, the entire project will not suffer. The leeway to fall behind somewhat on noncritical 
+paths is called slack time.
+Occasionally, PERT diagrams need pseudo-activities, referred to as dummy activities, to pre-
+serve the logic of or to clarify the diagram. (This is an unfortunate descriptor, but it is the industry 
+standard.) Figure 3.17 shows two PERT diagrams with dummies. Project 1 and Project 2 are quite 
+different, and the way the dummy is drawn makes the difference clear. In Project 1, activity C 
+FIGURE 3.16
+A Gantt chart compared with a 
+PERT diagram (network diagram) 
+for scheduling activities.
+A
+B
+C
+D
+E
+2 4 6 8 10 12 14 16
+A, 4 C, 5
+B, 2 D, 3
+E, 610
+20
+30
+40 50
+FIGURE 3.17
+Precedence of activities is 
+important in determining the 
+length of a project when using a 
+PERT diagram.
+A, 9
+B, 2 C, 5
+C, 5
+A, 9
+B, 2
+20
+10 40
+10 40
+30
+20
+30
+Dummy
+Dummy Project 1
+Project 2
+
+
+===== BOOK PAGE 81 =====
+
+CHAPTER 3  •  PR ojECT  MAnA gEMEnT     81
+FIGURE 3.18
+Listing activities for use in 
+drawing a PERT diagram.
+Activity DurationPredecessor
+A   
+B   
+C   
+D   
+E   
+F   
+G   
+H   
+I    
+Conduct interviews
+Administer questionnaires
+Read company reports
+Analyze data ﬂow
+Introduce prototype
+Observe reactions to prototype
+Perform cost-beneﬁt analysis
+Prepare proposal
+Present proposal
+None
+A
+None
+B, C
+B, C
+E
+D
+F, G
+H
+3
+4
+4
+8
+5
+3
+3
+2
+2
+can be started only if both A and B are finished because all arrows coming into a node must be 
+completed before leaving the node. In Project 2, however, activity C requires only activity B’s 
+completion and can therefore be under way while activity A is still taking place.
+Project 1 takes 14 days to complete, whereas Project 2 takes only 9 days. The dummy in 
+Project 1 is necessary, of course, because it indicates a crucial precedence relationship. The 
+dummy in Project 2, on the other hand, is not required, and activity A could have been drawn 
+from 10 to 40, eleminating event 20 completely.
+Therefore, there are many reasons for using a PERT diagram over a Gantt chart. The PERT 
+diagram allows:
+1. Easy identification of the order of precedence
+2. Easy identification of the critical path and thus critical activities
+3. Easy determination of slack time
+A PERT Example. Suppose a systems analyst is trying to set up a realistic schedule for the data-
+gathering and proposal phases of the systems analysis and design life cycle. The systems analyst 
+looks over the situation and lists activities that need to be accomplished along the way. This 
+list, which appears in Figure 3.18, also shows that some activities must precede other activities. 
+The time estimates were determined as discussed in an earlier section of this chapter.
+Drawing The PERT Diagram. In constructing the PERT diagram for this example, the analyst looks 
+first at the activities that require no predecessor activities—in this case A (conduct interviews) 
+and C (read company reports). In the example in Figure 3.19, the analyst chose to number the 
+nodes 10, 20, 30, and so on and drew two arrows out of the beginning node 10. These arrows 
+represent activities A and C and are labeled as such. Nodes numbered 20 and 30 are drawn at the 
+end of these respective arrows. The next step is to look for any activity that requires only A as 
+a predecessor; task B (administer questionnaires) is the only one, so it can be represented by an 
+arrow drawn from node 20 to node 30.
+Because activities D (analyze data flow) and E (introduce prototype) require both activities 
+B and C to be finished before they are started, arrows labeled D and E are drawn from node 30, 
+the event that recognizes the completion of both B and C. This process is continued until the 
+entire PERT diagram is completed. Notice that the entire project ends at an event called node 80.
+FIGURE 3.19
+A completed PERT diagram for 
+the analysis phase of a systems 
+project.
+A, 3
+C, 4
+B, 4
+D, 8
+E, 5 F, 3
+G, 3 H, 2 I , 2
+30 50
+40
+60 70 8010
+20
+
+
+===== BOOK PAGE 82 =====
+
+82    PART I  •  SYSTEMS AnALYSIS FUnDAMEnTALS
+Identifying the Critical Path. Once the PERT diagram is drawn, it is possible to identify the 
+critical path by calculating the sum of the activity times on each path and choosing the longest 
+path. In this example, there are four paths: 10–20–30–50–60–70–80, 10–20–30–40–60–70–80, 
+10–30–50–60–70–80, and 10–30–40–60–70–80. The longest path is 10–20–30–50–60–70–80, 
+which takes 22 days. It is essential that the systems analyst carefully monitor the activities on the 
+critical path to keep the entire project on time or even shorten the project length, if warranted.
+CONTROLLING A PROJECT
+No matter how well a systems analyst plans a project, things can go wrong. In this section, we 
+discuss how to estimate cost and prepare a budget, how to predict and prepare for risk, how to 
+make up time using expediting, and how to control costs when the budget needs revising, the team 
+falls behind, or there are cost overruns.
+Estimating Costs and Preparing the Budget
+Keeping a project on time is important, but it is also essential that the cost of a project be managed 
+properly. Once a WBS is created and a schedule is planned, the analyst needs to:
+1. Estimate costs for each activity in the WBS
+2. Prepare a budget for the project and have it approved by the organization or client
+3. Manage and control the costs throughout the project
+Earlier we discussed cost estimates for equipment and off-the-shelf software, resources we 
+need to complete the project. Now we are concerned with other types of resources needed to 
+complete each task in the WBS. The main resources for this part of the project are the time of the 
+team members and the type of special equipment and tools needed to finish each of the activities.
+Many approaches to cost estimation are available to a systems analyst. They are similar to 
+the estimates used for time estimates and include the following:
+1. Basing estimates on similar projects, also called the top-down approach
+2. Building bottom-up estimates
+3. Using parametric modeling
+The Top-Down Approach to Cost Estimation. Previous experience with estimating costs means a 
+great deal, especially if the project you are attempting to estimate resembles a project you have 
+previously worked on. If you’ve developed a website with similar features, then you can reliably 
+estimate the costs of developing a new website.
+Customization is possible. The new website may feature a different number of products for 
+sale, but it is possible to adjust the costs accordingly.
+The Bottom-Up Approach to Cost Estimation. Often, an analyst is faced with a project that requires 
+something unique, such as development in a different programming language. In this case, the 
+analyst needs to use a bottom-up approach.
+A systems analyst can take the WBS and ask each responsible project team member to esti-
+mate the cost involved for completing the activity that is their responsibility. This method, how-
+ever, yields estimates that may be good or bad, depending on the abilities of each team member. 
+The analyst, acting as a project manager, must review each of these estimates and arrive at a cost 
+estimation that satisfies the team and the client. The obvious problem with the bottom-up method 
+is the time it takes to make each estimate along the way.
+Parametric Modeling. This method involves making estimates for each of the many factors, or 
+parameters, that make up a project. For example, you can estimate that it will cost $75 per line 
+of code and $80 per hour for the computer programmers needed; you can then estimate the lines of 
+code and hours it will take to complete the project. Special parametric modeling software such as 
+COCOMO II, mentioned previously, is often useful when modeling the project.
+Why Cost Estimates Fail. In practice, most systems analysts use a combination of all three of 
+the cost-estimating methods just described. There are two main reasons cost estimates fail. First, 
+an analyst is likely to be overly optimistic. An analyst believes in the team members, and an
+
+
+===== BOOK PAGE 83 =====
+
+CHAPTER 3  •  PR ojECT  MAnA gEMEnT     83
+optimistic estimate will show the team completing the project quickly and without errors all the 
+time. An analyst is likely to be optimistic and underestimate the lines of code and effort in general.
+Second, an analyst may want to move past the cost estimation process and get on with pre-
+paring and presenting the budget and beginning the actual work on the project. The analyst may 
+therefore spend less time than is needed to properly prepare the estimates. The analyst should be 
+as accurate as possible, even though the estimates will be revised as the project continues.
+Preparing the Budget. In the end, a systems analyst needs to prepare a budget even if the esti-
+mates are not perfect. The budget is a critical deliverable, and every client wants to see a detailed 
+budget early in the process.
+When working for a client, a systems analyst needs to conform to the standard process the 
+client uses to develop a budget. Most of the time, the client will have standard forms it uses for 
+this purpose. A sample budget is shown in Figure 3.20.
+The budget contains estimates for the hours worked and the rates of pay for each of the 
+internal or outsourced workers. It also contains hardware and software costs and spells out how 
+much of each type of equipment is needed. It also explains the costs involved with training.
+Managing Risk
+The early discussions you have with management and others requesting a project, along with the 
+feasibility studies you do, are usually the best defenses possible against taking on projects that 
+have a high probability of failure. Your training and experience will improve your ability to judge 
+Color-coding helps a project manager sort out similar phases, tasks, 
+and resources. OmniPlan, available for Macs, takes advantage of 
+color-coding to set up a project, identify tasks, identify the critical 
+path, and flag impossible situations.
+MAC APPEAL
+FIGURE 3. MAC
+OmniPlan project management software from The Omni Group. (Used by permission of 
+the Omni Group.)
+
+
+===== BOOK PAGE 84 =====
+
+84    PART I  •  SYSTEMS AnALYSIS FUnDAMEnTALS
+the worthiness of projects and the motivations that prompt others to request projects. If you are 
+part of an in-house systems analysis team, you must keep current with the political climate of the 
+organization as well as with financial and competitive situations.
+It is important, however, to note that systems projects can and do have serious problems. 
+Those that are developed using agile methods are not immune to such troubles. To illustrate what 
+can go wrong in a project, a systems analyst may want to draw a fishbone diagram (also called a 
+cause-and-effect diagram or an Ishikawa diagram). When you examine Figure 3.21, you will see 
+why it is called a fishbone diagram; it resembles the skeleton of a fish.
+When using a fishbone diagram, you systematically list all the problems that can possibly 
+occur. In the case of the agile approach, it is useful to organize a fishbone diagram by listing all 
+the resource control variables on the top and all the activities on the bottom. Some problems, such 
+as schedule slips, might be obvious, but others, such as scope creep (the desire to add features 
+after the analyst hears new stories) or developing features with little value, are not as obvious.
+You can learn from the wisdom gained by people involved in earlier project failures. When 
+asked to reflect on why projects had failed, professional programmers cited management setting 
+impossible or unrealistic dates for completion, belief in the myth that simply adding more people 
+to a project would expedite it (even though the original target date on the project was unrealistic), 
+and management behaving unreasonably by forbidding the team to seek professional expertise 
+from outside the group to help solve specific problems.
+Remember that you are not alone in the decision to begin a project. Although apprised of 
+your team’s recommendations, management will have the final say about whether a proposed 
+project is worthy of further study (that is, further investment of resources). The decision process 
+of your team must be open and stand up to scrutiny from those outside it. The team members 
+should consider that their reputation and standing in the organization are inseparable from the 
+projects they accept.
+Managing Time Using Expediting
+Speeding up a process is called expediting, and sometimes you may benefit from completing a 
+project much faster, such as receiving a bonus if you finish sooner. A second example is realizing 
+that valuable project team resources and team members can be used for some other project if you 
+finish the current project before the due date.
+Figure 3.22 lists each activity in the project and the original estimated time required to 
+complete each of these activities. The third column, labeled “crash time,” refers to the absolute 
+minimum time in which an activity can be completed if additional money is funneled to that 
+activity. The final column contains the cost of reducing the activity duration by one week.
+FIGURE 3.20
+Part of a sample budget for a 
+software development project, 
+showing hardware, software, and 
+personnel costs.
+1. Project Team
+Project manager (systems analyst)
+Project team members
+Outside contractors (testers)
+600
+2,400
+200
+$120
+80
+20
+$72,000
+192,000
+4,000
+4. Training
+Total Project Cost Estimate
+Seminars for team members
+Seminars for trainees
+Trainee hourly costs
+5
+5
+1,300
+3,500
+1,200
+20
+17,500
+6,000
+26,000
+ $419,000
+2. Hardware resources
+Workstations
+iPads
+5
+5
+4,000
+900
+20,000
+4,500
+3. Software
+Off-the-shelf software
+Software developed in-house
+5 400
+75,000
+2,000
+75,000
+Hours or
+Units
+Cost per Hour
+or Unit SubtotalsItems
+
+
+===== BOOK PAGE 85 =====
+
+CHAPTER 3  •  PR ojECT  MAnA gEMEnT     85
+FIGURE 3.22
+Estimated duration, crash time, 
+and the cost of expediting project 
+activities.
+Activity
+Estimated
+Duration Cost/WeekCrash Time
+A
+B
+C
+D
+E
+F
+G
+H
+I
+3
+4
+4
+8
+5
+3
+3
+2
+2
+1
+2
+2
+6
+5
+3
+3
+2
+1
+$ 800
+500
+400
+1,000
+1,000
+800
+800
+400
+600
+Expediting can help reduce the time it takes to complete an entire project, but the expedited 
+activities must be on the critical path for expediting to make a time difference. Which activity is 
+expedited on the critical path depends on the cost, assuming that the activity is not already at its 
+crash time.
+The maximum number of weeks each activity can be reduced is the difference between the 
+expected time and its crash time. For example, activity B, administering questionnaires, could 
+be reduced from four weeks to two weeks at a cost of $500 per week, but it cannot be reduced to 
+less than two weeks; activity H, preparing the proposal, cannot be reduced because it is already 
+at its crash time.
+The expediting analysis for this example is provided in Figure 3.23. The expediting process 
+takes place one step at a time, until it is impossible to expedite any further. The columns in the table 
+include eligible activities (tasks that are on the critical path and can be reduced by expediting), the 
+activity chosen (because it is the cheapest alternative), the time it currently takes to complete each 
+of the paths, the cost of expediting the chosen activity, and finally the cumulative cost.
+FIGURE 3.21
+A fishbone diagram may be used 
+to identify all the things that can 
+go wrong in developing a system.
+Defect rate excessive
+Customer not
+satisﬁed with interface
+Fear of change
+Design not
+creative enough
+High staﬀ turnover
+Features with
+little value
+Need for additional
+programmers
+Scope creep
+Schedule slips
+Recoding required by
+business changes
+Inadequate feedback
+from testing
+Communication
+breakdown
+System fails tests
+Misunderstanding of
+businessToo complex code
+Cost ScopeQuality
+Designing Testing Coding Listening
+Time
+
+
+===== BOOK PAGE 86 =====
+
+86    PART I  •  SYSTEMS AnALYSIS FUnDAMEnTALS
+In the first step, the critical path is 10–20–30–50–60–70–80, so the eligible activities are A, B, 
+D, and I. Activities G and H are also on the critical path, but they are already at their crash times 
+and are consequently ineligible for expediting. The cheapest alternative is to expedite activity B 
+by one day, which reduces the first path from 22 to 21 weeks and the second from 19 to 18 weeks; 
+the third and fourth paths are not affected by the reduction because activity B is not on either of 
+those paths.
+The critical path, and therefore the entire project, is reduced from 22 to 21 weeks (circled on 
+the table). We can repeat this reduction and reduce the project time by another week.
+When activity B reaches its crash time, another activity must be chosen. Row 3 in the table 
+shows that activities A, D, and I are eligible, and activity I is the cheapest alternative. Reducing 
+activity I reduces not only the critical path but all paths because it is common to all of them.
+In the fourth step, activity A is chosen, reducing paths 1 and 2, but as a result there are now 
+two critical paths. This implies that any reduction of the project time will take place only if both 
+critical paths are reduced at the same time.
+We can shorten both paths in the fifth and sixth steps by choosing either a combination of 
+activities A and C (one activity from each of the critical paths) or activity D (an activity common to 
+both critical paths). Reducing activity D by two days shortens the paths to 16, 16, 16, and 15 days, 
+respectively, and now there are three critical paths.
+Finally, when activity D reaches its crash time, the only available choice is a combination of 
+activities A and C. The minimum project time is therefore 15 weeks, obtainable by reducing activ-
+ity A by two days, activity B by two days, activity C by one day, activity D by two days, and 
+activity I by one day, at a total cost of $5,600.
+This example describes all-out expediting to obtain the minimum project time at any cost. But 
+a systems analyst may be faced with a budget. In our example, a budget of $4,000 would result 
+in expediting up to and including step 5. The project would be shortened from 22 to 17 weeks, 
+at a cost of $3,400.
+Another possible criterion would be the net amount that could be saved if the project  
+were shortened. Suppose that in the above example the analyst would save $750 per week, 
+mostly consisting of opportunities available for the project team to begin new projects sooner. In  
+this case, expediting would not take place until Step 3 because the incremental cost of Step 4  
+($800 for expending activity A) would exceed the $750 saved.
+Expediting can make or break a successful project. The systems analyst has to remain on top 
+of the situation by managing the project throughout the entire development process. The analyst 
+needs to make sure project costs are managed properly.
+Controlling Costs Using Earned Value Management
+Once a systems analyst has an approved budget, it is imperative that the analyst keeps it updated 
+so the project doesn’t exceed the budget as it progresses. The baseline needs to be continually 
+revised, and all the stakeholders need to be informed.
+FIGURE 3.23
+Using expediting to minimize 
+project time.
+Eligible
+Activities
+Activity
+Chosen
+Cost Cumulative
+Cost
+Time for Each Path
+A, B, D, or I B $ 500 $ 500
+A, B, D, or I B 500 1,000
+A, D, or I I 600 1,600
+A or D A 800 2,400
+A and C, or D D 1,000 3,400
+A and C, or D D 1,000 4,400
+A and C A and C 1,200 5,600
+21
+22
+20
+19
+18
+17
+16
+15
+18
+19
+17
+17
+16
+16
+16
+15
+19
+19
+19
+18
+18
+17
+16
+15
+16
+16
+15
+15
+15
+15
+15
+14
+
+
+===== BOOK PAGE 87 =====
+
+CHAPTER 3  •  PR ojECT  MAnA gEMEnT     87
+Changes often occur in the middle of a project. The client may request new features, or new 
+technologies may be introduced that will change the way the system is developed. No matter what 
+these changes are, the budget needs to be revised.
+One tool available to systems analysts is earned value management (EVM). It is a technique 
+used to help determine progress (or setbacks) on a project and involves project cost, the project 
+schedule, and the performance of the project team. Here are the four key measures in EVM:
+• Budget at completion (BAC) is the total budget for the project, from the beginning until 
+completion. If you are calculating the performance measures for a task, then it is the total 
+budget for the task.
+• Planned value (PV) is the value of the work that is to be completed on the project  
+(or, alternatively, the work completed on any task). Because the value of the work completed 
+is how much effort and money will be put into it, you can think of PV as the budgeted cost 
+of work scheduled.
+• Actual cost (AC) is the total cost (direct and indirect) incurred in completing the work on the 
+project (or, alternatively, a task) up to that particular point in time. Another way of referring 
+to this is actual cost of work performed to date.
+• Earned value (EV) is an estimate of the value of the work performed thus far. EV refers only 
+to the work that has been completed to date. EV is calculated as follows:
+= ∗ pEV PV
+where p is the percentage of the work completed thus far.
+Figure 3.24 shows the cost of developing a website over a five-month period. In this example, 
+the development of our website is well under way. The budget at completion is the planned bud-
+get of $18,000, the total estimated cost of developing the website at the end of five months. It is 
+calculated by summing the cost figures in the estimated cost column.
+At the end of the first, second, and third months, the actual cost of the project equals the 
+cumulative estimated cost, but in the fourth month, the actual cost is $17,000 versus the $15,000 
+from the cumulative estimate column. It is obvious that we are going over our budget.
+It appears to be worse. We’ve only completed 50 percent of Stage 4 at the end of the 
+fourth month. That means we’re falling behind in our schedule as the costs are rising.
+Let’s see what the damage is. We already know that the budget at completion for the project 
+is $18,000 and that the actual cost at the end of the fourth month is $17,000. Let’s determine the 
+PV and the EV at this time.
+The PV is simply the cumulative estimate at the end of month 4, or $15,000. To calculate the 
+PV , we need to multiply the earned value by the percentage of the project that is complete. We 
+see in the table that the first three stages are complete, but the fourth stage is only half finished. 
+To date, this means that:
+p 100 100 100 50 / 100 100 100 100
+.875
+() ()= +++ +++
+=
+FIGURE 3.24
+The anticipated cost of a website development project over a five-month period.
+Month 1 Stage 1 $6,000 $6,000 1 month 100% $6,000
+Month 2 Stage 2 3,000 9,000 1 month 100% 3,000
+Month 3 Stage 3 3,000 12,000 1 month 100% 3,000
+Month 4 Stage 4 3,000 15,000 1 month 50% 5,000
+Month 5 Stage 5 3,000 18,000 1 month 0% Not yet begun
+$6,000
+9,000
+12,000
+17,000
+Not yet begun
+Estimated
+Cost
+Cumulative
+Estimate
+Estimated
+Duration
+Stage
+Completed
+Actual Cost of
+Stage to Date
+Actual Cost of
+Project to Date
+At the
+End of
+Stage
+
+
+===== BOOK PAGE 88 =====
+
+88    PART I  •  SYSTEMS AnALYSIS FUnDAMEnTALS
+So the EV is:
+= ∗
+= ∗
+=
+pEV PV
+$15, 000 .875
+$13,125
+The four variables—budget at completion, planned value, actual cost, and earned value—are 
+the core of earned value management. They can be used to calculate a number of performance 
+measures, including cost variance, schedule variance, the cost performance index, and the sched-
+ule performance index:
+• Cost variance (CV) tells us whether the project or task is costing more than we have planned. 
+If CV is negative, our costs are greater than planned. If it is positive, it is costing less than 
+planned. CV is simply:
+CV EV AC=−
+• Schedule variance (SV) tells us whether the project is taking more time than planned. If so, 
+it will have a negative impact on our costs. Once again, if SV is negative, then it is taking 
+longer than planned to perform the work, and the amount is the cost overage. If SV is posi-
+tive, then it is taking less time than planned, and the amount indicates how much we are 
+under budget. SV is obtained by subtracting the planned value from the earned value, as 
+follows:
+SV EV PV=−
+• Cost performance index (CPI) is a ratio that signifies whether a project is over budget. If the 
+index is less than 1.0, the project or task is over budget. If the ratio is greater than 1.0, the 
+project or task is under budget. CPI can be calculated as follows:
+=CPIE V/ AC
+• Schedule performance index (SPI) is a ratio that tells us whether a project is falling behind 
+schedule. If the SPI is less than 1.0, it implies that the project or task is behind schedule. If 
+the SPI ratio is greater than 1.0, the project is ahead of schedule. Schedule performance index 
+can be calculated as follows:
+=SPI EV /P V
+In our continuing example of website development, we can now calculate these four 
+performance measures:
+Cost variance at the end of the fourth month is:
+CV EV AC
+$13,125 $17, 000
+$3,875()
+=−
+=−
+=−
+meaning that we are $3,875 over budget.
+Schedule variance is:
+SV EV PV
+$13,125 $15, 000
+$1,875()
+=−
+=−
+=−
+implying that we are behind schedule and are over budget.
+The cost performance index is:
+=
+=
+=
+CPIE V/ AC
+$13,125 / $17, 000
+.772
+
+
+===== BOOK PAGE 89 =====
+
+CHAPTER 3  •  PR ojECT  MAnA gEMEnT     89
+FIGURE 3.25
+How the earned value 
+management values relate to the 
+planned and actual development  
+of the website.
+EV = $13,125
+AC = $17,000 ETC = $6,315
+Time
+Originally Budgeted
+BAC = $18,000
+Revised Budget
+EAC = $23,315
+Stage 1 Stage 2 Stage 3 Stage 4 Stage 5
+PV = $15,000
+or 77.2 percent. This means the team is performing at a rate far below the expected rate of 
+performance. This figure is used later.
+The schedule performance index is:
+=
+=
+=
+SPI EV /P V
+$13,125 / $15, 000
+.875
+or 87.5 percent. Once again, a ratio lower than 1.0 means that the project is behind schedule.
+Finally, a systems analyst may want to calculate two key variables: estimate to complete 
+(ETC) and estimate at completion (EAC). They tell the analyst how much it will cost to finish 
+the project or task from this point onward.
+ETC considers how the team has done in the past and estimates how much additional money 
+will be required to complete the project at its current rate of performance. It is calculated by 
+subtracting the earned value from the budget at completion. That result is divided by the CPI 
+calculated earlier, as follows:
+()=−ETC BACE V/ CPI
+EAC represents the revised budget. It is the amount the entire project or task will cost when 
+it is finished. It is calculated by adding the actual cost to the estimated amount of money it will 
+take to complete the project. The equation is:
+EACA C ETC=+
+In our ongoing example of the website development project, the estimate to complete the 
+project is:
+()=− =ETC $18, 000 $13,125 / .772 $6, 315
+This means that we will need to spend $6,315 more than we have up to this point to finish 
+the website. The estimate at completion will be:
+EAC $17, 000 $6, 315
+$23, 315
+=+
+=
+which is significantly more than the $18,000 we originally budgeted for. Figure 3.25 shows how 
+some of these performance measures relate to the original schedule and budget and the revised 
+schedule and budget.
+
+
+===== BOOK PAGE 90 =====
+
+90    PART I  •  SYSTEMS AnALYSIS FUnDAMEnTALS
+It is important for a systems analyst to keep an eye on cost and to address the budget -
+ary implications when unexpected delays or cost overruns occur. An analyst must constantly 
+balance cost, time, and scope (that is, which systems features will be included) when working 
+on any project.
+MANAGING THE PROJECT TEAM
+Along with managing time and resources, systems analysts must also manage people. Manage-
+ment is accomplished primarily by communicating accurately to team members who have been 
+selected for their competence and compatibility. Goals for project productivity must be set, and 
+members of systems analysis teams must be motivated to achieve them.
+Assembling a Team
+Assembling a team is desirable. If a project manager has an opportunity to create a dream team of 
+skilled people to develop a system, who should they choose? In general, project managers need 
+to look for others who share their values of teamwork and are guided by the desire to deliver a 
+high-quality system on time and on budget. Other desirable team member characteristics include 
+a good work ethic, honesty, competence, and readiness to take on leadership based on expertise, 
+motivation, enthusiasm for the project, and trust of teammates.
+In order to develop a diverse and inclusive project team, Alexander (2021) suggests team lead-
+ers can take the following four steps: (1) establish transparent, fair, and equitable hiring practices 
+for hiring your team members; (2) establish pay equity among your team members; (3) provide 
+support that helps each individual on your team succeed (this could mean support for team mem-
+bers with disabilities, for example); and (4) make sure each team member is given a voice to share 
+input and contribute ideas to the project and group processes.
+There are good business reasons to strive for a diverse and inclusive team. In a study quoted 
+in People Management (2017) that analyzed about 600 business decisions made by 200 teams 
+across a swath of different types of companies, researchers found that “when diverse teams (of 
+three or more people) made a business decision, they outperformed individual decision-makers 
+up to 87 per cent of the time.” The researchers also found that diverse teams made decisions faster 
+than individuals and “benefited from a 60 per cent improvement on decision-making.” Reynolds 
+and Lewis (2017) found that teams solve problems faster when they’re cognitively diverse.
+The project manager needs to know about business principles, but it doesn’t hurt to have 
+at least one other person on the team who understands how a business operates. Perhaps this 
+person should be a specialist in the area of the system being developed. When developing 
+an ecommerce site, for example, a team can enlist the help of someone in marketing, and 
+those developing an inventory system can ask a person versed in production and operations to 
+provide expertise.
+A team ideally should include at least two systems analysts. They can help each other, check 
+each other’s work, and shift their workloads. There is certainly a need to have people with pro-
+gramming skills on board. Coding is important, but people who know how to conduct walk-
+throughs, reviews, testing, and documenting systems are important as well. Some people are good 
+at seeing the big picture, and others perform well when tasks are broken down into smaller ones 
+for them. Every team should have both types of individuals.
+Beyond the basics just described, a project manager should look for people with both experi-
+ence and enthusiasm. Experience is especially important when trying to estimate the time required 
+for completing a project. Experience in computer programming can mean code is developed five 
+times faster than if it is developed by an inexperienced team. A usability expert is also a useful 
+addition to the team.
+The team must be motivated. One way to keep a team positively oriented throughout the entire 
+process is to select good people at the outset. Look for enthusiasm, imagination, and an ability to 
+communicate with different kinds of people. These basic attributes hold the potential for success. 
+In addition, superior writers and articulate speakers can present proposals and work directly with 
+customers, so hiring such individuals is a good idea.
+Trust is an important part of a team. All members of the project need to act responsibly and 
+agree to do their best and complete their part of the project. People may have different work styles, 
+but they all need to agree to work together toward a common goal.
+
+
+===== BOOK PAGE 91 =====
+
+CHAPTER 3  •  PR ojECT  MAnA gEMEnT     91
+Communication Strategies for Managing Teams
+Teams have their own personalities because of combining each individual team member with every 
+other in a way that creates a totally new network of interactions. A way to organize your thinking 
+about teams is to visualize them as always seeking a balance between accomplishing the work at 
+hand and maintaining relationships among team members.
+In fact, teams often have two leaders, not just one. Usually, one person will emerge who leads 
+members to accomplish tasks, and another person will emerge who is concerned with the social 
+relationships among group members. Both are necessary for the team. These individuals have been 
+labeled by other researchers as task leader and socioemotional leader, respectively. Every team 
+is subject to tensions that are an outgrowth of seeking a balance between accomplishing tasks and 
+maintaining relationships among team members.
+For a team to continue its effectiveness, tensions must be continually resolved. Minimizing 
+or ignoring tensions will lead to ineffectiveness and eventual disintegration of the team. Much of 
+the tension release necessary can be gained through skillful use of feedback by all team members. 
+All members, however, need to agree that the way they interact (that is, the process) is important 
+enough to merit some time. Productivity goals for processes are discussed in a later section.
+Securing agreement on appropriate member interaction involves creating explicit and implicit 
+team norms (collective expectations, values, and ways of behaving) that guide members in their 
+relationships. A team’s norms belong to it and will not necessarily transfer from one team to 
+another. These norms change over time and are better thought of as a team process of interaction 
+than a product.
+Norms can be functional or dysfunctional. Just because a particular behavior is a norm for a 
+team does not mean it is helping the team to achieve its goals. For example, an expectation that 
+junior team members should do all project scheduling may be a team norm. By adhering to this norm, 
+the team puts extreme pressure on new members and does not take full advantage of the experience 
+of the team. It is a norm that, if continued, could make team members waste precious resources.
+Team members need to make norms explicit and periodically assess whether norms are 
+functional or dysfunctional in helping the team achieve its goals. The overriding expectation 
+for your team must be that change is the norm. Ask yourself whether team norms are helping or 
+hindering the team’s progress.
+Setting Project Productivity Goals
+As you work with your team members on a variety of projects, you or your team leader will 
+acquire acumen for projecting what the team can achieve in a specific amount of time. Using the 
+hints on methods for estimating time required discussed earlier in this chapter and coupling them 
+with experience will enable the team to set worthwhile productivity goals.
+Systems analysts are accustomed to thinking about productivity goals for employees who 
+show tangible outputs, such as the number of pairs of blue jeans sewn per hour, the number 
+of entries keyed in per minute, or the number of items scanned per second. As manufacturing 
+productivity rises, however, it is becoming clear that managerial productivity must keep pace. It 
+is with this aim in mind that productivity goals for the systems analysis team are set.
+A team needs to formulate and agree to goals, and these goals should be based on team members’ 
+expertise and former performance, as well as on the nature of the specific project. Goals will vary 
+somewhat for each project undertaken because sometimes an entire system will be installed, whereas 
+other projects might involve limited modifications to a portion of an existing system.
+Motivating Project Team Members
+Although motivation is an extremely complex topic, it is a good one to consider, even if briefly, at 
+this point. To oversimplify, recall that people join organizations to provide for some of their basic 
+needs, such as food, clothing, and shelter. All humans, however, also have higher-level needs, 
+including affiliation, control, independence, and creativity. People are motivated to fulfill unmet 
+needs on several levels.
+Team members can be motivated, at least partially, through participation in goal setting, as 
+described in the previous section. The very act of setting a challenging but achievable goal and 
+then periodically measuring performance against the goal seems to work in motivating people. 
+Goals act almost as magnets in attracting people to achievement.
+
+
+===== BOOK PAGE 92 =====
+
+92    PART I  •  SYSTEMS AnALYSIS FUnDAMEnTALS
+Part of the reason goal setting motivates people is that team members know prior to any 
+performance review exactly what is expected of them. The success of goal setting for motivating 
+can also be ascribed to affording each team member some autonomy in achieving the goals. 
+Although a goal is predetermined, the means to achieve it may not be. In this instance, team 
+members are free to use their own expertise and experience to meet their goals.
+Setting goals can motivate team members by clarifying for them and others what must be 
+done to get results. Goals define the level of achievement that is expected of team members. This 
+use of goals simplifies the working atmosphere, and it electrifies it with the possibility that what 
+is expected can indeed be done.
+Managing Ecommerce Projects
+Many of the approaches and techniques discussed so far are transferable to ecommerce project 
+management. You should be cautioned, however, that although there are many similarities, there are 
+also many differences. One difference is that the data used by ecommerce systems are scattered all 
+over an organization. Therefore, you are not just managing data in a self-contained department or even 
+in one solitary unit. Hence, organization politics may come into play because units often feel protec-
+tive of the data they generate and do not understand the need to share them across the organization.
+Another stark difference is that ecommerce project teams typically need more staff from across 
+the organization and with a variety of skills, including developers, consultants, database experts, 
+and system integrators. Stable project groups that exist within a cohesive IS group or systems 
+development team are the exception rather than the rule. In addition, because so much help may be 
+required initially, ecommerce project managers need to build partnerships externally and internally 
+well ahead of the implementation, perhaps sharing talent across projects to defray costs of ecom-
+merce implementations and to muster the required number of people with the necessary expertise. 
+The potential for organization politics to drive a wedge between team members is very real.
+One way to prevent politics from sabotaging a project is for the ecommerce project manager 
+to emphasize the integration of the ecommerce system with the organization’s internal systems 
+and in so doing emphasize the organizational aspect embedded in the ecommerce project. As one 
+ecommerce project manager told us, “Designing the front end [what the consumer sees] is the 
+pauses for the customary groan from the assembled group, then 
+continues. “But seriously, these goals are impossible to meet. You 
+could have at least asked us what we thought, Hy. We may even 
+know better than you what’s possible.”
+“This is a pressing problem, Fiona,” Hy replies. “Polite polling 
+of team members was out of the question. Something had to be done 
+quickly. So, I went ahead with these. I say we submit our schedule to 
+management based on this. We can push back deadlines later if we 
+have to. But this way, they’ll know we’re committed to accomplish-
+ing a lot during the off-season.”
+As a fourth team member listening to the foregoing exchange, 
+formulate three suggestions that would help Hy improve his 
+approach to goal formation and presentation. How well motivated 
+do you think the team will be if they share Fiona’s view of Hy’s 
+goals? What are the possible ramifications of supplying manage-
+ment with overly optimistic goals? Write one paragraph devoted to 
+short-term effects and another one discussing the long-term effects 
+of setting unrealistically high goals.
+CONSULTING OPPORTUNITY 3.5 
+Goal Tending
+“Here’s what I think we can accomplish in the next five 
+weeks,” says Hy Sticking, the leader of your systems analysis 
+team, as he confidently pulls out a schedule listing each team mem-
+ber’s name alongside a list of short-term goals. Just a week ago, 
+your systems analysis team went through an intense meeting on 
+expediting the project schedule for the Kitchener Redwings, an 
+Ontario hockey organization whose management is pressuring you 
+to produce a prototype.
+The three other members of the team look at the chart in 
+surprise. Finally, one of the members, Rip Shinpadd, speaks: “I’m 
+in shock. We each have so much to do as it is—and now this.”
+Hy replies defensively, “We’ve got to aim high, Rip. They’re in 
+the off-season. It’s the only time to get them. If we set our goals too 
+low, we won’t finish the system prototype, let alone the system itself, 
+before another hockey season passes. The idea is to give the Kitchener 
+Redwings the fighting edge through the use of their new system.”
+Fiona Wrink, another team member, enters the discussion, 
+saying, “Goodness knows their players can’t give them that!” She
+
+
+===== BOOK PAGE 93 =====
+
+CHAPTER 3  •  PR ojECT  MAnA gEMEnT     93
+easy part of all this. The real challenge comes from integrating ecommerce strategically into all 
+the organization’s systems.”
+A fourth difference between traditional project management and ecommerce project manage-
+ment centers on security concerns. The ecommerce system will be linking with the outside world 
+via the internet, so security is of the utmost importance. Developing and implementing a security 
+plan before the new system is in place is a project in and of itself and must be managed as such.
+Creating a Project Charter
+Part of the planning process is to agree on what will be done and at what time. Analysts who are 
+external consultants, as well as those who are organization members, need to specify what they will 
+eventually deliver and when they will deliver it. The entire team as well as the client need to be on 
+board. This chapter has elaborated on ways to estimate the delivery date for the completed system 
+and also how to identify organization goals and assess the feasibility of the proposed system.
+The project charter is a written narrative that clarifies the following questions:
+1. What does the user expect of the project (that is, what are the objectives)? What will the 
+system do to meet the needs (achieve the objectives)?
+2. What is the scope (or what are the boundaries) of the project? (What does the user consider 
+to be beyond the project’s reach?)
+3. What analysis methods will the analyst use to interact with users in gathering data and 
+developing and testing the system?
+4. Who are the key participants? How much time are users willing and able to commit to 
+participating?
+5. What are the project deliverables? (What new or updated software, hardware, procedures, 
+and documentation do the users expect to have available for interaction when the project is 
+done?)
+6. Who will evaluate the system, and how will they evaluate it? What are the steps in the 
+assessment process? How will the results be communicated, and to whom?
+7. What is the estimated project timeline? How often will analysts report project milestones?
+8. Who will train the users?
+9. Who will maintain the system?
+The project charter describes in a written document the expected results of the systems project 
+(deliverables) and the time frame for delivery. It essentially becomes a contract between the chief 
+analyst (or project manager) and the analysis team, with the organization users requesting the 
+new system.
+THE SYSTEMS PROPOSAL
+The project charter serves the purpose of identifying objectives, determining scope, and assigning 
+responsibilities, but an analyst still needs to prepare a systems proposal that includes much of the 
+detail about system needs, options, and recommendations. This section covers both the content 
+and style that make up a systems proposal.
+What to Include in a Systems Proposal
+A written systems proposal has 10 main sections. Each section has a particular function, and 
+eventually the proposal should be arranged in the following order:
+1. Cover letter
+2. Title page of project
+3. Table of contents
+4. Executive summary (including recommendations)
+5. Outline of systems study with appropriate documentation
+6. Detailed results of the systems study
+7. Systems alternatives (three or four possible solutions)
+8. Systems analysts’ recommendations
+9. Proposal summary
+10. Appendices (assorted documentation, summary of phases, correspondence, and so on)
+
+
+===== BOOK PAGE 94 =====
+
+94    PART I  •  SYSTEMS AnALYSIS FUnDAMEnTALS
+A cover letter to managers and the IT task force should accompany the systems proposal. 
+It should list the people who did the study and summarize the objectives of the study. Keep the 
+cover letter concise and friendly.
+Include on the title page the name of the project, the names of the systems analysis team mem-
+bers, and the date the proposal is submitted. The proposal title must accurately express the content 
+of the proposal, but it can also exhibit some imagination. The table of contents can be useful to 
+readers of long proposals. If the proposal is less than 10 pages long, omit the table of contents.
+The executive summary, in 250 to 375 words, provides the who, what, when, where, why, and 
+how of the proposal, just as would the first paragraph in a news story. It should also include the recom-
+mendations of the systems analysts and desired management action because some people will only 
+have time to read the summary. It should be written last, after the rest of the proposal is complete.
+The outline of the systems study provides information about all the methods used in the study 
+and who or what was studied. Any questionnaires, interviews, sampling of archival data, observa-
+tion, or prototyping used in the systems study should be discussed in this section.
+This detailed results section describes what the systems analyst has found out about human 
+and systems needs through all the methods described in the preceding section. Conclusions about 
+problems workers experience when interacting with technologies and systems that have come to 
+the fore through the study should be noted here. This section should list the problems or suggest 
+opportunities that call forth the alternatives presented in the next section.
+In the systems alternatives section of the proposal, present two or three alternative solutions 
+that directly address the aforementioned problems. The alternatives you present should include 
+one that recommends keeping the system the same. Each alternative should be explored separately. 
+Describe the costs and benefits of each situation. Because there are usually trade-offs involved in 
+any solution, be sure to include the advantages and disadvantages of each.
+Each alternative must clearly indicate what users and managers must do to implement it. 
+The wording should be as clear as possible, such as “Buy notebook computers for all middle 
+managers,” “Purchase packaged software to support users in managing inventory,” or “Modify 
+the existing system through funding in-house programming efforts.”
+After the systems analysis team has weighed the alternatives, it will have a definite profes-
+sional opinion about which solution is most workable. The systems analysts’ recommendations 
+section expresses the recommended solution. Include the reasons supporting the team’s recom-
+mendation so that it is easy to understand why it is being made. The recommendation should 
+flow logically from the preceding analysis of alternative solutions, and it should clearly relate the 
+human–computer interaction findings to the choice offered.
+The proposal summary is a brief statement that mirrors the content of the executive sum-
+mary. It gives the objectives of the study and the recommended solution. You should once more 
+stress the project’s importance and feasibility, along with the value of the recommendations for 
+reaching the users’ goals and improving the business. Conclude the proposal on a positive note.
+The appendices are the last part of the systems proposal, and they can include any information 
+that you feel may be of interest to specific individuals but that is not essential for understanding 
+the systems study and what is being proposed.
+Once the systems proposal is written, carefully select who should receive the report. If social 
+distancing permits, personally hand the report to the people you have selected. Your visibility is 
+important for the acceptance and eventual success of the system.
+You can propose a special meeting of key decision makers regarding the systems project for 
+the purpose of delivering the results of the systems proposal. Develop a separate oral presentation 
+(illustrated with PowerPoint slides or some other presentation software such as Keynote) that fea-
+tures highlights of your written report. Keep your presentation brief, 30 to 40 minutes maximum, 
+with the majority of time devoted to questions. Never read your report aloud. It is preferable to 
+prepare and deliver a dynamic slide presentation that takes advantage of the fact that you can 
+interact with key decision makers face to face.
+Using Figures for Effective Communication
+The emphasis so far in this section has been on considering your audience when composing a 
+systems proposal. Tables and graphs as well as words are important in capturing and communicating 
+the basics of the proposed system. Never underestimate good design.
+
+
+===== BOOK PAGE 95 =====
+
+CHAPTER 3  •  PR ojECT  MAnA gEMEnT     95
+FIGURE 3.26
+Guidelines for creating effective 
+tables.
+T y p e o f S e t 2017 2018 2019 2020 2021 2022
+4 0 k g g r a y 3 . 5 3 . 4 3 . 7 3 . 0 2 . 5 2 . 0
+4 8 k g g r a y 5 . 9 5 . 5 5 . 1 4 . 6 2 . 0 2 . 0
+5 5 k g g r a y 3 . 9 4 . 8 5 . 5 3 . 5 4 . 2 5 . 5
+6 8 k g g r a y 1 . 0 1 . 9 2 . 2 2 . 5 1 . 3 1 . 2
+1 0 0 k g g r a y 1 . 2 1 . 8 1 . 5 0 . 7 1 . 2 1 . 5
+5 5 k g r , w , b * – – – 3 . 4 6 . 5 2 . 6
+1 0 0 k g r , w , b – – – 0 . 8 1 . 8 1 . 2
+Table 4
+Number of Sets of Barbells Sold by Weight and Color
+for the Years 2017–2022 Inclusive
+* r,w,b, stands for red, white, and blue.
+Make the title
+descriptive.
+The use of a box
+enhances the
+table.
+Label the rows
+and columns.
+T ry to ﬁt the table
+vertically on a
+single page.Use footnotes to
+explain information.
+Integrating figures into your proposal helps demonstrate that you are responsive to the 
+different ways people absorb information. Figures in the report supplement written information 
+and must always be interpreted in words; they should never stand alone.
+Effective use of Tables. Although tables are technically not visual aids, they provide a different 
+way of grouping and presenting analyzed data that an analyst wants to communicate to proposal 
+readers.
+Tables use labeled columns and rows to present statistical or alphabetical data in an organized 
+way. Each table must be numbered according to the order in which it appears in the proposal and 
+should be meaningfully titled. Figure 3.26 shows the appropriate layout and labeling for a table.
+The following are some guidelines for tables:
+1. Integrate tables into the body of the proposal. Don’t relegate them to the appendices.
+2. Try to fit an entire table vertically on a single page, if possible.
+3. Number and title a table at the top of the page. Make the title descriptive and meaningful.
+4. Label each row and column. Use more than one line for a title, if necessary.
+5. Use a boxed table if room permits. Vertically ruled columns will enhance readability.
+6. Use footnotes, if necessary, to explain detailed information contained in the table.
+Several methods for comparing costs and benefits were presented in previous sections. Tabled 
+results of such comparisons should appear in the systems proposal. If a break-even analysis 
+is done, a table illustrating results of the analysis should be included. Payback can be shown in 
+tables that serve as additional support for graphs. A short table comparing computer systems or 
+options might also be included in the systems proposal.
+
+
+===== BOOK PAGE 96 =====
+
+96    PART I  •  SYSTEMS AnALYSIS FUnDAMEnTALS
+Effective use of Graphs. There are many different kinds of graphs, including line graphs, column 
+graphs, bar charts, pie charts, and area charts. Line graphs, column graphs, and bar charts compare 
+variables, whereas pie charts and area charts illustrate the percentage composition of an entity.
+The following guidelines will help you include effective graphs in a proposal (see Figure 3.27):
+1. Choose a style of graph that communicates your intended meaning well.
+2. Integrate the graph into the body of the proposal.
+3. Give the graph a sequential figure number and a meaningful title.
+4. Label each axis and any lines, columns, bars, or pieces of the pie on the graph.
+5. Include a key to indicate different-colored lines, shaded bars, or crosshatched areas.
+Much of the detail that goes into a systems proposal is obtained through interviews, question-
+naires, sampling, discovery of other hard data, and observation. These topics are discussed in the 
+next two chapters.
+FIGURE 3.27
+Guidelines for developing  
+effective line graphs.
+Cost
+($)
+70,000
+60,000
+Break-Even
+Point
+50,000
+40,000
+30,000
+20,000
+10,000
+2019 2020 2021 2022 2023
+Y ear
+Figure 5
+The proposed system is expected to
+reach the break-even point in 2023.
+Include a
+meaningful title.
+Include a key.
+Label the axes.
+Cost of proposed 
+system
+Cost of current 
+system
+Summary
+The five major project management fundamentals a systems analyst must handle are (1) project initiation—
+defining a problem, (2) determining project feasibility, (3) activity planning and control, (4) project schedul-
+ing, and (5) managing systems analysis team members. When faced with questions of how businesses can 
+meet their goals and solve systems problems, an analyst creates a problem definition. A problem definition 
+is a formal statement of the problem, including (1) the issues of the present situation, (2) the objectives for 
+each issue, (3) the requirements that must be included in all proposed systems, and (4) the constraints that 
+limit system development.
+
+
+===== BOOK PAGE 97 =====
+
+CHAPTER 3  •  PR ojECT  MAnA gEMEnT     97
+Selecting a project is a difficult decision because more projects will be requested than can actually be 
+done. Five important criteria for project selection are (1) that the requested project be backed by manage-
+ment, (2) that it be timed appropriately for a commitment of resources, (3) that it move the business toward 
+attainment of its strategic goals, (4) that it be practical, and (5) that it be important enough to be considered 
+over other possible projects.
+If a requested project meets these criteria, a feasibility study of its operational, technical, and economic 
+merits can be done. Through the feasibility study, a systems analyst gathers data to enable management to 
+decide whether to proceed with a full systems study. By inventorying equipment already on hand and on 
+order, systems analysts can better determine whether new, modified, or current computer hardware is to be 
+recommended.
+There are advantages and disadvantages to purchasing computer hardware. Alternatively, the analyst 
+may help the organization weigh the advantages and disadvantages of renting time and space through use 
+of a cloud service provider. Four main categories of cloud computing are Software as a Service (SaaS), 
+Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Disaster Recovery as a Service 
+(DRaaS). As user sophistication grows, some companies are adopting bring your own device (BYOD) 
+approaches to boost morale of employees and lower the initial cost to the organization of purchasing 
+mobile devices. Security risks from untrained users are likely the biggest threat to organizations adopting 
+a BYOD policy.
+Cloud services and other hardware vendors will supply support services such as preventive maintenance 
+and user training that are typically negotiated separately. Software can be created as a custom product, 
+purchased as a commercial off-the-shelf (COTS) software package, or outsourced to a SaaS provider.
+Preparing a systems proposal means identifying all the costs and benefits of a number of alter -
+natives. A systems analyst has a number of methods available to forecast future costs, benefits, vol-
+umes of transactions, and economic variables that affect costs and benefits. Costs and benefits can be 
+tangible (quantifiable) or intangible (nonquantifiable and resistant to direct comparison). A systems 
+analyst can use many methods for analyzing costs and benefits, including break-even analysis and the 
+payback method.
+Project planning includes the estimation of time required for each of the analyst’s activities, scheduling 
+the activities, and expediting them, if necessary, to ensure that a project is completed on time.
+To complete projects on time, within budget, and with the features that are promised, a project 
+needs to be broken down into smaller tasks or activities. These tasks together make up a work breakdown 
+structure (WBS), usually through decomposition. There are different types of work breakdwon structures; 
+they can be product oriented or process oriented. A process-oriented WBS is typical in systems analysis 
+and design.
+One technique available to a systems analyst for scheduling tasks is a Gantt chart, which displays 
+activities as bars on a graph. Another technique, called Program Evaluation and Review Technique 
+(PERT), displays activities as arrows on a network. PERT charts are also called network diagrams. 
+PERT helps an analyst determine the critical path and slack time, which is the information required 
+for effective project control. Both Gantt charts and PERT charts can be developed with Microsoft 
+Project.
+Earned value management (EVM) is a technique used to help the analyst determine progress (or 
+setbacks) on a project and involves project cost, the project schedule, and the performance of the project 
+team. The four key measures in EVM are budget at completion (BAC), planned value (PV), actual cost 
+(AC), and earned value (EV). These four measures or variables are the core of EVM. They can be used to 
+calculate a number of performance measures, including cost variance (CV), schedule variance (SV), the cost 
+performance index (CPI), and the schedule performance index (SPI).
+Creating a project charter that contains user expectations and analyst deliverables is recommended. 
+Reasons computer programmers cited for projects that had failed included unrealistic management deadlines, 
+adding unneeded personnel to a project that is trying to meet an unrealistic deadline, and not permitting 
+developer teams to seek expert help outside their immediate group. Project failures can usually be avoided 
+by examining the motivations for requested projects and understanding a team’s motives for recommending 
+or avoiding a particular project. Systems analysts can improve their team’s prospects for a successful project 
+by emphasizing cognitive, as well as gender and ethnic, diversity and inclusion in the team members they 
+select. Teams must be motivated to achieve their goals. One way to do this is to include team members in 
+goal setting.
+A systems analyst must follow these steps when putting together an effective systems proposal: 
+Effectively organize the proposal content and write and deliver the proposal in an appropriate business 
+style. To be effective, a proposal should be written in a clear and understandable manner, and its content 
+should be divided into 10 functional sections. Visual considerations are important when putting together 
+a proposal. Face-to-face meetings with key decision makers provide an opportunity to orally present the 
+systems proposal in a brief and compelling way.
+
+
+===== BOOK PAGE 98 =====
+
+98    PART I  •  SYSTEMS AnALYSIS FUnDAMEnTALS
+Review Questions
+1. What are the five major project fundamentals?
+2. List three ways to find out about problems or opportunities that might call for a systems solution.
+3. List the five criteria for systems project selection.
+4. Define technical feasibility.
+5. Define economic feasibility.
+6. Define operational feasibility.
+7. List four criteria for evaluating system hardware.
+8. What two main options do organizations have for acquiring or using computer hardware?
+9. What does COTS stand for?
+10. List five of the many benefits of cloud computing for organizations.
+11. List three of the many drawbacks of cloud computing for organizations.
+12. What does BYOD stand for?
+13. What are the benefits of BYOD to an organization?
+14. What are the benefits of BYOD to an employee?
+15. What is the biggest drawback of BYOD for an organization?
+16. What are four main categories of cloud computing?
+17. Define tangible costs and tangible benefits. Give an example of each one.
+18. Define intangible costs and intangible benefits. Give an example of each one.
+19. List four techniques for comparing the costs and benefits of a proposed system.
+20. When is calculating the payback period useful?
+21. What are the three drawbacks of using the payback method?
+22. What is a work breakdown structure (WBS), and when should it be used?
+23. What is a Gantt chart?
+24. When is a PERT diagram useful for systems projects?
+25. List three advantages of using a PERT diagram over a Gantt chart for scheduling systems projects.
+26. Define the term critical path.
+27. How does a project manager assess the risk of things going wrong and take that into consideration 
+when planning the time needed to complete a project?
+Keywords and Phrases
+actual cost (AC)
+benchmarking
+break-even analysis
+bring your own device (BYOD)
+bring your own technology (BYOT)
+budget
+budget at completion (BAC)
+cloud computing
+cost performance index (CPI)
+cost variance (CV)
+critical path
+Disaster Recovery as a Service (DRaaS)
+earned value (EV)
+earned value management (EVM)
+ecommerce project management
+economic feasibility
+estimate at completion (EAC)
+estimate to complete (ETC)
+expediting
+forecasting
+function point analysis
+Gantt chart
+Infrastructure as a Service (IaaS)
+Hardware as a Service (HaaS)
+intangible benefits
+intangible costs
+moving average
+operational feasibility
+payback
+planned value (PV)
+Platform as a Service (PaaS)
+Program Evaluation and Review Technique 
+(PERT)
+problem definition
+productivity goals
+project charter
+schedule performance index (SPI)
+schedule variance (SV)
+socioemotional leader
+Software as a Service (SaaS)
+systems proposal
+tangible benefits
+tangible costs
+task leader
+team norms
+team process
+technical feasibility
+vendor support
+work breakdown structure (WBS)
+
+
+===== BOOK PAGE 99 =====
+
+CHAPTER 3  •  PR ojECT  MAnA gEMEnT     99
+28. What costs need to be estimated to prepare a budget?
+29. Why is preparing a budget so important for a systems analyst who is managing a project?
+30. What three instances call for expediting a systems project?
+31. What does crash time mean when expediting a project?
+32. What is earned value management (EVM)?
+33. What are the four key measures in earned value management?
+34. For what purposes can a systems analyst use earned value management?
+35. List the two types of team leaders.
+36. What is meant by a dysfunctional team norm?
+37. What is meant by team process?
+38. What are three dimensions you could assess to build a diverse project team?
+39. What are three reasons that goal setting seems to motivate systems analysis team members?
+40. What are four ways in which ecommerce project management differs from traditional project 
+management?
+41. What elements are contained in a project charter?
+42. For what purpose is a fishbone diagram used?
+43. What are the three steps a systems analyst must follow to put together an effective systems proposal?
+44. List the 10 main sections of a systems proposal.
+Problems
+1. Williwonk’s Chocolates of St. Louis makes an assortment of chocolate candy and candy novelties. 
+The company has six in-city stores, five stores in major metropolitan airports, and a small mail-
+order branch. Williwonk’s has a small, computerized information system that tracks inventory in 
+its plant, helps schedule production, and so on, but this system is not tied directly into any of its 
+retail outlets. The mail-order system is handled manually, and any emailed order forms received 
+through the website are answered via email by clerical personnel, with orders being forwarded to the 
+appropriate department.
+Recently, several Williwonk’s stores experienced a rash of complaints from mail-order 
+customers that the candy was spoiled upon arrival, that it did not arrive when promised, or that 
+it never arrived; the company also received several letters complaining that candy in various 
+airports tasted stale. Williwonk’s has been selling a new, low-carb, dietetic form of chocolate 
+made with sugar-free artificial sweetener. Sales have been brisk, but there have been problems 
+shipping the wrong type of chocolate to an address for a person with diabetes. There were 
+a number of complaints, and Williwonk’s sent a number of free boxes of chocolate to ease 
+the situation.
+Management would like to sell products online but only has a basic website with informa-
+tion about the company and an order form that can be downloaded, printed, filled out by the cus-
+tomer, and returned via email, web ordering does not exist. One of the senior executives would 
+like to sell customized chocolates with the name of a person on each piece. Although the produc-
+tion area has assured management that this could be easily done, there is no method to order 
+customized chocolates.
+Another senior executive has mentioned that Williwonk’s has partnered with several European 
+chocolate manufacturers and will be importing chocolate from a variety of countries. At present, this 
+must be done over the phone, by email, or by mail. The executive wants an internal, internet-based 
+network that will enable employees to order directly from the partner companies. All this has led a 
+number of managers to request trend analysis. Too much inventory results in stale chocolate, and at 
+other times there is a shortage of a certain kind of chocolate.
+Seasonal and holiday variation trends would help Williwonk’s maintain an adequate inventory. 
+The inventory control manager has insisted that all changes must be implemented before the next 
+holiday season. “The time for this to be complete is an absolute due date,” remarked Candy Kane, a 
+senior manager. “Make sure that everything works perfectly before the site goes public,” she contin-
+ues. “I don’t want any customers receiving the wrong chocolates!” In addition, the order processing 
+manager has mentioned that the system must be secure.
+You have been working for two weeks with Williwonk’s on some minor modifications 
+for its inventory information system when you overhear two managers discussing these occur -
+rences. List the possible opportunities or problems among them that might lend themselves to 
+systems projects.
+2. Where is most of the feedback on problems with Williwonk’s products coming from in Problem 1? 
+How reliable are the sources? Explain in a paragraph.
+
+
+===== BOOK PAGE 100 =====
+
+100    PART I  •  SYSTEMS AnALYSIS FUnDAMEnTALS
+3. After getting to know Williwonk’s management people better, you have approached them with your 
+ideas on possible systems improvements that could address some of the problems or opportunities 
+given in Problem 1.
+a. In two paragraphs, provide your suggestions for systems projects. Make any realistic assumptions 
+necessary.
+b. Are there any problems or opportunities discussed in Problem 1 that are not suitable? Explain 
+your response.
+4. Create a problem definition for Williwonk’s, as described in Problem 1. Estimate the weights of 
+importance. Include at least one requirement and one constraint.
+5. Create a list of user requirements for the problem definition created in Problem 4.
+6. Delicato, Inc., a manufacturer of precise measuring instruments for scientific purposes, has presented 
+you with a list of attributes that its managers think are probably important in selecting a vendor for 
+computer hardware and software or a cloud service provider. The criteria are listed here, but not in 
+order of importance:
+1. Low price
+2. Precisely written software for engineering applications
+3. Vendor performs routine maintenance on hardware
+4. Training for Delicato employees
+a. Critique the list of attributes in a paragraph.
+b. Using its initial input, help Delicato, Inc. draw up a more suitable list of criteria for selecting 
+computer hardware and software vendors to purchase from.
+c. Using its initial input, help Delicato, Inc. draw up a more suitable list of criteria for selecting 
+cloud vendors who could provide HaaS and SaaS.
+d. In a paragraph, state how the list of attributes for selecting a computer hardware vendor to pur-
+chase from should differ from the list of attributes for selecting a cloud provider for HaaS.
+e. In a paragraph, state how the list of attributes for selecting a computer software vendor to pur-
+chase applications from should differ from the list of attributes for selecting a cloud provider 
+for SaaS.
+7. SoftWear Silhouettes is a rapidly growing mail-order house specializing in all-cotton clothing. Man-
+agement would like to expand sales to the web by creating an ecommerce site. The company has two 
+full-time systems analysts and one computer programmer. Company offices are located in a small, 
+remote New England town in the United States, with a declining population, and the employees who 
+handle the traditional mail-order business have little computer training.
+a. Considering the company’s situation, draw up a list of software attributes that SoftWear Silhou-
+ettes should emphasize in its choice of software to create a website and integrate the mail-order 
+business with business from the website.
+b. Would you recommend COTS software, custom software, or outsourcing to a SaaS provider? 
+State your choice and defend it in a paragraph.
+c. List the variables that contributed to your response in part b.
+8. The following is 12 years’ demand for Viking Village, a civilization-building computer game now 
+available for tablets and smartphones:
+Year Demand
+2011 20,123
+2012 18,999
+2013 20,900
+2014 31,200
+2015 38,000
+2016 41,200
+2017 49,700
+2018 46,400
+2019 50,200
+2020 52,300
+2021 49,200
+2022 57,600
+a. Graph the demand data for Viking Village.
+b. Determine the linear trend for Viking Village, using a three-year moving average.
+9. Do the data for Viking Village appear to have a cyclical variation? Explain.
+
+
+===== BOOK PAGE 101 =====
+
+CHAPTER 3  •  PR ojECT  MAnA gEMEnT     101
+FIGURE 3. EX1
+Data to help in the organization 
+of a design project for creating 
+an information system that tracks 
+shipments of frozen foods to 
+warehouses.
+Description
+Draw data ﬂow
+Draw decision tree
+Revise tree
+Write up project
+Organize data dictionary
+Do output prototype
+Revise output design
+Write use cases
+Design database
+Task
+A
+B
+C
+D
+E
+F
+G
+H
+I
+Must Follow
+None
+A
+B
+C, I
+A
+None
+F
+None
+H, E, and G
+Time (Weeks)
+5
+4
+10
+4
+7
+2
+9
+10
+8
+10. Interglobal Health Consultants has asked for your help in comparing its present computer system 
+with a new one its board of directors would like to see implemented. The proposed system costs and 
+present system costs are as follows:
+Item Proposed System Costs Present System Costs
+Year 1
+Equipment lease $20,000 $11,500
+Salaries 30,000 50,000
+Overhead 4,000 3,000
+Development 30,000 —
+Year 2
+Equipment lease $20,000 $10,500
+Salaries 33,000 55,000
+Overhead 4,400 3,300
+Development 12,000 —
+Year 3
+Equipment lease $20,000 $10,500
+Salaries 36,000 60,000
+Overhead 4,900 3,600
+Development — —
+Year 4
+Equipment lease $20,000 $10,500
+Salaries 39,000 66,000
+Overhead 5,500 4,000
+Development — —
+  Graph the costs of the proposed and present systems and show the break-even point.
+11. The following are system benefits for Interglobal Health Consultants (from Problem 10):
+Year Benefits
+1 $55,000
+2 75,000
+3 80,000
+4 85,000
+  Use the costs of Interglobal Global Health Consultants’ proposed system from Problem 10 to 
+determine the payback period. (Use the payback method.)
+12. Brian F. O’Byrne (“F,” he says, stands for “frozen”) owns a frozen foods company and wants to 
+develop an information system for tracking shipments to warehouses.
+a. Using the data from the table in Figure 3.EX1, draw a Gantt chart to help Brian organize his 
+design project.
+
+
+===== BOOK PAGE 102 =====
+
+102    PART I  •  SYSTEMS AnALYSIS FUnDAMEnTALS
+b. When is it appropriate to use a Gantt chart? What are the disadvantages of using a Gantt chart? 
+Explain in a paragraph.
+13. In addition to using a Gantt chart, you’ve drawn a PERT diagram for Brian so that you can commu-
+nicate the necessity of keeping an eye on the critical path. Consult Figure 3.EX2, which was derived 
+from the data from Figure 3.EX1. List all paths and calculate and identify the critical path.
+14. Latifah Musa owns a homeopathic medicine company called Faithhealers. She sells vitamins and 
+other relatively nonperishable products for those who want choices regarding alternative medicine. 
+Latifah is developing a new system that would require her staff to be retrained. Given the information 
+in Figure 3.EX3, make a PERT diagram for her and identify the critical path. If Latifah could find a 
+way to save time on the “write use cases” phase, would it help? Why or why not?
+15. Using the PERT diagram in Figure 3.EX2 to determine answers:
+a. What activities can you expedite to complete the project a week ahead of schedule?
+b. Suppose activity E is the least costly activity to expedite. What happens if you try to expedite the 
+project by more than one week? Explain.
+16. You can help Latifah finish her project faster by expediting. Here are the costs.
+Activity Estimated Duration Crash Time Cost per Week
+A 6 3 600
+B 3 2 100
+C 2 2 400
+D 3 2 400
+E 4 2 200
+F 2 2 200
+G 5 3 300
+H 3 2 400
+I 2 2 300
+  If Latifah can keep her expediting expenses to $325 per week, she would benefit from expediting 
+because she can start a new project earlier than planned. If she goes over the $325 per week limit, it 
+would not be worthwhile.
+a. Which three activities cannot be expedited at all because they are at their crash times already?
+b. Which two activities cannot be expedited because their expediting cost exceeds the daily limit?
+c. Which two activities are unlikely candidates for expediting because they are not on the critical 
+path?
+FIGURE 3. EX3
+Tasks to be performed during 
+systems development of an order 
+fulfillment system.
+Description
+Interview executives
+Interview staff in order fulﬁllment
+Design input prototype
+Design output prototype
+Write use cases
+Record staff reactions to prototypes
+Develop system
+Write up training manual
+Train staff working in order fulﬁllment
+Task
+A
+B
+C
+D
+E
+F
+G
+H
+I
+Must Follow
+None
+None
+B
+A, C
+A, C
+D
+E, F
+B, G
+H
+Time (Weeks)
+6
+3
+2
+3
+4
+2
+5
+3
+2
+FIGURE 3. EX2
+The PERT diagram for Brian’s 
+frozen foods company.
+10
+20
+30
+50
+40
+7060A
+F G
+E
+B
+I
+C
+D
+H
+
+
+===== BOOK PAGE 103 =====
+
+CHAPTER 3  •  PR ojECT  MAnA gEMEnT     103
+d. Set up a table and show step by step which activities should be expedited to shorten the project 
+time. What is the minimum time the project will take if Latifah expedites the project as much as 
+she can and stays within her limits?
+e. Why is Latifah’s limit exceeded if you try to shorten the project by one week more?
+17. Latanya Williams is developing a social networking app for tablet computers. She has:
+Week or Stage Estimated Cost of Stage Stage Completed
+Actual Cost of  
+Stage to Date
+Week 1 $500 100% 500
+Week 2 400 100% 500
+Week 3 600 100% 700
+Week 4 500 50% 50
+Week 5 400 0 Not yet begun
+a. Create a table similar to the one in Figure 3.24.
+b. Calculate the budget at completion (BAC), planned value (PV), actual cost (AC), and earned value 
+(EV) at Week 3.
+c. For Week 3, calculate the performance measures of cost variance (CV), schedule variance (SV), 
+the cost performance index (CPI), and the schedule performance index (SPI).
+d. What can you tell about the budget in Week 3 by using these performance measures?
+e. What can you tell about the schedule in Week 3 by using these performance measures?
+f. For Week 3, calculate the estimated time to complete (ETC) and estimate at completion (EAC).
+18. Using the data in the table from the previous problem:
+a. Create a table similar to the one in Figure 3.24 if you haven’t done so already.
+b. Calculate the budget at completion (BAC), planned value (PV), actual cost (AC), and earned value 
+(EV) at Week 4.
+c. For Week 4, calculate the performance measures of cost variance (CV), schedule variance (SV), 
+the cost performance index (CPI), and the schedule performance index (SPI).
+d. What can you say about the budget in Week 4 by using these performance measures?
+e. What can you say about the schedule in Week 4 by using these performance measures?
+f. For Week 4, calculate the estimated time to complete (ETC) and estimate at completion (EAC).
+19. Angus McIndoe wants to modernize his popular restaurant by adapting it more closely to the prefer-
+ences of his repeat customers. This would involve keeping track of his customers’ likes and dislikes. 
+Information such as where they like to sit, what they like to eat, and when they normally arrive at the 
+restaurant are all items of interest to Angus because he believes this information will help him better 
+serve his customers. Angus has asked you to develop a system for him that will help make his cus-
+tomers happy while increasing his business.
+You have heard what Angus has to say about his customers. He can certainly keep track of addi-
+tional preferences. Develop a problem definition for Angus similar to the one developed for Cath-
+erine’s Catering in this chapter.
+20. Recently, two analysts just out of college have joined your systems analysis group at the newly 
+formed company Mega Phone. When talking to you about the group, they mention that some things 
+strike them as odd. One is that group members seem to look up to two group leaders, Bill Pei and 
+Penny Weiss, not just one.
+Their observation is that Bill seems pretty relaxed, whereas Penny is always planning and sched-
+uling activities. They have also observed that everyone “just seems to know what to do” when they 
+get into a meeting, even though no instructions are given. Finally, they have remarked on the open-
+ness of the group in addressing problems as they arise, instead of letting things get out of hand.
+a. By way of explanation to the new team members, label the types of leaders Bill Pei and Penny 
+Weiss appear to be, respectively.
+b. Explain the statement that “everyone just seems to know what to do.” What is guiding their 
+behavior?
+c. What concept best describes the openness of the group that the new team members commented on?
+21. “I think it’s only fair to write up all the alternatives you’ve considered,” says Lou Cite, a personnel 
+supervisor for DayGlow Paints. “After all, you’ve been working on this systems thing for a while 
+now, and I think my supervisor and everyone else would be interested to see what you’ve found out.” 
+You are talking with Lou as you prepare to put together the final systems proposal that your team will 
+be presenting to upper management.
+a. In a paragraph, explain to Lou why your proposal will not (and should not) contain all the alterna-
+tives that your team has considered.
+b. In a paragraph, discuss the sorts of alternatives that should appear in the final systems proposal.
+
+
+===== BOOK PAGE 104 =====
+
+104    PART I  •  SYSTEMS AnALYSIS FUnDAMEnTALS
+Group Projects
+1. The Kim Clinic is a dental practice run by Drs. Ari and Sung-Ho Kim, and they need to keep the 
+necessary patient and insurance data safe and secure. They looked into online, cloud-based backups: 
+SOS Online Backup, Spare Backup, MozyPro, and iDrive. With your group, research the cost of 
+these or other cloud-based services and help Drs. Ari and Sung-Ho make a decision. What are the 
+intangible costs and benefits of backing up this way? Should they use a backup service or find some 
+other way? Write two paragraphs defending your group’s analysis and recommendations.
+2. Explore four or five V oice over IP (V oIP) providers with your group.
+a. Make a list of costs, including the setup fee, monthly cost of the basic plan, monthly cost of the 
+unlimited plan, and cost of an adapter or other fees, if required.
+b. Make a list of attributes, such as free in-network calls, international calling, virtual telephone 
+numbers, teleconferencing, support for caller ID, and so on.
+c. Write a paragraph with your group to explain how a person would use all the quantitative and 
+qualitative information to make an informed decision about which V oIP provider to select. Are any 
+other variables important? What type of software could be used to help compare these services?
+3. With your group, choose one V oIP provider you would recommend to a client based on the analysis 
+in Group Project 2, parts a and b.
+4. With your group members, explore project management software such as Microsoft Project.
+a. What features are available? Work with your group to list them.
+b. Have your group evaluate the usefulness of the software for managing a systems analysis and 
+design team project. In a paragraph, state whether the software you are evaluating facilitates team 
+member communication and management of the team, specifically: evaluate its capacity to coor-
+dinate activities, time, and resources. Also state which particular features support these aspects of 
+any systems project. Also note whether the software falls short of these criteria in any regard.
+5. Brainstorm with your group about problems that can possibly occur when constructing a website for 
+a travel company that wants to sell vacations online for the next big travel period (either December or 
+June).
+a. Make a list of the problems your group identified.
+b. Draw a fishbone diagram with your group that depicts all the problems the group identified in 
+part a.
+Selected Bibliography
+Alexander, M. (2021, April 27). How to build more diverse and inclusive project teams. https://www 
+.techrepublic.com/article/how-to-build-more-diverse-and-inclusive-project-teams/?ftag=TRE684d531
+&bhid=29183969873549096909230967882050&mid=13348978&cid=2227018232.
+Alhomdy, S., Thabit, F., Hasan Abdulrazzak, F., Haldorai, A., & Jagtap, S. (2021). The role of cloud com-
+puting technology: A savior to fight the lockdown in COVID 19 crisis, the benefits, characteristics 
+and application. International Journal of Intelligent Networks, 2, 1–177. https://doi.org/10.1016/j 
+.ijin.2021.08.001.
+Alter, S. (2002). Information systems: The foundation of e-business (4th ed.). Prentice Hall.
+Bales, R. F. (1970). Personality and interpersonal behavior. Holt, Rinehart & Winston.
+Bergstein, B. (2012, May 21). IBM faces the perils of “bring your own device. ” https://www.technology 
+review.com/s/427790/ibm-faces-the-perils-of-bring-your-own-device.
+Blair, R., & Hewitt, J. (2021, July 29). Market guide for disaster recovery as a service. https://www 
+.recoverypoint.com/wp-content/uploads/2021/12/Gartner-Market-Guide-for-DRaaS.pdf.
+Brownsword, L., Sledge, C., & Oberndorf, P. (2000, October). An activity framework for COTS-based systems 
+(CMU/SEI-2000-TR-010). http://resources.sei.cmu.edu/library/asset-view.cfm?assetID=5225.
+Cearley, D. W. (2010). Cloudcomputing: Key initiative overview. https://www.gartner.com/it/initiatives/pdf 
+/KeyInitiativeOverview_CloudComputing.pdf.
+Djurovic, A. (2020, August 21). 20+ astonishing agile adoption statistics for 2022. https://goremotely 
+.net/blog/agile-adoption/.
+Fisher, M. (2017, May 1). What happens when work becomes a nonstop chat room. New York Magazine. 
+http://nymag.com/selectall/2017/05/what-has-slack-done-to-the-office.html.
+Fry, J. (2011, March). Survey: Cloud really is shaking up the IT role—with some new job titles to prove it. 
+http://datacenterdialog.blogspot.com/2011/03/survey-cloud-really-is-shaking-up-it.html.
+Germonprez, M., Kendall, J., Kendall, K., Warner, B., & Mathiassen, L. (2011). Organizational  
+participation in open communities: Conceptual framing and early findings. http://aisel.aisnet.org 
+/amcis2011_submissions/242.
+
+
+===== BOOK PAGE 105 =====
+
+CHAPTER 3  •  PR ojECT  MAnA gEMEnT     105
+Glass, R. (1999). Evolving a new theory of project success. Communications of the ACM, 42(11), 17–19.
+Kaneshige, T. (2012, March 6). The BYOD sea change has already started. CIO. https://www.cio.com 
+/article/284399/consumer-technology-the-byod-sea-change-has-already-started.html.
+Levine, D. M., Stephan, D. F., & Szabat, K. A. (2021). Statistics for managers using Microsoft Excel. 
+Pearson.
+Linberg, K. R. (1999). Software perceptions about software project failure: A case study. Journal of  
+Systems and Software, 49(2/3), 177–192.
+Linthicum, D. (2012, May 22). 3 easy steps to creating your cloud strategy. InfoWorld. www.infoworld 
+.com/d/cloud-computing/3-easy-steps-creating-your-cloud-strategy-193593.
+McBreen, P. (2003). Questioning extreme programming. Addison-Wesley.
+Moyse, I. (2012, March 16). Why more education is needed on cloud. www.cloudcomputing-news.net 
+/news/2012/mar/16/employing-cloud/.
+Moyse, I. (2012, March 13). How consumerisation is driving cloud acceptance. www.cloudcomputing 
+-news.net/news/2012/mar/13/how-consumerisation-driving-cloud-acceptance.
+Nash, K. S. (2010, May 15). Cloud computing: What CIOs need to know about integration. CIO. http://
+www.cio.com/article/2418286/software-as-a-service/cloud-computing—what-cios-need-to-know-
+about-integration.html.
+National Aeronautics and Space Administration. (n.d.). NASA open source software. http://ti.arc.nasa.gov 
+/opensource/.
+People Management. (2017, October 23). Diversity drives better decisions. https://www.peoplemanage 
+ment.co.uk/article/1742040/diversity-drives-better-decisions.
+Perez, J. C. (1997, January 13). Heineken’s HOPS software keeps a-head on inventory. PC Week, 14(2), 
+31, 34.
+Peters, M. (2011, February 26). How cloud computing and web services are changing the IT job market. 
+http://mashable.com/2011/02/26/it-job-market/.
+Reynolds, A., & Lewis, D. (2017, March 30). Teams solve problems faster when they’re more cognitively 
+diverse. Harvard Business Review. https://hbr.org/2017/03/teams-solve-problems-faster-when 
+-theyre-more-cognitively-diverse.
+Schein, E. H. (1988). Process consultation: Its role in organization development (V ol. 1, 2nd ed.).  
+Addison-Wesley, 1988.
+Shtub, A., Bard, J. F., & Globerson, S. (2005). Project management: Processes, methodologies, and  
+economics (3rd ed.). Pearson.
+Stefik, M., Foster, G., Bobrow, D. G., Kahn, K., Lanning, S., & Suchman, L. (1987). Beyond the  
+chalkboard: Computer support for collaboration and problem solving in meetings. Communications 
+of the ACM, 30(1), 32–47.
+Vigder, M. R., Gentleman, W. M., & Dean, J. C. (1996, January). COTS software integration: State of  
+the art (NRC-CNRC Report). National Research Council.
+Walsh, B. (1998). Your network’s not ready for e-commerce. Network Computing, 9(22), 25–26.
+Yang, H., & M. Tate. (2012). A descriptive literature review and classification of cloud computing 
+research. Communications of the Association for Information Systems, 31(2). http://aisel.aisnet.org 
+/cais/vol31/iss1/2.
+
+
+===== BOOK PAGE 106 =====
+
+This page intentionally left blank
+
+
+===== BOOK PAGE 107 =====
+
+C. Covert Darbyshire/The New Yorker Collection/The Cartoon Bank
+Information Requirements 
+Analysis
+PART  
+II
+
+
+===== BOOK PAGE 108 =====
+
+108
+4 
+Information Gathering: 
+Interactive Methods
+LEARNING OBJECTIVES
+Once you have mastered the material in this chapter, you will be able to:
+1 Learn the art of interviewing by constructing meaningful questions and conducting  
+the interview.
+2 Understand the purpose of listening to user stories and why they are useful in systems 
+analysis.
+3 Grasp the concept of joint application design (JAD) and when to use it.
+4 Design and administer effective questionnaires.
+5 Learn different ways to prioritize requirements.
+You can use four key interactive methods to elicit human information requirements from 
+organization members. These four methods are interviewing and eliciting stories, using joint 
+application design, surveying people through questionnaires, and using methods to prioritize 
+requirements. Although different in their implementation, these methods also have a great 
+deal in common. The basis of their shared properties is talking with and listening to people 
+who can tell stories about their interactions with technology.
+Each of the four interactive methods for information gathering possesses its own 
+established process for you to follow in interacting with users. If followed, these sys-
+tematic approaches will help ensure proper design and implementation of interviews, 
+workshops on joint application design, and questionnaires, as well as support insightful 
+analysis of the resulting data. Analysts can choose which of the six methods for require-
+ments prioritization is most helpful in getting uers to to prioritize which features are most 
+important. Unobtrusive methods such as sampling, investigation, and observing a decision 
+maker’s behavior and physical environment do not require the same degree of interactivity 
+between analysts and users. These methods are covered in an upcoming chapter. By using 
+interactive methods with unobtrusive methods, you will achieve a more complete portrait 
+of the organization’s information requirements.
+CHAPTER
+

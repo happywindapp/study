@@ -1,0 +1,1411 @@
+
+===== BOOK PAGE 237 =====
+
+CHAPTER 8  •  AnAlyzing Sy STEmS  USing D ATA  DiCTionARiES     237
+THE DATA DICTIONARY
+Many database management systems now come equipped with an automated data dictionary. 
+These dictionaries can be either elaborate or simple. Some computerized data dictionaries auto-
+matically catalog data items when coding is done; others simply provide a template to prompt the 
+person filling in the dictionary to do so in a uniform manner for every entry.
+One important reason for maintaining a data dictionary is to keep clean data. This means that 
+data must be consistent. If you store data about an external customer in one record as “Ext,” an 
+“E” in a second record, and as the number “1” in a third record, the data are not clean. Keeping a 
+data dictionary will help in this regard.
+Need for Understanding the Data Dictionary
+Despite the existence of automated data dictionaries, a systems analyst should understand 
+what data compose a data dictionary, the conventions used in data dictionaries, and how 
+a data dictionary is developed. Understanding the process of compiling a data diction-
+ary can aid a systems analyst in conceptualizing the system and how it works. Data flow 
+diagrams (DFDs), discussed in Chapter 7,  are an excellent starting point for collecting data 
+dictionary entries.
+The following sections describe the rationale behind contents of automated data dictionaries. 
+In addition to providing documentation and eliminating redundancy, a data dictionary may be 
+used to:
+1. Validate the DFD for completeness and accuracy.
+2. Provide a starting point for developing screens and reports.
+3. Determine the contents of data stored in files.
+4. Develop the logic for DFD processes.
+5. Create extensible markup language (XML).
+THE DATA REPOSITORY
+A data dictionary contains information about data and procedures; a larger collection of project 
+information is called a repository. One of the benefits of using a CASE tool to develop the data 
+reports, determine what data is stored, develop logic contained in 
+data flow diagrams, and create XML code. These steps usually 
+come before coding in computer languages like C++ or Python. 
+This chapter’s video raises the question whether learning coding 
+is more like learning a language or more like learning mathematics. 
+After you view the video, please reflect on the following questions:
+1. Do you think that learning coding is like learning a language 
+or learning math?
+2. Systems analysis and design involves developing models one 
+level above coding, but design needs to be communicated to 
+coders. What are some of the important aspects of communi-
+cation between designers and coders?
+3. Many of the analysis, design, and documentation techniques 
+system analysts use depend on figures and diagrams. Is drawing 
+useful figures and diagrams a language skill or a math skill?
+4. Describe what other metaphors would be appropriate to 
+depict the many roles of the systems analyst.
+SYSTEMS SCENARIO  
+Is Coding a Language or Math Skill?
+In this chapter, the systems analyst creates and maintains a data 
+dictionary. A data dictionary is similar to a dictionary we use in 
+everyday life, except the data dictionary describes data instead of 
+words. The analyst is therefore called upon to use new skills that 
+will help validate data flow diagrams, help develop screens and 
+To view the video for this scenario, 
+see eText Chapter 8.
+SciShow Psych/Boclips
+
+
+===== BOOK PAGE 238 =====
+
+238    PART iii •  THE AnAly SiS PR oCESS
+dictionary is the ability to develop a repository, or a shared collection of project information and 
+team contributions. The repository may contain the following:
+1. Information about the data maintained by the system, including data flows, data stores, 
+record structures, elements, entities, and messages
+2. Procedural logic and use cases
+3. Screen and report design
+4. Data relationships, such as how one data structure is linked to another
+5. Project requirements and final system deliverables
+6. Project management information, such as delivery schedules, achievements, issues that 
+need resolving, and project users
+The data dictionary is created by examining and describing the contents of data flows, data 
+stores, and processes, as illustrated in Figure 8.1. Each data store and data flow should be defined 
+and then expanded to include the details of the elements it contains. The logic of each process 
+should be described using the data flowing into or out of the process. Omissions and other design 
+errors should be noted and resolved.
+The four data dictionary categories—data flows, data structures, data elements, and data 
+stores—should be developed to promote understanding of the data in the system. Procedural logic 
+is presented in Chapter 9, entities are discussed in Chapter 13, and messages and use cases are 
+presented in Chapters 2 and 10.
+To illustrate how data dictionary entries are created, we use an example for World’s Trend Cat-
+alog Division. This company sells clothing and other items by mail order, by a toll-free phone order 
+system (or faxing the mail order form), and online using customized web forms. Regardless of the 
+origin of the order, the underlying data captured by the system are the same for all three methods.
+The World’s Trend order form shown in Figure 8.2 gives some clues about what to enter into 
+a data dictionary. First, you need to capture and store the name, address, and telephone number 
+of the person placing the order. Then you need to address the details of the order: the item 
+description, size, color, price, quantity, and so on. The customer’s method of payment must also 
+be determined. Once you have done this, these data may be stored for future use. This example is 
+used throughout this chapter to illustrate each part of the data dictionary.
+Defining the Data Flows
+Data flows are usually the first components to be defined. A systems analyst determines system 
+inputs and outputs by interviewing, observing users, and analyzing documents and other 
+FIGURE 8.1
+How data dictionaries relate to data flow diagrams.
+Data Flow Diagram
+Data Store
+Data Flow
+Data Dictionary
+Data
+Flow
+Description
+Form
+XXX
+Data
+Structure
+XXX
+Data
+Store
+Description
+Form
+XXX
+Data
+Elements
+XXX
+Data
+Structure
+XXX
+Data
+Elements
+XXX
+
+
+===== BOOK PAGE 239 =====
+
+CHAPTER 8  •  AnAlyzing Sy STEmS  USing D ATA  DiCTionARiES     239
+existing systems. The information captured for each data flow may be summarized using a form 
+that contains the following information:
+1. An optional identification number. Sometimes the ID is coded using a scheme to identify 
+the system and the application in the system.
+2. A unique descriptive name for the data flow. This name is the text that should appear on 
+the diagram and should be referenced in all descriptions using the data flow.
+3. A general description of the data flow.
+4. The source of the data flow. The source could be an external entity, a process, or a data 
+flow coming from a data store.
+5. The destination of the data flow (same items listed under the source).
+6. An indication of whether the data flow is a record entering or leaving a file or a record 
+containing a report, form, or screen. If the data flow contains data that are used between 
+processes, it is designated as internal.
+7. The name of the data structure describing the elements found in this data flow. For a 
+simple data flow, it could be one or several elements.
+8. The volume per unit of time. The data could be records per day or any other unit of time.
+9. An area for further comments and notations about the data flow.
+Once again, we can use our World’s Trend Catalog Division example from Chapter 7 to 
+illustrate a completed form. Figure 8.3 is an example of the data flow description representing 
+the screen used to add a new CUSTOMER ORDER and to update the customer and item files. 
+Notice that the external entity CUSTOMER is the source and that PROCESS 1 is the destination, 
+providing linkage back to the DFD. The checked box for “Screen” indicates that the flow repre-
+sents an input screen. It could be any screen, such as a web page, graphic user interface (GUI), 
+mobile phone, or perhaps a mainframe screen. The detailed description of the data flow could 
+appear on this form, or it could be represented as a data structure.
+Data flows for all inputs and outputs should be described first because they usually represent 
+the human interface, followed by the intermediate data flows and the data flows to and from 
+data stores. The detail of each data flow is described using elements sometimes called fields, 
+a data structure, or a group of elements.
+A simple data flow may be described using a single element, such as a customer number used 
+by an inquiry program to find the matching customer record.
+Describing Data Structures
+Data structures are usually described using algebraic notation. This method allows an analyst 
+to produce a view of the elements that make up the data structure, along with information about 
+FIGURE 8.2
+An online order form from 
+World’s Trend Catalog Division.
+
+
+===== BOOK PAGE 240 =====
+
+240    PART iii •  THE AnAly SiS PR oCESS
+those elements. For instance, the analyst will denote whether there are many of the same elements 
+in the data structure (a repeating group) or whether two elements may exist mutually exclusive 
+of each other. The algebraic notation uses the following symbols:
+1. An equal sign ( )=  means “is composed of.”
+2. A plus sign ( )+  means “and.”
+3. Braces {} indicate repetitive elements, also called repeating groups or tables. There 
+may be one repeating element or several in a group. The repeating group may have 
+conditions, such as a fixed number of repetitions, or upper and lower limits for the  
+number of repetitions.
+4. Brackets [] are used for an either/or situation. Either one element or another may be 
+present, but not both. The elements listed between the brackets are mutually exclusive.
+5. Parentheses () are used for an optional element. Optional elements may be left blank on 
+entry screens and may contain spaces or zeros for numeric fields in file structures.
+Figure 8.4 is an example of the data structure for adding a customer order at World’s Trend 
+Catalog Division. Each NEW CUSTOMER screen consists of the entries found on the right side 
+of the equal signs. Some of the entries are elements, but others, such as CUSTOMER NAME, 
+ADDRESS, and TELEPHONE, are groups of elements or structural records. For example, 
+CUSTOMER NAME is made up of FIRST NAME, MIDDLE INITIAL, and LAST NAME. Each 
+structural record must be further defined until the entire set is broken down into its component 
+elements. Notice that following the definition for the CUSTOMER ORDER screen are definitions 
+for each structural record. Even a field as simple as the TELEPHONE NUMBER is defined as a 
+structure so that the area code may be processed individually.
+Structural records and elements that are used in many different systems are given a non-
+system-specific name, such as street, city, and zip code (in the U.S.), that does not reflect 
+the functional area in which they are used. This method allows the analyst to define these records 
+once and use them in many different applications. For example, a city may be a customer city, 
+a supplier city, or an employee city. Notice the use of parentheses to indicate that (MIDDLE 
+INITIAL), (APARTMENT), and (ZIP EXPANSION) are optional ORDER information (but not 
+FIGURE 8.3
+An example of a data flow 
+description from World’s Trend 
+Catalog Division.
+Customer Process 1
+Customer Order
+Contains customer order information and is used to update the
+customer master and item ﬁles and to produce an order record.
+ID
+Name
+Description
+Data Flow Description
+Comments
+Source Destination
+Type of Data Flow
+File Screen Report Form Internal
+Data Structure Traveling with the Flow Volume/Time
+Order Information 10/hour
+Order record information for one customer order . The order
+may be received by Web entry, email, FAX, or by the customer telephoning
+the order-processing department directly.
+
+
+===== BOOK PAGE 241 =====
+
+CHAPTER 8  •  AnAlyzing Sy STEmS  USing D ATA  DiCTionARiES     241
+more than one). Indicate the OR condition by enclosing the options in square brackets and sepa-
+rating them with the symbol.
+Logical and Physical Data Structures
+When data structures are first defined, only the data elements the user would see, such as a 
+name, address, and balance due, are included. This stage is the logical design, showing what 
+data the business needs for its day-to-day operations. As we have learned from human–computer 
+interaction, it is important that the logical design accurately reflect the mental model of how the 
+user views the system. Using the logical design as a basis, the analyst then designs the physical 
+data structures, which include additional elements necessary for implementing the system. The 
+following are examples of physical design elements:
+1. Key fields used to locate records in a database table. An example is an item number, which 
+is not required for a business to function but is necessary for identifying and locating 
+computer records.
+FIGURE 8.4
+Data structure example for adding 
+a customer order at World’s Trend 
+Catalog Division.
+Customer Order = Customer Number +
+Customer Name +
+Address +
+Telephone +
+Catalog Number +
+Order Date +
+{Available Order Items} +
+Merchandise Total +
+(Tax) +
+Shipping and Handling +
+Order Total +
+Method of Payment +
+(Card Type) +
+(Card Number) +
+(Expiration Date)
+Customer Name = First Name +
+(Middle Initial) +
+Last Name
+Address = Street +
+(Apartment) +
+City +
+State +
+Zip +
+(Zip Expansion) +
+(Country)
+Telephone = Area Code +
+Local Number
+Available Order Items = Quantity Ordered +
+Item Number +
+Item Description +
+Size +
+Color +
+Price +
+Item Total
+Method of Payment = [Credit Card   Debit Card]
+Card Type = [World’s Trend   American Express   MasterCard   Visa]
+
+
+===== BOOK PAGE 242 =====
+
+242    PART iii •  THE AnAly SiS PR oCESS
+2. Codes to identify the status of master records, such as whether an employee is active (currently 
+employed) or inactive. Such codes can be maintained on files that produce tax information.
+3. Transaction codes are used to identify types of records when a file contains different record 
+types. An example is a credit file containing records for returned items as well as records of 
+payments.
+4. Repeating group entries containing a count of how many items are in the group.
+5. Limits on the number of items in a repeated group.
+6. A password used by a customer accessing a secure website.
+Figure 8.5 is an example of the data structure for a CUSTOMER BILLING STATEMENT, 
+one showing that the ORDER LINE is both a repeating item and a structural record. The ORDER 
+LINE limits are from 1 to 5, indicating that the customer may order from one to five items on this 
+screen. Additional items would appear on subsequent orders.
+The repeating group notation may have several other formats. If the group repeats a fixed 
+number of times, that number is placed next to the opening brace, as in 12 {Monthly Sales}, 
+indicating the group repeats 12 times, once for each month in the year. If no number is indicated, 
+the group repeats indefinitely. An example is a table containing an indefinite number of records, 
+such as =Customer Master Tabl e{ Customer Records}.
+The number of entries in repeating groups may depend on a condition, such as an entry on 
+the Customer Master Record for each item ordered. This condition could be stored in the data 
+dictionary as {Items Purchased} 5, where 5 is the number of items.
+Data Elements
+Each data element is defined once in the data dictionary and may be entered on an element 
+description form as well, such as the one illustrated in Figure 8. 6. Characteristics commonly 
+included on the element description form are the following:
+1. Element ID. This optional entry allows the analyst to build automated data dictionary 
+entries.
+2. The name of the element. The name should be descriptive, unique, and based on what the 
+element is commonly called in most programs or by the major user of the element.
+3. Aliases, which are synonyms or other names for the element. Aliases are names used by 
+different users in different systems. For example, a CUSTOMER NUMBER may also be 
+called a RECEIV ABLE ACCOUNT NUMBER or a CLIENT NUMBER.
+4. A short description of the element.
+5. Whether the element is base or derived. A base element is one that is initially keyed 
+into the system, such as a customer name, address, or city. Base elements must be stored in 
+files. Derived elements are created by processes as the result of a calculation or a series of 
+decision-making statements.
+6. The length of an element. Some elements have standard lengths. In the United States, for 
+example, lengths for state name abbreviations, zip codes, and telephone numbers are all standard. 
+FIGURE 8.5
+Physical elements added to a 
+data structure.
+ Customer Billing Statement = Current Date +
+Customer Number +
+Customer Name +
+Address +
+ {Order Line} +
+(Previous Payment Amount) +
+Total Amount Owed +
+(Comment)
+Order Line = Order Number +
+Order Date +
+Order Total
+5
+1
+
+
+===== BOOK PAGE 243 =====
+
+CHAPTER 8  •  AnAlyzing Sy STEmS  USing D ATA  DiCTionARiES     243
+For other elements, the lengths may vary, and the analyst and user community must jointly 
+decide the final length, based on the following considerations:
+a. Numeric amount lengths should be determined by figuring the largest number the 
+amount will probably contain and then allowing reasonable room for expansion. Lengths 
+designated for totals should be large enough to accommodate the sum of the numbers 
+accumulated in them.
+b. Name and address fields may be given lengths based on the following table. For example, 
+a last name field of 11 characters will accommodate 98 percent of the last names in the 
+United States.
+c. For other fields, it is often useful to examine or sample historical data found in the 
+organization to determine a suitable field length. If the element is too small, the data that 
+need to be entered will be truncated. The analyst must decide how that will affect the sys-
+tem outputs. For example, if a customer’s last name is truncated, mail would usually still 
+be delivered; if an email address is truncated, however, it will be returned as not found. 
+Common lengths of fields are shown in Figure 8.7.
+Field Length Percentage of Data That Will Fit (U.S.)
+Last Name 11 98
+First Name 18 95
+Company Name 20 95
+Street 18 90
+City 17 99
+FIGURE 8.6
+An element description form 
+example from World’s Trend 
+Catalog Division.
+Customer Number
+Client Number
+Receivable Account Number
+Uniquely identiﬁes a customer who has made any business
+transaction within the last ﬁve years.
+ID
+Name
+Alias
+Alias
+Description
+Element Description Form
+Length Dec. Pt. Alphabetic
+Input Format Alphanumeric
+Output Format Date
+Default Value Numeric
+Continuous or Discrete Base or Derived
+Comments
+Element Characteristics
+6
+9 (6)
+9 (6)
+Validation Criteria
+Continuous
+Upper
+Limit
+Lower
+Limit
+<999999
+>0
+Discrete
+Value Meaning
+The customer number must pass a modulus-11 check digit test.
+It is derived because it is computer generated and a check digit is added.
+
+
+===== BOOK PAGE 244 =====
+
+244    PART iii •  THE AnAly SiS PR oCESS
+ 7. The type of data: numeric, date, alphabetic, varchar, or character. Character data  
+is also referred to as alphanumeric or text data. Varchar (variable character) data may  
+contain any number of characters, up to a limit set by the database software. When 
+using varchar, specifying the length is optional. Several of these formats are shown in  
+Figure 8.7. Character fields may contain a mixture of letters, numbers, and special 
+characters. If the element is a date, its format—for example, MMDDYYYY—must be 
+determined. If the element is numeric, its storage type should be determined.
+Personal computer formats, such as currency, number, or scientific, depend on how 
+the data will be used. Number formats are further defined as integer, long integer, single 
+precision, double precision, and so on. There are many other types of formats used with PC 
+systems. Unicode is a standardized coding system for defining graphic symbols, such as 
+Chinese or Japanese characters. Unicode is described in greater detail in Chapter 15. There 
+are three standard formats for mainframe computers: zoned decimal, packed decimal, and 
+binary. The zoned decimal format is used for printing and displaying data. The packed 
+decimal format is commonly used to save space on file layouts and for elements that 
+require a high level of arithmetic to be performed on them. The binary format is suitable 
+for the same purposes as the packed decimal format but is less commonly used.
+ 8. Input and output formats. These should be included, and it is helpful to use special 
+coding symbols to indicate how the data should be presented. These symbols and their 
+uses are illustrated in Figure 8.8. Each symbol represents one character or digit. If the 
+same character repeats several times, the character followed by a number in parentheses 
+indicating how many times the character repeats is substituted for the group. For example, 
+XXXXXXXX would be represented as X(8).
+ 9. Validation criteria. Validation data ensures that accurate data are captured by the system. 
+Elements are either discrete, meaning they have certain fixed values, or continuous, with a 
+smooth range of values. Here are common editing criteria:
+ a. A range of values is suitable for elements that contain continuous data. For example, in 
+the United States a student grade point average may be from 0.00 through 4.00. If there is 
+only an upper or lower bound to the data, a limit is used instead of a range.
+ b. A list of values is indicated if the data are discrete. Examples are codes representing the 
+colors of items for sale in World’s Trend’s catalog.
+ c. A table of codes is suitable if the list of values is extensive (for example, state abbrevia-
+tions, telephone country codes, or U.S. telephone area codes).
+ d. For key or index elements, a check digit is often included.
+FIGURE 8.7
+Some examples of data formats 
+used in PC systems.
+Data Type
+Bit A value of 1 or 0, a true/false value
+Char, varchar, text Any alphanumeric character
+Datetime, smalldatetime Alphanumeric data, several formats
+Decimal, numeric Numeric data that are accurate to the least signiﬁcant
+digit; can contain a whole and decimal portion
+Float, real Floating-point values that contain an approximate
+decimal value
+Int, smallint, tinyint Only integer (whole digit) data
+Binary, varbinary, image Binary strings (sound, pictures, video)
+Cursor, timestamp, uniqueidentiﬁer A value that is always unique within a database
+Autonumber A number that is always incremented by one when a
+record is added to a database table
+Currency, money, smallmoney Monetary numbers accurate to four decimal places
+Meaning
+
+
+===== BOOK PAGE 245 =====
+
+CHAPTER 8  •  AnAlyzing Sy STEmS  USing D ATA  DiCTionARiES     245
+ 10. Any default value the element may have. The default value is displayed on entry 
+screens and is used to reduce the amount of keying that the operator may have to do. 
+Usually, several fields in each system have default values. When using GUI lists or drop-
+down lists, the default value is the one currently selected and highlighted. When using 
+radio buttons, the option for the default value is selected, and when using check boxes, 
+the default value (either “yes” or “no”) determines whether the check box will have an 
+initial check in it.
+ 11. An additional comment or remarks area. This might be used to indicate the format 
+of the date, special validation that is required, the check digit method used (explained in 
+Chapter 15), and so on.
+Data element descriptions such as CUSTOMER NUMBER may be called CLIENT NUMBER 
+elsewhere in the system (and perhaps old code written with this alias needs to be updated).
+Another kind of data element is an alphabetic element. At World’s Trend Catalog Division, 
+codes are used to describe colors, for example, BL for blue, WH for white, and GR for green. 
+When this element is implemented, a table will be needed for users to look up the meanings of 
+these codes. (Coding is discussed further in Chapter 15.)
+Data Stores
+All base elements must be stored in the system. Derived elements, such as the employee year-
+to-date gross pay, may be stored in the system as well. Data stores are created for each different 
+data entity being stored. That is, when data flow base elements are grouped together to form a 
+structural record, a data store is created for each unique structural record.
+Because a given data flow may only show part of the collective data that a structural record 
+contains, you may have to examine many different data flow structures to arrive at a complete 
+data store description.
+Figure 8.9 is a typical form used to describe a data store. The information included on the 
+form is as follows:
+1. The data store ID. The ID is often a mandatory entry to prevent the analyst from storing 
+redundant information. An example would be D1 for the CUSTOMER MASTER.
+2. The data store name. It should be descriptive and unique.
+3. An alias for the table. CLIENT MASTER can be an alias for the CUSTOMER MASTER.
+4. A short description of the data store.
+5. The file type, either computer or manual.
+6. The format designates whether the file is a database table or a simple flat file. (File 
+formats are detailed in Chapter 13.)
+7. The maximum and average number of records on the file as well as the anticipated 
+growth per year. This information helps the analyst predict the amount of disk space 
+required for the application and is necessary for hardware acquisition planning.
+8. The file or data set name. In the initial design stages, this item may be left blank.
+9. The data structure name. This name should be found in the data dictionary. A link to the 
+elements for this data store should be provided.
+FIGURE 8.8
+Format character codes.
+Formatting Character Meaning
+May enter or display/print any character
+Enter or display only numbers
+Display leading zeros as spaces
+Insert commas into a numeric display
+Insert a period into a numeric display
+Insert slashes into a numeric display
+Insert a hyphen into a numeric display
+Indicate a decimal position (when the decimal point is not included)
+X
+9
+Z
+,
+·
+/
+-
+V
+
+
+===== BOOK PAGE 246 =====
+
+246    PART iii •  THE AnAly SiS PR oCESS
+10. Primary and secondary keys. These must be elements (or a combination of elements) 
+found in the data structure. In the example, the CUSTOMER NUMBER is the primary key 
+and should be unique. The CUSTOMER NAME, ZIP, and YEAR-TO-DATE AMOUNT 
+PURCHASED are secondary keys used to control record sequencing on reports and to 
+locate records directly. (Keys are discussed in Chapter 13.)
+11. Comments are used for information that does not fit into any of the above categories. 
+They may include update or backup timing, security, or other considerations.
+CREATING A DATA DICTIONARY
+Data dictionary entries may be created after the DFD has been completed, or they may be 
+constructed as the DFD is being developed. The use of algebraic notation and structural records 
+allows an analyst to develop the data dictionary and the DFDs using a top-down approach. For 
+instance, the analyst may create a Diagram 0 data flow after the first few interviews and, at 
+the same time, make the preliminary data dictionary entries. Typically, these entries consist of the 
+data flow names found on the DFD and their corresponding data structures.
+After conducting several additional interviews with users to learn the details of the system 
+and the ways they interact with it, the analyst will expand the DFD and create the child diagrams. 
+The data dictionary is then modified to include the new structural records and elements gleaned 
+from further interviews, observation, and document analysis.
+FIGURE 8.9
+An example of a data store 
+description form for World’s Trend 
+Catalog Division.
+File T ype Computer Manual
+File Format Database Indexed Sequential Direct
+Record Size (Characters): Block Size:
+Number of Records: Maximum Average:
+Percent Growth per Year: %
+D1
+Customer Master
+Client Master
+Contains a record for each customer .
+ID
+Name
+Alias
+Description
+Data Store Description Form
+Comments
+Data Store Characteristics
+200 4000
+45,000 42,000
+6
+Data Set Name
+Copy Member
+Data Structure
+Primary Key
+Secondary Keys 
+Customer .MST
+Custmast
+Customer Record
+Customer Number
+Customer Name
+Zip
+Year-to-Date Amount Purchased
+The Customer Master records are copied to a history ﬁle and
+purged if the customer has not purchased an item within the past
+ﬁve years. A customer may be retained even if he or she has not made a
+purchase by requesting a catalog.
+
+
+===== BOOK PAGE 247 =====
+
+CHAPTER 8  •  AnAlyzing Sy STEmS  USing D ATA  DiCTionARiES     247
+Each level of a DFD should use data appropriate for the level. Diagram 0 should include 
+only forms, screens, reports, and records. As child diagrams are created, the data flow into and 
+out of the processes becomes more and more detailed, including structural records and elements.
+Figure 8.10 illustrates a portion of two DFD levels and corresponding data dictionary entries 
+for producing an employee paycheck. Process 5, found on Diagram 0, is an overview of the produc-
+tion of an EMPLOYEE PAYCHECK. The corresponding data dictionary entry for EMPLOYEE 
+RECORD shows the EMPLOYEE NUMBER and four structural records, data obtained early in 
+the analysis. Similarly, TIMEFILE RECORD and EMPLOYEE PAYCHECK are also defined as 
+a series of structures.
+It is important that the data flow names on the child DFD be contained as elements or 
+structural records in the data flow on the parent process. Returning to the example, WAGE 
+INFORMATION (input into process 5.3, COMPUTE CURRENT PAY AMOUNTS) is a struc-
+tural record contained in the EMPLOYEE RECORD (input to process 5). Similarly, GROSS 
+PAY (output from process 5.3.4, a lower-level process not shown in the figure) is contained in 
+the structural record CURRENT PAY AMOUNTS (output from parent process 5.3, COMPUTE 
+CURRENT PAY AMOUNTS).
+Analyzing Input and Output
+An important step in creating a data dictionary is to identify and categorize system input and 
+output data flow. Input and output analysis forms commonly include these fields:
+1. A descriptive name for the input or output. If the data flow is on a logical diagram, the name 
+should identify what the data are (for example, CUSTOMER INFORMATION). If the analyst 
+is working on the physical design or if the user has explicitly stated the nature of the input 
+or output, the name should include that information regarding the format. Examples are 
+CUSTOMER BILLING STATEMENT and CUSTOMER DETAILS INQUIRY .
+FIGURE 8.10
+Two data flow diagrams and corresponding data dictionary entries for producing an employee paycheck.
+Data StructureData Flow
+Employee Employee Number +
+Record Personal Information +
+W age Information +
+Current Pay Information +
+Year-to-Date Information
+Timeﬁle Employee Number +
+Record Employee Name +
+Hours Worked
+Employee Employee Number +
+Employee Name +
+Address +
+Current Pay Amounts +
+Year-to-Date Figures
+Paycheck 
+Wage Rate of Pay +
+Information Number of Dependents
+Current Gross Pay +
+Pay Federal Withholding +
+Amounts State Withholding +
+Social Security Withholding +
+Net Pay
+Produce
+Employee
+Paycheck
+5
+Employee
+Timeﬁle
+Record
+Employee
+Paycheck
+Computer
+Current
+Pay
+Amounts
+5.3
+W age
+Information
+Hours
+Worked
+Current Pay
+Amounts
+=
+=
+=
+=
+=
+Employee
+TimeﬁleD2
+D1 Employee
+Master
+Employee
+Record
+
+
+===== BOOK PAGE 248 =====
+
+248    PART iii •  THE AnAly SiS PR oCESS
+2. The user contact responsible for further details clarification, design feedback, and 
+final approval.
+3. Whether the data is input or output.
+4. The format of the data flow. In the logical design stage, the format may be undetermined.
+5. Elements indicating the sequence of the data on a report or screen (perhaps in columns).
+6. A list of elements, including their names, lengths, and whether they are base or derived, 
+and their editing criteria.
+Once the form has been completed, each element should be analyzed to determine whether 
+the element repeats, whether it is optional, or whether it is mutually exclusive of another element. 
+Elements that fall into a group or that regularly combine with several other elements in many 
+structures should be placed together in a structural record.
+These considerations can be seen in the completed Input and Output Analysis Form for 
+World’s Trend Catalog Division shown in Figure 8.11. In this example of a CUSTOMER BILLING 
+STATEMENT, the CUSTOMER FIRST NAME, CUSTOMER LAST NAME, and CUSTOMER 
+MIDDLE INITIAL should be grouped together in a structural record.
+Developing Data Stores
+Another activity in creating a data dictionary is developing data stores. Up to now, we have 
+determined what data need to flow from one process to another. This information is described in 
+data structures. The information, however, may be stored in numerous places, and in each place 
+the data store may be different. Whereas data flows represent data in motion, data stores represent 
+data at rest.
+FIGURE 8.11
+An example of an input–output 
+analysis form for World’s Trend 
+Catalog Division.
+Input/Output Name
+User Contact
+File Type Output Input
+File Format Report Screen Undetermined
+Sequencing Element(s)
+Input and Output Analysis Form
+Customer Billing Statement
+Susan Han
+Zip Code (Page Sequence)
+Order Number
+Element Name Length B/D Edit Criteria
+Current Date 6 B (System Supplied)
+Customer Number 6 D (Includes Check Digit)
+Customer First Name 20 B Not Spaces
+Customer Last Name 15 B Not Spaces
+Customer Middle Initial 1 B A through Z or Space
+Street 20 B Not Spaces
+Apartment 20 B Not Spaces
+City 20 B Not Spaces
+State 2 B Valid State Abbr .
+Zip 9 B Numeric, Last 4 Opt.
+Order Number 6 D >  0
+Order Date 8 B MM/DD/YYYY
+Order T otal 9 D Format: 9 (7) V99
+Previous Payment Amount 5 D Format: 9 (7) V99
+T otal Amount Owed 9 D Format; 9 (7) V99
+Comment 60 B
+Comments Print one page for each customer . If there are more items
+than will ﬁt on a page, continue on a second page.
+
+
+===== BOOK PAGE 249 =====
+
+CHAPTER 8  •  AnAlyzing Sy STEmS  USing D ATA  DiCTionARiES     249
+For example, when an order arrives at World’s Trend (see Figure 8.12), it contains mostly 
+temporary information—that is, the information needed to fill that particular order—but some 
+information might be stored permanently. Examples of the latter include information about 
+customers (so catalogs can be sent to them) and information about items (because these items 
+will appear on many other customers’ orders).
+Clinging to Annie’s initial praise, you are undaunted by her exit 
+line. You determine that a data dictionary based on the rental and 
+return data flow diagrams would make a big hit.
+Begin by writing entries manually in as much detail as possible. 
+Prepare two data flow entries, two data store entries, one data 
+structure entry, and four data element entries using the formats in 
+this chapter. Portraying interrelated data items with preciseness will 
+result in rave reviews. (Refer to Consulting Opportunity 7.1.)
+CONSULTING OPPORTUNITY 8.1 
+Want to Make It Big in the Theatre? Improve Your Diction(ary)!
+As you enter the door of Merman’s, Annie Oaklea greets you 
+warmly, saying, “I’m delighted with the work you have done on 
+the data flow diagrams. I would like you to keep playing the role 
+of systems analyst for Merman’s and see if you can eventually 
+get a new information system for our costume inventory sewn up. 
+Unfortunately, some of the terms you’re using don’t come off very 
+well in the language of Shakespeare. Bit of a translation problem, 
+I suspect.”
+FIGURE 8.12
+Data stores derived from a  
+pending order at World’s Trend 
+Catalog Division.
+Customer Master =
+Item Master =
+Order Record =
+Available Order Items =
+Method of Payment =
+Card Type =
+Customer Number +
+Customer Name +
+Address +
+Telephone +
+Corporate Credit Card Number +
+Expiration Date
+Item Number +
+Price +
+Quantity on Hand
+Customer Number +
+Catalog Number +
+Order Date +
+{Available Order Items} +
+Merchandise Total +
+(Tax) +
+Shipping and Handling +
+Order Total +
+Method of Payment +
+(Card Type) +
+(Card Number) +
+(Expiration Date)
+Item Number +
+Quantity Ordered +
+Quantity Shipped +
+Current Price
+[World’s Trend   American Express   MasterCard   Visa]
+[Credit Card   Debit Card]
+
+
+===== BOOK PAGE 250 =====
+
+250    PART iii •  THE AnAly SiS PR oCESS
+Data stores contain information of a permanent or semipermanent (temporary) nature. An 
+ITEM NUMBER, DESCRIPTION, and ITEM COST are examples of information that is rela-
+tively permanent. So is the TAX RATE. When the ITEM COST is multiplied by the TAX RATE, 
+however, the TAX CHARGED is calculated (or derived). Derived values do not have to be stored 
+in a data store.
+When data stores are created for only one report or screen, we refer to them as “user views” 
+because they represent the way that the user wants to see the information.
+USING A DATA DICTIONARY
+An ideal data dictionary is automated, interactive, online, and evolutionary. As a systems 
+analyst learns about an organization’s systems, they add data items to the data dictionary. The 
+data dictionary is not an end in itself, however, and must never become so. To avoid becoming 
+sidetracked with building a complete data dictionary, a systems analyst should view it as an 
+activity that parallels systems analysis and design.
+To have maximum power, the data dictionary should be tied into several systems programs 
+so that when an item is updated or deleted from the data dictionary, it is automatically updated 
+or deleted from the database. The data dictionary simply becomes a historical curiosity if it is not 
+kept current.
+The data dictionary may be used to create screens, reports, and forms. For example, examine 
+the data structure for the World’s Trend ORDER PICKING SLIP in Figure 8.13.
+FIGURE 8.13
+Data structure for an order  
+picking slip at World’s Trend  
+Catalog Division.
+Order Picking Slip = Order Number +
+Order Date +
+Customer Number +
+Customer Name +
+Customer Address +
+Customer Telephone +
+{Order Item Selection} +
+Number of Items
+Order Item Selection = Item Number +
+Item Description +
+Size Description +
+Color Description +
+Warehouse Section +
+Shelf Number +
+Quantity Ordered +
+Quantity Picked
+Customer Name = First Name +
+(Middle Initial) +
+Last Name
+Address = Street +
+(Apartment) +
+City +
+State +
+Zip +
+(Zip Expansion) +
+(Country)
+Telephone = Area Code +
+Local Number
+
+
+===== BOOK PAGE 251 =====
+
+CHAPTER 8  •  AnAlyzing Sy STEmS  USing D ATA  DiCTionARiES     251
+Because the necessary elements and their lengths have been defined, the process of creating 
+physical documents consists of arranging the elements in a pleasing and functional way using 
+design guidelines and common sense.
+Repeating groups become columns, and structural records are grouped together on the 
+screen, report, or form. The report layout for the World’s Trend ORDER PICKING SLIP is 
+shown in Figure 8.14. Notice that FIRST NAME and LAST NAME are grouped together in 
+NAME and that QUANTITY (PICKED and ORDERED), SECTION, SHELF NUMBER, ITEM 
+NUMBER, ITEM DESCRIPTION, SIZE, and COLOR form a series of columns because they 
+are the repeating elements.
+The data structure and elements for a data store are commonly used to generate corresponding 
+computer language source code, which is then incorporated into computer programs. The data 
+dictionary may be used in conjunction with a DFD to analyze the system design, detecting flaws 
+and areas that need clarification. Some considerations are:
+1. All base elements on an output data flow must be present on an input data flow to the process 
+producing the output. Base elements are keyed and should never be created by a process.
+2. A derived element must be created by a process and should be output from at least one 
+process into which it is not input.
+3. The elements that are present in a data flow coming into or going out of a data store must 
+be contained in the data store.
+If begun early, a data dictionary can save many hours of time in the analysis and design 
+phases. The data dictionary is the one common source in the organization for answering ques-
+tions and settling disputes about any aspect of data definition. An up-to-date data dictionary can 
+serve as an excellent reference for maintenance efforts on unfamiliar systems. Automated data 
+dictionaries can serve as references for both people and programs.
+Using Data Dictionaries to Create XML
+Extensible markup language (XML) can be used to exchange data between businesses or 
+between systems within a business. It is similar to HTML, the markup language used to create web 
+pages, but XML is more powerful. HTML is concerned primarily with formatting a document;  
+FIGURE 8.14
+Order picking slip created from 
+the data dictionary.
+Order Number: 999999 Order Date Z9/99/9999
+Customer Number: 999999
+Name: X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X
+Street: X X X X X X X X X X X X X X X X X X X X X X X X X X X X
+Apartment: X X X X X X X X
+City, State, Zip X X X X X X X X X X X X X X X X X X X X X X X X X X X X , X X 9 9 9 9 9 - Z Z Z Z
+Country: X X X X X X X X X X X X X X X X X X X X X X X X X X X X
+Telephone: (9 9 9 ) 9 9 9 - 9 9 9 9
+Order Picking Slip
+- - - - Quantity - - - - Shelf
+Number
+Item
+NumberPicked Ordered Section Item Description Size Color
+Z ZZZ 9 X X X X X 9 9 9 9 9 9 9 9 9 9 9 X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X
+Z ZZZ 9 X X X X X 9 9 9 9 9 9 9 9 9 9 9 X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X
+Z Z ZZ 9 X X X X X 9 9 9 9 9 9 9 9 9 9 9 X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X
+ZZ ZZ 9 X X X X X 9 9 9 9 9 9 9 9 9 9 9 X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X
+ZZ ZZ 9 X X X X X 9 9 9 9 9 9 9 9 9 9 9 X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X
+ZZ ZZ9 X X X X X 9 9 9 9 9 9 9 9 9 9 9 X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X
+ZZ ZZ9 X X X X X 9 9 9 9 9 9 9 9 9 9 9 X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X
+Z ZZ Z9 X X X X X 9 9 9 9 9 9 9 9 9 9 9 X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X
+Number of Items:    Z9
+World’s Trend
+
+
+===== BOOK PAGE 252 =====
+
+252    PART iii •  THE AnAly SiS PR oCESS
+XML addresses the problem of sharing data when users have different computer systems and 
+software or different database management systems (for example, one company using Oracle 
+RDBMS and another using IBM’s Db2). If everyone used the same software or database 
+management system, there would be little need for XML.
+Once an XML document has been created, the data may be transformed into a number of 
+different output formats and displayed in many ways, including printed output, web pages, output 
+for a handheld device, and portable document format (PDF) files. Thus, the document’s data 
+content is separated from the output format. The XML content is defined once as data and then 
+transformed as many times as necessary.
+The advantage of using an XML document is that the analyst may select only the data that an 
+internal department or external partner needs to have in order to function. This helps to ensure the 
+confidentiality of data. For example, a shipping company may receive only the customer name, 
+the address, the item number, and the quantity to ship, but not credit card information or other 
+financial data. This efficient approach also cuts down on information overload.
+Using XML, therefore, is a way to define, sort, filter, and translate data into a universal 
+data language that can be used by anyone. XML may be created from databases, a form, or 
+software programs, or it may be keyed directly into a document, a text editor, or an XML 
+entry program.
+The data dictionary is an ideal starting point for developing XML content. The key to using 
+XML is creating a standard definition of the data. This is accomplished by using a set of tags or 
+data names that are included before and after each data element or structure. The tags become 
+the metadata, or data about the data. Data may be further subdivided into smaller elements and 
+structures until all elements are defined. XML elements also may include attributes, additional 
+data included within the tag that describe something about the XML element.
+Figure 8.15 illustrates a data dictionary containing customer, order, and payment information. 
+The overall collection of customers is included in what is called the root element: customers. An 
+XML document may contain only one root element, so it is often the plural of the data contained 
+in the XML document. Each customer may place many orders. The structure is defined in the two 
+left columns, and the XML code appears on the right. CUSTOMER, as you can see, consists of a 
+NAME, ADDRESS, CURRENT BALANCE, multiple ORDER INFORMATION entries, and 
+a PAYMENT. Some of these structures are further subdivided.
+The XML document tends to mirror the data dictionary structure. The first entry (other than 
+an XML line identifying the document) is <customers>, which defines the entire collection of 
+customer information. The less than <()  and greater than >()  symbols are used to identify tag 
+names (similar to HTML). The last line of the XML document is a closing tag, </customers>, 
+signifying the end of the customer information.
+Customer is defined first and contains an attribute, the customer number. There is often a 
+discussion about whether data should be stored as an element or an attribute. In this case, they 
+are stored as an attribute.
+The name tag, <name>, is defined next because it is the first entry in the data dictionary. 
+NAME is a structure consisting of LAST NAME, FIRST NAME, and an optional MIDDLE 
+INITIAL. In the XML document, this structure starts with <name> and is followed by <lastname>,  
+<firstname>, and <middle_initial>. Because spaces are not allowed in XML tag names, an 
+underscore is typically used to separate words. The closing </name> tag signifies the end of the 
+group of elements. Using a structure such as name saves time and coding if the transformation 
+displays the full name. Each of the child elements will be on one line separated by a space. Name 
+also contains an attribute, either I for individual or C for corporation.
+Indentation is used to show which structures contain elements. Note that <address> is similar 
+to <customer>, but when we get to <order_information> there is a big difference.
+There are multiple entries for <order_information>, each containing an <order_number>, 
+<order_date>, <shipping_date>, and <total>. Because the payment is made either by credit card 
+or debit card, only one of these may be present. In our example, payment is by credit card. The 
+dates have an attribute called format that indicates whether the date appears as month, day, year; 
+year, month, day; or day, month, year. If a credit card is used to make a payment, a TYPE attribute 
+contains either an M, V , A, D, or O, indicating the type of credit card (MasterCard, Visa, and so on)  
+as well as a verification code.
+
+
+===== BOOK PAGE 253 =====
+
+CHAPTER 8  •  AnAlyzing Sy STEmS  USing D ATA  DiCTionARiES     253
+XML Document Type Definitions
+Often the element structure of XML content is defined using a document type definition (DTD). 
+A DTD is used to determine whether the XML document content is valid—that is, whether it 
+conforms to the order and type of data that must be present in the document. The DTD is easy to 
+create and well supported by standard software. Once the DTD has been completed, it may be 
+used to validate the XML document using standard XML tools. The DTD is easier to create if a 
+data dictionary has been completed because the analyst has worked with users and made decisions 
+on the structure of the data.
+Figure 8.16 illustrates the document type definition for the Customer XML document. 
+Keywords, such as !DOCTYPE, indicating the start of the DTD, must be in capital letters. 
+!ELEMENT describes an element, and !ATTLIST describes an attribute, listing the element 
+name followed by the attribute name. An element that has the keyword #PCDATA, for parsed 
+character data, is a primitive element, not further defined. An element that has a series of other 
+elements within parentheses means that they are child elements and must be in the order listed. 
+The statement <!ELEMENT name (lastname, firstname, middle_initial?)> means that the name 
+must have the last name followed by the first name followed by the middle initial.
+The question mark after “middle_initial” means that the element is optional and may be 
+left out of the document for a particular customer. A plus sign means that there are one or more 
+FIGURE 8.15
+Using a data dictionary entry to develop XML content. The XML document mirrors the data dictionary structure.
+Data Dictionary XML
+<?xml version=“1.0”>
+<customers>
+<customer number=“C15008”>
+ <name type=“I”>
+  <lastname>Stadler< /lastname>
+  <ﬁrstname>Karen< /ﬁrstname>
+  <middle_initial>L< /middle_initial>
+ < /name>
+ <address>
+  <street>123 Oak Street < /street>
+  <apartment>Suite 16 < /apartment>
+  <city>Madison < /city>
+  <state>WI < /state>
+  <zip>43704 < /zip>
+  <country>United States < /country>
+ < /address>
+ <current_balance>123.45 < /current_balance>
+ <order customer_number=“C15008”>
+  <order_number>00123 < /order_number>
+  <order_date format=“yyyymmdd”>2008-06-23 < /order_date>
+  <ship_date format=“yyyymmdd”>2008-06-25 < /ship_date>
+  <total>1345.89 < /total>
+ < /order>
+ <order customer_number=“C15008”>
+  <order_number> 00127< /order_number>
+  <order_date format=“yyyymmdd”>2008-09-18 < /order_date>
+  <ship_date format=“yyyymmdd”>2008-09-26 < /ship_date>
+  <total>240.00 < /total>
+ < /order>
+ <payment>
+  <payment_amt>1585.89 < /payment_amt>
+ < /payment>
+< /customer>
+< /customers>
+< /customers>
+Customer = Name +
+Address +
+Current Balance +
+{Order Information} +
+Payment
+Last Name +
+First Name +
+(Middle Initial)
+Name =
+Street +
+(Apartment) +
+City +
+State +
+Zip +
+Country
+Address =
+Order Number +
+Order Date +
+Ship Date +
+Total
+Order Information = 
+Payment =
+Card Number +
+Expiration Date +
+Veriﬁcation Code
+Card =
+[Credit Card   Debit Card] +
+Payment Date +
+Payment Amt
+
+
+===== BOOK PAGE 254 =====
+
+254    PART iii •  THE AnAly SiS PR oCESS
+repeatable elements. Customers must contain at least one customer tag but could contain many 
+customer tags. An asterisk means that there is zero or more of the elements. Each customer 
+may have zero to many orders. A vertical bar separates two or more child elements that are 
+mutually exclusive. Payment contains a credit or debit card.
+The attribute list definition for a customer number contains a keyword ID (in uppercase 
+letters). This means that the attribute number must appear only once in the XML document as an 
+attribute for an element with an ID. It is somewhat similar to a primary key. The difference is that, 
+if the document had several different elements, each with an ID attribute, the given ID (C15008 
+in this example) could appear only once. An ID must start with a letter or an underscore and 
+cannot be solely a number. The reason behind putting the customer number as an ID is to ensure 
+that it is not repeated in a longer document. The keyword #REQUIRED means that the attribute 
+must be present. A keyword of #IMPLIED means that the attribute is optional. A document also 
+may have an IDREF attribute, which links one element with another that is an ID. The ORDER 
+tag has a customer_number attribute defined as an IDREF, and the value C15008 must be present 
+in an ID somewhere in the document. An attribute list containing values in parentheses means 
+that the attribute must contain one of the values. A DTD definition <!ATTLIST credit_card type 
+(M|V|A|D|O) #REQUIRED> means that the credit card type must be an M, V , A, D, or O.
+XML Schemas
+A schema is another, more precise way to define the content of an XML document. Schemas 
+may include the exact number of times an element may occur as well as the type of data within 
+elements, such as character or numeric values, including the length of the element, limits on the 
+data, and the number of places to the left and right of a decimal number.
+A data dictionary is an excellent starting point for developing an XML document and a 
+document type of definition or schema. The advantage of using XML to define data is that, in the 
+XML format, data are stored in a pure text format and not dependent on any proprietary software. 
+The document may be easily validated and transformed into many different output formats.
+FIGURE 8.16
+A document type definition for the 
+customer XML document.
+< !DOCTYPE   customers     [
+< !ELEMENT  customers
+< !ELEMENT  customer
+< !ATTLIST  customer number
+< !ELEMENT  name
+< !ATTLIST  name type
+< !ELEMENT  lastname
+< !ELEMENT  ﬁrstname
+< !ELEMENT  middle_initial
+< !ELEMENT  address
+< !ELEMENT  street
+< !ELEMENT  apartment
+< !ELEMENT  city
+< !ELEMENT  state
+< !ELEMENT  zip
+< !ELEMENT  country
+< !ELEMENT  current_balance
+< !ELEMENT  order
+< !ATTLIST  order customer_number
+< !ELEMENT  order_number
+< !ELEMENT  order_date
+< !ATTLIST  order_date format
+< !ELEMENT  payment
+< !ELEMENT  card
+< !ATTLIST  card type
+< !ELEMENT  card_number
+< !ELEMENT  expiration_date
+< !ELEMENT  payment_date
+< !ATTLIST  payment_date format
+< !ELEMENT  payment_amt
+          ] >
+(customer) + >
+(name, address, current_balance, order*) >
+ID #REQUIRED> 
+(lastname, ﬁrstname, middle_initial?) >
+(I z C)  #REQUIRED>
+(#PCDATA) >
+(#PCDATA) >
+(#PCDATA) >
+(street, apartment?, city, state, zip, country) >
+(#PCDATA) >
+(#PCDATA) >
+(#PCDATA) >
+(#PCDATA) >
+(#PCDATA) >
+(#PCDATA) >
+(#PCDATA) >
+(order_number, order_date, ship_date, total) >
+IDREF  #REQUIRED>
+(#PCDATA) >
+(#PCDATA) >
+(mmddyyyy z yyyymmdd z ddmmyyyy)  #REQUIRED>
+(credit_card z debit_card) >
+(card_number, expiration_date) >
+(M z V z A z D z O )  #REQUIRED>
+(#PCDATA) >
+(#PCDATA) >
+(#PCDATA) >
+(mmddyyyy z yyyymmdd z ddmmyyyy)  #REQUIRED>
+(#PCDATA) >
+
+
+===== BOOK PAGE 255 =====
+
+CHAPTER 8  •  AnAlyzing Sy STEmS  USing D ATA  DiCTionARiES     255
+Industry groups or organizations may be involved in defining an industry-specific XML 
+structure so that all involved parties understand what the data mean. This is very important when 
+an element name may have several meanings. An example is “state,” which may mean a postal 
+state abbreviation or the state or status of an order or account. Visit www.xml.org for examples 
+of industry-specific XML document type definitions and schemas.
+Summary
+Using a top-down approach, a systems analyst uses data flow diagrams (DFDs) to begin compiling a data 
+dictionary, which is a reference work that contains data about data—or metadata—on all data processes, 
+stores, flows, structures, and logical and physical elements in the system being studied. One way to begin 
+is by including all data items from DFDs. A data dictionary is a specialized application of the kinds of 
+dictionaries used as references in everyday life. A data dictionary is a reference work of data about data 
+(that is, metadata). Systems analysts compile data dictionaries to guide them through analysis and design. 
+A data dictionary is a document that collects and coordinates specific data terms, and it confirms what each 
+term means to different people in the organization. A data dictionary may be used to (1) validate the DFD for 
+completeness and accuracy, (2) provide a starting point for developing screens and reports, (3) determine the 
+contents of data stored in files, (4) develop the logic for DFD processes, and (5) create XML.
+Automated data dictionaries (part of a CASE tool) are valuable for their capacity to cross-reference 
+data items, thereby allowing necessary program changes to all programs that share a common element. This 
+feature supplants changing programs on a haphazard basis, and it prevents waiting until the program won’t 
+run because a change has not been implemented across all applications sharing the updated item. Clearly, 
+automated data dictionaries are important for large systems that produce several thousand data elements 
+requiring cataloging and cross-referencing.
+A larger collection of project information is called a repository. CASE tools permit the analyst to create 
+and share a repository with team members that may include information about data flows, stores, record 
+structures, and elements; about procedural logic screen and report design; and about data relationships.  
+A repository also may contain information about project requirements and final system deliverables and 
+about project management.
+Each entry in a data dictionary contains the item name, an English description, aliases, related data 
+elements, the range, the length, encoding, and necessary editing information. A data dictionary is useful 
+in all phases of analysis, design, and ultimately documentation because it is the authoritative source on 
+how a data element is used and defined by users in the system. Many large systems feature computerized 
+data dictionaries that cross-reference all programs in the database using a particular data element. The data 
+dictionary also can be used to create XML, enabling businesses with different systems, software, or database 
+management systems to exchange data.
+Keywords and Phrases
+base element
+binary 
+data dictionary
+data element
+data structure
+derived element
+document type definition (DTD)
+extensible markup language (XML)
+ID
+IDREF
+packed decimal
+physical data structure
+repeating group
+repeating item
+repository
+schema
+structural record
+varchar
+zoned decimal
+Review Questions
+1. Define the term data dictionary. Define metadata.
+2. What are four reasons for compiling a complete data dictionary?
+3. What information is contained in the data repository?
+4. What is a structural record?
+5. List the eight specific categories that each entry in the data dictionary should contain. Briefly give the 
+definition of each category.
+
+
+===== BOOK PAGE 256 =====
+
+256    PART iii •  THE AnAly SiS PR oCESS
+6. What are the basic differences among data dictionary entries prepared for data stores, data structures, 
+and data elements?
+7. Why are structural records used?
+8. What is the difference between logical and physical data structures?
+9. Describe the difference between base and derived elements.
+10. How do the data dictionary entries relate to levels in a set of data flow diagrams?
+11. List the four steps to take in compiling a data dictionary.
+12. Why shouldn’t compiling the data dictionary be viewed as an end in itself?
+13. What are the main benefits of using a data dictionary?
+14. What does extensible markup language (XML) describe?
+15. What is a document type definition?
+16. How does a document type definition help to ensure that an XML document contains all necessary 
+elements?
+17. When should attributes be used in an XML document?
+18. What does an ID attribute ensure?
+19. What does an IDREF attribute validate?
+Problems
+1. Based on Figure 7.EX1 in Chapter 7, Joe, one of your systems analysis team members, made the 
+following entry for the data dictionary used by Marilyn’s Tours:
+  =DATA ELEM ENTT OURIST* * * * PA YMENT
+  =ALIAS TOURISTP AY
+  =CHARACTERS 12 –2 4
+  =RANGE $5.00 –$ 1,000
+   =VARIABLES $5.00 , $10.00, $15.00 up to $1,000, and anything in between in dollars and cents.
+   =TO CALCULATE TOTAL COST OFA LL TOURS, ANY APPLICABLE N.Y . STA TE 
+TAX, minus any RESERV A TION DEPOSITS made.
+a. Is this truly a data element? Why or why not?
+b. Rewrite the data dictionary entry for TOURIST PA YMENT, reclassifying it, if necessary. Use the 
+proper form for the classification you choose.
+2. Homyar Karanjia, the systems analyst, has made significant progress in understanding the data 
+movement at Mumbai Megabank. To share what he has done with his team members, as well as the 
+head of regional operations, he is composing a data dictionary.
+a. Write an entry in Homyar’s data dictionary for three of the data flows in regional banking.  
+Be as complete as possible.
+b. Write an entry in Homyar’s data dictionary for three of the data stores in regional banking.  
+Be as complete as possible.
+3. Tripti Singh, the manager of the bookstore that your systems analysis team has been working 
+with to build a computerized inventory system, thinks that one of your team members is making 
+a nuisance by asking extremely detailed questions about data items used in the system. For 
+example, the team member asks, “Tripti, how much space, in characters, does the listing of an 
+ISBN take?”
+a. What are the problems created by going directly to the manager with questions concerning data 
+dictionary entries? Use a paragraph to list the problems you can see with your team member’s 
+approach.
+b. In a paragraph, explain to your team member how information for the data dictionary can be better 
+gathered.
+4. Karen Lichtman owns a store that specializes in travel gear and clothes. Manufacturers have their 
+own coding, but there are many manufacturers. Set up data elements for six different travel hats from 
+three different suppliers.
+5. Karen (from Problem 4) also assembles packages of camping kits. Each kit is a group of separate 
+products that are sold as a package. Each package (called a PRODUCT) is built using many parts, 
+which vary from product to product. Interviews with the head parts clerk have resulted in a list of 
+elements for the PRODUCT PART web page, showing which parts are used in the manufacture of 
+each product. A prototype of the PRODUCT-PART web page is illustrated in Figure 8.EX1. Create a 
+data structure dictionary entry for the PRODUCT-PART.
+6. Analyze the elements found on the PRODUCT-PART web page and create the data structure for 
+the PRODUCT MASTER and the PART MASTER data stores. Which of the elements on the 
+PRODUCT-PART web page are derived elements?
+
+
+===== BOOK PAGE 257 =====
+
+CHAPTER 8  •  AnAlyzing Sy STEmS  USing D ATA  DiCTionARiES     257
+7. The Pacific Holiday Company arranges cruise vacations of varying lengths at several locations. When 
+customers call to check on the availability of a cruise, a CRUISE A V AILABILITY INQUIRY , illus-
+trated in Figure 8.EX2, is used to supply them with information. Create the data dictionary structure 
+for the CRUISE A V AILABILITY INQUIRY .
+8. List the master files that would be necessary to implement the CRUISE A V AILABILITY INQUIRY .
+9. The following ports of call are available for the Pacific Holiday Company:
+Apia
+Pago Pago
+Bora Bora
+Moorea
+Nuku Hiva
+Papeete
+Raiatea
+Napier
+Auckland
+Wellington
+Christchurch
+Dunedin
+Create the PORT OF CALL element. Examine the data to determine the length and format of  
+the element.
+10. Raúl Esparza, the ecommerce manager for Barba Bowls, a company that sells personalized sets 
+of wooden salad bowls, would like to send information to another company that maintains the 
+warehouse and provides shipping services. Order information is obtained from a secure website, 
+including customer number, name and address, telephone number, email address, product number and 
+quantity, and credit card information. There may be several different products shipped on one order. 
+The shipping company handles items for other small businesses as well. Define an XML document 
+that will include only the information that the shipping company needs to ship goods to the customer.
+FIGURE 8. EX1
+A prototype of the  
+PRODUCT-PART web page.
+FIGURE 8. EX2
+A screen prototype to show cruise 
+availability.MM/DD/YYYY
+CRUISE AVAILABILITY 
+HH:MM
+ENTER STARTING DATE Z9-ZZZ-9999
+CRUISE INFORMATION:
+CRUISE SHIP XXXXXXXXXXXXXXXXXX
+LOCATION XXXXXXXXXXXXXXXXXXX
+STARTING DATE Z9-ZZZ-9999 ENDING DATE  Z9-ZZZ-9999
+NUMBER OF DAYS ZZ9
+COST ZZ, ZZZ.99
+DISCOUNTS ACCEPTED XXXXXXXXXXXX XXXXXXXXXXXX XXXXXXXXXXXXX
+OPENINGS REMAINING ZZZZ9
+
+
+===== BOOK PAGE 258 =====
+
+258    PART iii •  THE AnAly SiS PR oCESS
+11. Once the order in Problem 10 has been shipped, the shipping company sends information back to 
+Barba Bowls, including the customer name and address, shipper tracking number, data shipped, 
+quantity ordered, quantity shipped, and quantity backordered. Define an XML document that will 
+include the information sent to Barba Bowls.
+12. Create a document type definition for Problem 11.
+13. Nine Lives Animal Rescue is a nonprofit organization that supports the fostering and adoption of 
+animals, such as cats and dogs. People can register to adopt animals. Others register and add animals 
+for adoption. Create the data dictionary structure representing a person registering to adopt an 
+animal. Include name, address (street, city, state or province, zip or postal code), telephone number, 
+email address, date of birth, current pets (type, breed, age of pet), and references. Each person may 
+have multiple pets and must have at least three references. References must include name, address, 
+telephone number, email address, and how they know the person registering to adopt an animal.  
+Be sure to include notation for repeating elements and optional elements.
+14. Define the length, the type of data, and the validation criteria for each of the elements in Problem 13.
+15. List the data stores that would be required to implement the person registering in Problem 13.
+16. Create an XML document with sample data for one person registering to adopt an animal.
+Group Projects
+ 1.  Meet with your group and use a CASE tool or a manual procedure to develop data dictionary 
+entries for a process, data flow, data store, and data structure based on the data flow diagrams 
+you completed for Maverick Transport in the Chapter 7 group exercises. As a group, agree on any 
+assumptions necessary to make complete entries for each data element.
+ 2.  Your group should develop a list of methods to help you make complete data dictionary entries for 
+this exercise as well as for future projects. For example, study existing reports, base them on new or 
+existing data flow diagrams, and so on.
+Selected Bibliography
+Agrawahl, A. (2016, November 29). Building & maintaining a master data dictionary: Part one  
+[Blog post]. https://magento.com/blog/best-practices/building-maintaining-master-data-dictionary
+Agrawahl, A. (2017, January 19). Building & maintaining a master data dictionary: Part two [Blog post]. 
+https://blog.rjmetrics.com/2017/01/19/building-maintaining-a-master-data-dictionary-part-two/
+Baskerville, R., & Pries-Heje, J. (2004). Short cycle time systems development. Information Systems 
+Journal, 14, 237–264.
+Buchanan, E. M., Crain, S. E., Cunningham, A. L., Johnson, H. R., Stash, H., Papadatou-Pastou,  
+Isegar, P. M., Carlsson, R., & Aczel, B. (2021). Getting started creating data dictionaries: How to  
+create a shareable data set. Advances in Methods and Practices in Psychological Science, 4(1). 
+https://doi.org/10.1177/2515245920928007
+Conboy, K., & Fitzgerald, B. (2004, November 5). Toward a conceptual framework of agile methods:  
+A study of agility in different disciplines. Proceedings of the 2004 ACM Workshop on 
+Interdisciplinary Software Engineering Research, pp. 37–44.
+Davis, G. B., & Olson, M. H. (1985). Management information systems, conceptual foundations, 
+structure, and development (2nd ed.). McGraw-Hill.
+Gane, C., & Sarson, T. (1979) Structured systems analysis and design tools and techniques. Prentice Hall.
+Hoffer, J. A., Venkataraman, R., & Topi, H. (2019). Modern database management (13th ed.). Pearson.
+Kelly, B., Sheppard, N., Delasalle, J., Dewey, M., Stephens, O., Johnson, G., & Taylor, O. S. (2012, July). 
+Open metrics for open repositories. Paper presented at OR2012: The 7th International Conference on 
+Open Repositories, Edinburgh, UK.
+Kruse, R. L., & Mehr, D. R. (2008). Data management for prospective research studies using SAS® 
+software. BMC Medical Research Methodology, 8, 61. https://doi.org/101186/147-2288-8-61
+Lucas, H. (1999). Information technology for management (7th ed.). McGraw-Hill/Irwin.
+Martin, J. (1982). Strategic data-planning methodologies. Prentice Hall.
+Sagheb-Tehrani, M. (2005). Expert systems development and some ideas of design process. ACM 
+SIGSOFT Software Engineering Notes, 30(2), 1–5.
+Subramaniam, V ., & Hunt, A. (2006). Practices of an agile developer. Pragmatic Bookshelf.
+
+
+===== BOOK PAGE 259 =====
+
+259
+Process Specifications  
+and Structured Decisions
+LEARNING OBJECTIVES
+Once you have mastered the material in this chapter, you will be able to:
+1 Understand the purpose of process specifications.
+2 Learn how to express logic by writing structured English.
+3 Be able to construct and simplify decision tables.
+4 Learn the fundamentals of decision trees.
+5 Be able to choose an appropriate decision analysis method for analyzing structured 
+decisions and creating process specifications.
+A systems analyst approaching process specifications and structured decisions has 
+many options for documenting and analyzing them. The methods include structured 
+English, decision tables, and decision trees. It is important to be able to recognize logic 
+and structured decisions that occur in a business and how they are distinguishable from 
+semistructured decisions that tend to involve human judgment. Structured decisions lend 
+themselves particularly well to analysis with systematic methods that promote complete-
+ness, accuracy, and communication. In Chapters 7 and 8 we noted processes such as VERIFY 
+AND COMPUTE FEES, but we did not explain the logic necessary to execute these tasks.
+9 
+CHAPTER
+

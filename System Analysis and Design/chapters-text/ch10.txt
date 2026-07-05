@@ -1,0 +1,2564 @@
+
+===== BOOK PAGE 279 =====
+
+CHAPTER 10  •  OBJECT -ORIENTED SYSTEMS ANALYSIS AND DESIGN USING UML     279
+OBJECT-ORIENTED CONCEPTS
+Object-oriented programming differs from traditional procedural programming by examining 
+the objects that are part of a system. Each object is a computer representation of some actual 
+thing or event. General descriptions of the key object-oriented concepts of objects, classes, and 
+inheritance are presented in this section, and further details on other UML concepts are introduced 
+later in this chapter.
+Objects
+Objects are persons, places, or things that are relevant to the system being analyzed. Object-
+oriented systems describe entities as objects. Typical objects may be customers, items, orders, 
+and so on. Objects also may be graphical user interface (GUI) displays or text areas on the display.
+Classes
+Objects are typically part of a group of similar items called classes. The desire to place items into 
+classes is not new. Describing the world as being made up of animals, vegetables, and minerals is an 
+example of classification. The scientific approach includes classes of animals (such as mammals), 
+and then divides the classes into subclasses (such as egg-laying animals and pouched mammals).
+successively more detailed look at the design of the system, until the things and relation-
+ships in the system are clearly and precisely defined in UML documents. UML is a powerful 
+tool that can greatly improve the quality of your systems analysis and design and thereby 
+help create higher-quality information systems.
+When the object-oriented approach was first introduced, advocates cited reusability 
+of the objects as the main benefit of the approach. It makes intuitive sense that recycling 
+program parts should reduce the costs of development in computer-based systems. It has 
+proven to be very effective in the development of graphical user interfaces and databases. 
+Although reusability is the main goal, maintaining systems is also very important. The 
+object-oriented approach creates objects that contain both data and program code, and a 
+change in one object has a minimal impact on other objects.
+video, object-oriented programming is a way to break apart huge 
+programs with millions of lines of code into smaller functions that 
+can then be worked on by functional teams. Object-oriented pro-
+gramming is a way for the analyst or programmer to hide complex-
+ity by encapsulating low-level details into high-level components 
+and then selectively revealing it to different functional teams. After 
+you view the video, please reflect on the following questions:
+1. How does object-oriented programming allow you to move 
+to greater levels of abstraction in your thinking?
+2. Consider the importance of good documentation when using 
+object-oriented programming. What are two ways analysts 
+can document their object-oriented programs?
+3. Think about the analogy between preventive medicine and 
+preventive software. How appropriate is this analogy?
+4. How can an integrated development environment (IDE) used 
+for object-oriented programming improve the quality of 
+output of analysts and programmers?
+SYSTEMS SCENARIO  
+Modeling with Object-Oriented Approaches
+This chapter explores object-oriented systems analysis and design 
+to help you comprehend the concepts of unified modeling lanugage, 
+use case modeling, and many other diagram types for object-
+oriented modeling. In this video, the topic of software engineering 
+using object-oriented programming is introduced. As implied in the 
+To view the video for this scenario, 
+see eText Chapter 10.
+Crash Course Computer  Science/
+Boclips
+
+
+===== BOOK PAGE 280 =====
+
+280    PART III  •  THE ANALYSIS PROCESS
+FIGURE 10.1
+An example of a UML class.  
+A class is depicted as a rectangle 
+consisting of the class name, 
+attributes, and methods.
+RentalCar
+size
+color
+make
+model
+rentOut( )
+checkIn( )
+service( )
+Class Name
+Attributes
+Methods (Operations)
+The idea behind classes is to have a reference point and describe a specific object in terms 
+of its similarities to or differences from members of its own class. In doing so, it is more efficient 
+for someone to say, “The koala is a marsupial (or pouched animal) with a large round head and 
+furry ears” than it is to describe a koala by describing all its characteristics as a mammal. It is 
+more efficient to describe characteristics, appearance, and even behavior in this way. When you 
+hear the word reusable in the object-oriented world, it means you can be more efficient because 
+you do not have to start at the beginning to describe an object every time it is needed for software 
+development.
+Objects are represented by and grouped into classes that are optimal for reuse and maintain-
+ability. A class defines the set of shared attributes and behaviors found in each object in the class. 
+For example, records for students in a course section store similar information for each student. 
+The students could be said to make up a class (no pun intended). The values may be different for 
+each student, but the type of information is the same. Programmers must define the various classes 
+in the program they are writing. When the program runs, objects can be created from the estab-
+lished class. The term instantiate is used when an object is created from a class. For example, a pro-
+gram could instantiate a student named Mala Kaul as an object from the class labeled as Student.
+What makes object-oriented programming, and thus object-oriented analysis and design, 
+different from classical programming is the technique of putting all of an object’s attributes and 
+methods within one self-contained structure, the class itself. This is a familiar occurrence in 
+the physical world. For example, a packaged cake mix is analogous to a class because it has the 
+ingredients as well as instructions on how to mix and bake the cake. A wool sweater is similar 
+to a class because it has a label with care instructions sewn into it that caution you to wash it by 
+hand and lay it flat to dry.
+Each class should have a name that differentiates it from all other classes. Class names are 
+usually nouns or short phrases and begin with an uppercase letter. In Figure 10.1, the class is called 
+RentalCar. In UML, a class is drawn as a rectangle. The rectangle contains two other important 
+features: a list of attributes and a series of methods. These items describe a class, the unit of 
+analysis that is a large part of what we call object-oriented analysis and design.
+An attribute describes some property that is possessed by all objects of the class. Notice that 
+the RentalCar class possesses the attributes size, color, make, and model. All cars possess these 
+attributes, but each car will have different values for its attributes. For example, a car can be blue, 
+white, or some other color. Later on, we demonstrate how you can be more specific about the range 
+of values for these properties. When specifying attributes, the first letter is usually lowercase.
+A method is an action that can be requested from any object of the class. Methods are 
+the processes that a class knows to carry out. Methods are also called operations. For the class 
+RentalCar, rentOut(), checkIn(), and service() are examples of methods. When specifying 
+methods, the first letter is usually lowercase.
+Inheritance
+A key concept of object-oriented systems is inheritance. Classes can have children; that is, one 
+class can be created out of another class. In UML, the original—or parent—class is known as a 
+base class. The child class is called a derived class. A derived class can be created in such a way 
+that it will inherit all the attributes and behaviors of the base class. A derived class, however, may 
+have additional attributes and behaviors. For example, there might be a Vehicle class for a car 
+rental company that contains attributes such as size, color, and make.
+
+
+===== BOOK PAGE 281 =====
+
+CHAPTER 10  •  OBJECT -ORIENTED SYSTEMS ANALYSIS AND DESIGN USING UML     281
+Inheritance reduces programming labor by making it easy to use common objects. The pro-
+grammer only needs to declare that the Car class inherits from the Vehicle class and then provide 
+any additional details about new attributes or behaviors that are unique to a car. All the attributes 
+and behaviors of the Vehicle class are automatically and implicitly part of the Car class and 
+require no additional programming. An analyst can therefore define once but use many times, 
+and this is similar to data that is in the third normal form, defined only once in one database 
+table (as discussed in Chapter 13).
+The derived classes shown in Figure 10.2 are Car or Truck. Here the attributes are preceded 
+by minus signs and methods are preceded by plus signs. We discuss this in more detail later in the 
+chapter, but for now note that the minus signs mean that these attributes are private (not shared 
+with other classes) and these methods are public (may be invoked by other classes).
+Program code reuse has been a part of structured systems development and programming 
+languages (such as COBOL) for many years, and there have been subprograms that encapsulate 
+data. Inheritance, however, is a feature that is found only in object-oriented systems.
+CRC CARDS AND OBJECT THINK
+Now that we have covered the fundamental concepts of object-oriented systems analysis 
+and design, we need to examine ways to create classes and objects from the business problems and 
+systems we are facing. One way to begin enacting the object-oriented approach is to start thinking 
+and talking in this new way. One handy approach is to develop CRC cards.
+CRC stands for class, responsibilities, and collaborators. An analyst can use these concepts 
+when beginning to talk about or model a system from an object-oriented perspective. CRC cards 
+are used to represent the responsibilities of classes and the interaction between the classes. Ana-
+lysts create the cards based on scenarios that outline system requirements. These scenarios model 
+the behavior of the system under study. If they are to be used in a group, CRC cards can be created 
+manually on small note cards for flexibility, or they can be created using a computer.
+FIGURE 10.2
+A class diagram showing 
+inheritance. Car and Truck are 
+specific examples of vehicles and 
+inherit the characteristics of the 
+more general class Vehicle.
+Vehicle
+–size
+–color
+–make
+–model
+–available
+–ratePerDay
+–ratePerWeek
+–ratePerMile
++rentOut( )
++checkIn( )
++service( )
++addNew( )
+Car
+is a is a
+–size
+–color
+–make
+–model
+–available
+–ratePerDay
+–ratePerWeek
+–ratePerMile
+–style
++rentOut( )
++checkIn( )
++service( )
++addNew( )
+Truck
+–size
+–color
+–make
+–model
+–available
+–ratePerDay
+–ratePerWeek
+–ratePerMile
+–length
+–4WheelDrive
+–manualShift
++rentOut( )
++checkIn( )
++service( )
++addNew( )
+
+
+===== BOOK PAGE 282 =====
+
+282    PART III  •  THE ANALYSIS PROCESS
+We have added two columns to the original CRC card template: the Object Think column and 
+the property column. The Object Think statements are written in plain English, and the property, 
+or attribute, name is entered in its proper place. The purpose of these columns is to clarify thinking 
+and help move toward creating UML diagrams.
+Interacting During a CRC Session
+CRC cards can be created interactively with a handful of analysts who can work together to 
+identify the class in the problem domain presented by the business. One suggestion is to find 
+all the nouns and verbs in a problem statement that has been created to capture the problem. 
+Nouns usually indicate the classes in the system, and responsibilities can be found by identifying 
+the verbs.
+With your analyst group, brainstorm to identify all the classes you can. Follow the standard 
+format for brainstorming, which is not to criticize any participant’s response at this point but rather 
+to elicit as many responses as possible. When all classes have been identified, the analysts can 
+compile them, weed out the illogical ones, and write each one on its own card. Assign one class 
+to each person in the group, who will “own” it for the duration of the CRC session.
+Next, the group creates scenarios; these are walkthroughs of system functions that use the 
+desired functionality from the requirements document previously created. Typical systems meth-
+ods should be considered first, with exceptions such as error recovery taken up after the routine 
+ones have been covered.
+As the group decides which class is responsible for a particular function, the analyst who owns 
+the class for the session picks up that card and declares, “I need to fulfill my responsibility.” When 
+a card is held in the air, it is considered an object and can do things. The group then proceeds to 
+refine the responsibility into smaller and smaller tasks, if possible. The object can fulfill these tasks 
+if it is appropriate, or the group can decide that it can be fulfilled by interacting with other things. 
+If there are no other appropriate classes in existence, the group may need to create one.
+The four CRC cards depicted in Figure 10.3 show four classes for course offerings. Notice 
+that in a class called Course, the systems analyst is referred to four collaborators: the department, 
+7. An accounts receivable report is sent to the accounting 
+department.
+Notice the series of data flow diagrams in Chapter 7 to help you 
+conceptualize the problem and begin making the transition to 
+Object Think.
+Because you are such good friends with Jules and Vern and 
+because you wouldn’t mind getting a little practical experience using 
+O-O thinking, you agree to apply what you know and give them 
+a report. Once you have reread the business activities for World’s 
+Trend, provide a timely review by completing the following tasks:
+• Use the CRC cards technique to list classes, responsibilities, 
+and collaborators.
+• Use the Object Think technique to list “knows” and 
+corresponding attributes for the objects in those classes 
+identified in the previous stage.
+Write up both steps and fly over to World’s Trend headquarters 
+with your report in hand. Clearly, Jules and Vern are hoping for a 
+fantastic voyage into the new world of O-O methods.
+CONSULTING OPPORTUNITY 10.1 
+Around the World in 80 Objects
+Because you have described the advantages of using object-
+oriented (O-O) approaches, Jules and Vern, two top executives 
+at World’s Trend (a mail-order supplier of high-quality, fashion-
+able clothing whose customers place orders by phone, mail, or via 
+their website), would like you to analyze their business using this 
+approach. Here is a summary of World’s Trend’s business activities:
+1. When customer orders come in, the item master and the 
+customer master files are both updated. If an item is out of 
+stock, the inventory control department is notified.
+2. If the order is from a new customer, a new record is created 
+in the customer master file.
+3. Picking slips are produced for the customer order and sent to 
+the warehouse.
+4. A shipping statement is prepared.
+5. The process of shipping a customer order involves getting 
+the goods from the warehouse and matching up the customer 
+shipping statement, getting the correct customer address, and 
+shipping it all to the customer.
+6. The customer statement is generated, and a billing statement 
+is sent to a customer once a month.
+
+
+===== BOOK PAGE 283 =====
+
+CHAPTER 10  •  OBJECT -ORIENTED SYSTEMS ANALYSIS AND DESIGN USING UML     283
+FIGURE 10.3
+Four CRC cards for course offerings show how analysts fill in the details for classes, responsibilities, and collaborators, as well 
+as for Object Think statements and property names.
+Class Name:
+Superclasses:
+Subclasses:
+Responsibilities Collaborators Object Think Property
+Department
+Add a new department Course I know my name
+I know my department chair Provide department information
+Department Name
+Chair Name
+Class Name:
+Superclasses:
+Subclasses:
+Responsibilities Collaborators Object Think Property
+Course
+Add a new course Department I know my course number
+I know my description
+I know my number of creditsAssignment
+Exam
+T extbookChange course information
+Display course information
+Course Number
+Course Description
+Credits
+Class Name:
+Superclasses:
+Subclasses:
+Responsibilities Collaborators Object Think Property
+T extbook
+Add a new textbook Course I know my ISBN
+I know my author
+I know my title
+I know my edition
+I know my publisher
+I know if I am required
+Edition
+Publisher
+Required
+Change textbook information
+Find textbook information
+Remove obsolete textbooks
+ISBN
+Author
+Title
+Class Name:
+Superclasses:
+Subclasses:
+Responsibilities Collaborators Object Think Property
+Assignment
+Add a new assignment I know my assignment number
+I know my description
+I know how many points I am worth
+Change an assignment
+View an assignment
+I know when I am due
+T ask Number
+T ask Description
+Points
+Due Date
+Course
+
+
+===== BOOK PAGE 284 =====
+
+284    PART III  •  THE ANALYSIS PROCESS
+the textbook, the course assignment, and the course exam. These collaborators are then described 
+as classes of their own on the other CRC cards.
+The responsibilities listed will eventually evolve into what are called methods in UML. The 
+Object Think statements seem elementary, but they are conversational so as to encourage a group 
+of analysts during a CRC session to describe as many of these statements as possible. As shown 
+in the example, all dialogue during a CRC session is carried out in the first person, so that even 
+the textbook speaks: “I know my ISBN.” “I know my author.” These statements can then be used 
+to describe attributes in UML. These attributes can be called by their variable names, such as 
+edition and publisher.
+UNIFIED MODELING LANGUAGE CONCEPTS AND DIAGRAMS
+The UML approach is well worth investigating and understanding due to its wide acceptance and 
+usage. UML provides a standardized set of tools to document the analysis and design of a software 
+system. The UML toolset includes diagrams that enable people to visualize the construction of 
+an object-oriented system, similar to the way a set of blueprints helps people visualize the con-
+struction of a building. Whether you are working independently or with a large systems develop-
+ment team, the documentation created with UML provides an effective means of communication 
+between the development team and the business team on a project.
+UML consists of things, relationships, and diagrams, as illustrated in Figure 10.4. The first 
+components, or primary elements, of UML are called things. You may prefer another word, such 
+as object, but in UML they are called things. Structural things are most common. Structural things 
+FIGURE 10.4
+An overall view of UML and its 
+components: things, relationships, 
+and diagrams.
+UML Category
+Things
+UML Elements
+Structural Things
+Behavioral Things Interactions
+State Machines
+Grouping Things Packages
+Annotational Things Notes
+Classes
+Interfaces
+Collaborations
+Use Cases
+Active Classes
+Components
+Nodes
+Relationships Structural Relationships Dependencies
+Aggregations
+Associations
+Generalizations
+Diagrams Structural Diagrams Class Diagrams
+Component Diagrams
+Deployment Diagrams
+Behavioral Relationships Communicates
+Includes
+Extends
+Generalizes
+Behavioral Diagrams Use Case Diagrams
+Sequence Diagrams
+Communication Diagrams
+Statechart Diagrams
+Activity Diagrams
+Speciﬁc UML Details
+
+
+===== BOOK PAGE 285 =====
+
+CHAPTER 10  •  OBJECT -ORIENTED SYSTEMS ANALYSIS AND DESIGN USING UML     285
+are classes, interfaces, use cases, and many other elements that provide a way to create models. 
+Structural things allow the user to describe relationships. Behavioral things describe how things 
+work. Examples of behavioral things are interactions and state machines. Group things are used 
+to define boundaries. An example of a group thing is a package. Finally, annotational things are 
+used to add notes to diagrams.
+Relationships are the glue that holds the things together. It is useful to think of relationships 
+in two ways. Structural relationships are used to tie things together in structural diagrams. They 
+include dependencies, aggregations, associations, and generalizations. Structural relationships 
+show inheritance, for example. Behavioral relationships are used in the behavioral diagrams. The 
+four basic types of behavioral relationships are communicates, includes, extends, and generalizes.
+There are two main types of diagrams in UML: structural diagrams and behavioral dia-
+grams. Structural diagrams are used, for example, to describe the relationships between classes. 
+They include class diagrams, object diagrams, component diagrams, and deployment diagrams. 
+Behavioral diagrams, on the other hand, can be used to describe the interaction between people 
+(called actors in UML) and the thing we refer to as a use case, or how the actors use the system. 
+Behavioral diagrams include use case diagrams, sequence diagrams, communication diagrams, 
+statechart diagrams, and activity diagrams.
+In the remainder of this chapter, we first discuss use case modeling, the basis for all UML 
+techniques. Next, we look at how a use case is used to derive activities, sequences, and classes—
+the most commonly used UML diagrams. Because entire books are dedicated to the syntax and 
+usage of UML (the actual UML specification document is over 800 pages long), we provide only 
+a brief summary of the most valuable and commonly used aspects of UML.
+The six most commonly used UML diagrams are:
+1. A use case diagram, describing how a system is used. Analysts start with a use case 
+diagram.
+2. A use case scenario (although technically it is not a diagram). This scenario is a verbal 
+articulation of exceptions to the main behavior described by the primary use case.
+3. An activity diagram, illustrating the overall flow of activities. Each use case may create 
+one activity diagram.
+4. Sequence diagrams, showing the sequence of activities and class relationships. Each use 
+case may create one or more sequence diagrams. An alternative to a sequence diagram is a 
+communication diagram, which contains the same information but emphasizes communi-
+cation instead of timing.
+5. Class diagrams, showing the classes and relationships. Sequence diagrams are used 
+(along with CRC cards) to determine classes. An offshoot of a class diagram is a gen/spec 
+diagram (which stands for generalization/specialization).
+6. Statechart diagrams, showing the state transitions. Each class may create a statechart 
+diagram, which is useful for determining class methods.
+Figure 10.5 illustrates how these diagrams relate to one another. We discuss each of these 
+diagrams in the following sections.
+USE CASE MODELING
+UML is fundamentally based on an object-oriented analysis technique known as use case model-
+ing, which was introduced in Chapter 2. A use case model shows a view of the system from the 
+user’s perspective, describing what a system does without describing how the system does it. 
+UML can be used to analyze the use case model and to derive system objects and their interactions 
+with each other and with the users of the system. UML techniques are used to further analyze the 
+objects and their interactions to derive object behavior, attributes, and relationships.
+A use case provides developers with a view of what the users want. It is free of technical or 
+implementation details. We can think of a use case as a sequence of transactions in a system. The 
+use case model is based on the interactions and relationships of individual use cases.
+A use case always describes three things: an actor that initiates an event, the event that trig-
+gers a use case, and the use case that performs the actions triggered by the event. In a use case, an 
+actor using the system initiates an event that begins a related series of interactions in the system.
+
+
+===== BOOK PAGE 286 =====
+
+286    PART III  •  THE ANALYSIS PROCESS
+Use cases are used to document a single transaction or event. An event is an input to the system 
+that happens at a specific time and place and causes the system to do something. For more infor-
+mation about use case symbols and how to draw use case diagrams, see Chapter 2.
+Figure 10.6 is a use case example of student enrollment at a university. Notice that only the 
+most important functions are represented. The Add Student use case does not indicate how to 
+add students, or the method of implementation. Students could be added in person, using the Web, 
+using a touch-tone telephone, or any combination of these methods. The Add Student use case 
+includes the Verify Identity use case to verify the identity of the student. The Purchase Textbook 
+FIGURE 10.5
+An overall view of UML diagrams, showing how each diagram leads to the development of other UML diagrams.
+1 1..
+11
+Class Diagram
+Statechart Diagram
+Sequence Diagram
+Use Case Diagram
+Communication Diagram
+Activity Diagram
+Use Case Scenario
+Identiﬁers
+Steps
+Conditions
+Each use case
+may create one
+activity diagram.
+Each use case
+scenario may
+create one
+sequence diagram.
+Use case
+scenarios may be
+generated from
+the use case
+diagram.
+Use cases and
+sequence
+diagrams help
+determine classes.
+Sequence and
+communication
+diagrams are
+interchangeable.
+Each class may
+have a statechart
+diagram to help
+determine
+operations.
+
+
+===== BOOK PAGE 287 =====
+
+CHAPTER 10  •  OBJECT -ORIENTED SYSTEMS ANALYSIS AND DESIGN USING UML     287
+use case extends the Enroll in Class use case and may be part of a system to enroll students in 
+an online course.
+It may seem as if the Change Student Information use case is a minor system feature and 
+should not be included on the use case diagram, but because this information changes frequently, 
+administration has a keen interest in allowing students to change their own personal information. 
+The fact that the administrators deem this to be important not only justifies, but calls for, the use 
+case to be written up.
+Students would not be allowed to change grade point average, outstanding fees, and other 
+information. This use case also includes the Verify Identity use case and, in this situation, it means 
+having the student enter a user ID and password before gaining access to the system. View Student 
+Information allows students to view their personal information as well as courses and grades.
+A use case scenario example is shown in Figure 10.7. Some of the areas included are optional 
+and may not be used by all organizations. The three main areas are:
+1. A header area containing case identifiers and initiators
+2. Steps performed
+3. A footer area that contains preconditions, assumptions, questions, and other information
+In the first area, the use case is identified by its name, Change Student Information; the 
+actor is identified as a Student; and the use case and triggering event are described. The second 
+area contains a series of steps that are performed as long as no errors are encountered. Finally, in 
+FIGURE 10.6
+A use case example of student 
+enrollment.
+<< include >>
+<< include >>
+<< include >>
+<< include >>
+<< extend >>
+RegistrationStudent
+Change Student
+Information
+Verify
+Identity
+Financial Oﬃce
+Bookstore
+DepartmentStudent
+Transfer
+Credits
+View Student
+Information
+Purchase
+Textbook
+Enroll
+in Class
+Add
+Student
+
+
+===== BOOK PAGE 288 =====
+
+288    PART III  •  THE ANALYSIS PROCESS
+the third area, all the pre- and postconditions and assumptions are identified. Some of these are 
+obvious, such as the precondition that the student is on the correct web page and the assumption 
+that the student has a valid student ID and password. Others are not so obvious, such as the out-
+standing issue regarding how many times the student is allowed to logon to the system.
+Use case diagrams provide the basis for creating other types of diagrams, such as class 
+diagrams and activity diagrams. Use case scenarios are helpful in drawing sequence diagrams. 
+Both use case diagrams and use case scenarios are powerful tools to help us understand how a 
+system works in general.
+ACTIVITY DIAGRAMS
+An activity diagram shows the sequence of activities in a process, including sequential and parallel 
+activities, and decisions that are made. An activity diagram is usually created for one use case and 
+may show the different possible scenarios.
+Use case name: Change Student Information UniqueID:    Student UC 005
+Area:
+Actor(s):
+Description:
+Triggering Event:
+Preconditions:
+Postconditions:
+Assumptions:
+Steps Performed (Main Path)
+Student System
+Student is on the Change Student Information web page.
+Student has a browser and a valid user ID and password.
+Student has successfully changed personal information.
+Requirements Met: Allow students to be able to change personal information using a secure website.
+Outstanding Issues: Should the number of times a student is allowed to logon be controlled?
+Priority: Medium
+Risk: Medium
+Student uses Change Student Information website, enters student ID and password, and clicks
+the Submit button.
+1.   Student logs on to the secure web server.
+2.   Student record is read and password is veriﬁed.
+3.   Current student personal information is displayed
+ on the Change Student web page.
+4.   Student enters changes on the Change Student Web
+ form and clicks Submit button.
+5.   Changes are validated on the web server.
+6.   Change Student Journal record is written.
+7.   Student record is updated on the Student Master.
+8.   Conﬁrmation web page is sent to the student.
+Student ID, Password
+Student Record, Student ID, Password
+Student Record
+Change Student Web Form
+Change Student Web Form
+Change Student Web Form
+Change Student Web Form, Student Record
+Conﬁrmation Page
+Trigger type:
+Student
+Allow student to change their own information, such as name, home address, home telephone, campus
+address, campus telephone, cell phone, and other information using a secure website.
+Information for Steps
+External Temporal
+FIGURE 10.7
+A use case scenario is divided into three sections: identification and initiation; steps performed; and conditions, assumptions, and questions.
+
+
+===== BOOK PAGE 289 =====
+
+CHAPTER 10  •  OBJECT -ORIENTED SYSTEMS ANALYSIS AND DESIGN USING UML     289
+The symbols on an activity diagram are illustrated in Figure 10.8. A rectangle with rounded 
+ends represents an activity, either a manual one, such as signing a legal document, or an automated 
+one, such as a method or program.
+An arrow represents an event. Events represent things that happen at a certain time and place.
+A diamond represents either a decision (also called a branch) or a merge. Decisions have 
+one arrow going into the diamond and several going out. A guard condition, showing the condition 
+values, may be included. Merges show several events combining to form one event.
+A long, flat rectangle represents a synchronization bar. These are used to show parallel 
+activities and may have one event going into the synchronization bar and several events going out 
+of it, called a fork. A synchronization in which several events merge into one event is called a join.
+There are two symbols that show the start and end of the diagram. The initial state is shown 
+as a filled-in circle. The final state is shown as a black circle surrounded by a white circle.
+Rectangles surrounding other symbols, called swimlanes, indicate partitioning and are used 
+to show which activities are done on which platform, such as a browser, server, or mainframe 
+computer, or to show activities done by different user groups. Swimlanes are zones that can depict 
+logic as well as the responsibility of a class.
+You can see an example of swimlanes in Figure 10.9, which illustrates an activity diagram for 
+the Change Student Information use case. It starts with the student logging onto the system by 
+filling out a Web form and clicking the Submit button. The form is transmitted to the web server, 
+which then passes the data to the mainframe computer. The mainframe accesses the STUDENT 
+database and passes either a “Not Found” message or selected student data to the web server.
+The diamond below the Get Student Record state indicates this decision. If the student 
+record has not been found, the web server displays an error message on the web page. If 
+the student record has been found, the web server formats a new web page containing the current 
+student data in a Web form. The student may cancel the change from either the Logon System or 
+the Enter Changes states, and the activity halts.
+FIGURE 10.8
+Specialized symbols are used to draw an activity diagram.
+[condition] [else]
+Merge
+Branch
+Join
+Fork
+Start
+Activity
+End
+ActivityActivityActivity
+We can add
+swimlanes to
+this diagram
+to assign
+responsibilities.
+Branches allow
+alternative
+activities given
+diﬀerent
+conditions.
+Forks allow
+activities to go
+in parallel.
+
+
+===== BOOK PAGE 290 =====
+
+290    PART III  •  THE ANALYSIS PROCESS
+If the student enters changes on the Web form and clicks the Submit button, the change data 
+is transmitted to the server and a program starts running that validates the changes. If there are 
+errors, an error message is sent to the web page. If the data are valid, the student record is updated 
+and a Change Student Journal Record is written. After a valid update, a confirmation web page is 
+sent to the browser, and the activity terminates.
+Creating Activity Diagrams
+Activity diagrams are created by asking what happens first, what happens second, and so on. You must 
+determine whether activities are done in sequence or in parallel. If physical data flow diagrams (as 
+described in Chapter 7) have been created, they may be examined to determine the sequence of 
+FIGURE 10.9
+This activity diagram shows three swimlanes: Client Web Page, Web Server, and Mainframe.
+Create Change
+Student Journal
+Record
+Update Student
+Record
+Valid DataValid Data
+User ID and Password
+Not Found
+Exchange Data Placed in Message Queue
+Record
+Status
+Valid Update
+Cancel
+Cancel
+Record
+Updated
+Record
+Written
+Logon System
+Client Web Page Web Server Mainframe
+Receive Web
+Form
+Display Error
+Message
+Display Current
+Student Data
+Validate Changes
+Valid Data Received
+Enter Changes
+Display
+Error Message
+Display
+Conﬁrmation
+Get Student
+Record
+Form Transmitted
+Send Error Message
+Web Form Sent
+Web Form Received
+Send Error Messages
+Conﬁrmation Sent
+Invalid Data Received
+Validation Status
+
+
+===== BOOK PAGE 291 =====
+
+CHAPTER 10  •  OBJECT -ORIENTED SYSTEMS ANALYSIS AND DESIGN USING UML     291
+activities. Look for places where decisions are made and ask what happens for each of the decision 
+outcomes. Activity diagrams may be created by examining all the scenarios for a use case.
+Each path through the various decisions included on the use case is a different scenario. In 
+the main path would be Logon System, Receive Web Form, Get Student Record, Display 
+Current Student Data, Enter Changes, Validate Changes, Update Student Record, Create 
+Change Student Journal Record, and Display Confirmation.
+This isn’t the only scenario that comes from this use case. Other scenarios may occur. One 
+possibility could be Logon System, Receive Web Form, Get Student Record, and Display Error 
+Message. Another scenario could be Logon System, Receive Web Form, Get Student Record, 
+Display Current Student Data, Enter Changes, Validate Changes, and Display Error Message.
+The swimlanes are useful to show how the data must be transmitted or converted, such as from 
+Web to server or from server to mainframe. For example, the Change Student Record activity 
+diagram has three swimlanes.
+The swimlane on the left shows activities that occur on the client browser. Web pages must 
+be created for these activities. The middle swimlane shows activities that happen on the server. 
+Events, such as Form Transmitted, represent data transmitted from the browser to the server, and 
+there must be programs on the server to receive and process the client data.
+The swimlane on the right represents the mainframe computer. In large organizations it is 
+typical for many Web applications to work with a mainframe computer. Much of the data in large 
+organizations exists on mainframe databases, and an enormous number of mainframe programs 
+are in existence.
+When an event crosses the swimlane from the server to the mainframe computer, there must 
+be a mechanism for transmitting the event data between the two platforms. Servers use a different 
+format to represent data (ASCII) than do mainframe computers (EBCDIC). Middleware must be 
+present to take care of the conversion. IBM computers often use an mqueue (for message queue). 
+The mqueue receives data from the server programs, places it in a holding area, and calls a main-
+frame program, usually written in a language called CICS. This program retrieves or updates the 
+data and sends the results back to the mqueue.
+In the activity diagram, the decision below the Get Student Record state is made on the 
+mainframe computer. This means that the message queue receives either a “Not Found” mes -
+sage or the database record for the student. If the mainframe simply placed the Record Status 
+Received in the message queue and the decision was evaluated on the server, the server would 
+have to call the mainframe again to obtain the valid data. This would slow down the response to 
+the person waiting at the browser.
+Swimlanes also help to divide up the tasks in a team. Web designers would be needed for 
+the web pages displayed on the client browser. Other members would work with programming 
+languages, such as Java, PHP, Ruby on Rails, Perl, or .NET, on the server. Mainframe CICS 
+programmers would write programs that would work with the message queue. An analyst must 
+ensure that the data that the various team members need are available and correctly defined. Some-
+times the data in the message queue are contained in an XML document. If an outside organization 
+is involved, the data also might be an XML document.
+The activity diagram provides a map of a use case and allows an analyst to experiment with 
+moving portions of the design to different platforms to ask, “What if?” for a variety of decisions. 
+The use of unique symbols and swimlanes makes this diagram one that people want to use to 
+communicate with others.
+Activity diagrams may be used to construct test plans. Each event must be tested to see 
+whether the activity diagram goes to the next state. Each decision must be tested to see whether 
+the correct path is taken when the decision conditions occur.
+Activity diagrams are not used for all use cases. Use an activity diagram when:
+1. It helps to understand the activities of a use case.
+2. The flow of control is complex.
+3. There is a need to model workflow.
+4. All scenarios need to be shown.
+An analyst would not need an activity diagram when the use case is simple or there is a need to 
+model the change of state.
+Activity diagrams may also be used to model a lower-level method, showing detailed logic.
+
+
+===== BOOK PAGE 292 =====
+
+292    PART III  •  THE ANALYSIS PROCESS
+Repository Entries for an Activity Diagram
+Each state and event may be further defined using a text description in a repository, which is a 
+collection of text descriptions for the project. We describe states with information about the state, 
+such as the web page name, elements on the web page, and so on. We describe events with the 
+information that is required to communicate with the next state, such as the data from the Web 
+form or the data that is put into a message queue, or with a description of the event that caused 
+the transition, such as a button click.
+SEQUENCE AND COMMUNICATION DIAGRAMS
+An interaction diagram is either a sequence diagram or a communication diagram, both of which 
+show essentially the same information. These diagrams, along with class diagrams, are used in a 
+use case realization, which is a way to achieve or accomplish a use case.
+Sequence Diagrams
+A sequence diagram can illustrate a succession of interactions between classes or object instances 
+over time. Sequence diagrams are often used to illustrate the processing described in use case 
+scenarios. In practice, sequence diagrams are derived from use case analysis and are used 
+in systems design to derive the interactions, relationships, and methods of the objects in the 
+system. Sequence diagrams are used to show the overall pattern of the activities or interactions in 
+a use case. Each use case scenario may create one sequence diagram, although sequence diagrams 
+are not always created for minor scenarios.
+finished goods. The automated warehouse uses a flatbed robot 
+trolley. This robot is a four-wheel electric cart, similar to a golf 
+cart except that it has no seats. Flatbed robot trolleys have a flat 
+64 -foot×  cargo surface about 3 inches above ground level. 
+These trolleys have a radio communications device that provides 
+a real-time data link to a central warehouse computer. Flatbed 
+trolleys have two sensors: a path sensor that detects a special type 
+of paint and a motion sensor that detects movement. These trol-
+leys follow painted paths around the factory floor. Special paint 
+codes mark forks and branches in the paths, trolley start and stop 
+points, and general location points.
+The facility includes three loading dock stations and 10 worksta-
+tions. Each station has a desktop computer connected to the central 
+computer. When products are needed or are ready to be collected 
+from a workstation, the central computer is informed by the worker 
+at the station. The central computer then dispatches trolleys accord-
+ingly. Each station has a drop point and a pickup point. Flatbed 
+trolleys move about the factory picking up work at pickup points 
+and dropping off work at drop points. The program that will run 
+the trolleys must interact heavily with the existing job-scheduling 
+program that helps schedule workstation tasks.
+How should Lisa go about reusing Benito Pérez’s work on the 
+monorail in their current task of creating a trolley object? Explain 
+in two paragraphs.
+CONSULTING OPPORTUNITY 10.2 
+Recycling the Programming Environment
+“I feel like I’m writing the same code over and over again,” says 
+Benito Pérez, a programmer working on a new automated ware -
+house design. “I have written so many programs lately that deal 
+with robotic-type things that control themselves: automated mail-
+room trolleys, building surveillance robots, automatic pool clean-
+ers, automatic lawn mowers, monorail trains, and now warehouse 
+trolleys. They are all variations on a theme.”
+Lisa Bernoulli, the project manager, has heard this sort of com-
+plaint for years. She replies, “Oh, come on, Ben. These things aren’t 
+really that close. How can you compare a mailroom robot, an auto-
+mated warehouse, and a monorail train? I’ll bet less than 10 percent 
+of the code is the same.”
+“Look,” says Benito. “All three involve machines that have 
+to find a starting point, follow a circuitous route, make stops for 
+loading and unloading, and eventually go to a stopping point. All 
+three have to make decisions at branches in their routes. All three 
+have to avoid colliding with things. I’m tired of redesigning code 
+that is largely familiar to me.”
+“Hmmm,” Lisa muses as she looks over the basic require-
+ments for the warehouse system and remembers the monorail 
+system she and Benito had worked on last year. The require-
+ments regarded a small-lot electronics manufacturing firm that 
+was automating its warehouse and product movement system. 
+The warehouse contains incoming parts, work in progress, and
+
+
+===== BOOK PAGE 293 =====
+
+CHAPTER 10  •  OBJECT -ORIENTED SYSTEMS ANALYSIS AND DESIGN USING UML     293
+The symbols used in sequence diagrams are shown in Figure 10.10. Actors and classes or 
+object instances are shown in boxes along the top of the diagram. The leftmost object is the start-
+ing object and may be a person (for which a use case actor symbol is used), window, dialogue 
+box, or other user interface. Some of the interactions are physical only, such as signing a contract. 
+The top rectangles use indicators in the name to indicate whether the rectangle represents an 
+object, a class, or a class and object.
+objectName: A name with a colon after it represents an object.
+:class A colon with a name after it represents a class.
+objectName:class A name, followed by a colon and another name, 
+represents an object in a class.
+A vertical line represents the lifeline for the class or object, which corresponds to the time it is 
+created through to when it is destroyed. An X on the bottom of the lifeline represents when the 
+object is destroyed. A lateral bar or vertical rectangle on the lifeline shows the focus of control 
+when the object is busy doing things.
+Horizontal arrows show messages or signals that are sent between the classes. Messages 
+belong to the receiving class. There are some variations in the message arrows. Solid arrowheads 
+represent synchronous calls, which are the most common. These are used when the sending 
+class waits for a response from the receiving class, and control is returned to the sending class 
+when the class receiving the message finishes executing. Half (or open) arrowheads represent 
+asynchronous calls, or those that are sent without an expectation of returning to the sending class. 
+An example would be using a menu to run a program. A return is shown as an arrow, sometimes 
+with a dashed line. Messages are labeled using one of the following formats:
+• The name of the message followed by empty parentheses: messageName().
+• The name of the message followed by parameters in parentheses: 
+messageName(parameter1, parameter2 . . .).
+• The message name followed by the parameter type, parameter name, and any default value 
+for the parameter in parentheses: messageName(parameterType:parameterName(defau
+ltValue)). Parameter types indicate the type of data, such as string, number, or date.
+• The message may be a stereotype, such as «Create», indicating that a new object is created 
+as a result of the message.
+FIGURE 10.10
+Specialized symbols used to draw 
+a sequence diagram.
+method(Parameter)
+return
+asynchronousSignal( )
+::Class Object::Class
+
+
+===== BOOK PAGE 294 =====
+
+294    PART III  •  THE ANALYSIS PROCESS
+Timing in the sequence diagram is displayed from top to bottom; the first interaction is drawn 
+at the top of the diagram, and the interaction that occurs last is drawn at the bottom of the diagram. 
+The interaction arrows begin at the bar of the actor or object that initiates the interaction, and they 
+end pointing at the bar of the actor or object that receives the interaction request. The starting actor, 
+class, or object is shown on the left. This may be the actor that initiates the activity or it may be 
+a class representing the user interface.
+Figure 10.11 is a simplified example of a sequence diagram for a use case that admits a student 
+to a university. On the left is the newStudentUserInterface  class that is used to obtain stu -
+dent information. The initialize() message is sent to the Student class, which creates a new 
+student record and returns the student number. To simplify the diagram, the parameters that are 
+sent to the Student class have been omitted but would include the student name, address, and so 
+on. The next activity is to send a selectDorm message to the Dorm class. This message would 
+include dorm selection information, such as a health dorm or other student requirements. The 
+Dorm class returns the dorm name and room number. The third activity is to send a selectProgram 
+message to the Program class, including the program name and other course of study information. 
+The program advisor name is returned to the newStudentUserInterface class. A studentCom-
+plete message is sent to the Student class with the dorm, advisor name, and other information.
+A sequence diagram can be used to translate a use case scenario into a visual tool for systems 
+analysis. The initial sequence diagram used in systems analysis shows the actors and classes in 
+the system and the interactions between them for a specific process. You can use this version 
+of the sequence diagram to verify processes with the business area experts who have assisted 
+you in developing the system requirements. A sequence diagram emphasizes the time ordering 
+(sequence) of messages.
+During the systems design phase, sequence diagrams are refined to derive the methods and 
+interactions between classes. Messages from one class are used to identify class relationships. 
+The actors in the earlier sequence diagrams are translated to interfaces, and class interactions are 
+translated to class methods. Class methods used to create instances of other classes and to perform 
+other internal system functions become apparent in the system design using sequence diagrams.
+Communication Diagrams
+Communication diagrams were introduced in UML 2.0, and as of this writing we are on UML 2.5. 
+Their original name in UML 1.x was collaboration diagrams. A communication diagram describes 
+the interactions of two or more things in the system that perform a behavior that is more than any 
+FIGURE 10.11
+A sequence diagram for student 
+admission. Sequence diagrams 
+emphasize the time ordering of 
+messages.
+::Student
+initialize( )
+selectDorm( )
+studentComplete( )
+return dormRoom
+return studentNumber
+::dorm ::program::newStudent
+UserInterface
+selectProgram( )
+return programAdvisor
+
+
+===== BOOK PAGE 295 =====
+
+CHAPTER 10  •  OBJECT -ORIENTED SYSTEMS ANALYSIS AND DESIGN USING UML     295
+one of the things can do alone. For instance, a car can be broken down into several thousand indi-
+vidual parts. The parts are put together to form the major subsystems of the vehicle: the engine, 
+the transmission, the brake system, and so forth. The individual parts of the car can be thought of 
+as classes because they have distinct attributes and functions. The individual parts of the engine 
+form a collaboration because they “communicate” with each other to make the engine run when 
+the driver steps on the accelerator.
+A communication diagram is made up of three parts: objects (also called participants), com-
+munication links, and messages that can be passed along those links. Communication diagrams 
+show the same information as a sequence diagram but may be more difficult to read. To show time 
+ordering, you must indicate a sequence number and describe the message.
+A communication diagram emphasizes the organization of objects, whereas a sequence 
+diagram emphasizes the time ordering of messages. A communication diagram will show a path 
+to indicate how one object is linked to another.
+Some UML modeling software, such as IBM’s Rational Rose, will automatically convert 
+a sequence diagram to a communication diagram or a communication diagram to a sequence 
+diagram with the click of a button. A communication diagram for the student admission example 
+is illustrated in Figure 10.12. Each rectangle represents an object or a class. Connecting lines show 
+the classes that need to collaborate or work with each other. The messages sent from one class to 
+another are shown along connecting lines. Messages are numbered to show the time sequence. 
+Return values also may be included and numbered to indicate when they are returned within the 
+time sequence.
+CLASS DIAGRAMS
+Object-oriented methodologies work to discover classes, attributes, methods, and relationships 
+between classes. Because programming occurs at the class level, defining classes is one of the most 
+important object-oriented analysis tasks. Class diagrams show the static features of the system and 
+do not represent any particular processing. A class diagram also shows the nature of the relation-
+ships between classes.
+A class is represented by a rectangle on a class diagram. In the simplest format, the rectangle 
+may include only the class name, but it may also include the attributes and methods. Attributes are 
+what the class knows about characteristics of the objects, and methods (also called operations) 
+are what the class knows about how to do things. Methods are small sections of code that work 
+with the attributes.
+Figure 10.13 illustrates a class diagram for course offerings. Notice that the name is cen-
+tered at the top of the class, usually in boldface type. The area directly below the name shows 
+FIGURE 10.12
+A communication diagram for student admission. Communication diagrams show the same information 
+that is depicted in a sequence diagram but emphasize the organization of objects rather than the time 
+ordering.
+1:initialize( )
+3:selectProgram( )
+2:selectDorm( )
+4:studentComplete( )
+::student ::program
+::dorm
+::newStudent
+UserInterface
+
+
+===== BOOK PAGE 296 =====
+
+296    PART III  •  THE ANALYSIS PROCESS
+the attributes, and the bottom portion lists the methods. The class diagram shows data storage 
+requirements as well as processing requirements. Later in the chapter we discuss the meaning of 
+the diamond symbols shown in this figure.
+The attributes (or properties) are usually designated as private, or only available in the object. 
+This is represented on a class diagram by a minus sign in front of the attribute name. Attributes 
+may also be protected, indicated with a pound symbol (#). These attributes are hidden from all 
+classes except immediate subclasses. Under rare circumstances, an attribute is public, meaning 
+that it is visible to other objects outside its class. Making attributes private means that the attributes 
+are only available to outside objects through the class methods, a technique called encapsulation, 
+or information hiding.
+A class diagram may show just the class name; or the class name and attributes; or the class 
+name, attributes, and methods. Showing only the class name is useful when the diagram is very 
+complex and includes many classes. If the diagram is simpler, attributes and methods may be 
+included. When attributes are included, there are three ways to show the attribute information. The 
+simplest is to include only the attribute name, which takes the least amount of space.
+The type of data (such as string, double, integer, or date) may be included on a class diagram. 
+The most complete descriptions would include an equal sign ( )=  after the type of data, followed 
+by the initial value for the attribute. Figure 10.14 illustrates class attributes.
+If the attribute must take on one of a finite number of values, such as a student type with 
+values of F for full time, P for part time, and N for nonmatriculating, these may be included in 
+curly brackets separated by commas: studentType:char{F,P,N}.
+Information hiding means that objects’ methods must be available to other classes, so methods 
+are often public, meaning that they may be invoked from other classes. On a class diagram, public 
+messages (and any public attributes) are shown with a plus sign ( )+  in front of them. Methods also 
+have parentheses after them, indicating that data may be passed as parameters along with the mes-
+sage. The message parameters, as well as the type of data, may be included on the class diagram.
+There are two types of methods: standard and custom. Standard methods are basic things that 
+all classes of objects know how to do, such as create a new object instance. Custom methods are 
+designed for a specific class.
+FIGURE 10.13
+A class diagram for course offerings. The filled-in diamonds show aggregation, and the empty diamond 
+shows a whole/part relationship.
+Department
+–departmentName
+–departmentChair
++addDepartment( )
++viewDepartment( )
+Course
+–courseNumber
+–courseDescription
+–numberOfCredits
+–departmentNumber
++addCourse( )
++changeCourse( )
++ﬁndCourse( )
+Textbook
+–ISBN
+–author
+–title
+–edition
+–publisher
+–required
++addText( )
++changeText( )
++ﬁndText( )
++removeText( )
+Exam
+–examNumber
+–examName
+–examPoints
+–examVersion
++addExam( )
++changeExam( )
++ﬁndExam( )
+Assignment
+–assignmentNumber
+–assignmentDescription
+–assignmentPoints
+–assignmentDueDate
++addAssignment( )
++changeAssignment( )
++viewAssignment( )
+has a
+is a
+part
+of
+is a
+part
+of
+consists
+of
+is for a
+1 1..
+consists
+of
+
+
+===== BOOK PAGE 297 =====
+
+CHAPTER 10  •  OBJECT -ORIENTED SYSTEMS ANALYSIS AND DESIGN USING UML     297
+Method Overloading
+Method overloading refers to including the same method (or operation) several times in a class. 
+The method signature includes the method name and the parameters included with the method. The 
+same method may be defined more than once in a given class, as long as the parameters sent as 
+part of the message are different; that is, there must be a different message signature. There may 
+be a different number of parameters, or the parameters might be a different type, such as a number  
+in one method and a string in another method. An example of method overloading may be found in 
+the use of a plus sign in many programming languages. If the attributes on either side of the plus 
+sign are numbers, the two numbers are added. If the attributes are strings of characters, the strings 
+are concatenated to form one long string.
+In a bank deposit example, a deposit slip could contain just the amount of the deposit, in 
+which case the bank would deposit the entire amount, or it could contain the deposit amount and 
+the amount of cash to be returned. Both situations would use a deposit check method, but the 
+parameters (one situation would also request the amount of cash to be returned) would be different.
+Types of Classes
+Classes fall into four categories: entity, interface, abstract, and control.
+Entity Classes. Entity classes represent real-world items, such as people, things, and so on. 
+Entity classes are the entities represented on an entity-relationship (E-R) diagram. Computer-aided 
+software engineering (CASE) tools such as Visible Analyst will allow you to create a UML entity 
+class from an entity on an E-R diagram.
+An analyst needs to determine which attributes to include in the classes. Each object has many 
+attributes, but a class should include only those that are used by the organization. For example, 
+when creating an entity class for a student at a college, you would need to know attributes that 
+identify the student, such as home and campus address, as well as grade point average, total 
+credits, and so on. If you were keeping track of the same student for an online clothing store, you 
+would have to know basic identifying information, as well as other descriptive attributes such as 
+measurements or color preferences.
+Boundary, or Interface, Classes. Boundary classes, or interface classes, provide a means for users 
+to work with the system. There are two broad categories of interface classes: human and system.
+A human interface may be a display, window, Web form, dialogue box, menu, list box, or 
+other display control. It may also be a touch-tone telephone, bar code, or other ways for users to 
+interact with the system. Human interfaces should be prototyped (as described in Chapter 6), and 
+a storyboard is often used to model the sequence of interactions.
+System interfaces involve sending data to or receiving data from other systems. This may 
+include databases in the organization. If data are sent to an external organization, they are often 
+in the form of XML files or other well-published interfaces with clearly defined messages and 
+protocols. External interfaces are the least stable because there is often little or no control over an 
+external partner who may alter the format of the message or data.
+XML helps to provide standardization because an external partner may add new elements 
+to the XML document, but a corporation transforming the data to a format that may be used  
+to append to an internal database may simply choose to ignore the additional elements without 
+any problems.
+FIGURE 10.14
+An extended Student class that 
+shows the type of data and, in 
+some cases, its initial value or 
+default value.
+Student
+studentNumber: Integer
+lastName: String
+ﬁrstName: String
+creditsCompleted: Decimal=0.0
+gradePointAverage: Decimal=0.0
+currentStudent: Boolean=Y
+dateEnrolled: Date=
+new( )
+changeStudent( )
+viewStudent( )
+
+
+===== BOOK PAGE 298 =====
+
+298    PART III  •  THE ANALYSIS PROCESS
+The attributes of these classes are those found on the display or report. The methods are those 
+required to work with the display or to produce the report.
+Abstract Classes. Abstract classes are classes that cannot be directly instantiated. Abstract 
+classes are linked to concrete classes in a gen/spec relationship. The name of an abstract class is 
+usually denoted in italics.
+Control Classes. Control classes, or active classes, are used to control the flow of activities, and 
+they act as a coordinator when implementing classes. To create reusable classes, a class diagram 
+may include many small control classes. Control classes are often derived during system design.
+Often a new control class will be created just to make another class reusable. An example 
+would be the logon process. There might be one control class that handles the logon user interface, 
+containing the logic to check the user ID and password. The problem that arises is that the logon 
+control class is designed for a specific logon display. By creating a logon control class that handles 
+just the unique logon display, the data may be passed to a more general validation control class, 
+which performs a check on user IDs and passwords received from many other control classes 
+receiving messages from specific user interfaces. This increases reusability and isolates the logon 
+verification methods from the user interface handling methods.
+The rules for creating sequence diagrams are that all interface classes must be connected to a 
+control class. Similarly, all entity classes must be connected to a control class. Interface classes, 
+unlike the other two, are never connected directly to entity classes.
+Defining Messages and Methods
+Each message may be defined using a notation similar to that described for the data dictionary   
+(as shown in Chapter 8). The definition would include a list of the parameters passed with the 
+message as well as the elements contained in the return message. The methods may have logic 
+defined using structured English, a decision table, or a decision tree, as depicted in Chapter 9.
+The analyst can use the techniques of horizontal balancing with any class method. All the 
+data returned from an entity class must be obtained either from the attributes stored in the entity 
+class, from the parameters passed on the message sent to the class, or as a result of a calculation 
+performed by the method of the class. The method logic and parameters must be examined to 
+ensure that the method logic has all the information required to complete its work.
+ENHANCING SEQUENCE DIAGRAMS
+Once a class diagram is drawn, it may be desirable to go back to the sequence diagram and include 
+special symbols for each of the different types of classes introduced in the last section. Sequence 
+diagrams in particular can be overbearing if an analyst doesn’t have a systematic approach to 
+drawing them. The following steps are a useful approach to enhancing a sequence diagram:
+1. Include the actor from the use case diagram in the enhanced sequence diagram. This will 
+be a stick figure from the use case diagram. There may be an additional actor on the right 
+side of the diagram, such as a credit card company or bank.
+2. Define one or more interface classes for each actor. Each actor should have their own inter-
+face class.
+3. Create prototype web pages for all human interfaces.
+4. Ensure that each use case has one control class, although more may be created during the 
+detailed design. Look for that control class and include it in the sequence diagram.
+5. Examine the use case to see what entity classes are present. Include these on the diagram.
+6. Realize that the sequence diagram may be modified again when doing detailed design, such 
+as creating additional web pages or control classes (one for each Web form submitted).
+7. To obtain a greater degree of reuse, consider moving methods from a control class to an 
+entity class.
+A Class Example for the Web
+Classes may be represented using special symbols for entity, boundary (or interface), and con-
+trol classes. These are called stereotypes, an extension to UML, which are special symbols that
+
+
+===== BOOK PAGE 299 =====
+
+CHAPTER 10  •  OBJECT -ORIENTED SYSTEMS ANALYSIS AND DESIGN USING UML     299
+may be used during analysis but are often used when performing object-oriented design. They 
+give an analyst freedom to play with the design to optimize reusability.
+The different types of classes are often used when working in the systems design phase. 
+Figure 10.15 is an example of a sequence diagram representing a student viewing personal and 
+course information. In the diagram, :View Student User Interface is an example of an interface 
+class; :Student, :Section, and :Course are examples of entity classes; and :View Student 
+Interface Controller and :Calculate Grade Point Average are control classes.
+The student is shown on the left as an actor, and the student provides a userLogon to the 
+:View Student User Interface class. This is a web form that obtains the student’s user ID and 
+FIGURE 10.15
+A sequence diagram for using two web pages: one for student information and one for course information.
+:View
+Student
+User
+Interface
+:View
+Student
+Interface
+Controller
+:Student :Section :Course
+:Calculate
+Grade
+Point
+Average
+Student
+provide
+userLogon logon( ) getStudent( )
+return
+studentData
+return student-
+WebPage
+return
+courseWebPage
+display
+courseWebPage
+display student-
+WebPage
+click
+nextButton
+send
+studentNumber( ) getSection( )
+return
+sectionGrade
+calculateGPA( )
+getCourse( )
+return credits
+getCredits( )
+return courseData
+return GPA
+Control
+class
+Boundary
+or
+interface
+class
+Entity
+class
+
+
+===== BOOK PAGE 300 =====
+
+300    PART III  •  THE ANALYSIS PROCESS
+password. When the student clicks the Submit button, the Web form is passed to the :View 
+Student Interface Controller. This class is responsible for the coordination of sending messages 
+and receiving returned information from all the other classes.
+The :View Student Interface Controller  sends a getStudent()  message to the :Student  
+class, which reads a database table and proceeds to return the studentData.
+The studentWebPage is returned to the :View Student User Interface, which displays the 
+information in the Web browser. At the bottom of the page is a nextButton that the student clicks 
+to view courses. When the user clicks this button, it sends a Web form to the :View Student 
+Interface Controller. This form contains the studentNumber(), sent along with the student-
+WebPage, and is used to send a message to the :Section class to obtain the section grade. If the 
+studentNumber() was not automatically sent, it would mean that the student would have to enter 
+their studentNumber() again, which would not be a satisfactory user interface because it involves 
+redundant keying. Notice that the :Student class is not involved and that the focus of control  
+(the vertical bar that is connected to the :Student class) ends before the second set of activities (the  
+horizontal arrows pointing to the right) begins.
+The :View Student Interface Controller class sends a getSection() message to the :Section 
+class, which returns a sectionGrade. The :Section class also sends a calculateGPA() message 
+to the :Calculate Grade Point Average class, which sends a message back to the :Course class. 
+The :Course class returns the credits, which enables the :Calculate Grade Point Average class 
+to determine the GPA and return it to the :View Student Interface Controller.
+The :View Student Interface Controller would repeat sending messages to the :Section class 
+until all sections for the student have been included. At this time, the :View Student Interface 
+Controller would send the courseWebPage to the :View Student User Interface class, which 
+would display the information in the browser.
+Using the user interface, control, and entity classes also allows the analyst to explore and 
+play with the design. The design mentioned previously would display all the student personal 
+information on one page and the course information on a second page. The analyst may modify 
+the design so that the student personal information and the course information appear on one web 
+page. These two possible scenarios would be reviewed with users to determine the best option.
+One of the difficulties for the analyst is to determine how to include the studentNumber after 
+clicking the Next button because the :Student class is no longer available. There are three ways 
+to store and retransmit data from a web page:
+1. Include the information in the URL displaying in the address or location area of the 
+browser. In this case, the location line might read something like the following: http://www.
+cpu.edu/student/studentinq.html?studentNumber=12345. Everything after the question 
+mark is data that may be used by the class methods. This means of storing data is easy to 
+implement and is often used in search engines.
+There are several drawbacks to using this method, and an analyst must use due caution. 
+The first concern is privacy; anyone can read the Web address. If the application involves 
+medical information, credit card numbers, and so on, this is not a good choice. Most 
+browsers also display previous Web address data in subsequent sessions if the user enters 
+the first few characters, and the information may be compromised, leading to identity theft. 
+A second disadvantage is that the data are usually lost after the user closes the browser.
+2. Store the information in a cookie, a small file stored on the client (browser) computer. 
+Using cookies is the only way to store data that have persistence, existing beyond the 
+current browser session. This enables the web page to display a message such as “Welcome 
+back, Robin. If you are not Robin, click here.” Cookies usually store primary key account 
+numbers, but not credit card numbers or other private information. Cookies are limited to 
+20 per domain (such as www.cio.com), and each cookie must be 4,000 or fewer characters.
+An analyst must work with other business units to determine who needs to use 
+cookies, and there must be some central control over the names used in the cookies. If the 
+organization needs to have more than 20 cookies, a common solution is to create different 
+domain names used by the organization, such as support.cpu.edu or instruction.cpu.edu.
+3. Use hidden web form fields. These fields usually contain data that are sent by the server, are 
+invisible, and do not occupy any space on the web page. In the preceding example, the :View 
+Student Interface Controller class added a hidden field containing the studentNumber
+
+
+===== BOOK PAGE 301 =====
+
+CHAPTER 10  •  OBJECT -ORIENTED SYSTEMS ANALYSIS AND DESIGN USING UML     301
+to the studentWebPage form along with the nextButton. When the student clicks the 
+nextButton, the studentNumber is sent to the server, and the :View Student Interface 
+Controller knows which student to obtain course and grade information for. The data in 
+hidden forms is not saved from one browser session to another, so privacy is maintained.
+Presentation, Business, and Persistence Layers in Sequence Diagrams
+In the previous example, we showed all the classes in the same diagram. When it comes to writing 
+code for systems, it has been useful to look at sequence diagrams as having three distinct layers:
+1. The presentation layer, which represents what the user sees. This layer contains the 
+interface or boundary classes.
+2. The business layer, which contains the unique rules for this application. This layer contains 
+the control classes.
+3. The persistence, or data access, layer, which describes obtaining and storing data. This 
+layer contains the entity classes.
+Ideally, program code would be written separately for each of these layers.
+With the introduction of Ajax, the lines became blurred. Ajax, an acronym for Asynchro-
+nous JavaScript and XML, is a collection of techniques that allows Web applications to retrieve 
+information from the server without altering the display of the current page. This turns out to be 
+an advantage because the entire web page does not need to be reloaded when it gets additional 
+data from the server.
+Before Ajax was created, a user visiting a website would answer some questions by entering data 
+on a Web-based form and then wait until a new page is loaded. This was necessary because the code 
+to validate, get the data, and then answer the user resided on the server. With the advent of Ajax, the 
+web page is updated rapidly because much of the validation and other control logic is now included 
+in the browser JavaScript code or on the client side. This means that business rules are included in 
+both the boundary and the control class, so it might not be possible to have three distinct layers.
+ENHANCING CLASS DIAGRAMS
+The class symbols may also be used on class and communication diagrams. Figure 10.16 illus-
+trates a class diagram for a student viewing personal and course information on web pages. Each 
+class has attributes and methods (which are not shown on diagrams that use this notation).
+If the class is a user interface type of class, the attributes are the controls (or fields) on the 
+screen or form. The methods would be those that work with the screen, such as submit or reset. 
+They might also be JavaScript for a web page because the code works directly with the web page.
+If the class is a control class, the attributes would be those needed to implement the class, such 
+as variables used just in the control class. The methods would be those used to perform calcula-
+tions, make decisions, and send messages to other classes.
+If the class is an entity class, the attributes represent those stored for the entity and the 
+methods working directly with the entity, such as creating a new instance, modifying, deleting, 
+obtaining, or printing.
+A website may use a combination of many different classes to accomplish user objectives. 
+For example, a website may use JavaScript to prevalidate data, then pass data to the server control 
+classes, which perform thorough validation, including obtaining data. The server control classes 
+may in turn send JavaScript back to the web page to do some formatting. It is not uncommon to 
+have a Web application involve many classes, some of them containing only one line of code in a 
+method, in order to achieve the goal of reusability.
+Relationships
+Another way to enhance class diagrams is to show relationships. Relationships are connections 
+between classes, similar to those found on an E-R diagram. These are shown as lines connecting 
+classes on a class diagram. There are two categories of relationships: associations and whole/part 
+relationships.
+Associations. The simplest type of relationship is an association, or a structural connection 
+between classes or objects. Associations are shown as a simple line on a class diagram. The end
+
+
+===== BOOK PAGE 302 =====
+
+302    PART III  •  THE ANALYSIS PROCESS
+points of the line are labeled with a symbol indicating multiplicity, which is the same as cardinal-
+ity on an E-R diagram. A zero represents none, a one represents one and only one, and an asterisk 
+represents many. The notation 0..1 represents from zero to one, and the notation 1..* represents 
+from one to many. Associations are illustrated in Figure 10.17.
+Class diagrams do not restrict the lower limit for an association. For example, an association 
+might be 5..*, indicating that a minimum of five must be present. The same is true for upper limits. 
+For example, the number of courses a student is currently enrolled in may be 1..10, representing 
+from 1 to 10 courses. It can also include a range of values separated by commas, such as 2, 3, 4. 
+In the UML model, associations are usually labeled with a descriptive name.
+Association classes are used to break up a many-to-many association between classes. These 
+are similar to associative entities on an E-R diagram. Student and Course have a many-to-many 
+relationship, which is resolved by adding an association class called Section between the classes 
+of Student and Course. Figure 10.18 illustrates an association class called Section, shown with 
+a dotted line connected to the many-to-many relationship line.
+An object in a class may have a relationship to other objects in the same class; this is called 
+a reflexive association. An example would be a task having a precedent task or an employee 
+supervising another employee. This is shown as an association line connecting the class to itself, 
+with labels indicating the role names, such as task and precedent task.
+Whole/Part Relationships. A whole/part relationship occurs when one class represents a whole 
+object and other classes represent parts of that object. The whole acts as a container for the parts. 
+These relationships are shown on a class diagram by a line with a diamond on one end. The dia-
+mond is connected to the object that is the whole. Whole/part relationships (as well as aggregation, 
+discussed later) are shown in Figure 10.19.
+A whole/part relationship may be an entity object that has distinct parts, such as a com-
+puter system that includes the computer, printer, display, and so on, or an automobile that has an 
+engine, a brake system, a transmission, and so on. Whole/part relationships also may be used to 
+describe a user interface, in which one GUI screen contains a series of objects such as lists, boxes, 
+or radio buttons, or perhaps a header, body, and footer area. Whole/part relationships have three 
+categories: aggregation, collection, and composition.
+FIGURE 10.16
+A class diagram for the studentWebPage, using special class symbols.
+Student
+:Student :Course
+:View
+Student
+Interface
+Controller
+:Section
+:Calculate
+Grade
+Point
+Average
+:View
+Student
+User
+Interface
+
+
+===== BOOK PAGE 303 =====
+
+CHAPTER 10  •  OBJECT -ORIENTED SYSTEMS ANALYSIS AND DESIGN USING UML     303
+Aggregation An aggregation is often described as a “has a” relationship. Aggregation provides 
+a means of showing that the whole object is composed of the sum of its parts (other objects). 
+In the student enrollment example, the department has a course, and the course is for a  
+department. This is a weaker relationship because a department may be changed or removed 
+and the course may still exist. A computer package may not be available any longer, but the 
+printers and other components still exist. The diamond at the end of the relationship line is 
+not filled in.
+Collection A collection consists of a whole and its members. This may be a voting district with 
+voters or a library with books. The voters or books may change, but the whole retains its identity. 
+This is a weak association.
+FIGURE 10.17
+Types of associations that may 
+occur in class diagrams.
+Graduate Student
+–studentNumber
+–creditsCompleted
+–gradePointAverage
+–department
+–major
+–thesisNumber
+–advisor
++acceptStudent( )
++viewStudent( )
++changeStudent( )
++graduateStudent( )
+Thesis
+–thesisNumber
+–studentNumber
+–thesisTitle
+–dateStarted
+–completionDate
+–approvalDate
+–approvedBy
++addThesis( )
++change( )
++approveThesis( )
+1 1
+has
+Student
+–studentNumber
+–creditsCompleted
+–gradePointAverage
+–department
+–major
++initialize( )
++viewStudent( )
++changeStudent( )
++graduateStudent( )
+Course
+–courseNumber
+–courseDescription
+–numberOfCredits
+–departmentNumber
++addCourse( )
++changeCourse( )
++ﬁndCourse( )
+1 1..
+enrolls in
+Student
+–studentNumber
+–creditsCompleted
+–gradePointAverage
+–department
+–major
++initialize( )
++viewStudent( )
++changeStudent( )
++graduateStudent( )
+Dorm Room
+–dormName
+–roomNumber
+–roomSize
+–occupantGender
+–numberVacancies
++addRoom( )
++changeRoom( )
++ﬁndRoom( )
++changeVacancy( )
+1 0..
+is assigned to
+Student
+–studentNumber
+–creditsCompleted
+–gradePointAverage
+–department
+–major
++initialize( )
++viewStudent( )
++changeStudent( )
++graduateStudent( )
+Volunteer Activity
+–activityNumber
+–activityDescription
+–activityOrganization
+–activityDate
+–studentNumber
++addActivity( )
++changeActivity( )
++ﬁndActivity( )
++addVolunteer( )
+1
+participates in
+
+
+===== BOOK PAGE 304 =====
+
+304    PART III  •  THE ANALYSIS PROCESS
+Composition Composition, a whole/part relationship in which the whole has a responsibility for 
+the part, is a stronger relationship and is usually shown with a filled-in diamond. Keywords 
+for composition are one class “always contains” another class. If the whole is deleted, all parts 
+are deleted. An example would be an insurance policy with riders. If the policy is canceled, the 
+insurance riders are also canceled. In a database, the referential integrity would be set to delete 
+cascading child records. In a university there is a composition relationship between a course and 
+an assignment as well as between a course and an exam. If the course is deleted, assignments 
+and exams are deleted as well.
+FIGURE 10.19
+An example of whole/part and 
+aggregation relationships.
+Student
+–studentNumber
+–creditsCompleted
+–gradePointAverage
+–department
+–major
+–minor
++changeStudent( )
++ﬁndStudent( )
++graduateStudent( )
++initialize( )
++studentComplete( )
++viewStudent( )
+Campus Organization
+–organizationNumber
+–organizationName
+–organizationType
+–president
+–treasurer
+–secretary
+–accountBalance
+–numberOfMembers
++change( )
++changeOﬃcers( )
++new( )
+Fund Raising Activity
+–activityNumber
+–activityDescription
+–activityType
+–amountSpent
+–amountReceived
+–dateCompleted
++change( )
++new( )
++recordAmount( )
+FIGURE 10.18
+An example of an associative 
+class in which a particular section 
+defines the relationship between a 
+student and a course.
+Student
+–studentNumber
+–creditsCompleted
+–gradePointAverage
+–department
+–major
+–minor
++changeStudent( )
++ﬁndStudent( )
++graduateStudent( )
++initialize( )
++studentComplete( )
++viewStudent( )
+Course
+–courseNumber
+–courseDescription
+–numberOfCredits
+–departmentNumber
++addCourse( )
++changeCourse( )
++ﬁndCourse( )
+Section
+–studentNumber
+–courseNumber
+–year
+–semester
+–grade
++addSection( )
++changeGrade( )
++enrollStudent( )
++recordGrade( )
++withdrawStudent( )
+1.. 0..
+hastakes
+
+
+===== BOOK PAGE 305 =====
+
+CHAPTER 10  •  OBJECT -ORIENTED SYSTEMS ANALYSIS AND DESIGN USING UML     305
+Generalization/Specialization (Gen/Spec) Diagrams
+A generalization/specialization diagram may be considered to be an enhanced class diagram. 
+Sometimes it is necessary to separate the generalizations from the specific instances. As we men-
+tioned at the beginning of this chapter, a koala bear is part of a class of marsupials, which is part 
+of a class of animals. Sometimes we need to distinguish whether a koala bear is an animal or a 
+koala bear is a type of animal. Furthermore, a koala bear can be a stuffed toy animal. We often 
+need to clarify these subtleties.
+Generalization. A generalization describes a relationship between a general kind of thing 
+and a more specific kind of thing. This type of relationship is often described as an “is a” 
+relationship. For example, a car is a  vehicle, and a truck is a  vehicle. In this case, vehicle is 
+the general thing, whereas car and truck are the more specific things. Generalization relation-
+ships are used for modeling class inheritance and specialization. A general class is sometimes 
+called a superclass, base class, or parent class; a specialized class is called a subclass, derived 
+class, or child class.
+Inheritance. Several classes may have the same attributes or methods. When this occurs, a 
+general class is created containing the common attributes and methods. The specialized class 
+inherits or receives the attributes and methods of the general class. In addition, the specialized 
+class has attributes and methods that are unique and only defined in the specialized class. Creating 
+generalized classes and allowing the specialized class to inherit the attributes and methods helps 
+to foster reuse because the code is used many times. It also helps to maintain existing program 
+code. This allows the analyst to define attributes and methods once but use them many times, in 
+each inherited class.
+One of the special features of the object-oriented approach is the creation and maintenance 
+of large class libraries that are available in multiple languages. So, for instance, a programmer 
+using Java, .NET, or C# will have access to a huge number of classes that have already been 
+developed.
+Polymorphism. Polymorphism (meaning “many forms”), or method overriding (not the same 
+as method overloading), is the capability of an object-oriented program to have several versions 
+of the same method with the same name within a superclass/subclass relationship. The subclass 
+inherits a parent method but may add to it or modify it. The subclass may change the type of data 
+or change how the method works. For example, a customer might receive an additional volume 
+discount, and the method for calculating the order total will be modified. The subclass method is 
+said to override the superclass method.
+When attributes or methods are defined more than once, the most specific one (the lowest 
+in the class hierarchy) is used. The compiled program walks up the chain of classes, looking for 
+methods.
+Abstract Classes. Abstract classes are general classes and are used when gen/spec is included in 
+the design. The general class becomes the abstract class. The abstract class has no direct objects 
+or class instances and is only used in conjunction with specialized classes. Abstract classes usually 
+have attributes and may have a few methods.
+Figure 10.20 is an example of a gen/spec class diagram. The arrow points to the general 
+class, or superclass. Often the lines connecting two or more subclasses to a superclass are 
+joined using one arrow pointing to the superclass, but these could be shown as separate arrows 
+as well. Notice that the top level is Person, representing any person. The attributes describe 
+qualities that all people at a university have. The methods allow the class to change the name 
+and the address (including telephone and email address). This is an abstract class, with no 
+instances.
+Student and Employee are subclasses because they have different attributes and methods. 
+An employee does not have a grade point average and a student does not have a salary. This is a 
+simple version and does not include employees who are students and students who work for the 
+university. If these were added, they would be subclasses of the Employee and Student classes. 
+Employee has two subclasses, Faculty and Administrator, because there are different attributes 
+and methods for each of these specialized classes.
+
+
+===== BOOK PAGE 306 =====
+
+306    PART III  •  THE ANALYSIS PROCESS
+Subclasses have special verbs to define them. These are often run-on words, such as isa for 
+“is a,” isakinda for “is a kind of,” and canbea for “can be a.” There is no distinction between “is 
+a” and “is an”; they both use isa.
+isa Faculty isa Employee
+isakinda Administrator isakinda Employee
+canbea Employee canbea Faculty
+Identifying Abstract Classes. You may be able to identify abstract classes by looking to see if a 
+number of classes or database tables have the same elements or if a number of classes have the 
+same methods. You can create a general class by pulling out the common attributes and methods, 
+or you might create a specialized class for the unique attributes and methods. Using a banking 
+example, a withdrawal, a payment on a loan, or a check written, will all have the same method—
+subtracting money from the customer balance.
+Finding Classes. There are a number of ways to determine classes. They may be discovered 
+during interviewing or joint application design (JAD) sessions (described in Chapter 4), during 
+facilitated team sessions, or from brainstorming sessions. Analyzing documents and memos may 
+also reveal classes. One of the easiest ways is to use the CRC method described previously in this 
+FIGURE 10.20
+A gen/spec diagram is a refined 
+form of a class diagram.
+Person
+–lastName
+–ﬁrstName
+–street
+–apartment
+–city
+–state
+–zip
+–telephone
+–cellPhone
+–email
++changeAddress( )
++changeName( )
+Student
+–studentNumber
+–creditsCompleted
+–gradePointAverage
+–department
+–major
+–minor
++changeStudent( )
++ﬁndStudent( )
++graduateStudent( )
++initialize( )
++studentComplete( )
++viewStudent( )
+Employee
+–employeeNumber
+–salary
+–YTDGross
+–YTDWithholding
+–dateHired
+–department
++changeEmployee( )
++printTaxInformation( )
++producePaycheck( )
+canbea
+isa
+canbea
+isa
+Faculty
+–degree
+–position
+–webURL
++changePosition( )
++changeURL( )
+Administrator
+–title
++changeEmployee( )
+canbea
+isa
+canbea
+isakinda
+
+
+===== BOOK PAGE 307 =====
+
+CHAPTER 10  •  OBJECT -ORIENTED SYSTEMS ANALYSIS AND DESIGN USING UML     307
+chapter. An analyst should also examine use cases, looking for nouns. Each noun may lead to a 
+candidate or potential class. They are called candidate classes because some of the nouns may be 
+attributes of a class.
+Each class should exist for a distinct object that has a clear definition. An analyst should 
+ask what the class knows (the attributes) and what the class knows how to do (the methods). The 
+analyst should identify class relationships and the multiplicity for each end of the relationship. If 
+the relationship is many-to-many, the analyst should create an intersection or associative class, 
+similar to the associative entity in an E-R diagram.
+Determining Class Methods. An analyst must determine class attributes and methods. Attributes 
+are easy to identify, but the methods that work with the attributes may be more difficult to define. 
+Some of the methods are standard and are always associated with a class, such as the new() 
+method or the «create» method, which is an extension to UML called a stereotype. (The « » 
+symbols are not simply pairs of greater than and less than symbols; they are called guillemets 
+or chevrons.)
+Another useful way to determine methods is to examine a create, read, update, delete (CRUD) 
+matrix (see Chapter 7). Figure 10.21 illustrates a CRUD matrix for course offerings. Each letter 
+requires a different method. If there is a C for create, you add a new() method. If there is a U 
+for update, you add an update() or change() method. If there is a D for delete, you add a delete() 
+or remove() method. If there is an R for read, you add methods for finding, viewing, or printing. 
+In the example shown, the textbook class would need a create method to add a textbook and a 
+read method to initiate a course inquiry, change a textbook, or find a textbook. If a textbook were 
+replaced, an update method would be needed, and if a textbook were removed, a delete method 
+would be required.
+FIGURE 10.21
+A CRUD matrix can be used to 
+help determine what methods are 
+needed. This CRUD matrix is 
+used to determine the methods and 
+operations for course offerings.
+Activity Department Course Textbook Exam
+Add Department C
+View Department
+Add Course
+C
+Change Course
+RU
+Course Inquiry R R R R
+R
+C
+U
+R
+RAdd Textbook
+Change Textbook R
+R
+R
+R
+R
+R
+Find Textbook
+Remove Textbook R
+Add Assignment R
+Change Assignment R
+Assignment
+D
+C
+RU
+View Assignment R R
+Add Exam R R
+Change Exam R RU
+View Exam R R
+
+
+===== BOOK PAGE 308 =====
+
+308    PART III  •  THE ANALYSIS PROCESS
+Messages. To accomplish useful work, most classes need to communicate with one another. An 
+object in one class can send information to an object in another class by using a message, similar 
+to a call in a traditional programming language. A message also acts as a command, telling the 
+receiving class to do something. A message consists of the name of the method in the receiving 
+class, as well as the attributes (parameters or arguments) that are passed with the method name. 
+The receiving class must have a method corresponding to the message name.
+Messages are sent from one class to another, so they may be thought of as an output or an 
+input. The first class must supply the parameters included with the message, and the second class 
+uses the parameters. If a physical child data flow diagram exists for the problem domain, it may 
+help to discover methods. The data flow from one primitive process to another represents the 
+message, and the primitive processes should be examined as candidate methods.
+STATECHART DIAGRAMS
+Using a statechart, or state transition, diagram is another way to determine class methods. It is 
+used to examine the different states that an object may have.
+A statechart diagram is created for a single class. Typically, objects are created, go through 
+changes, and are deleted or removed.
+Objects exist in these various states, which are the conditions of an object at a specific time. 
+An object’s attribute values define the state that the object is in, and sometimes there is an attribute, 
+such as Order Status (pending, picking, packaged, shipped, received, and so on) that indicates 
+the state. A state has a name in which each word is capitalized. The name should be unique and 
+meaningful to the users. A state also has entry and exit actions, the things the object must do every 
+time it enters or leaves a given state.
+An event is something that happens at a specific time and place. Events cause a change of 
+the object state, and it is said that a transition “fires.” States separate events, such as an order that 
+is waiting to be filled, and events separate states, such as an Order Received event or an Order 
+Complete event.
+An event causes the transition and happens when a guard condition has been met. A guard 
+condition is something that evaluates to either true or false and may be as simple as “Click to 
+confirm order.” It also may be a condition that occurs in a method, such as an item that is out of 
+stock. Guard conditions are shown in square brackets next to the event label.
+There are also deferred events, or events that are held until an object changes to a state that 
+can accept them. A user keying something in when a word processor is performing a timed backup 
+is an example of a deferred event. After the timed backup has completed, the text appears in the 
+document.
+Events fall into three categories:
+1. Signals or asynchronous messages, which occur when the calling program does not wait 
+for a returning message, such as a feature run from a menu.
+2. Synchronous messages, which are calls to functions or subroutines. The calling object 
+stops and waits for control to be returned to it, along with an optional message.
+3. Temporal events, which occur at a predetermined time. These usually do not involve an 
+actor or any external event.
+Material objects have persistence; that is, they exist for a long period of time. Airplane flights, 
+concerts, and sporting events have shorter persistence (they may have states that transition in a 
+shorter time). Some objects, called transient objects, do not survive the end of a session. These 
+include main memory, Web URL (or location) data, web pages, CICS displays, and so on. The 
+only way to save transient objects is to store information about them, such as storing Web data 
+in a cookie.
+Each time an object changes state, some of the attributes change their values. Furthermore, 
+each time an object’s attributes change, there must be a method to change the attributes. Each 
+of the methods needs a display or Web form to add or change the attributes. These become the 
+interface objects. The display or Web form often has more controls (or fields) than just the attri-
+butes that change. It would usually have primary keys, identifying information (such as a name or 
+address), and other attributes that are needed for a good user interface. The exception is a temporal 
+event, which may use database tables or a queue containing the information.
+
+
+===== BOOK PAGE 309 =====
+
+CHAPTER 10  •  OBJECT -ORIENTED SYSTEMS ANALYSIS AND DESIGN USING UML     309
+A State Transition Example
+Consider a student enrolling at a university and the various states they would go through. Three 
+of the states are listed below in detail:
+State: Potential Student
+Event: Application Submitted
+Method: new()
+Attributes changed: Number
+Name
+Address
+User interface: Student Application Web Form
+State: Accepted Student
+Event: Requirements Met
+Method: acceptStudent()
+Attributes changed: Admission Date
+Student Status
+Return Acceptance Letter
+User interface: Accept Student Display
+State: Dorm Assigned Student
+Event: Dorm Selected
+Method: assignDorm()
+Attributes changed: Dorm Name
+Dorm Room
+Meal Plan
+User interface: Assign Student Dorm Display
+The other states are Program Student, Current Student, Continuing Student, and 
+Graduated Student. Each state would have an event, methods, attributes changed, and a user 
+interface associated with it. This series of states can be used to determine the attributes and meth-
+ods that make up part of the class.
+The states and events that trigger the changes may be represented on a statechart diagram 
+(or a state transition diagram). The statechart diagram for Student is illustrated in Figure 10.22. 
+States are represented by rectangles, and events or activities are the arrows that link the states and 
+cause one state to change to another state. Transition events are named in the past tense because 
+they have already occurred to create the transition.
+Statechart diagrams are not created for all classes. They are created when:
+1. A class has a complex life cycle.
+2. An instance of a class may update its attributes in a number of ways throughout the life cycle.
+3. A class has an operational life cycle.
+4. Two classes depend on each other.
+5. The object’s current behavior depends on what happened previously.
+When you examine a statechart diagram, use the opportunity to look for errors and excep-
+tions. Inspect the diagram to see whether events are happening at the wrong time. Also check 
+that all events and states have been represented. Statechart diagrams have only two problems to 
+avoid. Check to see that a state does not have all transitions going into the state or all transitions 
+coming out of the state.
+Each state should have at least one transition in and out of it. Some statechart diagrams use the 
+same start and terminator symbols that an activity diagram uses: a filled-in circle to represent 
+the start and concentric circles with the center filled in to signify the end of the diagram.
+PACKAGES AND OTHER UML ARTIFACTS
+Packages are containers for other UML things, such as use cases or classes. Packages can show sys-
+tem partitioning, indicating which classes or use cases are grouped into a subsystem, called logical 
+packages. They also may be component packages, which contain physical system components, or
+
+
+===== BOOK PAGE 310 =====
+
+310    PART III  •  THE ANALYSIS PROCESS
+use case packages, containing a group of use cases. Packages use a folder symbol with the pack-
+age name either in the folder tab or centered in the folder. Packaging can occur during systems 
+analysis, or later when the system is being designed. Packages also may have relationships, similar 
+to class diagrams, that may include associations and inheritance.
+Figure 10.23 is an example of a use case package diagram. It shows that four use cases, 
+Add Student, Enroll in Class, Transfer Credits, and View Student Information, are part of 
+the Student package. Three use cases, Add Faculty, View Faculty Information, and Assign 
+Faculty to Course, are part of the Faculty package.
+As you continue constructing diagrams, you will want to make use of component diagrams, 
+deployment diagrams, and annotational things. These permit different perspectives on the work 
+being accomplished.
+A component diagram is similar to a class diagram, but it is more of a bird’s-eye view of the 
+system architecture. The component diagram shows the components of the system, such as a class 
+file, a package, shared libraries, a database, and so on, and how they are related to each other. The 
+individual components in a component diagram are considered in more detail within other UML 
+diagrams, such as class diagrams and use case diagrams.
+A deployment diagram illustrates the physical implementation of the system, including the  
+hardware, the relationships between the hardware, and the system on which it is deployed. 
+The deployment diagram may show servers, workstations, printers, and so on.
+Annotational things give developers more information about the system. These consist of 
+notes that can be attached to anything in UML: objects, behaviors, relationships, diagrams, or any-
+thing that requires detailed descriptions, assumptions, or any information relevant to the design and 
+functionality of the system. The success of UML relies on the complete and accurate documentation 
+of your system model to provide as much information as possible to the development team.  
+FIGURE 10.22
+A statechart diagram that shows 
+how a student progresses from 
+being a potential student to a 
+graduated student.
+Potential
+Student
+Accepted
+Student
+application
+submitted
+requirements
+met
+dorm
+selected
+student enrolled
+in class
+Dorm Assigned
+Student
+program
+selected
+Program
+Student
+graduation
+requirements
+complete
+Current
+Student
+successful
+course
+completion
+student
+enrolled
+in class
+student
+graduated
+Graduated
+Student
+Continuing
+Student
+
+
+===== BOOK PAGE 311 =====
+
+CHAPTER 10  •  OBJECT -ORIENTED SYSTEMS ANALYSIS AND DESIGN USING UML     311
+Notes provide a source of common knowledge and understanding about your system to help put 
+your developers on the same page. Notes are shown as a paper symbol with a bent corner and a 
+line connecting them to the area that needs elaboration.
+PUTTING UML TO WORK
+UML provides a useful toolset for systems analysis and design. As with any other product created 
+with the help of tools, the value of UML deliverables in a project depends on the expertise with 
+which the systems analyst wields the tools. The analyst will initially use the UML toolset to break 
+down the system requirements into a use case model and an object model. The use case model 
+describes the use cases and actors. The object model describes the objects and object associations, 
+and the responsibilities, collaborators, and attributes of the objects.
+1. Define the use case model:
+• Find the actors in the problem domain by reviewing the system requirements and inter -
+viewing some business experts.
+• Identify the major events initiated by the actors and develop a set of primary use cases at 
+a very high level that describe the events from the perspective of each actor.
+• Develop the use case diagrams to provide understanding of how the actors relate to the 
+use cases that will define the system.
+• Refine the primary use cases to develop a detailed description of system functionality for 
+each primary use case. Provide additional details by developing the use case scenarios 
+that document the alternate flows of the primary use cases.
+• Review the use case scenarios with the business area experts to verify processes and 
+interactions. Make modifications as necessary until the business area experts agree that 
+the use case scenarios are complete and accurate.
+FIGURE 10.23
+Use cases can be grouped into 
+packages.
+Department
+Faculty Member
+Student
+Financial Oﬃce
+Registration
+Student
+Administration
+View Faculty
+Information
+Add
+Student
+Transfer
+Credits
+Enroll
+in Class
+View Student
+Information
+Add
+Faculty
+Assign Faculty
+to Course
+Student
+Faculty
+
+
+===== BOOK PAGE 312 =====
+
+312    PART III  •  THE ANALYSIS PROCESS
+2. Continue UML diagramming to model the system during the systems analysis phase:
+• Derive activity diagrams from use case diagrams.
+• Develop sequence and communication diagrams from use case scenarios.
+• Review the sequence diagrams with the business area experts to verify processes and 
+interactions. Make modifications as necessary until the business area experts agree that 
+the sequence diagrams are complete and accurate. This additional review of the graphical 
+sequence diagrams often provides the business area experts with an opportunity to rethink 
+and refine processes in more atomic detail than the review of the use case scenarios.
+canceled when the patron checks out the book or journal or 
+through a formal canceling service.
+As Dewey looks up from the report, she says to Peri, “I’m 
+beginning to understand the patron (or user) requirements. I see 
+lots of similarities between my old university library and yours. 
+One item I didn’t see covered, though, was how you decide what the 
+library should collect and what it should get rid of.”
+Peri chuckles and replies, “That’s an insightful question. The 
+library staff handles the purchase of new books and journals for 
+the library. If something is popular, more than two copies are pur -
+chased. We can create, update, and delete information about titles 
+and copies of books and journals, patrons, loan of materials, and 
+reservations in the system.”
+Dewey looks up from her notepad and says, “I’m still a little 
+confused. What’s the difference between the terms title and copy?”
+Peri responds, “The library can have several copies of a title. 
+Title normally refers to the name of a book or journal. Copies of a 
+title are actually lent out from the library.”
+Based on Dewey’s interview with Peri and the requirements 
+description in Peri’s report, as well as your own experience using 
+library services, use UML to answer the following questions. (Note: 
+It is important to make sure your solutions are logical and workable. 
+State your assumptions clearly whenever necessary.)
+1. Draw a use case diagram to represent actors and use cases in 
+the system.
+2. For each use case, describe the steps (as we did to organize 
+the use cases).
+3. Describe scenarios for the steps. In other words, create a 
+patron and write up an example of the patron as they go 
+through each step.
+4. Develop a list of things.
+5. Create sequence diagrams for use cases based on steps and 
+scenarios.
+6. Complete the class diagram by determining relationships 
+between classes and defining the attributes and methods of 
+each class. Use the grouping thing called package to simplify 
+the class diagram.
+CONSULTING OPPORTUNITY 10.3 
+Developing a Fine System That Was Long Overdue: Using  
+Object-Oriented Analysis for the Ruminski Public Library System*
+As Dewey Dezmal enters the high-ceilinged, wood-paneled 
+reading room of the Ruminski Public Library, a young woman, 
+seated at a long, oak table, pokes her head out from behind a 
+computer screen, sees her, and stands, saying, “Welcome. I’m Peri 
+Otticle, the director of the library. I understand you are here to help 
+us develop our new information system.”
+Still in awe of the beauty of the old library building and the 
+juxtaposition of so much technology amid so much history, Dewey 
+introduces herself as a systems analyst with a small IT consulting 
+firm, People and Objects, Inc.
+“It’s the first time I’ve been assigned to this type of project, 
+although it’s actually interesting for me, because my degree is from 
+the Information Studies School at Upstate University. You can major 
+in library science or IT there, so lots of my classmates went on to 
+work in public libraries. I opted for the IT degree.”
+“We should work well together, then,” Peri says. “Let’s go to my 
+office so we don’t disturb any patrons, and I can talk you through 
+a report I wrote.”
+As they pass the beautiful, winding staircase seemingly sculpted 
+in wood, Peri notices Dewey looking at the surroundings and says, 
+“You may wonder about the grandeur of the building, because we 
+are a public institution. We are fortunate. Our benefactor is Valerian 
+Ruminski. In fact, he has donated so much money to so many librar-
+ies that the staff affectionately calls him ‘Valerian the Librarian.’”
+As they pass several patrons, Peri continues, “As you can see, 
+it’s a very busy place. Even though we also have many online read-
+ers who just browse materials online. And, regardless of our old 
+surroundings, we don’t dwell in the past.”
+Dewey reads the report Peri has handed her. One large section is 
+titled “Summary of Patrons’ Main Requirements,” and the bulleted 
+list states:
+ • A library patron who is registered in the system can borrow 
+books and magazines from the system.
+ • The library system should periodically check (at least once per 
+week) whether a copy of a book or journal borrowed by a patron 
+has become overdue. If so, a notice will be sent to the patron.
+ • A patron can reserve a book or journal that has been lent out 
+or is in the process of purchase. The reservation should be 
+* Based on a problem by Dr. Wayne Huang.
+
+
+===== BOOK PAGE 313 =====
+
+CHAPTER 10  •  OBJECT -ORIENTED SYSTEMS ANALYSIS AND DESIGN USING UML     313
+3. Develop the class diagrams:
+• Look for nouns in use cases and list them. They are potential objects. Once you identify 
+the objects, look for similarities and differences in the objects due to the objects’ states or 
+behavior, and then create classes.
+• Define the major relationships between the classes. Look for “has a” and “is a” relation-
+ships between classes.
+• Examine use case and sequence diagrams to determine classes.
+• Beginning with the use cases that are the most important to the system design, create class 
+diagrams that show the classes and relationships that exist in the use cases. One class dia-
+gram may represent the classes and relationships described in several related use cases.
+4. Draw statechart diagrams:
+• Develop statechart diagrams for certain class diagrams to provide further analysis of the 
+system at this point. Use statechart diagrams to aid in understanding complex processes 
+that cannot be fully derived by the sequence diagrams.
+• Determine methods by examining statechart diagrams. Derive state (data) class attributes 
+from use cases, business area experts, and class methods. Indicate whether the methods 
+and attributes of the class are public (accessible externally) or private (internal to the 
+class). The statechart diagrams are extremely useful in modifying class diagrams.
+5. Begin systems design by refining UML diagrams and using them to derive classes and their 
+attributes and methods:
+• Review all existing UML diagrams for the system. Write class specifications for each 
+class that include the class attributes, methods, and their descriptions. Review sequence 
+diagrams to identify other class methods.
+• Develop methods specifications that detail the input and output requirements for the 
+method, along with a detailed description of the internal processing of the method.
+• Create another set of sequence diagrams (if necessary) to reflect the actual class methods 
+and interactions with each other and the system interfaces.
+• Create class diagrams, using the specialized class symbols for boundary or interface 
+class, entity class, and control class.
+• Analyze the class diagrams to derive the system components, that is, functionally and 
+logically related classes that will be compiled and deployed together as a .DLL, a .COM 
+object, a Java Bean, a package, and so forth.
+• Develop deployment diagrams to indicate how your system components will be deployed 
+in the production environment.
+6. Document your system design in detail. This step is critical. The more complete the infor-
+mation you provide the development team through documentation and UML diagrams, the 
+faster the development and the more solid the final production system.
+THE IMPORTANCE OF USING UML FOR MODELING
+UML is a powerful tool that can greatly improve the quality of your systems analysis and design, 
+and it is hoped that the improved practices will translate into higher-quality systems.
+By using UML iteratively in analysis and design, you can achieve a greater understanding 
+between the business team and the IT team regarding the system requirements and the processes 
+that need to occur in the system to meet those requirements.
+The first iteration of analysis should be at a very high level, to identify the overall system 
+objectives and validate the requirements through use case analysis. Identifying the actors and 
+defining the initial use case model are part of this first iteration. Subsequent iterations of analy-
+sis further refine the system requirements through the development of use case scenarios, class 
+diagrams, sequence diagrams, statechart diagrams, and so on. Each iteration takes a successively 
+more detailed look at the design of the system until the things and relationships in the system are 
+clearly and precisely defined in UML documents.
+When your analysis and design are complete, you should have an accurate and detailed set of 
+specifications for the classes, scenarios, activities, and sequencing in the system. In general, you
+
+
+===== BOOK PAGE 314 =====
+
+314    PART III  •  THE ANALYSIS PROCESS
+can relate the thoroughness of the analysis and design of a system to the amount of time required 
+to develop the system and the resultant quality of the delivered product.
+Often overlooked in the development of a new system is that the further a project progresses, 
+the costlier the changes are to the business requirements of a system. Changing the design of a 
+system using a computer-aided software engineering tool, or even on paper, during the analysis 
+and design phases of a project is easier, faster, and much less expensive than doing so during the 
+development phase of the project.
+Unfortunately, some employers are shortsighted, believing that only when a programmer or 
+analyst is coding is that employee actually working. Some employers erroneously assume that 
+programmer productivity can be judged solely by the amount of code produced, without recogniz-
+ing that diagramming ultimately saves time and money that might otherwise be wasted if a project 
+is prototyped without proper planning.
+An analogy to building a house is very apt in this situation. You do not want to live in a 
+structure built without planning, one in which rooms and features are randomly added without 
+regard to function or cost. You want a builder to build your agreed-upon design from blueprints 
+containing specifications that have been carefully reviewed by everyone concerned. As a member 
+of an analyst team so accurately observed, “Putting a project on paper before coding will wind 
+up costing less in the long run. It’s much cheaper to erase a diagram than it is to change coding.”
+When business requirements change during the analysis phase, you may have to redraw some 
+UML diagrams. If the business requirements change during the development phase, however, a 
+substantial amount of time and expense may be required to redesign, recode, and retest the system. 
+By confirming your analysis and design on paper (especially through the use of UML diagrams) 
+with users who are business area experts, you help to ensure that correct business requirements 
+will be met when the system is completed.
+have actually been making small changes in the CSR user inter -
+face for the past eight months anyway. The CSR users have been 
+calling us directly and begging for help. They usually want just a 
+small change to one isolated part of the system, but that has cre-
+ated a high labor drain because we must recertify the entire system. 
+You know how the effects of a small change can ripple through 
+a large program. We’ve billed the time to program maintenance 
+on the grounds that we thought we were just fine-tuning the com-
+pleted system. Although the changes have been gradual, in eight 
+months we’ve pretty much rewritten about a quarter of the CSR 
+user interface code already. The work has not been falling off. It’s 
+still pretty steady.”
+“So, what you’re telling me,” says Bradley, “is that we have 
+system needs in this area that have been changing constantly while 
+we tried to write specifications, tried to write program code, and 
+tried to make a fixed solution work against a fluid problem. How 
+can we afford to write programs if they will only last a few months?”
+How can Bradley manage a systems development process that 
+no longer has fixed or constant business processes as part of its goal 
+set? Is there a way for Rachael to manage specification and control 
+maintenance costs when programmers are constantly asked to tin -
+ker with isolated parts of a large program? Write two paragraphs to 
+answer these questions. Keep in mind that an important goal is to 
+provide good support for the users’ needs and the organization’s busi-
+ness strategies.
+CONSULTING OPPORTUNITY 10.4 
+C-Shore++
+“They want the core of the customer service representative’s 
+user interface to be radically reprogrammed again!” says Bradley 
+Vargo, the information systems development director at C-Shore 
+Mutual Funds, based in Burton, Michigan. “Only eight months 
+ago, we completed a two-year development project of the CSR 
+[Customer Service Representative] system. During that entire proj-
+ect, we endured a parade of moving requirements. Every month, 
+Chelsea and Jonathan from Marketing would invent some com-
+petitive new customer service feature, and within a week, the CSR 
+group would be down here with vast changes to the CSR system 
+specifications. I thought we’d never finish that project! Now it looks 
+as if we will have to start a new reprogramming project on a system 
+less than a year old. We had forecast this system for a seven-year 
+lifespan! Now I think it may be going into eternal reconstruction.”
+Bradley is talking with Rachael Ciupek, the senior applica-
+tion systems analyst responsible for the CSR system, and Bridget 
+Ciupek, her sister and the programmer who wrote most of the user 
+interface. “Calm down, Bradley,” says Rachael. “It is not the fault of 
+the people in Marketing or CSR. The nature of our business has been 
+affected by fast-paced competition. Marketing doesn’t invent these 
+changes out of boredom. They are often responding to new, web-
+based customer services offered by our competition. We have to 
+stay ahead or at least keep up, or we’ll all be looking for new jobs.”
+“Bradley, Rachael, I think you better know that the situation 
+may be worse than you think,” Bridget chips in. “The programmers
+
+
+===== BOOK PAGE 315 =====
+
+CHAPTER 10  •  OBJECT -ORIENTED SYSTEMS ANALYSIS AND DESIGN USING UML     315
+Summary
+Object-oriented systems describe entities as objects. Objects are part of a general concept called classes, the 
+main unit of analysis in object-oriented analysis and design. When the object-oriented approach was first 
+introduced, advocates cited reusability of the objects as the main benefit of the approach. Although reusability 
+is the main goal, maintaining systems is also very important.
+Analysts can use CRC cards to begin the process of object modeling in an informal way. Object 
+Think can be added to the CRC cards to assist the analyst in refining responsibilities into smaller and 
+smaller tasks. CRC sessions can be held with a group of analysts to determine classes and responsibilities 
+interactively.
+Unified modeling language (UML) provides a standardized set of tools to document the analysis and 
+design of a software system. UML is fundamentally based on an object-oriented technique known as use 
+case modeling. A use case model describes what a system does without describing how the system does 
+it. A use case model partitions system functionality into behaviors (called use cases) that are significant to 
+the users of the system (called actors). Different scenarios are created for each different set of conditions 
+of a use case.
+The main components of UML are things, relationships, and diagrams. Diagrams are related to one 
+another. Structural things are most common; they include classes, interfaces, use cases, and many other 
+elements that provide a way to create models. Structural things allow the user to describe relationships. 
+Behavioral things describe how things work. Group things are used to define boundaries. Annotational things 
+permit the analyst to add notes to the diagrams.
+Relationships are the glue that holds the things together. Structural relationships are used to tie the 
+things together in structural diagrams. Structural relationships include dependencies, aggregations, asso-
+ciations, and generalizations. Behavioral diagrams use the four basic types of behavioral relationships: 
+communicates, includes, extends, and generalizes.
+The toolset of UML is composed of UML diagrams. They include use case diagrams, activity diagrams, 
+sequence diagrams, communication diagrams, class diagrams, and statechart diagrams. In addition to using 
+the diagrams, analysts can describe a use case by writing a use case scenario.
+Using UML iteratively in analysis and design allows for greater understanding between a business team 
+and an IT team regarding the system requirements and the processes that need to occur in a system to meet 
+those requirements.
+Keywords and Phrases
+abstract class
+activity diagram
+actor
+aggregation
+Ajax
+annotational thing
+association
+asynchronous message
+boundary class
+branch
+class
+class diagram
+communication diagram
+control class
+CRC cards
+dependencies
+deployment diagram
+entity class
+event
+fork
+generalization/specialization (gen/spec) diagram
+inheritance
+join
+main path
+merge
+message
+method overloading
+method overriding
+object
+object-oriented
+package
+polymorphism
+primary use case
+relationship
+sequence diagram
+state
+statechart diagram
+swimlane
+synchronization bar
+synchronous message
+temporal event
+unified modeling language (UML)
+use case diagram
+use case scenario
+whole/part relationship
+
+
+===== BOOK PAGE 316 =====
+
+316    PART III  •  THE ANALYSIS PROCESS
+Review Questions
+1. List two reasons for taking an object-oriented approach to systems development.
+2. Describe the difference between a class and an object.
+3. Explain the concept of inheritance in object-oriented systems.
+4. What does CRC stand for?
+5. Describe what Object Think adds to the CRC card.
+6. What is UML?
+7. What are the three major elements of UML?
+8. List what the concept of structural things includes.
+9. List what the concept of behavioral things includes.
+10. What are the two main types of diagrams in UML?
+11. List the diagrams included in a structural diagram.
+12. List the diagrams included in a behavioral diagram.
+13. What does a use case model describe?
+14. Would you describe a use case model as a logical or a physical model of a system? Defend your 
+answer in a paragraph.
+15. Define what an actor is in a use case diagram.
+16. What three things must a use case always describe?
+17. What does an activity diagram depict?
+18. Write a paragraph that describes the use of swimlanes on activity diagrams.
+19. What can be depicted on a sequence or communication diagram?
+20. Why is defining classes such an important object-oriented analysis task?
+21. What can be shown on a class diagram?
+22. Define method overloading.
+23. List the four categories into which classes fall.
+24. What are the steps in creating a sequence diagram?
+25. What are the two categories of relationships between classes?
+26. How are gen/spec diagrams used?
+27. What is another term for polymorphism?
+28. What does a statechart diagram depict?
+29. What is a package in the UML approach?
+30. Why is using UML for modeling important?
+Problems
+1. Create a series of CRC cards for the World’s Trend Catalog Division (note that their business 
+activities are listed in Consulting Opportunity 10.1 earlier in this chapter). Once an order is placed, 
+the order fulfillment crew takes over and checks for availability, fills the order, and calculates the 
+total amount of the order. Use five CRC cards, one for each of the following classes: order, order 
+fulfillment, inventory, product, and customer. Complete the section on classes, responsibilities, and 
+collaborators.
+2. Finish the CRC cards in Problem 1 by creating Object Think statements and property names for each 
+of the five classes.
+3. Draw a use case diagram for the World’s Trend Catalog Division.
+4. Draw four pictures, showing examples of four types of behavioral relationships for Joel Porter’s 
+BMW automobile dealership. What type of relationship is involved when a customer must arrange 
+financing? Are there common activities involved when a person either leases or buys an automobile? 
+What type of relationship is between an employee who is a manager or one who is a salesperson?
+5. Draw a communication diagram for a student taking a course from a teacher who is part of the 
+faculty.
+6. Coleman County has a phone exchange that handles calls between callers and those receiving the 
+call. Given these three actors, draw a simple sequence diagram for making a simple phone call.
+7. You are ready to begin UML modeling for the Aldo Sohm Clinic. Draw a class diagram that includes 
+a physician, a patient, an appointment, and a patient’s bill. Do not get the insurance company 
+involved.
+8. Use UML to draw examples of the four structural relationships for the Aldo Sohm Clinic.
+9. Write a sample use case scenario for a patient who sees a physician in the Aldo Sohm Clinic.
+
+
+===== BOOK PAGE 317 =====
+
+CHAPTER 10  •  OBJECT -ORIENTED SYSTEMS ANALYSIS AND DESIGN USING UML     317
+10. Adaku’s Supermarket, a small chain of grocery stores, is building a website to allow customers 
+to place online orders for groceries and other items. The customer places a web order, the cus-
+tomer master is updated, and an order record is created. The order prints at a local store, and store 
+employees pick the goods from the shelves. The customer is then sent an email notification that their 
+order is ready. When the customer picks up the order, frozen goods, chilled products, and other items 
+are assembled. Draw an activity diagram showing the customer using the website to place an order, 
+verification of the order, order confirmation, order details sent to the local store, and a customer email 
+sent to the customer.
+11. Sludge’s Auto (refer to Chapter 12) is as an auto parts recycling center that is using Ajax on websites 
+for customers to browse for parts. Ajax allows the website to obtain data from the server while the 
+user stays on the original web page. The customer needs to know the make, model, and year of a car 
+as well as the part. If the part is in stock, the description, condition of the part, price, and shipping 
+cost are displayed, with the quantity available for each condition of the part, along with a picture 
+of the part. Draw a sequence diagram using boundary, control, and entity classes for the Auto Part 
+Query for Sludge’s Auto.
+12. Musixscore.com is an online service providing vocal or instrumental sheet music to customers who 
+like to sing or play instruments. On the “Browse Music” web page, customers select a genre of music 
+from a drop-down list. The web page uses Ajax to obtain a list of performers, musicians, or groups 
+that match the genre, which is formatted as a drop-down list. When a selection is made from the 
+performer’s drop-down list, the web page uses Ajax to display a third drop-down list displaying all 
+the CDs or other works of the performer. When a CD is selected, the web page uses Ajax to obtain 
+all the songs on the CD in a fourth drop-down list. The viewer may make multiple selections. When 
+the Add to Shopping Cart image is clicked, the songs are added to the shopping cart. The viewer may 
+change any of the drop-down lists to select additional sheet music, and the process is repeated.
+a. Write a use case description for the Browse Music Score use case, representing this activity.
+b. Draw a sequence diagram using boundary, control, and entity classes for the Musixscore web 
+page.
+c. Write a list of the messages, names, and the parameters, along with the data types, that would be 
+passed to the classes and the values (with data types) that are included with the return message. 
+Make any assumptions you need to make about the data.
+d. Create a class diagram for the entity classes used in the sequence diagram.
+Selected Bibliography
+Beck, K., & Cunningham, W. (1989). A laboratory for teaching object-oriented thinking. http://c2.com/
+doc/oopsla89/paper.html
+Bellin, D., & Suchman Simone, S. (1997). The CRC card book. Addison-Wesley Professional.
+Booch, G., Jacobson, I., & Rumbaugh, J. (2005). The unified modeling language user guide (2nd ed.). 
+Addison-Wesley Professional.
+Bouslama, M., & Abdi, M. K. (2021). Towards a formal approach for assessing the design quality of 
+object-oriented systems. International Journal of Open Source Sofware and Processes, 12(3), 1–16.
+Cockburn, A. (2001). Writing effective use cases. Addison-Wesley.
+Dobing, B., & Parsons, J. (2006). How UML is used. Communications of the ACM, 49(5), 109–113.
+Fowler, M. (2003). UML distilled: A brief guide to the standard object modeling language (3rd ed.). 
+Addison-Wesley Professional.
+Kulak, D., & Guiney, E. (2004). Use cases: Requirements in context (2nd ed.). Addison-Wesley 
+Professional.
+Miles, R., & Hamilton, K. (2006). Learning UML 2.0. O’Reilly Media.
+Sahraoudi, A. E. K., & Blum, T. (2003). Using object-oriented methods in a system lifecycle process 
+model. ACM SIGSOFT Software Engineering Notes, 28(2).
+
+
+===== BOOK PAGE 318 =====
+
+This page intentionally left blank
+
+
+===== BOOK PAGE 319 =====
+
+David Sipress/The New Yorker Collection/The Cartoon Bank
+The Essentials of Design
+PART  
+IV
+
+
+===== BOOK PAGE 320 =====
+
+320
+Designing Effective Output
+LEARNING OBJECTIVES
+Once you have mastered the material in this chapter, you will be able to:
+1 Appreciate the objectives for effective output design.
+2 Relate output content to output methods inside and outside the organization.
+3 Realize how output bias affects users.
+4 Learn how to design printed output.
+5 Discover how to design display output.
+6 Gain an understanding about data visualization.
+7 Learn how to design a website.
+8 Appreciate and adopt Web 2.0 technologies.
+9 Discover how to design output and content for social media.
+10 Realize the complexities of designing apps for smartphones and tablets.
+11 Gain knowledge regarding output production and XML.
+Output is information delivered to users through an information system by way of intranets, 
+extranets, or the web. Some data require extensive processing before they become 
+suitable output; other stored data are retrieved and considered output with little or no 
+processing. Output can take many forms, including soft copy such as display screens, 
+smartphones, tablets, video and audio output, and social media output and content, as well 
+as the traditional hard copy of printed reports. Responsive web design means designing 
+a website that can be viewed on a desktop, tablet, or smartphone. Web design has moved 
+away from 3-D, realistic images with shadows (skeuomorphic design) to flat web design 
+(two-dimensional images without shadowing). Analysts can use data visualization to create 
+effective output. Users rely on output to accomplish their tasks, and they often judge the 
+merit of a system solely by its output. To create the most useful output possible, a systems 
+analyst must work closely with users through an interactive process until the result is 
+satisfactory.
+11
+CHAPTER
+

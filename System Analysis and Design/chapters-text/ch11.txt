@@ -1,0 +1,2644 @@
+
+===== BOOK PAGE 321 =====
+
+CHAPTER 11  •  DEsigning EffECTivE  OuTPuT     321
+so those with low vision could read what would be difficult or 
+impossible to read on conventional printed output. In order to build 
+his braille printer, he relied on the help of many different parties. 
+There is an abundance of computer output that is more accessible 
+to those with disabilities. After you view the video, please reflect 
+on the following questions:
+1. What other types of output are there that could help people 
+with low vision?
+2. How can a systems analyst design output so that it is usable 
+for those who are color blind?
+3. What type of output would you recommend for someone who 
+is hard of hearing? What type of output would you eliminate 
+or downplay for someone who is hard of hearing?
+4. Consider how designing with the goal of improving the 
+quality of output can improve systems for everyone, 
+including those with disabilities.
+SYSTEMS SCENARIO  
+Designing Output to Include Disabled People
+In this chapter we learn that output is not limited to information 
+shown on computer displays and printouts. In today’s video, we 
+learn about a young inventor who created and built a braille printer 
+OUTPUT DESIGN OBJECTIVES
+It is essential for ouput design to be useful to ensure the use and acceptance of the information 
+system. A systems analyst focuses on six objectives when designing output:
+1. Designing output to serve the intended purpose
+2. Designing output to fit the user
+3. Delivering the appropriate quantity of output
+4. Making sure the output is where it is needed
+5. Providing the output on time
+6. Choosing the right output method
+Designing Output to Serve the Intended Purpose
+All output should have a purpose. During the information requirements phase of analysis, a 
+systems analyst determines user and organization purposes. Output is then designed based on 
+those purposes.
+An application permits numerous opportunities to supply output, but the systems analyst 
+focuses on features tied to the purposes defined during analysis. If the output is not functional, 
+it should not be created because there are costs of time and materials associated with all output 
+from a system.
+Designing Output to Fit the User
+With a large information system serving many users for many different purposes, it is often 
+difficult to personalize output. Based on interviews, observations, cost considerations, and perhaps 
+prototypes, it will be possible to design output that addresses what many, if not all, users need 
+and prefer.
+It is most practical to create user-specific or user-customizable output when designing for 
+a decision support system (DSS) or other highly interactive applications such as those using the 
+web as a platform. It is still possible, however, to design output to fit a user’s tasks and function 
+in the organization, which leads us to the next objective.
+To view the video for this scenario,  
+see eText Chapter 11.
+Bloomberg/Boclips
+
+
+===== BOOK PAGE 322 =====
+
+322    PART iv •  THE EssEnTiALs  Of  DEsign
+Delivering the Appropriate Quantity of Output
+Part of the task of designing output is deciding what quantity of output is correct for users.  
+A useful heuristic is that a system must provide what each person needs to complete their work. 
+This answer is still far from a total solution because it may be appropriate to display a subset of 
+that information at first and then provide a way for the user to access additional information easily.
+The problem of information overload is so prevalent that it is a cliché, but it remains a valid 
+concern. No one is served if excess information is provided only to flaunt the capabilities of the 
+system. Always keep the decision makers in mind. Often the amounts of output users need is 
+limited, especially if there is an easy way to access more via a hyperlink or drill-down capability.
+Making Sure the Output Is Where It Is Needed
+Output is often produced at one location and then distributed to the user. The increase in online, 
+screen-displayed output that is personally accessible has cut down somewhat on the problem of 
+distribution, but appropriate distribution is still an important objective for a systems analyst. To be 
+used and useful, output must be presented to the right user. No matter how well designed reports 
+are, if the pertinent decision makers do not see them, they have no value.
+Providing Output on Time
+One common complaint of users is that they do not receive information in time to make necessary 
+decisions. Although timing isn’t everything, it does play a large part in the usefulness of output. 
+Many reports are required daily, some only monthly, others annually, and others only by exception. 
+Using well-publicized, web-based output can alleviate some problems with the timing of output 
+distribution as well. Accurate timing of output can be critical to business operations.
+Choosing the Right Output Method
+Choosing the right output method for each user is another objective in designing output. Much 
+output now appears on screens, and users have the option of printing it out with their own printer. 
+An analyst needs to recognize the trade-offs involved in choosing an output method. Costs differ; 
+for the user, there are also differences in the accessibility, flexibility, durability, distribution, 
+storage and retrieval possibilities, transportability, and overall impact of the data. The choice of 
+output methods is not trivial, nor is it usually a foregone conclusion.
+RELATING OUTPUT CONTENT TO OUTPUT METHOD
+The content of output from information systems is interrelated with the output method. When 
+designing output, systems analysts must consider how function influences form and how the 
+intended purpose will influence the output method chosen.
+Output should be thought of in a general way so that any information generated by the 
+computer system that is useful to people in some way can be considered output. It is possible 
+to conceptualize output as either external (going outside the business), such as information that 
+appears to the public on the web, or internal (staying within the business), such as material avail-
+able on an intranet.
+External output differs from internal output in its distribution, design, and appearance. Many 
+external documents must include instructions to the recipient if they are to be used correctly. 
+Many external outputs are placed on preprinted forms or websites bearing the company logo and 
+corporate colors.
+With the advent of green IT (also called green computing or ICT sustainability), many 
+organizations are trying to encourage customers to think about environmental savings, ease of 
+use, and 24-hour access to accounts so that they switch from paper statements to online bills. 
+Electronic transactions lessen the environmental impact of paper output and further computerize 
+the business-to-consumer relationship.
+Internal outputs range from short summary reports to lengthy, detailed reports. Other kinds of 
+internal reports include historical reports and exception reports that are output only at the time an 
+exception occurs. Examples of exception reports are a listing of all employees with no absences 
+for the year, a listing of all salespeople who did not meet their monthly sales quota, or a report on 
+consumer complaints made in the past six months.
+
+
+===== BOOK PAGE 323 =====
+
+CHAPTER 11  •  DEsigning EffECTivE  OuTPuT     323
+FIGURE 11.1
+A comparison of output methods.
+Display screen • Interactive • May require cabling and setup space
+• Online, real-time transmission  • Requires system for taking “snapshots” of
+screen and storing them for future use • Quiet
+• Takes advantage of computer capabilities
+for movement within databases and ﬁles
+• Good for frequently accessed, ephemeral
+messages
+Audio output
+and podcasts
+• Good for individual user
+• Good for transient messages 
+• Needs earbuds where output will interfere 
+• Good where worker needs hands free  
+with other tasks
+• Good if output needs to be 
+widely distributed
+• Has limited application
+Mobile devices • Highly portable • Screen may be too small for text
+• Icons and buttons may be confusing
+• May be lost more easily
+• Very interactive using gestures
+• Zoom and magniﬁcation are possible
+Electronic output • Reduces paper
+(email, websites,
+blogs, and RSS
+feeds)
+• Can be updated very easily
+• Is not conducive to formatting (email)
+• Is diﬃcult to convey context of messages (email)
+•
+•
+Can be “broadcast” • Websites need diligent maintenance
+Can be made interactive
+Output Method Advantages Disadvantages
+Printer • Aﬀordable for most organizations • Still requires some operator intervention
+• Flexible in types of output, location, • Compatibility problems with computer software
+and capabilities • May require special, expensive supplies
+• Handles large volumes of output     • Depending on model, may be slow
+• Environmentally unfriendly• Highly reliable with little down time
+Output Technologies
+Producing different types of output requires different technologies. For printed output, the options 
+include a variety of printers, including standard document printers, specialized label printers, and 
+3-D printers. For screen output, the options include attached or stand-alone displays as well as touch-
+sensitive screens found on smartphones and tablets. Audio output can be amplified over a loudspeaker 
+or designed for individual listening on mobile devices. Electronic output includes web pages, email, 
+RSS (Real Simple Syndication) feeds, and blogs. Figure 11.1 compares output methods.
+Factors to Consider When Choosing Output Technology
+There are several factors to consider when choosing output technology. Although the technology 
+changes rapidly, certain usage factors remain fairly constant in relation to technological break-
+throughs. These factors, some of which present trade-offs, must be considered:
+1. Who will use (see) the output (requisite quality)?
+2. How many people need the output?
+3. Where is the output needed (distribution, logistics)?
+4. What is the purpose of the output? What user and organization tasks are supported?
+5. What is the speed with which output is needed?
+6. How frequently will the output be accessed?
+7. How long will (or must) the output be stored?
+8. Under what special regulations is the output produced, stored, and distributed?
+9. What are the initial and ongoing costs of maintenance and supplies?
+10. What are the human and environmental requirements (accessibility, noise absorption, 
+controlled temperature, space for equipment, cabling, and proximity to Wi-Fi transmitters 
+or access points—that is, hot spots) for output technologies?
+
+
+===== BOOK PAGE 324 =====
+
+324    PART iv •  THE EssEnTiALs  Of  DEsign
+Increasingly, organizations are taking up green IT initiatives as part of sustainability efforts. 
+These initiatives may limit the quantity of paper reports that are printed or may discourage employees 
+from printing out copies of email messages by adding a green IT notification to the bottom of each 
+corporate email message. By examining each output factor separately, the analyst can determine the 
+interrelationships and how they may be traded off for one another in a particular system.
+Who Will Use (See) the Output? Discovering who will use the output is important because job 
+requirements help dictate what output method is appropriate. For example, when district managers 
+must be away from their desks for extended periods, they need printed output that can travel with 
+them or technology that can access appropriate websites and databases as they visit the managers 
+in their region. Screen output or interactive web documents are excellent for people such as truck 
+dispatchers who are deskbound for long periods.
+External recipients of output (clients and customers, vendors and suppliers, shareholders, 
+and regulatory agencies) and users within the business require different output. Clients, vendors, 
+and suppliers can be part of several extranets, which are networks of computers built by the 
+organization that provide applications, processing, and information to users on the network.
+Examine the website shown in Figure 11.2 for an ecommerce company called Merchants 
+Bay. The web designer is attuned to the intended users of the wholesale gift site. The ecommerce 
+company’s website is powered by a patented negotiating algorithm in which users submit bids (for 
+one item or 400) on an array of merchandise. The company’s strategy is based on the president’s 
+personal experience with flea markets and the observation that people are powerfully attracted 
+to bargaining for a deal.
+The website intentionally invokes a cluttered feel, similar to what one gets walking through 
+a flea market. The site is intended for customers who would frequent flea markets in person: 
+they are known to be collectors, gregarious and curious by nature. The website has a profusion 
+of colors, includes a variety of sale signs in a mixture of lettering, and even incorporates a video 
+that provides new layers of color and action. Colloquial language is used throughout the site.
+The web designer has carried out a nautical metaphor throughout the site. The user is invited 
+to “Search the Bay” for merchandise. In addition, the company’s logo includes a wave and a sun 
+on the horizon, and an icon of a ship’s steering wheel is placed above a column that invites the 
+user to “navigate” for products, services, and customer service.
+To complete a transaction on the site, a customer has an opportunity to accept the “Captain’s 
+price” as posted or to submit a bid. If the bid submitted is too low according to the stored negotiation 
+algorithm, a natural language response is returned in a pop-up window stating: “Thanks for your 
+offer, mate. You don’t like to part with your money if you don’t have to, heh? Yet hey, I like ya, mate.  
+FIGURE 11.2
+When designing a website, it is 
+important to choose a metaphor 
+that can be used throughout the 
+site. This example from Merchants 
+Bay (www.merchantsbay.com)  
+employs a nautical theme. 
+(Screenshot of Merchants Bay 
+website. Copyright © 2000 by 
+Merchants Bay LLC. Reprinted 
+with permission of Troy Pappas.)
+
+
+===== BOOK PAGE 325 =====
+
+CHAPTER 11  •  DEsigning EffECTivE  OuTPuT     325
+Please try again by offering a better price or by ordering a larger quantity.” In this way, the bid  
+is rejected in a friendly, humorous way, and bidders are even given two hints on how to improve 
+the chances that their next bids will be successful. The web designer clearly had a solid profile 
+of the intended customer in mind when designing the site.
+How Many People Need the Output? Choice of output technology is also influenced by how many 
+users need the output. If many people need output, web-based documents with a print option or 
+printed copies are probably justified. Some external customers may want a printed copy of specific 
+documents, such as a stockholder report or a monthly billing statement, but others may prefer 
+web-based documents with an email notification. If only one user needs the output, a screen or 
+audio may be more suitable.
+Where Is the Output Needed (Distribution, Logistics)? The choice of output technology is influ-
+enced by the physical destination of the output. Information that will remain close to its point of 
+origin, that will be used by only a few users in the business, and that may be stored or referred 
+into, before I’m ready to decide whether the loan of the lesser pan-
+das is a good idea. Where are the data on the animals we’re consid-
+ering?” says Rex.
+Annie replies, “We have to go to Ella’s office to access the 
+database. Mostly, the other employees who need to know just use 
+her computer.”
+Mona gets into the swing of the discussion and says, “Some 
+information on the current state of the budget would be divine 
+too. I’ll go bananas with new expenditures until we at least have a 
+summary of what we’re spending. I bet it’s a bunch.”
+Ty answers, “We don’t mean to monkey around, but frankly we 
+feel trapped. Costs of reproducing all the financial data seem high to 
+us. We’d rather put our money into reproducing rare and endangered 
+species! Paperwork multiplies on its own.”
+The group laughs nervously together, but there is an air of 
+expectancy in the room. The consensus is that the committee mem-
+bers need more internal information about the zoo’s financial status 
+and the prospective loan animals.
+Ella, aware that the group cannot be tamed in the way the 
+previous one was, says, “The old committee preferred to get their 
+information informally, through chatting with us. Let’s spend this 
+first meeting discovering what kinds of information you think you 
+need to do your work as a committee. Financial data are stored on 
+a laptop that our financial director uses. It’s his baby, of course.”
+What are some of the problems related to output that the com-
+mittee is experiencing? What suggestions do you have for improv-
+ing output to the committee? How can the budget constraints of the 
+zoo be met while still allowing the committee to receive the output 
+it needs to function? Comment on the adequacy of the output tech-
+nology that is currently in use at the zoo. Suggest alternatives or 
+modifications to output and output technology that would enhance 
+what is being done. (Hint: Consider ways in which the committee 
+can leverage its use of the web to get the output that it needs and 
+that it needs to share.) Analyze both internal and external output 
+requirements.
+CONSULTING OPPORTUNITY 11.1 
+Your Habitat or Mine?
+“Why can’t they get this right? It’s driving me to distrac-
+tion. The nature conservancy in Colombia is writing to me about a 
+tiger that has been on loan from our place for over two years. They 
+should be writing to Tulsa,” trumpets Ella Fant, waving a letter in 
+the air. Ella is general curator in charge of the animal breeding pro-
+gram at the nonprofit Gotham Zoo which fights against extinction 
+through the reintroduction of species, conservation breeding, and 
+research and technology development all aimed at conservation.1
+Ella is talking with members of the zoo’s five-person committee 
+about the proposals before them. The committee meets every month 
+to decide which animals to loan to other zoos and which animals 
+to get on loan for breeding. The committee is composed of Ella; Ty 
+Garr, the zoo’s director; two zoo employees, Annie Malle and Mona 
+Key; and a layperson, Rex Lyon, who is a member of the business 
+community.
+Ty paces in front of the group and continues the meeting, 
+saying, “We have the possibility of loaning out two of our golden 
+tamarins, and we can play matchmaker for two lesser pandas. 
+Because three of you are new to the committee, I’ll briefly discuss 
+your responsibilities. As you know, Ella and I would pounce on any 
+chance to lure animals in for the breeding program. Your duties 
+are to assess the zoo’s financial resources and to look at our zoo’s 
+immediate demands. You also must consider the season and our 
+shipping capability, as well as that of the zoos we’re considering. 
+The other zoos charge us nothing for the loan of their animals for the 
+breeding program. We pay the shipping for any animal being loaned 
+to us and then maintain them, and that gets expensive.”
+“There is a special database on the web that we subscribe to 
+that includes selected species with 164 other zoos,” says Ella as she 
+picks up the story from Ty. “I have the password for the database 
+stored on my computer. I can access the records of all captive 
+animals in the system, including those from the two zoos we are 
+negotiating with right now.”
+As the committee members work, they begin asking questions. 
+“I need to read some information, get some meat to sink my teeth 
+1 Stated goals are based on the website for the nonprofit Woodland Park Zoo, https://www.zoo.org/ssp.
+
+
+===== BOOK PAGE 326 =====
+
+326    PART iv •  THE EssEnTiALs  Of  DEsign
+to frequently can safely be printed or mounted on an intranet. An abundance of information that 
+must be transmitted to users at great distances in branch operations may be better distributed 
+electronically, via the web or extranets, with the recipient customizing it.
+Sometimes federal or state regulations dictate that a printed form remain on file at a particular 
+location for a specified period. In those instances, it is the responsibility of the systems analyst to 
+see that the regulation is observed for any output that is designed.
+What Is the Purpose of the Output? What user and organization tasks are supported? Consider 
+the purpose of the output when choosing output technology. If it is intended to be a report created 
+to attract shareholders to the business by allowing them to peruse corporate finances at their lei-
+sure, well-designed, printed output such as an annual report is desirable. A variety of media may 
+also be used so that the annual report is available on the web as well as in printed form. The web 
+page shown in Figure 11.3 provides a series of six brief video clips to document an actual event, 
+the Knowledge Bowl, put on by the Decision Sciences Institute (DSI). These clips show several 
+founders and past presidents of DSI, a nonprofit academic society that is supported by a diverse 
+board and includes various disciplines. Video output is useful here because the event was held to 
+commemorate an important anniversary in the organization’s history. It serves a historic purpose.
+If the purpose of output may be to provide instant updates on stock market quotes, and if 
+the material is highly encoded and changeable, screen crawls, chyrons (captions superimposed 
+over the lower part of a video image during a newscast), web pages, or audio presentations are 
+preferable. Output must support user tasks, such as performing analysis or determining ratios, so 
+software tools, including calculators and embedded formulas, could be part of the output. Output 
+must also support organization tasks such as tracking, scheduling, and monitoring.
+What Is the Speed with Which Output Is Needed? As we go through the three levels of strategic, 
+middle, and operations management in an organization, we find that decision makers at the lowest 
+level of operations management need output rapidly to quickly adjust to events such as a stopped 
+assembly line, raw materials not arriving on time, or a worker being absent unexpectedly. Online 
+screen output may be useful here.
+As we ascend the management levels, we observe that strategic managers are more in need of 
+output for a specific time period, which helps in forecasting business cycles and trends.
+How Frequently Will the Output Be Accessed? The more frequently output is accessed, the more 
+important is the capability to view it on a display connected to local area networks or the web. 
+Infrequently accessed output that is needed by only a few users is well suited to an archive, which 
+could be cloud based.
+FIGURE 11.3
+Streaming video can be used 
+effectively for telling a story or 
+sharing an event. This web page 
+chronicles an event called the  
+DSI Knowledge Bowl. (Used with 
+permission from Microsoft)
+
+
+===== BOOK PAGE 327 =====
+
+CHAPTER 11  •  DEsigning EffECTivE  OuTPuT     327
+Output that is accessed frequently is a good candidate for incorporation into web-based or 
+other online systems or networks with displays. Adopting this type of technology allows users 
+easy access and alleviates physical wear and tear that cause frequently handled printed output to 
+deteriorate.
+How Long Will (or Must) the Output Be Stored? Output printed on paper deteriorates rapidly 
+with age. Output preserved on microforms or digitized in archives is not as prone to succumb to 
+environmental disturbances such as light, humidity, and human handling. Some microforms are 
+required by government regulations, or for historical purposes. However, if hardware to access 
+the archived material is hard to acquire or becomes obsolete, this output method can become 
+problematic.
+A business may be subject to government regulations on local, state, or federal levels that 
+dictate how long output must be kept. If the corporation is willing to maintain it and it is non-
+proprietary archival information, it can be maintained in web documents as part of the organiza-
+tion’s website. Organizations can enact their own internal policies about how long output must 
+be retained. Major companies such as Google, IBM, Amazon, and others offer cloud applications 
+that are well suited for this type of storage.
+Under What Special Regulations Is the Output Produced, Stored, and Distributed? The appropri-
+ate format for some output is regulated by the government. For example, in the United States, 
+the statement of an employee’s wages and tax withholding, called a W-2 form, must be printable, 
+even if it exists in an enterprise resource planning payroll system such as Oracle. Each business 
+in each country exists within a different complex of regulations under which it produces output. 
+To that extent, law may dictate appropriate technology for some functions.
+Much of this regulation, however, is industry dependent. For example, in the United States a 
+regional blood system is required by federal law to keep a medical history of a blood donor—as 
+well as their name—on file. The exact output form is not specified, but the content is strictly 
+spelled out.
+What Are the Initial and Ongoing Costs of Maintenance and Supplies? The initial costs of 
+purchasing or leasing equipment must be considered as yet another factor in the choice of output 
+technology. Most vendors will help you estimate the initial purchase or lease costs of computer 
+hardware, including the cost of printers and displays, the cost of access to online service providers 
+(web access), or the costs of building intranets and extranets. Many vendors, however, do not 
+provide information about how much it costs to keep a printer or other technologies working. 
+Therefore, it falls to the analyst to research the costs of operating different output technologies or 
+of maintaining a corporate website over time.
+What Are the Human Environmental Requirements for Output Technologies? Analysts need to 
+factor into their output decisions accessibility, noise absorption, controlled temperature, space 
+for equipment, cabling, and proximity to Wi-Fi transmitters or access points, called “hot spots.” 
+When humans interact with technologies, specific environments help systems run more effec-
+tively and efficiently. Users need accessibility and support in accessing web pages as well as 
+other output.
+Printers require a dry, cool environment to operate properly. Displays require space for setup 
+and viewing. Audio and video output require a quiet environment if they are to be heard, and they 
+should be audible only to employees (or customers) who are using them. Thus, the analyst should 
+not specify audio output for a work situation in which many employees or customers are engaged 
+in a variety of tasks unrelated to the output.
+To set up wireless local area networks so users can access the web wirelessly, Wi-Fi access 
+points need to be made available. These work when computers are within a few hundred feet of 
+transmitters but can be subjected to interference by other devices.
+Some output technologies are prized for their unobtrusiveness. Libraries and hospitals, which 
+emphasize silence in the workplace, make extensive use of displays for web documents and other 
+networked database information, but printers might be scarce. Analysts working for a company 
+that has sustainability as part of its mission also may want to include the idea of green IT in their 
+output decisions. This might translate into putting more transactions, reports, and documents 
+online and discouraging printing of email messages.
+
+
+===== BOOK PAGE 328 =====
+
+328    PART iv •  THE EssEnTiALs  Of  DEsign
+REALIZING HOW OUTPUT BIAS AFFECTS USERS
+Output is not just a neutral product that is subsequently analyzed and acted on by decision 
+makers. Output affects users in many ways. Systems analysts must put great thought and care 
+into designing output to avoid biasing it.
+Recognizing Bias in the Way Output Is Used
+It is a common error to assume that once a systems analyst has signed off on a system project, 
+their impact has ended. The analyst’s influence is long lasting. Much of the information on which 
+organization members base their decisions is determined by what analysts perceive is important 
+to the business.
+Bias is present in everything that humans create. This statement is not to judge bias as bad 
+but to make the point that it is inseparable from what we (and consequently our systems) produce.  
+be from the booths anyway. Let’s go with our original idea and add 
+that to the printout,” suggests Turnstile.
+Rayl replies, “But I’ve been observing riders. Half of them seem 
+to be afraid of the automated ticket vending machines. Others start 
+using them, get frustrated reading the directions, or don’t know what 
+to do with the ticket that comes out, and they wind up at the ticket 
+booth blowing off steam. Furthermore, they can’t understand the rou-
+tine information posted on the kiosks, which is all in graphics. They 
+wind up asking clerks what train goes where.” Rayl pushes the print-
+out holding the ticket sales to one side of the conference table and 
+says, “I don’t have much confidence in this report. I feel as if we’re 
+sitting here trying to operate the most sophisticated subway system 
+in the United States by peering down a tunnel instead of at the infor-
+mation, like we should be. I think we need to think seriously about 
+capturing journey information on magnetically stripped cards like the 
+New York Transit Authority did. Every time you insert the card to take 
+a ride, the information is stored. Now they’re letting people just tap 
+their devices or smartphones or contactless cards on a reader to enter 
+the system. Even better, they can view their trips and charges, man-
+age their payments, and ask questions of cutomer service from the 
+dashboard on their app. You can even have contactless fare payment 
+cards or mobile payment apps where customers don’t have to insert a 
+credit or debit card into the machine at all. Very good in a pandemic.”
+What are some of the specific problems with the output that the 
+systems consultants and Benton Turnstile gave to Barb Rayl? Evalu-
+ate the media that are being used for output as well as the timing of 
+its distribution. In a paragraph, comment on the external output that 
+users of the automated ticket machines are apparently receiving. In 
+a second paragraph, suggest some changes in output to help Rayl get 
+the information she needs to make decisions on fares and scheduling 
+of trains and to help users of the subway system get the information 
+they need. List the decisions facing organizations like the New York 
+Transit Authority if they collect and store input concerning an indi-
+vidual’s destinations each time a trip is taken. What changes would 
+S.W.I.F.T. have to make to its output and its tickets if it adopted this 
+technology? Reply in a paragraph.
+CONSULTING OPPORTUNITY 11.2 
+A Right Way, a Wrong Way, and a Subway
+“So far, so good. Sure, there have been some complaints, but 
+any new subway will have those. The ‘free ride’ gimmick has 
+helped attract some people who never would have ridden other -
+wise. I think there are more people than ever before interested in 
+riding the subway,” says Barb Rayl. “What we need is an accurate 
+fix on what ridership has been so far so we can make some adjust-
+ments on our fare decisions and scheduling of trains.”
+Rayl is an operations manager for S.W.I.F.T., the newly built 
+subway for Western Ipswich and Fremont Transport that serves 
+a major northeastern city in the United States. She is speaking 
+with Benton Turnstile, who reports to her as operations supervisor 
+of S.W.I.F.T. The subway system is in its first month of opera-
+tion, offering limited lines. Marketing people have been giving 
+away free rides on the subway to increase public awareness of 
+S.W.I.F.T.
+“I think that’s a good idea,” says Turnstile. “It’s not just a token 
+effort. We’ll show them we’re really on the right track. I’ll get back 
+to you with ridership information soon,” he says.
+A month later, Rayl and Turnstile meet to compare the projected 
+ridership with the new data. Turnstile proudly presents a 2-inch-high 
+stack of computer printouts to Rayl. Rayl looks a little surprised but 
+proceeds to go through it with Turnstile. “What all is in here?” Rayl 
+asks, fingering the top page of the stack hesitantly.
+“Well,” says Turnstile, training his eyes on the printout, “it’s a 
+list of all the tickets that were sold from the ticket vending machines. 
+It tells us how many tickets were bought and what kinds of tickets 
+were bought. The people from Systems That Think, Inc. told me 
+this report would be the most helpful for us, just like it was for the 
+operations people in Buffalo and Pittsburgh,” says Turnstile, turning 
+quickly to the next page.
+“Maybe, but remember those subway systems began with really 
+limited service. We’re bigger. And what about the sales from the 
+three staffed ticket booths in the Main Street Terminal?” asks Rayl.
+“The clerks in the booth can get information summarizing ticket 
+sales onscreen any time they want it, but it’s not included here. 
+Remember that we projected that only 10 percent of our sales would
+
+
+===== BOOK PAGE 329 =====
+
+CHAPTER 11  •  DEsigning EffECTivE  OuTPuT     329
+The concerns of systems analysts are to avoid unnecessarily biasing output and to make users 
+aware of the possible biases in the output they receive.
+Presentations of output are unintentionally biased in three main ways: (1) how the information 
+is sorted, (2) setting of acceptable limits, and (3) choice of graphics.
+Introducing Bias when Information Is Sorted. Output bias is introduced when analysts and users 
+make choices about how information is sorted for a report. Common sorts include alphabetical, 
+chronological, and cost.
+Information presented alphabetically may overemphasize the items that begin with the letters 
+A and B because users tend to pay more attention to information presented first. For example, if 
+past suppliers are listed alphabetically, companies such as Aardvark Printers, Advent Supplies, 
+and Barkley Office Equipment are shown to the purchasing manager first. When certain airlines 
+created the SABRE and APOLLO reservations systems, they listed their own flights first until the 
+other airlines complained that this type of sorting was biased.
+Introducing Bias by Setting Limits. A second major source of bias in output is the predefinition of 
+limits for particular values being reported. Many reports are generated on an exception basis only, 
+which means that when limits on values are set beforehand, only exceptions to those values will be 
+output. Exception reports make the decision maker aware of deviations from satisfactory values.
+For example, limits that are set too low for exception reports can bias the user’s perception. An 
+insurance company that generates exception reports on all accounts one week overdue has set too 
+low a limit on overdue payments. The decision maker receiving the output will be overwhelmed 
+with “exceptions” that are not really cause for concern. The one-week overdue exception report 
+leads to the user’s misperception that there are a great many overdue accounts. A more appropriate 
+limit for generating an exception report would be accounts 30 days or more overdue.
+Introducing Bias through Graphics. Output is subject to a third type of presentation bias, which 
+is brought about by an analyst’s (or user’s) choice of graphics for output display. Bias can occur 
+in the selection of the graph size, its color, the scale used, and even the type of graphic.
+Graph size must be proportional so the user is not biased as to the importance of the variables that 
+are presented. For example, Figure 11.4 shows a column chart comparing the number of no-shows 
+for hotel bookings in 2021 with no-shows for hotel bookings in 2022. Notice that the vertical axis 
+is broken, and it appears that the number of no-shows for 2022 is twice as much as the number of 
+no-shows in 2021, although the number of no-shows has actually gone up only slightly.
+Avoiding Bias in the Design of Output
+Systems analysts use specific strategies to avoid biasing the output they and others design:
+1. Be aware of the sources of bias (whether it is personal, implied, or systemic).
+2. Create an interactive design of output during prototyping that includes users and a variety 
+of differently configured systems when testing the appearance of web documents.
+3. Work with users so that they are informed of the output’s biases and can recognize the 
+implications of customizing their displays.
+4. Create output that is flexible and that allows users to modify limits and ranges.
+5. Train users to rely on multiple outputs for conducting “reality tests” on system output.
+FIGURE 11.4
+A misleading graph will most 
+likely bias the user.
+This diagram
+doesn’t give
+the true
+picture.
+Number of
+No-Shows
+400
+410
+420
+430
+440
+450
+2021 2022
+
+
+===== BOOK PAGE 330 =====
+
+330    PART iv •  THE EssEnTiALs  Of  DEsign
+All these strategies except the first focus on the relationship between a systems analyst and 
+users as it involves output. Systems analysts need to recognize the potential impact of output 
+and be aware of the possible ways in which output is unintentionally biased. They then need to be 
+proactive in helping users design output with minimal, but identifiable, biases.
+DESIGNING PRINTED OUTPUT
+The source of information to be included in reports is the data dictionary (see Chapter 8). The 
+data dictionary includes names of data elements as well as the required field length of each entry.
+Reports fall into three categories: detailed, exception, and summary. Detailed reports 
+print a report line for every record on the master file. They are used for mailings to customers, 
+sending student grade reports, printing catalogs, and so on. Inquiry screens have replaced many 
+detailed reports.
+Exception reports print a line for all records that match a set of conditions, such as which 
+holiday decorations will be discounted the day after the holiday or which students are on the dean’s 
+list. They are usually used to help operations managers and clerical staff run a business. Summary 
+reports print one line for a group of records and are used to make decisions, such as which items 
+are not selling and which are hot selling.
+A systems designer must understand that some website visitors might prefer to print out 
+content. Consider inserting PDFs that can be downloaded and try printing each page in different 
+browsers to ensure pages will have a professional look if a user prints them.
+DESIGNING OUTPUT FOR DISPLAYS
+Output for displays differs from printed output in several ways. It is ephemeral (that is, a display is 
+not permanent in the same way that printouts are), it can be more specifically targeted to the user, it 
+is available on a more flexible schedule, it is not portable in the same way, and sometimes it can be 
+changed through direct interaction. Chapter 12 covers designing displays for human or computer 
+input, and these guidelines apply for designing output as well, although the contents are different.
+In addition, users must be instructed on which keys to press, which links to follow, and how 
+to scroll when they want to continue reading additional displays, when they want to know how to 
+end the display, and when they want to know how to interact with the display (if possible). User 
+access to displays may be controlled through a password, whereas distribution of printed output 
+is controlled by other means.
+Guidelines for Display Design
+Four guidelines facilitate the design of displays:
+1. Keep the display simple.
+2. Keep the presentation consistent.
+3. Facilitate user movement among displayed output.
+4. Create an attractive and pleasing display.
+Just as with printed output, good displays are not created in isolation. Systems analysts need 
+the feedback of users to design worthwhile displays. Once approved by users after successive 
+prototypes and refinements, the display layout can be finalized.
+The output produced from the design display is pictured in Figure 11.5. Notice that it is 
+uncluttered, but it still gives a basic summary of the shipping status. The display orients users as 
+to what they are looking at with the use of a heading. Instructions at the bottom of the display 
+provide users with several options, including continuing the present display, ending the display, 
+getting help, or getting more detail. This display provides context for users attempting to complete 
+a task such as checking on the status of an order.
+Output displays in an application should show information consistently from page to page. 
+Figure 11.6 shows the display that results when the user positions the cursor over the order number 
+for a particular retailer. The new display presents more details on Bear Bizarre. In the body of 
+the display, the user can see the retailer’s order number, complete address, the order date, and the 
+status. In addition, a detailed breakdown of the shipment and a detailed status of each part of
+
+
+===== BOOK PAGE 331 =====
+
+CHAPTER 11  •  DEsigning EffECTivE  OuTPuT     331
+the shipment are given. A contact name and phone number are supplied, along with the account 
+balance, credit rating, and shipment history. Notice that the bottom portion of the display advises 
+the user of options, including more details, ending the display, or getting help. Users are provided 
+control over what they might do next while viewing the display.
+Rather than crowding all retailer information onto one page, the analyst has made it possible 
+for the user to bring up a particular retailer if a problem or question arises. If, for example, the 
+summary indicates that an order was only partially shipped, the user can check further on the order 
+by calling up a detailed retailer display and then following up with appropriate action.
+Using Graphical Output in Screen Design
+Graphical output can be powerful. It is much easier to identify a trend or notice a pattern when 
+the right graph is displayed. Most people notice differences in graphs more easily than they notice 
+differences in tables. It is important to collaborate with users in choosing the correct style of graph 
+to communicate the intended meaning.
+FIGURE 11.6
+If users want more details regard-
+ing the shipping status, they can 
+call up a separate screen.
+Order # Retailer Order Date Order Status
+933603 Bear Bizarre 09/02/2022 Partially Shipped
+1001 Karhu Lane
+Bern, Virginia 22024
+Press any key to see the rest of the list; ESC to end; ? for help.
+Units Pkg Description Price Amount Detailed Status 
+12 Each Floppy Bears 20.00 240.00 Backordered Due 10/15 
+6 Each Growlers 25.00 150.00 Backordered Due 10/15 
+2 Each Special Edition 70.00 140.00 Shipped 09/02
+1 Box Celebrity Mix 150.00 150.00 Shipped 09/02
+12 Each Polar Bears 10.00 120.00 Backordered Due 10/30 
+800.00
+Contact Account Balance Credit Rating Last Order Shipped
+Ursula Major 0.00 Excellent 08/21/2022 On Time
+703-484-2327
+FIGURE 11.5
+The New Zoo output display 
+screen is uncluttered and orients 
+users well.
+Retailer Order # Order Date Order Status
+Animals Unlimited 933401 09/05/2022 Shipped On 09/29
+934567 09/11/2022 Shipped On 09/21 
+934613 09/13/2022 Shipped On 09/21
+934691 09/14/2022 Shipped On 09/21
+Bear Bizarre 933603 09/02/2022 Partially Shipped
+933668 09/08/2022 Scheduled For 10/03
+934552 09/18/2022 Scheduled For 10/03
+934683 09/18/2022 Shipped On 09/28
+Cuddles Co. 933414 09/12/2022 Shipped On 09/18
+933422 09/14/2022 Shipped On 09/21
+934339 09/16/2022 Shipped On 09/26
+934387 09/18/2022 Shipped On 09/21
+934476 09/25/2022 Backordered
+Stuﬀed Stuﬀ 934341 09/14/2022 Shipped On 09/26
+934591 09/18/2022 Partially Shipped
+934633 09/26/2022 Backordered
+934664 09/29/2022 Partially Shipped 
+New Zoo Order Status
+Press any key to see the rest of the list; ESC to end; ? for help.
+For more detail place cursor over the order number and hit the Enter key.
+
+
+===== BOOK PAGE 332 =====
+
+332    PART iv •  THE EssEnTiALs  Of  DEsign
+an all-time high in 2020. We were real crowd pleasers that year. 
+Could’ve sold seats on the scoreboard if they let me. Unfortunately, 
+ticket sales were at an all-time low in 2022. I mean, we’re talking 
+about a disaster. Tickets moved slower than a glacier. I had to con-
+vince the players to give tickets away when they made appearances 
+at the shopping mall. Why, just look at this table, it’s terrible.
+“I think computerizing the ticket sales will help us pick out who 
+our season supporters are. We’ve got to figure out who they are and 
+get them back. Get them to stick with us. That would be a good goal 
+to shoot for,” Andy concludes.
+As Andy’s presentation finally winds down, Hy looks as if 
+he thought the 20-minute period would never end. Picking up on 
+his signal, Fiona says, “Thanks for the data, Andy. We’ll work on 
+getting them into the report somehow.”
+As Fiona and Rip head out of the room with Andy, Hy realizes 
+the bench has emptied, so he asks you, the fourth team member, to 
+coach Andy on his bar chart by making a list of the problems you 
+see in it. Hy would also like you to sketch some alternative ways to 
+graph the data on ticket sales so that a correct and persuasive graph 
+of ticket sales can be included in the systems proposal. Draw two 
+alternatives.
+CONSULTING OPPORTUNITY 11.3 
+Should This Chart Be Barred?
+“Gee, I’m glad they hired you guys. I know the Redwings will 
+be better next season because of you. My job’ll be a lot easier too,” 
+says Andy Skors, ticket manager for the Kitchener, Ontario, hockey 
+team, the Kitchener Redwings. Andy has been working with your 
+systems analysis team on analyzing the systems requirements for 
+computerizing ticket sales.
+When we last heard from the systems analysis team—consisting 
+of Hy Sticking (your leader), Rip Shinpadd, Fiona Wrink, and 
+you—they were wrestling with whether to expedite the project 
+and set team productivity goals (see Consulting Opportunity 3.5, 
+“Goal Tending”).
+Andy is talking with the team about what to include in 
+the systems proposal to make it as persuasive as possible to the 
+Redwings’ management. “I know they’re going to like this chart,” 
+Andy continues. “It’s a little something I drew up after you asked 
+me all those questions on past ticket sales, Rip.”
+Andy hands the bar chart to Rip, who looks at it and suppresses 
+a slight smile. “As long as we have you here, Andy, why don’t you 
+explain it to us?”
+Like a player fresh out of the penalty box, Andy skates smoothly 
+into his narrative of the graph. “Well, our ticket sales reached 
+FIGURE 11. C1
+An incorrectly drawn graph.
+2020
+2019
+2018
+2021
+2022
+Best year
+Worst year
+15,643
+14,880
+14,100
+13,254
+12,690
+7,505
+6,808
+7,089
+6,735
+6,351
+Status Year
+Average
+tickets sold
+per game
+Season
+tickets sold
+per season
+What is wrong
+with this
+chart?
+          -Hy
+2020
+11,000
+10,0009,0008,0007,0006,0005,000
+12,000 13,000 14,000 15,000
+2019
+2018
+2021
+2022
+
+
+===== BOOK PAGE 333 =====
+
+CHAPTER 11  •  DEsigning EffECTivE  OuTPuT     333
+As with the presentation of tabular output, graphical output needs to be accurate and easy 
+to understand and use if it is to be effective in communicating information to users. Decision 
+makers using the graphs need to know the assumptions (biases) under which the graphs are being 
+constructed so they can adjust to or compensate for them.
+In designing graphical output, a systems analyst and any users involved in design prototyping 
+must determine (1) the purpose of the graph, (2) the kind of data that need to be displayed,  
+(3) its audience, and (4) the effects on the audience of different kinds of graphical output. In the 
+instance of a decision support system, the purposes of graphical displays are to support any of 
+the three phases of problem solving a user experiences: intelligence, design, or choice. An example 
+from the Nebraska State Patrol workforce planning DSS is shown in Figure 11.7. Here, current 
+response times, forecasted response times, and minimum requirements are graphed as differently  
+shaded bars.
+Dashboards
+Decision makers need output that helps them make decisions effectively and quickly. It helps exec-
+utives and other decision makers if all the information they need to make decisions is displayed 
+in front of them. When given a written report, a decision maker would prefer all the information 
+to be contained in that one report rather than searching for information in other places. The same 
+principle applies to screen design.
+A dashboard, like the dashboard in a car, has many different gauges. Each gauge can display 
+a graph (similar to the speed in miles or kilometers per hour), a problem light (similar to a light 
+showing that the automatic braking system is not functioning), or even text (such as an odometer 
+that simply counts the miles traveled).
+An executive can find a dashboard to be extremely useful in making decisions, but only if the 
+dashboard is designed properly. The dashboard in Figure 11.8 shows that a considerable amount 
+of information can be included on a single screen. Using infographics (discussed elsewhere in 
+this chapter) can help.
+Dashboards are all about communicating measurements to the user. An executive uses a 
+dashboard to review performance measures and to act if the information on the screen calls for 
+it. An example of visualization software that helps in developing dashboards for decision makers 
+displaying data analytics is Tableau. Here are some designing rules of thumb that make dashboards 
+more attractive and more effective.
+Make Sure the Data Have Context. If a screen states that sales last month were $851,235, what 
+does that mean? Are sales above or below average?
+FIGURE 11.7
+A bar chart display for onscreen 
+inspection of troop time response.
+50
+Current
+Time (in
+minutes)
+Average Response Time per Troop Area
+Nebraska State Patrol
+HQ A B C D E State
+MinimumForecasted
+Troop Area Workforce
+45
+40
+35
+30
+25
+20
+15
+10
+5
+0
+
+
+===== BOOK PAGE 334 =====
+
+334    PART iv •  THE EssEnTiALs  Of  DEsign
+Display the Proper Amount of Summarization and Precision. It will clutter the screen if last 
+month’s sales are displayed as $851,235.32 instead of $851,235 or even $851K.
+Choose Appropriate Performance Measures for Display. For example, plotting the difference 
+in actual versus expected sales in a deviation chart is much more meaningful than using a line 
+chart to plot actual and expected sales.
+Present Data Fairly. Introducing bias into the dashboard will hinder rather than support good 
+decisions.
+Choose the Correct Style of Graph or Chart for Display. Using the correct chart is important. 
+While a pie chart may be an excellent graph to persuade someone, it may not be a good way for 
+an executive to monitor the performance of regional offices, for example.
+Use Well-Designed Display Media. Even the very best type of graph still needs good design to 
+draw, size, color, and label the graph in a meaningful and pleasing way.
+Limit the Variety of Item Types. Keep the number of graph, chart, and table styles to a minimum 
+so the information can be communicated quickly and accurately.
+Highlight Important Data. Use bright colors and bold fonts only for important data. Highlight 
+key performance measures or important exceptions that are occurring, but not both. Choose what 
+to emphasize.
+Arrange the Data in Meaningful Groups. Performance measures are almost always associated 
+with related performance measures because of the data displayed or the type of graph. Learn how 
+to group associated items together.
+Keep the Screen Uncluttered. Avoid photographs, ornate logos, or themes that can distract 
+users from the data.
+Keep the Entire Dashboard on a Single Screen. All the performance measures are meant to 
+be on the same screen. If forced to switch screens, a user will not see two relevant measures at 
+the same time.
+Allow Flexibility. If an executive wants a different graph or chart, consider replacing it. Proto-
+typing the dashboard and refining it based on the user’s feedback makes sense. Decision makers 
+often know best when it comes to getting the right information in the most appropriate form for 
+their decision style.
+FIGURE 11.8
+This dashboard has a variety of 
+displays depicting performance 
+measurements to help make 
+decisions.
+
+
+===== BOOK PAGE 335 =====
+
+CHAPTER 11  •  DEsigning EffECTivE  OuTPuT     335
+Infographics
+Some users have a difficult time getting information from tables. Either users “get lost” in all of 
+the numbers or they see so many tables that they get tired of looking at them. Graphs and charts 
+are effective, but the trend is to combine numbers, charts, and different types of graphs together 
+in one view at the same time in an infographic.
+The term infographic can mean any graph, chart, or picture that communicates the data better 
+than words or tables. To the designer, it means visually displaying data for the user to see and 
+choosing which type of graph or chart, or even which numbers, are most appropriate.
+Designers have many options for creating an infographic page either on paper or on a web 
+page. One web-based application for making infographics is called Piktochart (https://piktochart.
+com). An example of an infographic developed with Picktochart software is shown in Figure 11.9. 
+It depicts data about software adoption using many visual elements including icons, a pie chart, an 
+area graph, text, and customer rankings from 1 to 5 as stars. Customer satisfaction is also pictured 
+FIGURE 11.9
+An infographic using a variety of 
+design elements to visually pres-
+ent data about customer software 
+adoption over time.
+
+
+===== BOOK PAGE 336 =====
+
+336    PART iv •  THE EssEnTiALs  Of  DEsign
+by the extent of the frown or smile the character is sporting. Notice the artist has used a limited 
+color palette of red, teal, and black against a buff-colored background. Red is a high-energy color 
+that attracts attention to important information on the infographic.
+Infographics should be newsworthy. Start the infographic with a headline, something brief 
+but catchy. Then artfully design a small page of information and mix in visuals that together tell a 
+story. These design elements include charts and graphs, images (mostly icons and cartoons—only 
+rarely should photos be used), summary information in brief text, and contact information or 
+some action the reader might want to take. The most viewed and shared content on social media 
+is visual, so it makes sense to design infographics to convey content you want shared.
+DATA VISUALIZATION
+Data visualization is the representation of data in the form of a chart, diagram, map, or other 
+visual. It is used to make complex data understandable. For many people, seeing data displayed in 
+a chart or map is easier to comprehend than if the same data were displayed in a table. Commercial 
+data visualization packages are available for Tableau, QlikView, and Zoho.
+An interesting site for data visualizations is hosted by Datawrapper. In addition to the tools 
+available for data visualizations, Datawrapper hosts a community-based site called “The River.” 
+They describe it as a place to exchange charts and other graphics with other Datawrapper users. 
+Anyone can visit The River, find a visualization, customize the chart in Datawrapper, and publish 
+it to their website. Examples from the River can be found in Figure 11.10.
+There are organizations that collect data. These sources include The World Bank, World 
+Health Organization (WHO), International Monetary Fund (IMF), and assorted nongovernmental 
+organizations (NGOs). There are also people—for example, journalists—who report on this data. 
+The problem is that creating charts and graphs is time-consuming. Data must be downloaded from 
+the collector, processed using Microsoft Excel, R, or other data visualization app, then designed 
+(selecting the size of the chart and margins, choosing fonts, writing titles, and adding footnotes). 
+The River allows the reporter to find an appropriate style and get the visualization up and running 
+as quickly and effortlessly as possible.
+The data visualizations posted on The River make it possible to go well beyond basic 
+charts and graphs to provide enhanced graphics efficiently. Enhanced graphics can show more 
+variables and more types of variables on a single diagram. Furthermore, the software can identify 
+trends, patterns, and even reasons for outliers in data. This makes data visualization a very  
+powerful tool.
+Some advantages of using data visualization are:
+1. Viewing data in a better way
+2. Identifying trends and patterns
+3. Seeing more than one attribute at a time
+4. Making decisions quickly
+5. Communicating information to others in a more effective manner
+R has become one of the most commonly used languages in data mining. It is an open 
+source and free-to-use language that is suitable for data visualizations. The British Broadcasting 
+Company (BBC) has created a package and instructions for drawing graphics similar to the ones 
+used in BBC reports. It will take a lot of practice to achieve the skills that created the graphics; 
+however, the tutorials are worthwhile.
+Here are some dos and don’ts regarding visualization. First, here are the dos:
+1. Do choose the right graphic.
+2. Do use color wisely.
+3. Do plot different variables or attributes on the same diagram if possible.
+4. Do realize that various customers will perceive the visualization differently.
+And here are some of the don’ts:
+1. Don’t choose the wrong style graphic.
+2. Don’t turn visualization into an infographic.
+3. Don’t introduce bias into the visualization.
+4. Don’t expect everyone to prefer the visualization you created.
+
+
+===== BOOK PAGE 337 =====
+
+CHAPTER 11  •  DEsigning EffECTivE  OuTPuT     337
+FIGURE 11.10
+The River, by Datawrapper, is a place where data visualizations can be reused by those who want to show statistics graphically.  
+(Courtesy: Datawrapper)
+Data Visualization and the NYC Subway System
+Assume that not everyone will understand or appreciate the graphics you create through data 
+visualization. Take, for example, the Metropolitan Transit Authority (MTA) maps designed for 
+the New York City subway system, a system of trains that delivers almost 6 million rides daily. 
+Its extensive system map has been redesigned many times.
+The last major design update was made in 1979 to replace a beautifully drawn abstract map 
+from 1972 that received many complaints because the geography was distorted to give the map of 
+subway lines a cleaner look. The problem was that it made stations look closer than they were, 
+and it was difficult to determine which station was closer to a rider’s destination.
+In designing the 1979 maps, it is reported that the designers rode the entire subway system 
+with their eyes closed so they could feel the curves. The map (see Figure 11.11) incorporates those 
+curves as well as clues to orienting oneself above ground. For example, the lakes (in blue, still
+
+
+===== BOOK PAGE 338 =====
+
+338    PART iv •  THE EssEnTiALs  Of  DEsign
+FIGURE 11.11
+The current Metropolitan Transit Authority (MTA) map, originally designed in 1979 for the New York City subway system, featured curves to 
+help riders orient themselves. (Metropolitan Transportation Authority)
+FIGURE 11.12
+The new experimental Metropolitan Transit Authority subway map depicts subway lines as sharp angles and shows only minimal 
+geographic details. Will riders prefer this new angular design to the existing design? (Metropolitan Transportation Authority)
+
+
+===== BOOK PAGE 339 =====
+
+CHAPTER 11  •  DEsigning EffECTivE  OuTPuT     339
+FIGURE 11.13
+The new interactive Metropolitan Transit Authority subway map can do more than can be accomplished on a paper map as it orients the 
+map for a particular rider. (Metropolitan Transportation Authority)
+misshapen) in Central Park (in green and identified by name) helps riders determine which station 
+to use and to orient themselves once they ascend the stairs to street level. Much of the map was 
+still distorted, but the 1979 map was viewed more favorably by New Yorkers (Genzlinger, 2020).
+The map was a success, even though it broke a lot of the conventional wisdom of design. For 
+example, it is suggested that a design uses three or four font styles, yet there are about 20 different 
+font styles in various sizes, colors, weights, and kerning (the spacing between characters) on the MTA 
+map. Somehow it works and with a few tweaks here and there, the map survived for over 40 years.
+As this book is being written, MTA has rolled out a new map (shown in Figure 11.12) and is 
+asking for feedback. At this time, we don’t know whether it will be accepted by New Yorkers. You 
+may first notice that Central Park is still there in green, but the lakes do not appear. The other very 
+noticeable aspect is the way the subway lines are depicted. In this new map, subway lines R, W, 
+N, and Q are each represented by a line. In the 1979 map, these four lines would be represented 
+by one “trunk” line. Curves have become sharper angles.
+MTA also introduced a new digitally interactive subway map in 2020, shown in Figure 11.13, 
+and this may or may not be MTA’s biggest success (Goldbaum, 2020). The map, created by  
+Work & Co on a pro bono basis, is geographically correct, but because it’s interactive, the map 
+reconfigures itself based on the needs of the rider. A rider can see where they are at a given 
+moment on an expanded view of the subway line they are riding.
+The map is certainly valuable to visitors to the city and to everyone who needs to know 
+whether a subway line is not functioning, but will it be more useful than posted signs, maps, and 
+Google or Apple maps that are in use today? We think that depends on the improvements that will 
+follow. We still need a separate app to tell us which car on a long train will open up its doors to 
+the closest station staircase to our destination.
+Expect that data visualizations will continue to improve people’s lives in many ways.
+DESIGNING A WEBSITE
+Borrow some design principles from other displays when designing a website. Remember, though, 
+that the key word here is site. The first documents displayed on the internet using the HTTP pro-
+tocol were called home pages, but it became apparent very quickly that companies, universities,
+
+
+===== BOOK PAGE 340 =====
+
+340    PART iv •  THE EssEnTiALs  Of  DEsign
+governments, and people were not going to be displaying just one page. The term website replaced 
+home page in many instances, indicating that the array of pages would have to be organized, 
+coordinated, designed, developed, and maintained in an orderly process. Sometimes the initial 
+web page the user lands on is referred to as a landing page.
+Printing is a highly controlled medium, and the analyst has a very good idea of what the 
+output will look like. Graphical user interface and character-based user interface screens are also 
+highly controlled. The web, however, is a very uncontrolled environment for output.
+Responsive Web Design
+Different browsers display images differently, and screen resolution has a large influence on the 
+look and feel of a website. There is no “standard” resolution anymore. For many years displays 
+had a 4:3 aspect ratio and common resolutions were 1024 × 768 pixels or 1600 × 1200 pixels. 
+Now displays are made for HD and have a 16:9 aspect ratio. The issue is further complicated by 
+the use of handheld devices, such as smartphones and tablets, that are used to browse the web. The 
+complexity deepens when you realize that each person may set a browser to use different fonts  
+and may disable the use of JavaScript, cookies, and other web programming elements. Analysts and 
+users face many decisions when designing a website.
+Responsive web design means that a website is developed so that it can be viewed on any 
+device: a desktop, tablet, or smartphone. This includes seeing all the content, experiencing the 
+same design concepts, and being able to perform all of the tasks on any device. Websites are 
+designed in percentages rather than a fixed number of pixels.
+Although a web designer may easily implement responsive web design for a particular com-
+pany, problems may occur because advertising used on the website (banners, for example) may 
+not be designed to be fluid. To overcome this, a web designer might need to develop different 
+landing pages for each type of device.
+Alternatively, Ajax can recognize a device and display different-sized advertising components 
+on a page. Adaptive web design means that a different design layout is chosen to be displayed 
+depending on the device. Adaptive design uses a fixed grid rather than the fluid (percentage) 
+grid in responsive web design. Some designers think this approach is more flexible if the design 
+and abilities of a particular device change over time.
+Cloud-based approaches to web design such as Weebly or Wix use a drag-and-drop approach, 
+and novice users can design a website quickly and without any knowledge of HTML code. They 
+use a WYSIWYG (or “what you see is what you get”) interface. Both of these services are cur -
+rently free but limited in features because they are based or a freemium model. Users can pay 
+to have the companies obtain a domain name for them and host a website. Although it is easy to 
+develop a website with these cloud-based approaches, transferring a developed site to another 
+hosting company presents an obstacle.
+Stand-alone web design development software is also available. These packages are full of 
+features, have no advertising watermark, and are not host-specific. Working with stand-alone web 
+design development software makes it is easier to move a website if the customer is not pleased 
+with the service the hosting company is providing.
+Flat Web Design
+Recently, web design trends moved away from skeuomorphic design to flat web design. In skeuo-
+morphic design, objects were meant to look realistic and three-dimensional, with shadows added 
+to artwork. For example, a circle and a drop shadow would represent a button. This is fake realism. 
+In addition, note pads would have spiral bindings, an address book would have rifled pages, and 
+a blotter would represent a desktop. These images became time-worn representations of office 
+elements not currently in use.
+Flat web design, however, is a minimalistic approach to design. In comparison to skeuo-
+morphic design, flat web design is clean, two-dimensional, and simple in many ways, including a 
+bright color palette that is adhered to in all design. The idea behind this approach is to concentrate 
+on only what is necessary. But it also makes it very clear that digital apps are distinct from their 
+physical and tactile relatives.
+Figure 11.14 compares the skeuomorphic icons of familiar objects, such as a calendar and 
+a cell phone, with those same objects rendered in flat web design, which is an abstracted image 
+that does not depict the shadows and contours of the physical world.
+
+
+===== BOOK PAGE 341 =====
+
+CHAPTER 11  •  DEsigning EffECTivE  OuTPuT     341
+Flat web design’s popularity will make way for other web design approaches. We are begin-
+ning to see a resurgence in realistic 3-D or skeuomorphic design. As you develop new apps and 
+websites, keep searching for new design elements such as an emphasis on creative type fonts, 
+textured backgrounds, illustrated sites, map-centered sites, and sites that have subtle motion.
+General Guidelines for Designing Websites
+In addition to the general design elements discussed earlier in this chapter, there are specific 
+guidelines appropriate for the design of professional-quality websites:
+Use Professional Tools. Consider using web editor software such as Adobe Dreamweaver or 
+Website X5 Evolution (for Windows) or Rapidweaver (for Mac OS). These tools are definitely 
+worth the price. You’ll be more creative and you’ll get the website finished much faster than if 
+you work directly with hypertext markup language (HTML). Another option is to design a website 
+using Weebly or Wix, but this approach might limit you from transferring the website to another 
+hosting firm.
+Study Other Websites. Look at websites you and other users think are engaging. Analyze what 
+design elements are being used and see how they are functioning and then try to emulate what you 
+see by creating prototype pages. (It is not ethical or legal to cut and paste pictures or code, but 
+you can still learn from the other sites.)
+Examine the Work of Professional Designers. As you look at professionally designed pages, 
+ask yourself, “What works? What doesn’t work? In what ways can users interact with the site?” 
+For example, does the site have hot links to email addresses, interactive forms to fill in, consumer 
+surveys, games, quizzes, chat rooms, blogs, and so on? What about color schemes and pervasive 
+metaphors?
+Use the Tools You’ve Learned. Figure 11.15 shows a form web designers have used successfully 
+to evaluate web pages systematically. You might want to use copies of the form to help compare 
+and contrast the many websites you will visit as you go about learning web page design.
+Use Storyboarding, Wireframing, and Mockups. Designing for the web brought back a prac-
+tice known in the film industry as storyboarding. In the 1930s at Walt Disney Studios, each 
+scene was drawn on a piece of paper and then tacked to a bulletin board in order of the episodes. 
+(To see a fun and succinct animated version of storyboarding, check out https://disneyanimation 
+.com/process/story/.)
+In developing a website (or any app, for that matter), a storyboard could be used to show 
+the differences between screens. It can show how a visitor to the site would navigate the website 
+to find the information desired. Now storyboards can be developed in Microsoft PowerPoint or 
+Apple’s Keynote by clicking on the slide organizer, and they can be drawn in Microsoft Visio 
+or OmniGraffle as well.
+Page design can be accomplished using a process called wireframing, which shows only the 
+basics. There is no color, no type style. Graphics are shown as a simple box with an X drawn in 
+it. In this way, each of the items acts as a placeholder.
+FIGURE 11.14
+Comparing skeuomorphic (3-D, 
+realistic) icons with those drawn 
+using flat web design.
+Skeuomorphic
+Design
+Flat Design
+
+
+===== BOOK PAGE 342 =====
+
+342    PART iv •  THE EssEnTiALs  Of  DEsign
+Wireframing allows the designer to plan:
+1. The overall design, showing what element appears at each position on the page
+2. The navigational design, showing how to move from one page to the next using buttons, 
+tabs, links, and pull-down menus
+3. The interface design, showing how to interact with the website by inputting data or 
+responding to questions
+An alternative to a wireframe is a mockup. Mockups show what the output and input will 
+look like before programming the underlying code to make the program or application functional.
+Software that helps a systems designer develop a mockup is abundant. Built into the software 
+are objects that can be dragged and dropped onto the screen. Templates are available for any type 
+of display including desktops, notebooks, smartphones, and tablets. When designing for smart-
+phones and tablets, both screen orientations are included. Both wireframing and mockups are a 
+form of nonoperational prototyping discussed previously in Chapter 6.
+Create Templates of Your Own. If you adopt a standard-looking page for most of the pages you 
+create, you’ll get the website up and running quickly and it will consistently look good. Websites 
+may be made using cascading style sheets (CSSs), a language that allows a designer to specify 
+the color, font size, font type, and many other attributes only once. These attributes are stored in 
+a style sheet file and applied to many web pages. If a designer changes a specification in the style 
+sheet file, all the web pages using that style sheet will be updated to reflect the new style.
+Use Extensions, Plug-Ins, Audio, and Video Sparingly. It is wonderful to include features that 
+the professional pages have but remember that everyone looking at your site doesn’t have every 
+new plug-in or extension. Don’t discourage visitors to your page.
+Specific Guidelines for Website Design
+Good websites are well thought out. Pay attention to the following:
+1. Structure
+2. Content
+FIGURE 11.15
+A website evaluation form.
+ Website Critique
+Analyst’s Name
+URL VisitedTime Visited:
+Date Visited:
+DESIGN
+Needs
+Improvement Excellent
+Overall Appearance
+Use of Graphics
+Use of Color
+Use of Sound/Video (Multimedia)
+Use of New Technology and Products
+Content
+Navigability
+Site Management and Communications
+COMMENTS:
+CONTENT & INTERACTIVITY
+SCORE
+1
+1
+1
+1
+1
+1
+1
+1
+5
+5
+5
+5
+5
+4
+4
+4
+4
+4
+3
+3
+3
+3
+3
+2
+2
+2
+2
+2
+5
+5
+5
+4
+4
+4
+3
+3
+3
+2
+2
+2
+/40
+
+
+===== BOOK PAGE 343 =====
+
+CHAPTER 11  •  DEsigning EffECTivE  OuTPuT     343
+“This stuff looks terrible. It looks like scraps. My kindergar -
+dener makes better reports in crayon. Look at it. It’s all ground up 
+together. I can’t find anything. Where’s the summary of the number 
+of beef items sold in each outlet? Where is the total volume of items 
+sold for all outlets? How about the information on our own shop 
+downtown?” says Kwon, slicing at the report.
+The report clearly needs to be redesigned. Design a report (or 
+reports) that better suits Ari Kwon. What approach can the analyst take 
+in suggesting more reports with a less-crowded format? Use a paragraph 
+to comment on the difficulty of implementing user suggestions that go 
+against your design training. What are the trade-offs involved (as far as 
+information overload goes) in generating numerous reports as opposed 
+to generating one large report containing all the information Ari wants? 
+Devise and write a heuristic (a rule of thumb) concerning the display 
+of report information on one report in contrast to the generation of 
+numerous reports. Consider advocating a web-based or app-based 
+dashboard solution that would permit hyperlinks to all the information 
+Ari desires. How feasible is that? Respond in a paragraph.
+CONSULTING OPPORTUNITY 11.4 
+Is Your Work a Grind?
+“I want everything I can get my hands on, and the tighter the 
+information is packed, the better. Forget that stuff you hear about 
+information overload. It’s not in my vocabulary. I want it all, and 
+not in a bunch of pretty-looking, half-page reports either. I want it 
+all together, packed on one sheet that I can take into a meeting in 
+case I need to look something up. And I need it every week,” pro-
+claims Ari Kwon, vice president of Links Meats, a large, family-
+owned sausage company.
+During an interview, Kwon has been grilling Eun Lee, who is 
+part of the systems analysis team that is busy designing an infor -
+mation system for Links Meats. Although Eun is hesitant about 
+what Kwon has told her, she proceeds to design a printed report 
+that includes all the important items the team has settled on during 
+the analysis phase.
+When a prototype of the new report, designed to her specifica-
+tions, is handed to Ari, however, there appears to be a change of 
+heart. Kwon says in no uncertain terms that she can’t find what 
+she needs.
+3. Text
+4. Graphics
+5. Presentation style
+6. Navigation
+7. Promotion
+Structure. Planning the structure of a website is one of the most important steps in developing a 
+professional website. Think about your goals and objectives. Each page in the overall web struc-
+ture should have a distinct message or other related information. Sometimes it is useful to examine 
+professional sites to analyze them for content and features. Figure 11.16 is a screen capture from 
+the DinoTech website. The purpose for the site and the web medium work well together. Notice 
+that there is great attention to supporting users on the site. There are words, graphics, JPEG 
+images, and icons. In addition, there are many kinds of links: to RSS feeds, video, subwebs, chat 
+rooms, a search engine, and many other features.
+To help plan and maintain a solid structure, a web developer can benefit from using one of 
+the many website diagramming and mapping tools available. Many software packages have web 
+charting options built into the software. Although helpful for development, these tools become 
+even more important when maintaining a website. Given the dynamic nature of the web, sites 
+that are linked to your site may move at any time, requiring you or your web developer to update 
+the links. Look for applications that perform web functionality testing or website error checking.
+Content. Provide something important to website users. Exciting animation, movies, and sound 
+are fun, but you must include appropriate content to keep the user interested. Supply some timely 
+advice, important information, a free offer, a top 10 list of tips on the page’s topic, or any activity 
+that you can provide that is interactive and moves users away from a browsing mode and into an 
+interactive one.
+“Stickiness” is a quality a website can possess. If a user stays at your site for a long period 
+of time, your site has a high degree of stickiness. That is why a merchant includes many items of 
+interest on a site. An online travel company, for example, may post videos on how to successfully 
+pack a carry-on bag for a weekend stay or a months-long trip to a foreign country.
+
+
+===== BOOK PAGE 344 =====
+
+344    PART iv •  THE EssEnTiALs  Of  DEsign
+Use a metaphor or images that provide a metaphor for your site. You can use a theme, such  
+as a storefront, with additional pages having a variety of metaphors related to the storefront, 
+such as a deli. Avoid the overuse of cartoons, and don’t be repetitive.
+Every website should include an FAQ (frequently asked questions) page. Often these are 
+created based on the experiences of users and technical support people who identify the topics of 
+continuing concern. Eighty percent of the questions will fall into the FAQ category. By having 
+answers readily available, 24 hours a day, you will save valuable employee time and also save 
+user time. FAQ pages also demonstrate to users of your site that you are in concert with them and 
+have a good idea of what they would like to know.
+A website may take advantage of prewritten applications. Examples include search engines, 
+mapping software, weather information, and news and stock tickers. Website designers value 
+these packages because they can increase the functionality of the site, and the additional features 
+encourage users to bookmark their clients’ websites because they provide valuable bonus content.
+Text. Remember that text is important too. Each web page should have a title. Place meaningful 
+words in the first sentence appearing on your web page. Let people know that they have indeed 
+navigated to the right website. Clear writing is especially important.
+Content on ecommerce sites needs to be constantly updated. Content management systems 
+(CMSs) are powerful software tools that can enable the analyst to develop and maintain websites 
+and other online applications. An increasingly popular CMS is Joomla!, which can be found 
+at https://www.joomla.org. It is based on PHP and MySQL. Unlike proprietary CMSs, which 
+are expensive and not widely available, Joomla! is an open source solution that is made freely 
+available to any developer under a general public license (GPL).
+FIGURE 11.16
+The DinoTech website makes the most of links, RSS feeds, video subscriptions, and banner ads. (Used with permission from Microsoft)
+Website logo Feature storyJPEG image
+Video
+subscription
+Quick links Main
+stories
+Chat roomsAdvertisements Email contact link
+RSS feeds
+Banner ads
+Links to
+subWebs
+Search engine
+
+
+===== BOOK PAGE 345 =====
+
+CHAPTER 11  •  DEsigning EffECTivE  OuTPuT     345
+Graphics. The following list provides details about creating effective graphics for websites:
+1. Use one of the most commonly used image formats. PNGs and JPEGs are best for 
+photographs, and GIFs are best for artwork images. GIFs are limited to 256 colors but may 
+include a transparent background, pixels that allow the background to show through the 
+GIF image. GIF images may also be interlaced, meaning that the web browser will show 
+the image in successive stages, presenting a clearer image with each stage.
+2. Keep the background simple and make sure users can read the text clearly. When 
+using a background pattern, make sure that you can see the text clearly on top of it.
+3. Create a few professional-looking graphics for use on your pages.
+4. Keep graphic images small, and reuse bullets or navigational buttons. Commonly 
+used images are stored in a cache, an area on the browsing computer’s hard drive. Once an 
+image has been received, it will be taken from the cache whenever it is used again. Using 
+cached images improves the speed with which a browser can load a web page.
+5. Include tooltip text in a title attribute for image hot spots. Here is an example. If you 
+display a map of the United States, each state could be set up as a hot spot. The name of 
+the state would appear whenever the user moves the mouse pointer over an image of a 
+state. Note that image spots are not as useful for mobile devices because there is no cursor 
+that can hover over the image.
+6. Examine your website on a variety of displays and screen resolutions as well as on 
+smartphones and tablets. Scenes and text that look great on a high-end video display may 
+not look good on other devices.
+Presentation Style. The following list gives added details about how to design engaging entry 
+displays for websites:
+1. Provide a home page or landing page that introduces the visitor to the website. The 
+page must be designed to load quickly. A useful rule of thumb is to design a page that 
+will load in 3 seconds. (Although you may be designing the page on a workstation at the 
+university, a visitor to your website may be accessing it from home, using a slower internet 
+connection.) This entry display should be 100 kilobytes or less, including all graphics.
+Blogs are being written by corporate users for both internal and 
+external communication. Blogs are informal and personal, and they 
+often invite comments and feedback. They are easy to create and 
+update and are designed to change daily. Companies are using blogs 
+for advertising and to build social networks for consumers, clients, 
+and vendors around their products, building trust and customer 
+relationships.
+Corporate blogs are monitored out of a sense of responsibility 
+for the participants. Guidelines, policies, and laws that shape moni-
+toring practices include shared cultural, ethical, and legal values 
+such as respecting other employees and customers; not publishing 
+any sensitive or secret corporate information or anything protected 
+by copyright (without permission); and excluding anything that is 
+hateful or profane or that violates anyone’s privacy.
+Even with all these guidelines, you still need to ensure that blog 
+posts are written in a human voice, not immersed in legal language. 
+The latest entry should be at the start of the blog. It should contain 
+the following elements:
+1. The permalink, or permanent link, specific for the blog post, 
+which should never change
+2. The headline or title of the post
+3. The primary link, which connects the reader to the subject 
+under discussion
+4. An optional summary, often appearing after the link
+5. The blog text or commentary
+6. An optional image
+7. A block quote containing quotations or other material  
+from other sources that contributes to the discussion  
+(often indented or in a different font to set it apart from  
+the main text)
+8. Links for comments by other people
+9. Blog software features such as a calendar, search form, and 
+other universal features
+One highly acclaimed desktop blogging editor for the Mac is 
+MarsEdit by Red Sweater. It is compatible with WordPress, 
+Micro.blog, Tumblr, and many other blog publishing platforms.
+MAC APPEAL  
+CREATING BLOGS
+
+
+===== BOOK PAGE 346 =====
+
+346    PART iv •  THE EssEnTiALs  Of  DEsign
+The home page should contain a number of choices, much like a menu. An easy way to 
+accomplish that is to design a set of links or buttons and position them on the left side or the top 
+of the screen. These can be linked to other pages on the same website.
+2. Keep the number of graphics to a reasonable minimum. It takes additional download 
+time to transfer a graphics-intensive site.
+3. Use large and colorful fonts for headings.
+4. Use interesting images and buttons for links. A group of images combined into a single 
+image is called an image map, and it contains various hot spots that act as links to other 
+pages.
+5. Use cascading style sheets to control the formatting and layout of the web page. A CSS 
+separates the content (the text and images) from how it looks (the presentation) and stores 
+the information in a file external to the web page. One style sheet may control the format-
+ting of many pages. Making a change in the style sheet (for example, changing the color of 
+bold text) will change the formatting of all the web pages that use the style sheet.
+6. Use divisions to enhance a layout. Divisions control the layout by providing blocks of 
+text on the web page. Each block may be defined with a position from the top and left of 
+the screen or a larger block, and it may have a width and height, as well as border style and 
+background color. Divisions eliminate the need for tables within tables and simplify design.
+7. Use the same graphics images on several web pages. Consistency will be improved, and 
+the pages will load more quickly because the computer stores the image in a cache and 
+doesn’t have to load it again.
+8. Use JavaScript. JavaScript can be used to tell images to change when a mouse is moved 
+and hovers over them, making menus expand and so on. JavaScript can also be used to 
+reformat a web page based on the height and width of the screen. If the website is multina-
+tional, JavaScript can even detect the language being used (a browser setting) and redirect 
+the viewer to a different landing page displaying text in a different language.
+9. Avoid overusing animation, sound, and other elements.
+Navigation. Is it fun for you to follow links on the web? The answer is most likely that it depends. 
+When you discover a website that loads easily, has meaningful links, and allows you to easily 
+return to the places you want to go back to, chances are you think it is fun. Fun is not just play; it 
+can be an important part of work too. Recent research shows that fun can have a powerful effect 
+on making computer training effective.
+If, on the other hand, you can’t decide which button or hot spot to click on, and you are afraid 
+to choose the wrong one because you might get into the wrong page that takes a long time to load, 
+navigation is more painful than fun. An example is visiting a software company’s page to find 
+information about the features of the latest version of a product. You have choices such as products, 
+download, FAQ, and tech support. Which button will lead to the answers you’re looking for?
+Make sure you include a navigation bar and links to the home page on every page of the 
+website. A visitor to the site may have found a particular page using a search engine, and it is 
+important that the visitor can easily find their way to the home page.
+Most important, make sure that users can find what they want quickly: users should be able 
+to move from the page they are currently on to the page containing the information they want 
+using well-planned, meaningful menu items that provide a mix of cues (Budiu, 2020), including 
+those they can get from a link label, the context in which the link is shown, and their previous 
+experiences with websites. Use breadcrumbs to help orient the user. Additonally, designers should 
+avoid menu labels with odd or branded names.
+Rather than urging designers to follow the the three-click rule (that states users should be able 
+to move from the page they are currently on to the page containing the information they want in 
+only three clicks of a mouse button) to the point of absurdity, and trading off depth of the menu 
+for the sake of observing a rigid rule, research (Nielsen & Li, 2017) recommends focusing on 
+designing so that users are successful in finding the content they want. One approach is mega-
+menus, which are large, two-dimensional panels you can divide into groups showing options for 
+navigation.
+These options can be further structured through layout, type font design, and even icons. 
+Megamenus show everything visible all at one time, which means the user does not have to do 
+any scrolling. Users can reveal menu options by hovering, clicking, or tapping on an icon or link.
+
+
+===== BOOK PAGE 347 =====
+
+CHAPTER 11  •  DEsigning EffECTivE  OuTPuT     347
+In order to addess accessibility issues with megamenus, they recommend that designers make 
+each top-level menu choice clickable, where it leads to a regular web page that can then present 
+all available drop-down options in a fully accessible, HTML version. Examples of websites with 
+megamenus for you to explore and use as prototypes include the insurance firm daveramsey.com 
+and the fashion and home retailer johnlewis.com.
+Promotion. Promote your site. Don’t assume that search engines will find you right away. Submit 
+your site every few months to various search engines. Include keywords, called metatags, that 
+search engines will use to link search requests to your site. You can find general information 
+about metatags at searchenginewatch.com. In addition, you can download free metatag-generating 
+software from a variety of sources. If you try to use email to promote your site, others will consider 
+it junk email or spam.
+Encourage your readers to bookmark your website. If you link to and suggest that they go 
+to affiliated websites that feature the “best movie review page in the world” or to the “get music 
+for free” website, don’t assume they’ll be coming back to your site in the near future. You will 
+encourage them to revisit if they bookmark your site (bookmarks are called “favorites” in some 
+browsers). You also may want to design a “favicon,” or favorite icon, so users can identify your 
+site in their lists of favorites.
+WEB 2.0 TECHNOLOGIES
+Of increasing importance for an analyst working on organizational websites is the strategic inclu-
+sion of Web 2.0 technologies that focus on enabling and facilitating user-generated content and 
+collaboration via the web. Familiar types of technologies you should think about including on both 
+public-facing and internal websites you design include blogs, wikis, links to social networks on 
+which the company has a presence, and tagging (also called social bookmarking) that provides 
+useful pointers to online resources such as websites, content on corporate intranets, corporate 
+Seymour continues, “I can tell you what we disliked about the 
+reports I worked with. There were too many darn layers, too much 
+foliage, or whatever you call it, to go through. Even with a screen 
+in front of me, it was like paging through a thick report. What do 
+you call that?”
+“Menus?” Rosa suggests helpfully. “The main point is that you 
+didn’t like having to go through lots of information to get to the 
+display you needed.”
+Seymour looks happily at Rosa and says, “You’ve got it. I want 
+to see more fields on each screen.”
+How should Rosa design screen output so that Fields and the 
+VP group can get what they want on each screen while observing 
+the guidelines for good display design? Remember that the 
+group members are busy, and although they wouldn’t be caught 
+without their smartphones, they don’t use their desktop systems 
+very often. Design a hyperlinked page that would work well in a 
+DSS for the vice presidents. What should be included in the first 
+display, and what should be stored in hyperlinks? List elements 
+for each and explain in a paragraph why you have decided on 
+this strategy.
+CONSULTING OPPORTUNITY 11.5 
+A Field Day
+“The thing of it is, I get impatient,” says Seymour Fields, 
+owner of a chain of 15 highly successful florist shops/indoor flo-
+ral markets called Fields that are located in three Midwestern cit-
+ies. “See this thing here?” He taps his computer display irritatedly. 
+“We do all the payroll and all the accounting with these things, but  
+I don’t use it like I should. I actually feel a little guilty about it. 
+See?” he says as he makes a streak on the display with his finger. 
+“It’s even got dust on it. I’m a practical person, though. If it’s sitting 
+here, taking up space, I want to use it. Or smell it, or at least enjoy 
+looking at it, like flowers, right? Or weed it out, that’s what I say. 
+The one time I tried something with it, it was a real disaster. Well, 
+look, I can show you if I still remember how.” Seymour proceeds to 
+try to open an application but can’t seem to get it working.
+Rosa Maceta, a systems analyst, has been working on a systems 
+project for the entire Fields chain. Part of the original proposal was 
+to provide Seymour and their vice presidents with a decision support 
+system (DSS) that would help them devise a strategy to determine 
+which European markets to visit to set up purchase agreements for 
+fresh flowers, which outlets to ship particular kinds of flowers to, 
+and how much general merchandise, such as planters, vases, note 
+cards, and knickknacks, to stock in each outlet.
+
+
+===== BOOK PAGE 348 =====
+
+348    PART iv •  THE EssEnTiALs  Of  DEsign
+documents, or photos that are relevant to the organization and to users. Notice that Web 2.0 tech-
+nologies can be externally faced to clients, customers, vendors, or suppliers or internally faced 
+to corporate intranets.
+For outward-facing web technologies, the reasons for adding these important collaborative 
+tools to organization websites are clear. Companies use collaborative tools to communicate an 
+integrated branding and messaging strategy across multiple platforms, to gauge consumer opinion, 
+to gather feedback, to create a community of users, and so on. Inward-facing web technologies 
+can be useful in building employee relationships, maintaining trust, sharing knowledge, innovating 
+among employees and groups of employees, locating corporate resources more readily, and 
+nurturing corporate culture and subcultures inside the organization.
+Your requirements determination phase informed you about user preferences. As you are 
+prototyping, you might also want to add Web 2.0 technologies to internal and external web pages 
+if there is a well-thought-out, strategic reason for doing so. Part of your recommended design 
+solutions may include adding collaborative tools. From our research and practice with for-profit 
+and nonprofit organizations attempting to use Web 2.0 technologies, we have found that there are 
+five aspects an analyst should consider:
+1. Realize differences between corporate objectives and objectives of key stakeholders. 
+There will be differences in why each group values collaborative technologies that you dis-
+cover in the outlooks of both groups.
+2. Serve as the voice of the customer to your client organization. In recommending the 
+inclusion of Web 2.0 technologies for externally facing websites, you need to be able to 
+articulate the needs of the customer to the organization.
+3. Recognize the importance of visual page design for effectively displaying collaborative 
+tools. Whenever users have an expectation of placement of Web 2.0 icons (see Figure 11.17 
+for examples) on the web page (for Facebook links, Twitter icons, tagging capability, and 
+so forth), you must observe the convention, or at least reinforce the emerging convention. 
+Users are getting more accustomed to seeing this array of interactive options displayed in a 
+predictable pattern on corporate websites.
+4. Revise and update the Web 2.0 technologies offered frequently. Develop a plan (and a  
+set of tools) for revising and updating collaborative tools offered on both internal and external 
+websites when styles, customs, and tools change.
+5. Work to integrate Web 2.0 technologies with the existing branding. Ensure that 
+messages are consistent throughout outwardly facing websites and in all public-facing 
+communications.
+FIGURE 11.17
+Many different Web 2.0 sets 
+of icons. (Courtesy: Facebook, 
+LinkedIn, and Twitter.)
+Name of
+Icon Set
+Social
+Networks
+Pro Icons
+Circular
+Social
+Media
+Free Social
+Media Icon
+Set
+Amazing 3-D
+Social Icons
+Vintage
+Icons for
+Bloggers
+Designer or
+Supplier
+Artbees
+BlogPerfume.com
+Elegant Themes
+pinkmoustache.net
+Nikola Lazarevic
+Facebook
+ LinkedIn
+ Twitter
+RSS Feed
+
+
+===== BOOK PAGE 349 =====
+
+CHAPTER 11  •  DEsigning EffECTivE  OuTPuT     349
+SOCIAL MEDIA DESIGN
+Designing output and content for social media has become a career in its own right, but systems 
+analysts may be faced with those design tasks as part of their overall information systems design 
+work for an organization. Businesses use social media for a number of reasons, including growing 
+their audiences (by targeting users within their key demographics), increasing traffic to already 
+well-established websites, reinforcing brand awareness, developing an online personal website that 
+can be trusted, and so on. Many fun, interactive activities can be added to social media posts such 
+as games, contests, competitions, rewards, or point or badge prizes that engage, incentivize, and 
+reward users for taking an action (going through their Pinterest account to pin a shirt purchased 
+from Amazon to Pinterest, for example).
+Your clients have numerous options to consider for posting content or advertisements that can 
+make an impact on customers: Facebook, Instagram (via the company’s Facebook Advertising), 
+Twitter (your client will need to sign up for Twitter Advertising), Snapchat, YouTube, LinkedIn, 
+Pinterest, and many others based in other countries. Although social platforms share some simi-
+larities, they also have some differences. On Snapchat, for instance, videos and photos disappear 
+once they are viewed, whereas Twitter reuses the main profile picture and username every time 
+the Twitter account is accessed. Carefully craft initial selections for these sites, and refresh with 
+new pictures or other images as warranted.
+Designing content for social media is highly visual, and visual content is 40 times more likely 
+to be shared on social media. Sharing is at the core of what allows a designer of social media to 
+leverage social media for its best networking aspects. Although designing for social media is built 
+on many of the same principles as designing for intranet business pages or for corporate web-
+sites, the emphasis shifts from clarity of writing and orderly design to an emphasis on the visual. 
+Specialized imaging tools such as Canva, Pablo by Buffer, Adobe Creative Cloud Express, and 
+Desygner are easy to use and enhance visual design of social media content.
+Guidelines for Social Media Design
+In the following section we consider four aspects of designing for social media: (1) emphasizing 
+the goal of the design, (2) developing a consistent look, (3) creating appealing design flow, and 
+(4) simplifying to use space in a positive way.
+Emphasizing the Goal of the Design. Always keep in mind the most important goal of the con-
+tent to be conveyed. Is it to invite participation? Is it to engage first-time customers with a new 
+company? Is it to remind an established customer of upcoming events? Is it to underscore the 
+presence of the corporation on social media in addition to their web presence? Examine what is 
+driving creation of this content. Keep focusing on what must be included and eliminate second- 
+and third-priority social media content, which should be developed on more extended platforms 
+such as websites or in videos.
+Developing a Consistent Look. Incorporate key design elements such as corporate logos or 
+trademarks in every posting on social media. Continue using the organization’s established color 
+palette (for example, use green, brown, and blue for an organic food company as visual cues of 
+the freshness of organic food grown outdoors), and carefully consider the story you tell in your 
+designs for a company that provides luxury services or goods (black and gold are traditional 
+invocations of lavish goods and would be good color choices).
+Color choice can help the audience understand the story you are trying to tell; critical elements 
+in the story can be keyed to certain colors to increase their impact on the audience. Appropriate 
+color choices can be found using design tools with predesigned complementary palletes or by 
+examining a color wheel.
+When beginning a new design, make sure the color choices reflect the organization’s purpose 
+and harmonize with their corporate logo. As with other types of screen and form design, limit the  
+number of typefaces on postings to about three. Using too many typefaces risks distracting 
+the audience with clutter and losing the story line.
+Creating Appealing Design Flow. Lay out the design in a deliberate way so that it flows well when 
+the user views it. The upper left side of the screen and the left side are highly noticeable places 
+for important information to appear on social media. For those familiar with the English alphabet,
+
+
+===== BOOK PAGE 350 =====
+
+350    PART iv •  THE EssEnTiALs  Of  DEsign
+visualize elements for the design as being mapped out in an “E” pattern, an “F” pattern, or a “Z” 
+pattern. In reading English text, our eyes follow those patterns, so key visual elements are best 
+placed there. These layouts work well for social media and will garner attention for the business, 
+keeping people on the posting or advertisement longer than will other designs.
+Simplifying to Use Space in a Positive Way. Understanding the concept of simplifying designs 
+for social media is sometimes a difficult one to convey because it dwells on the idea that “less is 
+more.” Positive space is like a “rest” in a musical score. A rest is a silent pause in the music, and 
+the score symbolically shows how long the musician must pause before the music resumes. A rest 
+contrasts with the sound of the note, but it is crucial to a coherent sound. A useful way to approach 
+using positive space is to design a content posting, then ask yourself “What can be eliminated?” 
+Oftentimes you can delete an extraneous element—an extra object, an extra color—or resize an 
+element and use the positive space to set off important objects in an eye-catching way.
+Eventually, one goal in developing a strategy for addressing evolving user standards and 
+conventions is to use text analytics (TA) software to interpret the qualitative data captured in 
+customer responses to blogs, wikis, and through other social media. Indeed, this is an approach you 
+can recommend to your client organization as you close the feedback loop created by establishing 
+Web 2.0 technologies for consumers and employees.
+DESIGNING APPS FOR SMARTPHONES AND TABLETS
+As smartphones and tablets become more powerful and ubiquitous in organizations, systems ana-
+lysts will need to conceptualize their software as apps. In the early days of computing, software 
+was called a “program.” Apple preferred the term “application.” When software was designed for 
+the iPhone and iPad, software was simply called an “app.” The word app became mainstream 
+with the widespread adoption of iPhones and iPads that can run these small programs. Apple sells 
+apps on iTunes much the same way it sells music. You can download an app and install it on your 
+iPhone or iPad.
+Creating an app for a mobile phone or a larger device such as the iPad involves brainstorming, 
+imagining, preliminary screen design, user interface decisions, and detailed screen design. Many 
+designers like to work in Adobe Illustrator, but others prefer Adobe Photoshop. But before 
+attempting to use one of these packages, a large whiteboard with a marker can be the very best 
+way to begin designing an app. Later in this chapter we examine apps that are used to create 
+mockups, the preferred name for smartphone and tablet prototypes.
+An analyst who develops apps is trying to fill or to create a user need in a unique way. The 
+motivation for creating the app often arises from the developer, and usually not from formal 
+requirements analysis performed for an organization. However, numerous approaches and tools 
+used for display and web design apply to app development as well as to larger systems projects.
+In this section, we focus on designing for the small screens of smartphones and tablets. It is 
+interesting to note, however, that Apple requires developers to send in a 512 × 512-pixel icon for 
+the App Store. Requirements for the original Macintosh computer only necessitated a 512 × 342-
+pixel display, so output design for smartphones and tablets must be taken seriously.
+Throughout this section, we discuss concepts useful in any operating system, whether for 
+Apple, Android, or Microsoft. We use examples from Apple’s iPad and iPhone, however, because 
+they are currently the dominant devices of tablets and smartphones.
+In designing apps for the small screens of smartphones and tablets, follow these steps:
+1. Set up a developer account.
+2. Choose a development process.
+3. Be original.
+4. Determine how you will price the app.
+5. Follow the rules for output design.
+6. Design your icon.
+7. Choose an appropriate name for the app.
+8. Design for a variety of devices.
+9. Design the output for the app.
+10. Design the output a second time for different orientation.
+
+
+===== BOOK PAGE 351 =====
+
+CHAPTER 11  •  DEsigning EffECTivE  OuTPuT     351
+11. Share a prototype of your work.
+12. Design the logic.
+13. Design movement.
+14. Create the user interface using gestures.
+15. Protect your intellectual property.
+16. Market your app.
+We concentrate on the steps that are design oriented in this chapter.
+Set Up a Developer Account
+Apple has software developer accounts for individuals or an enterprise. Apple insists on approving 
+every app sold in its App Store. This means there are some restrictions that frustrate software 
+developers and, sometimes, consumers. Here’s where the walled garden comes in (in this case 
+the metaphor refers to an array of preapproved apps that are closed to outside developers). You 
+won’t find any app with objectionable content in the App Store, and you won’t find a great app 
+that lets you reprogram the mute button on your iPhone to function as a camera shutter either. 
+Android has a more open platform, and many developers have taken advantage of developing apps 
+in open source communities.
+Choose a Development Process
+Unless you are developing a specialized app that will cost more than $19.95, prototyping is most 
+likely the best way to develop your app. Quick releases are important, and there is a strong advan-
+tage to being the first to introduce a certain type of app. You can draw on many of the principles 
+and values of agile development in designing an app.
+Quality should not be sacrificed, but it is possible to introduce an app and then add features 
+in subsequent releases. Numerous app developers have adopted this strategy, and it has a number 
+of advantages. It allows you to gain an advantage by being the first to introduce a specific app. It 
+also allows you to revise the app adding new features, and users approve wholeheartedly when 
+improvements are made. In addition, it increases visibility because the app appears on a list of 
+apps that have been updated.
+Be Original
+Never copy other developers’ software. Doing so is illegal and unethical. Make sure your app 
+has different functionality and looks very different from other apps on the market. Observe all 
+licensing restrictions.
+This may seem obvious, but some developers don’t realize that you can’t use Apple trade-
+marks in your app. You should avoid using words like iPad  and iPhone  in your app, and even 
+avoid the name Apple, for that matter.
+Determine How You Will Price the App
+The pricing decision you make will affect the design of the app. If your app will contain adver -
+tising, the ads will take up valuable space on your screen and may distract users. If you adopt a 
+pricing strategy that allows upgrading of features, you need to consider the interface that asks the 
+user to upgrade.
+There are six basic options for pricing:
+1. Choose a low-cost strategy. Taking into consideration free and freemium apps and apps 
+offered in the Apple App Store, the average price of apps is around $1.00 and the average 
+price of games is $0.49. A very large number of iPhone apps are $0.99. For the iPad, $1.99 
+rather than $0.99 is the standard. If you decide to offer a low-cost app, you’ll have plenty 
+of company.
+2. Introduce an app as a “premium” app. Premium apps cost $19.95 and up. These apps 
+are intended for professionals and are often iPad versions of desktop software. Omni 
+Group offers a suite of apps that accomplish much of the functionality of Mac apps. If 
+you price your app this way, you will have fewer users adopting the app, but they will 
+be serious users. They will demand that you add features and functionality and provide 
+adequate support.
+
+
+===== BOOK PAGE 352 =====
+
+352    PART iv •  THE EssEnTiALs  Of  DEsign
+The Hot Apps Factory team introduced an app for developing apps as version .983 
+with an introductory price of $19.95. They are planning to add six additional features and 
+incrementally increase the price by $5.00 every time a feature is added. Version 2.0 will be 
+priced as a monthly subscription for $10-$200 a month depending on chosen features. 
+3. Adopt a “freemium” model. Apps that are offered at no cost for basic features but allow 
+in-app purchases for premium features and functionality are called freemium apps. In 
+the early days of app development, there was somewhat of a backlash to this approach, 
+as many users feel they were forced to pay for each feature separately, but now it is more 
+common. Consider all options before choosing this business model.
+4. Offer an app for free. Sometimes it is advisable to offer an app at no charge to the user. 
+If you are the nth person to write an app for this situation, that may be the only way to get 
+users to adopt your app. It may be useful if you have other apps for sale. Adopters may 
+appreciate your work and buy something else you have developed.
+5. Promote an app by reducing its price. A mixed strategy is sometimes best. Occasionally 
+you can reduce the price of an app for a short period of time or even offer it for free. Apple 
+iTunes features an app of the week, although it is not free. However, other sites feature 
+daily free offerings. Ideally you want to be on one of Apple’s top lists and offering an app 
+for free might accomplish this.
+6. Accept advertising. If you have a very useful app that is open much of the time (a weather 
+app, a stock market app, or even a popular game, for example), it might be advantageous to 
+have a free app with advertising. If you read the comments of users about a certain weather 
+app on the App Store pages, you will notice that customers keep asking for an ad-free 
+option. Use advertising cautiously.
+Follow the Rules
+Follow the design rules set forth by the developer of the operating system. Apple rejects many apps 
+designed for Apple’s iOS because they violate the Human Interface Guidelines (HIG). Interfaces 
+are discussed in detail in Chapter 14.
+Design Your Icon
+On a smartphone or tablet, the icon is just as important as the app name. Try to design a simple, 
+easily identifiable, and easy-to-remember icon. Figure 11.18 shows an example from App Cooker, 
+developed by Hot Apps Factory. It allows you to see how your icon will look in various different 
+formats.
+FIGURE 11.18
+App Cooker (by Hot Apps 
+Factory) allows a designer to 
+see how an app icon will appear 
+in its many forms. (Screenshot 
+from App Cooker application. 
+Copyright © 2011 by Hot Apps 
+Factory SARL. Reprinted with 
+permission.)
+
+
+===== BOOK PAGE 353 =====
+
+CHAPTER 11  •  DEsigning EffECTivE  OuTPuT     353
+Choose an Appropriate Name for the App
+Keep your app name to 12 or fewer characters. It will appear under the icon on the home screen, 
+and if it is longer than 12 letters, some letters will be dropped when the icon is displayed on 
+a screen.
+Design for a Variety of Devices
+Even staying within Apple’s set of iPads and iPhones may mean that you need to design apps 
+that are flexible. Some of the differences among displays are shown in Figure 11.19. You need to 
+supply Apple with a number of different icon sizes, so take that into consideration when you are 
+developing an icon. Icons will look different from one device to another if they are too complex. 
+Simplicity is a virtue when designing icons.
+You should create icons in a vector-based graphic application such as Adobe Illustrator. If 
+you use vector-based graphics, you can scale your icons rather than create bitmap images in many 
+different sizes. Start with a 1024 × 1024 design, and you can shrink the graphic to smaller sizes. 
+If you create a 1024 × 1024 design, it will print as a 3.5 × 3.5-inch item at the 300 dots per inch 
+resolution needed for magazines.
+Design the Output for the App
+Although it is possible to use Adobe Illustrator, Visio (on the PC), or OmniGraffle (on a Mac), you 
+might consider using one of the many apps designed specifically for creating apps on handheld 
+devices. Some apps especially useful for designing for Apple iPhones and iPads are AppCraftHD, 
+iMockups, and App Cooker.
+Figure 11.20 shows how the App Cooker app allows a designer to pick from a series of wid-
+gets. This app, as well as many others, provides templates for iPhones and iPads so a designer 
+can plan precisely what will appear on the screen when the app is running. The principles for 
+designing smartphone and tablet screens are similar to the ones mentioned earlier in the chapter.
+Design the Output a Second Time for a Different Orientation
+Once you have designed all the screens for an app, you should do it again, but this time turn the 
+devices 90 degrees. If you designed the app in landscape mode, turn the device and design it in 
+portrait mode.
+FIGURE 11.19
+Apple smartphones and tablets 
+come in different sizes.
+Icon Required
+Display size
+Application
+icon (Home
+screen icon)
+App icon for
+the app store
+Launch image
+Spotlight
+search icon
+Settings icon
+Documents
+icon
+Size for Older
+iPhones in
+(pixels)
+320 × 480
+57 × 57
+512 × 512
+320 × 480
+29 × 29
+29 × 29
+22 × 29
+Size for High-
+Resolution
+iPhone (pixels)
+640 × 1136
+114 × 114
+1024 × 1024
+recommended 
+640 × 960
+58 × 58
+58 × 58
+44 × 58
+Size for Older
+iPad (pixels)
+1024 × 768
+72 × 72
+512 × 512
+768 × 1004 and
+1024 × 748 
+50 × 50
+29 × 29
+64 × 64 and
+320 × 320
+Size for High-
+Resolution iPad
+(pixels)
+2048 × 1536
+144 × 144 
+1024 × 1024
+recommended 
+1536 × 2008 and
+2048 × 1496 
+100 × 100
+58 × 58
+128 × 128 and
+640 × 640
+
+
+===== BOOK PAGE 354 =====
+
+354    PART iv •  THE EssEnTiALs  Of  DEsign
+Let’s face it. Some apps look better in one mode than another. If you read a full page of text 
+on a smartphone in a browser such as Safari, you may be familiar with looking at it in portrait 
+mode. On a tablet, however, the text may appear to look better in landscape mode, even if the 
+number of words is exactly the same.
+When text is justified, the gaps between words seem to be larger in portrait mode, making it 
+more difficult to read. On a device such as Kindle, changing the orientation changes the num-
+ber of words on a page and also changes the column structure. Users like to choose their screen 
+orientation.
+Developers can use different orientations to their advantage. In portrait mode, a calculator 
+app can present a very simple calculator, but putting it in landscape mode may transform it into a 
+powerful scientific calculator. Giving this easy option to a customer is usually welcomed.
+Share a Prototype of Your Work
+Before you begin coding, take the opportunity to get valuable feedback from friends, potential 
+users, and even fellow developers. Apps such as AppTaster allow you to test your app designs by 
+sharing your prototypes created in App Cooker.
+Design the App’s Logic
+Tablets and smartphones fit in well with the prototyping method of development, but sometimes 
+the best way to approach an app is to sketch out the logic using some of the principles used in 
+creating process specifications and diagramming structured decisions (discussed in Chapter 9).
+Design Movement
+How you move from screen to screen may make a big difference in a user’s experience. Don’t 
+leave movement to chance. Plan movement carefully and use storyboards or an app such as App 
+Cooker to plan how an app navigates from one screen to another, as shown in Figure 11.21.
+Create the User Interface Using Gestures
+Smartphones and tablets have innovative user interfaces (technically called touchscreen capaci-
+tive sensing), and you need to design your apps assuming that users will demand touch-sensitive 
+interfaces that use gestures such as swipes, pinches, tugs, and shakes. Users will expect different 
+types of feedback and will demand the ability to opt out of some of the features.
+Gestures and feedback for tablets and smartphones are discussed in greater detail in 
+Chapter 14, in the context of human–computer interaction, providing user feedback, and usability.
+FIGURE 11.20
+The mockup app App Cooker has 
+a toolbox of widgets you can use 
+to design a screen. (From App 
+Cooker application. Copyright © 
+2011 by Hot Apps Factory SARL. 
+Reprinted with permission.)
+
+
+===== BOOK PAGE 355 =====
+
+CHAPTER 11  •  DEsigning EffECTivE  OuTPuT     355
+Protect Your Intellectual Property
+If you put the effort into design, you need to protect it. Trademark your icons and logos. Recently 
+competitors have introduced apps with one-off logos or icons very similar to already popular ones. 
+You might also want to copyright your app. Doing so is not very expensive.
+You are also advised to create your own end user license agreement (EULA). Your EULA 
+gives others the right to use your app and limits what a user can do with the app.
+When you write a EULA, consider including a warranty disclaimer. Some users will not like 
+an app and will want a refund. This is often unreasonable, especially when a user may have paid 
+only 99 cents to buy the app. Still, users’ expectations are not always aligned with yours, so protect 
+yourself. Apple has a default EULA, but our advice is to consider a custom EULA.
+The smartphone and tablet markets are constantly evolving. New operating systems will 
+change the way apps are designed in the future.
+Market Your App
+If you are fortunate enough to get a potential user to visit your app’s product page, you need to 
+convince the person to pay for and download your app. Pay attention to the content on Apple’s 
+App Store, which is divided into many sections. To market your app, you will need a large icon, 
+a description, a section explaining what is new in the current version, and a sample set of screen 
+shots. The screen shots selected are very important. All this is mentioned here because good app 
+design is essential to putting your best face forward.
+There are many other ways to market your app, but that discussion is beyond the scope of 
+this book. There are many books and websites devoted to marketing apps.
+OUTPUT PRODUCTION AND XML
+Output production varies depending on the platform used. There are many different ways to 
+create output, ranging from database software such as Microsoft Access, to statistical packages 
+such as SAS, to document creators such as Adobe Acrobat. Figure 11.22 illustrates the 
+transformation process.
+One of the advantages of using hypertext markup language (XML; see Chapter 8) is that an 
+XML document can be transformed into different output media types. This is done using CSSs or 
+extensible stylesheet language transformations (XSLT). These methods reinforce the idea that 
+data can be defined once and used many times in different formats.
+FIGURE 11.21
+App Cooker allows you to plan 
+how an app goes from one screen 
+to the next. (From App Cooker 
+application. Copyright © 2011 
+by Hot Apps Factory SARL. 
+Reprinted with permission.)
+
+
+===== BOOK PAGE 356 =====
+
+356    PART iv •  THE EssEnTiALs  Of  DEsign
+Using CSSs is an easy way to transform an XML document. A style sheet provides a series 
+of styles, such as font family, size, color, border, and so on, that are linked to the elements of the 
+XML document. These styles may vary for different media, such as a screen, printed output, or 
+a handheld device. The transforming software detects the type of device and applies the correct 
+styles to control the output.
+For example, a style used for a flat-panel display might use a rich palette of colors and a sans 
+serif font, which is easier to read on a screen. A different style using a serif font and black or gray 
+color may be used to define a printed report for the same data. A smaller font size might be used 
+for a handheld device or mobile phone.
+The drawback of using CSSs is that it does not allow an analyst to manipulate the data, such 
+as rearranging the order of the elements or sorting, and only a limited amount of identifying text, 
+such as captions, may be added. CSS is basically used for formatting.
+Extensible stylesheet language transformations (XSLT) is a more powerful means of trans-
+forming an XML document. XSLT allows an analyst to select the elements and insert them into 
+a web page or another output medium. XSLT is not a programming language but uses a series of 
+statements to define which elements should be output, the sort sequence, the selection of data, 
+and so on. An example of an XML transformation is illustrated in Figure 11.23. The XML is 
+shown on the left, and the result of the transformation is shown on the right. Notice that only the 
+data between the tags (contained in less than [<] and greater than [>] symbols) are included in 
+the output.
+Ajax
+Ajax is a technique that uses both JavaScript and XML to obtain small amounts of data, either 
+plain text or XML, from a server without leaving the web page. This is a big advantage because 
+it means that the entire web page does not need to be reloaded. It works by allowing the web 
+page to reformat itself based on choices that a user inputs. Ajax is also related to user input; see 
+additional details in Chapter 12.
+Ajax is discussed here because the output implications are important as well. It is up to 
+analysts and designers to determine when data should be added or changed on a web page and 
+to identify the conditions that cause the change. The order in which the questions are asked plays 
+into this design as well.
+FIGURE 11.22
+Extensible stylesheet language 
+transformations software can be 
+used to make XML documents and 
+transform them into many different 
+formats for a variety of platforms. 
+(Image courtsey-Desktop 
+Computer: Pixelliebe/123RF). 
+(Image courtsey-Smartphone-
+Lembergvector/123RF).
+<?xml version=“1.0”?>
+  <customers >
+    <name>
+    <phone>
+ <customers>
+Paper Output
+New XML Document
+XML Document
+Smartphone
+Web Page
+<?xml version=“1.0”?>
+  <customers >
+    <name>
+    <phone>
+ <customers>
+Desktop
+
+
+===== BOOK PAGE 357 =====
+
+CHAPTER 11  •  DEsigning EffECTivE  OuTPuT     357
+An example of a web page using Ajax is shown in Figure 11.24, which demonstrates that Ajax 
+makes it possible to display much less data on a page, thereby making the output less cluttered 
+and less confusing. In this example, the user entered one of four ways to narrow down the search 
+to view a list of current customers. The options the user had available were (1) enter the first three 
+digits of a zip code (postal code), (2) enter a telephone area code, (3) select a state, or (4) select 
+a country. The user may not know the postal code or area code and may therefore need to search 
+by state or country, so the options are very useful.
+After entering one of the location choices—in this case, the first three digits of the postal 
+code—the user clicked on the Get Customers button. The value of the postal code is sent to the 
+server, along with data indicating that it was a postal code. The server then finds all customer 
+records for the selected location, creates an XML document, and sends it to the same web page.
+When designing output, a systems analyst has many different options regarding how to 
+display data on the web page. In this case, the analyst specified that the XML document would be 
+used to create a drop-down list containing all current customers for the desired location. Once a 
+user selects a customer from the drop-down list, more information about the particular customer 
+is displayed, as shown in the example.
+The advantage of using Ajax for displaying data is that the user does not have to wait for 
+a new web page to display after making a selection. The Ajax philosophy is to display limited 
+questions for the user to answer on an incremental basis. This eliminates screen clutter. Once the 
+user responds to a question by making a choice, a new question may be generated.
+FIGURE 11.23
+An XML transformation, with 
+XML on the left and the result of 
+the transformation on the right. 
+Only data between the tags are 
+included in the output on the right.
+<?xml version=“1.0” standalone=“no”? >
+<?xml–stylesheet type=“text/xsl” href=“cust02.xsl” ?>
+<customers>
+    <title>Customer Information</title>
+    <customer>
+     <number>09288</number>
+  <name>
+   <lastname> Green </lastname>
+   <ﬁrst name> George </ﬁrst name>
+   <middle_initial>L</middle_initial>
+  </name>
+  <address>
+   <street> 123 Oak Street</street>
+   <apartment> Suite 16</apartment>
+   <city>Madison</city>
+   <state> WI</state>
+   <zip> 53704</zip>
+   <country>United States</country>
+  </address>
+  <current_balance>123.45</current_balance>
+    </customer>
+    <customer>
+     <number>15008</number>
+  <name>
+   <lastname> Brown</lastname>
+   <ﬁrst name> Sally</ﬁrst name>
+   <middle_initial>S</middle_initial>
+  </name>
+  <address>
+   <street> 123 Elm Street</street>
+   <apartment> Apt. 1</apartment>
+   <city>Camden</city>
+   <state> NJ</state>
+   <zip> 08102</zip>
+   <country>United States</country>
+  </address>
+  <current_balance>9,876.54</current_balance>
+    </customer>
+</customers>
+Customer Information
+Number:
+First Name:
+Last Name:
+Street:
+Apartment:
+City:
+State:
+Zip:
+Country:
+Current Balance:
+09288
+George
+Green
+123 Oak Street
+Suite 16
+Madison
+WI
+53704
+United States
+123.45
+Number:
+First Name:
+Last Name:
+Street:
+Apartment:
+City:
+State:
+Zip:
+Country:
+Current Balance:
+15008
+Sally
+Brown
+123 Elm Street
+Apt. 1
+Camden
+NJ
+08102
+United States
+9,876.54
+
+
+===== BOOK PAGE 358 =====
+
+358    PART iv •  THE EssEnTiALs  Of  DEsign
+Summary
+Output is any useful information or data delivered to the user by the information system, decision support 
+system, the web, or smartphones or tablets. Output can take virtually any form, including print, computer, 
+smartphone, and tablet displays, audio, microforms, social media posts and content, and web-based documents.
+A systems analyst has six main objectives in designing output: to serve the intended human and organi-
+zation purpose, to fit the user, to deliver the right quantity of output, to deliver it to the right place, to provide 
+output on time, and to choose the right output method.
+Analysts should recognize that output content is related to output method. Output of different technolo-
+gies affects users in different ways. Output technologies also differ in their speed, cost, portability, flexibility, 
+accessibility, storage, and retrieval possibilities. All these factors must be considered when deciding among 
+output options.
+The presentation of output can bias users in their interpretation of it. Analysts and users must be 
+aware of the sources of bias. Analysts should interact with users to design and customize output, inform users 
+of the possibilities of bias in output, create flexible and modifiable output, and train users to use multiple 
+outputs to help verify the accuracy of any particular report.
+Designing output for user displays is important, especially for dashboards, decision support systems, 
+the web, and smartphones and tablets. Responsive web design means that a website is developed so that it 
+can be viewed on any device: a desktop, tablet, or smartphone. Recently designers have moved away from 
+3-D, realistic designs (skeuomorphic design) to flat web design, which is a clean, two-dimensional design 
+using bright colors.
+Data visualization is the representation of data in the form of a chart, diagram, map, or other visual. It 
+is used to make complex data understandable. For many people, seeing data displayed in a chart or map is 
+easier to comprehend than if the same data were displayed in a table. Commercial data visualization packages 
+are available. Some advantages of using data visualization are using viewing data in a better way, identifying 
+trends and patterns, seeing more than one attribute at a time, quickly making decisions, and communicating 
+information to others in a more effective manner.
+Web 2.0 technologies (including social media) should be incorporated in both public-facing and internal 
+web pages to permit user communication and collaboration. The analyst has several goals in designing social 
+media output and content. They include emphasizing the goal of the design, developing a consistent look, 
+creating an appealing design flow, and simplifying the design to use space in a positive way.
+Aesthetics and usefulness are critical when creating well-designed output for displays. It is important 
+to produce prototypes of screens and web documents that encourage users to interact with them and make 
+changes where desired.
+Developing applications, or “apps,” that are fun or useful for smartphones and tablets has its own distinct 
+development process, but many aspects of agile development, such as quick releases or limited features, 
+as well as prototyping, can be extended to app development. App designers who design apps for market-
+dominant Apple smartphones and tablets should consider pricing options for apps, developing apps for 
+FIGURE 11.24
+A web page using Ajax makes it 
+possible to display much less data 
+on a page, allowing an uncluttered 
+display.
+
+
+===== BOOK PAGE 359 =====
+
+CHAPTER 11  •  DEsigning EffECTivE  OuTPuT     359
+specific user gestures, designing for different screen orientations on different devices, and legally protecting 
+the intellectual property they create.
+Review Questions
+1. List six objectives an analyst pursues in designing system output.
+2. Contrast external outputs with internal outputs produced by a system. Remember to consider the 
+differences between external and internal users.
+3. List potential electronic output methods for users.
+4. What are the drawbacks of electronic and web-based output?
+5. List 10 factors that must be considered when choosing output technology.
+6. What output type is best if frequent updates are necessary?
+7. What kind of output is desirable if many readers will be reading, storing, and reviewing output over a 
+period of years?
+8. What are two of the drawbacks of audio output?
+9. List three main ways in which presentations of output are unintentionally biased.
+10. What are five ways an analyst can avoid biasing output?
+11. Why is it important to show users a prototype output report or display?
+12. List three categories of printed reports.
+13. Give one difference between exception and summary reports.
+14. In what ways do displays, printed output, and web-based documents differ?
+15. List four guidelines to facilitate the design of good display output.
+16. What differentiates output for a decision support system from that of a more traditional management 
+information system that sends predetermined reports to decision makers?
+17. What are the four primary considerations of an analyst in designing graphical output for a DSS?
+18. Define stickiness.
+19. List seven guidelines for creating good websites.
+20. Define the term responsive web design.
+21. Compare the difference between skeuomorphic design and flat web design.
+22. List five guidelines for using graphics in designing websites.
+23. List seven ideas for improving the presentation of corporate websites that you design.
+24. What is the “three-clicks” rule? How stringently should it be followed?
+25. What are megamenus for website navigation?
+26. In what ways can you encourage companies to promote their websites that you have developed?
+27. What is data visualization?
+28. What are five of the many advantages for using data visualizations?
+29. What are four “dos” for using visualization in your output designs?
+30. What are four “don’ts” for using visualization in your output designs?
+31. What are Web 2.0 technologies? List four of the many in existence.
+Keywords and Phrases
+app
+Ajax
+audio output
+blog
+bookmark
+browser
+cascading style sheets (CSS)
+dashboard
+data visualization
+electronic output
+email
+end user license agreement (EULA)
+extensible stylesheet language transformations 
+(XSLT)
+flat web design
+general public license (GPL)
+gestures
+green IT
+infographics
+megamenu
+metatags
+mockups
+orientation
+output bias
+output design
+responsive web design
+RSS feeds
+skeuomorphic design
+social media
+stickiness
+storyboarding
+walled garden
+Web 2.0 technologies
+web page
+wiki
+wireframing
+
+
+===== BOOK PAGE 360 =====
+
+360    PART iv •  THE EssEnTiALs  Of  DEsign
+32. List the five factors analysts should consider when including Web 2.0 technologies in organization 
+web pages.
+33. List the four guidelines for designing output and content for social media.
+34. What is another word for app?
+35. List 8 of the 16 app development steps that deal with design.
+36. List two programs that can help you design output for a smartphone or tablet app.
+37. What principles of agile development apply to developing an app?
+38. Why is it important to design an app for different orientations (portrait and landscape)?
+39. List the six basic options for pricing an app you develop.
+40. What are gestures in designing smartphones and tablets?
+41. What are three ways to protect your app as intellectual property?
+42. How do CSSs allow an analyst to produce output?
+43. What are the advantages of using XSLT instead of CSSs?
+44. What are RSS feeds?
+45. What are the main uses for dashboards?
+46. What are infographics?
+47. How do CSSs allow an analyst to produce output?
+48. How does Ajax help to build effective web pages?
+Problems
+1. “I’m sure they won’t mind if we start sending them the report on these oversized computer sheets. All 
+this time, we’ve been condensing it, retyping it, and sending it to our biggest accounts, but we just 
+can’t now. We’re so understaffed, we don’t have the time,” says Ada Aliyu. “I’ll just write a comment 
+here telling them how to respond to this report, and then we can send it out.”
+a. What potential problems do you see in casually changing external output? List them.
+b. Discuss in a paragraph how internal and external output can differ in appearance and function.
+2. “I don’t need to see it very often, but when I do, I have to be able to get at it quickly. I think we 
+lost the last contract because the information I needed was buried in a stack of paper on someone’s 
+desk somewhere,” says Hadiza Hussein, an architect describing the company’s problems to one of 
+the analysts assigned to the new systems project. “What I need is instant information about how 
+much a building of that square footage cost the last time we bid it; what the basic materials such as 
+steel, glass, and concrete now cost from our three top suppliers; who our likely competition on this 
+type of building might be; and who comprises the committee that will be making the final decision 
+on who gets the bid. Right now, though, it’s in a hundred reports somewhere. I have to look all over 
+for it.”
+a. Given the limited details you have here, write a paragraph to suggest an output method for Hadi-
+za’s use that will solve some of her current problems. In a second paragraph, explain your reasons 
+for choosing the output method you did. (Hint: Be sure to relate output method to output content 
+in your answer.)
+b. Hadiza’s current thinking is that no paper record of the output discussed need be kept. In a para-
+graph, discuss what factors should be weighed before displayed output is used to the exclusion of 
+printed reports.
+c. Make a list of five to seven questions concerning the output’s function in the organization that you 
+would ask Hadiza and others before deciding to do away with any printed reports currently being 
+used.
+3. Here are several situations calling for decisions about output content, output methodology, distribu-
+tion, and so on. For each situation, note the appropriate output decision.
+a. A large, well-regarded supplier of key raw materials to your company’s production process 
+requires a year-end summary report of totals purchased from it.
+b. Internal brainstorming memos are circulated through the staff regarding plans for a company 
+picnic and fundraiser.
+c. A summary report of the company’s financial situation is needed by a key decision maker, who 
+will use it when presenting a proposal to potential external backers.
+d. A listing of the current night’s hotel room reservations is needed for front desk personnel.
+e. A listing of the current night’s hotel room reservations is needed by the local police.
+f. A real-time count of people passing through the gates of Wallaby World (an Australian theme 
+park) will be used by parking lot patrols.
+g. An inventory system must register an item each time it has been scanned by a wand.
+h. A summary report of merit pay increases allotted to each of 120 employees will be used by  
+22 supervisors during a joint supervisors’ meeting, and subsequently when explaining merit  
+pay increases to the supervisors’ own department employees.
+
+
+===== BOOK PAGE 361 =====
+
+CHAPTER 11  •  DEsigning EffECTivE  OuTPuT     361
+i. Competitive information is needed by three strategic planners in the organization, but it is 
+industrially sensitive if widely distributed.
+j. A casual style of conversation is needed to inform customers about powerful but seldom-used 
+features of a product.
+k. A historic district of a city wants to let visitors know about historical buildings and events.
+l. Storm warnings must be delivered to app subscribers in a large geographical area.
+m. An executive wants to see many statistics and metrics on one display.
+n. Users want to see website output in bright colors, without shading.
+o. A company wants to update users with highly visual data, refreshing at appropriate intervals 
+during a football game.
+4. “I think I see now where that guy was coming from, but he had me going for a minute there,” says 
+Missy deLimit. She is discussing a prototype of display output designed by the systems analyst that 
+she has just seen. “I mean, I never considered it a problem before if even as much as 20 percent of the 
+total class size couldn’t be fit into a class,” she says. “We know our classes are in demand, and because 
+we can’t hire more faculty to cover the areas we need, the adjustment has to come in the student 
+demand. He’s got it highlighted as a problem if only 5 percent of the students who want a class can’t 
+get in, but that’s okay. Now that I know what he means, I’ll just ignore it when the computer beeps.”
+a. In a sentence or two, describe the problem Missy deLimit is experiencing with the display output.
+b. Is her solution to “ignore the beeps” a reasonable one given that output is in the prototype stage?
+c. In a paragraph, explain how the display output for this particular problem can be changed so that it 
+better reflects the rules of the system Missy deLimit is using.
+5. Following is a log sheet for a patient information system used by nurses at a convalescent home to 
+record patient visitors and activities during their shifts. Design a printed report using form design 
+software that provides a summary for the charge nurse of each shift and a report for the activities 
+coordinator at the end of a week. Be sure to observe all the conventions for good report design.  
+These reports will be used to determine staffing patterns and future activities offerings.
+Date Patient Visitors Relationship Activities
+2/14 Li 2 Mother, father Walked about halls, meditated, meals 
+in cafeteria, used social media
+Zhang 6 Coworkers Played games, party in room
+Ali 0 — Meals in room, used social media
+Devi 4 Husband and friends Games in sunroom, watched TV , used 
+social media
+Yang 2 Parents Conversation, meals in cafeteria
+Abdullahi 1 Sister Conversation, crafts room, used email 
+on one of the home’s computers
+Melnyk 2 Sister, brother Conversation, games out of room, 
+whirlpool, used email on one of the 
+home’s computers
+6. Design display output for Problem 5 using form design software. Make any assumptions about sys-
+tem capability necessary and follow display design conventions for onscreen instructions. (Hint: You 
+can use more than one display screen if you wish.)
+a. In a paragraph, discuss why you designed each report as you did in this problem and Problem 5. 
+What are the major differences in your approach to each one? Can the printed reports be success-
+fully transplanted to displays without changes? Why or why not?
+b. Some of the nurses are interested in a web-based system that patients’ families can access from 
+home with a password. Design an output screen for the web. Make use of a megamenu. In a para-
+graph, describe how your report had to be altered so that it could be viewed by one patient’s family.
+c. Several family members are on social media and would like a quick way to use Facebook or 
+other social media to check on the daily activities participated in by their relatives. Design an 
+infographic that could be shared on Facebook or other social media that captures key information 
+about the patient for the family by the convalescent home staff.
+7. Mandhana manufactures uniforms for police departments worldwide. Its uniforms are chosen by 
+many groups because of their low cost and simple but dignified design. You are helping to design 
+a dashboard for Mandhana’s decision makers, and it has asked for tabular output that will help it 
+in making various decisions about what designers to use, where to market its uniforms, and what 
+changes to make to uniforms to keep them looking up to date. The following table lists some of the 
+data the company would like to see in tables, including uniform style names, an example of a buyer 
+group for each style, and which designers design which uniform styles. Prepare an example of tabular 
+output for display that incorporates these data about Mandhana’s. Follow proper conventions for 
+tabular output displays. Use codes and a key, where appropriate.
+
+
+===== BOOK PAGE 362 =====
+
+362    PART iv •  THE EssEnTiALs  Of  DEsign
+Style Name Example of Buyer Designers
+Full military NYPD Chen, Ahmed, Melvin Mine
+Half military LAPD Ahmed, Calvetti, Sun, Melvin Mine
+Formal dress Australian Armed Forces Chen, Jallow, Melvin Mine
+Casual dress “Miami Vice” Bondar, Melvin Mine
+8. Mandhana’s is interested in graphical output for its DSS. It wants to see a graphical comparison of 
+how many of each style of uniform are being sold each year.
+a. Choose an appropriate graph style and design an infographic that incorporates the following data:
+Full Military (percent of total) Half Military Formal Dress Casual Dress
+2018 50 20 20 10
+2019 55 15 20 10
+2020 60 15 15 10
+2021 62 15 15 8
+2022 65 10 15 10
+Be sure to follow proper design conventions for displays. Use codes and a key, if necessary.
+b. Choose a second method of graphing that might allow the decision makers at Manhanda’s to see 
+a trend in the purchase of particular uniform styles over time. Draw a graph for display as part of 
+the output for Mandhana’s executive dashboard. Be sure to follow proper design conventions for 
+displays. Use codes and a key, if necessary.
+c. In a paragraph, discuss the differences in the two onscreen graphs you have chosen. Defend your 
+choices.
+9. Michael Cerveris owns a number of cars used for racing. What performance measures does he need 
+to develop to keep track of the performance of his driver, pit crews, and support staff (not to mention 
+any bald tires his cars experience)?
+10. Design a dashboard for Michael from Problem 9. Use appropriate types of charts and graphs to illus-
+trate performance.
+11. Design a dashboard for keeping track of a person’s stock and portfolio. Think about how the dash-
+board could be used to make decisions about buying and selling stock. Remember that a client can 
+have more than one stockbroker.
+12. Ayo Jaiyesimi runs a nonprofit theater that produces seven plays per year in three theaters. Each play 
+lasts eight weeks but can be extended four weeks if the show is a success. Design a dashboard for 
+Ayo, taking into consideration the different phases of putting on a performance as well as the need 
+to sell as many tickets as possible. Don’t forget that Ayo is involved in theater and is very visual. She 
+doesn’t like tables, however.
+13. Browse the web to view well-designed and poorly designed websites. Choose three examples of each 
+and list their web addresses. Comment on what makes each of the sites excellent or poor, using the 
+critique form presented earlier in the chapter to compare and contrast them.
+14. Propose a website for Mandhana’s, the uniform company described in Problems 7 and 8. Sketch by 
+hand or use form design software to create a prototype of Mandhana’s home page. Indicate hyper-
+links and include a sketch of one hyperlink document. Remember to include graphics, icons, and 
+even sound or other media, if appropriate. In a paragraph, describe who the intended users of the 
+website are and state why it makes sense for Mandhana’s to have a web presence. Specify whether 
+you will be using flat web design or skeuomorphic design to create your icons and graphics and add 
+a paragraph to justify your decision.
+15. Kintetsu Department Stores is a chain of about 50 retail stores, specializing in kitchen, bath, and 
+other household items, including many decorative and fashionable items. Recently Kintetsu’s decided 
+to put its gift registry online to allow wedding and other event guests to be able to browse for gift 
+items that were selected by the wedding couple or others.
+a. Design a web page that would allow customers to enter a postal code and find the nearest 
+Kintetsu’s store.
+b. Design a web page for customers to browse wedding gifts and order them online. Do not include 
+the actual ordering forms, simply the products. What sort of options should be available for cus-
+tomers? Include buttons or links to change the sort sequence in your design. Your design should 
+include the quantity of an item a wedding couple would like (for example, one pair of crystal can-
+dleholders; one fully equipped picnic basket; eight formal place settings including dinner plates, 
+salad plates, soup plates, and dessert plates; and chopsticks and chopstick rests). Also include an 
+icon or text that shows how many items have been purchased and whether the maximum requested 
+has been reached. Use a megamenu approach for your web page.
+
+
+===== BOOK PAGE 363 =====
+
+CHAPTER 11  •  DEsigning EffECTivE  OuTPuT     363
+c. Design an ordering option that allows customers to click on an item they would like to purchase 
+that puts them on the checkout page. Be sure to include an option where gifts can be wrapped and 
+sent directly to the wedding couple from Kintetsu’s. Include an option for the purchaser to write a 
+card to the couple at the time of purchase.
+d. Design a printed list that customers could request when they go to one of the stores. What 
+sequences would be optimal for a customer trying to find items? Would all items requested by the 
+wedding couple be included on the list? (Hint: Some may have been purchased already.)
+16. Design an outline of a podcast for someone touring your university, college, or business. In what 
+sequence would you place the topics? How much time would you allow for each campus or building 
+location? Assume that the visitor will arrive in the morning and remember to sequence a lunch break 
+into the podcast.
+17. Draw a diagram that compares the flow of app development through the 14 steps with the seven 
+phases of the systems development life cycle, which is composed of: (1) identifying problems, 
+opportunities, and objectives; (2) determining human information requirements; (3) analyzing system 
+needs; (4) designing the recommended system; (5) developing and documenting software; (6) testing 
+and maintaining the system; and (7) implementing and evaluating the system.
+18. Write two paragraphs that compare and contrast the process of app development and the seven phases 
+of the systems development life cycle as you diagrammed it in Problem 17.
+19. Design an airline flight reminder screen for a passenger’s smartphone using portrait orientation.
+20. Design an airline flight reminder screen for a passenger’s tablet using landscape orientation.
+21. Design an Ajax-style web page that would allow a dean at a community college to select part-time 
+instructors for IT Project Management courses. The dean should be able to select a discipline or a 
+course and have the server send an XML document containing all the potential part-time instruc-
+tors for the selection. The XML document should be used to populate a drop-down list of the 
+instructor names. Clicking an instructor’s name would display information about the potential 
+instructor. Decide what information to include that would help the dean decide whom to hire. 
+(Hint: Part-time instructors may be able to teach only on certain days or only in the morning, 
+afternoon, or evening. They may have preferences for topics they would rather teach or at which 
+they excel.)
+Group Projects
+1. Brainstorm with your team members about what types of output are most appropriate for a variety of 
+executives and high-level managers of Dizzyland, a large theme park in Florida. Include a list of envi-
+ronments or decision-making situations and types of output. In a paragraph, discuss why the group 
+suggested particular options for output.
+2. Have each group member design an output display or form for the output situations you listed in 
+Group Project 1. (Use either Microsoft Visio, a CASE tool like Visible Analyst, or a paper layout 
+form to complete each display or form.)
+3. Create a dashboard for Dizzyland managers in Group Project 1.
+4. Together with your team, design a poster-size infographic to post near the desktop computers of 
+corporate users that reminds them to back up their data on a regular basis. Remember to use a catchy 
+title, a limited color palette, icons, and summary statistics or ratings to convey a strong, straightfor-
+ward message.
+5. Design a website, either on paper or using software with which you are familiar, for Dizzyland in 
+Group Project 1.
+a. Although you may sketch documents or graphics for three levels of pages and required hyperlinks 
+on paper, create a prototype home or landing page for Dizzyland, indicating hyperlinks where 
+appropriate.
+b. Obtain feedback from other groups in your class and modify your design accordingly. In a 
+paragraph, discuss how designing a website is different from designing displays for other online 
+systems.
+6. Without looking at your phone or tablet, design three sample pages for the following apps. You do 
+not need to use a mockup app for this assignment. Just draw them on paper. (Note that each group 
+may be assigned a different app to do.)
+a. A grocery list and coupon helper
+b. A hotel and room finder
+c. An app to help you get to sleep
+d. A task management (to-do) list
+e. An apartment finder
+f. A weather app
+
+
+===== BOOK PAGE 364 =====
+
+364    PART iv •  THE EssEnTiALs  Of  DEsign
+7. Explore the Joomla! website at www.joomla.org. How could this open source application be helpful 
+in implementing your designs from Group Project 4? Summarize your findings in a paragraph. Find 
+another content management system on the web and write a paragraph comparing it to Joomla! Be 
+sure to address cost, ease of use, support, and availability in your comparison.
+Selected Bibliography
+Budiu, R. (2020, February 2). Information scent: How users decide where to go next. https://www.
+nngroup.com/articles/information-scent/
+Datawrapper. (n.d.). Welcome to The River. https://app.datawrapper.de/river
+Davenport, T. H. (1994, March–April). Saving IT’s soul: Human-centered information management. 
+Harvard Business Review, pp. 119–131.
+Davis, G. B., & Olson, H. M. (1985). Management information systems: Conceptual foundations, 
+structure, and development (2nd ed.). McGraw-Hill.
+Deighton, K. (2021, October 13). MTA tests new subway map that evokes jet-
+tisoned 1972 version. Wall Street Journal. https://www.wsj.com/articles/
+mta-tests-new-subway-map-that-evokes-jettisoned-1972-version-11634119201
+Genzlinger, N. (2020). Michael Hertz —You’ve Surely Seen His Subway Map—Dies at 87 https://www.
+nytimes.com/2020/02/25/nyregion/michael-hertz-dead.html
+Goldbaum, C. Finally, a Subway Map with Real-Time Train Locations and Delays. https://www.nytimes.
+com/2020/10/21/nyregion/new-nyc-subway-map.html
+Kendall, K. E., & Kendall, J. E. (2008). DSS systems analysis and design: The role of the analyst as 
+change agent from early DSS to mashups. In F. Burstein & C. W. Holsapple (Eds.), Handbook of 
+decision support systems (V ol. 2, pp. 293–312). Springer.
+Kendall, J. E., Kendall, K. E., & Mirakula, H. (2011, November). Systems design considerations for 
+Web 2.0 technologies. Presentation at the annual meeting of the Decision Sciences Institute, Boston.
+Laubheimer, P. (2019, August 11). The 3-click rule for navigation is false. https://www.nngroup.com/
+articles/3-click-rule/
+Majrashi, K. (2022). Performance of mobile users with text-only and text-and-icon menus in seated and 
+walking situations, Behaviour & Information Technology, 41(1), 32–50.
+Nevo, D., Benbasat, I., & Wand, Y . (2012). Understanding technology support for organizational transac-
+tive memory: Requirements, application, and customization. Journal of Management Information 
+Systems, 28(4), 69–98.
+Nielsen, J., & Li, A. (2017, March 26). Mega menus work well for site navigation. https://www.nngroup.
+com/articles/mega-menus-work-well/
+Pirolli, P., & Card, S. K. (1999). Information foraging. Psychological Review, 106, 643–675.
+Porter, J. (2003, April 16). Testing the three-click rule. https://articles.uie.com/three_click_rule/
+Porter, J. (2008). Designing for the social web. New Riders.
+Souders, S. (2008). High-performance websites. Communications of the ACM, 51(12), 36–41.
+Symons, M. (2021, November 8). NJ Transit completes installation of new ticket vending machines. 
+https://nj1015.com/nj-transit-completes-installation-of-new-ticket-vending-machines/
+Xia, V . (2017, September 11). UX vs UI vs IA vs IxD: 4 confusing digital design terms defined. https://
+uxplanet.org/ux-vs-ui-vs-ia-vs-ixd-4-confusing-digital-design-terms-defined-1ae2f82418c7
+
+
+===== BOOK PAGE 365 =====
+
+365
+Designing Effective Input
+LEARNING OBJECTIVES
+Once you have mastered the material in this chapter, you will be able to:
+1 Appreciate the principles of good form design and how to design forms.
+2 Learn about good display and web form design and how to accomplish them.
+3 Value good web design and be able to follow basic rules on website design.
+Users deserve quality output. The quality of system input determines the quality of system 
+output. It is vital that input forms, displays, and interactive web documents be designed with 
+this critical relationship in mind.
+Well-designed input forms, displays, and interactive web fill-in forms should meet the 
+objectives of effectiveness, accuracy, ease of use, consistency, simplicity, and attractive-
+ness. All these objectives are attainable using basic design principles, knowledge of what 
+is needed as input for the system, and an understanding of how users respond to different 
+elements of forms and displays.
+Effectiveness means that input forms, input displays, and fill-in forms on the web all 
+serve specific purposes for users of the information system, whereas accuracy refers to 
+design that ensures proper completion. Ease of use means that forms and displays are 
+straightforward and require no extra time for users to decipher. Consistency means that 
+all input forms, whether they are input displays or fill-in forms on the web, group data 
+similarly from one application to the next, and simplicity refers to keeping those same 
+designs uncluttered in a manner that focuses the user’s attention. Attractiveness implies 
+that users will enjoy using input forms because of their appealing design. Analysts can 
+use standard navigational elements and icons such as a hamburger icon or menu, context- 
+sensitive help, input validation, a breadcrumb trail, and fat footers to give their web designs 
+a professional look that users can readily understand and use.
+12 
+CHAPTER
+

@@ -1,0 +1,1254 @@
+
+===== BOOK PAGE 260 =====
+
+260    PART III  •  THE ANALYSIS PROCESS
+OVERVIEW OF PROCESS SPECIFICATIONS
+To determine the human information requirements of a decision analysis strategy, a systems 
+analyst must first determine the users’ objectives, along with the organization’s objectives, using 
+either a top-down approach or an object-oriented approach. The systems analyst must understand 
+the principles of organizations and have a working knowledge of data-gathering techniques. The 
+top-down approach is critical because all human decisions in the organization should be related, 
+at least indirectly, to the broad objectives of the entire organization.
+Process specifications—sometimes called mini specs because they are a small portion of 
+the total project specifications—are created for primitive processes on a data flow diagram as 
+well as for some higher-level processes that explode to a child diagram. They also may be created 
+for class methods in object-oriented design and, in a more general sense, for the steps in a use 
+case (as discussed in Chapters 2 and 10). These specifications explain the decision-making logic 
+and formulas that will transform process input data into output. Each derived element must have 
+process logic to show how it is produced from the base elements or other previously created 
+derived elements that are input to the primitive process.
+The three goals of producing process specifications are as follows:
+1. To reduce the ambiguity of the process. This goal compels the analyst to learn details about 
+how the process works. Any vague areas should be noted, written down, and consolidated 
+for all process specifications. These observations form a basis and provide the questions for 
+follow-up interviews with the user community.
+2. To obtain a precise description of what is accomplished. This is usually included in a 
+packet of specifications for the programmer.
+3. To validate the system design. This goal includes ensuring that a process has all the input 
+data flow necessary for producing the output. In addition, all input and output must be 
+represented on the data flow diagram.
+You will find many situations in which process specifications are not created. Sometimes 
+the process is very simple or the computer code already exists. This eventuality would be noted 
+in the process description, and no further design would be required. Categories of processes that 
+generally do not require specifications are as follows:
+1. Processes that represent physical input or output, such as read and write. These processes 
+usually require only simple logic.
+way. As implied in the video, as a systems analyst making tough per-
+sonal and career decisions, you need to recognize decision making 
+as a process and identify opportunity costs, look out for psychologi-
+cal errors like anchoring and sunk costs, learn from past choices, and 
+watch out for ethical pitfalls present in your decision alternatives by 
+asking good questions. After you view the video, please reflect on 
+the following questions:
+1. How does time enter into the process of decision making?
+2. Why does it make sense to narrow one’s choices before 
+weighing the opportunity costs of each alternative?
+3. Once you have a set of decision alternatives where you have 
+examined opportunity costs, what are some ways to further 
+narrow your list of choices?
+4. Many decision alternatives present ethical pitfalls. What are 
+some ways to avoid those mishaps in your personal decision 
+making?
+SYSTEMS SCENARIO  
+Shaping Structured and Unstructured Decisions
+This chapter examines the purpose of developing process specifica-
+tions for documenting decisions in a system. It also discusses the 
+difference between structured and unstructured decisions. In this 
+video, the topic of making tough personal decisions, most of them 
+unstructured rather than structured, is explored in an entertaining 
+To view the video for this scenario,  
+see eText Chapter 9.
+Crash Course Business Soft 
+Skills/Boclips
+
+
+===== BOOK PAGE 261 =====
+
+CHAPTER 9  •  PROCESS  SPECIfICATIONS  AND  S TR uCTuRED  DECISIONS      261
+2. Processes that represent simple data validation, which is usually fairly easy to accomplish. 
+The edit criteria are included in the data dictionary and incorporated in the computer 
+source code. Process specifications may be produced for complex editing.
+3. Processes that use prewritten code. These processes are generally included in a system 
+as procedures, methods, and functions or in class libraries (that are either purchased or 
+available free on the web).
+These blocks are computer program code that is stored on the computer system. They usually 
+perform a general system function, such as validating a date or a check digit. These general-
+purpose subprograms are written and documented only once but form a series of building blocks 
+that may be used in many systems throughout the organization. Thus, these subprograms appear 
+as processes on many data flow diagrams (or as class methods, discussed in Chapter 10).
+Process Specification Format
+Process specifications link a process to a data flow diagram, and hence a data dictionary, as 
+illustrated in Figure 9.1. Each process specification should be entered on a separate form or into 
+a CASE (computer-assisted software engineering) tool screen such as the one used by the CASE 
+tool Visible Analyst. Enter the following information:
+1. The process number, which must match the process ID on the data flow diagram. This 
+specification allows an analyst to work on or review any process and to locate the data flow 
+diagram containing the process easily.
+2. The process name, which must be the same as the name displayed in the process symbol on 
+the data flow diagram.
+3. A brief description of what the process accomplishes.
+4. A list of input data flows, using the names found on the data flow diagram. Data names 
+used in the formula or logic should match those in the data dictionary to ensure consistency 
+and good communication.
+5. The output data flows, also using the data flow diagram and data dictionary names.
+6. An indication of the type of process: batch, online, or manual. All online processes 
+require screen designs, and all manual processes should have well-defined procedures 
+for employees performing the process tasks.
+Halloween treat bags, holiday cookie cutters, or Valentine’s Day 
+cake molds) and the backorder date is 30 days or more, though, we 
+send out a notice with a chef glaring at her egg timer.
+“If the backorder date changed at all and we haven’t sent out a 
+card in the last two weeks, we send out a card with a chef checking 
+her recipe. If the merchandise is no longer available, we send a 
+notice (complete with chef crying in the corner) and delete the 
+record. We haven’t begun to use email in place of mailed cards, 
+but I’d like to.
+“Thanks for listening to all this. I think we’ve got the right 
+ingredients for a good policy; we just need to blend them together 
+and cook up something special.”
+You are the systems analyst Kit hired. Go through the narrative 
+of how Kit Chen Kaboodle, Inc. handles unfilled orders, drawing 
+boxes around each action Kit mentions and circling each condition 
+brought up. Make a list of any ambiguities you would like to clarify 
+in a later interview, and then write five questions to address them.
+CONSULTING OPPORTUNITY 9.1 
+Kit Chen Kaboodle, Inc.
+“I don’t want to get anyone stirred up, but I think we need to 
+sift through our unfilled order policies,” says Kit Chen. “I wouldn’t 
+want to put a strain on our customers. As you know already, 
+Kit Chen Kaboodle is a web and mail-order cookware business 
+specializing in ‘klassy kitsch for kitchens,’ as our latest cata-
+log says. I mean, we’ve got everything you need to do gourmet 
+cooking and entertaining: nutmeg grinders, potato whisks, egg sep-
+arators, turkey basters, placemats with cats on ’em, ice cube trays 
+in shamrock shapes, and more.
+“Here’s how we’ve been handling unfilled orders. We search our 
+unfilled orders file from the internet as well as mail-order sales once 
+a week. If the order was filled this week, we delete the record, and 
+the rest is gravy. If we haven’t written to the customer in four weeks, 
+we send ’em this cute card with a chef peeking into the oven, saying, 
+‘Not ready yet.’ It’s a notification that their item is still on backorder.
+“If the backorder date changed to greater than 45 days from 
+now, we send out a notice. If the merchandise is seasonal (as with
+
+
+===== BOOK PAGE 262 =====
+
+262    PART III  •  THE ANALYSIS PROCESS
+7. If the process uses prewritten code, include the name of the subprogram or function 
+containing that code.
+8. A description of the process logic that states policy and business rules in everyday language, 
+not computer language pseudo-code. Business rules are the procedures, or perhaps a set of 
+conditions or formulas, that allow a corporation to run its business. The early problem defi-
+nition (as explained in Chapter 3) that you completed initially may provide a starting place 
+for this description. Common business rule formats include the following:
+• Definitions of business terms
+• Business conditions and actions
+• Data integrity constraints
+• Mathematical and functional derivations
+• Logical inferences
+• Processing sequences
+• Relationships among facts about the business
+9. If there is not enough room on the form for a complete structured English description,  
+or if there is a decision table or tree depicting the logic, include the corresponding table or 
+tree name.
+10. A list of any unresolved issues, incomplete portions of logic, or other concerns. These 
+issues form the basis of the questions used for follow-up interviews with users or business 
+experts you have added to your project team.
+These items should be entered to complete a process specification form, which includes a process 
+number, process name, or both from the data flow diagram, as well as the eight other items shown 
+in the World’s Trend example (Figure 9.2). Notice that completing this form thoroughly facilitates 
+linking the process to the data flow diagram and the data dictionary.
+STRUCTURED ENGLISH
+When process logic involves formulas or iteration, or when structured decisions are not complex, 
+an appropriate technique for analyzing the decision process is the use of structured English. As 
+the name implies, structured English is based on (1) structured logic, or instructions organized 
+FIGURE 9.1
+How process specifications relate 
+to a data flow diagram.
+Decision
+Table
+Process
+Speciﬁcation
+Form
+Decision
+Tree
+Rules
+X
+P
+Q
+T
+20 40
+5010
+30
+Process
+Data Flow Diagram Process Speciﬁcation and Logic
+Structured
+English
+2' 3' 4'1'
+Y
+Y Y Y
+X
+X
+X
+N
+N
+IF construction
+THEN deduc
+ ENDIF
+IF replacement
+THEN add 1
+ ENDIF
+IF owner choose
+THEN add 1
+ ENDIF
+
+
+===== BOOK PAGE 263 =====
+
+CHAPTER 9  •  PROCESS  SPECIfICATIONS  AND  S TR uCTuRED  DECISIONS      263
+into nested and grouped procedures, and (2) simple English statements such as add, multiply, and 
+move. A word problem can be transformed into structured English by putting the decision rules 
+into their proper sequence and using the convention of IF-THEN-ELSE statements throughout.
+Writing Structured English
+To write structured English, you may want to use the following conventions:
+1. Express all logic in terms of one of these four types: sequential structures, decision 
+structures, case structures, or iterations (see Figure 9.3 for examples).
+2. Use and capitalize accepted keywords such as IF, THEN, ELSE, DO, DO WHILE,  
+DO UNTIL, and PERFORM.
+3. Indent blocks of statements to show their hierarchy (nesting) clearly.
+FIGURE 9.2
+An example of a completed 
+process specification form for 
+determining whether an item is 
+available.
+Process Speciﬁcation Form
+Number
+Name
+Description
+Input Data Flow
+Output Data Flow
+Type of Process
+Online Batch Manual
+Subprogram/Function Name
+Process Logic:
+Refer to: Name:
+Structured English Decision Table Decision Tree
+Unresolved Issues:
+1.3
+Determine Quantity Available
+Determine if an item is available for sale. If it is not available, create a backordered
+item record. Determine the quantity available.
+Valid item from Process 1.2
+Quantity on Hand from Item Record
+Available Item (Item Number + Quantity Sold) to Processes 1.4 & 1.5
+Backordered item to Inventory Control
+IF the Order Item Quantity is greater than Quantity on Hand
+      Then Move Order Item Quantity to Available Item Quantity
+                 Move Order Item Number to Available Item Number
+ELSE
+      Subtract Quantity on Hand from Order Item Quantity
+                giving Quantity Backordered
+      Move Quantity Backordered to Backordered Item Record
+      Move Item Number to Backordered Item Record
+      DO write Backordered Record
+      Move Quantity on Hand to Available Item Quantity
+      Move Order Item Number to Available Item Number
+ENDIF
+Should the amount that is on order for this item be taken into account?
+Would this, combined with the expected arrival date of goods on order , change how the quantity
+available is calculated?
+
+
+===== BOOK PAGE 264 =====
+
+264    PART III  •  THE ANALYSIS PROCESS
+4. When words or phrases have been defined in a data dictionary (as in Chapter 8), underline 
+those words or phrases to signify that they have a specialized, reserved meaning.
+5. Be careful when using “and” and “or,” and avoid confusion when distinguishing between 
+“greater than” and “greater than or equal to” and similar relationships. “A and B” means 
+both A and B, “A or B” means either A or B, but not both. Clarify the logical statements 
+now rather than waiting until the program coding stage.
+A Structured English Example. The following example demonstrates how a spoken procedure for 
+processing medical claims is transformed into structured English:
+We process all our claims in this manner. First, we determine whether the claimant has 
+ever sent in a claim before; if not, we set up a new record. The claim totals for the year are 
+then updated. Next, we determine if a claimant has policy A or policy B, which differ in 
+deductibles and copayments (the percentage of the claim claimants pay themselves). For 
+both policies, we check to see if the deductible has been met ($100 for policy A and $50 
+for policy B). If the deductible has not been met, we apply the claim to the deductible. 
+Another step adjusts for the copayment; we subtract the percentage the claimant pays 
+(40 percent for policy A and 60 percent for policy B) from the claim. Then we issue a 
+check if there is money coming to the claimant, print a summary of the transaction, and 
+update our accounts. We do this until all claims for that day are processed.
+into a new mold by rewriting the recipe for handling unfilled orders 
+in structured English. In a paragraph, describe how this process 
+might change if you used email for notification rather than regular 
+mail sent by post.
+CONSULTING OPPORTUNITY 9.2 
+Kneading Structure
+Kit Chen has risen to the occasion and answered your ques-
+tions concerning the policy for handling unfilled orders at Kit Chen 
+Kaboodle, Inc. Based on those answers and any assumptions you 
+need to make, pour Kit’s narrative (from Consulting Opportunity 9.1) 
+FIGURE 9.3
+Examples of logic expressed in 
+a sequential structure, a decision 
+structure, a case structure, and an 
+iteration.
+Structured English Type
+Sequential Structure
+    A block of instructions in which no
+    branching occurs
+Action #1
+Action #2
+Action #3
+IF Condition A is True
+    THEN implement Action A
+ELSE implement Action B
+ENDIF
+IF Case #1 Implement Action #1
+ELSE  IF Case #2
+          Implement Action #2
+ELSE  IF Case #3     
+          Implement Action #3
+ELSE  IF Case #4
+ Implement Action #4
+ELSE  print error
+ENDIF
+Decision Structure
+    Only IF a condition is true,
+    complete the following
+    statements; otherwise, jump to the
+    ELSE
+Case Structure
+    A special type of decision
+    structure in which the cases are
+    mutually exclusive (if one occurs,
+    the others cannot)
+Iteration
+    Blocks of statements that are
+    repeated until done
+DO WHILE there are customers.
+Action #1
+ENDDO
+Example
+
+
+===== BOOK PAGE 265 =====
+
+CHAPTER 9  •  PROCESS  SPECIfICATIONS  AND  S TR uCTuRED  DECISIONS      265
+In examining the foregoing statements, we notice some simple sequence structures, particu-
+larly at the beginning and end. There are a couple of decision structures, and it is most appropriate 
+to nest them, first by determining which policy (A or B) to use and then by subtracting the correct 
+deductibles and copayments. The last sentence points to an iteration: Either DO UNTIL all the 
+claims are processed or DO WHILE there are claims remaining.
+Realizing that it is possible to nest the decision structures according to policy plans, we can 
+write the structured English for the foregoing example (see Figure 9.4). As we begin to work on 
+the structured English, we find that some logic and relationships that seemed clear at one time 
+are actually ambiguous. For example, do we add the claim to the year-to-date claim before or 
+after updating the deductible? Is it possible that an error can occur if something other than policy 
+A or B is stored in the claimant’s record? We subtract 40 percent of what from the claim? These 
+ambiguities need to be clarified at this point.
+Besides the obvious advantage of clarifying the logic and relationships found in human lan-
+guages, structured English has another important advantage: it is a communication tool. Structured 
+English can be taught to and hence understood by users in the organization, so if communication 
+is important, structured English is a viable alternative for decision analysis.
+Data Dictionary and Process Specifications
+All computer programs may be coded using the three basic constructs: sequence, selection 
+(IF . . . THEN . . . ELSE and the case structure), and iteration or looping. The data dictionary 
+indicates which of these constructs must be included in the process specifications.
+If the data dictionary for the input and output data flow contains a series of fields without 
+any iteration—{ }—or selection—[ ]—the process specification will contain a simple sequence 
+of statements, such as MOVE, ADD, and SUBTRACT. Refer to the example of a data dictionary 
+FIGURE 9.4
+Structured English for the 
+medical-claim processing system. 
+Underlining signifies that the 
+terms have been defined in the 
+data dictionary.
+DO WHILE there are claims remaining
+   IF claimant has not sent in a claim
+      THEN set up new claimant record
+   ELSE continue
+Add claim to YTD Claim
+   IF claimant has policy–plan A
+      THEN IF deductible of $100.00 has not been met
+            THEN subtract deductible–not–met from claim
+            Update deductible
+         ELSE continue
+         ENDIF
+         Subtract copayment of 40% of claim from claim
+   ELSE IF claimant has policy–plan B.
+         THEN IF deductible of $50.00 has not been met
+              THEN subtract deductible–not–met from claim
+              Update deductible
+           ELSE continue
+           ENDIF
+           Subtract copayment of 60% of claim from claim
+        ELSE continue
+     ELSE write plan–error–message
+     ENDIF
+  ENDIF
+  IF claim is greater than zero
+     THEN print check
+  ENDIF
+  Print summary for claimant
+  Update accounts
+ENDDO
+
+
+===== BOOK PAGE 266 =====
+
+266    PART III  •  THE ANALYSIS PROCESS
+for the SHIPPING STATEMENT illustrated in Figure 9.5. Notice that the data dictionary for 
+the SHIPPING STATEMENT has the ORDER NUMBER, ORDER DATE, and CUSTOMER 
+NUMBER as simple sequential fields. The corresponding logic, shown in lines 3 through 5 in the 
+corresponding structured English in Figure 9.6, consists of simple MOVE statements.
+A data structure with optional elements contained in parentheses or either/or elements con-
+tained in brackets will have a corresponding IF . . . THEN . . . ELSE statement in the process 
+specification. Also, if an amount, such as QUANTITY BACKORDERED, is greater than zero, the 
+underlying logic will be IF . . . THEN . . . ELSE. Iteration, indicated by braces on a data structure, 
+must have a corresponding DO WHILE, DO UNTIL, or PERFORM UNTIL to control looping 
+on the process specification. The data structure for the ORDER ITEM LINES allows up to five 
+items in the loop. Lines 8 through 17 show the statements contained in the DO WHILE through 
+the END DO necessary to produce the multiple ORDER ITEM LINES.
+DECISION TABLES
+A decision table  is a table of rows and columns, separated into four quadrants, as shown in 
+Figure 9.7. The upper-left quadrant contains the condition(s); the upper-right quadrant contains 
+the condition alternatives. The lower half of the table contains the actions to be taken on the left 
+and the rules for executing the actions on the right. When a decision table is used to determine 
+which action needs to be taken, the logic moves clockwise, beginning from the upper left.
+Suppose a store wanted to illustrate its policy on noncash customer purchases. The company 
+could do so using a simple decision table, as shown in Figure 9.8. Each of the three conditions 
+FIGURE 9.5
+Data structure for a shipping 
+statement for World’s Trend.
+Shipping Statement = Order Number +
+Order Date +
+Customer Number +
+Customer Name +
+Customer Address +
+5 {Order Item Lines} +
+Number of Items +
+Merchandise Total +
+(Tax) +
+Shipping and Handling +
+Order Total 
+First Name +
+(Middle Initial) +
+Last Name 
+Street +
+(Apartment) +
+City +
+State +
+Zip +
+(Zip Expansion) +
+(Country) 
+Item Number +
+Quantity Ordered +
+Quantity Backordered +
+Item Description +
+Size Description +
+Color Description +
+Unit Price +
+Extended Amount 
+Customer Name =
+Address =
+Order Item Lines =
+1
+
+
+===== BOOK PAGE 267 =====
+
+CHAPTER 9  •  PROCESS  SPECIfICATIONS  AND  S TR uCTuRED  DECISIONS      267
+(sale under $50, pays by check, and uses credit cards) has only two alternatives. The two alterna-
+tives are Y (yes, it is true) or N (no, it is not true). Four actions are possible:
+1. Complete the sale after verifying the signature.
+2. Complete the sale. No signature needed.
+3. Call the supervisor for approval.
+4. Communicate electronically with the bank for credit card authorization.
+The final ingredient that makes the decision table worthwhile is the set of rules for each of 
+the actions. Rules are the combinations of the condition alternatives that precipitate an action. 
+For example, Rule 3 says:
+IF N (the total sale is NOT under $50.00)
+AND
+IF Y (the customer paid by check and had two forms of ID)
+AND
+IF N (the customer did not use a credit card)
+THEN
+DO X (call the supervisor for approval).
+The foregoing example features a problem with four sets of rules and four possible actions, 
+but that is only a coincidence. The next example demonstrates that decision tables often become 
+large and involved.
+FIGURE 9.6
+Structured English for creating 
+the shipping statement for World’s 
+Trend.
+Structured English
+Format the Shipping Statement.  After each line of the statement has been
+formatted, write the shipping line.
+1.     GET Order Record
+2.     GET Customer Record
+3.     Move Order Number to Shipping Statement
+4.     Move Order Date to Shipping Statement
+5.     Move Customer Number to Shipping Statement
+6.     DO format Customer Name (leave only one space between First/Middle/Last)
+7.     DO format Customer Address lines
+8.     DO WHILE there are items for the order
+9.              GET Item Record
+10.              DO Format Item Line
+11.              Multiply Unit Price by Quantity Ordered giving Extended Amount
+12.              Move Extended Amount to Order Item Lines
+13.              Add Extended Amount to Merchandise Total
+14.              IF Quantity Backordered is greater than zero
+15.                      Move Quantity Backordered to Order Item Lines
+16.              ENDIF
+17.     ENDDO
+18.     Move Merchandise Total to Shipping Statement
+19.     Move 0 to Tax
+20.     IF State is equal to CT
+21.              Multiply Merchandise Total by Tax Rate giving Tax
+22.     ENDIF
+23.     Move Tax to Shipping Statement
+24.     DO calculate Shipping and Handling
+25.     Move Shipping and Handling to Shipping Statement
+26.     Add Merchandise Total, Tax, and Shipping and Handling giving Order Total
+27.     Move Order Total to Shipping Statement
+
+
+===== BOOK PAGE 268 =====
+
+268    PART III  •  THE ANALYSIS PROCESS
+Developing Decision Tables
+To build decision tables, an analyst needs to determine the maximum size of the table; eliminate 
+any impossible situations, inconsistencies, or redundancies; and simplify the table as much as pos-
+sible. The following steps provide the analyst with a systematic method for developing decision 
+tables:
+1. Determine the number of conditions that may affect the decision. Combine rows that 
+overlap, such as conditions that are mutually exclusive. The number of conditions becomes 
+the number of rows in the top half of the decision table.
+2. Determine the number of possible actions that can be taken. That number becomes the 
+number of rows in the lower half of the decision table.
+3. Determine the number of condition alternatives for each condition. In the simplest form 
+of a decision table, there would be two alternatives (Y or N) for each condition. In an 
+extended-entry table, there may be many alternatives for each condition. Make sure that 
+all possible values for the condition are included. For example, if a problem statement 
+calculating a customer discount mentions one range of values for an order total from $100 
+to $1,000 and another range for greater than $1,000, the analyst should realize that the 
+range from 0 up to $100 should also be added as a condition. This is especially true when 
+there are other conditions that may apply to the 0 up to $100 order total.
+4. Calculate the maximum number of columns in the decision table by multiplying the 
+number of alternatives for each condition. If there were four conditions and two alterna-
+tives (Y or N) for each of the conditions, there would be 16 possibilities, as follows:
+×
+×
+×
+×
+Conditio n1:2 alternatives
+Conditio n2 :2 alternatives
+Conditio n3 :2 alternatives
+Conditio n4 :2 alternatives
+16 possib ilitie s
+5. Fill in the condition alternatives. Start with the first condition and divide the number of 
+columns by the number of alternatives for that condition. In the foregoing example, there 
+FIGURE 9.8
+Using a decision table for 
+illustrating a store’s policy of 
+customer checkout with four sets 
+of rules and four possible actions.
+Conditions and Actions
+Under $50
+Pays by check with two forms of ID
+Uses credit card
+Complete the sale after verifying signature.
+Complete the sale. No signature needed.
+Call supervisor for approval.
+Communicate electronically with bank for credit card authorization.
+Rules
+1
+Y Y N N
+Y N Y N
+N
+X
+Y
+X
+N
+X
+Y
+X
+2 3 4
+FIGURE 9.7
+The standard format used for 
+presenting a decision table.
+Conditions and Actions
+Conditions
+Actions
+Rules
+Condition Alternatives
+Action Entries
+
+
+===== BOOK PAGE 269 =====
+
+CHAPTER 9  •  PROCESS  SPECIfICATIONS  AND  S TR uCTuRED  DECISIONS      269
+are 16 columns and two alternatives (Y or N), so 16 divided by 2 is 8. Then choose one 
+of the alternatives, say Y , and write it in the first eight columns. Finish by writing N in the 
+remaining eight columns, as follows:
+Condition 1: Y Y Y Y Y Y Y Y N N N N N N N N
+Repeat this step for each condition, using a subset of the table:
+Condition 1: Y Y Y Y Y Y Y Y N N N N N N N N
+Condition 2: Y Y Y Y N N N N
+Condition 3: Y Y N N
+Condition 4: Y N
+And continue the pattern for each condition:
+Condition 1: Y Y Y Y Y Y Y Y N N N N N N N N
+Condition 2: Y Y Y Y N N N N Y Y Y Y N N N N
+Condition 3: Y Y N N Y Y N N Y Y N N Y Y N N
+Condition 4: Y N Y N Y N Y N Y N Y N Y N Y N
+6. Complete the table by inserting an X where rules suggest certain actions.
+7. Combine rules where it is apparent that an alternative does not make a difference in the 
+outcome. For example,
+Condition 1: YY
+Condition 2: YN
+Action 1: XX
+can be expressed as:
+Condition 1: Y
+Condition 2: —
+Action 1: X
+The dash [—] signifies that Condition 2 can be either Y or N, and the action will still 
+be taken.
+upgrade from their reserved car size if their company has an account 
+with us. There’s a discount for membership in any of the frequent-
+flyer clubs run by cooperating airlines too. When customers step up 
+to the counter, they tell us what size car they reserved, and then we 
+check to see if we have it in the lot ready to go. They usually bring 
+up any discounts, and we ask them if they want insurance and how 
+long they will use the car. Then we calculate their rate and write out 
+a slip for them to sign right there.”
+Ricardo has asked you to computerize the billing process 
+for Citron so that customers can get their cars quickly and still be 
+billed correctly. Draw a decision table that represents the conditions, 
+condition alternatives, actions, and action rules you gained from 
+Ricardo’s narrative that will guide an automated billing process.
+Ricardo wants to expand the ecommerce portion of his business 
+by making it possible to reserve a car online. Draw an updated decision 
+table that shows a 10 percent discount for booking a car over the web.
+CONSULTING OPPORTUNITY 9.3 
+Saving a Cent on Citron Car Rental
+“We feel lucky to be this popular. I think customers feel we 
+have so many options to offer that they ought to rent an auto from 
+us,” says Ricardo Limon, who manages several outlets for Citron 
+Car Rental. “Our slogan is, ‘You’ll never feel squeezed at Citron.’ 
+We have five sizes of cars that we list as A through E:
+A Subcompact
+B Compact
+C Midsize
+D Full-size
+E Luxury
+“Standard transmission is available only for A, B, and C. 
+Automatic transmission is available for all cars.”
+“If a customer reserves a subcompact (A) and finds on arriving 
+that we don’t have one, that customer gets a free upgrade to the 
+next-sized car, in this case, a compact (B). Customers also get a free
+
+
+===== BOOK PAGE 270 =====
+
+270    PART III  •  THE ANALYSIS PROCESS
+8. Check the table for any impossible situations, contradictions, and redundancies. They are 
+discussed in more detail later.
+9. Rearrange the conditions and actions (or even rules) if it makes the decision table more 
+understandable.
+A Decision Table Example. Figure 9.9 shows a decision table developed using the steps previously 
+outlined. In this example, a company is trying to maintain a meaningful mailing list of custom-
+ers. The objective is to send out only the catalogs from which customers will buy merchandise.
+The managers realize that certain loyal customers order from every catalog and that some peo-
+ple on the mailing list never order. These ordering patterns are easy to observe but deciding which 
+catalogs to send customers who order only from selected catalogs is more difficult. Once these 
+decisions are made, a decision table is constructed for three conditions (C1: customer ordered 
+from Fall catalog; C2: customer ordered from holiday catalog; and C3: customer ordered from 
+specialty catalog), each having two alternatives (Y or N). Three actions can be taken (A1: send 
+out this year’s holiday catalog; A2: send out the new specialty catalog; and A3: send out both 
+catalogs). The resulting decision table has six rows (three conditions and three actions) and eight 
+columns () ××twoa lternatives twoa lternatives twoa lternatives .
+The decision table is now examined to see if it can be reduced. There are no mutually exclusive 
+conditions, so it is not possible to get by with fewer than three condition rows. No rules allow the 
+combination of actions. It is possible, however, to combine some of the rules, as shown in Figure 9.10. 
+For instance, Rules 2, 4, 6, and 8 can be combined because they all have two things in common:
+FIGURE 9.10
+Combining rules to simplify the 
+customer-catalog decision table.
+Conditions and Actions
+Conditions and Actions
+Rules
+Rules
+Customer ordered from fall catalog.
+Customer ordered from holiday catalog.
+Customer ordered from specialty catalog.
+Send out this year’s holiday catalog.
+Send out specialty catalog.
+Send out both catalogs.
+Customer ordered from fall catalog.
+Customer ordered from holiday catalog.
+Customer ordered from specialty catalog.
+Send out this year’s holiday catalog.
+Send out specialty catalog.
+Send out both catalogs.
+Y
+Y
+Y
+Y
+Y Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y Y
+N
+N N
+N
+N N
+N
+N
+N
+N
+N
+N
+N
+N
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+1 2 3 4 5 6 7 8
+1' 2' 3'
+FIGURE 9.9
+Constructing a decision table for 
+deciding which catalog to send to 
+customers who order only from 
+selected catalogs.
+Conditions and Actions
+Customer ordered from fall catalog.
+Customer ordered from holiday catalog.
+Customer ordered from specialty catalog.
+Send out this year’s holiday catalog.
+Send out specialty catalog.
+Send out both catalogs.
+Rules
+1 2 3 4 5 6 7 8
+Y Y Y Y N N N N
+Y Y N N Y Y N N
+Y N
+X
+X
+X X
+X
+X X X
+Y N Y N Y N
+
+
+===== BOOK PAGE 271 =====
+
+CHAPTER 9  •  PROCESS  SPECIfICATIONS  AND  S TR uCTuRED  DECISIONS      271
+FIGURE 9.11
+Adding a rule to the customer-
+catalog decision table changes 
+the entire table.
+Conditions and Actions
+Rules
+Customer ordered from fall catalog.
+Customer ordered from holiday catalog.
+Customer ordered from specialty catalog.
+Send out this year’s holiday catalog.
+Send out specialty catalog.
+Send out both catalogs.
+Do not send out any catalog.
+Y
+Y
+Y Y
+Y
+Y
+N
+N
+N
+X
+X
+X
+X
+1' 2' 3' 4'
+Customer ordered $50 or more.
+FIGURE 9.12
+Checking the decision table for 
+impossible situations is important.
+Conditions and Actions
+Salary > $50,000/year
+Salary < $2,000/month
+Action 1
+Action 2
+Rules
+1 2 3 4
+Y Y N N
+Y N Y N
+This is an
+impossible
+situation.
+1. They instruct us to send out this year’s holiday catalog.
+2. The alternative for Condition 3 is always N.
+It doesn’t matter what the alternatives are for the first two conditions, so it is possible to insert 
+dashes [—] in place of the Y or N.
+The remaining rules—Rules 1, 3, 5, and 7—cannot be reduced to a single rule because two 
+different actions remain. Instead, Rules 1 and 5 can be combined; likewise, Rules 3 and 7 can be 
+combined.
+Checking for Completeness and Accuracy
+Checking over your decision tables for completeness and accuracy is essential. Four main prob-
+lems can occur in developing decision tables: incompleteness, impossible situations, contradic-
+tions, and redundancy.
+Ensuring that all conditions, condition alternatives, actions, and action rules are com-
+plete is of utmost importance. Suppose an important condition—if a customer ordered less than 
+$100—had been left out of the catalog store problem discussed earlier. The whole decision table 
+would change because a new condition, new set of alternatives, new action, and one or more new 
+action rules would have to be added. Suppose the rule is: IF the customer did not order more than 
+$100, THEN do not send any catalogs. A new Rule 4 would be added to the decision table, as 
+shown in Figure 9.11.
+When building decision tables as outlined in the foregoing steps, it is sometimes possible to 
+set up impossible situations. An example is shown in Figure 9.12. Rule 1 is not feasible because a 
+person cannot earn greater than $50,000 per year and less than $2,000 per month at the same time.  
+The other three rules are valid. The problem went unnoticed because the first condition was mea-
+sured in years and the second condition in months.
+
+
+===== BOOK PAGE 272 =====
+
+272    PART III  •  THE ANALYSIS PROCESS
+Contradictions occur when rules suggest different actions but satisfy the same conditions. 
+The fault could lie with the way the analyst constructed the table or with the information the 
+analyst received. Contradictions often occur if dashes [—] are incorrectly inserted into the table. 
+Redundancy occurs when identical sets of alternatives require the exact same action. Figure 9.13 
+illustrates a contradiction and a redundancy. The analyst must determine what is correct and then 
+resolve the contradiction or redundancy.
+Decision tables are an important tool in the analysis of structured decisions. One major advan-
+tage of using decision tables over other methods is that tables help the analyst ensure complete-
+ness. When using decision tables, it is also easy to check for possible errors, such as impossible 
+situations, contradictions, and redundancy. Decision table processors, which take the table as input 
+and provide computer program code as output, are also available.
+DECISION TREES
+Decision trees are used when complex branching occurs in a structured decision process. Trees 
+are also useful when it is essential to keep a string of decisions in a particular sequence. Although 
+the decision tree derives its name from natural trees, decision trees are most often drawn on 
+their side, with the root of the tree on the left side of the paper; from there, the tree branches out 
+to the right. This orientation allows the analyst to write on the branches to describe conditions 
+and actions.
+month, the mileage is doubled no matter what day, and if it is the 
+17th leg traveled, the mileage is tripled. If the traveler booked 
+the flight through an online booking service such as Priceline, 
+Momondo, Agoda, or KAYAK, 100 miles are added.”
+“I hope that clears it up for you, Ariadne. Enjoy your flight, and 
+thanks for flying Premium.”
+Ariadne Icarus, whose desire to board the Premium plane has 
+all but melted away during Glen’s long explanation, fades into the 
+sea of people wading through the security lanes without so much 
+as a peep in reply.
+Develop a decision tree for Premium Airlines’ new policy for 
+accumulating award miles so that the policy becomes clearer, is 
+easier to grasp visually, and hence is easier to explain.
+CONSULTING OPPORTUNITY 9.4 
+A Tree for Free
+“I know you’ve got a plane to catch but let me try to explain it to 
+you once again, sir,” pleads Glen Curtiss, a marketing manager for 
+Premium Airlines. Glen has been attempting (unsuccessfully) to 
+explain the airline’s new policy for accumulating miles for awards 
+(such as upgrades to first class and free flights) to a member of 
+Premium’s “Flying for Prizes” club.
+Glen takes another pass at getting the policy off the ground, 
+saying, “You see, the traveler (that’s you, Ariadne Icarus) will be 
+awarded the miles actually flown. If the actual mileage for the leg 
+was less than 500 miles, the traveler will get 500 miles of credit. If 
+the trip was made on a Saturday, the actual mileage will be multi-
+plied by two. If the trip was made on a Tuesday, the multiplication 
+factor is 1.5. If this is the ninth leg traveled during the calendar 
+FIGURE 9.13
+Checking the decision table for 
+inadvertent contradictions and 
+redundancy is important.
+Conditions and Actions
+Rules
+Y
+Y Y
+Y Y
+Y
+Y
+Y
+YN
+N
+N
+N
+N
+N
+X
+X
+X
+X X
+X
+X
+1 2 3 4 5 6 7
+Y
+N
+Condition 1
+Condition 2
+Condition 3       
+Action 1
+Action 2
+Action 3
+Contradiction Redundancy
+
+
+===== BOOK PAGE 273 =====
+
+CHAPTER 9  •  PROCESS  SPECIfICATIONS  AND  S TR uCTuRED  DECISIONS      273
+Unlike the decision tree used in management science, the analyst’s tree does not contain prob-
+abilities and outcomes. In systems analysis, trees are used mainly for identifying and organizing 
+conditions and actions in a completely structured decision process.
+Drawing Decision Trees
+It is useful to distinguish between conditions and actions when drawing decision trees. This 
+distinction is especially relevant when conditions and actions take place over a period of time 
+and their sequence is important. For this purpose, use a square node to indicate an action and a 
+circle to represent a condition. Using notation makes the decision tree more readable, as does 
+numbering the circles and squares sequentially. Think of a circle as signifying IF, whereas the 
+square means THEN.
+When decision tables were discussed in an earlier section, a point-of-sale example was used 
+to determine the purchase approval actions for a department store. Conditions included the amount 
+of the sale (under $50) and whether the customer paid by check or credit card. The four actions 
+possible were complete the sale after verifying the signature; complete the sale with no signature 
+needed; call the supervisor for approval; or communicate electronically with the bank for credit 
+card authorization. Figure 9.14 illustrates how this example can be drawn as a decision tree. 
+In drawing the tree:
+1. Identify all conditions and actions and their order and timing (if they are critical).
+2. Begin building the tree from left to right, making sure you list all possible alternatives 
+before moving to the right.
+This simple tree is symmetrical, and the four actions at the end are unique. A tree does not 
+need to be symmetrical. Most decision trees have conditions that have a different number of 
+branches. Also, identical actions may appear more than once.
+A decision tree has three main advantages over a decision table. First, it takes advantage of 
+the sequential structure of decision tree branches so that the order of checking conditions and 
+executing actions is immediately noticeable. Second, conditions and actions of decision trees are 
+found on some branches but not on others; in contrast, with decision tables, conditions and actions 
+are all part of the same table. Conditions and actions that are critical are connected directly to 
+other conditions and actions, whereas conditions that do not matter are absent. In other words, 
+the tree does not have to be symmetrical. Third, compared with decision tables, decision trees are 
+more readily understood by others in an organization. Consequently, they are more appropriate 
+as a communication tool.
+CHOOSING A STRUCTURED DECISION  
+ANALYSIS TECHNIQUE
+We have examined the three techniques for analysis of structured decisions: structured 
+English, decision tables, and decision trees. Although they need not be used exclusively, it is 
+customary to choose one analysis technique for a decision rather than employing all three. 
+FIGURE 9.14
+Drawing a decision tree to show 
+the noncash purchase approval 
+actions for a department store.
+Complete the sale after verifying signature.
+Complete the sale. No signature needed.
+Call supervisor for approval.
+Communicate electronically with bank for
+credit card authorization.
+Check
+Credit Card
+Check
+Under $50
+$ $50
+Credit Card
+2
+5
+7
+6
+4
+3
+1
+
+
+===== BOOK PAGE 274 =====
+
+274    PART III  •  THE ANALYSIS PROCESS
+The following guidelines provide you with a way to choose one of the three techniques for 
+a particular case:
+1. Use structured English when
+a. There are many repetitious actions
+OR
+b. Communication to end users is important.
+2. Use decision tables when
+a. Complex combinations of conditions, actions, and rules are found
+OR
+b. You require a method that effectively avoids impossible situations, redundancies, and 
+contradictions.
+3. Use decision trees when
+a. The sequence of conditions and actions is critical
+OR
+b. When not every condition is relevant to every action (the branches are different).
+Summary
+Once an analyst has worked with users to identify data flows and begun constructing a data dictionary, it 
+is time to turn to process specification and decision analysis. The three methods for decision analysis and 
+describing process logic discussed in this chapter are structured English, decision tables, and decision trees. 
+All three methods help an analyst develop the logic for structured decisions made in the organization. Making 
+structured decisions need not involve human judgment.
+Process specifications (or mini specs) are created for primitive processes on a data flow diagram as 
+well as for some higher-level processes that explode to a child diagram. These specifications explain the 
+decision-making logic and formulas that will transform process input data into output. The three goals of 
+process specification are to reduce the ambiguity of the process, to obtain a precise description of what is 
+accomplished, and to validate the system design.
+One way to describe structured decisions is to use the method referred to as structured English, in 
+which logic is expressed in sequential structures, decision structures, case structures, or iterations. Structured 
+English uses accepted keywords such as IF, THEN, ELSE, DO, DO WHILE, and DO UNTIL to describe the 
+logic used, and it indents to indicate the hierarchical structure of the decision process.
+Decision tables provide another way to examine, describe, and document decisions. Four quadrants 
+(viewed clockwise from the upper-left corner) are used to (1) describe the conditions, (2) identify possible 
+condition (or decision) alternatives (such as Y or N), (3) indicate which actions should be performed, and 
+(4) describe the actions. Decision tables are advantageous because the rules for developing the table itself, 
+as well as the rules for eliminating redundancy, contradictions, and impossible situations, are straightforward 
+and manageable. The use of decision tables promotes completeness and accuracy in analyzing structured 
+decisions.
+The third method for decision analysis is to use a decision tree, consisting of nodes (a square for actions 
+and a circle for conditions) and branches. Decision trees are appropriate when actions must be accomplished 
+in a certain sequence. There is no requirement that the tree be symmetrical, so only those conditions and 
+actions that are critical to the decisions at hand are found on a particular branch.
+Each of the decision analysis methods has advantages and should be used accordingly. Structured 
+English is useful when many actions are repeated and when communicating with others is important. Deci-
+sion tables provide a complete analysis of complex situations while limiting the need for change attribut-
+able to impossible situations, redundancies, or contradictions. Decision trees are important when proper 
+sequencing of conditions and actions is critical and when each condition is not relevant to each action.
+Keywords and Phrases
+action
+action rule
+condition
+condition alternative
+decision table
+decision tree
+mini specs
+process specifications
+structured decision
+structured English
+
+
+===== BOOK PAGE 275 =====
+
+CHAPTER 9  •  PROCESS  SPECIfICATIONS  AND  S TR uCTuRED  DECISIONS      275
+Review Questions
+1. List three reasons for producing process specifications.
+2. Define what is meant by a structured decision.
+3. What four elements must be known for a systems analyst to design systems for structured decisions?
+4. What are the two building blocks of structured English?
+5. List five conventions that should be followed when using structured English.
+6. What is the advantage of using structured English to communicate with people in an organization?
+7. Which quadrant of the decision table is used for conditions? Which is used for condition alternatives?
+8. What is the first step to take in developing a decision table?
+9. List the four main problems that can occur in developing decision tables.
+10. What is one of the major advantages of decision tables over other methods of decision analysis?
+11. What are the main uses of decision trees in systems analysis?
+12. List the four major steps in building decision trees.
+13. What three advantages do decision trees have over decision tables?
+14. In which two situations should you use structured English?
+15. In which two situations do decision tables work best?
+16. In which two situations are decision trees preferable?
+Problems
+1. Greg Bott is reviewing his firm’s expense reimbursement policies with the new salesperson, Phil 
+Menard. “Our reimbursement policies depend on the situation. You see, first we determine if it is 
+a local trip. If it is, we only pay mileage of 45 cents a mile. If the trip was a one-day trip, we pay 
+mileage and then check the times of departure and return. To be reimbursed for breakfast, you must 
+leave by 7:00 a.m., lunch by 11:00 a.m., and have dinner by 5:00 p.m. To receive reimbursement for 
+breakfast, you must return later than 10:00 a.m., have lunch later than 2:00 p.m., and have dinner by 
+7:00 p.m. On a trip lasting more than one day, we allow hotel, taxi, and airfare, as well as meal allow-
+ances. The same times apply for meal expenses.” Write structured English for Greg’s narrative of the 
+reimbursement policies.
+2. Draw a decision tree depicting the reimbursement policy in Problem 1.
+3. Draw a decision table for the reimbursement policy in Problem 1.
+4. A computer supplies firm called True Disk has set up accounts for countless businesses in Dosville. 
+True Disk sends out invoices monthly and will give discounts if payments are made within 
+10 days. The discounting policy is as follows: If the amount of the order for computer supplies is 
+greater than $1,000, subtract 4 percent for the order; if the amount is between $500 and $1,000, 
+subtract a 2 percent discount; if the amount is less than $500, do not apply any discount. All orders 
+made online automatically receive an extra 5 percent discount. Any special order (computer furniture, 
+for example) is exempt from all discounting.
+Develop a decision table for True Disk discounting decisions, for which the condition alterna-
+tives are limited to Y and N.
+5. Develop an extended-entry decision table for the True Disk company discount policy described in 
+Problem 4.
+6. Develop a decision tree for the True Disk company discount policy in Problem 4.
+7. Write structured English to solve the True Disk company situation in Problem 4.
+8. Premium Airlines has recently offered to settle claims for a class-action suit, which was originated 
+for alleged price fixing of tickets. The proposed settlement is stated as follows:
+Initially, Premium Airlines will make available to the settlement class a main fund of $25 million 
+in coupons. If the number of valid claims submitted is 1.25 million or fewer, the value of each claim 
+will be the result obtained by dividing $25 million by the total number of valid claims submitted. For 
+example, if there are 500,000 valid claims, each person submitting a valid claim will receive a coupon 
+with a value of $50.
+The denomination of each coupon distributed will be in a whole dollar amount not to exceed 
+$50. Thus, if there are fewer than 500,000 valid claims, the value of each claim will be divided among 
+two coupons or more. For example, if there are 250,000 valid claims, each person submitting a valid 
+claim will receive two coupons, each having a face value of $50, for a total coupon value of $100.
+If the number of valid claims submitted is between 1.25 million and 1.5 million, Premium 
+Airlines will make available a supplemental fund of coupons, with a potential value of $5 million. 
+The supplemental fund will be made available to the extent necessary to provide one $20 coupon for 
+each valid claim.
+
+
+===== BOOK PAGE 276 =====
+
+276    PART III  •  THE ANALYSIS PROCESS
+If there are more than 1.5 million valid claims, the total amount of the main fund and the supple-
+mental fund, $30 million, will be divided evenly to produce one coupon for each valid claim. The 
+value of each such coupon will be $30 million divided by the total number of valid claims.
+Draw a decision tree for the Premium Airlines settlement.
+9. Write structured English for the Premium Airlines settlement in Problem 8.
+10. “Well, it’s sort of hard to describe,” says Sharon, a counselor at Less Is More Nutrition and  
+Wellness Center. “I’ve never had to really tell anybody about the way we charge clients or anything, 
+but here goes.”
+“When clients come into Less Is More, we check to see if they’ve ever used our service before. 
+Repeat clients get a reduced rate of $100 for the first visit if they return within a year of the end of 
+their program.”
+“Everyone new pays an initial fee, which is $200 for a strength and endurance evaluation. The 
+client may bring in a coupon at this time, and then we deduct $50 from the up-front fee. Half of 
+our clients use our coupons and find out about us from them. We just give our repeaters their $100 
+off, though; they can’t use a coupon too! Clients who transfer in from one of our centers in another 
+city get $75 off their first payment fee, but the coupon doesn’t apply. Customers who pay cash get 
+10 percent off the $200, but they can’t use a coupon with that.”
+Create a decision table with Y and N conditions for the client charge system at Less Is More 
+Nutrition and Wellness Center.
+11. Reduce the decision table in Figure 9.EX1 to the minimum number of rules.
+12. Azure Isle Resort has a pricing structure for vacationers in one of its three dwelling categories: the 
+hotel, villas, and beach bungalows. The base price is for staying in the hotel. Beach bungalows have 
+a 10 percent surcharge and villas have a 15 percent surcharge. The final price includes a discount of 
+4 percent for returning customers. Further conditions apply to how close to capacity the resort is and 
+whether the requested date is within one month from the current date. If the resort is 50 percent full 
+and the time is within one month, there is a 12 percent discount. If the resort is 70 percent full and the 
+time is within one month, there is a 6 percent discount. If the resort is 85 percent full and it is within 
+one month, there is a 4 percent discount.
+Develop an optimized decision table for the Azure Isle Resort pricing structure.
+13. Create a decision tree for Problem 12.
+14. The base ticket price for Cloudliner Airlines is determined by the distance traveled and the day of 
+the week a passenger is traveling. In addition, the airline adjusts its ticket prices based on a number 
+of categories. If the seats remaining are greater than 50 percent of capacity and the number of days 
+before the flight is less than 7, the price is deeply discounted with a special web offer for the flight. If 
+the seats remaining are greater than 50 percent and the flight date is from 7 to 21 days in the future, 
+there is a medium price discount. If the seats remaining are greater than 50 percent and the number of 
+days before travel are greater than 21, there is only a small discount.
+If the seats remaining are from 20 percent to 50 percent and the days before the flight are fewer 
+than 7, the ticket has a medium discount. If the seats remaining are from 20 percent to 50 percent 
+and the flight date is from 7 to 21 days in the future, there is a low discount for prices. If the seats 
+remaining are from 20 percent to 50 percent and the number of days before travel are greater than 21, 
+there is no discount.
+FIGURE 9. EX1
+A decision table for a warehouse.
+Rules
+Sufﬁcient quantity
+    on hand
+Quantity large enough
+    for discount
+Wholesale customer
+Sales tax exemption
+ﬁled
+Ship items and
+    prepare invoice
+Set up backorder
+Deduct discount
+Add sales tax
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+X
+Y Y Y Y Y Y Y Y N N N N N N N N
+Y Y Y Y N N N N Y Y Y Y NN N N
+Y Y N N Y Y N N Y Y N N Y Y N N
+Y N Y N Y N Y N Y N Y N Y N Y N
+X
+X X
+X X X X X X
+X X X X X X
+X X X X X X X X
+Conditions and Actions
+
+
+===== BOOK PAGE 277 =====
+
+CHAPTER 9  •  PROCESS  SPECIfICATIONS  AND  S TR uCTuRED  DECISIONS      277
+If the seats remaining are less than 20 percent and the flight date is from 7 to 21 days in the 
+future, there is a large increase in price. If the seats remaining are less than 20 percent and the num-
+ber of days before travel are greater than 21, there is a small increase in price.
+Develop an optimized decision table for the Cloudliner Airlines ticket price adjustment policies.
+15. Develop a decision tree for the situation in Problem 14.
+Group Projects
+1. Each group member (or each subgroup) should choose to become an “expert” and prepare to explain 
+how and when to use one of the following structured decision techniques: structured English, deci-
+sion tables, or decision trees. Each group member or subgroup should then make a case for the 
+usefulness of its assigned decision analysis technique for studying the types of structured decisions 
+made by Maverick Transport on dispatching particular trucks to particular destinations. As back-
+ground for the problem, your group should know that Maverick Transport (first seen in Chapter 5) 
+is a 15-year-old national U.S. trucking firm. Maverick is a less-than-a-truckload carrier. The people 
+in management work from the philosophy of just in time (JIT), in which they have created a partner-
+ship that includes the shipper, the receiver, and the carrier (Maverick Transport) for the purpose of 
+transporting and delivering the materials required JIT for their use on the production line. Maverick 
+maintains 626 tractors for hauling freight and has 45,000 square feet of warehouse space and 
+21,000 square feet of office space. Each group should make a presentation of its preferred technique 
+for making structured decisions.
+2. After hearing each presentation, the entire group should reach a consensus on which technique 
+is most appropriate for analyzing the dispatching decisions of Maverick Transport and why that 
+technique is best in this instance. Write the group’s recommendation for a decision technique in a 
+paragraph.
+Selected Bibliography
+Alsolami, F., Azad, M., Chikalov, I., & Moshkov, M. (2020). Decision and inhibitory trees and decision 
+tables with many-valued decisions. Springer Nature.
+Anderson, D. R., Sweeney, D. J., Williams, T. A., Camm, J. D., & Cochran, J. J. (2013). An introduction to 
+management science (13th ed.). Cengage Learning.
+Chountalas, P. T., & Lagodimos, A. G. (2019). Paradigms in business process management specifica-
+tions: a critical overview. Business Process Management Journal, 25(5), 1040–1069. https://doi.
+org/10.1108/BPMJ-01-2018-0023
+Custode, L. L., & Iacca, I. (2020). Evolutionary learning of interpretable decision trees. https://arxiv.org/
+pdf/2012.07723.pdf
+Good, P. (2022). What is structured English? www.wisegeek.com/what-is-structured-english.htm
+Kress-Gazit, H., Fainekos, G. E., & Pappas, G. J. (2008). Translating structured English to robot 
+controllers. Advance Robotics, 22, 1343–1359.
+Wood, H. (2012, May 30). An intro to logic trees and structured programming. http://www.techopedia.
+com/2/28552/it-business/enterprise-applications/an-intro-to-logic-trees-and-structured-programming
+
+
+===== BOOK PAGE 278 =====
+
+278
+Object-Oriented  
+Systems Analysis  
+and Design Using UML*
+LEARNING OBJECTIVES
+Once you have mastered the material in this chapter, you will be able to:
+1 Understand what object-oriented systems analysis and design is and appreciate its 
+usefulness.
+2 Learn the basics of CRC cards and object think.
+3 Comprehend the concepts of unified modeling language (UML), the standard approach for 
+modeling a system in the object-oriented world.
+4 Explore use case modeling.
+5 Learn how to draw and interpret activity diagrams.
+6 Draw and explain sequence and communication diagrams.
+7 Be able to develop class diagrams.
+8 Enhance sequence diagrams based on the class diagrams just developed.
+9 Enhance call diagrams in a variety of ways.
+10 Learn how to develop statechart diagrams.
+11 Understand packages and other UML artifacts.
+12 Recognize how to put UML to work.
+13 Realize the importance of UML for modeling.
+Object-oriented analysis and design facilitate logical, rapid, and thorough methods for cre-
+ating new systems that are responsive to a changing business landscape. Object-oriented 
+techniques work well in situations in which complicated information systems are undergoing 
+continuous maintenance, adaptation, and redesign.
+In this chapter, we introduce unified modeling language (UML), the industry standard 
+for modeling object-oriented systems. The UML toolset includes diagrams that allow you 
+to visualize the construction of an object-oriented system. Each design iteration takes a 
+10 
+CHAPTER  
+*Chapter written by Julie E. Kendall, Kenneth E. Kendall, and Allen Schmidt.
+

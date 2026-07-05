@@ -1,0 +1,2336 @@
+
+===== BOOK PAGE 433 =====
+
+CHAPTER 14  •  HUmAn–ComPUTER  InTERACTIon AnD  UX DEsIgn     433
+UNDERSTANDING HUMAN–COMPUTER INTERACTION
+Designing for human–computer interaction (HCI) means “ensuring system functionality and 
+usability, providing effective user interaction support, and enhancing a pleasant user experience.” 
+Furthermore, “the overarching goal is to achieve both organizational and individual user effec-
+tiveness and efficiency. To reach these goals, managers and developers need to be knowledgeable 
+about the interplay among users, tasks, task contexts, information technology (IT), and the envi-
+ronments in which systems are used” (Carey et al., 2004, p. 358).
+Knowledge about the interplay among users, tasks, task contexts, IT, and the environments 
+in which the systems are used comprises the basis of HCI. The main tactic of HCI in systems 
+analysis and design is to repeatedly elicit feedback from users about their experiences with pro-
+totyped designs (which could be screens, forms, interfaces, and the like), refine the design based 
+on the suggested changes, and try them with users again until the design is acceptable and until 
+it is frozen by the analyst.
+How Fit Affects Performance and Well-Being
+Let’s begin our exploration of HCI with some useful definitions that are commonly shared among 
+those working in the field.
+Fit. A good fit between the HCI elements of the human, the computer, and the task that needs to 
+be performed leads to performance and well-being. Just as it is important that new shoes comfort-
+ably fit the shape of your foot, hold up during the activity you will be doing (such as running), 
+and are made of a material (such as nylon) that is durable and cost-effective, so too is it important 
+that the fit among the user, computer, and task all correspond.
+Analysts want the best fit in their design. They want to make the best possible use of 
+people in designing a computerized task that is intended to meet an organization objective. 
+Better fit results in better performance and greater overall well-being for the human involved 
+in the system.
+Task. Tasks can be structured and routine, or they can be ill defined and without apparent struc-
+ture. Complex tasks that require human, system, and task interaction are supported by ecommerce 
+and web systems, enterprise resource planning systems, and wireless systems inside and outside 
+the organization. In the foregoing chapters you have learned many methods to help you under -
+stand, document, and graphically depict the tasks that people currently perform in the organization.  
+listening actively is explored in a humorous way. As implied in the 
+video, as a systems analyst you need to listen and show interest when 
+working with users and teammates, to acknowledge key points, 
+agree to listen to each other, and read reactions to your words. After 
+you view the video, please reflect on the following questions:
+1. What are some nonverbal ways to communicate that you are 
+actively listening to a teammate or user?
+2. How can you actively show interest in what a user is telling 
+you during your interaction?
+3. Describe some phrases that might be useful when you “agree 
+to listen to each other” when talking with a user or teammate.
+4. What is meant by “reading reactions to your words” in a con-
+versation with a teammate? If you are receiving a confused 
+reaction, what actions can you take to get the dialogue back 
+on track?
+SYSTEMS SCENARIO  
+Listening to User Experiences
+This chapter focuses on human–computer inteaction, the concept of 
+usablity, identifying user interfaces, user experience design, dialog 
+design, and giving feedback to users. In this video, the topic of 
+To view the video for this scenario,  
+see eText Chapter 14.
+Seven Dimensions/Boclips
+
+
+===== BOOK PAGE 434 =====
+
+434    PART IV  •  THE EssEnTIALs  oF DEsIgn
+You have also learned methods to help you design new tasks that will help people reach their 
+objectives with the new systems you are creating.
+Performance. The definition of the word performance in the HCI context is key; it refers to a 
+combination of the efficiency involved in performing a task and the quality of the work produced 
+by the task. For example, if analysts are creating data flow diagrams (DFDs) using high-level 
+software or a computer-aided software engineering (CASE) tool with which they are proficient, 
+the quality of the DFDs produced will be high. The performance is also efficient because ana-
+lysts are using an automated tool with which they are familiar. They can work rapidly, with good 
+results. The task fits the objective, which is to create high-quality DFDs to document a system. 
+The efficiency of producing such diagrams with a CASE tool, which can then be used to store, 
+retrieve, communicate, and modify the unified modeling language (UML) diagrams, is excellent 
+compared to alternatives such as using a drawing tool unrelated to a data dictionary or drafting 
+diagrams by hand, neither of which offers such features.
+Well-Being. At this point, we introduce the concept of well-being, which is a concern for a 
+human’s overall comfort, safety, and health; in sum, it is a human’s physical as well as psycho-
+logical state. Does using a CASE tool for producing UML diagrams or DFDs on a computer 
+serve the analyst’s well-being? Yes, because the task fits well with the analyst, the software, the 
+objective, and the computer. Notice that analysts are working in an environment in which they 
+are physically comfortable, are psychologically stimulated to be creative, and can be productive; 
+also, each analyst’s work is valued by peers and clients, as well as being valued monetarily by 
+the employing organization.
+Psychological attitudes (the affective component) are important. How users feel about them-
+selves and their identities, work life, and performance can all be gauged through assessing their 
+attitudes. Analysts taking an HCI perspective are concerned with how attitudes color the way 
+humans feel about technology and their tasks and whether their attitudes hinder or enhance their 
+experience.
+USABILITY
+Usability is defined differently depending on which branch of science you are investigating. For 
+our purposes in exploring usability through an HCI lens, we focus on usability as a way for design-
+ers to evaluate the systems and interfaces they create with an eye toward addressing as many HCI 
+concerns as thoroughly as possible. Usability studies (according to https://www.nngroup.com) are 
+all about finding out what works in the world and what doesn’t.
+Nielsen and colleagues (Nielsen & Mack, 1994; Nielsen et al., 2001) have published usability 
+heuristics (or rules of thumb) based on thousands of usability tests of interfaces and, later, tests of 
+ecommerce websites. They include visibility of system status, match between the system and the 
+real world, user control and freedom, consistency and standards, error prevention, reconnection 
+rather than recall, flexibility and efficiency of use, aesthetics, and minimalist design, help that 
+users recognize, diagnosis and recovery from errors, and help and documentation.
+Figure 14.1 shows a usability survey administered directly to users who have personally 
+interacted with a prototype. It asks users outright about some important usability and ergonomic 
+dimensions. Another approach is to write up use case scenarios for the system. These are helpful 
+in examining usability concerns.
+Designing for the Cognitive Styles of Individual Users
+One important consideration is that data, particularly data used for decision making, need to be 
+made available in different forms so users with different cognitive abilities can make sense of 
+them. Some users may prefer to examine tables and make decisions, some prefer graphs, and 
+others want to read narrative text.
+Pivot Tables. It is possible that the same person might want different types of presentations at 
+different times. For example, suppose a manager wants to compare inventory held at different 
+stores in a region. A graph can present the data very effectively. A column chart can use colors to 
+show when a store is near its stockout level, and it can also show the relative amount of stock by 
+allowing the user to visually compare the height of the bars directly.
+
+
+===== BOOK PAGE 435 =====
+
+CHAPTER 14  •  HUmAn–ComPUTER  InTERACTIon AnD  UX DEsIgn     435
+Suppose now that the same decision maker wants information about a particular store in a 
+given month. The graphical depiction may have been set up to show the stores from highest to 
+lowest inventory on a month-by-month basis. The user may prefer to return to the table that lists 
+stores alphabetically, with the months listed chronologically. As you can see, the same person 
+may want to see the same data in very different ways. Pivot tables allow users to arrange data in 
+a table in any way they choose.
+Visualization. Visualization is the representation of data as a chart, graph, or other image. Inno-
+vative visual displays of data have existed for quite some time, even as early as the eighteenth 
+century. Barriers to widespread use of visual displays included lack of imagination, the inability 
+to draw graphs and charts in a cost-effective manner, and a lack of appreciation for such displays. 
+Some charts are crammed with so much information that they become too complex for the average 
+user. The consumer of information must be able to interpret the information in the diagram or it 
+adds little value, so it is wise to use software to generate these charts and graphs.
+Physical Considerations in HCI Design
+In Chapters 11, 12, and 13 you learned the basis for sound design of screens, forms, websites, and 
+databases. This included the special use of fonts, color, and layout design to communicate to users 
+and to help them do the right thing with the input and output they encountered. To examine the 
+underlying reasons for much of this design, it is useful to look at human sensory capabilities and 
+limitations that will inform the design. In keeping with the HCI philosophy, an analyst should be 
+able to compensate, overcome, or replace human senses to a varying extent.
+FIGURE 14.1
+A form may be used to survey 
+users of prototypes on key 
+usability and ergonomic factors. 
+(Categories based on Zhang  
+et al., 2005, Table of HCI 
+concerns, p. 522.)
+Please ﬁll this out after you complete your interaction with the prototype. Circle a number as you
+respond to each question. Please hand your survey to the analyst when you have completed it.
+Thank you for this important feedback.
+1.  How well were you able to read the display or form?
+2.  If audio was used, were you able to hear it?
+3.  Did you consider the system safe to use?
+1
+1
+1
+2
+2
+2
+4
+4
+4
+5
+5
+5
+3
+3
+3
+1
+1
+1
+1
+1
+2
+2
+2
+2
+2
+4
+4
+4
+4
+4
+5
+5
+5
+5
+5
+3
+3
+3
+3
+3
+1
+1
+1
+1
+1
+2
+2
+2
+2
+2
+4
+4
+4
+4
+4
+5
+5
+5
+5
+5
+3
+3
+3
+3
+3
+1
+1
+1
+1
+1
+1
+1
+2
+2
+2
+2
+2
+2
+2
+4
+4
+4
+4
+4
+4
+4
+5
+5
+5
+5
+5
+5
+5
+3
+3
+3
+3
+3
+3
+3
+Prototype being evaluated ______________      Version _____________      Date ____/____/______
+Usability Survey
+Human–Computer Interaction Factors
+Physical/Safety Concerns
+4.  Help you cut down on making errors?
+5.  Allow you to recover from an error if you made one?
+6.  Help you use it easily?
+7.  Help you remember how to use it?
+8.  Make it easy to learn how to use it?
+Usability Concerns    How well did the system:
+  9.  Was the system attractive?
+10.  Was the system engaging (you wanted to use it)?
+11.  Do you trust it as a system?
+12.  Was it satisfying to use?
+13.  Was it enjoyable to use?
+14.  Was the system entertaining?
+15.  Was the system fun to use?
+Pleasing and Enjoyable Attributes
+16.  Support your individual task or tasks?
+17.  Help you to extend your capabilities?
+18.  Make itself rewarding to use?
+19.  Permit you to do tasks that the other system would
+       not allow you to do?
+Usefulness Attributes    How well did the system:
+Very
+Poor
+Very
+GoodAverage
+
+
+===== BOOK PAGE 436 =====
+
+436    PART IV  •  THE EssEnTIALs  oF DEsIgn
+Vision. Systems analysts become accustomed to designing screens and reports for sighted people. 
+The use of color, fonts, graphics, software, and PowerPoint presentations for displays and printed 
+reports as input and output were detailed in Chapters 11 and 12. However, from an HCI perspec-
+tive, analysts also think in terms of limitations on human vision. Factors such as distance from 
+display to the person performing a task; the angle of the display in relation to the person viewing it; 
+the size and uniformity of the characters; the brightness, contrast, balance, and glare of the screen; 
+and whether a display is blinking or stable can all be designed to standards established through 
+the International Organization for Standardization and other national and international groups.
+Hearing. Humans have limits on the amount of stress their senses can withstand. Noisy laser 
+printers, phone conversations, and shredders can lead to overload on human hearing. Office 
+workers can wear noise-canceling headphones or use a personal music player, but these solutions 
+may have the effect of isolating a person from the organizational setting and may even diminish 
+their capability to perform tasks. Analysts need to consider noise when designing office systems.
+Touch. When using an HCI perspective to evaluate the usefulness of keyboards and other input 
+devices, systems analysts rate the human–computer fit as well as the dimensions examining the 
+human–computer–task fit. Keyboards have been ergonomically designed to provide the correct 
+feedback for a person doing data entry. Users know by the firmness of the key under their finger 
+that the keystroke has been entered.
+Designing for data entry using numeric keypads as the human entry device also provides a 
+decision point for designers. Notice that numbers on your mobile phone are in a different order 
+than numbers on a numeric keypad or a calculator. Your phone may be arranged with the numbers 
+1, 2, and 3 on the top row. When you look at a calculator layout or a numeric keypad on your 
+keyboard, you will see 7, 8, and 9 on the top row. Research now points to the superiority of the 
+calculator layout when the user is doing a lot of data entry. However, the phone digit layout is 
+supposed to be better for locating a number. Systems designers are constantly examining the fit 
+between the human, the computer, and the tasks set by the organization.
+Considering Human Limitations, Disabilities, and Design
+All humans have limitations in their physical capabilities. Some are immediately visible, others 
+are not. When designing from an HCI perspective, limitations are often discussed in terms of 
+disabilities. The application of HCI to supporting and enhancing the physical capabilities 
+of humans is one of the most promising application areas. Strides in biomedical engineering 
+mean that there is research to support people who are blind or who have low vision, those who 
+are deaf or hard of hearing, and people with limited mobility.
+There are also improvements in the technical supports available to those who face difficulties 
+in cognitive processing, including persons with symptoms of autism, dyslexia, and attention-
+deficit disorder. Systems analysts are subject to the legal provisions of the country in which they 
+are working. For instance, when designing for workplaces in the United States, you may want to 
+check on the obligations of an employer on the Americans with Disabilities Act website.
+One of the best ways to ensure the broadest possible accommodation is to begin designing 
+from an HCI perspective. That way, your foremost concern will always be assisting a user in 
+accomplishing a task, set by the organization, with the use of technology. When accommodations 
+for people with disabilities are necessary, there are many sources to examine and many assistive 
+devices to consider.
+For people who have color vision deficiency or, more colloquially called color blindness, test 
+the colors being chosen for screens or forms to be certain that they can be easily distinguished 
+from each other. Particular problems occur telling the difference between red and green, for 
+instance. Always design the screen or form with alternative cues, such as icons, written text, or 
+audio cues that reinforce the content. For users who experience impaired hearing, make sure docu-
+ments and screens include access to written versions of the audio material. Alternatively, design 
+tasks in a way that headphones can be used successfully.
+When designing computer tasks for those with limited mobility, think of speech input rather 
+than keyboarding. In addition, new advances in biomedical engineering permit users with limited 
+mobility to move the cursor on the screen by breathing into a tube or by directing the cursor to the 
+desired spot on the screen by looking at that spot or even, in some highly specialized interfaces, 
+by thinking about where the cursor should move.
+
+
+===== BOOK PAGE 437 =====
+
+CHAPTER 14  •  HUmAn–ComPUTER  InTERACTIon AnD  UX DEsIgn     437
+Implementing Good HCI Practices
+The ideal is to invite a usability specialist to serve on the systems development team with the other 
+team members. However, many systems groups are quite small, and not many professionals are 
+available who are involved in the practice of usability per se. Even if you make this recommended 
+change to your project, the odds are that the position will go unstaffed or understaffed. However, 
+don’t let that discourage you. You can take some simple steps that will positively influence the 
+outcome of your systems project. Figure 14.2 provides a list of guidelines for taking an HCI 
+approach to systems design.
+FIGURE 14.2
+The HCI approach to systems 
+design emphasizes the fit among 
+human, computer, and task.
+Guidelines for the HCI Approach to Systems Design
+•  Examine the task to be done and consider ﬁt among human, computer, and task.
+•  Identify what obstacles exist for users in their attempts to accomplish their assigned tasks.
+•  Keep in mind perceived usefulness and perceived ease of use of technology. 
+•  Consider usability. Examine the usage environment by creating use case scenarios that
+ depict what is going on between users and the technology. 
+•  Use the information gained beforehand to ﬁgure out the physical and organizational
+    environmental characteristics. Design with prototyping to accommodate diverse users and
+    users with disabilities.
+Start by listing about 20 different items of school-branded clothing 
+for sports fans, including items such as hooded sweatshirts, T-shirts, 
+baseball caps, sweatbands, running shorts, and so on. Many of 
+them feature fanciful embroidered designs depicting their mascots 
+in menacing or endearing poses. Hyde Park has their Golden 
+Retrievers; Pierce has their much beloved bird, the Puffins; and 
+St. David’s cheers with their Dragons.
+Put the items into categories. Then think about what the data  
+would look like. Does it make sense for Linda to look at the 
+data weekly, monthly, or by semester? Will she want to look back 
+five years to see whether there were any trends? Set up tables iden-
+tifying the rows and columns and the content of the main cells. 
+Suggest several tables so Linda can analyze them in different ways.
+Now construct graphs that analyze the same data. Using some 
+of the examples found in this book, suggest the type of graphs 
+and show the data so that different users with different styles can 
+make some decisions regarding the trend of sales over the last 
+few years. Remember to compare the schools as well. Suggest 
+the appropriate graphs from column, line, scatter plots, or even 
+pie charts.
+Also suggest three or four specific changes you would make 
+to allow someone who has low vision to be able to read the graphs 
+more easily. Magnification is one way to change a graph, but it may 
+not be the best approach.
+Consider the size of the schools because this may become the 
+most important factor when determining how Linda Mascota should 
+adjust her ordering for St. David’s, Hyde, and Pierce.
+CONSULTING OPPORTUNITY 14.1 
+School Spirit Comes in Many Sizes
+L inda Mascota manages the student-alumni clothing department 
+for a large bookstore in Saratoga Springs.
+“Our clothing sales depend not only on whether our sports 
+teams win or lose, but the overall well-being of our students and 
+alums. If they are proud of their university and want to show their 
+school spirit, they’ll buy up everything on our racks!” exclaims 
+Linda. “But don’t underestimate the weather as a factor,” she adds. 
+“If the weather turns cold in October, you’ll see a surge in people 
+buying warm sweaters, hoodies, pullovers, and gloves.”
+“Our store serves the major three universities in our area,” Linda 
+goes on to state. “First, there is Hyde Park, what we call ‘the foot-
+ball school.’ They have about 17,000 students going there. They 
+have high demand for school-branded clothing, particularly in the 
+fall. Then, of course, there’s Pierce University. Pierce would like 
+to be considered as Ivy League, so the students like to buy crew 
+and lacrosse shirts. They have about 7,500 students. Then there is 
+St. David’s, with about 3,000 students. They are devoted to their 
+basketball team. You’ll see sales pick up in the second semester, 
+particularly during March Madness.”
+Linda continues, admitting, “I thought about asking the students 
+what to stock, but an email survey is out of the question. I get 
+spammed a lot, so I mostly don’t bother with email. Unfortunately, 
+the lead time for getting official branded sportswear into the store 
+is really long, and we run the risk of stocking out. But we try to 
+never run out.”
+You’ve been asked to design a set of tables and graphs that 
+will help analyze the sales of the bookstore’s school clothing.
+
+
+===== BOOK PAGE 438 =====
+
+438    PART IV  •  THE EssEnTIALs  oF DEsIgn
+Although we have been discussing the system in the abstract, it is important to recognize 
+that the interface is the system for most users. However well or poorly designed, it stands as the 
+representation of the system and, by reflection, your competence as a systems analyst. A well-
+designed interface improves the fit among the task, the technology, and the user.
+Your goal must be to design interfaces that help users and businesses get the information they 
+need in and out of the system by addressing the following objectives:
+1. Matching the user interface to the task.
+2. Making the user interface efficient.
+3. Providing appropriate feedback to users.
+4. Generating usable queries.
+5. Improving the productivity of computer users.
+TYPES OF USER INTERFACES
+In this section, several different kinds of user interfaces are described, including natural-language 
+interfaces, question-and-answer interfaces, menus, form-fill interfaces, command-language inter-
+faces, graphical user interfaces (GUIs), and a variety of web interfaces for use on the Internet. The 
+user interface has two main components: presentation language, which is the computer-to-human 
+part of the transaction, and action language, which characterizes the human-to-computer portion. 
+Together, both concepts cover the form and content of the term user interface.
+Natural-Language Interfaces
+Natural-language interfaces are perhaps the dream and ideal of inexperienced users because 
+they permit them to interact with the computer in their every day, or natural, language. No special 
+skills are required of the user, who interfaces with the computer by typing or speaking a sentence 
+or special commands such as “Schedule an appointment on Wednesday at 1:00 p.m. with Karla 
+Salguero in marketing.” On an Apple iPhone, Siri is a voice-enabled interface that uses natural 
+language. Alexa is a digital assistant used in devices such as Amazon’s Echo that can be voice-
+activated. See the upcoming section on designing intelligent personal assistants for more on the 
+use of natural language interfaces.
+Question-and-Answer Interfaces
+In a question-and-answer interface, the computer displays a question to the user on the display. 
+To interact, the user enters an answer (via a keyboard stroke or a mouse click), and the computer 
+then acts on that input information in a preprogrammed manner, typically by moving to the next 
+question. Wizards or software setup assistants used to install software are common examples  
+“I’d like to be able to make some comparisons myself. I could 
+compare the turnover rate for all 12 of our warehouses. I’d also like 
+to see how effectively the capacity of each of our warehouses is 
+being used. Sometimes I’d like to be able to graph the comparisons 
+or see a chart of them over time.”
+In three paragraphs, compare three different types of interfaces that 
+K. A. could use. Then recommend one interface for her use that takes 
+into account her infrequent use of the PC, her enjoyment of working 
+with raw data, and her desire to see data displayed in a variety of ways.
+CONSULTING OPPORTUNITY 14.2 
+I’d Rather Do It Myself
+“I can get Raj to download any data I need from the web or our 
+server to my PC,” K. A. Sharman, an upper-level manager for Yum-
+time Foods (a Midwest food wholesaler), tells you. “Getting data 
+is no problem. What I don’t want are a lot of reports. I’d rather get 
+into the data myself.”
+K. A. goes on to tell you that as an executive she doesn’t use 
+her desktop PC as often as she’d like, maybe only three times a 
+month, but she has some very specific ideas about what she’d like 
+to do with it.
+
+
+===== BOOK PAGE 439 =====
+
+CHAPTER 14  •  HUmAn–ComPUTER  InTERACTIon AnD  UX DEsIgn     439
+of a question-and-answer interface. The user responds to questions about the installation process, 
+such as which drive to use to install the software on the system or answers questions about 
+customizable features.
+Menus
+In using a menu, a user is limited to the options displayed. The user need not know the system but 
+does need to know what task should be accomplished. For example, with a typical word processing 
+menu, users can choose from the Edit, Copy, or Print options. To utilize the menu best, however, 
+users must know which task they want to perform.
+Menus can be nested within one another to lead a user through options in a program. Nested 
+menus allow the screen to appear less cluttered, which is consistent with good design. They also 
+allow users to avoid seeing menu options in which they have no interest. Nested menus can move 
+users quickly through the program.
+GUI menus are used to control software and have the following guidelines:
+1. The main menu bar is always displayed either at the top of the application (Windows) or 
+the top of the screen (Mac OS).
+2. The main menu should have secondary options grouped into similar sets of features. For 
+example, on a Format menu you can format a Font, Paragraph, Document, and so on. 
+Each of these will be a secondary menu.
+3. Menu items that are unavailable at this time should be grayed out to signify that they can-
+not be used at this time.
+An object menu, also called a pop-up menu or context menu, is displayed when the user clicks 
+on a GUI object with the right mouse button. These menus contain items specific for the current 
+activity, and most of them duplicate functions of main menu items.
+Form-Fill Interfaces
+Form-fill interfaces consist of onscreen forms or web-based form-fill interfaces displaying 
+fields that contain data items or parameters that need to be communicated to the user. Apps such 
+as Jotform, WuFoo, and Typeform make it easy to design forms, but many of the form builder 
+apps allow the designer to accomplish more. Figure 14.3 provides a list of possible solutions that 
+can be addressed using one of the form builder apps that go beyond simply designing a form.
+as she continues the interview. “Whatever you do, though, don’t 
+slow me down. One of the things I’m most proud of is that  
+I can still beat the other operators. They’re good too, though,”  
+Ranhita adds.
+Based on this partial interview with Ranhita, what type of user 
+interface will you design for her and the other operators? Assume 
+that even though the new system is improved, it will still require 
+massive amounts of data entry from a variety of paper medical 
+insurance forms sent in by claimants.
+Compare and contrast interfaces such as natural language, 
+question-and-answer, menus, and web-based form-fill interfaces 
+in two paragraphs. Then choose and defend one alternative. What 
+qualities possessed by Ranhita and the other operators—and the 
+data they will be entering—shaped your choice? Make a list of these 
+qualities. Is there more than one feasible choice? Why or why not? 
+Respond in a paragraph.
+CONSULTING OPPORTUNITY 14.3 
+Don’t Slow Me Down
+“I’ve seen ’em all,” Ranhita Kulkarni tells you. “I was here 
+when they got their first computer system. I guess I’ve sort of 
+made a career of this,” she says cheerfully, pointing to the large 
+stack of medical insurance claim forms she has been entering into 
+the computer system. As a systems analyst, you are interviewing 
+Ranhita, a data entry operator for AbundaCare (a large medical 
+insurance company), about changes being contemplated in the 
+computer system.
+“I’m really fast compared with the others,” she states as she 
+nods toward the six other operators in the room. “I know because 
+we have little contests all the time to see who’s the fastest, with the 
+fewest errors. See that chart on the wall? That shows how much 
+we enter and how quickly. The gold stars show who’s the best each 
+week. Performance measures are my friends.”
+Ranhita says, “I don’t really mind if you change computers. 
+Like I say, I’ve seen ’em all.” She resumes typing on her keyboard
+
+
+===== BOOK PAGE 440 =====
+
+440    PART IV  •  THE EssEnTIALs  oF DEsIgn
+Forms for display screens are set up to show what information should be input and where. 
+Blank fields requiring information can be highlighted. The user moves the cursor from field to 
+field by using a single stroke of an arrow or Tab key. This provides the user with good control over 
+data entry. Web-based forms afford an opportunity to include hyperlinks to examples of correctly 
+filled-out forms or to further help and provide examples.
+Form input for displays can be simplified by supplying default values for fields and then 
+allowing users to modify default information, if necessary. For example, a database management 
+system designed to show a form for inputting checks may supply the next sequential check number 
+as a default when a new check form is exhibited. If checks are missing, the user changes the check 
+number to reflect the actual check being input.
+Input for display screen fields can be alphanumerically restricted so that, for example, users 
+can enter only numbers in a field requesting a Social Security number, or they can input only 
+letters where a person’s name is required. If numbers are input where only letters are allowed, the 
+computer may alert the user via audio output that the field was filled out incorrectly.
+Web forms can return incomplete forms to the user with an explanation of what data must 
+be entered to complete the transaction. Often, fields with missing data are marked in red, and the 
+user is required to complete the entry before moving on to the next web page.
+Web-based documents can be sent directly to billing if a transaction is involved, or they 
+can go directly to a real-time database if a survey is being submitted. Web-based forms push the 
+responsibility for accuracy to the user and make the form available for completion and submission 
+on a 24-hour, seven-day-a-week, worldwide basis.
+Choosing and Evaluating Interfaces
+When choosing and evaluating interfaces, keep these standards in mind:
+1. The necessary training period for users should be acceptably short.
+2. Early in their training, users should be able to enter commands without thinking about 
+them or without referring to a help menu or manual. Keeping interfaces consistent through-
+out applications can help in this regard.
+3. The interface should be seamless so errors are few and those that do occur are not occur-
+ring because of poor design.
+4. The time users and the system need to bounce back from errors should be short.
+5. Infrequent users should be able to relearn the system quickly.
+Many different interfaces are available, and it is important to realize that an effective interface 
+goes a long way toward addressing key HCI concerns. Users should want to use the system, and 
+they should find it attractive, effective, and pleasing to use.
+UX DESIGN
+UX design (user experience design)  is a customer-first method for designing software that 
+observes the behavior of customers and strives to enhance customer satisfaction and loyalty. It 
+accomplishes this by improving usability and ease of use, but it also understands the customer 
+must enjoy interaction with the product.
+FIGURE 14.3
+Many form design apps allow a 
+systems designer to achieve useful 
+solutions beyond the form itself.
+Advantages of Using Commercially Available Form Design Apps Include:
+• Forms can be developed easily using drag-and-drop.
+• Forms can include logic jumps that automatically skip over irrelevant questions.
+• Forms can capture photos and drawings and can accept payments.
+• Output from forms can be used to create dashboards.
+• Forms can be routed to speciﬁc ﬁeld staff or customers and be tracked.
+• Forms can provide real-time notiﬁcations when someone completes a form.
+• Forms can be integrated with services like PayPal, mailchimp, and Zoom.
+• Form design apps can use responses from earlier answers in later questions.
+• Forms can accept signatures.
+
+
+===== BOOK PAGE 441 =====
+
+CHAPTER 14  •  HUmAn–ComPUTER  InTERACTIon AnD  UX DEsIgn     441
+There is a difference between user interface (UI or GUI) design and user experience design. 
+UI involves designing for smooth interaction with emphasis on layout, menus, and buttons for 
+input, and graphs, charts, and tables for output. UX designs are for users’ requests and needs, 
+human-centered flow, and, most important, usability.
+There are many contrasts and comparisons between a traditional approach and a UX design 
+approach. The top layer of Figure 14.4 shows how traditional designers pull strategic objectives 
+from top management to guide information systems development. The designer works with the 
+strategic objectives as outlined, formulates a design for the information systems, and then pushes 
+that design to the user who is often in middle or operational levels of the organization. The 
+bottom layer of the figure shows the UX design approach. The designer interacts with users to 
+gather their wants and needs, designs an information system after interacting with users and the 
+proposed technology, then shares the resulting user objectives with management in the newly 
+designed system.
+Quality pioneer Dr. Joseph Juran said you could judge quality by whether a product can be 
+used the way it was intended. This turns out to be at the heart of UX design. Usability means that 
+a system is easy to understand, easy to use, and easy to appreciate. A few simple features, such 
+as the ability for the user to save a password, might make the difference.
+The UX designer considers these issues:
+1. Have the user’s needs been met without any complications?
+2. Does the workflow proceed without requiring any extra or duplicate steps?
+3. Is the user able to complete the task without being forced to recall something from an ear-
+lier step?
+4. If the user makes a mistake, can it be corrected easily?
+5. Is the interaction natural to the user?
+6. Can the user be more efficient by using shortcuts?
+7. Does the user feel in control of the system?
+FIGURE 14.4
+In traditional design, strategic 
+objectives motivate the design 
+effort, whereas in user experience 
+design, the user motivates 
+the design effort.
+Designer
+pushes design
+to the user .
+Designer pulls
+strategic
+objectives from
+management.
+Designer gathers
+user wants and
+needs.
+Designer shares
+user objectives
+with management.
+User Experience (UX) Design
+Traditional Design
+
+
+===== BOOK PAGE 442 =====
+
+442    PART IV  •  THE EssEnTIALs  oF DEsIgn
+To design the user experience, a designer first has to know about people. Although the 
+designer doesn’t need a degree in psychology, the designer does need to have some knowledge 
+about how people become motivated, what makes a person demonstrate loyalty, what makes a 
+person happy, and how people make decisions.
+In order to appreciate people more, the designer needs to gather information about people. 
+This is covered in more detail in Chapters 4 and 5, and it requires the analyst designer to master 
+interactive and unobtrusive methods, including both quantitative and qualitative approaches.
+When trying out new features or redesigning the site, prototypes prove to be extremely help-
+ful in getting reactions from users. This subject is covered extensively in Chapter 6. New designs 
+can start with a prototype. Even user reactions to a nonoperational prototype can elicit lots of 
+information from the user.
+Having a group of users walk through the current system is another way to gather useful infor-
+mation. If you ask the users to walk through a website and observe how easy or difficult it is for 
+them to navigate the site, that is crucial information to their experience. If you ask users to use an 
+app to perform a series of actions, it will show where the user stumbles, forgets, or gets frustrated.
+When practicing UX design for websites, keep in mind the following 10 key adages listed in 
+Figure 14.5. You will notice that each of the dos and don’ts encourage the designer to be observant 
+of the user throughout the designed workflow and to be honest with the user in clearly delineating 
+advertisements from actual content.
+Five Designer Actions That Promote Good UX Design
+Do Create Simple and Stress Free Sign-Ins. Do not require something out of the ordinary. 
+Although having a user sign in using Facebook may yield additional data about the person, the 
+individual may not want to give you that information. In the past, some games in the Apple App 
+Store only notified users that a Facebook sign-in was required after they purchased the game. 
+This was extremely rare, but the experience rattled many users who demanded their money back.
+Do Make the Default Choices User Friendly. If you ask users whether they agree to send infor -
+mation back to the company, make the default “No.” Observe all regulations in this regard as 
+these can vary by country or region (for example, European Union rules versus guidelines from 
+the United States). If you want users to have a good experience, don’t trick them by making the 
+default “Yes.” Also, if you use colors, make sure green means “agree” or “yes” and red means 
+“disagree” or “no.” Also, countries or regions differ on whether companies must show users an 
+“opt-in” or an “opt-out” option.
+Do Design to Specs that Describe the Majority of Your Users. Don’t assume your users have 
+the latest hardware and software updates. Companies have gone out of business improving their 
+product. They added features to the product but assumed that users had the latest hardware. Users 
+whose computers slowed to a crawl were disenchanted and removed the product from their systems 
+forever. One bad experience can change the destiny of the company developing the app or system.
+Do Provide a Way Out. If you decide on a subscription model, make sure users can easily get out 
+of the agreement. Often a service will begin with a free 30-day trial but collect credit card informa-
+tion as soon as the trial starts. Before users notice, they are into the second month. If you want to 
+have a good user experience, warn them that their free trial is ending. If they continue, make sure 
+FIGURE 14.5
+A list of dos and don’ts for 
+practicing good UX design.
+Do’s and Don’ts of UX Design
+Do’s Don’ts
+•  Do create simple and stress free sign-ins
+•  Do make the default choices user friendly
+•  Do design to specs that describe the majority
+    of users
+•  Do provide a way out
+•  Do keep your eye on users
+•  Don’t masquerade ads as content
+•  Don’t block the user from seeing the
+    content
+•  Don’t ask the user for too many
+    permissions
+•  Don’t spring surprises at checkout
+•  Don’t stop testing
+
+
+===== BOOK PAGE 443 =====
+
+CHAPTER 14  •  HUmAn–ComPUTER  InTERACTIon AnD  UX DEsIgn     443
+they can stop their subscription easily. Consider giving them a link for ending the subscription 
+when they first subscribe.
+Do Keep Your Eye on Users. Users also change. They change their workflows, their preferences, 
+and their hardware. Average users now look at their smartphone 150 times a day, but in a few 
+years wearable technology may change these patterns. UX design is user centered, so above all 
+keep monitoring your users and deliver a positive user experience.
+Let’s turn now to five actions that UX designers should avoid so they do not frustrate or thwart 
+users as they learn and continue to work with software applications. Keeping users at the center 
+of UX design and properly empathizing with users who must learn new software will help you 
+avoid these design don’ts.
+Five Designer Actions to Avoid in UX Design
+Don’t Masquerade Ads as Content. Interspersed between paragraphs on a website, there are often 
+links that appear to lead to descriptions of products, other articles, or an offer to obtain more detail 
+about a subject. Many of these are links to ads. The user feels deceived.
+Don’t Block the User from Seeing the Content. A number of news sources block users after they 
+have viewed a certain number of news stories per month, but that doesn’t lead to a satisfying 
+experience. Even worse, some websites force users to disable an ad blocker before proceeding. We 
+all can understand that websites need to sell ads to be profitable, but websites will have a difficult 
+time attracting new users if they present the user with a bad experience.
+Don’t Ask the User for Too Many Permissions. Asking users if they want to receive notifications 
+as soon as they enter the site is unfriendly. Also, asking users to have access to the camera or their 
+address book (or contacts) is poor design as well. If there is a legitimate reason for having access 
+to the camera or address book, explain it at the outset.
+Don’t Spring Surprises at Checkout. It is easy to find bargains on the Internet. Some companies 
+will add unexpected costs or fees at checkout. These bad surprises can be extra shipping costs. If 
+the item purchased is a service, or tickets for a concert to be held at the box office, “transaction 
+fees” might be applied. Transactions will not be completed at this point if the user learns about 
+unanticipated costs that are unreasonable or unforeseen. One online food delivery service in our 
+area changed the default charge to include giving a driver an 18 percent tip. Because drivers do not 
+do the same things servers in restaurants do, the delivery company upset many of its customers.
+Don’t Stop Testing. Operating systems change. Make sure you keep up with the changes. If you 
+allow information to be exchanged with other applications, make sure they still work.
+We all realize that the company providing the website or application needs to make a profit 
+or needs to deliver a message. Even so, when you adopt the principles of UX design, make sure 
+users have a good experience. Avoid making users feel uncomfortable or awkward; instead, make 
+them feel satisfied that they spent their time wisely in using the website or app.
+UX Design Guidelines: An Ecommerce Example
+Here are some good practices derived from UX design principles that can help in designing a 
+successful ecommerce transaction:
+1. Explain the shipping costs early and make them easy to discover. Allow users to see 
+the types of shipping options (UPS, FedEx, USPS, and so on) and their typical costs 
+before they check out. Include a dedicated tab so users can see how long shipping takes 
+and the available choices.
+2. Update the prices in a Save for Later area dynamically and provide a note to users.  
+A change in price (either up or down) can remind users to act. Updates keep users engaged, 
+reminds them they have merchandise saved in a cart, and spurs them to action.
+3. Allow customers to remove items from their shopping cart or bag and to easily change 
+the quantities of items in the cart. Several small buttons or drop-down lists can facilitate 
+these actions. The addition of a button that says Edit allows ecommerce customers to change
+
+
+===== BOOK PAGE 444 =====
+
+444    PART IV  •  THE EssEnTIALs  oF DEsIgn
+their order (choosing a different size or color, for example), a button that says Remove 
+allows them to take it out of their shopping cart, and a miniature drop-down list next to the 
+item in the cart labeled Quantity can let them change the quantity ordered incrementally to 
+add or subtract items without going back into the original page that displayed the item.
+4. Clearly indicate credit card fees and transaction fees. It should be clear to the customer 
+how much the transaction would cost (certain credit cards or payment options may be more 
+expensive than others). Also, if there are handling fees for any services, such as holding 
+concert tickets at the box office, that should be noted as well.
+5. Allow customers to continue shopping or proceed to checkout after an item has been 
+placed in the shopping cart or bag. Once customers have added an item to their cart or  
+bag, two options should be offered using two separate buttons: one that says Continue 
+Shopping, another that says Proceed to Checkout. If these two choices are too stark, the 
+developer can add buttons for Save for Later or Add to Wish List.
+6. As customers move to the next page during Checkout, and before they enter payment infor-
+mation, remind them of the transaction details. For example, for an online purchase of live 
+event tickets, this reminder can include date and time of the concert, the artist performing, 
+the quantity of tickets, their location, and cost. For purchase of clothing or other items, this 
+screen should provide a summary of a shopping bag or cart (a list of items and total costs). 
+Some shopping carts show a thumbnail of the item being ordered as well. Consider adding 
+a 24/7 chat option to answer any questions prior to checkout so that the purchase will be 
+completed. If a human is unavailable around the clock, you can develop a chatbot using 
+one of several toolkits available, or even scale up to a hybrid that combines people and a 
+bot, combining a high level of artificial intelligence (Heckstall, 2017).
+Benefits of UX Design
+If you base your design of ecommerce transactions on UX design practices, there are many 
+benefits to gain:
+1. Tasks can be completed more quickly by the customer. The organization of the 
+ecommerce site will appear logical to the user, it will flow well, and the customer will 
+be able to follow the flow of the process from browsing items, to selecting them, placing 
+items in a cart or bag, returning to the website to make additional selections, exploring 
+shipping and payment costs, to checking out with printable receipts, clearly posted return 
+policies, and notifications of expected delivery dates.
+2. More tasks can be completed in a given amount of customer time. At a website 
+designed from a UX design perspective, the tasks to be accomplished online can be 
+arranged efficiently, so customers needing an expedited checkout are supported (suppose a 
+sale ends at midnight and they are still shopping at 11:55 p.m.) as well as those who want 
+to take a more leisurely approach by comparing items and prices they have added to their 
+shopping bag or cart over the course of a few days.
+3. Task results can be more accurate. Customers will be prompted for information in the 
+expected order, with some nonsensitive account information capable of automatically 
+repopulating during checkout, so there is little room for transcription errors to creep into 
+the transaction.
+4. Less support is needed to address user complaints arising out of a poor user 
+experience. Using UX design principles for ecommerce transactions means that the user 
+is at the center of the online shopping experience. UX designers develop many different 
+scenarios and paths through the website, all of which can end in a successful purchase. 
+Having examined what can go wrong with the user experience and having sought remedies 
+beforehand, poor user experiences become rare. The organization is free to devote more 
+time to maintaining customer relationships and less time unraveling problems arising out  
+of dissatisfaction with the user experience.
+5. Users will complete the transaction rather than abandoning their cart and leaving 
+the site. Designers have an opportunity to develop experiences that support the completion 
+of the transaction in a satisfactory way, supporting numerous paths through the website 
+and making checkout an option on every page. One encouragement to purchase added
+
+
+===== BOOK PAGE 445 =====
+
+CHAPTER 14  •  HUmAn–ComPUTER  InTERACTIon AnD  UX DEsIgn     445
+to a shopping bag can express a reminder similar in tone to the Nordstrom shopping bag 
+message that states: Popular items sell out fast. Adding an item here doesn’t hold it, so get 
+what you love before it’s gone.
+6. Customers will remain loyal and not seek other websites or software. If customers have 
+a good user experience, they are likely to return for multiple visits. The interface is familiar 
+and logical, checking out is efficient and pleasant, the customer is recognized, and the cus-
+tomer has an account that can auto-fill many pieces of information to speed up checkout on 
+the personalized pages. Many customers avoid setting up accounts on new sites and would 
+far prefer to return to known sites that offer great user experiences.
+7. The user will be more satisfied with the overall experience. UX design means that the 
+customer is at the center of the website or software development. Looking at the ecom-
+merce transaction through a customer’s eyes helps developers create an experience that is 
+satisfactory from the start of the sign-on all the way to purchase and even through to mer-
+chandise arrival and possible return.
+DESIGNING INTERFACES FOR SMARTPHONES AND TABLETS
+Smartphones and tablets open a new creative approach for designers. Touch-sensitive screens 
+allow a user to use a finger to activate the display. The operating systems for these small devices 
+use multitouch gestures (capacitive sensing featuring screens controlled with a human finger 
+or a conductive stylus) for moving from one screen to another or from one state to another on 
+the same screen. An example of the latter is enlarging a photo by flicking your fingers outward.
+Gestures
+Some gestures are basic. All humans start poking at objects before they know what a computer is; 
+nudging and poking are inherent. It is also intuitive to swipe your finger from right to left when 
+you need to turn a page when reading English, for example.
+Using a pinching gesture to zoom in and out to shrink or enlarge a photo or to zoom in and 
+out on a map is not intuitive. Once people learn it, however, they remember it. Somehow it makes 
+sense to people.
+Designers can take advantage of the fact that people easily adapt to new interfaces if they 
+make sense. When you choose existing gestures or design new gestures for an app you are devel-
+oping, make sure it is based on how most people prefer to use the gesture. Chances are that they 
+won’t think exactly like you. You have thought about the gesture; they have not. They may not 
+discover a designed gesture on their own.
+On a desktop, arrow keys are used to go from one screen to the next and using a scroll bar is 
+the common way to get to the bottom of a news story on the web. On smartphones and tablets, a 
+swipe may be more logical when going from left to right and a tug may be the preferred way to 
+look down further at an article or a list.
+When a designer creates new nonstandard gestures, problems can occur. Suppose that a user 
+has other apps that use a swipe from left to right as a copy command, and you develop a calcula-
+tor app where a swipe from left to right clears the display. A user who owns an app that regularly 
+requires the copy gesture will likely be upset by your adoption of the gesture for something dif-
+ferent (and potentially destructive of data). You just lost a customer.
+Then there is the temptation to take advantage of the latest techniques without really think-
+ing through what the user would like to actually do. One example of this is the use of a motion 
+detector that detects motion in three dimensions, called an accelerometer, to change something 
+in the app by shaking the smartphone. Shaking is incorporated into apps for games, seismometers, 
+pedometers, and apps that give biofeedback. In those contexts, the designer has made a choice 
+that makes sense to the user.
+Remember, however, that shaking is not an obvious or innate gesture. Although many users 
+adapted to shaking their iPhone, fewer users wanted to shake their iPad. The size of the platform 
+and the context of the app mattered. Also, shaking the iPhone may look odd at the office or on 
+public transportation. If a designer still feels that shaking is highly useful for some apps, the 
+designer should add an option for users uncomfortable with it. Pressing part of a screen or a button 
+is subtle. Shaking is not.
+
+
+===== BOOK PAGE 446 =====
+
+446    PART IV  •  THE EssEnTIALs  oF DEsIgn
+Designers need to think about the metaphor before programming a gesture simply because 
+it exists. Urbanspoon (an app that located and recommended restaurants) introduced an app that 
+allowed the user to randomly select a restaurant, using the metaphor of spinning a slot machine; 
+however, some users might not think the gambling metaphor adequately reflects their quest for 
+fine dining.
+Remember, too, that every gesture needs to provide the user with feedback. If the user tugs 
+and nothing more is in the list, it needs to appear obvious to the user that they have reached the end 
+of the list. If the user turns a page, the designer should show motion so that the user understands 
+that the page is turning. Feedback is discussed in the section “Feedback for Users.”
+In Chapter 11, we discussed designing for both portrait and landscape modes. Make sure that 
+the gestures are the same for both orientations.
+Alerts, Notices, and Queries
+Alerts, notices, and queries are forms of output on smartphones and tablets. An alert is useful if 
+a severe thunderstorm is approaching, but if the user’s phone is on during a theater performance, 
+the user may be asked to leave. Alerts can include a sound but remember that they do not need to 
+do so to still be helpful.
+Alerts are for critical information that the user needs to know in a timely manner. It is not a 
+good idea to use an alert to tell the user that signal strength is low, for instance. That’s what the 
+signal bars are for.
+Notices convey information to a user. Some of that information, such as the notification that 
+an update to the app is ready, may not be urgently important. In this context it breaks the user’s 
+concentration, so a notification such as an update might be best kept as part of the app launch 
+process but not used as an alert.
+Some developers like to include queries  such as “Would you like to rate this app today?” 
+This makes the designer seem less professional and, by including it, you could annoy the very 
+people you are trying to please.
+Always give the user a chance to opt out. Many users just do not want to be notified with 
+information or alerts. Users can change their notification settings in the “Settings” area at any 
+time, but it’s nice if they have a chance to opt out during the first launch of the app.
+Badges
+Another feature of smartphones and tablets is the ability to put “badges” on home screen icons. 
+On the iPhone and iPad, these are little red circles that appear to be affixed to the icon for the app. 
+A badge for the App Store signifies how many updates are waiting for the user to download and 
+install. Some weather apps use a badge to display the current temperature.
+Badges are good because they are an unobtrusive way to send a message to the user. They are quiet 
+and passive, not loud and active like alerts and notifications. One problem is that they are ignored; 
+another is that they may be outdated. (For example, the temperature displayed as a badge on your 
+weather app may indicate the last time you opened the app sometime last week, not the temperature 
+for today.) So unless you have something meaningful to convey, try to avoid using a badge.
+DESIGN FOR INTELLIGENT PERSONAL ASSISTANTS
+Intelligent personal assistants, also known as virtual assistants, are software agents that can 
+accept commands written or spoken from users and perform tasks based on that input. They are 
+not to be confused with personal digital assistants, which are hardware devices that were popular 
+before introduction of the more capable smartphones.
+Familiar intelligent personal assistants are Siri (from Apple), Google Assistant, Amazon 
+Alexa, and Microsoft Cortana. In 2012 Apple introduced Siri, billed as your personal assistant 
+that “helps you get things done, just by asking.” Users can speak to Siri in natural language, just 
+as they would talk to a friend. Unlike older voice recognition systems, Siri does not need to be 
+taught to respond to your voice commands.
+Intelligent personal assistants have been available on smartphones for some time, but usage 
+increased with the introduction of smart speakers that are connected to smartphones or computers 
+via Bluetooth or Wi-Fi. Intelligent personal assistants can be found on desktops, smartwatches,
+
+
+===== BOOK PAGE 447 =====
+
+CHAPTER 14  •  HUmAn–ComPUTER  InTERACTIon AnD  UX DEsIgn     447
+Facebook messenger, in cars and appliances, and even in apps (such as “Dom,” the personal assis-
+tant within the Domino’s Pizza app). Intelligent personal assistants can recognize natural-language 
+voice commands and answer questions. Some of the tasks they can perform are listed in Figure 14.6.
+Developers can design for intelligent personal assistants using platforms such as Apple’s 
+SiriKit, Actions on Google, or Amazon Lex. It is expected that intelligent personal assistants will 
+continue to learn by using machine learning and other AI techniques.
+Developing simple actions using application program interfaces is not that difficult. Complex 
+actions will take some time to develop and must be continually maintained. It is therefore a 
+strategic decision whether a company should design for use by intelligent personal assistants. 
+Questions that need to be asked are:
+1. Will the adoption of an intelligent personal assistant be consistent with our strategic 
+objectives?
+2. Will use of an intelligent personal assistant give our customers a better experience?
+3. Will use of an intelligent personal assistant expand our customer base?
+4. Which platform is most appropriate for our users?
+5. Which voice should speak for our brand?
+6. Can we develop our voice interface in-house or do we need to outsource it to those more 
+skilled in designing voice interfaces?
+Before the development team jumps in and starts developing an interface with an intelligent 
+personal assistant, these questions need to be addressed. The six questions posed in the list above 
+are all business-oriented questions. “Which platform is most appropriate for our users?” will have 
+technical considerations, but a company first has to decide whether company values are consistent 
+with hosting the intelligent personal assistant. For example, one intelligent personal assistant was 
+recently scrutinized for privacy concerns. If customers do not trust the intelligent personal assis-
+tant, would they trust your company and its use of that intelligent personal assistant?
+The question “Which voice speaks for your brand?” can be rephrased “What should your 
+company representative sound like?” Which gender should the voice have? Should its voice be 
+recognized as originating from a certain country or region? Should it use youthful pronunciation 
+and slang terminology? Should it explain everything or assume the user is knowledgeable and 
+experienced? Much needs to be decided, and this requires input from executives, technical staff, 
+customers, and potential customers before proceeding with a company relationship with an intel-
+ligent personal assistant.
+DESIGNING FOR VIRTUAL REALITY AND  
+AUGMENTED REALITY
+Virtual reality (VR) is an artificial, totally computer-generated world. The user interacts with 
+this artificial world and in doing so is completely immersed in the experience through vision 
+and hearing.
+Augmented reality (AR) combines artificial elements with the real world. A developer 
+creates images that appear to be realistic 3-D objects that can blend into the real world. The 
+images exist in layers and allow the user to interact with the artificial objects.
+FIGURE 14.6
+Developers need to be aware of the 
+many different tasks an intelligent 
+personal assistant can do.
+Some tasks an intelligent personal assistant can perform
+Make phone calls
+Change the room temperature
+Stream podcasts
+Change device settings
+Get information about movies
+that are playing
+Search the internet
+Set reminders and alarms
+Order food deliveries
+Take a picture
+Interact with home automation
+systems
+Provide driving instructions
+Music playback
+Manage email
+Lock/unlock doors
+Provide trafﬁc, weather, and
+news reports
+
+
+===== BOOK PAGE 448 =====
+
+448    PART IV  •  THE EssEnTIALs  oF DEsIgn
+The uses of VR and AR are numerous. With VR, a developer may design a simulation that 
+can be used for what-if analysis. In the event of a large forest fire, for example, during the 
+VR simulation decisions can be changed to reveal different strategies and their results. With AR, 
+apps can be designed to help the user decorate an office, locate a place to eat with coworkers, or 
+practice navigating to a new client’s office in an unfamiliar city. Figure 14.7 shows how a user 
+can use the camera of a smartphone to get a view of the neighborhood and then request a list of 
+nearby restaurants. These restaurants pop up on the smartphone screen, indicating their location, 
+their distance from the user, and even a food rating from 1 to 5 stars.
+In designing for VR, the developer needs to realize that hardware advances will place a 
+burden on the development team trying to maintain and update the app. VR hardware is currently 
+relatively expensive. The application design must be of very high quality but, even then, the 
+number of potential adoptions needs to be considered before launching into a project. AR hardware 
+tends to be less expensive, and it can be successfully used on mobile devices such as smartphones 
+and tablets.
+Metaverse
+Many systems analysts will eventually work in or for the Metaverse, but according to experts that 
+realization is anywhere from five years to a couple of decades away. One useful definition of the 
+Metaverse is from Ball (2021):
+The Metaverse is a massively scaled and interoperable network of real-time rendered 3D 
+virtual worlds which can be experienced synchronously and persistently by an effectively 
+unlimited number of users with an individual sense of presence, and with continuity of 
+data, such as identity, history, entitlements, objects, communications, and payments.
+The vocabulary for the Metaverse is just like the Metaverse itself: gleaned from numerous 
+virtual instances of work, experimentation, and games. Many of the words to describe interactions 
+and technology in the Metaverse are already recognizable. These are some essential words with 
+specific meanings that can help us discuss the Metaverse and its components (Combs, 2021):
+Assisted reality. Any technology that allows a user to view a screen and use hands-free 
+controls to interact with it.
+Augmented reality (AR). The real world is the setting for AR, then computer-generated 
+images are added.
+FIGURE 14.7
+A designer may add information 
+to the image from a smartphone 
+camera in real time, making this 
+augmented reality experience 
+more valuable to the user.
+(Screenshot from ©FormEntry. 
+© Copyright © 2012 by Widget 
+Press, Inc. Reprinted by 
+permission).
+
+
+===== BOOK PAGE 449 =====
+
+CHAPTER 14  •  HUmAn–ComPUTER  InTERACTIon AnD  UX DEsIgn     449
+Meatspace. An attempt at a humorous characterization of the actual physical world where 
+humans spend the majority of their time. Human flesh and blood. The opposite of the 
+internet. The antonym for cyberspace.
+Mixed reality. This has the real world as its setting, and then adds virtual objects that can 
+appear and interact with users as if they are real.
+Multiverse. Refers to many distinct spaces operating as separate entities in the context 
+of technology, the internet, and social media platforms. Users can congregate to mingle, 
+play games, and take advantage of ecommerce shopping. Familiar examples are Facebook, 
+Minecraft, and Instagram. One theory asserts that the Metaverse could bring all multiverses 
+into one space.
+Virtual reality (VR). Provides users an immersive experience with the use of headsets. 
+Games set in VR can feature completely different worlds and performing a training or 
+examining an art gallery can use VR to interact with the actual world.
+Notice that even though familiar terms like virtual reality and assisted reality come into play 
+in the Metaverse, they are not its entirety. In brief, the word Metaverse is being used to represent 
+a highly interconnected virtual world and the services it offers to users.
+For the present time, learning of any type is the most applicable use case for VR. Examples 
+include learning how to perform maintenance on a car or computer or learning how to repair a 
+product. The Metaverse has also been imagined for use in hospital situations where knowledge-
+able physicians are physically removed from their patient in another country but through VR can 
+successfully treat them, and in surgeries where VR and reality combine to identify parts of an 
+organ that need repair.
+For systems analysts and software engineers the Metaverse holds challenging yet abundant 
+employment opportunities. Indeed, so much so that when it is in the building phase, the Metaverse 
+will face worker shortages. People are needed to standardize, engineer, deploy, and maintain it. 
+This is where systems analysts and those with other technical specialties, such as cloud engineers, 
+come in. Lack of skilled workers coupled with the immense computer power required to develop 
+the Metaverse are both powerful barriers to the full flourishing of the Metaverse.
+GUIDELINES FOR DIALOG DESIGN
+A dialog is the communication between a computer and a person. Well-designed dialog makes it 
+easier for people to use a computer and lessens their frustration with a computer system. There 
+are several key points for designing good dialog. They include the following:
+1. Meaningful communication, so that the computer understands what people are entering and 
+people understand what the computer is presenting or requesting
+2. Minimal user action
+3. Standard operation and consistency
+Meaningful Communication
+A system should clearly present information to the user. This means having an appropriate title 
+for each display, minimizing the use of abbreviations, and providing clear user feedback. Inquiry 
+programs should display code meanings as well as data in an edited format, such as displaying 
+slashes between the month, day, and year in a date field or commas and decimal points in an 
+amount field. User instructions should be supplied regarding details, such as available function 
+key assignments. In a GUI the cursor may change shape, depending on the work being performed.
+Users with less skill in using a computer or doing their tasks with a computer require more 
+communication. Websites must display more text and instructions to guide the user through the 
+site. Intranet sites may have less dialog because there is a measure of control over how well trained 
+users are. Graphics used on externally facing websites should have pop-up text or rollover descrip-
+tions when images are used as hyperlinks because there may be uncertainty in interpreting their 
+meaning, especially if the site is used internationally. Notice that European Union (EU) guidelines 
+for the display of webgraphics requires that all images be labeled so visually impaired users will 
+be able to hear written descriptions announced through special software. Status line information 
+for GUI screens is another way of providing instructions for users.
+
+
+===== BOOK PAGE 450 =====
+
+450    PART IV  •  THE EssEnTIALs  oF DEsIgn
+Easy-to-use help screens should be provided. Many PC help screens have additional topics that 
+may be directly selected using highlighted text displayed on the first help screen. These hyperlinks 
+are usually in a different color, which makes them stand out in contrast to the rest of the help text. 
+Remember to use icons or text in addition to color coding to reach the largest number of users. 
+Many GUIs incorporate tooltip help, displaying a small help message identifying the function of 
+a command button when the cursor is placed over it. The machine side of communication is that 
+the computer should understand what the user has entered. Hence, all data entered on the screen 
+should be checked for validity.
+Minimal User Action
+Keying is often the slowest part of a computer system, and good dialog will minimize the number 
+of keystrokes required. You can accomplish this goal in a number of ways:
+1. Keying codes, such as airport codes when making a flight reservation, instead of 
+whole words on entry screens. Codes are also keyed when using a command-language 
+interface, such as a two-letter state postal abbreviation. On a GUI screen, the codes may be 
+entered by selecting descriptions of the codes from a pull-down list of available options. 
+This helps to ensure accuracy because the code is stored as a value of the drop-down list; 
+it also provides meaningful communication because descriptions familiar to the user are 
+selected. An example would be selecting a Canadian province and having the two-character 
+postal code stored.
+2. Entering only data not already stored on files. For example, when changing or deleting 
+item records, only the item number should be entered. The computer responds by 
+displaying descriptive information that is currently stored on the item file. Another example 
+is when a user logs on to a website; the user ID is used to find related records, such as a 
+customer record, outstanding bills, orders, and so on.
+3. Supplying the editing characters (for example, slashes as date field separators). 
+Users should not have to enter formatting characters such as leading zeros, commas, or 
+a decimal point when entering a dollar amount; nor should they have to enter slashes or 
+hyphens when entering a date. In general, websites are an exception to this rule because 
+web forms do not include slashes or decimal points. Some web forms use a series of entry 
+fields with editing characters between them, such as parentheses around an area code for a 
+telephone number.
+4. Using default values for fields on entry screens. Defaults are used when a user enters 
+the same value in a screen field for the majority of the records being processed. The value 
+is displayed, and the user may press the Enter key to accept the default or overtype the 
+default value with a new one. GUIs may contain check boxes and radio buttons that are 
+selected when a web form or a dialog box opens. Context-sensitive menus appear when 
+an object is clicked with the right mouse button. These menus contain options specific to 
+the object under the mouse.
+5. Designing an inquiry (or change or delete) program so that the user needs to enter 
+only the first few characters of a name or item description. The program displays a list 
+of all matching names and, when the user chooses one, the matching record is displayed.
+6. Providing keystrokes for selecting pull-down menu options. Often, these options 
+are selected using a mouse, followed by keying. Users must move their hands from the 
+keyboard to the mouse and back. As users become familiar with the system, shortcut 
+keystrokes provide a faster method for manipulating the pull-down menus because both 
+hands remain on the keyboard. This helps users become efficient at their tasks. On a PC or 
+Mac, keystrokes usually involve pressing a function key or the Alt key followed by a letter 
+or another key. Figure 14.8 shows an example of nested pull-down menus.
+7. Using radio buttons and drop-down lists to control displays of new web pages or to 
+change web forms. For example, when a radio button is clicked, a drop-down list may 
+change to reflect the radio button choice. A radio button may be clicked, and a form  
+may change according to the choice. A drop-down list may change or a radio button may 
+be clicked to move to a new web page. Drop-down lists are often provided on a web page 
+for quick navigation; selecting a new web page from the drop-down list takes the viewer 
+to that page.
+
+
+===== BOOK PAGE 451 =====
+
+CHAPTER 14  •  HUmAn–ComPUTER  InTERACTIon AnD  UX DEsIgn     451
+8. Providing cursor control for web forms and other displays so the cursor moves to the 
+next field when the right number of characters has been entered. An example would be 
+when a user enters an area code for a U.S. telephone number: the cursor moves to the local 
+phone number field following entry of the first three characters. Entering software registra-
+tion key codes is another example. The codes are often in groups of four or five letters, the 
+cursor moves to the next field when the first field is filled, and so on. The analyst should 
+examine every field to see whether automatic cursor control should occur.
+Any combination of these eight approaches can help the analyst decrease the number of 
+keystrokes required by the user, thereby speeding up data entry and minimizing errors.
+FIGURE 14.8
+Example of nested pull-down 
+menus with shortcut keys from 
+Microsoft Visio Professional. 
+(Used with permission from 
+Microsoft)
+I was before. If it doesn’t save data, I’m still returned to where I 
+was before. It’s confusing, and I never know what to do. There’s 
+nothing on the display screen that tells me what to do next. See the 
+little manual that came with it? It’s dog-eared because we have to 
+keep thumbing through it trying to figure out what to do next. Or 
+we go online to try to get some help, but their technical assistance 
+is just about nonexistent. They have a phone line, but it takes way 
+too much time too.”
+Based on what you’ve heard in the interview, take this opportu-
+nity to supplement the software by designing some onscreen feed-
+back for Owen and his sales team. The feedback should address all 
+of Owen’s concerns and follow the guidelines for giving feedback 
+to users and for designing good displays. Draw a prototype of the 
+displays you think are necessary to address the problems Owen lists.
+CONSULTING OPPORTUNITY 14.4 
+Waiting to Be Fed
+“Yeah, we were sold a package all right. This one right here. 
+Don’t get me wrong, it gets the work done. We just don’t know 
+when.”
+You are talking with Owen Itt, who is telling you about the sales 
+unit’s recent purchase of new software for its networked PCs that 
+allows the input of sales data for each of its 16 salespeople, provides 
+output showing comparison data for them, and projects future sales 
+based on past sales records.
+“We’ve had some odd experiences with this program, though,” 
+Owen continues. “It seems slow or something. For instance, we’re 
+never sure when it’s done. I type in a command to open a file and 
+nothing happens. About half a minute later, if I’m lucky, the display 
+I want might come up, but I’m never sure. If I ask it to save sales 
+data, I just get a whirring sound. If it works, I’m returned to where
+
+
+===== BOOK PAGE 452 =====
+
+452    PART IV  •  THE EssEnTIALs  oF DEsIgn
+Standard Operation and Consistency
+A system should be consistent throughout its different displays and in the mechanisms for control-
+ling the operation of the displays throughout different applications. Consistency makes it easier for 
+users to learn how to use new portions of the system once they are familiar with one component. 
+You can achieve consistency by:
+1. Locating titles, date, time, and operator and feedback messages in the same places on all 
+displays.
+2. Exiting each program by using the same key or menu option.
+3. Canceling a transaction in a consistent way, such as using the Esc key.
+4. Obtaining help in a standardized way, such as using a function key.
+5. Standardizing the colors used for all displays or web pages.
+6. Standardizing the use of icons for similar operations when using a GUI.
+7. Using consistent terminology in a display screen or website.
+8. Providing a consistent way to navigate through the dialog.
+9. Using consistent font alignment, size, and color on web pages.
+FEEDBACK FOR USERS
+All systems require feedback to monitor and change behavior. Feedback usually compares current 
+behavior with predetermined goals and gives back information describing the gap between actual 
+and intended performance.
+Because humans themselves are complex systems, they require feedback from others to meet 
+the psychological and cognitive processing needs discussed earlier in this chapter. Feedback also 
+increases human confidence. How much feedback is required is an individual characteristic.
+When users interface with machines, they still need feedback about how their work is pro-
+gressing. As designers of user interfaces, systems analysts need to be aware of the human need 
+for feedback and build it into the system. In addition to text messages, icons can often be used. 
+For example, displaying an hourglass while the system is processing encourages the user to wait 
+a while rather than repeatedly pressing keys to get a response.
+Types of Feedback
+Feedback to a user from a system is necessary in seven distinct situations. Feedback that is ill 
+timed or too plentiful is not helpful because humans possess a limited capacity to process infor -
+mation. Websites should display a status message or some other way of notifying the user that the 
+site is responding and that input is either correct or in need of further information. Figure 14.9 
+provides some examples for each type of feedback.
+FIGURE 14.9
+Feedback can take many forms.
+Acknowledging acceptance of input “Your payment has been processed.”
+Recognizing that input is in the correct form An LED-like display turns from red to green.
+Explaining a delay in processing An hourglass or a rotating circle.
+Notifying that input is not in the correct form “The telephone number should be separated
+by dashes (-).”
+Acknowledging that a request is completed “You successfully renewed your membership.
+Thank you.”
+Offering the user more detailed feedback
+“Your credit card was not charged. You must
+enter a valid expiry date. Press help if you need
+more information.”
+Notifying that a request was not completed “Your attempt was not successful. Please try
+at a later time.”
+Sample Feedback ResponseType of Feedback
+
+
+===== BOOK PAGE 453 =====
+
+CHAPTER 14  •  HUmAn–ComPUTER  InTERACTIon AnD  UX DEsIgn     453
+Acknowledging Acceptance of Input. The first situation in which users need feedback is to learn 
+that the computer has accepted the input. For example, when a user enters a name on a line, the 
+computer provides feedback to the user by advancing the cursor one character at a time when 
+the letters are entered correctly. A web example would be a web page displaying this message: 
+“Your payment has been processed. Your confirmation number is 1234567. Thank you for  
+your payment.”
+Recognizing that Input Is in the Correct Form. Users need feedback to tell them that the input is 
+in the correct form. For example, a user inputs a command, and the feedback states “READY” 
+as the program progresses to a new point. A poor example of feedback that tells the user that input 
+is in the correct form is the message “INPUT OK.” That message takes extra space, is cryptic, and 
+does nothing to encourage the input of more data. When placing an order on the web or making an 
+online payment, a confirmation page often displays, requesting that the user review the informa-
+tion and click a button or image to confirm the order or payment.
+Notifying that Input Is Not in the Correct Form. Feedback is necessary to warn users that input is 
+not in the correct form. If a user enters a phone number incorrectly, the software or website needs 
+to let the user know that. Caution must be used so that the error messages are bold enough for 
+the user to notice. A small red line of text may go unnoticed. An analyst must decide whether to 
+detect and report errors when a Submit button or link is clicked, called batch validation, or detect 
+errors one at a time, such as when a user enters a month of 14 and leaves the field. The second 
+method is a riskier approach because poor coding may put the browser into a loop, and the user 
+will have to shut down the browser.
+Additional feedback that tells the user that the input is not in the correct form might be to not 
+permit the user to advance to the next field or screen, along with an appropriate pop-up message 
+explaining what is wrong and supplying instructions on how to correct it.
+Audio also has been used to inform a user that something was entered incorrectly, but audio 
+feedback alone is not very descriptive, so it is not as helpful to users as onscreen instructions. 
+Use audio feedback sparingly, perhaps to denote urgent situations. The same advice applies to the 
+design of websites, which may be viewed in an open office where sounds carry and a coworker’s 
+desktop speakers are within earshot of several other people.
+Explaining a Delay in Processing. One of the most important kinds of feedback informs the user 
+that there will be a delay in processing the request. Delays longer than 10 seconds or so require 
+feedback so that the user knows the system is still working.
+When new software is being installed, a short tutorial on the new application may be run 
+during delays, which is meant to serve as a distraction rather than feedback about the installation. 
+A list of files that are being copied and a status bar often are used to reassure the user that the 
+system is functioning properly. Web browsers usually display the web pages that are being loaded 
+and the time remaining.
+Acknowledging that a Request Is Completed. Users need to know when their request has been 
+completed and new requests may be input. A specific feedback message may be displayed when 
+an action has been completed by a user, such as “Employee record has been added,” “Customer 
+record has been changed,” or “Item number 12345 has been deleted.”
+Notifying that a Request Was not Completed. Feedback is needed to let the user know that the 
+computer is unable to complete a request. If the display reads “Unable to process request. Check 
+request again,” the user can go back and check to see whether the request has been input correctly 
+rather than continue to enter commands that cannot be executed.
+Offering the User More Detailed Feedback. Users need to be reassured that more detailed feed-
+back is available, and they should be shown how they can get it. Commands such as Assist, 
+Instruct, Explain, and More may be employed. Or the user may type a question mark or click on 
+an appropriate icon to get more feedback. Using the command Help as a way to obtain further 
+information has been questioned because users may feel helpless or caught in a trap from which 
+they must escape. However, this convention is in widespread use, and its familiarity to users may 
+overcome this concern.
+
+
+===== BOOK PAGE 454 =====
+
+454    PART IV  •  THE EssEnTIALs  oF DEsIgn
+When designing web interfaces, hyperlinks can be embedded to allow the user to jump to 
+the relevant help screens or to view more information. Hyperlinks are typically highlighted with 
+underlining, italics, or a different color. Hyperlinks can be graphics, text, or icons.
+Including Feedback in Design
+If used correctly, feedback can be a powerful reinforcer of user learning processes, serve to 
+improve user performance with the system, increase motivation to produce, and improve the fit 
+among the user, the task, and the technology.
+A Variety of Help Options. Feedback on personal computers has developed over the years. “Help” 
+originally started as a response to the user who pressed a function key, such as F1; the GUI alterna-
+tive is the pull-down Help menu. This approach was cumbersome because end users had to navi-
+gate through a table of contents or search via an index. Next came context-sensitive help. Users 
+could simply click on the right mouse button, and topics or explanations about the current screen 
+or area of the screen would be revealed. A third type of help on personal computers occurs when 
+the user places the arrow over an icon and leaves it there for a couple of seconds. At this point, 
+some programs pop up a balloon similar to those found in comic strips. This balloon explains a 
+little bit about the icon function.
+The fourth type of help is a wizard, which asks the user a series of questions and then takes 
+action accordingly. Wizards help users through complicated or unfamiliar processes such as setting 
+up network connections or booking an airline seat online. Most users are familiar with wizards 
+through creating a PowerPoint presentation or choosing a style for a memo they are writing in 
+Microsoft Word.
+Besides building help into an application, software manufacturers offer online help (either 
+automated or personalized with live chat or chatbots) or help lines (most customer service 
+telephone lines are not toll free, however). Some commercial off-the-shelf (COTS) software 
+manufacturers offer an email contact page where users can fill out a form stating the problem 
+they are experiencing, and they will be emailed or phoned back, or a live chat will be opened to 
+address the technical problem.
+Finally, users can seek and find support from other users through software forums. This type 
+of support is, of course, unofficial, and the information obtained may be true, partially true, or 
+misleading. Approach any software fixes posted on bulletin boards, blogs, discussion groups, 
+or chat rooms with wariness and skepticism. The principles regarding the use of software forums 
+are the same as those for folklore and recommendation systems, discussed in Chapter 16.
+Besides informal help on software, vendor websites are extremely useful for updating drivers,  
+viewers, and the software itself. Most online computer publications have some sort of “driver watch” 
+or “bug report” that monitors support forums, blogs, and websites for useful programs that can 
+be downloaded. Programs will forage vendor websites for the latest updates, inform the user of 
+them, assist with downloads, and upgrade user applications.
+SPECIAL DESIGN CONSIDERATIONS FOR ECOMMERCE
+Many of the user interface design principles you have learned concerning feedback also extend 
+to designing ecommerce websites. A few extra considerations discussed in this section can give 
+your web interface designs improved functionality.
+Soliciting Feedback from Ecommerce Website Customers
+You need to give users feedback about what is happening with an order, but you need to elicit 
+feedback as well. Most ecommerce websites have a Feedback button. There are two standard 
+ways to design what users will experience when they click on the Feedback button.
+The first way is to launch the user’s email program with the email address of the company’s 
+contact automatically entered into the To: field. This method prevents typing errors and facilitates 
+ease in contacting the organization. The user does not need to leave the site to communicate with 
+the company.
+These messages, however, raise expectations that they will be answered just as regular mail 
+or phone calls are. Research indicates that 60 percent of organizations with this type of email
+
+
+===== BOOK PAGE 455 =====
+
+CHAPTER 14  •  HUmAn–ComPUTER  InTERACTIon AnD  UX DEsIgn     455
+contact feature on their sites do not have anyone assigned to reply to the email messages received. 
+These businesses lose valuable feedback, allow customers to harbor the impression that they are 
+communicating, and engender ill will when they provide no response. If you design this type of 
+feedback opportunity, you also need to design procedures for the organization to reply to email 
+from the website. Some designers handle this problem by creating systems to automatically return 
+an email reply, which generates a unique case or incident number, provides further instructions 
+on how to proceed (hyperlinks to FAQ pages perhaps), or offers phone numbers to help lines that 
+are unavailable to the general public.
+The second type of design for garnering feedback from customers using an ecommerce web-
+site is to take users to a blank message template when they click on Feedback. Some web creation 
+tools permit you to create and insert a feedback form into your site easily. This form might begin 
+with a header that states “Company X Feedback” and then “You can use the form below to send 
+suggestions, comments, and questions about the X site to our Customer Service team.”
+Vita continues by moving to the computer keyboard and saying, 
+“Let me show you some good sites.” As she types in the first URL, 
+the group sees the site projected. “They use chat systems from 
+LiveChat,” she continues.
+“Customers also need to search for more information about a 
+product or manufacturer,” Al adds. “Let’s make it easier for them. 
+Let’s look at a different city for an example. Some of those city 
+websites use Google to search for information.”
+After listening intently, Bill speaks up. “Medical information 
+could also be useful,” he says. “I’ve noticed that some websites 
+show medical news from Acquire Media. I’ve seen people on the 
+treadmills at my health and fitness center watching the financial 
+channels while they exercise.”
+“While we’re at it, why don’t we add news and financial infor-
+mation to the website?” Ginger asks. “I notice that a company called 
+Thomson Reuters appears often as a provider.”
+Think about the conversation between the systems develop-
+ment team and the people from Marathon Vitamin Shops. Some 
+of the enhancement suggestions involved taking advantage of free 
+services; others required payments ranging from $1,000 to $5,000 
+annually. Although some were good ideas, others may not have been 
+practical or feasible. Perhaps some of the ideas just do not make 
+sense for the company.
+For each of the following, review what you know about the 
+mission and business activities of Marathon Vitamin Shops. Then 
+make a recommendation regarding each option the analysts and 
+clients have made and defend it:
+• Mashups using Google Maps
+• Chat rooms and social media links
+• Blogs by users and also those written by Marathon Vitamin 
+employees
+• Search engines
+• Medical information (preventive medicine and medical 
+breakthroughs)
+• Newsfeeds and financial markets information
+CONSULTING OPPORTUNITY 14.5 
+When You Run a Marathon, It Helps to Know Where You’re Going
+M arathon Vitamin Shops was successful in getting its website 
+up and running. The web developers put the company’s entire 
+catalog online and included a choice of skins (or personas, as 
+they are called in the Firefox browser) so each type of customer 
+would enjoy using the website. (See Consulting Opportunity 1.1 
+for more details.)
+The analysts are meeting with owner Bill Berry and some 
+employees to evaluate customer feedback as well as give their own 
+reactions to the new website. They are meeting in a large conference 
+room where they have a computer with internet access and a projector. 
+As they sit down at the table, the entry screen for the website is 
+projected at the front of the room. “The website has attracted lots of 
+attention, but we want to give the customers even more so that they 
+keep coming back,” says Bill, gesturing to the screen.
+He continues, “It’s not like we’re closing our retail stores or 
+anything. In fact, it’s just the opposite. When customers notice we’re 
+on the web, they’re eager to locate the store in their community. 
+They want to be able to walk into a store and talk to a trained expert 
+rather than buying everything on the web. We need to tell people 
+how to get there.”
+“We think we can improve the site by adding special enhance-
+ments and features,” says Al Falfa, a member of the systems team 
+who originally developed and implemented the ecommerce website.
+“Yes,” says Ginger Rute, one of the other members of 
+the systems development team, as she nods in agreement. “The 
+university uses a mapping facility from MapQuest, and Home Depot 
+uses Bing Maps,”
+Vita Ming, another member of the original systems development 
+team, speaks up enthusiastically, saying, “We know of a couple good 
+social media sites we can link to and chat rooms we can add to our 
+website. We think they can improve the stickiness of the site, making 
+people stay on the site longer and also making them want to return.”
+“That’s a great idea,” says Jin Singh, one of the technologically 
+savvy Marathon employees. “We can let customers talk with one 
+another, tell each other about a product they liked, and so on. We 
+could even let them start their own blogs.”
+
+
+===== BOOK PAGE 456 =====
+
+456    PART IV  •  THE EssEnTIALs  oF DEsIgn
+Fields can include First Name, Last Name, Email Address, Regarding (a subject field that 
+supplies a drop-down menu of the company’s product or service selections, asking the user to 
+“Please make a selection”), an “Enter Your Message Here:” section (a free-form space where 
+users can type in their message), and the standard Submit and Clear buttons at the bottom of the 
+form. Using this type of form permits the analyst to have the user data already formatted correctly 
+for storage in a database. Consequently, it makes the data entered into a feedback form easier to 
+analyze in the aggregate.
+Thus, an analyst does more than just design a response to individual email. The analyst helps 
+the organization capture, store, process, and analyze valuable customer information in a manner 
+that makes it more likely that the company will be capable of spotting important trends (perhaps 
+using data analytics) in customer response rather than simply reacting to individual queries.
+Easy Navigation for Ecommerce Websites
+Ecommerce websites are commonly designed to have “intuitive navigation.” Users need to know 
+how to navigate a site without having to learn a new interface and without having to explore every 
+inch of the website before they can find what they want. The standard for this type of navigational 
+approach is called one-click navigation.
+Megasearch engines that obtain results from multiple search 
+engines, aggregate the results, and display them in a more useful 
+way than any single search engine can have been available for a 
+long time. There is a unique application on the Mac platform that 
+goes one step further.
+That application is DEVONagent Pro, software that searches, 
+then filters out broken links, outdated pages, and advertisements. 
+To accomplish this, it downloads search results and analyses 
+them before displaying them. Users have the option to view the 
+results in a relevance-ranked list or see the results in a graphical 
+topic map.
+Analysts will find DEVONagent Pro useful if complex searches 
+are required (that is, if standard searches do not dig deep enough 
+to find the exact information needed). It is also useful for searches 
+that need to be repeated often, and it can be automated to perform 
+searches regularly.
+MAC APPEAL
+FIGURE 14. MAC
+Powerful and complex searches are possible with DEVONagent Pro. (Screenshot from 
+DEVONagent Pro. Copyright © by DEVONtechnologies. Reprinted by permission.)
+
+
+===== BOOK PAGE 457 =====
+
+CHAPTER 14  •  HUmAn–ComPUTER  InTERACTIon AnD  UX DEsIgn     457
+You can add four enhancements to design easy, one-click navigation for an ecommerce site: 
+(1) create a roll-over menu, (2) build a collection of hierarchical links so the home page becomes 
+an outline of the key topic headings associated with the website, (3) place a site map on the home 
+page and emphasize the link to it (place this on every page on the site), and (4) place a naviga-
+tional bar on every inside page (usually at the top or on the left side of the page) that repeats the 
+categories used on the entry screen.
+Roll-Over Menus. A roll-over menu (or roll-over button) can be created with cascading style 
+sheets with JavaScript and HTML divisions. The rollover menu appears when the customer using 
+the website moves the cursor over a link.
+Hierarchical Links. Creating an outline of the content of the site through the presentation of a 
+table of contents on the home page is another way to speed navigation of the site. This design, 
+however, imposes severe constraints on the designer’s creativity, and sometimes simply pre-
+senting a list of topics does not adequately convey the strategic mission of the organization to 
+the user.
+Site Map. Designing and then prominently displaying the link to a site map is a third way to 
+improve navigational efficiency. Remember to include the link to the site map on the home page 
+and on every other page as well.
+Navigation Bar.  You can design navigation bars  that are consistently displayed on the home 
+page as well as at the top and on the left of all other pages that comprise the site. Once you have 
+established (during the information requirements phase) the most useful and most used categories 
+(usually categories such as “Our Company,” “Our Products,” “Buy Now,” “Contact Us,” “Site 
+Map,” and “Search”), remember to include them on all pages.
+Other Navigation Options. Including a search function is another option. Consider adding a search 
+engine such as Google to your site. Simple search functions work well for small, manageable 
+sites, but as a site grows large, advanced search functions that include Boolean logic (discussed 
+later in this chapter) are needed.
+Creating flexibility in the way users navigate the web is also important. An expert Web 
+designer would incorporate many ways to look up information on a particular subject. Figure 14.10 
+shows a web page from DinoTech. A user interested in an international IT career can find infor-
+mation from the DinoTech website in three different ways. If the user is interested in working in 
+Argentina, they can click on the Argentine flag, click on the name of the country, or click on the 
+map representing Argentina.
+FIGURE 14.10
+A web page that allows users 
+to navigate to the desired page 
+in different ways. (Used with 
+permission from Microsoft)
+
+
+===== BOOK PAGE 458 =====
+
+458    PART IV  •  THE EssEnTIALs  oF DEsIgn
+Designing a website with navigation for users with different cognitive processing or interests 
+is desirable. It is even possible that the same user may use all three of these methods at different 
+times. They all add to the usability of a website.
+The main priority in navigation, however, is to make it extremely easy for users to return 
+to a previous page and make it somewhat easy to return to the place where they entered the 
+site. The main concern is keeping customers on the website. The longer customers are on 
+the site, the greater the chance that they will purchase something. If users navigate to a link in 
+the website, make sure they can easily find their way back. Doing these things will ensure the  
+stickiness of the website. Do not create any barriers to the customer who wants to return to 
+the client’s website.
+As detailed in Chapter 12 on designing effective input, recall that analysts can use standard 
+navigational elements and icons such as a hamburger icon or menu, context-sensitive help, input 
+validation, a breadcrumb trail, and fat footers to give their web designs a professional look that 
+users can readily understand and navigate.
+Mashups
+An application programming interface (API) is a set of small programs and protocols used like 
+building blocks for building software applications. When two or more APIs are used together, 
+they form a mashup. Many mashups are open source, so developers can use an API from a site 
+like Google Maps and combine it with an API that contains other data, resulting in a new website 
+that creates an entirely new application.
+A large corporation that has many retail outlets in a region may want to make it easier for 
+customers to find their retail stores. They may want to hire a company like Blipstar, which provides 
+a service that allows companies to upload information about retail stores. Blipstar geocodes them 
+and places them on a Google map. The company then puts a link to this information on its own 
+website, so customers can simply enter their zip or postal code and let the mashup display the 
+location of the nearest retail store. Blipstar works on mobile devices.
+Mashups are becoming a popular way to present information. Expect to see many useful 
+mashup applications already in use. Look for them at www.programmableweb.com.
+Cookie Compliance
+Cookie compliance ensures that a website uses cookies only in ways permitted by law. Cookies, 
+as you may recall, are text files that are stored on a visitor’s browser in order to observe and track 
+the visitor. Basically, a developer needs to determine how the website uses cookies and then 
+inform visitors about the intended cookies. The website can be set up to ask visitors to choose the 
+types of cookies they want the website to track.
+When this book was written, there were three regulations that governed cookie permissions in 
+the United States, the United Kingdom, and Europe (other countries not represented in the three 
+mentioned also have major privacy laws that must be observed): the General Data Protection 
+Regulation (GPDR), the Privacy Directive (EU Cookie Law), and the California Consumer 
+Privacy Act (CCPA).
+In addition to informing visitors about the use of cookies and giving users a chance to opt out 
+of nonessential cookies, the CCPA lets visitors know whether the owners of the business behind 
+the website will share or sell information gathered through use of cookies with third parties.
+Cookies can be characterized in different ways and these compliance directives would like 
+the website to ask visitors to choose which cookies they accept. The categories are:
+1. Strictly necessary cookies, for example, those cookies that keep the user logged into the 
+site or remember the contents of the visitor’s shopping cart.
+2. Preference or functional cookies, for example, those that remember the visitor’s preferred 
+language for future browsing sessions.
+3. Analytics cookies, which compile statistics cookies that can track how visitors use a 
+website so that the owner can improve the website’s performance
+4. Marketing cookies that allow advertisers to display targeted ads. This may include giving 
+permission to supply information to third parties for advertising purposes.
+
+
+===== BOOK PAGE 459 =====
+
+CHAPTER 14  •  HUmAn–ComPUTER  InTERACTIon AnD  UX DEsIgn     459
+Arguments can be made that cookies can improve the performance for all visitors, make it 
+easier for a specific visitor to return to the website, and experience advertising that is relevant 
+to the visitor rather than aimed at a general audience. Privacy advocates argue that cookies are 
+intrusive, and visitors should have the right to accept or decline cookies. Figure 14.11 shows an 
+example of offering the visitor options regarding cookies.
+The following are general rules and practices that systems analysts should know that apply 
+to cookie permissions.
+1. Permission needs to be given before cookies are processed
+2. Consent definitions need to be intelligible using plain English
+3. Consent must be freely given
+4. A record of the consent must be kept
+5. A visitor has the right to reverse their consent decision
+6. Content permission should be renewed every year, although some guidelines suggest every 
+six months
+We can expext cookie compliance and privacy features to evolve over the years. It is prudent 
+to check on current regulations and standards.
+Chatbots, Ecommerce, and AI
+Pressure from users is pushing ecommerce developers to improve customer service on websites. 
+One way to do this is through an AI chatbot. A chatbot is software that responds to human 
+queries in conversational ways, answers questions posed, and also deals with specific requests for 
+information. Customers want instant feedback as well as easy shopping experiences. M-commerce, 
+FIGURE 14.11
+Compliance preference forms. 
+(Courtesy: Cookie though)
+
+
+===== BOOK PAGE 460 =====
+
+460    PART IV  •  THE EssEnTIALs  oF DEsIgn
+or mobile ecommerce, has meant that the pace of interactions is accelerating, which translates into 
+more pressure on ecommerce sites to handle many more customer queries on a myriad of devices 
+all interacting at an increasingly rapid rate.
+Chatbots are built on AI. Although they are relatively inexpensive to implement, the true 
+cost comes in developing a highly efficient bot that is flexible but can make use of innovative 
+technologies like voice recognition.
+Adding a chatbot that is not customized properly results in a degradation of customer service, 
+so it could create a boomerang effect, having the opposite effect of good customer service. So, the 
+analyst will want to make sure that the chatbot is integral and aligned with UX design. A chatbot 
+must be able to respond to queries correctly. Importantly, the chatbot should also be integrated 
+into any existing server-side data access layers that would include customer information, products, 
+orders, and other transient data for the back-end of the ecommerce site.
+The most well-designed ecommerce sites always retain the customer option of talking with 
+a human representative. The chatbot must be able to sense, either through customer word choice, 
+vocal inflection, or selection of an option button, that in order to continue addressing a problem, 
+a human is required. Chatbots will not replace humans for the foreseeable future.
+DESIGNING QUERIES
+When users ask questions of, or communicate with, a database, they are said to query it. Six dif-
+ferent types of queries are among the most common. Your careful attention to query design can 
+help reduce users’ time spent in querying the database, help them find the data they want, and 
+result in a smoother user experience overall.
+Query Types
+The questions we pose concerning data from our database are referred to as queries. There are six 
+basic query types. Each query involves three items: an entity, an attribute, and a value. In each 
+case, two of these are given, and the intent of the query is to find the remaining item.
+Figure 14.12 illustrates all six query types.
+Query Type 1. The entity and one of the entity’s attributes are given. The purpose of the query is 
+to find the value. The query can be expressed as follows:
+What is the value of a specified attribute for a particular entity?
+FIGURE 14.12
+It is possible to perform six  
+basic types of queries on a table 
+that contains entities, attributes, 
+and values.
+EMPLOYEE NAME DEPARTMENT S/H YEAR-2019 YEAR-2020 YEAR-2021 YEAR-2022EMPLOYEE
+NUMBER
+EARNINGS-HISTORY
+72845 Ruwa Outside Sales S 48,960 51,400 49,050 52,900
+72888 Dryne Outside Sales S 42,200 44,700 48,020 50,580
+73712 Fawcett Distribution H 43,500 45,500 46,780 47,100
+80345 Well, Jr. Marketing S 65,000 71,000 75,000 78,000
+84672 Piper Maintenance H 40,560 42,340 43,520 44,910
+89760 Acquia Accounting H 38,755 40,040 41,380 42,540
+The salaries
+are the values.
+The employee
+numbers are
+the entities.
+The years
+are the
+attributes.
+
+
+===== BOOK PAGE 461 =====
+
+CHAPTER 14  •  HUmAn–ComPUTER  InTERACTIon AnD  UX DEsIgn     461
+Sometimes it is more convenient to use notation to formulate the query. This query can be writ-
+ten as
+()←V EA,
+where V stands for the value, E for entity, and A for attribute, and the variables in parentheses 
+are given.
+The question
+What did employee number 73712 make in year 2022?
+can be stated more specifically as
+What is the value of the attribute YEAR-2022 for the entity EMPLOYEE NUMBER 
+73712?
+The record containing employee number 73712 will be found, and the answer to the query will 
+be $47,100.
+Query Type 2. The intent of the second query type is to find an entity or entities when an attribute 
+and value are given. Query type 2 can be stated as follows:
+What entity has a specified value for a particular attribute?
+Because values can also be numeric, it is possible to search for a value equal to, greater than, 
+less than, not equal to, greater than or equal to, and so on. An example of this type of query is as 
+follows:
+What employee(s) earned more than $50,000 in 2022?
+The notation for query type 2 is
+()←E VA,
+In this case, three employees made more than $50,000, so the response will be a list of the 
+employee numbers for the three employees: 72845, 72888, and 80345.
+Query Type 3. The purpose of this query type is to determine which attributes fit the description 
+provided when the entity and value are given. Query type 3 can be stated as follows:
+What attribute(s) has a specified value for a particular entity?
+This query is useful when many similar attributes have the same property. The following example 
+has similar attributes (specific years) that contain the annual salaries for the employees of the 
+company:
+What years did employee number 72845 make over $50,000?
+or, more precisely,
+What attributes {YEAR-2019, YEAR-2020, YEAR-2021, YEAR-2022} have a value > 
+50,000 for the entity EMPLOYEE-NUMBER 72845?
+where the optional list in braces ({ }) is the set of eligible attributes.
+The notation for query type 3 is
+()← VEA,
+In this example, Ruwa (employee number 72845) made over $50,000 for two years. Therefore, 
+the response will be year 2020 and year 2022. Query type 3 is rarer than the preceding two types 
+due to the requirement of having similar attributes exhibiting the same properties.
+Query Type 4. Query type 4 is similar to query type 1. The difference is that the values of all 
+attributes are desired. Query 4 can be expressed as follows:
+List all the values for all the attributes for a particular entity.
+
+
+===== BOOK PAGE 462 =====
+
+462    PART IV  •  THE EssEnTIALs  oF DEsIgn
+An example of query type 4 is:
+List all the details in the earnings history file for employee number 72888.
+The notation for query type 4 is
+()←VE Aall ,a ll
+The response for this query will be the entire record for the employee named Dryne (employee 
+number 72888).
+Query Type 5. The fifth type of query is another global query, but it is similar in form to query 
+type 2. Query type 5 can be stated as follows:
+List all entities that have a specified value for all attributes.
+An example of query type 5 is:
+List all the employees whose earnings exceeded $50,000 in any of the years available.
+The notation for query type 5 is
+()←EV Aall ,a ll
+The response to this query will be 72845, 72888, and 80345.
+Query Type 6. The sixth query type is similar to query type 3. The difference is that query type 6 
+requests a listing of the attributes for all entities rather than a particular entity. Query type 6 can 
+be stated as follows:
+List all the attributes that have a specified value for all entities.
+The following is an example of query type 6:
+List all the years for which earnings exceeded $40,000 for all employees in the company.
+The notation for query type 6 is
+()←AV Eall ,a ll
+The response will be YEAR-2020, YEAR-2021, and YEAR-2022. As with query type 3, query 
+type 6 is not used as much as other types.
+Building More Complex Queries. The preceding six query types are building blocks for more 
+complex queries. Expressions, referred to as Boolean operators, can be formed for queries. An 
+example of a Boolean operator is:
+List all the customers who have zip codes greater than or equal to 60001 and less than 
+70000, and who have ordered more than $500 from our catalogs or have ordered at least 
+five times in the past year.
+One difficulty with this statement is determining which operator (for example, AND) belongs 
+with which condition; it is also difficult to determine the sequence in which the parts of the expres-
+sion should be carried out. The following may help to clarify this problem:
+LIST ALL CUSTOMERS HA VING (ZIP-CODE GE 60001 AND ZIP-CODE LT 70000) 
+AND (AMOUNT-ORDERED GT 500 OR TIMES-ORDERED GE 5)
+Now some of the confusion is eliminated. The first improvement is that the operators 
+are expressed more clearly as GE, GT, and LT than as English phrases, such as “at least.” 
+Second, the attributes are given distinct names, such as AMOUNT-ORDERED and TIMES-
+ORDERED. In the earlier sentence, these attributes were both referred to as “have ordered.” 
+Finally, parentheses are used to indicate the order in which the logic is to be performed. Whatever 
+is in parentheses is done first.
+Operations are generally performed in a predetermined order of precedence. Arithmetic 
+operations are usually performed first (exponentiation, then either multiplication or division,
+
+
+===== BOOK PAGE 463 =====
+
+CHAPTER 14  •  HUmAn–ComPUTER  InTERACTIon AnD  UX DEsIgn     463
+and then addition or subtraction). Next, comparative operations are performed. These operations 
+are GT (greater than), LT (less than), and others. Finally, the Boolean operations are performed 
+(first AND and then OR). Within the same level, the order generally goes from left to right. The 
+precedence is summarized in Figure 14.13.
+Query Methods
+Two popular query languages are query by example and structured query language.
+Query by Example. Query by example (QBE) is a simple but powerful method for implementing 
+queries in database systems, such as Microsoft Access. The database fields are selected and 
+displayed in a grid, and the requested query values are entered either in the field area or below 
+the field. The query should be able to select both rows from the table that match conditions as well 
+as specific columns (fields). Complex conditions may be set to select records, and the user may 
+easily specify the columns to be sorted. Figure 14.14 is an example of a query using Microsoft 
+Access. The query design screen is divided into two portions. The top portion contains the tables 
+selected for the query and their relationships, and the bottom portion contains the query selection 
+grid. Fields from the database tables are dragged to the grid.
+The first two rows contain the field and the table in which the field is located. The next row 
+contains sorting information. In this example, the results will be sorted by CUSTOMER NAME. 
+A checkmark in the Show box (fourth row down) indicates that the field is to be displayed in 
+the results. Notice that the CUSTOMER NUMBER, CUSTOMER NAME, and STATUS CODE 
+MEANING are selected for the resulting display (other fields are displayed as well, but they do not 
+FIGURE 14.13
+Arithmetic, comparative, and 
+Boolean operators are processed in 
+a hierarchical order of precedence 
+unless parentheses are used.
+Type 
+Arithmetic Operators 1 * *
+ 2 *  /
+ 3 +  –
+Comparative Operators 4 GT  LT
+ EQ  NE
+  GE  LE
+Boolean Operators 5 AND
+ 6 OR
+Level                Symbol
+FIGURE 14.14
+Query by example using  
+Microsoft Access. (Used with 
+permission from Microsoft)
+
+
+===== BOOK PAGE 464 =====
+
+464    PART IV  •  THE EssEnTIALs  oF DEsIgn
+costumes or even when to buy more costumes of a particular type. 
+She also needs to remember to keep in the good graces of customers 
+she has previously turned down for a particular costume rental, to 
+know when to recall an overdue costume, and so on.
+Formulate several queries that will help her get the information 
+she needs from the database. (Hint: Make any assumptions neces-
+sary about the types of information she needs to make decisions and 
+use as many of the different query types discussed in this chapter as 
+you can.) In a paragraph, describe how Annie’s queries would be dif-
+ferent if she were working with a web-based or hyperlinked system.
+CONSULTING OPPORTUNITY 14.6 
+Hey, Look Me Over (Reprise)
+Y ou have been called back to take another look at Merman’s 
+Costume Rentals. Here is part of the database created for Annie 
+Oaklea of Merman’s (with whom you last worked in Consulting 
+Opportunities 7.1 and 8.1). The database contains information, 
+such as the cost of the rental; the date checked out, the date due 
+back, and the number of days the costume has been rented since 
+the beginning of the year (YTD DAYS OUT) (see Figure 14.C1).
+Analyzing Annie’s typical day in the costume rental business, 
+you realize there are several requests she must make of the database 
+so that she can make decisions on when to replace frequently used 
+FIGURE 14. C1
+A portion of the database from Merman’s Costume Rental shop.
+REQUESTS
+TURNED
+DOWN
+TYPE OF
+COSTUME
+YTD
+DAYS
+OUT
+DUE
+DATE
+COST
+OF
+COSTUME
+NUMBER
+SUIT
+NUMBER
+COSTUME-RENTAL
+0003 Lady MacBeth F, SM 01 Blue 15.00 10/15 11/30 150 Standard 2
+1342 Bear F, MED 01 Dk. Brown 12.50 10/24 11/09 26 Standard 0
+1344 Bear F, MED 02 Dk. Brown 12.50 10/24 11/09 115 Standard 0
+1347 Bear F, LG 01 Black 12.50 10/24 11/09 22 Standard 0
+1348 Bear F, LG 02 Black 12.50 11/01 11/08 10 Standard 0
+1400 Goldilocks F, MED 01 Light Blue 7.00 10/24 11/09 140 Standard 0
+1402 Goldilocks F, MED 02 Light Blue 7.00 10/28 11/09 10 Standard 0
+1852 Hamlet M, MED 01 Dark Green 15.00 11/02 11/23 115 Standard 3
+1853 Ophelia F, SM 01 Light Blue 15.00 11/02 11/23 22 Standard 0
+4715 Prince M, LG 01 White/purple 10.00 11/04 11/21 145 Standard 5
+4730 Frog M, SM 01 Green 7.00 11/04 11/21 175 Standard 2
+7822 Jester M, MED 01 Multi 7.50 11/10 12/08 12 Standard 0
+7824 Jester M, MED 02 Multi 7.50 11/09 11/15 10 Standard 0
+7823 Spiderman M, LG 01 Multi 7.00 11/19 12/05 21 Standard 0
+8645 Mr. Spock N, LG 01 Orange 18.00 09/07 09/12 150 Trendy 4
+9000 Pantomime F, LG 01 Red 7.00 08/25 09/15 56 Standard 0
+9001 Pantomime M, MED 01 Blue 7.00 08/25 09/15 72 Standard 0
+9121 Juggler M, MED 01 Multi 7.00 11/05 11/19 14 Standard
+Standard
+0
+9156 Napoleon M, SM 01 Blue/white 15.00 10/26 11/23 56 1
+COLOR
+DATE
+CHECKED
+OUTDESCRIPTION
+show in the display). Notice that the ACCOUNT STATUS CODE and ACCOUNT TYPE CODE 
+are not checked and therefore will not be in the final results. In the criteria rows, there is a 1 in 
+the ACCOUNT STATUS CODE (indicating an active record) and a C and D (selecting a General 
+Customer or a Discount Customer) in the ACCOUNT TYPE CODE columns. Two conditions in 
+the same row indicate an AND condition, and two conditions in different rows represent an OR 
+condition. This query specifies that the user should select both an Active Customer and either a 
+General or Discount Customer.
+
+
+===== BOOK PAGE 465 =====
+
+CHAPTER 14  •  HUmAn–ComPUTER  InTERACTIon AnD  UX DEsIgn     465
+The results of a query are displayed in a table, illustrated in Figure 14. 15. Notice that the 
+ACCOUNT STATUS CODE and ACCOUNT TYPE CODE do not display. They are not checked 
+and are included in the query for selection purposes only. Instead, the code meanings are dis-
+played, which are more useful to the user. The customer names are sequenced alphabetically.
+Structured Query Language. Structured query language (SQL) is another popular language 
+for implementing queries. It uses a series of words and commands to select the rows and columns 
+that should be displayed in the resulting table. Figure 14.16 contains SQL code. The SELECT 
+DISTINCT ROW keyword determines which rows are to be selected. The Where keyword speci-
+fies the condition that the CUSTOMER NAME should be used to select the data entered in the 
+LIKE parameter.
+FIGURE 14.15
+A query by example for 
+CUSTOMER STATUS yields 
+these results. (Used with 
+permission from Microsoft)
+FIGURE 14.16
+SQL for the CUSTOMER NAME 
+parameter query.
+SELECT DISTINCTROW  
+Customer.[Customer Number],
+Customer.[Customer Name],
+Customer.City,
+Customer.Telephone    
+FROM Customer
+WHERE  (((Customer.[Customer Name])
+Like ([Enter a partial Customer Name] & “*”)));     
+Summary
+In this chapter, we examined human–computer interaction (HCI), a variety of interfaces, and designing the 
+user interface. We also introduced user experience (UX) design, developing multitouch gestures to interface 
+with smartphones and tablets, designing user feedback, and designing ecommerce website feedback and 
+navigation. We focused on understanding HCI to ensure the functionality and usability of computer systems 
+we design. When analysts create a proper fit among the HCI elements of the human, the computer, and the 
+task, it leads to improved performance and overall psychological and physical well-being of the individual. 
+Designs focus on developing a proper fit.
+
+
+===== BOOK PAGE 466 =====
+
+466    PART IV  •  THE EssEnTIALs  oF DEsIgn
+Usability identifies what works for users and what does not. Physical considerations of HCI design 
+include vision, hearing, and touch. Physical capabilities and limitations should be taken into consideration 
+during task and interface design. A variety of user interfaces and input devices are possible. Some interfaces 
+are particularly well suited to inexperienced users, whereas others are better suited to experienced users. 
+Combine interfaces such as drop-down menus and graphical interfaces for increased effectiveness.
+UX design was discussed as a customer-first method for designing software. UX is an abbreviation for 
+“user experience.” It is a process that observes the behavior of customers and strives to enhance customer 
+satisfaction and loyalty. It accomplishes this by improving usability and ease of use, but it also recognizes 
+that users must enjoy interacting with a software product or system. UX is also a design culture, which 
+chooses to give the user a good experience over maximizing short-term profit. The seven benefits of using 
+UX design for ecommerce transactions include (1) tasks can be completed more quickly by the customer, 
+(2) more tasks can be completed in a given amount of customer time, (3) task results can be more accurate, 
+(4) less support is needed to address user complaints arising out of poor user experience, (5) users will com-
+plete the transaction rather than abandoning their cart and leaving the site, (6) customers will remain loyal 
+and not seek other websites or software, and (7) the user will be more satisfied with the overall experience.
+This chapter also provided some experience in applying HCI to help in your design of human–computer 
+interfaces for computers, smartphones, and tablets; feedback; ecommerce websites; and web queries. The 
+web has posed new challenges for designers because the user is not known.
+Creative opportunities for developers to design multitouch gestures for interfacing with touch-sensitive 
+(capacitive-sensing) smartphones and tablets are increasing. Some conventions should be observed, users 
+should be able to learn the interface quickly, and gestures should make sense to users. Developers can include 
+alerts, notices, and queries for smartphones and tablets but should always offer an opt-out option to them. 
+Using badges is an unobtrusive way to provide additional information to users, but badges should be used 
+with caution so that they don’t rely on user interaction to display accurate information. Developers can also 
+alter designs to accommodate intelligent personal assistants.
+Virtual reality (VR) and augmented reality (AR) are offering new opportunities for users to experi-
+ence training and other situations. The future of VR and AR may be in integrating user experiences for the 
+Metaverse. Although years away, the realization of the Metaverse translates into high demand for software 
+developers for an extended period.
+Good dialog design can help users interact more efficiently with apps and web-based screens. Users’ 
+need for feedback from a system is an important consideration. Feedback is most often visual, with text, 
+graphics, or icons the most common. Audio feedback can also be effective.
+Improve functionality of websites by eliciting customer feedback through automatic email feedback 
+buttons or by including blank feedback forms on the website. Four important navigation design strategies 
+improve the stickiness of ecommerce websites: (1) rollover menus, (2) hierarchical displays of links on the 
+entry screen, (3) site maps, and (4) navigation bars that provide one-click navigation.
+Designing for privacy protections through cookie compliance is increasingly important in ecommerce 
+design. Analysts need to observe all of the standards imposed by the countries in which ecommerce will be 
+taking place.
+Ecommerce website designs can effectively add a chatbot, which is software that responds to human que-
+ries in conversational ways, answers questions posed, and also deals with specific requests for information.
+Queries are designed to allow users to extract meaningful data from a database. There are six basic 
+types of queries, and they can be combined using Boolean logic to form more complex queries. QBE and 
+SQL are two common languages for querying database systems.
+Keywords and Phrases
+accelerometer
+alerts
+application programming interface (API)
+augmented reality (AR)
+badges
+Boolean operators
+California Consumer Privacy Act (CCPA)
+capacitive sensing
+chatbot
+cookie compliance
+feedback
+fit
+form-fill interfaces
+General Data Protection Regulation (GPDR)
+gestures
+human–computer interaction (HCI)
+intelligent personal assistants
+intuitive navigation
+mashup
+menu
+Metaverse
+multitouch gestures
+natural-language interface
+navigation bar
+nested menus
+notices
+
+
+===== BOOK PAGE 467 =====
+
+CHAPTER 14  •  HUmAn–ComPUTER  InTERACTIon AnD  UX DEsIgn     467
+Review Questions
+1. Define HCI.
+2. Explain how fit among the HCI elements of the human, the computer, and the tasks to be performed 
+leads to performance and well-being.
+3. What are the components of the term performance in the HCI context?
+4. What is meant by the word well-being when used in an HCI context?
+5. List 5 of the 11 heuristics for judging the usability of computer systems and ecommerce websites 
+provided by Nielsen and others.
+6. List three physical considerations that HCI design addresses.
+7. List three ways analysts can improve task or interface design to help a person who is visually 
+impaired, hard of hearing, or has limited mobility, respectively.
+8. What are the five objectives for designing user interfaces?
+9. Define natural-language interface. What is the major drawback of these interfaces?
+10. Explain what is meant by question-and-answer interfaces. To what kind of users are they best suited?
+11. Describe how users use onscreen menus.
+12. What is a nested menu? What are its advantages?
+13. Define onscreen input/output form. What is the chief advantage of these forms?
+14. What are the advantages of web-based fill-in forms?
+15. What are the drawbacks of web-based form-fill interfaces?
+16. Define graphical user interface.
+17. For what type of user is a GUI particularly effective?
+18. What is a synonym for the term “capacitive sensing”?
+19. List three gestures that can be used to interface with touch-sensitive smartphones and tablets.
+20. Describe a problem that can occur if a designer uses nonstandard gestures to create an interface for 
+smartphones or tablets.
+21. Why is the metaphor important in designing a user interface for an app?
+22. What do alerts do in a smartphone or tablet interface?
+23. What do badges do in a smartphone or tablet interface?
+24. Why is it important to include an opt-out option on all notices and alerts for smartphone and tablet 
+users?
+25. Why is it a good idea to avoid the use of a badge on apps?
+26. List four familiar intelligent personal assistants.
+27. What is another name for an intelligent personal assistant?
+28. What are the differences between designing for AR and designing for VR?
+29. What is the Metaverse?
+30. Designs for the iPhone can take advantage of using natural-language voice recognition, called Siri. Is 
+Siri an intelligent personal assistant? Why or why not?
+31. What are the three guidelines for designing good screen dialog?
+32. What are the roles of icons, graphics, and colors in providing feedback?
+33. List eight ways to achieve the goal of minimal operator action when designing a user interface.
+34. List five standards that can aid in evaluating user interfaces.
+35. Define what is meant by UX design.
+36. In a sentence, compare and contrast the differences between taking a traditional approach to design 
+versus adopting a UX design approach.
+37. List five dos for practicing good UX design. List five don’ts for practicing good UX design.
+38. What are the seven benefits of using UX design for ecommerce transactions?
+one-click navigation
+performance
+physical considerations of HCI
+Privacy Directive (EU Cookie Law)
+pull-down menu
+query
+query by example (QBE)
+question-and-answer interface
+rollover menu
+site map
+smartphone
+stickiness
+structured query language (SQL)
+stylus
+tablet
+task
+touch-sensitive screen
+usability
+UX design (user experience design)
+virtual assistants
+virtual reality (VR)
+web-based form-fill interface
+voice recognition
+
+
+===== BOOK PAGE 468 =====
+
+468    PART IV  •  THE EssEnTIALs  oF DEsIgn
+39. What are the seven situations that require feedback for users?
+40. What is a suitable way of telling a user that input was accepted?
+41. When a user is informed that their input is not in the correct form, what additional feedback should 
+be given at the same time?
+42. List four ways to notify a web user that input is not in the correct form.
+43. Why is it unacceptable to notify the user that input is not correct solely through the use of audible 
+beeping or buzzing?
+44. When a request is not completed, what feedback should be provided to the user?
+45. Describe two types of website designs for eliciting feedback from customers.
+46. List four practical ways an analyst can improve the ease of user navigation and the stickiness of an 
+ecommerce website.
+47. List five navigational options that use standard icons or elements that the designer can add to an 
+ecommerce website to improve navigation and understanding.
+48. What are hypertext links? Where should they be used?
+49. Describe what a mashup is.
+50. Which of the three cookie permsssion standards will let visitors know whether the owners of the 
+business behind the website will share or sell information gathered through use of cookies with third 
+parties?
+51. What is a chatbot?
+52. List in shorthand notation the six basic query types.
+Problems
+1. Manu Narayan owns several first-class hotels worldwide, including properties in Manhattan, 
+Mumbai, and even some in the Philadelphia suburbs. He wants to make sure that the HCI is 
+appropriate to each culture but also wants to be able to share the software among all of his hotel 
+reservation departments. Design a nested menus interface for a check-in and check-out hotel 
+reservation system that can be used internationally. Use numbers to select a menu item. Show  
+how each menu would look on a computer display for a desktop system.
+2. Kristin Angelle needs displays that will show the musical instrument inventory in her chain of music 
+stores that caters to musicians playing in world-class symphony orchestras in Basel, Switzerland; 
+Buenos Aires, Argentina; and Philadelphia and New York in the United States. Design a form-fill 
+interface for the inventory control of musical instruments in all four stores that could be used on a 
+computer display screen. Assume that English will be the interface language.
+3. Design a web-based form-fill interface to accomplish the same task as in Problem 2.
+a. What difficulties did you encounter? Discuss them in a paragraph.
+b. Of the two designs you did, which would you say is better suited to Kristin’s task? Why? List 
+three reasons for your choice. How would you test their usability?
+4. A UK-based travel agent, Philip Menard, LLC, would like your systems team to design a smartphone 
+and tablet app he can give away free to his clients for booking seats for airlines with which his firm 
+has solid business ties, such as British Air, RyanAir, and Virgin Atlantic.
+a. Show what the interface would look like on a smartphone display.
+b. Make a list of gestures to include for users to activate the display to book an airline seat and write 
+down what each gesture does.
+5. An IT executive, Laura Kai Chen, from Jersey IT Innovators, Inc., has asked that you design a 
+graphical user interface for an executive desktop to help her in her work. Use icons for file cabinets, a 
+wastebasket, a telephone, and so on. Show how they would appear on the computer display.
+6. Josh and Colleen, a celebrity chef couple and restaurant owners from Cherry Hill, New Jersey, want 
+to be able to receive clear feedback on the systems used to manage food inventory at their four 
+“farm to table” restaurants in Cherry Hill, New Jersey; Philadelphia, and Horsham, Pennsylvania; 
+and New York City. Design a display that provides appropriate feedback for a user whose daily 
+update reports on locally available produce has been successfully sent to the chefs.
+7. Design a screen for a payroll software package that displays information telling Josh and Colleen 
+(Problem 6) how to get more detailed feedback when viewing weekly and monthly payroll figures.
+8. Design a web-based display that shows an acceptable way to tell Josh and Colleen (Problem 6) that 
+input to their system was accepted.
+9. Using UX design, design three pages of an ecommerce website where Josh and Colleen’s devoted 
+restaurant customers (also known as foodies) (Problem 6) can purchase their cookbook, reserve spots 
+in cooking and butchering breakdown classes with Josh, and purchase freshly prepared desserts that 
+can be shipped to residential customers in the Northeast United States with one-day shipping.
+
+
+===== BOOK PAGE 469 =====
+
+CHAPTER 14  •  HUmAn–ComPUTER  InTERACTIon AnD  UX DEsIgn     469
+10. Write six different queries for the file in Problem 1 in Chapter 13.
+11. Write six different queries for the 3NF relation in Problem 3 in Chapter 13.
+12. Design a search that will find potential competitors of a company such as World’s Trend on the web. 
+Assume that you are the customer. World’s Trend began as a mail-order supplier of high-quality, 
+fashionable clothing for men, women, and children. Customers place orders by phone or email, by 
+mailing an order form included with each catalog, or by placing orders online via the ecommerce 
+store on World’s Trend’s website.
+13. Search for World’s Trend’s potential competitors on the web. (You won’t find World’s Trend itself on 
+the web. It is a fictional company.) See Problem 12 for a brief description of World’s Trend. Make a 
+list of those you’ve found.
+Group Projects
+1. With your group members, create a pull-down menu for an employment agency that matches profes-
+sional candidates to position openings. Include a list of keystrokes that would directly invoke the 
+menu options using the Alt-X format. The menu has the following options:
+Add employee
+Change employee
+Delete employee
+Employee inquiry
+Position inquiry
+Employer inquiry
+Add employer
+Change employer
+Delete employer
+Match employee to opening
+Print open positions report
+Print successful matches report
+Add position
+Change position to upgrade required skills
+Delete position
+2. In a paragraph, describe the problems your group faced in creating the menu in Group Problem 1.
+3. The drag-and-drop feature is used in GUIs and allows the user to move sentences around in a word 
+processing package. As a group, suggest how drag and drop can be used to its fullest potential in 
+the following applications: (Hint: If you are unsure about the meaning of any of the applications, 
+research them briefly on the web before devising an answer.)
+a. Project management software (Chapter 3)
+b. Relational database program (Chapter 13)
+c. Display or forms designer (Chapter 12)
+d. Spreadsheet program
+e. Computer-assisted software engineering tool for drawing data flow diagrams (Chapter 7)
+f. Smartphone calendar (Chapter 3)
+g. Illustration in a drawing package
+h. CASE tool for developing data dictionaries (Chapter 8)
+i. Decision tree drawing program (Chapter 9)
+j. Website for collecting consumer opinions on new products (Chapter 11)
+k. Organizing bookmarks for websites
+For each solution your group designs, draw the display and show movement by using an arrow.
+4. Ask each of the members of your group to request a search based on their leisure activities (such as 
+running, travel, meditation, streaming movies). If there are four people in your group, there will be 
+four unique searches to perform. Now go ahead and do all the searches. Compare your results. Does 
+the person who is involved with the activity have an advantage over the people who know less about 
+it? Explain.
+5. Look at the following mashup websites and describe how each of them adds value by providing a 
+service.
+a. Modern Business Guide, www.thisweknow.org
+b. Global Incident Map, www.globalincidentmap.com
+c. Streeteasy, www.streeteasy.com
+
+
+===== BOOK PAGE 470 =====
+
+470    PART IV  •  THE EssEnTIALs  oF DEsIgn
+Selected Bibliography
+Adam, A., & Kreps, D. (2006). Web accessibility: A digital divide for disabled people? In E. Trauth, D. 
+Howcraft, T. Butler, B. Fitzgerald, & J. DeGross (Eds.), Vol. 208. Societal and organizational impli-
+cations for information systems (217–228). IFIP International Federation for Information Processing.
+Baines, J., & Howard, C. (2016). UX lifecycle: The business guide to implementing great software user 
+experiences (Kindle ed.). CreateSpace Independent Publishing Platform.
+Ball, M. (2021, June 29). Framework for the Metaverse. https://www.matthewball.vc/all/
+forwardtothemetaverseprimer
+Barki, H., & Hartwick, J. (1994). Measuring user participation, user involvement, and user attitude.  
+MIS Quarterly, 18(1), 59–82.
+Benyon, D. (2019). Designing user experience (4th ed.). Pearson.
+Berstel, J., Reghizzi, S. C., Roussel, G., & San Pietro, P. (2005). A scalable formal method for design and 
+automatic checking of user interfaces. ACM Transactions on Software Engineering and Methodology, 
+14(2), 124–167.
+Boag, P. (2017). User experience revolution. Smashing Media AG.
+Carey, J., Galletta, D., Kim, J., Te’eni, D., Wildemuth, B., & Zhang, P. (2004). The role of 
+human–computer interaction in management information systems curricula: A call to action. 
+Communications of the Association for Information Systems, 13, 357–379.
+Combs, V . (2021). Metaverse cheat sheet: Everything you need to know. https://lg-static.techrepublic 
+.com/direct/whitepapers/Metaverse_Cheat_Sheet__1_.pdf
+Davis, G. B., & Olson, M. H. (1985). Management information systems: Conceptual foundations, 
+structure, and development. McGraw-Hill.
+Falbe, T., Andersen, K., & Frederiksen, M. M. (2017). White Hat UX: The next generation in user 
+experience. Amazon Kindle.
+Galleta, D., & Zhang, P. (Eds.). (2006). Human–computer interaction and management information 
+systems: Applications. M. E. Sharpe.
+Greene, K. (2009, March). A better, cheaper multitouch interface. Technology Review. www.technology 
+review.com/computing/22358/?a=f
+Hartson, R., & Pyla, P. (2019). The UX book: Agile UX design for a quality user experience (2nd ed.). 
+Morgan Kaufmann.
+Heckstall, V . (2017, March 6). 10 tools to create your own chatbot for free without coding. http://www.
+business2community.com/business-innovation
+Hornbaek, K., & Frokjaer, E. (2005, April). Comparing usability problems and redesign proposals as input 
+to practical systems development. CHI 2005, pp. 391–400.
+Mantei, M. M., & Teorey, T. J. (1989). Incorporating behavioral techniques in the system development 
+lifecycle. MIS Quarterly, 13(3), 257–267.
+Nielsen, J., & Mack, R. L. (1994). Usability inspection methods. Wiley.
+Nielsen, J., Molich, R., Snyder, C., & Farrell, S. (2001). E-commerce user experience. Norman Nielsen 
+Group.
+Rubin, J. (1994). Handbook of usability testing. Wiley.
+Schneiderman, B., & Plaisant, C. (2005). Designing the user interface: Strategies for effective human–
+computer interaction. Addison-Wesley.
+Te’eni, D., Carey, J., & Zhang, P. (2007). Human–computer interaction: Developing effective organiza-
+tional systems. Wiley.
+U.S. Equal Employment Opportunity Commission. (2017). Employers. http://www.eeoc.gov/employers/
+index.cfm
+Zhang, P., Carey, J., Te’eni, D., & Tremaine, M. (2005). Integrating human–computer interaction 
+development into the systems development life cycle: A methodology. Communications of the 
+Association for Information Systems, 15, 512–543.
+
+
+===== BOOK PAGE 471 =====
+
+Farley Katz/The New Yorker Collection/The Cartoon Bank
+Quality Assurance  
+and Implementation
+PART  
+V
+
+
+===== BOOK PAGE 472 =====
+
+472
+Designing Accurate Data 
+Entry Procedures
+LEARNING OBJECTIVES
+Once you have mastered the material in this chapter, you will be able to:
+1 Understand the uses of effective coding to support users in accomplishing their tasks.
+2 Learn how to design effective and efficient data-capture approaches for people and 
+systems.
+3 Recognize how to ensure data quality through validation.
+4 Articulate the data accuracy advantages of user input on ecommerce websites.
+Making sure users are able to enter data into a system accurately is of utmost importance. 
+It is by now axiomatic that the quality of data input determines the quality of information 
+output. A systems analyst can support accurate data entry through the achievement of four 
+broad objectives: (1) creating meaningful coding for data, (2) designing efficient data-capture 
+approaches, (3) ensuring complete and effective data capture, and (4) ensuring data quality 
+through validation.
+The quality of data is a measurement of how consistently correct the data are within 
+certain preset limits. Effectively coded data facilitate accurate human data entry by cutting 
+down on the sheer quantity of data and thus the time required to enter the information.
+When users enter data efficiently, data entry meets predetermined performance 
+measures that give the relationship between the time spent on entry and the number 
+of data items entered. Effective coding, effective and efficient data capture and entry, 
+and assurance of data quality through validation procedures are all data-entry objectives 
+covered in this chapter.
+15 
+CHAPTER
+

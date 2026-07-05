@@ -1,0 +1,1721 @@
+
+===== BOOK PAGE 473 =====
+
+CHAPTER 15  •  DEsIgnIng A CCuRATE  D ATA  EnTR y PR oCEDuREs     473
+EFFECTIVE CODING
+Data can be entered more accurately and efficiently through the knowledgeable use of various 
+codes. The process of putting ambiguous or cumbersome data into short, easily entered digits or 
+letters is called coding (not to be confused with program coding).
+Coding aids a systems analyst in reaching the objective of efficiency because data that are 
+coded require less time for people to enter and thus reduce the number of items entered. Coding 
+can also help in the appropriate sorting of data at a later point in the data transformation process. In 
+addition, coded data saves valuable memory and storage space. Coding is a way of being eloquent 
+but succinct in capturing data. In addition to providing accuracy and efficiency, codes should have 
+a purpose that supports users. Specific types of codes allow us to treat data in a particular manner. 
+Human purposes for coding include the following:
+1. Keeping track of something
+2. Classifying information
+3. Concealing information
+4. Revealing information
+5. Requesting appropriate action
+Each of these purposes for coding is discussed in the following sections, along with some examples 
+of codes.
+Keeping Track of Something
+Sometimes we want merely to identify a person, place, or thing just to keep track of it. For 
+example, a shop that manufactures custom-made upholstered furniture needs to assign a job 
+number to a project. The salesperson needs to know the name and address of the customer, but the 
+job shop manager or the workers who assemble the furniture need not know who the customer is.  
+Consequently, an arbitrary number is assigned to the job. The number can be either random or 
+sequential, as described in the following subsection.
+questions whether it is possible to create an unbreakable code. 
+While many people who study codes find this topic to be intriguing, 
+there are many different purposes for creating codes. After you view 
+the video, please reflect on the following questions:
+1. Some businesses use codes to keep track of things. Why is 
+this useful?
+2. Codes can be used to sort things, in other words, put items 
+into categories or classes. What is another example of clas-
+sifying something? Why would this be useful?
+3. Choose a business and explore why they may want to use 
+coding to conceal some information.
+4. Choose a different business than in Question 3 above and 
+clarify why it is beneficial to have codes that reveal informa-
+tion about a product or service.
+5. Restaurants in the United States commonly use the code 86 
+to indicate that the kitchen has run out of a particular item. 
+The server then could advise the diner accordingly. What is 
+another example of a code (it could be numeric, alphabetic, 
+or alphanumeric) used to specify an action?
+SYSTEMS SCENARIO  
+Applying Cryptography and Coding
+This chapter begins with effective coding to keep track of some-
+thing, classify information, conceal information, reveal information, 
+and request appropriate action. The video for this chapter is about 
+cryptography, the science of making and breaking codes. The pur -
+pose of cryptography, of course, is to conceal information. The 
+video discusses how easy or difficult it is to break these codes and 
+To view the video for this scenario,  
+see eText Chapter 15.
+SciShow/Boclips
+
+
+===== BOOK PAGE 474 =====
+
+474    PART V  •  Qu ALITy  A ssuRAnCE AnD IMPLEMEnTATIon
+Simple Sequence Codes. The simple sequence code is a number that is assigned to something 
+if it needs to be numbered. It has no relation to the data themselves. Figure 15.1 shows how a 
+furniture manufacturer’s orders are assigned an order number. With this easy reference number, 
+the company can keep track of the order in process. It is more efficient to enter job “5676” than 
+“that brown and black rocking chair with bamboo for Feng Xu.”
+Using a sequence code rather than a random number has some advantages. First, it eliminates 
+the possibility of assigning the same number multiple times. Second, it gives users an approxima-
+tion of when the order was received.
+Sequence codes should be used when the order of processing requires knowledge of the 
+sequence in which items enter the system or the order in which events unfold. For example, con-
+sider a bank running a special promotion that makes it important to know when a person applied 
+for a special, low-interest home loan because (all other things being equal) the special mortgage 
+loans will be granted on a first-come, first-served basis. In this case, assigning a correct sequence 
+code to each applicant is important.
+Alphabetic Derivation Codes. At times it is undesirable to use sequence codes. The most obvious 
+instance is when you do not wish to have someone read the code to figure out how many numbers 
+have been assigned. Another situation in which sequence codes may not be useful is when a more 
+complex code is desirable to avoid a costly mistake. One possible error would be to add a payment 
+to account 223 when you meant to add it to account 224 because you entered an incorrect digit.
+The alphabetic derivation code is a commonly used approach in identifying an account 
+number. The example in Figure 15.2 comes from a mailing label for a U.S. magazine. The code 
+becomes the account number. The first five digits come from the first five digits of the subscriber’s 
+zip code, the next three are the first three consonants in the subscriber’s name, the next four 
+numbers are from the street address, and the last three make up the code for the magazine. The 
+main purpose of this code is to identify an account.
+A secondary purpose is to print mailing labels. When designing this code, the zip code is 
+the first part of the account number. The subscriber records are usually updated only once a year, 
+but the primary purpose of the records is to print mailing labels once a month or once per week. 
+Having the zip code as the first part of a primary key field means that the records do not have to 
+be sorted by zip code for bulk mailing because records on a file are stored in primary key sequence. 
+Notice that the expiration date is not part of the account number because that number can change 
+more frequently than the other data.
+One disadvantage of an alphabetic derivation code occurs when the alphabetic portion is small 
+(for example, the name Po) or when the name contains fewer consonants than the code requires. 
+The name Roe has only one consonant and would have to be derived as RXX or derived using 
+some other scheme. Another disadvantage is that some of the data may change. Changing one’s 
+address or name would change the primary key for the file.
+FIGURE 15.1
+Using a simple sequence code to 
+indicate the sequence in which 
+orders enter a custom furniture 
+shop.
+Order #
+5676       Rocking Chair/with Bamboo         Feng Xu
+5677       Dining Room Chair/Upholstered   Millie Monice
+5678       Love Seat/Upholstered                 J. & D. Yang
+5679       Child’s Rocking Chair/Decals        Chelsea Kennard
+ Product           Customer
+FIGURE 15.2
+Identifying the account of a 
+magazine subscriber with an 
+alphabetic derivation code.
+Code   Explanation of Code
+68506KND7533ECO            99999XXX9999XXX
+Abbreviation of magazine
+First ﬁve digits of zip code
+First three consonants in last name
+Four digits of street address
+
+
+===== BOOK PAGE 475 =====
+
+CHAPTER 15  •  DEsIgnIng A CCuRATE  D ATA  EnTR y PR oCEDuREs     475
+FIGURE 15.4
+Problems in using a one-letter 
+classification code occur when 
+categories share the same letter.
+Code   Tax-Deductible Item
+Interest Payments
+Medical Payments
+Taxes
+Contributions
+Dues
+Supplies
+Subscriptions
+Computer
+Insurance
+Miscellaneous
+ Subscriptions
+ Computer
+ Insurance
+I
+M
+T
+C
+D
+S
+S
+C
+I
+M
+B
+P
+N
+These duplicate
+codes . . . 
+. . . are corrected
+by “forcing” the
+codes to ﬁt.
+Classifying Information
+Classification affords the ability to distinguish among classes of items. Classifications are necessary 
+for many purposes, such as reflecting what parts of a medical insurance plan an employee carries 
+or showing which students have completed the core requirements of their coursework.
+To be useful, classes must be mutually exclusive. For example, if a student is in class F, 
+meaning first-year, having completed 0 to 36 credit hours, they should not also be classifiable as 
+a sophomore (S). Overlapping classes would be =−F0 36 credit hours, =−S3 2 64 credit 
+hours, and so on. Data are unclear and not as readily interpretable when coding classes are not 
+mutually exclusive.
+Classification Codes. Classification codes are used to distinguish one group of data with special 
+characteristics from another. Classification codes can consist of either a single letter or a number. 
+Using them is a shorthand way of describing a person, place, thing, or event.
+Classification codes are listed in manuals or posted so that users can locate them easily. Many 
+times, users become so familiar with frequently used codes that they memorize them. A user clas-
+sifies an item and then enters its code directly into an online system.
+An example of classification coding is the way you may wish to group tax-deductible items for 
+the purpose of completing your income taxes. Figure 15.3 shows how codes are developed  
+for items such as interest, medical payments, contributions, and so on. The coding system is 
+simple; use the first letter of each of the categories: contributions are C, interest payments are  
+I, and supplies are S.
+All goes well until we get to other categories (such as computer items, insurance payments, 
+and subscriptions) that begin with the same letters previously used. Figure 15.4 demonstrates 
+what happens in this case. The coding was stretched so that we could use P for “comPuter,”  
+N for “iNsurance,” and B for “suBscriptions.” Obviously, this situation is far from perfect. One 
+way to avoid this type of confusion is to allow for codes longer than one letter, discussed later 
+in this chapter in the section “Mnemonic Codes.” Pull-down menus in a graphical user interface 
+(GUI) system often use classification codes as a shortcut for running menu features, such as Alt-F 
+for the File menu.
+FIGURE 15.3
+Grouping tax-deductible items 
+through the use of a one-letter 
+classification code.
+Code
+I
+M
+T
+C
+D
+S
+Tax-Deductible Item
+Supplies
+Dues
+Contributions
+Taxes
+Medical Payments
+Interest Payments
+
+
+===== BOOK PAGE 476 =====
+
+476    PART V  •  Qu ALITy  A ssuRAnCE AnD IMPLEMEnTATIon
+Block Sequence Codes. Earlier we discussed sequence codes. The block sequence code is an 
+extension of the sequence code. Figure 15.5 shows how a business user assigns numbers to 
+computer software. Main categories of software are browsers, database packages, and web design. 
+These were assigned sequential numbers in the following “blocks,” or ranges: browser, 100–199; 
+database, 200–299; and so forth. The advantage of the block sequence code is that the data are 
+grouped according to common characteristics but still take advantage of the simplicity of assigning 
+the next available number (within the block, of course) to the next item needing identification.
+Concealing Information
+You can use codes to conceal or disguise information you do not wish others to know. There 
+are many reasons a business user may want to do this. For example, a corporation may not want 
+information in a personnel file to be accessed by data-entry workers. A store may want its sales-
+people to know the wholesale price to show them how low a price they can negotiate, but they 
+may encode it on price tickets to prevent customers from finding that out. A restaurant may want 
+to capture information about the service without letting the customer know the name of the server. 
+Concealing information and security have become very important in the last few years. Corpora-
+tions have started to allow vendors and customers to access their databases directly, and handling 
+business transactions over the internet has made it necessary to develop tight encryption schemes. 
+The following subsection describes an example of concealing information through codes.
+Cipher Codes. Perhaps the simplest coding method is the direct substitution of one letter for 
+another, one number for another, or one letter for a number. A popular type of puzzle called a 
+cryptogram is an example of letter substitution. Figure 15.6 shows an example of a cipher code 
+FIGURE 15.5
+Using a block sequence code to 
+group similar software.
+Code Name of Software Package Type
+100
+101
+102
+103
+200
+201
+202
+300
+301
+302
+Apple Safari
+Mozilla Firefox 
+Microsoft Edge
+Google Chrome
+Microsoft Access 
+MySQL
+Oracle 
+Adobe Dreamweaver
+Webﬂow
+BlueGriffon
+Browser
+Database
+Web design 
+.
+.
+.
+.
+.
+.
+FIGURE 15.6
+Encoding markdown prices with a 
+cipher code is a way of concealing 
+price information from customers.
+Code        Meaning          Example of Price Ticket Explanation
+B 1  GOLDEN’S  Store Name
+L 2  202-395-40  Style Code
+E 3  BIMC  Coded Markdown Price
+A 4
+C 5
+H 6   Size 12 Size of Garment
+M 7
+ I 8   $25.00 Customer Price
+N 9
+D 0
+    Regular Price of Dress = $25.00
+    Markdown Ticket Encoded BIMC = $18.75
+
+
+===== BOOK PAGE 477 =====
+
+CHAPTER 15  •  DEsIgnIng A CCuRATE  D ATA  EnTR y PR oCEDuREs     477
+taken from a Buffalo, New York, department store that coded all markdown prices with the words 
+BLEACH MIND. No one really remembered why those words were chosen, but all the employees 
+knew them by heart, and so the cipher code was successful. Notice in this figure that an item 
+with a retail price of $25.00 would have a markdown price of BIMC, or $18.75, when decoded 
+letter-by-letter.
+Revealing Information
+Sometimes it is desirable to reveal information to specific users through a code. In a clothing 
+store, information about the department, product, color, and size is printed along with the price 
+on the ticket for each item. This information helps the salespeople and stock people locate the 
+place for the merchandise.
+Another reason for revealing information through codes is to make the data entry more mean-
+ingful for humans. A familiar part number, name, or description supports more accurate data entry. 
+The examples of codes in the following subsection explain how these concepts can be realized.
+Significant-Digit Subset Codes. When it is possible to describe a product by virtue of its mem-
+bership in many subgroups, we can use a significant-digit subset code to help describe it. The 
+clothing store price ticket example in Figure 15.7 is an example of an effective significant-digit 
+subset code.
+To the casual observer or customer, the item description appears to be one long number.  
+A salesperson knows, however, that the number is made up of a few smaller numbers, each one 
+having a meaning of its own. The first three digits represent the department, the next three the 
+product, the next two the color, and the last two the size.
+Significant-digit subset codes may consist of either information that actually describes the 
+product (for example, the number 10 means size 10) or numbers that are arbitrarily assigned (for 
+instance, 202 is assigned to mean the maternity department). In this case, the advantage of using 
+FIGURE 15.7
+Using a significant-digit subset 
+code helps employees locate 
+items belonging to a particular 
+department.
+2023954010 Red maternity dress, 
+  style 395, size 10 
+4142191912 Beige winter coat, 
+  style 219, size 12
+   202 395 40 10
+    
+   
+     
+       
+Code Merchandise Described Explanation of Code
+Size
+(Size 12)
+Size
+(Size 10)
+Color
+(Beige)
+Color
+(Red)
+Product
+(Coat Style 219)
+Product
+(Dress Style 395)
+Department
+(Winter Coats)
+Department
+(Maternity)
+414 219             19               12
+
+
+===== BOOK PAGE 478 =====
+
+478    PART V  •  Qu ALITy  A ssuRAnCE AnD IMPLEMEnTATIon
+a significant-digit subset code is that it makes it possible to locate items that belong to a certain 
+group or class. For example, if the store’s manager decided to mark down all winter merchandise 
+for an upcoming sale, salespeople could locate all items belonging to departments 310 through 
+449, the block of codes used to designate “winter” in general.
+Mnemonic Codes. A mnemonic (pronounced nî-môn´-ïk) is a human memory aid. Any code that 
+helps either a data-entry person remember how to enter the data or a user remember how to use 
+the information can be considered a mnemonic code. Using a combination of letters and symbols 
+affords a strikingly clear way to code a product so that the code is easily seen and understood.
+The city hospital codes formerly used by the Buffalo Regional Blood Center were mnemonic, 
+as shown in Figure 15.8. The simple codes were invented precisely because the blood center 
+administrators and systems analysts wanted to ensure that hospital codes were easy to memorize 
+and recall. Mnemonic codes for the hospitals helped lessen the possibility of blood being shipped to  
+the wrong hospital.
+Unicode. Codes allow us to reveal characters that we normally cannot input or view. Traditional 
+keyboards support character sets that are familiar to people using Western alphabetic characters 
+(referred to as Latin characters), but many languages, such as Greek, Japanese, Chinese, and 
+Hebrew, do not use the Western alphabet. These languages may use Greek letters or glyphs or 
+symbols representing syllables or whole words. The International Organization for Standardiza-
+tion has defined the Unicode character set, which includes all standard language symbols and has 
+room for 65,535 characters. You can display web pages written in other alphabets by downloading 
+an input method editor from Microsoft.
+Glyph symbols are represented using an “&#xnnnn;” notation, in which nnnn represents a 
+specific letter or symbol and x means that hexadecimal notation, or base 16 numbering, is used 
+to represent the Unicode characters. For example, &#30B3 represents the Japanese Katakana 
+symbol ko. The code used for the Japanese word for hello, konichiwa, is &#x3053;&#x306B;&#
+x3061;&#x308F. In Japanese, the word looks like this:
+Unicode characters are grouped by language and may be found at www.unicode.org.
+Requesting Appropriate Action
+Codes are often needed to instruct either a computer or a decision maker about what action to 
+take. Such codes are generally referred to as function codes, and they typically take the form of 
+either sequence or mnemonic codes.
+Function Codes. The functions that an analyst or a programmer desires a computer to perform 
+with data are captured in function codes. Spelling out precisely what activities are to be accom-
+plished is translated into a short numeric or alphanumeric code.
+Figure 15.9 shows examples of a function code for updating inventory. Suppose you managed 
+a dairy department; if a case of yogurt spoiled, you would use the code 3 to indicate this event. 
+Of course, data required for input vary, depending on what function is needed. For example, 
+FIGURE 15.8
+Mnemonic codes function 
+as memory aids by using a 
+meaningful combination of letters 
+and numbers.
+City Hospitals
+BGH Buffalo General Hospital
+ROS Roswell Park Memorial Institute
+KEN Kenmore Mercy
+DEA Deaconess Hospital
+SIS Sisters of Charity
+STF Saint Francis Hospital
+STJ Saint Joseph’s Hospital
+OLV Our Lady of Victory Hospital
+Code
+
+
+===== BOOK PAGE 479 =====
+
+CHAPTER 15  •  DEsIgnIng A CCuRATE  D ATA  EnTR y PR oCEDuREs     479
+appending or updating a record would require only the record key and function code, whereas 
+adding a new record would require all data elements to be input, including the function code.
+General Guidelines for Coding
+In the previous sections, we examined the purposes for using different types of codes when 
+humans and machines enter and store data. Next, we examine a few heuristics for establishing a 
+coding system. These rules are highlighted in Figure 15.10.
+Be Concise. Codes should be concise. Overly long codes mean more keystrokes and consequently 
+more errors. Long codes also mean that storing the information in a database will require more 
+memory.
+Short codes are easier for people to remember and easier to enter than long codes. If codes 
+must be long, they should be broken up into subcodes. For example, 5678923453127 could be 
+broken up with hyphens as follows: 5678-923-453-127. This approach is much more manage-
+able and takes advantage of the way people are known to process information in short chunks. 
+Sometimes codes are made longer than necessary for a reason. Credit card numbers are often 
+long to prevent people from guessing a credit card number. Visa and MasterCard use 16-digit 
+numbers, which would accommodate 9 trillion customers. Because the numbers are not assigned 
+sequentially, chances of guessing a credit card number are very slight.
+Keep the Codes Stable. Stability means that the identification code for a customer should not 
+change each time new data are received. Earlier, we presented an alphabetic derivation code for a 
+magazine subscription list. The expiration date was not part of the subscriber identification code 
+because it was likely to change.
+Don’t change the code abbreviations in a mnemonic system. Once you have chosen the code 
+abbreviations, do not try to revise them because that makes it extremely difficult for data-entry 
+personnel to adapt.
+Ensure that Codes Are Unique. For codes to work, they must be unique. Make a note of all codes 
+used in the system to ensure that you are not assigning the same code number or name to different 
+items. Code numbers and names are an essential part of the entries in data dictionaries, discussed 
+in Chapter 8.
+FIGURE 15.9
+Function codes compactly  
+capture functions that a computer 
+must perform.
+Code Function
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Delivered
+Sold
+Spoiled
+Lost or Stolen
+Returned
+Transferred Out
+Transferred In
+Journal Entry (Add)
+Journal Entry (Subtract)
+FIGURE 15.10
+There are eight general guidelines 
+for establishing a coding system.
+In Establishing a Coding System,
+ the Analyst Should:
+ Keep codes concise
+ Keep codes stable
+ Make codes that are unique
+ Allow codes to be sortable
+ Avoid confusing codes
+ Keep codes uniform
+ Allow for modiﬁcation of codes
+ Make codes meaningful
+
+
+===== BOOK PAGE 480 =====
+
+480    PART V  •  Qu ALITy  A ssuRAnCE AnD IMPLEMEnTATIon
+Allow Codes to be Sortable. If you are going to manipulate the data usefully, the codes must be 
+sortable. For example, if you were to perform a text search on the months of the year in English in 
+ascending order, the “J” months would be out of order (January, July, and then June). Dictionaries 
+are sorted in this way, one letter at a time from left to right. So, if you sorted MMMDDYYYY 
+where the MMM stood for the abbreviation for the month, DD for the day, and YYYY for the 
+year, the result would be in error.
+Figure 15.11 shows what would happen if a text search were performed on different forms 
+of the date. The third column shows a problem that was part of the year 2000 (Y2K) crisis that 
+caused some alarm and even made the cover of Time magazine.
+It is important to make sure users can do what you intend them to do with the codes you 
+create. Numeric codes are much easier to sort than alphanumerics; therefore, consider converting 
+to numerics wherever practical.
+FIGURE 15.11
+Plan ahead in order to be able to 
+do something useful with data 
+that have been entered. In this 
+example, the person creating the 
+codes did not realize the data 
+would have to be sorted.
+Incorrect Sorting
+Using 
+MMM-DD-YYYY
+Incorrect Sorting
+Using 
+MM-DD-YYYY
+Incorrect Sorting
+(Year 2000 Problem) 
+YY-MM-DD
+Correct Sorting
+Using 
+YYYY-MM-DD
+Dec-25-1998
+Dec-31-1997
+Jul-04-1999
+Jun-04-1998
+Jun-11-2000
+Jun-12-1997
+Oct-24-1998
+06-04-1998
+06-11-2000
+06-12-1997
+07-04-1999
+10-24-1998
+12-25-1998
+12-31-1997
+00-06-11
+97-06-12
+97-12-31
+98-06-04
+98-10-24
+98-12-25
+99-07-04
+1997-06-12
+1997-12-31
+1998-06-04
+1998-10-24
+1998-12-25
+1999-07-04
+2000-06-11
+“You know, we used to have it like that, but when they got all the 
+new computers and went to 24-hour phone and internet orders, it 
+all changed. They said the operators (and users) had to know more 
+about what they were selling (or buying), so they changed their 
+codes to be more like a story.”
+Morio, surprised at Ngendo’s revelation, asks, “What’s the story 
+for the one I was working on?”
+Inspecting the code on the lantern’s picking slip, Ngendo 
+replies, “The one you were working on was ‘PO LAN LED 2pk–6 
+AA bat req.’ After looking it up real fast on the computer the person 
+at the service desk can tell the customer, ‘It’s a portable survival 
+lantern with LED lights for camping that comes in a pack of two 
+lanterns. You’ll need to supply six AA batteries for each. They’re 
+not included.” We can’t see the forest for the trees because of their 
+codes, but you know M. Henson’s. They’ve got to make the sale and 
+reach the summit.”
+How important is it that the warehouse bins and invoices are 
+coded inconsistently? Respond in a paragraph. What are some 
+of the problems created when a code appears to be a mnemonic, 
+but employees are never given an appropriate “key” to decode it? 
+Discuss your response in two paragraphs. What changes would you 
+make to invoice/warehouse coding for M. Henson’s? Document 
+your changes, identify the type of code you would use, and use 
+the code in an example of a product that M. Henson’s might sell. 
+Remember to decipher it as well.
+CONSULTING OPPORTUNITY 15.1 
+It’s a Wilderness in Here
+“I can’t stand this. I’ve been looking for this lantern for the last 
+45 minutes,” complains Morio Fuyuki, as he nervously pushes an 
+on/off button switch on a portable camp lantern he is holding. He is 
+one of the new warehouse workers for M. Henson’s, a large retail 
+catalog and ecommerce firm specializing in camping goods and 
+items for Arctic and other expeditions. “The catalog slip calls it a 
+‘PO LAN LED 2pk–6 AA bat req.’ Good thing you told me ‘LAN’ 
+stands for lantern. I thought it stood for local area network, so I was 
+looking over there in the ethernet cables. I found it here in this bin 
+labeled Camp/Lights. Wouldn’t it be easier if the catalog and web 
+pages matched the bins? To me, this invoice says, ‘Purchase order, 
+local area network, 2 pack of batteries required.’ I’ve been stranded 
+in network cabling the whole time.”
+Ngendo Tamba, Morio’s coworker, barely listens as she hur -
+riedly pulls items out of bins to fill another order. “You’ll get used 
+to it. They’ve got to have it this way so that the computers can 
+understand the bill later. Mostly, I look at the catalog page number 
+on the invoice, then I look it up in the book and sort of translate it to 
+back here . . . unless I remember it from finding it before,” Ngendo 
+explains.
+Morio persists, saying, “Computers are smart, though, and we 
+have to fill so many orders. We should tell the people up in billing 
+the names we’ve got on our bins.”
+Ngendo replies somewhat sarcastically “Oh, sure. They’re 
+dying to know what we think.” Then she continues in a quieter tone.
+
+
+===== BOOK PAGE 481 =====
+
+CHAPTER 15  •  DEsIgnIng A CCuRATE  D ATA  EnTR y PR oCEDuREs     481
+Avoid Confusing Codes. Try to avoid using coding characters that look or sound alike. The charac-
+ters O (the letter oh) and 0 (the number zero) are easily confused, as are the letter I and the number 1 
+and the letter Z and the number 2. Therefore, codes such as B1C and 280Z are unsatisfactory.
+One example of a potentially confusing code is the Canadian Postal Code, as shown in 
+Figure 15.12. The code format is X9X 9X9, where X stands for a letter and 9 stands for a number. 
+One advantage to using letters in the code is to allow more data in a six-digit code (there are 
+26 letters, but only 10 numbers). Because the code is used on a regular basis by Canadians, the 
+code makes perfectly good sense to them. To foreigners sending mail to Canada, however, it may 
+be difficult to tell if the second-to-last symbol is a Z or a 2.
+Keep the Codes Uniform. To be effective and efficient for humans, codes need to follow readily 
+perceived forms most of the time. Codes used together, such as BUF-234 and KU-3456, are poor 
+because the first contains three letters and three numbers, whereas the second has only two letters 
+followed by four numbers.
+When you are required to add dates, try to avoid using the codes MMDDYYYY in one 
+application, YYYYDDMM in a second, and MMDDYY in a third. It is important to keep codes 
+uniform among, as well as within, programs.
+FIGURE 15.12
+Combining look-alike characters 
+in codes can result in errors.Handwritten Code Actual Code City, Province Problem
+L8S 4M4
+T3A ZE5
+LOS 1JO
+L8S 4M4
+T3A 2E5
+L0S 1J0
+Hamilton, Ontario
+Calgary, Alberta
+Niagara-on-the-Lake,
+Ontario
+S looks like a 5
+2 looks like a Z
+5 looks like an S
+Zero and Oh look alike
+S looks like a 5
+1 looks like an l
+Code Format for Canadian Postal Code
+X9X 9X9
+the last orders. So, a committee decided to make the cities more 
+recognizable by having them add two letters. Those kids can’t learn 
+everything we know overnight, even though they try. It’s just until 
+August 19, though, when the interns go back to school.”
+As Kenya glumly turns back to her keyboard, Asuka shakes her 
+head sympathetically and says, “I know it’s a strain and it’s making 
+you feel miserable, but don’t worry. You’ll get over it. It’s just a 
+summer code.”
+What general guidelines of coding has management overlooked 
+in its decision to use a summer code for cities? Make a list of them. 
+What is the effect on full-time data-entry personnel of changing 
+codes for the ease of temporary help? Respond in two paragraphs. 
+What future impact could the temporary change in codes have on 
+sorting and retrieving data entered during the summer period? Take 
+two paragraphs to discuss these implications. What changes can you 
+suggest so that the part-timers don’t get mixed up on codes in the short 
+term? In a memo to the supervisor of this work group, make a list of 
+five to seven changes in the data-capture or data-entry procedures 
+that can be made to accommodate short-term hires without disrupting 
+normal business. In a paragraph, indicate how this goal can be accom-
+plished without marring the productivity of data-entry personnel.
+CONSULTING OPPORTUNITY 15.2 
+Catching a Summer Code
+K enya Okeke takes her fingers off her keyboard and bends over 
+her workstation to verify the letters on the invoices stacked in front 
+of her. “What on earth?” Kenya asks aloud as she further scruti-
+nizes the letters that encode cities where orders are to be shipped.
+Asuka Akemi, her supervisor, who usually sits a couple of 
+workstations away, is passing by and sees Kenya’s consternation. 
+“What’s the matter? Did the sales rep forget to write in the city 
+code again?”
+Kenya swings around in her chair to face Asuka. “No, there are 
+codes here, but they’re weird. We usually use a three-letter code, right? 
+Like CIN for Cincinnati, SEA for Seattle, MIN for Minneapolis, BUF 
+for Buffalo. They’re all five-letter codes here, though.”
+“Look,” Kenya says, lifting the invoice to show Asuka. “CINNC, 
+SEATT, MINNE. It’ll take me all day to enter these. No kidding, 
+it’s really slowing me down. Maybe there’s a mistake. Can’t I just 
+use the standard?”
+Asuka backs away from Kenya’s workstation as if the prob-
+lem were contagious. Excusing herself apologetically, Asuka says, 
+“It’s the interns. They are learning sales now, and management 
+was worried that they’d get messed up on their cities. I think it 
+has something to do with mixing up Newark and New Orleans on
+
+
+===== BOOK PAGE 482 =====
+
+482    PART V  •  Qu ALITy  A ssuRAnCE AnD IMPLEMEnTATIon
+Allow for Modification of Codes. Adaptability is a key feature of a good code. An analyst must 
+keep in mind that the system will evolve over time, and the coding system should be able to 
+encompass change. The number of customers should grow, customers will change names, and 
+suppliers will modify the way they number their products. An analyst needs to be able to forecast 
+the predictable changes that business users will desire and anticipate a wide range of future needs 
+when designing codes.
+Make Codes Meaningful. Unless the analyst wants to hide information intentionally, codes should 
+be meaningful. Effective codes not only contain information, but they also make sense to the 
+people using them. Meaningful codes are easy to understand, work with, and recall. The job of 
+data entry becomes more interesting when working with meaningful codes instead of just entering 
+a series of meaningless numbers.
+Using Codes. Codes are used in a number of ways. In validation programs, input data is checked 
+against a list of codes to ensure that only valid codes have been entered. In report and inquiry 
+programs, a code stored on a file is transformed into the meaning of the code. Reports and 
+displays should not show or print the actual code. If they did, the user would have to memorize 
+code meanings or look them up in a manual. Codes are used in GUI programs to create drop-
+down lists.
+EFFECTIVE AND EFFICIENT DATA CAPTURE
+To ensure the quality of data users enter into a system, it is important to capture data effectively. 
+Data capture has received increasing attention as the point in information processing at which 
+excellent productivity gains can be made. Great progress in improving data capture has been made 
+in the last four decades, as we have moved from multiple-step, slow, and error-prone systems such 
+as keypunching to sophisticated systems including such things as optical character recognition 
+(OCR), bar codes, and point-of-sale terminals.
+Deciding What to Capture
+The decision about what to capture precedes user interaction with the system. Indeed, it is vital 
+in making the eventual interface worthwhile, for the adage “garbage in, garbage out” is still true.
+Decisions about what data to capture for system input are made among systems analysts and 
+systems users. Much of what will be captured is specific to the particular business. Capturing data, 
+inputting them, storing them, and retrieving them are all costly endeavors. With all these factors 
+in mind, determining what to capture becomes an important decision.
+There are two types of data to enter: data that change or vary with every transaction, and data 
+that concisely differentiate the particular item being processed from all other items.
+An example of changeable data is the quantity of supplies purchased each time an advertis-
+ing firm places an order with the office supply wholesaler. Because quantities change depending 
+on the number of employees at the advertising firm and on how many accounts they are servicing, 
+quantity data must be entered each time an order is placed.
+An example of differentiation data is the inclusion on a patient record of the patient’s Social 
+Security number and the first three letters of their last name. In this way, the patient is uniquely 
+differentiated from other patients in the same system.
+Letting the Computer Do the Rest
+When considering what data to capture for each transaction and what data to leave to the system 
+to enter, a systems analyst must take advantage of what computers do best. For the advertising 
+agency ordering office supplies, it is not necessary for the operator entering the stationary order 
+to reenter each item description each time an order is received. The computer can store and access 
+this information easily.
+Computers can automatically handle repetitive tasks, such as recording the time of the 
+transaction, calculating new values from input, and storing and retrieving data on demand. By 
+employing the best features of computers, efficient data-capture design avoids needless data entry, 
+which in turn alleviates much human error and boredom and permits people to focus on higher-
+level or creative tasks. Software can be written to ask the user to enter today’s date or capture the
+
+
+===== BOOK PAGE 483 =====
+
+CHAPTER 15  •  DEsIgnIng A CCuRATE  D ATA  EnTR y PR oCEDuREs     483
+date from the computer’s internal clock. Once entered, the system proceeds to use that date on all 
+transactions processed in that data-entry session.
+A prime example of reusing data entered once is the Online Computer Library Center 
+(OCLC), used by thousands of libraries in the United States. OCLC was built on the idea that 
+each item bought by a library should have to be cataloged only once for all time. Once an item is 
+entered, cataloging information goes into the huge OCLC database and is shared with participating 
+libraries. In this case, implementation of the simple concept of entering data only once has saved 
+enormous data-entry time.
+The calculating power of the computer should be considered when deciding what not to reenter. 
+Computers are adept at long calculations, using data already entered. For example, a person doing 
+data entry may enter the flight numbers and account number of an air trip taken by a customer 
+belonging to a frequent-flyer incentive program. The computer then calculates the number of 
+miles accrued for each flight, adds it to the miles already in the customer’s account, and updates 
+the total miles accrued to the account. The computer also may flag an account that, by virtue 
+of the large number of miles flown, is now eligible for an award. Although all this information 
+may appear on the customer’s updated account, the only new data entered were the flight numbers 
+of the flights flown.
+In systems that use a graphical user interface, codes are often stored either as a function or  
+as a separate table in the database. There is a trade-off on creating too many tables because 
+the software must find matching records from each table, which may lead to slow access. If the  
+codes are relatively stable and rarely change, they may be stored as a database function.  
+If the codes change frequently, they are stored on a table for easy updating.
+Figure 15.13 shows how a drop-down list is used to select the codes for adding or changing 
+a record in the CUSTOMER table. Notice that the code is stored, but the drop-down list displays 
+both the code and the code meaning. This method helps to ensure accuracy because the user does 
+not have to guess at the meaning of the code and there is no chance of typing an invalid code.
+Avoiding Bottlenecks and Extra Steps
+A bottleneck in data entry is an apt allusion to the physical appearance of a bottle. Data are poured 
+rapidly into the wide mouth of the system only to be slowed in its “neck” because of an artificially 
+created instance of insufficient processing for the volume or detail of data being entered. One 
+way a bottleneck can be avoided is by ensuring that there is enough capacity to handle the data 
+being entered.
+Ways to avoid extra steps are determined not only at the time of analysis but also when users 
+begin to interact with prototypes of the system. The fewer steps involved in inputting data, the 
+FIGURE 15.13
+A table of codes used in a drop-
+down list shown in Microsoft 
+Access. This list is used to select 
+a code for adding or changing 
+an item in a record. (Used with 
+permission from Microsoft)
+
+
+===== BOOK PAGE 484 =====
+
+484    PART V  •  Qu ALITy  A ssuRAnCE AnD IMPLEMEnTATIon
+fewer chances there are for the introduction of errors. Beyond the obvious consideration of saved 
+labor, avoiding extra steps is a way to preserve the quality of data. Once again, use of an online, 
+real-time system that captures customer data without necessitating the completion of a form is an 
+excellent example of saving steps in data entry.
+Starting with a Good Form
+Effective data capture is achievable only if prior thought is given to what the source document 
+should contain. A data-entry operator inputs data from the source document (usually some kind 
+of form); this document is the source of a large amount of all system data. Online systems (or 
+special data-entry methods such as bar codes) may circumvent the need for a source document, 
+but often some kind of paper form, such as a receipt, is created anyway.
+With effective forms, it is not necessary to reenter information that the computer has already 
+stored, or data such as time or date of entry that the computer can determine automatically. 
+Chapter 12 discussed in detail how a form or source document should be designed to maximize its 
+usefulness for capturing data and to minimize the time users need to spend entering data from it.
+Choosing a Data-Entry Method
+Several efficient data-entry methods are available and choosing one of them is shaped by many 
+factors, including the need for speed, accuracy, and user training; the cost of the data-entry method 
+(whether it is materials or labor intensive); and the methods currently in use in the organization.
+Keyboards. Keyboarding is the oldest method of data entry, and certainly it is the one with 
+which organization members are most familiar. Some improvements have been made over the 
+years to improve keyboards. Features include special function keys to open programs, keys used 
+to scroll and explore the web, and keys that can be programmed with macros to reduce the number 
+of keystrokes required. Ergonomic keyboards and infrared or Bluetooth-enabled keyboards and 
+mice are big improvements as well.
+Bar Codes. Bar codes typically appear on product labels, and they also appear on patient iden-
+tification bracelets in hospitals and in almost any context in which a person or object needs to be 
+checked into and out of any kind of inventory system. Many bar-coded labels include information 
+for a particular product: the manufacturer identification number, the product identification number, 
+a code to verify the scan’s accuracy (such as a check-digit), and codes to mark the beginning and 
+end of the scan.
+Bar codes can be thought of as metacodes, or codes encoding codes, because they appear 
+as a series of bars or objects that encodes numbers or letters. These symbols in turn have access 
+to product data stored in computer memory. Until recently, scanners were needed to read linear 
+codes, or one-dimensional codes, but today the camera in mobile phones or the camera built into 
+your iPhone can read universal product codes (UPCs). An inexpensive app such as Delicious 
+Library (www.delicious-monster.com) can be used to scan one-dimensional bar codes and create 
+a database of all of your movies, music, books, software, or games.
+Matrix bar code squares are two-dimensional bar codes. They are still optical, machine-
+readable codes, and they take up much less space than the older linear bar codes. They are cheaper 
+than RFID tags (discussed in an upcoming section) and can appear in print. There are more than 
+30 different versions of these bar codes in existence. These different codes are known generally 
+as 2D bar codes. Both types of bar codes are shown in Figure 15.14. Users can get apps for their 
+mobile phones that will read these codes and direct them to their respective web pages.
+QR Codes. Quick response (QR) codes were first created in 1994 by DENSO WA VE, a Toyota 
+subsidiary at that time. QR codes have been used in Japan and South Korea for some time. They 
+are plentiful in the United States now and have the potential to become the dominant 2D bar code 
+in the world.
+A QR code is easily identifiable by the position marker (which looks like three nested squares) 
+that appears in three of its corners. QR codes are completely free as the license holder has chosen 
+not to exercise their rights.
+2D code readers feature a couple of codes but are likely to be able to read a QR code. You 
+can easily find more QR creators.
+
+
+===== BOOK PAGE 485 =====
+
+CHAPTER 15  •  DEsIgnIng A CCuRATE  D ATA  EnTR y PR oCEDuREs     485
+Rutgers Law School is a leading national school for legal education. The Rutgers Camden 
+Information Technology Department development team generates QR codes for all school events 
+and electronically sends them to the school’s digital signage system. Each code provides the user 
+with a link to the event’s web page, giving users a way to easily view event data, register for an 
+event, and add the event to a mobile calendar.
+QR codes are being placed outside student study rooms as well, allowing students to self-
+schedule reservations and activate video recording capabilities. Study room recordings of practice 
+sessions are then sent to the student’s mobile device and can be viewed instantly. QR codes can 
+be used in imaginative ways. Figure 15.15 lists some ideas.
+There are many advantages to incorporating 2D codes in your designs. Almost everyone in 
+business already owns and uses a device (such as a smartphone) that can read different types of 
+bar codes. The 2D codes are either nonproprietary or free. Barcoding affords an extraordinarily 
+high degree of accuracy for data entry. Furthermore, 2D codes can be generated easily by using 
+a Web-based creator or a stand-alone app.
+One of the disadvantages of 2D codes is the ease with which a printed code can be stickered 
+over or tampered with. There is growing concern that users of smartphones are vulnerable to 
+malicious attacks launched when an unsuspecting user scans QR codes indiscriminately without 
+checking whether the QR code is a genuine, authorized one. Some QR codes have built-in security 
+that permit Android or iOS users to scan a code and find out instantly whether it is malicious or will 
+cause users to go to a malicious website before it is loaded into the user’s browser. Unfortunately, 
+many users and even designers are unaware of the potential risks of bar codes, which means you 
+must remain vigilant regarding what websites the QR code is directing users to.
+RFID. Radio frequency identification (RFID) allows the automatic collection of data. It uses 
+RFID tags or transponders, each of which contains a chip and an antenna. An RFID tag may or 
+FIGURE 15.14
+Examples of one-dimensional and 
+two-dimensional bar codes.
+One-Dimensional UPC Code
+Two-Dimensional QR Code
+FIGURE 15.15
+Two-dimensional bar codes 
+can be used in many ways.
+QR Codes Can
+•  Take you to a speciﬁc web page
+•  Find the item you want for purchase at a lower price
+•  Initiate an email, SMS text message, or make a phone call
+•  Find and capture a digital coupon
+•  Use a digital coupon
+•  Tell you more about the art gallery painting you are gazing at
+•  Get you information about the time and place of an event
+•  Show you a promotional video for a movie, play, or concert
+•  Allow you to view or extend the amount of money on a transit card
+
+
+===== BOOK PAGE 486 =====
+
+486    PART V  •  Qu ALITy  A ssuRAnCE AnD IMPLEMEnTATIon
+may not have its own power source. If it does not have its own power, the antenna provides just 
+enough power from an incoming signal to power the chip and transmit a response. RFID tags can 
+be attached to products, packages, animals, and even humans so that the item or person can be 
+identified using a radio frequency.
+RFID tags, also called proximity cards because of their limited range, can be passive or active. 
+Passive RFID tags have no internal power source; active tags do. Passive tags are inexpensive (less 
+than 5 cents per tag) and are typically the size of a postage stamp. They are used in large retail 
+stores, including Walmart and Target. Walmart has been actively pursuing RFID technology 
+in improving its inventory management and supply-chain processes. RFID tags can be used to 
+transmit data to a blockchain that securely stores, shares, and updates a supply chain.
+Active tags are much more reliable than passive ones because they have their own power 
+supply. The U.S. Department of Defense has used these tags to minimize logistics costs and to 
+increase supply-chain visibility. Active tags cost a few dollars each.
+To capture the data on an RFID tag, a reader is required. The reader activates the tag so that 
+it can be read. The reader decodes the data and the unique product code on the chip inside the tag 
+and passes it along to a host computer that processes the data.
+One example is an electronic toll pass used in vehicles traversing toll roads. An RFID 
+transponder can be attached to the windshield and read every time the vehicle passes through a 
+tollbooth. The tollbooth’s RFID reader can also act as a writer to store a balance on the RFID chip.
+The Moscow Metro was the first transportation system to use RFID smartcards in 1998. Other 
+applications include tracking cattle to identify the herd of origin, which enables better tracking 
+of mad cow disease, and RFID tracking in bookstores, airline baggage services, pharmaceuticals, 
+and even tracking patients or inmates.
+RFID tags have found common use in most shipping applications. The technology will soon 
+be used in general electronic cash transactions. They may even replace UPCs because their advan-
+tages include security (reducing the number of items stolen) and not requiring scanning (they can 
+simply pass through the reader zone).
+RFID is not without controversy. Privacy is a concern. An individual who pays for a tagged 
+item using a credit card or a shoppers’ card could be identifiable with such a system.
+A systems analyst needs to think of the users involved and their rights when considering 
+whether this technology is suited for an application.
+Near Field Communication.  Another approach to inputting data is near field communication 
+(NFC), which builds upon RFID. NFC allows two-way communication and is used in contactless 
+payment systems at checkout counters and other venues. Customers simply use a smartphone such 
+as an Android with Google Pay or an Apple device (such as an Apple watch or iPhone) to touch 
+or come close to the point-of-sale device to establish radio communications.
+NFC can be used for payment on transportation systems, to exchange information (such as 
+a schedule or map), receive custom coupons, or exchange business cards. It is considered secure 
+because of its short range of communication and the complexity of its security layers.
+Optical Character Recognition. Optical character recognition (OCR) lets a user read input 
+from a source document (handwritten or printed) with an optical scanner rather than off the mag-
+netic media we have been discussing so far. Using OCR devices can speed data input from 60 to 
+90 percent over some keying methods.
+The increased speed of OCR comes through not having to encode or key in data from 
+source documents. It eliminates many of the time-consuming and error-fraught steps of other 
+input devices. In doing so, OCR demands few employee skills and commensurately less training, 
+resulting in fewer errors and less time spent by employees in redundant efforts. It also decen-
+tralizes responsibility for quality data directly to the unit that is generating it. OCR, which has 
+become available to all, has one additional, highly practical use: the transformation of faxes into 
+documents that can be edited. (Note that although faxes have been replaced by many other input 
+and output technologies, they are still stubbornly dispersed throughout businesses such as private 
+medical offices, law enforcement agencies, and even fast-food delivery restaurants, so they still 
+are serving a purpose in many businesses.)
+Magnetic Ink Character Recognition. Magnetic ink characters are found on the bottom of bank 
+checks and some credit card bills. This method is akin to OCR in that special characters are read,
+
+
+===== BOOK PAGE 487 =====
+
+CHAPTER 15  •  DEsIgnIng A CCuRATE  D ATA  EnTR y PR oCEDuREs     487
+but its use is limited. Data entry through magnetic ink character recognition (MICR) is done 
+through a machine that reads and interprets a single line of material encoded with ink that is made 
+up of magnetic particles.
+Some advantages of using MICR are that (1) it is a reliable and high-speed method not sus-
+ceptible to accepting stray marks (because they are not encoded magnetically); (2) if it is required 
+on all withdrawal checks, it serves as a security measure against bad checks; and (3) data-entry 
+personnel can see the numbers making up the code if it is necessary to verify the account number 
+and check number.
+Mark-Sense Forms. Mark-sense forms allow data entry through the use of a scanner that senses 
+where marks have been made on special forms. A common usage is for scoring response sheets 
+for questionnaires, as shown in Figure 15.16. Little training of data-entry personnel is necessary, 
+and a high volume of forms can be processed quickly.
+One drawback of mark-sense forms is that readers can determine whether a mark has been 
+made but cannot interpret the mark in the way optical character readers do. Stray marks on forms 
+FIGURE 15.16
+A mark-sense form that can 
+be read by a scanner speeds 
+data entry.
+DIRECTIONS FOR MARKING
+Make heavy black marks that ﬁll the circle completely.
+Erase cleanly any answer you wish to change—make no stray marks.
+Examples of PROPER marks                          Examples of IMPROPER marks
+1. What levels of people do you primarily serve in your work?
+managers
+supervisors; forepersons
+other salaried
+hourly
+volunteers
+2. Total size of the organization you serve:
+less than 1,000 15,000–25,000
+1,000–5,000 more than 25,000
+5,000–15,000
+3. What training and development techniques     
+do you use? (Please mark each technique.)
+lecture with or without media
+ﬁlms
+videotape closed-circuit TV
+discussions (cases, issues, etc.)
+role-playing
+behavior modeling
+simulation; advanced gaming
+on-the-job training
+job rotation
+internships; assistantships
+organization development techniques
+other     
+0 1 2 3 4 5
+0 1 2 3 4 5
+0 1 2 3 4 5
+0 1 2 3 4 5
+0 1 2 3 4 5
+0 1 2 3 4 5
+0 1 2 3 4 5
+0 1 2 3 4 5
+0 1 2 3 4 5
+0 1 2 3 4 5
+0 1 2 3 4 5
+0 1 2 3 4 5
+5.  A Most Signiﬁcant Part
+4.  A Major Part
+3.  A Substantial Part
+2.  A Smaller Part
+1.  A Minor Part
+0.  Does Not Apply
+
+
+===== BOOK PAGE 488 =====
+
+488    PART V  •  Qu ALITy  A ssuRAnCE AnD IMPLEMEnTATIon
+can be entered as incorrect data. In addition, choices are limited to the answers provided on the 
+mark-sense form, forms have difficulty capturing alphanumeric data because of the space required 
+for a complete set of letters and numbers, and it is easy for those filling out mark-sense forms to 
+get confused and put a mark in an incorrect position.
+ENSURING DATA QUALITY THROUGH INPUT VALIDATION
+So far, we have discussed ensuring the effective capture of data onto source documents and the 
+data’s efficient entry into the system through various input devices. Although these conditions are 
+necessary for ensuring quality data, they alone are not sufficient.
+Errors cannot be ruled out entirely, and the critical importance of catching errors during 
+input, prior to processing and storage, cannot be overemphasized. The snarl of problems created 
+by incorrect input can be a nightmare, not the least of which is that many problems take a 
+long time to surface. The systems analyst must assume that errors in data will occur and must 
+work with users to design input validation tests to prevent erroneous data from being processed 
+and stored because initial errors that go undiscovered for long periods are expensive and time-
+consuming to correct.
+You cannot imagine everything that will go awry with input, but you must cover the kinds of 
+errors that give rise to the largest percentage of problems. A summary of potential problems that 
+must be considered when validating input is given in Figure 15.17.
+Validating Input Transactions
+Validating input transactions is largely done through software, which is a programmer’s respon-
+sibility, but it is important that a systems analyst know what common problems might invalidate 
+a transaction. Businesses committed to quality will include validity checks as part of their routine 
+software.
+Three main problems can occur with input transactions: submitting the wrong data to the 
+system, an unauthorized person submitting data, or asking the system to perform an unacceptable 
+function.
+each invoice the date we fill the order, code numbers for the hamlet 
+kits they order, a description of each kit, the price per item, and the 
+quantity of each kit ordered. Of course, we also include the subtotals 
+of kit charges, shipping charges, and the total that the warehouse 
+owes us. No sales tax is added because they resell what we send 
+them to toy stores in all 50 U.S. states and Puerto Rico. I want you 
+to help us design a computerized order entry system that will be part 
+of the invoicing system for Elsinore Industries.”
+For your design of a data-entry system for Elsinore, take into 
+consideration all the objectives for data entry discussed throughout 
+this chapter. Draw any displays necessary to illustrate your design. 
+How can you make the order-entry system efficient? Respond in a 
+paragraph. Specify what data can be stored and retrieved and what 
+data must be entered anew for each order. How can unnecessary 
+work be avoided? Write a paragraph to explain why the system you 
+propose is more efficient than the old one. How can data accuracy 
+be ensured? List three strategies that will work with the type of data 
+that are being entered for Elsinore Industries.
+CONSULTING OPPORTUNITY 15.3 
+To Enter or Not to Enter: That Is the Question
+“I’ve just taken on the presidency of Elsinore Industries,” says 
+Rose N. Krantz. “We’re part of a small cottage industry that manu-
+factures imaginative toy villages for children seven years old and 
+up. Our tiny hamlets consist of various kits that will build whatever 
+children want from interlocking plastic cubes, essentials such as 
+city hall, the police station, the gas station, and an orange juice 
+stand. Each kit has a unique part number from 200 to 800, but not 
+every number is used. The wholesale prices vary from $54.95 for 
+the city hall to $1.79 for an orange juice stand.
+“I’ve been melancholy over what I’ve found out since signing 
+on at Elsinore. ‘Something is rotten’ here, to quote a famous play-
+wright. In fact, the invoicing system was so out of control that I’ve 
+been working around the clock with our bookkeeper, Gilda Stern,” 
+Krantz soliloquizes.
+“I would like you to help straighten things out,” Rose continues. 
+“We ship to 12 distribution warehouses around the country. Each 
+invoice we write out includes the warehouse number, 1 through 12, 
+its street address, and the U.S. postal code (zip code). We also put on
+
+
+===== BOOK PAGE 489 =====
+
+CHAPTER 15  •  DEsIgnIng A CCuRATE  D ATA  EnTR y PR oCEDuREs     489
+Submitting the Wrong Data. An example of submitting the wrong data to the system is the attempt 
+to input a patient’s Social Security number into a hospital’s payroll system. This error is usually 
+an accidental one, but it should be flagged before data are processed.
+An Unauthorized Person Submitting Data. A system should be able to discover whether otherwise 
+correct data are submitted by an unauthorized person. For instance, only the supervising pharma-
+cist should be able to enter inventory totals for controlled substances in the pharmacy. Invalidation 
+of transactions submitted by an unauthorized individual applies to privacy and security concerns 
+surrounding payroll systems and employee evaluation records that determine pay levels, promo-
+tions, or discipline; files containing trade secrets; and files holding classified information, such 
+as national defense data.
+Asking the System to Perform an Unacceptable Function. The third error that invalidates input 
+transactions is asking the system to perform an unacceptable function. For instance, it would be 
+logical for a human resources manager to update the existing record of a current employee, but 
+it would be invalid to ask the system to create a new file rather than merely to update an existing 
+record.
+Validating Input Data
+It is essential that input data themselves, along with the transactions requested, be valid. Several 
+tests can be incorporated into software to ensure this validity. In the following subsections, we 
+consider a number of possible ways to validate input: test for missing data, test for correct 
+field length, test for class or composition, test for range or reasonableness, test for invalid 
+values, cross-reference checks, test for comparison with stored data, self-validating codes, 
+and credit card verification.
+Test for Missing Data. The first kind of validity test examines data to see if there are any missing 
+items. For some situations, all  data items must be present. For example, a Social Security file 
+for paying out retirement or disability benefits would be invalid if it did not include the payee’s 
+Social Security number.
+In addition, the record should include both the key data that distinguish one record from all 
+others and the function code telling the computer what to do with the data. A systems analyst 
+needs to interact with users to determine what data items are essential and to find out whether 
+exceptional cases ever occur that would allow data to be considered valid even if some data items 
+were missing. For example, a second address line containing an apartment number or a person’s 
+middle initial may not be a required entry.
+Test for Correct Field Length. A second kind of validity test checks input to ensure it is of the 
+correct length for the field. For example, if the Omaha, Nebraska, weather station reports into 
+the National Weather Service computer but mistakenly provides a two-letter city code (OM) 
+instead of the national three-letter city code (OMA), the input data might be deemed invalid, and 
+hence would not be processed.
+FIGURE 15.17
+Validating input is important 
+to ensure that most potential 
+problems with data are 
+eliminated early.
+This Type of
+Validation Can Prevent These Problems
+Validating Input
+Transactions
+Validating Input
+Data
+Submitting the wrong data
+Data submitted by an unauthorized
+person
+Asking the system to perform an
+unacceptable function
+Missing data
+Incorrect ﬁeld length
+Data have unacceptable composition
+Data are out of range
+Data are invalid
+Data do not match with stored data
+
+
+===== BOOK PAGE 490 =====
+
+490    PART V  •  Qu ALITy  A ssuRAnCE AnD IMPLEMEnTATIon
+Test for Class or Composition. The test for class or composition validity checks to see that data 
+fields that are supposed to be exclusively composed of numbers do not include letters, and vice 
+versa. For example, a credit card account number for American Express should not include any 
+letters. Using a composition test, the program should not accept an American Express account 
+number that includes both letters and numbers.
+Test for Range or Reasonableness. Validity tests for range or reasonableness are really com-
+monsense measures of input that answer the question of whether data fall within an acceptable 
+range or whether they are reasonable within predetermined parameters. For instance, if a user were 
+trying to verify a proposed shipment date, the range test would neither permit a shipping date on 
+the 32nd day of October nor accept shipment in the 13th month, the respective ranges being 1 to 
+31 days and 1 to 12 months.
+A reasonableness test ascertains whether the item makes sense for the transaction. For 
+example, when adding a new employee to the payroll, entering an age of 120 years would not 
+be reasonable. Reasonableness tests are used for data that are continuous, that is, data that have 
+a smooth range of values. These tests can include a lower limit, an upper limit, or both a lower 
+and an upper limit.
+Test for Invalid Values. Checking input for invalid values works if there are only a few valid 
+values. This test is not feasible for situations in which values are neither restricted nor predict-
+able. This kind of test is useful for checking responses where data are divided into a limited 
+number of classes. For example, a brokerage firm divides accounts into three classes only: class 
+=1 active acco unt, =clas s2 inactive account , and =clas s3 closed account . If data are 
+assigned to any other class through an error, the values are invalid. V alue checks are usually 
+performed for discrete data, which are data that have only certain values. If there are many values, 
+they are usually stored in a table of codes file. Having the values in a file provides an easy way 
+to add or change values.
+Cross-Reference Checks. Cross-reference checks are used when one element has a relationship 
+with another one. To perform a cross-reference check, each field must be correct in itself. For 
+example, the price for which an item is sold should be greater than the cost paid for the item. Price 
+must be entered, numeric, and greater than zero. The same criterion is used to validate cost. When 
+both price and cost are valid, they may be compared.
+A geographical check is another type of cross-reference check. In the United States, the state 
+abbreviation may be used to ensure that the first two digits of the zip code are valid for the state.
+Test for Comparison with Stored Data. The next test for validity of input data that we consider 
+is one comparing it with data that the computer has already stored. For example, a newly entered 
+part number can be compared with the complete parts inventory to ensure that the number exists 
+and is being entered correctly.
+Setting up Self-Validating Codes (Check Digits). Another method for ensuring the accuracy of 
+data, particularly identification numbers, is to use a check digit in the code itself. Suppose the 
+part number 53411 needed to be typed into the system. While that is being entered, different types 
+of errors can occur. One possible error is a miskeying a single digit: for example, the clerk types 
+in 54411 instead of 53411. A second type of error is a transposed digit; it commonly occurs when 
+the intended number 53411 gets typed in as number 54311 just because two keys are pressed in 
+reverse order. Transposition errors are difficult for humans to detect.
+The procedure for using a check digit involves beginning with an original numeric code, 
+performing some mathematics to arrive at a derived check digit, and then adding the check digit 
+to the original code. The mathematical process involves multiplying each of the digits in the 
+original code by some predetermined weights, summing these results, and then dividing this sum 
+by a modulus number. The modulus number is needed because the sum is usually a large number, 
+and we need to reduce the result to a single digit. Finally, the remainder is subtracted from the 
+modulus number, giving us the check digit. A well-known formula for check digits is the Luhn 
+formula created in the 1960s. Credit card companies use it, as described next.
+Verifying Credit Cards. When credit cards are entered into a website or a computer program, the 
+first check is the length of the number. Credit card companies designed their cards to include a
+
+
+===== BOOK PAGE 491 =====
+
+CHAPTER 15  •  DEsIgnIng A CCuRATE  D ATA  EnTR y PR oCEDuREs     491
+different number of digits. For example, Visa cards are 16 digits long, and American Express card 
+numbers are 15 digits long.
+Another test is to match the credit card company and bank to verify that it is indeed a card 
+issued by that company. The first four digits usually signify the type of card. The middle digits 
+usually represent the bank and the customer. The last digit is a check digit.
+In addition to these verification methods, the Luhn formula can be used. Suppose we are 
+given a number 7-7-7-8-8-8, where the first five numbers represent a bank account number, 
+and the last digit is a check digit. Let’s apply the Luhn formula to see whether this is a valid 
+number:
+1. Double the second-last digit, then double every other digit (that is, skip a digit, double the 
+next, skip a digit, double the next, etc.). For example, the number 7-7-7-8-8-8 becomes 
+14-7-14-8-16-8.
+2. If doubling any digit results in a number that is larger than 10, reduce this two-digit 
+number to a single digit by adding the numbers together. In our example, the 14 becomes 
++=14 5 and the 16 becomes +=16 7. In doing so, our original number, 7-7-7-8-8-8, 
+has been transformed into a new number, 5-7-5-8-7-8.
+3. Now add all the digits in the new number together: ++ ++ +=57 58 78 40.
+4. Look at the total. If it ends in zero, the number is valid according to the Luhn formula. The 
+number 40 ends in zero, so we can say that it passes the Luhn formula test.
+The Luhn formula can be used to identify mistakes in entering an incorrect credit card. For 
+example, the credit card number 1334-1334-1334-1334 is assumed to be valid because the digits 
+of the transformed number 2364-2364-2364-2364 add up to 60, a number ending in zero. If a user 
+incorrectly enters a wrong digit, the total would not be a multiple of zero.
+The Luhn formula does not catch every error, however. If a user makes mistakes in entering 
+more than one digit, for example entering 1334-1334-1334-3314, the total of the transformed 
+number, 2364-2364-2364-6324, is still 60. This transposition error (flipping the second-last and 
+fourth-last digits) will not be caught.
+Credit card companies also use the expiration date and a three- or four-digit verification code, 
+often written on the reverse side of the card for more security.
+The tests for checking on validity of input can go a long way toward protecting a system 
+from the entry and storage of erroneous data. As a systems analyst, you should always assume 
+that human errors in input are more likely than not to occur. It is your responsibility to understand 
+which errors will invalidate data and how to use a computer to guard against those human errors 
+and thus limit their intrusion into system data.
+The Process of Validation
+It is important to validate each field until it is either valid or an error has been detected. The order 
+of testing data is to first check for missing data. Then a syntax test can check the length of the  
+data entered and check for proper class and composition. Only after the syntax is correct are 
+the semantics, or meaning, of the data validated. This includes a range, reasonable, or value test, 
+followed by a check digit test.
+GUI screens help reduce the number of human input errors when they incorporate radio 
+buttons, check boxes, and drop-down lists. When radio buttons are used, one should be set as 
+the default, and the only way it can be unchecked is if the user chooses a different radio button. 
+In the case of drop-down lists, the first choice should contain a message informing the user to 
+change the list. If the first choice is still selected when the form is submitted, a message should 
+inform the user to select a different option.
+Validating a single field is usually done with a series of IF . . . ELSE statements, but there 
+are also pattern validation methods. These patterns can be found in the database design (as in 
+Microsoft Access) but may be included in programming languages such as Perl, JavaScript, and 
+XML schemas. The patterns are called regular expressions and contain symbols that represent the 
+type of data that must be present in a field. Figure 15.18 illustrates characters used in JavaScript 
+regular expressions.
+Here is an example of pattern validation used to test an email address:
+[A-Za-z0-9]\w{2,}@[A-Za-z0-9]{3,}\.[A-Za-z]{3}/
+
+
+===== BOOK PAGE 492 =====
+
+492    PART V  •  Qu ALITy  A ssuRAnCE AnD IMPLEMEnTATIon
+The first letter must be any uppercase letter, lowercase letter, or number ([A-Za-z0-9]). This is 
+followed by two or more characters that are any letter, number, or an underscore (\w{2,}). There 
+must then be an @ symbol, followed by at least three letters or numbers, a period, and exactly 
+three characters after the period.
+A cross-reference check assumes that the validity of one field may depend on the value of 
+another field. An example of a cross-reference check is checking for a valid date. In one very 
+special case, the validity of the day of the month depends on the year: February 29 is valid only 
+during leap years. Once single fields have been checked, cross-reference checks can be performed. 
+Obviously, if one of the fields is incorrect, the cross-reference check is meaningless and should 
+not be performed.
+XML documents may be validated by comparing them to a document type definition (DTD) 
+or a schema (refer to Chapter 8). The DTD will check to see whether the format of the document 
+is valid, but a schema is much more powerful and will check the type of data, such as a short or 
+long integer, a decimal number, or a date. A schema also checks a range of values, the number 
+of digits to the left and right of a decimal point, and the values of codes. Free tools are available 
+to validate a DTD or schema.
+DATA ACCURACY ADVANTAGES IN  
+ECOMMERCE ENVIRONMENTS
+One of the many bonuses of ecommerce transactions is increased accuracy of data, due to four 
+reasons:
+1. Customers generally key or enter data themselves.
+2. Data entered by customers are stored for later use.
+3. Data entered at the point of sale are reused throughout the order fulfillment process.
+4. Information is used as feedback to customers.
+An analyst needs to be aware of the advantages that have resulted from ecommerce and the 
+electronic capture and use of information.
+FIGURE 15.18
+These characters are used in 
+regular expression (pattern) 
+validation.
+Character
+Code
+Meaning Used in Regular
+Expression Validation
+\d
+\D
+\w
+\W
+.
+[characters]
+[char-char]
+[a–z][A–Z][0–9]
+[^characters]
+[^char-char]
+[^a–z]
+{n}
+{n,}
+\s
+\S
+Any digit 0–9
+Any nondigit character
+Any letter, number, or underscore
+Any character other than a letter, number,
+or underscore
+Matches any character
+Matches the characters in the brackets
+Matches the range of characters
+Will accept any letter or digit
+Match anything other than the characters
+Match anything outside the range of characters
+Will accept anything except lowercase letters
+Match exactly n occurrences of the preceding
+character
+Match at least n occurrences of the character
+Any white space formatting character
+(tab, new line, return, etc.)
+Any nonwhite space character
+
+
+===== BOOK PAGE 493 =====
+
+CHAPTER 15  •  DEsIgnIng A CCuRATE  D ATA  EnTR y PR oCEDuREs     493
+Customers Keying Their Own Data
+First, customers know their own information better than anyone else. They know how to spell 
+their street address, they know whether they live on a “Drive” or a “Street,” and they know their 
+own area code. If this information is transmitted by phone, it is easier to make a mistake spelling 
+the address. If users enter their own information, however, accuracy increases.
+Storing Data for Later Use
+After customers enter information at an ecommerce site, it may be stored on their own personal 
+computers. Developers should use UX (user experience) design and should be especially attentive 
+to creating a user experience that is functional and accurate for ecommerce transactions. If users 
+visit ecommerce sites and fill out similar forms to complete a transaction, they will experience 
+the advantage of storing this information. As they begin to type their name, drop-down lists will 
+prompt them with their full name even though only a couple of characters were entered. By 
+clicking on this prompt, the full name is entered, and no further typing is necessary for this field. 
+This is called autocomplete or autosuggestion.
+Companies that want to store information to enable faster and more accurate transactions 
+do so in small files called cookies. Once information is stored in a cookie, a website can suggest 
+matches for credit card and password information as well, and this information is encrypted so 
+websites cannot read the information stored on the user’s computer. Personal information can only 
+be accessed by the company that placed the cookie on the user’s computer.
+Using Data through the Order Fulfillment Process
+When companies capture information from a customer order, they can use and reuse that infor -
+mation throughout the order fulfilment process. Hence, the information gathered to complete an 
+order can be used to send an invoice to a customer, obtain the product from the warehouse, ship 
+the product, send feedback to the customer, and restock the product by notifying the manufacturer. 
+It can be used again to send a printed paper catalog to the customer or to send a special offer by 
+email as well.
+These ecommerce enhancements replace the traditional approach of using a paper-based 
+procurement process with purchase orders sent via mail or fax. This electronic process not only 
+speeds up the delivery of the product but also increases accuracy, ensuring the product is deliv-
+ered to the correct address. Rather than reading a mailed-in form or fax, a shipper uses the more 
+accurate electronic version of the data. Electronic information allows better supply-chain man-
+agement, including checking product and resource availability electronically and automating 
+planning, scheduling, and forecasting, and is required when setting up a blockchain to share and 
+secure supply-chain information.
+Providing Feedback to Customers
+Confirmations and order status updates are ways to enhance feedback to customers. If a customer 
+receives confirmation of a mistake in an order just placed, the order can be corrected immediately. 
+For example, suppose a customer mistakenly submits an order for pairs of jeans from Amazon, 
+but was only intending to purchase one. After submitting the order, the customer receives an 
+email from Amazon confirming the order. The customer notices the mistake, immediately goes 
+back online, and has the order corrected, thereby avoiding having to return the extra pair of jeans. 
+Accuracy is improved by better feedback.
+Summary
+Ensuring the quality of the data input to an information system is critical to ensuring quality output. The 
+quality of data entered can be improved through effective coding, effective and efficient data capture, and 
+the validation of data.
+Data entry by humans can be speeded up through effective use of coding, which puts data into 
+short sequences of digits and letters. Both simple sequence codes and alphabetic derivation codes can be 
+used to follow the progress of a given item. Classification codes and block sequence codes are useful for
+
+
+===== BOOK PAGE 494 =====
+
+494    PART V  •  Qu ALITy  A ssuRAnCE AnD IMPLEMEnTATIon
+distinguishing classes of items from each other. Cipher codes are useful for concealing information that is 
+sensitive or is restricted to employees.
+Codes may be used to reveal information to users and to enable employees to locate items in stock and 
+also make data entry more meaningful. Significant-digit subset codes use subgroups of digits to describe a 
+product. Mnemonic codes reveal information by serving as human memory aids that can help a data-entry 
+operator enter data correctly or help the user. The Unicode character set includes all standard language 
+symbols. You can display web pages written in other alphabets by downloading an input method editor from 
+Microsoft. Function codes are useful shortcuts for informing computers or people about what functions to 
+perform or what actions to take.
+Effective data entry should consider input devices. Creating a well-designed, effective form that serves 
+as a source document is the first step. Data can be input through many different methods, each with varying 
+speed and reliability. Keyboards have been redesigned for efficiency and improved ergonomics. Optical 
+character recognition, magnetic ink character recognition, and mark-sense forms each have special capacities 
+for improving efficiency. Bar codes speed data entry, improve data accuracy, and increase reliability. Quick 
+response (QR) codes are becoming popular and efficient ways to direct users to information or to promotional 
+websites. Many QR code scanner apps are available for smartphones, allowing users to interact easily with QR 
+codes. RFID allows the automatic collection of data using RFID tags on products, people, or animals. They can 
+improve inventory management and supply-chain processes and can support the use of blockchain technology.
+Accurate data entry can be enhanced through the use of input validation. Analysts must work with users 
+to design input validation tests to prevent erroneous data from being processed and stored, which is costly 
+and potentially detrimental.
+Input transactions should be checked to ensure the request is acceptable, authorized, and correct. Input 
+data can be validated through software using several types of tests that check for missing data, length of data 
+items, range and reasonableness of data, and invalid values for data. Input data can be compared with stored 
+data for validation purposes. Once numerical data are input, they can be checked and corrected automatically 
+through the use of check digits and the Luhn formula.
+There is a set order for the testing of data to validate each field. There are also pattern validation methods 
+found in the database design or included in programming languages. The patterns are called regular expres-
+sions and contain symbols that represent the type of data that must be present in a field.
+Ecommerce environments afford the opportunity for increasing accuracy of data. With proper emphasis 
+on UX design, customers can enter their own data, store data for later use, use the same stored data through-
+out the order fulfillment process, and receive feedback regarding order confirmations and updates.
+Keywords and Phrases
+alphabetic derivation code
+autocomplete feature
+bar code
+block sequence code
+bottleneck
+changeable data
+check digit
+cipher code
+classification code
+coding
+cookies
+cross-reference check
+differentiation data
+function code
+keyboarding
+Luhn formula
+magnetic ink character recognition (MICR)
+mark-sense form
+mnemonic code
+near field communication (NFC)
+optical character recognition (OCR)
+quick response (QR) code
+radio frequency identification (RFID)
+regular expression
+self-validating code
+significant-digit subset code
+simple sequence code
+supply-chain management
+test for class or composition
+test for comparison with stored data
+test for correct field length
+test for invalid values
+test for missing data
+test for range or reasonableness
+two-dimensional bar code
+Unicode
+validating input
+Review Questions
+1. What are the four primary objectives of data entry?
+2. List the five general purposes for coding data.
+
+
+===== BOOK PAGE 495 =====
+
+CHAPTER 15  •  DEsIgnIng A CCuRATE  D ATA  EnTR y PR oCEDuREs     495
+3. Define simple sequence code.
+4. When is an alphabetic derivation code useful?
+5. Explain what is accomplished with a classification code.
+6. Define block sequence code.
+7. What is the simplest type of code for concealing information?
+8. What are the benefits of using a significant-digit subset code?
+9. What is the purpose of using a mnemonic code for data?
+10. Define function code.
+11. List eight general guidelines for proper coding.
+12. What are changeable data?
+13. What are differentiation data?
+14. What is one specific way to reduce the redundancy of data being entered?
+15. Define the term bottleneck as it applies to data entry.
+16. What three repetitive functions of data entry can be done more efficiently by a computer than by a 
+data-entry operator?
+17. List six data-entry methods.
+18. List the three main problems that can occur with input transactions.
+19. What is a QR code?
+20. What are the main functions of two-dimensional bar codes?
+21. List two ways developers can include QR codes in their designs.
+22. Define RFID. What are the differences between active and passive RFID tags?
+23. Give two examples of the use of RFID tags in process or inventory management in retail or health 
+care environments.
+24. What are eight tests for validating input data?
+25. Which test checks to see whether data fields are correctly filled in with either numbers or letters?
+26. What common error is missed by the Luhn formula test?
+27. Which test would not permit a user to input a date such as October 32?
+28. Which test ensures data accuracy by the incorporation of a number in the code itself?
+29. List four improvements to data accuracy that transactions conducted over ecommerce websites can 
+offer.
+30. What is Unicode, and how is it used?
+31. What is the process for validating data entered into fields?
+32. What is a regular expression?
+Problems
+1. Savadove University, a small, highly selective private college specializing in graduate programs for 
+the performing arts, needs to keep track of the list of students who (a) apply, (b) are accepted, and 
+(c) actually enroll in master’s and doctoral programs at the university. For financial aid purposes, the 
+university also must send a report to the federal student aid program to match with a list of students 
+who receive loans but fail to register for a graduate program. Suggest a kind of code for this purpose 
+and give an example of its use for Savadove University that demonstrates its appropriateness. What 
+are its advantages?
+2. The Central Pacific University Chipmunks college football team has been using a simple sequence 
+code to keep track of season ticket holders and fans who attend games but who are not season ticket 
+holders for all of its sports programs. There have been some upsetting mix-ups. In a paragraph, 
+suggest a different coding scheme that will help uniquely identify each ticket holder and explain  
+how it will prevent mix-ups.
+3. A code used by an ice cream store to order its products is 12DRM215-220. This code is deciphered 
+in this manner: 12 stands for the count of items in the box, DRM stands for Dreamcicles (a particular 
+kind of ice cream novelty), and 215-220 indicates the entire class of low-fat products carried by the 
+distributor.
+a. What kind of code is used? Describe the purpose behind each part of the code (12, DRM, 
+215-220).
+b. Construct a coded entry using the same format and logic for an ice cream novelty called Pigeon 
+Bars, which come in a six-count package and are not low-fat.
+c. Construct a coded entry using the same format and logic for an ice cream novelty called Airwhips, 
+which come in a 24-count package and are low-fat.
+4. The data-entry operators at Melanie Julian Construction have been making errors when entering  
+the codes for residential siding products, which are as follows: =Us tUcco , =AA luminum ,
+
+
+===== BOOK PAGE 496 =====
+
+496    PART V  •  Qu ALITy  A ssuRAnCE AnD IMPLEMEnTATIon
+== =Rb Rick ,M Masonite ,E ZE Z color-lok enameled masonite, =NN atur al wood siding , 
+=AI pAIntedf inis h, =SH SHak eS Hingles . Only one code per address is permitted.
+a. List the possible problems with the coding system that could be contributing to erroneous entries. 
+(Hint: Are the classes mutually exclusive?)
+b. Devise a mnemonic code that will help the operators understand what they are entering and subse-
+quently help their accuracy.
+c. How would you redesign the classes for siding materials that have been classified into two classes, 
+fireproof and fire resistant? Respond in a paragraph.
+d. Some of the materials coded in Problem 4a above (natural wood siding, brick, shake shingles, and 
+EZ color-lok enameled Masonite) are being used in innovative ways for scenic design for stage 
+plays by some of the consultants for Melanie Julian Construction. Develop a code for the residen-
+tial products you coded in Problem 4b above so consultants will recognize that they can be used 
+on stage for scenic design as well.
+5. The following is a code for one product in an extensive cosmetic line: L02002Z621289NA. L means 
+that it is a lipstick, 0 means it was introduced without matching nail polish, 2002 is a sequence code 
+indicating in what order it was produced, Z is a classification code indicating that the product is 
+hypoallergenic, 621289 is the number of the plant (there are 15 plants) where the product is pro-
+duced, and NA stands for “No Animal Testing of this Product.”
+a. Critique the code by listing the features that might lead to inaccurate data entry.
+b. Designer Brian d’Arcy James owns the cosmetic firm that uses this coding scheme. Always inter-
+ested in new design, Brian is willing to look at a more elegant code that encodes the same infor-
+mation in a better way. Redesign the coding scheme and provide a key for your work.
+c. Write a sentence for each change you have suggested, indicating what data-entry problem (from 
+Problem 5a) the change will eliminate.
+d. Brian is delighted with your work. He says the firm would like to hire you to help branch out into 
+selling theatrical makeup. (Shows such as Wicked and the fondly remembered Shrek with eight 
+performances a week use a lot of green greasepaint.) Add any necessary new codes for the coding 
+scheme you suggested in Problem 5b and provide a key for your work.
+6. The d’Arcy James cosmetics firm requires its salespeople to use laptops to enter orders from retail 
+department stores (their biggest customers). This information is then relayed to warehouses, and 
+orders are shipped on a first-come, first-served basis. Unfortunately, the stores are aware of this 
+policy and are extremely competitive about which one of them will offer a new d’Arcy James product 
+first. Many retailers have taken the low road and persuaded salespeople to falsify their order dates on 
+sales forms by making them earlier than they actually were.
+a. This problem is creating havoc at the warehouse. Disciplining any of the personnel involved is 
+not feasible. How can the warehouse computer be used to certify when orders are actually placed? 
+Explain in a paragraph.
+b. Salespeople are complaining that they have to ignore their true job of selling so that they can key 
+in order data. List the data items relating to sales of cosmetics to retailers that should be stored in 
+and retrieved from the central computer rather than keyed in for every order.
+c. Describe in a paragraph or two how bar coding might help solve Problem 6b.
+7. List the best data-entry method and your reason for choosing it for each of the following four situations:
+a. Data retrieval allowed only if there is positive machine identification of the party requesting data.
+b. Not enough trained personnel available to interpret long, written responses; many forms submitted 
+that capture answers to multiple-choice examinations; high reliability necessary; fast turnaround 
+not required.
+c. A poison control center that maintains a large database of poisons and antidotes needs a way to 
+enter data on the poison ingested; also enter weight, age, and general physical condition of the 
+victim when a person calls the center’s toll-free number for emergency advice.
+d. Download of a movie by a consumer with a credit card.
+8. Ben Coleman, one of your systems analysis team members, surprises you by asserting that when a 
+system uses a test for correct field length, it is redundant also to include a test for range or reason-
+ableness. In a paragraph, give an example that demonstrates that Ben is mistaken on this one.
+9. Several retailers have gotten together and begun issuing a “state” credit card that is good only in 
+stores in their state. As a courtesy, salesclerks are permitted to transcribe the 15-digit account number 
+by hand (after getting it from the accounting office) if the customer is not carrying the card. The only 
+problem with accounts that retailers have noticed so far is that sometimes-erroneous account numbers 
+are accepted into the computer system, resulting in a bill being issued to a nonexistent account.
+a. What sort of validity test would clear up the problem? How? Respond in a paragraph.
+b. Suggest an alternative data-entry method that might alleviate this problem altogether.
+10. Provide an example of submitting the wrong data to a payroll system. Also state at what time in the 
+input process this error should be flagged.
+
+
+===== BOOK PAGE 497 =====
+
+CHAPTER 15  •  DEsIgnIng A CCuRATE  D ATA  EnTR y PR oCEDuREs     497
+11. Describe a good composition test for a program that accepts first and last names of users. What 
+should the input be composed of? What input should it flag as unacceptable?
+12. Recommend an appropriate range or reasonableness test for entering the birth date of a college 
+student enrolling in a four-year college into the college registration system.
+13. Explain how a test for comparison with stored data would work for a retailer that was adding new 
+models of smartphones by manufacturers already represented in their database.
+14. Define a regular expression for validating each of the following:
+a. A U.S. zip code, which must have five digits, followed by an optional hyphen and four digits.
+b. A telephone number in the format (aaa) nnn-nnnn, where aaa represents the area code and the ns 
+represent digits.
+c. A date in the form of day-month-year, where the month is a three-letter code, and the year is four 
+digits. A hyphen must separate the day and month and year and month.
+d. The alphabetic derivation code illustrated in this chapter for a magazine subscriber. The format is 
+99999XXX9999XXX, where X represents a letter and 9 represents a number.
+15. For the following codes, define the validation criteria (there may be multiple checks for each field) 
+and the order in which you would test each of the conditions.
+a. A credit card number entered on a web form: The customer has selected the type of credit card 
+from a drop-down list.
+b. A part number in a hardware store: The part number is a complex code, where the first digit 
+represents the department (such as housewares, automotive, and so on), and the number should  
+be self-checking. There are seven different departments.
+c. The date that a book was postmarked when returned to an online bookstore: A copy of the 
+customer receipt must be included with the book. Returned books must be postmarked within  
+30 days of the purchase date.
+d. A language spoken code used on a website: Hint: Search the web for standard language codes.
+e. A driver’s license number, composed of several parts: The person’s birth month, the day of 
+birth, and birth year, not necessarily together; a code representing eye color; and a sequence num-
+ber. The driver’s license contains the date of birth, the eye and hair color, as well as the person’s 
+name and address.
+f. The Canadian postal code: The format is X9X 9X9 (X is any letter, 9 is any number).
+g. Airport codes: Such as LAX for Los Angeles or DUB for Dublin.
+h. A product key used to unlock purchased software: The key consists of four groups of five char-
+acters each. The first group must have two letters followed by three numbers; the second group 
+must contain two numbers followed by three letters; the third group must contain two letters, each 
+from A through G, followed by three numbers from 1 through 4; and the last group must contain a 
+letter, either an E, G, or C, two digits with values from 4 through 7, and two letters, either an A, B, 
+or C. Hint: Using a pattern may be the best way to validate the product key.
+Group Projects
+1. Along with your group members, read Consulting Opportunity 15.3, “To Enter or Not to Enter: That 
+Is the Question,” presented in this chapter. Design an appropriate data-entry system for Elsinore 
+Industries. Your group’s design should emphasize efficiency and accuracy. In addition, distinguish 
+between data that are changeable and data that differentiate an item being entered from all others. 
+Draw prototypes of any screens necessary to explain what you are recommending.
+2. Divide your group into analysts and Elsinore Industries employees to role-play. The analysts should 
+present the new data-entry system, complete with prototype displays. Ask for feedback on the design 
+from Elsinore employees.
+3. Write a brief paragraph describing how to improve the original data-entry design based on the com-
+ments received.
+Selected Bibliography
+Davis, G. B., & Olson, M. H. (1985). Management information systems: Conceptual foundations, struc-
+ture, and development (2nd ed.). McGraw-Hill.
+Gaith, A. (Ed.). (2018). RFID technolgy: Design, principles, applications and controversies. Nova 
+Science.
+How to validate credit card numbers with the Luhn algorithm in Java. (2020, December 24). https://keep-
+growing.in/java/how-to-validate-credit-card-numbers-with-the-luhn-algorithm-in-java/
+
+
+===== BOOK PAGE 498 =====
+
+498    PART V  •  Qu ALITy  A ssuRAnCE AnD IMPLEMEnTATIon
+Kendall, J. E. (2011). 2D or not 2D: That is the barcode question. Decision Line, 42(5), 14–16. 
+https://decisionsciences.org/wp-content/uploads/2017/07/Oct.2011.DLv42n5.pdf
+Lamming, M. G., Brown, P., Carter, K., Eldridge, M., Flynn, M., Louie, G., et al. (1994). The design of a 
+human memory prosthesis. Computer Journal, 37, 153–163.
+Lee, Y . M., Cheng, F., & Leung, Y . T. Exploring the impact of RFID on supply chain dynamics. In R. G. 
+Ingalls, M. D. Rossetti, J. S. Smith, & B. A. Peters (Eds.), Proceedings of the 2004 Winter Simulation 
+Conference, pp. 1145–1152.
+MacKay, D. J. (2005). Information theory, inference and learning algorithms. Cambridge University 
+Press.
+Miller, G. A. (1956). The magical number seven, plus or minus two: Some limits on our capability for  
+processing information. Psychological Review, 63(2), 81–97.
+Newman, W. N., Lamming, M. G., & Lamming, M. (1995). Interactive system design. Addison-Wesley 
+Longman.
+Niederman, F., Mathieu, R. G., Morley, R., & Kwon, I. (2007). Examining RFID applications in supply 
+chain management. Communications of the ACM, 50(7), 92–101.
+Owsowitz, S., & Sweetland, A. (1965). Factors affecting coding errors (Rand Memorandum No.  
+RM-4346-PR). Rand Corporation.
+Robey, D., & Taggart, W. (1982). Human processing in information and decision support systems.  
+MIS Quarterly, 6(2), 61–73.
+Ryder, J. (n.d.). Credit card validation using LUHN formula. http://www.freevbcode.com/ShowCode.asp
+?ID=3132
+
+
+===== BOOK PAGE 499 =====
+
+499
+Quality Assurance  
+and Implementation
+LEARNING OBJECTIVES
+Once you have mastered the material in this chapter, you will be able to:
+  1 Recognize the importance of a total quality approach to improve the quality of software 
+design and maintenance.
+ 2 Realize the importance of documentation and the variety of approaches to documentation.
+ 3 Understand why requirements traceability is useful.
+ 4 Acquire knowledge about testing, maintenance, and auditing.
+ 5 Understand how to implement distributed systems including service-oriented 
+architecture and cloud computing.
+ 6 Learn how to design appropriate training programs for users of a new system.
+ 7 Recognize the differences among physical conversion strategies and be able to 
+recommend one.
+ 8 Be able to address security, disaster preparedness, and disaster recovery concerns.
+ 9 Grasp the importance of evaluating a new system and be able to recommend a suitable 
+evaluation technique.
+10 Appreciate and evaluate corporate websites.
+Quality has long been a concern of businesses, as it should be for systems analysts in the 
+analysis and design of information systems. The user of an information system is the single 
+most important factor in establishing and evaluating its quality. It is far less costly to correct 
+problems in their early stages than it is to wait until a problem is articulated through user 
+complaints or crises. The four approaches to quality assurance through software engineering 
+are (1) securing total quality assurance by designing systems and software with a top-down, 
+modular approach; (2) documenting software with appropriate tools; (3) using requirements 
+traceability, and (4) testing, maintaining, and auditing software.
+The process of ensuring that an information system is operational and then allowing 
+users to take over its operation for use and evaluation is called implementation. Implemen-
+tation concerns moving computer power to individual users by shifting computer power 
+and responsibility to groups and individuals throughout the business with the help of 
+distributed computing, cloud computing, and service-oriented architecture; training users 
+and making sure that each user understands any new roles they must take on because of 
+the new information system; choosing a conversion strategy; providing proper security, 
+privacy, and disaster plans; and evaluating the new or modified information system.
+16 
+CHAPTER
+

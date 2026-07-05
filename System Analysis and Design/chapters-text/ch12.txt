@@ -1,0 +1,1487 @@
+
+===== BOOK PAGE 366 =====
+
+366    PART IV  •  THE ESSENTIALS OF DESIGN
+GOOD FORM DESIGN
+Whether designing paper or web-based forms, a systems analyst should be capable of designing 
+a complete and useful form. Unnecessary forms that waste an organization’s resources should 
+be eliminated.
+Forms are important instruments for steering the course of work. They are preprinted papers 
+that require people to fill in responses in a standardized way. Forms elicit and capture information 
+required by organization members that will often be input into the computer. Through this process, 
+forms often serve as source documents for users or for input to ecommerce applications that users 
+must enter.
+To design forms that people find useful, four guidelines for form design should be observed:
+1. Make forms easy to fill in.
+2. Ensure that forms meet the purpose for which they are designed.
+3. Design forms to ensure accurate completion.
+4. Keep forms attractive.
+Each of the four guidelines is considered separately in the following sections.
+Making Forms Easy to Fill In
+To reduce error, speed completion, and facilitate the entry of data, it is essential that forms be 
+easy to fill in. The cost of forms is minimal compared with the cost of the time employees spend 
+filling them in and then entering data into the information system. It is often possible to eliminate 
+the process of transcribing data that are entered on a form into the system by using electronic 
+submission. That method often features data keyed in by users themselves, who visit websites set 
+up for informational or ecommerce transactions.
+Form Flow. Designing for proper form flow can minimize the time and effort employees expend 
+in form completion. Forms should flow from left to right and top to bottom. Illogical flow takes 
+extra time and is frustrating. A form that requires people to go directly to the bottom of the form 
+and then skip back up to the top for completion has poor flow.
+takes you through a wide range of input devices. These devices make 
+it easier to input data while at the same time ensuring the accuracy 
+of data. After you view the video, please reflect on the following 
+questions:
+1. Credit cards have chips, but the same information can be 
+typed into a web form or read by “tap to pay” systems. What 
+way do you prefer to input your credit card data? Are you 
+distinct from, or similar to, other users in your preferences?
+2. Scanners such as flatbeds can be coupled with optical 
+character recognition. Text can be input easily this way. 
+Consider your experiences with scanning input.
+3. QR codes and bar codes are posted so that users can easily 
+scan them with their phones and be immediately directed 
+to relevant websites. Think about whether you trust that the 
+posted QR code or bar code will direct you to the correct site. 
+Why or why not?
+4. Reflect on how any of these input devices can be of 
+particular help to people with disabilities.
+SYSTEMS SCENARIO  
+Considering a Variety of Input Devices
+Chapter 12 is about getting data into the system. Some data 
+is captured from handwritten responses on forms, other data is 
+captured when people enter it on display screens or tablets. Still 
+other information is entered on websites. But much information is 
+entered through other hardware devices. In this video, the moderator 
+To view the video for this scenario,  
+see eText Chapter 12.
+Packt Computing and Information 
+Technology/Boclips
+
+
+===== BOOK PAGE 367 =====
+
+CHAPTER 12  •  DESIGNING  EFFECTIVE  INPuT     367
+Seven Sections of a Form. A second method that makes it easy for people to fill out forms 
+correctly is logical grouping of information. The seven main sections of a form are the following:
+1. Heading
+2. Identification and access
+3. Instructions
+4. Body
+5. Signature and verification
+6. Totals
+7. Comments
+Ideally, these sections should appear on a page grouped as they are on Bakerloo’s Employee 
+Expense V oucher in Figure 12. 1. Notice that the seven sections cover the basic information 
+required on most forms. The top quarter of the form is devoted to three sections: the heading, the 
+identification and access section, and the instructions section.
+The heading section usually includes the name and address of the business originating the 
+form. The identification and access section includes codes that may be used to file the report and 
+FIGURE 12.1
+Seven sections found in a 
+well-designed form help 
+encourage completion.
+EMPLOYEE EXPENSE VOUCHER
+Claimant: Make No Entries
+in Shaded Areas
+Full Name of Employee
+Department         R o o m  N u m b e r
+Employee ID Number  
+LIST EXPENSES FOR EACH DAY SEPARATELY . ATTACH RECEIPTS FOR ALL EXPENSES EXCEPT MEALS, TAXIS,
+AND MISCELLANEOUS ITEMS LESS THAN $3.00. ITEMIZE ALL MISCELLANEOUS EXPENSES.
+Date
+ /   /
+Place
+City, State 
+Meal
+Expenses
+Lodging
+Expenses Miles Cost 
+Automobile 
+Description Cost 
+Miscellaneous Total 
+Cost 
+Taxi 
+Cost 
+I certify that all the above information is correct
+Signature of Claimant
+Approved by
+Form BB-104  01/2022
+Date
+Date
+Totals
+Bakerloo’s
+Voucher Number
+Action Taken On:
+
+
+===== BOOK PAGE 368 =====
+
+368    PART IV  •  THE ESSENTIALS OF DESIGN
+gain access to it later. (In Chapter 13, we discuss in detail how to access specially keyed informa-
+tion in a database.) This information is very important when an organization is required to keep 
+the document for a specified number of years. The instructions section tells how the form should 
+be filled out and where it should be routed when complete.
+The middle of the form is its body, which composes approximately half of the form. This part 
+of the form requires the most detail and development from the person completing it. The body is 
+the part of the form most likely to contain explicit, variable data.
+The bottom quarter of the form is composed of three sections: signature and verification, 
+totals, and comments. Requiring ending totals and a summary of comments is a logical way to 
+provide closure for the person filling out the form.
+There is one more feature to notice about the form from Bakerloo’s. The form design provides 
+an internal double-check, with column totals and row totals expected to add up to the same number. 
+If the row and column totals don’t add up to the same number, the employee filling out the form 
+knows there is a problem and can correct it on the spot. An error is prevented, and the employee 
+can be reimbursed the amount due; both outcomes are attributable to the suitable form design.
+Captioning. Clear captioning is another technique that can make easy work of filling out a form. 
+Captions tell the person completing the form what to put in a blank line, space, or box. Several 
+options for captioning are shown in Figure 12.2. Two types of line captions, two types of check-
+off captions, and examples of a boxed caption and table caption are shown.
+The advantage of putting the caption below the line is that there is more room on the line 
+itself for data. The disadvantage is that it is sometimes unclear which line is associated with the 
+caption—the line above or below the caption. Line captions can be to the left of blanks and on 
+the same line, or they can be printed below the line on which data will be entered.
+Another way to caption is to provide a box for data instead of a line. Captions can be placed 
+inside, above, or below the box. Boxes on forms help people enter data in the correct place, and 
+they also make reading the form easier for the form’s recipient. The caption should use a small 
+type size so that it does not dominate the entry area. Small vertical tick marks may be included 
+in the box if the data is intended for entry into a computer system. If there is not enough room 
+on a record for the data, the person filling out the form, rather than the data-entry operator, has 
+the freedom to determine how the data should be abbreviated. Captions may also include small 
+clarification notes to help the user correctly enter the information, such as Date (MM/DD/YYYY) 
+or Name (Last, First, Middle Initial).
+Whatever styles of line caption are chosen, it is important to employ them consistently. For 
+instance, it is confusing to fill out a form that has both above- and below-line captions.
+Check-off captions are superior when response options are necessarily restricted. Notice 
+the list of travel methods shown for the vertical check-off caption in Figure 12.2. If employee 
+expenses for business travel are reimbursed only for the travel methods listed, a check-off system 
+is more expedient than a blank line. This method has the added advantage of reminding the person 
+who is verifying the data to look for an airline ticket stub or other receipt.
+A horizontal check-off caption is also superior to a line caption when information required is 
+routine and constant. An example is a form that would request services from one of the following 
+departments: Photo Lab, Printing Department, Maintenance, or Supplies. The departments 
+routinely provide services to others in the organization and are not likely to change quickly.
+Table captions work well in the body of a form on which details are required. When an 
+employee fills out a form with table captions properly, they are creating a table for the next person 
+receiving the form, thereby helping to organize data coherently.
+A combination of captions can be used effectively. For example, table captions can be used to 
+specify categories such as quantity, and line captions can be used to indicate where the subtotal, 
+sales tax, and total should be. Because different captions serve different purposes, it is generally 
+necessary to employ several caption styles in each form.
+Meeting the Intended Purpose
+Forms are created to serve one or more purposes in the recording, processing, storing, and 
+retrieving of information for businesses. Sometimes it is desirable to provide different information 
+to different departments or users but still share some basic information. This situation is where 
+specialty forms are useful.
+
+
+===== BOOK PAGE 369 =====
+
+CHAPTER 12  •  DESIGNING  EFFECTIVE  INPuT     369
+The term specialty form can also refer solely to the way forms are prepared by the stationer 
+or professional printer. Examples of stationers’ specialty forms are multiple-part forms that are 
+used to create instant triplicates of data, continuous-feed forms that run through the printer without 
+intervention, and perforated forms that leave a stub behind as a record when they are separated.
+Ensuring Accurate Completion
+Error rates typically associated with collecting data drop sharply when forms are designed to 
+ensure accurate completion. Design is important for ensuring that people do the right thing with 
+the form whenever they use it. When service employees such as meter readers or inventory takers 
+use handheld devices to scan or otherwise key in data at the appropriate site, the extra step of 
+transcription during data entry is avoided. Handheld devices use wireless transmission or are 
+plugged back into larger computer systems so they can upload the data that the service worker 
+has stored. No further transcription of what has occurred in the field is necessary.
+FIGURE 12.2
+Major captioning alternatives that 
+can be used on paper, online, or on 
+computer displays.
+First Name
+First Name Last Name
+Last Name
+Title Telephone   (         )             –
+First Name
+Title
+Title
+Check oﬀ method of travel:
+Airplane
+Train
+Company Car
+Personal Car
+Telephone
+Last Name
+Telephone
+–            –
+–            –
+Photo Lab
+Quantity
+Printing Department Maintenance Supplies
+Unit Item Description User Cost Expanded Cost
+Subtotal
+Sales Tax
+Total
+Horizontal
+checklist
+Boxed caption
+Line caption
+Below-line
+caption
+T able caption
+Vertical
+checklist
+
+
+===== BOOK PAGE 370 =====
+
+370    PART IV  •  THE ESSENTIALS OF DESIGN
+Keeping Forms Attractive
+Although we deal with attractiveness of forms last, its order of appearance is not meant to diminish 
+its importance. Rather, it is addressed last because making forms appealing is accomplished by 
+applying the techniques discussed in the preceding sections. Aesthetic forms draw people into 
+them and encourage completion.
+Forms should look uncluttered. To be attractive, forms should elicit information in the 
+expected order; convention dictates asking for name, street address, city, state, and postal code 
+(and country, if necessary). Proper layout and flow contribute to a form’s attractiveness.
+Using different type fonts in the same form can help make it appealing for users to fill in. 
+Separating categories and subcategories with thick and thin lines also may encourage interest 
+in the form. Type fonts and line weights are useful design elements for capturing attention and 
+making people feel secure that they are filling in the form correctly.
+Controlling Business Forms
+Controlling business forms is an important task. Businesses often have a forms specialist who 
+controls forms, but sometimes this job falls to a systems analyst, who sets up and implements 
+forms control.
+The basic duties for controlling forms include making sure that each form in use fulfills its 
+specific purpose in helping workers accomplish their tasks and that the specified purpose is integral 
+to organizational functioning, preventing duplication of the information that is collected and of the 
+forms that collect it, designing effective forms, deciding on how to reproduce forms in the most 
+economical way, and establishing procedures that make forms available (when needed) at the lowest 
+possible cost. Often this entails making forms available on the web for printing out. A unique form 
+number and revision date (month/year) should be included on each form, regardless of whether it 
+is completed and submitted manually or electronically. This helps users be organized and efficient.
+GOOD DISPLAY AND WEB FORM DESIGN
+Much of what we have already said about good form design is transferable to display design and 
+the design of websites, web pages, smartphones, and tablets. Once again, the users must remain 
+foremost in an analyst’s thoughts during the design of displays.
+There are differences, however, and systems analysts should strive to realize the unique quali-
+ties of displays rather than to simply adopt the conventions of paper forms. One big difference is 
+the constant presence of a cursor on the display, which orients the user to the current data-entry 
+position. As data are entered onscreen, the cursor moves one character ahead, pointing the way.
+Another major difference among electronic, web, and static forms is that designers can 
+include context-sensitive user help in any electronic fill-in form. This practice can reduce the 
+need for instructions being shown for each line, thus reducing the clutter of the form and cutting 
+down on calls to technical support. Using a web-based approach also permits the designer to take 
+advantage of hyperlinks, thus ensuring that the forms are filled out correctly by providing users 
+with hyperlinked examples of correctly completed forms.
+In this section, we present guidelines for effective display design. They are presented to aid 
+the attainment of the overall input design goals of effectiveness, accuracy, ease of use, simplicity, 
+consistency, and attractiveness. The following four guidelines for display design are important 
+but not exhaustive (refer to Chapter 11):
+1. Keep the display simple.
+2. Keep the display presentation consistent.
+3. Facilitate user movement among display screens and pages.
+4. Create an attractive and pleasing display.
+In the next subsections, we develop each of these guidelines and present many design techniques 
+for observing the four guidelines.
+Keeping the Display Simple
+The first guideline for good display design is to keep the display simple. The display should show 
+only that which is necessary for the particular action being undertaken. For the occasional user, 
+50 percent of the display area should contain useful information.
+
+
+===== BOOK PAGE 371 =====
+
+CHAPTER 12  •  DESIGNING  EFFECTIVE  INPuT     371
+Three Screen Sections. Display output should be divided into three sections. The top of the screen 
+features a heading section. The heading contains titles of software and open files, pull-down 
+menus, and icons that do certain tasks.
+The middle section is called the body of the display. The body can be used for data entry and 
+is organized from left to right and top to bottom because people in Western cultures move their 
+eyes over a page in this way. Captions and instructions should be supplied in this section to help 
+the user enter the pertinent data in the right place. Context-sensitive help can be made available 
+by having the user click the right mouse button in the body section of the display.
+The third section of the display is the comments and instructions section. This section may 
+display a short menu of commands that remind the user of basics such as how to change pages or 
+functions, save the file, or terminate entry. Inclusion of such basics can make inexperienced users 
+feel infinitely more secure about their ability to complete their task.
+Other ways to keep the display simple are to use context-sensitive help, rollover buttons that 
+reveal more information, and other pop-up windows. Also, keep in mind that users can minimize 
+or maximize windows as needed. In this way, users start with a simple, well-designed display 
+that they can customize and control using multiple windows. Hyperlinks on a web-based fill-in 
+form serve a similar purpose.
+Keeping the Display Consistent
+The second guideline for good display design is to keep the display consistent. If users are working 
+from paper forms, displays should follow what is shown on paper. Displays can be kept consistent 
+by locating information in the same area each time a new display is accessed. Also, information 
+that logically belongs together should be consistently grouped together: name and address go 
+together, not name and postal code. Although the display should have a natural movement from 
+one region to another, information should not overlap from one group to another. You would not 
+want name and address in one area and postal code in another.
+Facilitating Movement
+The third guideline for good display design is to make it easy to move from one page to another. 
+Although the “three-clicks” rule says that users should be able to get to the pages they need within 
+three mouse clicks or keyboard strokes, new research (Nielsen & Li, 2017) notes that this is a 
+heuristic, not a hard-and-fast rule. It should not hamper designers. Web-based forms facilitate 
+movement with the use of hyperlinks to other relevant web pages. Another common method 
+for movement is to have users feel as if they are physically moving to a new page. This illusion of 
+physical movement among screens can be obtained by using scrolling arrows, context-sensitive 
+pop-up windows, or onscreen dialog.
+Designing an Attractive and Pleasing Display
+The fourth guideline for good display design is to create an attractive display. If users find 
+displays appealing, they are likely to be more productive, need less supervision, and make 
+fewer errors. Displays should draw users into them and hold their attention. This goal is accom-
+plished with the use of plenty of open area surrounding data-entry fields so that the display 
+achieves an uncluttered appearance. Never crowd a form; similarly, never crowd a display. You 
+are far better off using multiple windows or hyperlinks than jamming everything onto one page  
+or screen.
+Use logical flows in the plan to your display pages. Organize material to take advantage of 
+the way people conceptualize their work so that they can easily find their way around. With the 
+advent of graphical user interfaces, it is possible to make input displays very attractive. By using 
+color or shaded boxes and creating three-dimensional boxes and arrows, you can make forms user 
+friendly and fun to use.
+When contemplating the use of different font styles and sizes, ask yourself if they truly assist 
+the user in understanding and approving of the display. If they draw undue attention to the art of 
+display design or if they serve as a distraction, leave them out. Be aware that not all web pages 
+are viewed identically by different browsers. Test your prototype forms with a variety of combi-
+nations to see whether users declare preferences for combinations or whether they are distressing 
+to most users.
+
+
+===== BOOK PAGE 372 =====
+
+372    PART IV  •  THE ESSENTIALS OF DESIGN
+sure the form is self-explanatory to new patients. It should also 
+be easy for Mai to read and easy for the receptionist to enter into 
+the patient database, which is sorted by patient name and a unique 
+seven-digit account ID number. Recently all the doctors associated 
+with Mai Krobe’s practice decided to experiment with patients 
+filling out this form using an iPad issued by the office. Redesign 
+the form for both landscape and portrait orientation for an iPad. 
+Which office procedures would you have to change to accommodate 
+patient data entry with an iPad? Provide your answer in a paragraph, 
+including manual and computerized procedures and processes.
+CONSULTING OPPORTUNITY 12.1 
+This Form May Be Hazardous to Your Health
+F igure 12.C1 is a printed medical history form that Dr. Mai Krobe,  
+a family practitioner, has her receptionist give to all new patients. 
+Patients must fill it out before they see the doctor.
+The receptionist is getting back many incomplete or confusing 
+responses, which makes it difficult for Mai to review the forms 
+and understand why the new patient is there. In addition, the poor 
+responses make it time-consuming for the receptionist to enter new 
+patients into the database.
+Redesign the form on ½ ×81 1-inch paper so that pertinent new 
+patient data can be collected in a logical and inoffensive way. Make 
+FIGURE 12. C1
+Your help in improving this form is greatly appreciated.
+Have you ever had surgery?    Yes____    No____    If so, when?________
+Describe the surgery
+Have you ever been hospitalized?    Yes____    No____    If so, when?________
+Why?
+Complete the following.
+I have had Family history
+Diabetes
+Heart trouble
+Cancer
+Seizure
+Fainting
+What have you been immunized for?
+Family:
+Spouse or next of kin Relationship Address
+Date of last exam  ___/___   Who referred you?
+Why are you seeing the doctor today?
+Are you currently having pain? _______   Constant ______   Sporadic ______
+How long does it last? Please give us your soc. sec. #
+IMPORTANT!  We need your correct insurance carrier number
+Medical History Form
+Name Employer Age
+Address Zip Phone Oﬃce
+Insurer Is this   [  ] your policy   [  ] your spouse’s/partner’s policy
+Blue Cross [  ]    State Physician’s  Service [  ]    Other [  ]    (state)
+This form
+needs to be
+revised.
+
+
+===== BOOK PAGE 373 =====
+
+CHAPTER 12  •  DESIGNING  EFFECTIVE  INPuT     373
+Using Icons in Display Design
+Icons are pictorial, onscreen representations symbolizing computer actions that users may select 
+using a mouse, keyboard, lightpen, touch screen, or joystick. Icons serve functions like those 
+of words and may replace them in many menus because their meaning is more quickly grasped 
+than words. Mobile devices such as Apple’s iPhone and iPad have popularized the use of icons on 
+touch screens and made this a familiar interface for many businesses and other users.
+There are some guidelines for the design of effective icons. Shapes should be readily recog-
+nizable, so users are not required to master a new vocabulary. Numerous icons are already known 
+to most users. Use of standard icons can quickly tap into this reservoir of common meaning.  
+A user may point to a file cabinet, “pull out” a file folder icon, “grab” a piece of paper icon, and 
+“throw” it in the wastebasket icon. By employing standard icons, designers and users save time.
+Icons for a particular application should be limited to approximately 20 recognizable shapes 
+so the icon vocabulary is not overwhelming and a worthwhile coding scheme can still be realized. 
+Use icons consistently throughout applications where they will appear together to ensure continuity 
+and understandability. Generally, icons are worthwhile for users if they are meaningful.
+Graphical User Interface Design
+Users interface with an operating system, such as Windows or the Mac OS, through a graphical 
+user interface (GUI; pronounced “GOO-ey”), also referred to as a point-and-click interface. Users 
+can use a mouse to click on an object and drag it into position. GUIs take advantage of additional 
+FIGURE 12. C2
+This screen can be designed 
+to be more user friendly. Patient Last Name First Middle Initial
+Examining Station       Date of Exam
+Patient Number Social Security Number
+First Exam Claim Number
+SPEECH AUDIOMETRY SECT. Comments [
+SPEECH RECEP .  THRESHOLD
+Right Ear [   ]
+Left Ear [   ] Referred by [                          ] 
+RIGHT EAR DISCR. Reason for Referral
+% [   ] Masking [   ] 
+% [   ] Masking [   ] 
+Examining Audiologist 
+LEFT EAR DISCRIM. Exam. Audiologist’s No.
+Next Appt. 
+AUDIOLOGICAL EXAMINATION REPORT
+AIR CONDUCTION
+BONE CONDUCTION
+500     1000     2000     4000     6000
+Right ear
+500     1000     2000     4000     6000
+Left ear
+500     1000     2000     4000     6000
+Right ear
+500     1000     2000     4000     6000
+Left ear
+This screen
+can be
+improved.
+You have been asked to redesign the display (see Figure 12.C2) 
+to capture the same information but simplify it, and by doing so 
+reduce the errors that have been plaguing the audiologists. You 
+realize that clutter isn’t the only problem with the display.
+Explain your reasons for changing the display as you did. You 
+may use more than one display page if you think it is necessary.
+CONSULTING OPPORTUNITY 12.2 
+Squeezin’ Isn’t Pleasin’
+T he Audiology Department in a large veteran’s hospital is using a 
+PC and monitor so audiology technicians can enter data directly into 
+the patient records system. After talking with Earl Lobes, one of the 
+audiologists, you determine that the screen design is a major problem.
+“We used a form at one time, and that was decent,” said Earl. 
+“The display didn’t make sense, though. I guess they had to squeeze 
+everything on there, and that ruined it.”
+
+
+===== BOOK PAGE 374 =====
+
+374    PART IV  •  THE ESSENTIALS OF DESIGN
+FIGURE 12.3
+The many available GUI compo-
+nents allow flexibility in designing 
+input screens for the web or other 
+software packages. This example 
+is from Microsoft Access. (Used 
+with permission from Microsoft)
+features in display design such as text boxes, check boxes, option buttons, list and drop-down 
+list boxes, sliders and spin buttons, tab control dialog boxes, and image maps. Figure 12.3 is a 
+Microsoft Access input display showing a variety of GUI controls.
+Text Boxes. A rectangle represents a text box and is used to outline data-entry and display fields. 
+Care must be taken to ensure that a text box is large enough to accommodate all the characters 
+that must be entered. Each text box should have a caption to the left, identifying what is to be 
+entered or what is displayed in the box. In Microsoft Access, character data are left-aligned, and 
+numeric data are right-aligned.
+Starting with HTML5 browsers, a feature called a placeholder allows a designer to put a 
+small amount of text into a text box, which will display in a lighter color, informing the viewer 
+what to key into the text box. When the cursor is placed in the field (clicking or tabbing into it), 
+the text vanishes.
+Several new types of text boxes are available with HTML5: email, telephone, and URL (a 
+web address). These appear as normal text boxes on a computer but when used on a tablet or 
+smartphone, they can be used to customize the pop-up keyboard. For example, if the text box is 
+used for a telephone number, the virtual keyboard layout changes to a number pad. If the text box 
+is used to enter a URL, the virtual keyboard includes a .com button. Finally, if the text box is used 
+to enter an email address, the virtual keyboard includes an @ symbol. This customization helps 
+the user enter data quickly and accurately.
+A datalist is a new feature included in HTML5 that displays a drop-down list of predefined 
+suggestions to make entry easier for the user. As the user begins to type the first few letters, the 
+datalist is displayed. The user can choose one of the items in the list to make a selection. This is 
+used in the autocomplete function.
+Check Boxes. In the GUI controls example, a check box is used to indicate a new customer. 
+Check boxes contain an X or are empty, depending on whether the user selected the option; they 
+are used for nonexclusive choices in which one or more of the options may be checked. An alterna-
+tive notation is to use a square button with a check mark (✓) to indicate that the option has been 
+selected. Note that check box text, or a label, is usually placed to the right of the box. If there is 
+more than one check box, the labels should have some order to them, either alphabetic or with 
+the most commonly checked item appearing first in a list. If there are more than 10 check boxes, 
+you can group them together in a bordered box.
+Option Buttons. An option button, also called a radio button, is used to select exclusive choices. 
+Only one of several options can be chosen. By using option buttons, you can make it clear to users 
+that they must decide among options. Choices are again listed to the right of the button, usually 
+in some sequence. If there is a commonly selected option, it is usually selected as a default when
+
+
+===== BOOK PAGE 375 =====
+
+CHAPTER 12  •  DESIGNING  EFFECTIVE  INPuT     375
+the page first displays. Often there is a rectangle, called an option group, surrounding the radio 
+buttons. If there are more than six option buttons, you should consider using a list box or a drop-
+down list box.
+List and Drop-Down List Boxes. A list box displays several options that may be selected with the 
+mouse. A drop-down list box is used when there is little room available on the page. A single 
+rectangle with an arrow points down toward a line located on the right side of the rectangle. 
+Selecting this arrow causes a list box to be displayed. Once a user makes a choice, it is displayed 
+in the drop-down selection rectangle and the list box disappears. If there is a commonly selected 
+choice, it is usually displayed in the drop-down list by default. An elegant way to handle making 
+a selection from a predetermined list is available when developing drop-down lists for Apple 
+products. You can insert a picker, which includes one or more scrollable lists of distinct values, 
+each of which has a single selected value appearing in darker text in the center of the view  
+(see https://developer.apple.com/ios/human-interface-guidelines/ui-controls/pickers/). Pickers can 
+be placed at the bottom of the screen or used as a popover overlaying the app if the user is tapping 
+on a menu. An example of a picker would be allowing the user to pick a destination city from a 
+list of cities an airline stops in when the user is in an airline app. Another example is choosing a 
+date when making an addition to one’s calendar.
+Tab Control Dialog Boxes. Tab control dialog boxes are another part of graphical user interfaces 
+and another way to get users organized and into system material efficiently. In designing tab 
+control boxes, create a separate tab for each unique feature, place the most used tabs in front and 
+display them first, and include buttons for OK, Cancel, and Help.
+Sliders and Spin Buttons. Sliders and spin buttons are used to change data that have a continuous 
+range of values, giving users more control when choosing values. Moving the slider in one 
+direction or the other (either left/right or up/down) increases or decreases the values.
+Calendar Control. Starting with HTML5, a designer may include a calendar control to select a 
+date, a date and time, or a local date and time. A calendar is displayed, and the user either selects 
+the default date or may change it by clicking on a date or scrolling through the calendar. This is 
+common on hotel reservation sites. The default date may be today, but the user will change it to 
+the actual arrival day. Once the user locates the arrival date on the calendar, a second calendar 
+pops up with the next day as the default departure date. The user again changes this to the correct 
+departure date, but the process of selecting dates from a pop-up calendar is still easier and less 
+error-prone than entering text.
+Image Maps. Image map fields are used to select values within an image. The user clicks on a 
+point within an image, and the corresponding x- and y-coordinates are sent to the program. Image 
+maps are used when creating web pages containing maps with instructions to click in a certain 
+area to view a detailed map of the region. Image maps have waned in popularity over the last few 
+years and can be difficult to build. Use an image map editor or a web editor rather than attempting 
+to build an image map from the ground up.
+Text Areas. A text area is used for entering a larger amount of text. These areas include several 
+rows, columns, and scroll bars that allow the user to enter and view text greater than the size of the 
+box area. There are two ways to handle this text. One is to avoid the use of word wrap, forcing  
+the user to press the Enter key to move to the next line; the text will scroll to the right if it 
+exceeds the width of the text area. The other option is to allow word wrap.
+Message Boxes. Message boxes are used to warn users and provide other feedback messages in 
+a dialog box, often overlapping the display. Message boxes have different formats. Each should 
+appear in a rectangular window and should clearly spell out the message so that the user knows 
+precisely what is happening and what actions are possible.
+Command Buttons. A command button performs an action when the user selects it with the 
+mouse. Calculate Total, Add Order, and OK are all examples. The text is centered inside the button, 
+which has a rectangular shape. If there is a default action, the text is surrounded with a dashed 
+line. The button also may be shaded to indicate that it is the default. Users press the Enter key to 
+select the default button.
+
+
+===== BOOK PAGE 376 =====
+
+376    PART IV  •  THE ESSENTIALS OF DESIGN
+Form Controls and Values
+Each of the controls included in a GUI interface must have some way of storing the data associ-
+ated with the control. On a web page this is done using a name and value pair that is transmitted 
+to the server or in an email sent along with the form (such as the name city and the value Paris). 
+The name is defined on the web page form, and the server software must recognize the name to 
+understand what to do with the value or data sent with the web form.
+How the value is obtained differs for each web form control. In text boxes or text areas, the 
+value consists of the characters keyed into the boxes. In radio buttons and check boxes, the text 
+that displays to the right of each radio button or check box is for human use only. The value is 
+defined in the web form and is transmitted when the form is sent. If these data are used to update 
+a database, the values are often codes that are sent and then stored at the server, and the analyst 
+must decide what the appropriate values should be when each radio button or check box is clicked. 
+Drop-down lists are somewhat different from radio buttons or check boxes in that there are many 
+options for a given drop-down list. Values must be decided for each of the drop-down list options 
+and, when an option is chosen, the selected value is sent with the form. Form values may be used 
+in calculations performed using JavaScript on the browser to multiply, add, and make decisions.
+Figure 12.4 is an example of a form used to obtain prices and to register for a cruise. The text 
+in the Name, Address, City, State, Zip, Phone, and Email areas is sent to the server when the form 
+is submitted. Only one of the radio buttons for a 4-day, 7-day, or 14-day cruise may be selected. 
+The values sent are S for short if the 4-day cruise is selected, A for average length if 7 days has 
+been selected, and L for a long cruise if the 14-day cruise is selected. In addition, when one of  
+these cruises is selected, the dollar amount is inserted into one of the text boxes on the left side 
+of the web form, and any previously selected radio buttons and amounts are cleared. If an ocean-
+view room check box is checked, a value of Y for yes is transmitted to the server, the amount 
+is inserted into the left-side text box, and the total is updated. If the customer tries to change 
+the amounts in the calculated text boxes, they are reset. When the submit button is clicked, the 
+amounts are sent to the server along with all the other data.
+Hidden Fields
+Another type of control found on web forms is a hidden field. These are not visible to the viewer, 
+do not take up any space on the web page, and can contain only a name and a value. Often hidden 
+fields are used to store values sent from one web form to the server. These typically need to be 
+included on a second form when multiple forms are required to capture all the transaction data. 
+Sometimes they are used to retain information about the type of browser being used, the viewer’s 
+FIGURE 12.4
+A web-based input form for users 
+to register for a cruise.
+
+
+===== BOOK PAGE 377 =====
+
+CHAPTER 12  •  DESIGNING  EFFECTIVE  INPuT     377
+operating system, and so on. Sometimes a hidden field contains a key field used to locate a record 
+for the customer or the browsing session.
+Event-Response Charts
+When there are complicated interactions on a web form (or any other GUI form), an event-
+response chart may be used to list the variety of events that can occur. Event-response charts 
+may be used at a high level to model business events and responses (see Chapter 7), but the events 
+that occur on a web form or other display are usually limited to user actions. These events may 
+be clicking a button, changing a value, focusing the field (moving the cursor inside the field or 
+to a radio button, check box, or other control), blurring a field (the user moves the cursor out of 
+the field), loading a web page, detecting keystrokes, and many other events. The response lists 
+how the web page should react when the event occurs. Events are for a particular object, such as 
+a button, a text field, a whole web page, and so on.
+Figure 12.5 is a website used to estimate the cost of staying at Azure Islé Resort. The user can 
+enter the number of people, change the starting and ending dates, and enter the number of people 
+for a variety of extra activities, such as scuba diving or golf.
+An event-response chart is shown in Figure 12.6. Notice that there may be several events for 
+each web form control. The user may do any number of actions in any order, so the event-response 
+chart is useful to show what should happen. For example, the user may click the Calculate button 
+first, change the starting and ending dates, or change the number of people. The event-response 
+chart is useful for building a web form that requires minimal action from the user. An example of 
+this is when the user changes the starting month or day; the ending month or day is then changed 
+to match the starting month or day. The year changes when the month is earlier than the current 
+month because people cannot stay at the resort prior to the current day in the same year.
+Sometimes the event-response chart may be used to explore improvements to the web page. 
+Suppose that Azure Islé Resort determined that most of its customers stayed for 7 days. When the 
+starting month or day changes, the ending date could be set for 7 days in the future as a default. 
+It might also be a good idea to have radio buttons that allow the customer to select a stay of 4, 7, 
+or 14 days and calculate the ending date. Other improvements to a web page might be detecting 
+when several characters have been entered, for example, the three digits that comprise a U.S. 
+telephone area code, and then moving the cursor into the next field.
+Events are not limited to working within a single web page. They may be used to control 
+navigation among web pages as well. This can happen when changing a selection in a drop-down 
+list or clicking a radio button. Events may be used to change the contents of drop-down lists. For 
+example, on a job search page, by selecting one category of job, detailed positions for that job 
+appear in a second drop-down list.
+FIGURE 12.5
+A website that permits users 
+to estimate the cost of staying 
+at Azure Islé Resort. The cost 
+depends on the number of people 
+included, length of stay, and extra 
+activities added.
+
+
+===== BOOK PAGE 378 =====
+
+378    PART IV  •  THE ESSENTIALS OF DESIGN
+FIGURE 12.6
+An event-response chart that lists the form control, event, and response for a number of events that can occur 
+as a user interacts with the Azure Islé Resort cost estimator screen.
+Form Control Event Response
+Web Page Page loads Place the current year in the Starting Year and Ending Year ﬁelds.
+Place the cursor in the Number of People ﬁeld.
+Number of People Value changes Verify that Number of People contains a number greater than zero.
+Starting Month Selection
+changes
+Set the Ending Month in the drop-down list to the Starting Month. If the
+month is less than the current month, change the Starting Year and 
+Ending Year values to the next year.
+Starting Day Selection
+changes
+Set the Ending Day in the drop-down list to the Starting Day. Use the
+Starting Month value to set the Starting Year and Ending Year values.
+Starting Year Receives focus Use the Starting Month value to calculate the Starting Year and
+Ending Year values.
+Number of Days Receives focus;
+value changes
+Calculate the Number of Days that the customer is staying. If the
+number is less than or equal to zero, display an error message.
+Basic Charge Receives focus Calculate the Basic Charge and put the cursor in the Scuba Adventure
+Number of People ﬁeld.
+Scuba Adventure
+Number of People
+Receives focus Select the current amount displayed (zero) so the customer may replace it.
+Scuba Adventure
+Number of People
+Value changes Calculate the Scuba Cost based on the value of Scuba Adventure Number 
+of People and put the cursor in the Golf Number of People ﬁeld.
+Scuba Cost Value changes Recalculate the Scuba Cost and put the cursor in the Golf Number
+of People ﬁeld.
+Golf Number of
+People
+Receives focus Select the current amount (zero) so the customer may replace it.
+Golf Number of
+People
+Value changes Calculate the Golf Cost and put the cursor in the Horseback Riding
+Number of People ﬁeld.
+Golf Cost Value changes Recalculate the Golf Cost and put the cursor in the Horseback Riding
+Number of People ﬁeld.
+Horseback Riding
+Number of People
+Receives focus Select the current amount displayed (zero) so the customer may replace it.
+Horseback Riding
+Number of People
+Value changes Calculate the Horseback Riding Cost based on the value of Horseback
+Riding Number of People and put the cursor in the Last Name ﬁeld.
+Horseback Riding
+Cost
+Value changes Recalculate the Horseback Riding Cost and put the cursor in the 
+Last Name ﬁeld.
+Total Cost Value changes Calculate the total cost and put the cursor in the Last Name ﬁeld.
+Calculate Button Button clicked Validate the form data and display an error message if any errors occur. 
+Calculate the Total Cost if there are no errors.
+Reset Button Button clicked Clear the form and place the current year in the Starting Year and Ending 
+Year ﬁelds. Place the cursor in the Number of People ﬁeld.
+Print Button Button clicked Validate the form data and display an error message if any errors occur. 
+Calculate Total Cost if there are no errors. Use a Web cookie to pass the 
+data to a conﬁrmation page that does not allow the users to change
+any data.
+Submit Button Button clicked Validate the form data and display an error message if any errors occur. 
+Calculate Total Cost if there are no errors. Send the form to the server 
+and send conﬁrmation to the user.
+Dynamic Web Pages
+Dynamic web pages change themselves as the result of user action. They often use JavaScript to 
+modify some part of the web page or a style. Changing an image when the mouse moves over it 
+or rotating random images at a given time interval are common examples of dynamic web pages. 
+The web page may detect the width of the browser window and modify the page accordingly. 
+Menus that expand when the user clicks a small plus sign to the left of the menu or when the 
+mouse moves over a menu are other examples of dynamic web pages.
+
+
+===== BOOK PAGE 379 =====
+
+CHAPTER 12  •  DESIGNING  EFFECTIVE  INPuT     379
+The power of dynamic web pages has been greatly expanded in recent web browsers. By 
+using JavaScript, a web form may morph or change itself to add new fields or remove old fields, 
+or change field attributes, such as the length of a field or a radio button changing into a check 
+box. This makes the web page more responsive to user actions and often will eliminate the need 
+to load new web pages based on user choices.
+An analyst should think about the information that would make sense to the website viewer. 
+For example, placing the country selection list on a web page before other address elements would 
+allow the user to change the country list and then change captions to reflect the country. If the 
+person selected United States from the drop-down list, the captions would say State and Zip Code. 
+If the country were Canada, the captions would say Province and Postal Code. If the country were 
+Japan, the captions would say Prefecture and Mail Code.
+Three-Dimensional Web Pages
+Dynamic web pages can be used to temporarily display information, such as a block of help 
+information, a calendar with clickable dates used to assist date entry fields, airport codes, and 
+other information. This information may be stored by using a series of stacked layers (using the 
+cascading styles z-index property) in the web page design, each on top of another. The main web 
+page is the base plane, the standard layer of the web page that displays or obtains information; 
+other layers below the page are not visible.
+When help is requested or the user clicks in the date field, the layer is either moved to the top 
+and becomes visible or is generated by JavaScript code and appears. The position of the layer is 
+determined by the designer or analyst, such as a calendar appearing on the right side of a date field. 
+When a date is selected, a close link is clicked, or the user clicks outside of the calendar, the layer 
+then moves below the surface of the web page or is removed. An analyst must determine when it 
+makes sense to include a layer, often examining each field on a web page to determine whether 
+additional information would help to ensure accurate information and good communication with 
+the user.
+The analyst should determine the following:
+1. How is the layer built? Is it created using JavaScript code, such as a calendar, or is 
+additional information required to build the layer? If additional information is required, 
+where is the data located and how should it be obtained? Ideally the information is 
+obtained from only one database table on the server using Ajax techniques.
+2. What events cause the layer to be created? These include a user clicking or tabbing into a 
+field, clicking a link, or counting the number of keystrokes entered into a field. An example 
+would be a hotel chain with many locations. To include all the locations in a drop-down list 
+would make the list too long. When the user enters three characters, a block surfaces listing 
+hotels starting with those three letters, including the country, city, state or province, and 
+other information. If the event was detecting only two letters, the list may be too large for 
+the display block.
+3. What events remove the layer, such as a close button, clicking a date, clicking outside the 
+region, or selecting a hotel from the list?
+4. Where should the surfaced block be placed? Typically, next to the field that created the 
+block, in x- and y-coordinates.
+5. How large should the block be, measured in pixels? If the information is too large for 
+the block, such as a list of hotels, the analyst should decide how to handle the additional 
+information. Options include adding scroll bars or positioning a link at the bottom to the 
+next page of information.
+6. What should the region formatting attributes, such as color and border, be? If there is a 
+series of links, review their appearance with the users. Ask the users if they would like the 
+color to change as the mouse moves over each row.
+7. What should happen when an option is selected? In the case of a reservation calendar, 
+when a date is clicked, the date is placed in the starting date. If a hotel is selected, the city, 
+state or province, and country information, along with a link to the hotel, should populate 
+the web form fields.
+Using layers is an effective way to build websites because it does not require any pop-up 
+pages (which may be blocked by internet security software). In addition, a new web page does
+
+
+===== BOOK PAGE 380 =====
+
+380    PART IV  •  THE ESSENTIALS OF DESIGN
+not have to load and, because the information is contained in a layer, it does not take up any space 
+on the main web page.
+Figure 12.7 is an example of a web form used by an insurance company to change client 
+information; to add a new location for a client, such as a new store or restaurant for an existing 
+client; or to remove a store for the client. If the Corporate check box is checked, the Last 
+Name, First Name, and Middle are changed to a Company name field, with the caption text 
+changing as well. If the Add New Property button is clicked, a new set of fields for the third 
+property is added. Care must be taken to generate unique names that the server will recognize 
+for the additional fields. When the form is submitted, the server updates the database tables for 
+the additional fields.
+The analyst must decide when the use of dynamic web pages is appropriate. If the data change 
+when other parts of the web page change (such as clicking a radio button or selecting an item from 
+a drop-down list), it may be good policy to design the web pages as a dynamic form. If, however, 
+some parts of the web form are unsecured and other parts require encryption, it is probably best 
+not to use dynamic forms.
+FIGURE 12.7
+An example of a dynamic web page from an insurance company. If a user clicks on Add New Property, a new 
+insured property box appears.
+If “Corporate” is 
+checked, the page 
+changes to display a 
+ﬁeld for “Company.”
+If “Add New Property”
+is clicked, a new
+insured property box
+appears.
+
+
+===== BOOK PAGE 381 =====
+
+CHAPTER 12  •  DESIGNING  EFFECTIVE  INPuT     381
+A good example of a form that modifies itself may be found at Expedia.com (expedia.com). 
+Clicking radio buttons for a flight, hotel, car, or cruise causes the form to change to gather the 
+data appropriate to reserving a flight, hotel, and so on.
+Dynamic web pages have the advantage of modifying themselves quickly, with fewer inter-
+ruptions to send and receive data from the server. However, there are several disadvantages when 
+creating dynamic web pages. One is that they will not work if JavaScript is turned off. An analyst 
+must decide what to do in this situation.
+If a person must use a website (as in a corporate intranet environment, in a site used to obtain 
+student loans, or in the case of processing governmental or other transactions), the web page can 
+state clearly that it will not function if JavaScript is turned off and then direct the user on how 
+to turn it on. Most ecommerce websites do not require JavaScript to be turned on and have an 
+alternate website for customers.
+A second disadvantage when using dynamic web pages is that they may not be compliant with 
+the Americans with Disabilities Act. (For more on web accessibility for all users, see Chapter 14 
+on designing for human–computer interaction.)
+Ajax
+Ajax (Asynchronous JavaScript and XML) is a technique that works in recent web browsers. It 
+involves the use of JavaScript and extensible markup language (XML). Traditionally, each time 
+a web page needed data from a different database table, a request was sent to the server, and a 
+whole new page was loaded. This is effective but slow because an entire page must be loaded just 
+to provide additional data for a drop-down list, or some other web form control based on the one 
+selected previously.
+Ajax allows web developers to build a web page that works more like a traditional desktop 
+program. As new data are needed, the browser sends a request to the server, and the server sends 
+a small amount of data back to the browser, which updates the current page. This means that the 
+viewer does not experience an interruption of work and the web page does not reload. The page 
+is dynamically updated with the new data.
+The data may be either a small text file or an XML document that contains many customers 
+or other repeating data. If the data is an XML file, each customer element is called a node, and 
+each node is numbered (starting with zero) from the beginning of the XML document. This allows 
+the web page to go to the first or last customer or to loop through all the customers one by one 
+with a button click.
+Let’s say a systems analyst is designing a traditional website, without Ajax, for making a 
+reservation for a European ferry. The resultant website might contain several pages. The first page 
+would ask the customer about the origin and destination of the journey, the date of the planned 
+trip, and the number of passengers. The number and ages of the passengers determine pricing, 
+so a second web page would display asking for the ages of the passengers. A third would ask the 
+type of vehicle desired for land transportation, and so on.
+The same information may be obtained by using Ajax techniques, as illustrated in Figure 12.8.  
+The same starting and ending destinations, as well as dates, are entered on the top of the web 
+form. The web page uses the destinations and dates to determine whether there is any available 
+space on the ferry. After the customer changes the number of passengers, the form dynamically 
+changes to add the three drop-down lists for each passenger, along with instructions on the side—
+without reloading the entire page. When the type of vehicle changes, in this example to Car, the 
+selected vehicle type is sent to the server. The caption on the form changes the text from vehicle 
+to Car Make. The server sends the possible car makes, and the Car Make  drop-down list is 
+populated with the data. When the car make is selected, the chosen value is sent to the server and 
+the Car Model drop-down list is populated, and so on.
+The web page used in this example responds much faster than the alternative, which is 
+having several different pages displayed, and it is easier for the user to work with. There is still 
+a need to have a confirmation web page (although the page could dynamically change to remove 
+form fields and replace them with text) and another web page for name, address, and credit card 
+information. The analyst must decide how to partition the transaction into a series of pages, some 
+using Ajax and some not. If small amounts of data need to be obtained to continue the transaction, 
+and the data logically fits on a single web form or page, then using Ajax may be the best 
+approach. At times it is better to use several pages, as when a user makes an airline reservation.
+
+
+===== BOOK PAGE 382 =====
+
+382    PART IV  •  THE ESSENTIALS OF DESIGN
+FIGURE 12.8
+When analysts use Ajax techniques, a dynamic web page responds more rapidly to short user input than it would if 
+several different pages were required for display.
+More questions
+appear until the
+form is complete.
+After identifying all
+four passengers, a
+question regarding
+a vehicle appears.
+After the customer
+selects four passengers,
+the server generates
+four drop-down lists.
+
+
+===== BOOK PAGE 383 =====
+
+CHAPTER 12  •  DESIGNING  EFFECTIVE  INPuT     383
+One web form can obtain all the flight information, and another page can be used to display the 
+flights. A third page might be used to obtain passenger information, and a fourth page might use 
+Ajax to select seat locations, meals, and other individual needs for each passenger.
+Ajax has the advantage of making the web work faster and providing a smoother viewing 
+experience for users. The disadvantages are that JavaScript must be enabled and that the web 
+page may violate the Americans with Disabilities Act. Security must be taken into consideration, 
+if needed. There are numerous examples of Ajax websites. Some notable ones are Google Earth 
+(earth.google.com) and Google Suggest, which responds to the viewer’s keystrokes by providing 
+a drop-down list of possible search terms.
+Using Color in Display Design
+Using color is an appealing and proven way to facilitate tasks requiring computer input. 
+Appropriate use of color in display screens allows you to contrast foreground and background, 
+highlight important fields on forms, feature errors, highlight special code input, and call attention 
+to many other special attributes.
+Highly contrasting colors should be used for display foreground and background so that 
+users can grasp what is presented quickly. Background color will affect perception of foreground 
+color. For example, dark green may look like a different color if taken off a white background 
+and placed on a yellow one.
+The top five most legible combinations of foreground lettering on backgrounds are (starting 
+with the most legible combination):
+1. Black on yellow
+2. Green on white
+3. Blue on white
+4. White on blue
+5. Yellow on black
+The least legible are red on green and blue on red. As can be gathered from these foreground and 
+background combinations, bright colors should be used for foregrounds, with less bright colors 
+for the background. Strongly contrasting colors should be assigned first to fields that must be 
+differentiated; then other colors can be assigned.
+Use color to highlight important fields on displays. Fields that are important can be colored 
+differently than the rest. Take into consideration cultural norms. Red usually means danger, and 
+“in the red” also means a company is losing money. Green means “go” and is a safe color in 
+Western countries.
+When observing web accessibility guidelines, take into consideration that 8 to 10 percent of 
+the male population has color vision deficiency (CVD); often mistakenly called color blindness, 
+but less than 1 percent of females suffer from it. Use other indicators such as text and position on 
+the screen or device (in addition to color) to support users in completing their tasks.
+Ecommerce has changed the world by asking users to enter their 
+own information directly on web-based input forms; in doing so, 
+ecommerce has increased the accuracy of data entry. Although this 
+approach is efficient for the companies receiving data, it pushes the 
+keying of that information to the user. Fortunately, software is avail-
+able to automate the process so users can merely make a couple of 
+clicks rather than typing in long strings of alphanumeric characters 
+that make up IDs, passwords, and credit card numbers. On the Mac, 
+1Password by AgileBits appears to be the current leader. LastPass 
+is a good alternative.
+1Password allows a user to automate logins, complete credit 
+card information, and fill in an identity complete with street and 
+email addresses. It has separate categories for saving bank accounts, 
+membership, drivers’ licenses, and wireless router setups. Like every 
+other good password program, 1Password includes important fea-
+tures such as strong password generators, antiphishing technology, 
+and built-in protection from keyloggers. It also offers a security 
+audit called Watchtower that informs you if your passwords have 
+become vulnerable. 1Password is also an app for iPhone and 
+Android devices, so users can take their passwords with them.
+MAC APPEAL
+
+
+===== BOOK PAGE 384 =====
+
+384    PART IV  •  THE ESSENTIALS OF DESIGN
+As with any other enhancement, designers need to question the value of using color. Use of 
+color can be overdone; a useful heuristic is no more than four colors for new users and only up to 
+seven for experienced ones. Irrelevant colors distract users and detract from their performance. 
+In numerous instances, however, color has been shown to facilitate use in very specific ways. 
+Color should be considered an important way to contrast foreground and background, highlight 
+important fields and data, point out errors, and allow special coding of input.
+WEBSITE DESIGN
+Some icons and navigational elements are so pervasive in website design that you may not be 
+aware of them on a conscious level any longer. However, using these readily identifiable elements 
+can help you give your web designs a professional look as well as communicate effectively and 
+efficiently with users. We examine the hamburger icon, context-sensitive help, input validation, 
+using a breadcrumb trail, and the concept of the fat footer to aid in the efficient and effective 
+design of a website.
+The hamburger icon or hamburger menu ( ) is depicted with three stacked bars that 
+minimalistically resemble a hamburger patty placed inside a bun. The three bars are stacked 
+together in a parallel position within a square, as part of a GUI. Place this icon at the top of a 
+graphical display to alert the user that they can click on the hamburger icon to display a menu of 
+the website. Using the hamburger icon can save space on the website, which is especially helpful 
+when designing for smaller mobile devices such as cell phones.
+Context-sensitive help for GUI design is a good way to help users as they progress through 
+an application or a website. The cursor changes to a question mark as the user hovers over a word 
+that is part of the context-sensitive help feature. Clicking on the question mark will bring up a 
+specific comment designed to help the user with the feature they are currently trying to use. Users 
+do not need to be connected to the internet to receive this help. Context-sensitive help differs from 
+online help that users access by getting on the internet for in-depth help on multiple features in 
+the software or to access Read Me documents that supply software details and troubleshooting 
+on a variety of topics.
+Input validation (displaying the item the user just typed in) is a way to prevent the user from 
+entering the wrong type of data or incorrectly formatted data into the file or database. The design is 
+such that the user is not permitted to advance to the next input field until the problem is corrected. 
+At this point, the designer can add a message showing that the input data typed are not correct 
+such as the messages a user receives in a Microsoft Excel User Form, “Amount box must contain 
+a number” or “Date box must contain a date.” Consequently, the user is able to correct an error in 
+real time, and incorrect data will not be erroneously stored in the database or file.
+A breadcrumb trail is a colorful term for a navigational element developers can use to 
+let the user know where they are on a large website, in a program, or in a complex document. 
+(The phrase breadcrumb trail refers to the breadcrumbs dropped by Hansel and Gretel, in the 
+fairytale of the same name, when they entered the forest in hopes that retracing the trail would 
+help them find their way out of the forest to get back home.) You can enhance the user experience 
+and improve the user’s perception of control if you include a breadcrumb trail to help the user 
+navigate, especially on large, hierarchically arranged websites, such as retail sites. A breadcrumb 
+trail on a subpage of a website can be displayed in a shaded bar at the top of the screen showing 
+the path the user has used to arrive at that page, or it can be something simple such as a path—
+Home>Help>Contact Us>Email>Live Chat—to indicate where navigationally one is on a website 
+when a user is searching for help with a purchase.
+The bottom of a web page is called the footer. A footer often gives basics of contact informa-
+tion for the company, a copyright notice, or information about who to contact about the content 
+of the website. Footers are often seen as throwaway designs of little importance. Their design 
+should not be ignored, however. One current perspective is that by designing  fat footers, an entire 
+section of the website can feature social media links, recommend what visitors should check out 
+next on the website, add keywords and tags to improve search engine optimization, develop a 
+lasting impression with users based on an excerpt from the organization’s mission statement, 
+show a corporate slogan, display a key value, or even add humorous art or icons to reveal a more 
+human dimension to the business.
+
+
+===== BOOK PAGE 385 =====
+
+CHAPTER 12  •  DESIGNING  EFFECTIVE  INPuT     385
+Designing websites or designing for smartphones and tablets (see Chapter 11) share some 
+guidelines with designing a good internet or intranet fill-in form. Now that you have learned 
+some of the elementary aspects of input form and display design, examine Figure 12.9, which 
+shows a fill-in form order page containing many elements of good design for the web. Guidelines 
+include the following:
+1. Provide clear instructions because web users may not be familiar with technical 
+terminology.
+2. Demonstrate a logical entry sequence for fill-in forms, especially because users may have 
+to scroll down to a region of the page that is not visible at first.
+3. Use a variety of text boxes, push buttons, drop-down menus, check boxes, and radio 
+buttons to serve specific functions and to create interest in the form.
+4. Provide a scrolling text box if you are uncertain about how much space users will need 
+ to respond to a question, or about what language, structure, or form users will use to  
+enter data.
+5. Prepare two basic buttons on every web fill-in form: Submit and Clear Form.
+6. If the form is lengthy and users must scroll excessively, divide the form into several 
+simpler forms on separate pages.
+7. Create a feedback screen that refuses submission of a form unless mandatory fields are 
+filled in correctly. The returned form screen can provide detailed feedback to the user in 
+a different color. Red is appropriate here. For example, a user may be required to fill in a 
+country in the country field or indicate a credit card number if that type of payment has  
+been checked off. Often a required field is denoted on an initial input screen with a  
+red asterisk.
+Ecommerce applications involve more than just good design of websites. Customers need to 
+feel confident that they are buying the correct quantity, that they are getting the right price, and that 
+the total cost of an internet purchase, including shipping charges, is what they expect. The most 
+common way to establish this confidence is to use the metaphor of a shopping cart or shopping 
+bag. Figure 12.10 shows the contents of a shopping cart for a customer making a purchase. An 
+important feature of the shopping cart is that the customer can edit the quantity of the item ordered 
+or can remove the item entirely.
+Ecommerce applications place additional demands on an analyst who must design websites 
+to meet several user and business objectives, including setting forth the corporate mission and 
+values regarding confidentiality, preserving user privacy, and easy and rapid product returns; the 
+efficient processing of transactions; and building good customer relationships.
+FIGURE 12.9
+The order screen from the 
+Merchants Bay website  
+(www.merchantsbay.com) is a 
+good example of how to design 
+an input form that is clear, 
+easy to use, and functional. 
+(Screenshot of Merchants Bay 
+website. Copyright © 2000 by 
+Merchants Bay LLC. Reprinted 
+with permission of Troy Pappas.)
+
+
+===== BOOK PAGE 386 =====
+
+386    PART IV  •  THE ESSENTIALS OF DESIGN
+Summary
+This chapter has covered elements of input design for forms, displays, and web fill-in forms. Well-designed 
+input should meet the goals of effectiveness, accuracy, ease of use, simplicity, consistency, and attractiveness. 
+Knowledge of many different design elements will allow the systems analyst to reach these goals.
+The four guidelines for well-designed input forms are the following: (1) make forms easy to fill in,  
+(2) ensure that forms meet the purpose for which they are designed, (3) design forms to ensure accurate 
+completion, and (4) keep forms attractive.
+Design of useful forms, displays, and web fill-in forms overlaps in many important ways, but there are 
+some distinctions. Displays may show a cursor that continually orients the user. Displays often help with 
+input, whereas with the exception of preprinted instructions, it may be difficult to get additional assistance 
+with a form. web-based documents have additional capabilities, such as embedded hyperlinks, context-
+sensitive help functions, and feedback forms, to correct input before final submission.
+The four guidelines for well-designed displays are as follows: (1) keep the display simple, (2) keep 
+the display presentation consistent, (3) facilitate user movement among display screens and pages, and 
+(4) create an attractive and pleasing display. Many different design elements help the systems analyst meet 
+these guidelines.
+The proper flow of paper forms, display screens, and fill-in forms on the web is important. Forms 
+should group information logically into seven categories, and displays should be divided into three main 
+sections. Captions on forms and displays can be varied, as can font types and the weights of lines dividing 
+subcategories of information. Multiple-part forms are another way to ensure that forms meet their intended 
+purposes. Designers can use windows, pop-ups, dialog boxes, and defaults onscreen to ensure the effectiveness  
+of design.
+Event-response charts help the analyst to document what should happen when events occur. Dynamic 
+web pages modify the web page in response to events. These can be constructed as three-dimensional web 
+pages. Ajax techniques request and receive a small amount of data from the server and use the data to modify 
+the web page on the fly.
+Several pervasive navigational elements can be used by analysts to give their web pages a professional 
+look. These include the hamburger icon or menu; context-sensitive help for GUI design; input validation for 
+input forms; a breadcrumb trail to let users know where they are within a large website, program, or complex 
+document; and including fat footers.
+Web fill-in forms should be constructed with the following seven guidelines in mind, as well as those 
+in Chapter 11:
+1. Provide clear instructions.
+2. Demonstrate a logical entry sequence for fill-in forms.
+3. Use a variety of text boxes, push buttons, drop-down menus, check boxes, and radio buttons.
+FIGURE 12.10
+The Merchants Bay website 
+(www.merchantsbay.com) is a 
+good example of a shopping cart. 
+(Screenshot of Merchants Bay 
+website. Copyright © 2000 by 
+Merchants Bay LLC. Reprinted 
+with permission of Troy Pappas.)
+
+
+===== BOOK PAGE 387 =====
+
+CHAPTER 12  •  DESIGNING  EFFECTIVE  INPuT     387
+4. Provide a scrolling text box if you are uncertain about how much space users will need to respond to 
+a question.
+5. Prepare two basic buttons on every web fill-in form: Submit and Clear Form.
+6. If the form is lengthy and users must scroll extensively, divide the form into several simpler forms on 
+separate pages.
+7. Create a feedback screen that highlights errors in an appropriate color and refuses submission of the 
+form until mandatory fields are correctly filled in.
+Keywords and Phrases
+Ajax
+base plane
+breadcrumb trail
+check box
+color vision deficiency (CVD)
+command button
+context-sensitive help
+controlling business forms
+cursor
+drop-down list box
+dynamic web pages
+event-response chart
+fat footer
+form flow
+form values
+hamburger icon
+hamburger menu
+hidden field
+horizontal check-off caption
+image map
+input validation
+layer
+line caption
+list box
+message box
+option button
+picker
+radio button
+slider
+specialty form
+spin button
+table caption
+text box
+vertical check-off caption
+Review Questions
+1. What are the design objectives for paper input forms, input screens, and web-based fill-in forms?
+2. List the four guidelines for good form design.
+3. What is proper form flow?
+4. What are the seven sections of a good form?
+5. List four types of captioning for use on forms.
+6. What is a specialty form? What are some disadvantages of using specialty forms?
+7. List the four guidelines for good display design.
+8. What are the three sections useful for simplifying a display?
+9. What are the advantages of using onscreen windows?
+10. What are the disadvantages of using onscreen windows?
+11. List two ways display screens can be kept consistent.
+12. List three ways to facilitate movement between display pages.
+13. List four GUI design elements. Alongside each one, describe when it would be appropriate to 
+incorporate it in a display design or on a web-based fill-in form.
+14. When should check boxes be used?
+15. When should option buttons be used?
+16. What is a “picker” in app development?
+17. What are two different ways that form values are used?
+18. What are hidden fields used for on a web form?
+19. List four different types of events.
+20. What are dynamic web pages?
+21. What are three-dimensional web pages?
+22. How does Ajax improve a web page that changes based on user actions?
+23. List the five most legible foreground and background color combinations for display use.
+24. What does color vision deficiency (CVD) mean? List two things a web designer can do to mitigate 
+the effects of a CVD on the user.
+25. Describe how a hamburger menu or icon functions on a web page.
+26. How does context-sensitive help differ from online help?
+27. In what ways does input validation improve the quality of data stored in a database?
+
+
+===== BOOK PAGE 388 =====
+
+388    PART IV  •  THE ESSENTIALS OF DESIGN
+28. What is a breadcrumb trail in web design?
+29. List five of the many items an analyst can include in the design of a fat footer for a web page.
+30. What are four situations in which color may be useful for display and web-based fill-in form design?
+31. List seven design guidelines for a web-based fill-in form.
+Problems
+1. Below are captions used for a U.S. state census form:
+Name
+                   
+Occupation
+                   
+Address
+                   
+Zip code
+                   
+Number of people in household
+                   
+Age of head of household
+                   
+a. Redo the captions so that the state census bureau can capture the same information requested on 
+the old form without confusing respondents.
+b. Redesign the form so that it exhibits proper flow. (Hint: Make sure to provide an access and 
+identification section so that the information can be stored in the state’s computer system.)
+c. Redesign the form so it can be filled in by citizens who visit the state’s website. What changes 
+were necessary in moving from a paper form to one that will be submitted electronically?
+2. Elkhorn College needs to keep better track of students and others who use the many computers 
+available in the Buck Memorial Library.
+a. Design and draw a representation of a display screen for students to use in signing into the 
+computers in the library. Label the three sections of a display that you included.
+b. Many students access the Elkhorn Library collection online. Design a login screen so that students 
+can log in remotely. In a paragraph, comment about how logging into the library system while in 
+the library (part a above) is different from logging on remotely. (Hint: Consider different aspects of 
+security as well as users who would like to use a browser other than the one used in the library.)
+c. Design a paper form to be left alongside each computer that users who are part of the community 
+(but are not students) are required to fill out daily. The form should ask for name, date and time 
+of visit, general purpose for computer use (for example, word processing, web surfing, examining 
+real estate documents online), and the time they have logged off. Label the seven sections of a 
+form that you included.
+3. Speedy Spuds is an organic vegan restaurant offering all kinds of potatoes. The manager has a 
+30-second rule for serving customers. Servers at the counter say they could achieve that rule if 
+the form they must fill out and give to the kitchen crew were simplified. The information from the 
+completed form is entered into the computer system at the end of the day, when the data-entry person 
+needs to enter the kind of potato purchased, additional toppings purchased, the quantity, and the price 
+charged. The current form is difficult for servers to scan and fill out quickly.
+a. Design and draw a form (you choose the size but be sensible) that lists possible potatoes and 
+toppings (vegan cheese like vegan cheddar or vegan gouda, chives, onions, parsley, dairy-free sour 
+cream, and so on) in a manner that is easy for counter servers and kitchen crew to scan and that 
+can be used as input for the inventory/reorder system on the extranet connecting Speedy Spuds 
+and Idaho potato growers. (Hint: Remember to observe all the guidelines for good form design.)
+b. Design and draw a representation of a display screen that can be used by the servers and clerks to 
+fill in the information captured on the form.
+c. Design a display screen based on the display you designed in part b. This time, it should function 
+as a display that shows a kitchen crew member what to prepare for each Spuds order. List three 
+changes to the existing display that you made to adapt it to function as an output display.
+4. LiveKindly Alternative Plant-Based Products, a regional plant-based wholesaler and retailer of 
+alternative plant-based products as well as nondairy milk products, needs to collect up-to-date 
+information on how much of each plant-based product and nondairy milk product it has in each 
+store. It will then use that information to schedule deliveries from its central warehouse. Currently, 
+customers entering the store fill out a detailed form specifying their individual orders. The form lists
+
+
+===== BOOK PAGE 389 =====
+
+CHAPTER 12  •  DESIGNING  EFFECTIVE  INPuT     389
+over 150 items; it includes plant-based products available in different amounts. At the end of the day, 
+between 250 and 400 customer orders are tabulated and deducted from the store’s inventory. Then the 
+office worker in each store phones in an order for the next day. Store employees have a difficult time 
+tabulating sales because of the mistakes customers make in filling out their forms.
+a. It is not possible to have the solitary office worker in each store fill out the numerous customer 
+order forms. Change the form (31/2 × 6-inch either horizontal or vertical) and draw it so that it is 
+easier for customers to fill out correctly and for office workers to tabulate.
+b. Design and draw a specialty form of the same size that will meet the needs of LiveKindly’s 
+customers, office workers, and warehouse workers.
+c. Design and draw two different forms of the same size to meet the purposes in part b because 
+LiveKindly carries both plant-based alternatives and dairy-free milk products. (Hint: Think about 
+ways to make forms easy to distinguish visually.)
+d. Design a fill-in form for onscreen display. When a customer submits an order, it is entered into 
+LiveKindly’s inventory system by any person who is serving customers at the counter. This 
+information will be captured and sent to the central warehouse computer to help control inventory.
+e. In a paragraph, describe the drawbacks of having lots of different people at different locations 
+enter data. In a paragraph, list steps you can take as the designer so that the fill-in form is designed 
+to ensure accuracy of entry.
+f. Design a web page used by a customer to enter an order directly to LiveKindly.
+g. Design a web page to obtain credit card information for a web order. Partition the data onto two 
+web pages for additional security.
+h. Design a three-dimensional dynamic web page that allows LiveKindly to customize certain 
+products, such as requesting specific ingredients for a sticky tofu bowl or a Caesar salad. When 
+the customer selects a product from a drop-down list, the ingredients must be displayed with a 
+means of selecting which ones should be included in the product.
+i. Design a fat footer for the web page you designed in part f. It should include social media 
+links, keywords, references to additional web pages of interest, and a statement of key values 
+LiveKindly holds, such as “Fresh is the key to our customers’ hearts.”
+5. R. Ajab’s, a fashionable clothing store that also has an online store business, would like to keep track 
+of the customers coming into the store to expand its mailing list.
+a. Design and draw a simple form that can be printed on 3 × 5-inch cards and given to in-store 
+customers to fill out. (Hint: The form must be aesthetically appealing to encourage R. Ajab’s 
+upscale clientele to complete it.)
+b. Design and draw a representation of a display screen that captures in-store customer information 
+from the cards in part a.
+c. Design and draw a second onscreen tab control dialog box that compares in-store customers with 
+catalog customers.
+d. The owner is having you help enhance her catalog business by setting up an ecommerce site. 
+Design a web-based form to capture information from those who visit the website. In a paragraph, 
+explain how it will differ from the printed form.
+e. Design a social media post that depicts a customer’s positive experience shopping at R. Ajab’s that 
+advertises the brand in a subtle way. Use visuals.
+6. Recently, an up-and-coming discount brokerage house expressed an interest in developing its own 
+web-based portfolio management software that clients could use at home on their laptops to make 
+trades, get real-time stock quotes, and so on.
+a. Design two input displays that make data entry easy for the client. The first display should allow 
+users to enter stock symbols for the stocks they want to track on a daily basis. The second display 
+should allow the client to use an icon-based system to design a customized report showing stock 
+price trends in a variety of graphs or text.
+b. Suggest two other input displays that should be included in this new portfolio management software.
+7. My Belle Cosmetics is a large business that has sales well ahead of any other regional cosmetics firm. 
+As an organization, it is very sensitive to color and introduces new color lines in its products every 
+fall and spring. The company has recently begun using technology to electronically show in-store 
+customers how they appear in different shades of cosmetics without requiring them to actually apply 
+the cosmetics.
+a. Design and draw a representation of a display screen that can be used by salesclerks at a counter 
+to try many shades of lipstick and makeup on an individual customer very quickly and with a high 
+degree of accuracy. Input from customers should be their hair color, the color of their favorite 
+clothing, and their typical environmental lighting (fluorescent, incandescent, outdoor, and so on).
+b. Design and draw a representation of a display screen that is equivalent to the one in part a but that 
+vividly demonstrates to decision makers in My Belle how color improves the understandability of 
+the screen.
+
+
+===== BOOK PAGE 390 =====
+
+390    PART IV  •  THE ESSENTIALS OF DESIGN
+c. One of the affiliates My Belle has on the web is a large department store chain. In a paragraph, 
+describe how the display screen in part a can be altered so that an individual can use it and My 
+Belle can put it on the department store’s ecommerce website to attract customers.
+d. Design a breadcrumb trail for the My Belle website. Make sure to include the names of key pages 
+and show how a user could navigate between pages. Use shaded boxes at the top of the page to 
+indicate the breadcrumb trail.
+8. The YourNextProperty Realty Corporation specializes in locating homes for prospective buyers. 
+Home information is stored in a database and is to be shown on an inquiry display screen. Design a 
+GUI web-based display to enter the following data fields, which are used to select and display homes 
+matching the criteria. Keep in mind the features available for a GUI display. The design elements (not 
+in any particular order) are as follows:
+a. Minimum size (in square feet)
+b. Maximum size (in square feet, optional)
+c. Minimum number of bedrooms
+d. Minimum number of bathrooms
+e. Garage size (number of cars, optional)
+f. School district (a limited number of school districts are available for each area)
+g. Swimming pool (yes/no, optional)
+h. Setting (either city, suburban, or rural)
+i. Fireplace (yes/no, optional)
+j. Energy efficient (yes/no)
+In addition, describe the hyperlinks necessary to achieve this type of interaction.
+9. Design a web landing page for the YourNextProperty Realty Corporation display screen created in 
+Problem 8.
+10. Sludge’s Auto is an auto parts recycling center, including classic and antique cars. The owner would 
+like to get his bearings on a website for customers to browse for parts. Design an Ajax web page used 
+to find parts. The customer needs to know the make, model, and year of a car as well as the part. 
+If the part is in stock, the description, condition of the part, price, and shipping cost are displayed, 
+with the quantity available for each part, along with a picture of the part. Provide a button for each 
+part that may be clicked to purchase the part.
+a. Add a fat footer for the Sludge’s website landing page. It should include social media links, 
+keywords, references to additional web pages of interest, and a statement of a key belief Sludge’s 
+has, such as “The cars we drive say a lot about us.”
+11. Design the Add Customer web page for Sludge’s Auto (see Problem 10). Include a profile that will 
+allow Sludge’s to send the customer an email if a requested part becomes available.
+12. Design the Purchase web page for Sludge’s Auto (see Problem 10). Assume that the customer has 
+been added and has been logged on. Display some information about the customer. Split credit card 
+information (type of credit card, credit card number, expiration date, and the security code found on 
+the back of the card) between two web pages.
+13. Design a web page using Ajax for registering an electronic product, either hardware or software. The 
+form should have the purchaser’s name and address, telephone number, email address, and a drop-
+down list of product categories. When the category is changed, send the category value to the server, 
+which returns an XML document containing the products for the category used to create a drop-down 
+list of products. When the customer selects a product, the product value is sent to the server, which 
+returns an XML document used to create a model or version of the product.
+Group Projects
+1. Maverick Transport is a 15-year-old national U.S. trucking firm. Maverick is a less-than-a-truckload 
+carrier. The people in management work from the philosophy of just in time (JIT), in which they have 
+created a partnership that includes the shipper, the receiver, and the carrier (Maverick Transport) for 
+the purpose of transporting and delivering the materials required JIT for their use on the production 
+line. Maverick maintains 626 tractors for hauling freight and has 45,000 square feet of warehouse 
+space and 21,000 square feet of office space. Maverick Transport is considering updating its input 
+display screens. With your team, brainstorm about what should appear on input screens of computer 
+operators who are entering delivery load data as loads are approved. Fields will include date of 
+delivery, contents, weight, special requirements (for example, whether contents are perishable and 
+require refrigeration), and so on.
+2. Each team member should design an appropriate input display for Maverick Transport using either 
+a computer-aided software engineering tool, a drawing tool such as Microsoft Visio, or paper and 
+pencil. Share your results with your team members. Include small pop-up notifications for input
+
+
+===== BOOK PAGE 391 =====
+
+CHAPTER 12  •  DESIGNING  EFFECTIVE  INPuT     391
+validation that notifies users that the data they are entering is invalid or that they have missed a field 
+that requires data.
+3. Make a list of other input displays that Maverick Transport should develop. Remember to include 
+dispatcher screens as well as screens to be accessed by customers and drivers. Indicate which should 
+be PC screens or displays on wireless handheld devices.
+4. Design a web-based screen that will allow Maverick Transport customers to track the progress of  
+a shipment. Brainstorm with team members for a list of elements or perform an interview with a  
+local trucking company to find out its requirements. List what hyperlinks will be essential. How  
+will you control access so that customers can securely track only their own shipments? Respond in  
+a few sentences.
+Selected Bibliography
+Biskjaer, M. M., Dalsgaard, P., & Halskov, K. (2019). The same, but better: Understanding the practice of 
+designing for incremental innovation in web design. International Journal of Design, 13, 89–104.
+Demetri. (2012, June 4). 16 important do’s and don’ts of effective web design. https://www.designtoronto 
+web.ca/dos-and-donts-of-effective-web-design/
+Garrett, J. J. (2005, February 18). Ajax: A new approach to web applications. http://adaptivepath.org/
+ideas/ajax-new-approach-web-applications/
+Gube, J. (2008, December 11). 20 excellent websites for learning Ajax. http://sixrevisions.com/
+ajax/20-excellent-websites-for-learning-ajax/
+Ives, B. (1982). Graphical user interfaces for business information systems. MIS Quarterly, 6, 15–47.
+Kyng, M., & Mathiassen, L. (1997). Computers and design in context. MIT Press.
+Kyrnin, J. (2021, September 30). Pros and cons of image maps. ThoughtCo, Sep. 30, 2021, thoughtco.
+com/pros-cons-image-maps-3468676. Last accessed May 24, 2022.
+Nielsen, J., & Li, A. (2017, March 26). Mega menus work well for site navigation. https://www.nngroup.
+com/articles/mega-menus-work-well/
+Nielsen, J., Molich, R., Snyder, C., & Farrell, S. (2001). E-commerce user experience. Nielsen Norman 
+Group.
+Nielsen, J., & Pernice, K. (2010). Eyetracking web usability. New Riders Press.
+Reisner, P. (1981). Human factors studies of data base query languages: A survey and assessment. 
+Computing Surveys, 4(1), 13–31.
+Schmidt, A., & Kendall, K. E. (2006, October). Using Ajax to clean up a website: A new programming 
+technique for website development. Decision Line, pp. 11–13.
+Turgut, B., & Karanfil, F. C. (2017). Appropriate terminology in the nomenclature of the color vision 
+deficiency. Clinical Case Reports and Reviews, 3.
+Wragg, N., & Barnes, C. (2021). Advancing interactivity: Graphic designers’ practice-based contribution 
+to developing the web. Digital Creativity, 32(2), 143–164.
+Zero Gravity Marketing. (2015, March 5). Website design: Fat footer pros & cons. https://zerogravity 
+marketing.com/website-design-fat-footers/
+
+
+===== BOOK PAGE 392 =====
+
+392
+Designing Databases
+LEARNING OBJECTIVES
+Once you have mastered the material in this chapter, you will be able to:
+1 Appreciate what a database is.
+2 Understand basic data concepts.
+3 Learn how to efficiently store data using normalization.
+4 Know the guidelines for designing main files and database relations.
+5 Grasp the notion of denormalization and why it is useful.
+6 Understand the concept of data warehouses.
+7 Comprehend the relationship of business intelligence to data warehouses.
+8 Understand data analytics in helping systems and people make decisions.
+9 Learn about data lakes and how they differ from data warehouses.
+10 Gain basic knowledge about blockchains and their usefulness.
+Some consider data storage to be the heart of an information system. The data have to 
+be available when the user wants to use them. In addition, the data must be accurate and 
+consistent (they must possess integrity). The objectives of database design include efficient 
+storage of data as well as efficient updating and retrieval. Finally, it is necessary that 
+information retrieval be purposeful. The information obtained from stored data must be in 
+a form that is useful for managing, planning, controlling, or making decisions.
+There are two approaches to the storage of data in a computer-based system. The 
+first is to store data in individual files, each unique to a particular application. The second 
+approach involves building a database. A database is a formally defined and centrally 
+controlled store of data intended for use in many different applications.
+Individual files are often designed with only immediate needs in mind, so it becomes 
+important to query the system for a combination of some of the attributes; these attributes 
+may be contained in separate files or may not even exist. Databases need to be planned 
+so that data are organized for efficient storage and effective retrieval. Data warehouses 
+are very large databases that store summarized data relating to a specific subject, so 
+queries are answered very efficiently. Business intelligence is built around the concept 
+of processing large volumes of data, sometimes called big data. Business analytics uses 
+quantitative tools to analyze big data and inform decisions of managers and computer 
+systems. Data lakes are repositories for raw data, normalized and unnormalized data from 
+relational databases, and nonrelational data from the Internet of Things, mobile devices, 
+and apps of all kinds. Data deposited in data lakes are not structured and predefined 
+before they are collected. Data lakes can be queried simply to gain heretofore unknown 
+insights into customers and their relationships to business goals.
+13 
+CHAPTER
+

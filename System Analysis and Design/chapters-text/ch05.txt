@@ -1,0 +1,1590 @@
+
+===== BOOK PAGE 141 =====
+
+CHAPTER 5  •  InfoRMATIon G ATHERInG : UnobTRUsIvE  METHods     141
+SAMPLING
+Sampling is the process of systematically selecting representative elements of a population. When 
+these selected elements are examined closely, analysis of the sample will reveal useful information 
+about the population as a whole.
+A systems analyst must make decisions on two key issues. First, people in the organization 
+have generated many reports, forms, output documents, memos, and websites. Which of these 
+should the systems analyst pay attention to, and which can the systems analyst safely pass over?
+Second, a great many employees may be affected by the proposed information system. Which 
+people should the systems analyst interview, seek information from via questionnaires, or observe 
+in the process of carrying out their decision-making roles?
+The Need for Sampling
+There are many reasons a systems analyst would want to select either a representative sample of 
+data to examine or representative people to interview, question, or observe. They include:
+1. Containing costs
+2. Speeding up data gathering
+3. Improving effectiveness
+4. Reducing bias
+Examining every scrap of paper, talking with everyone, and reading every web page from the 
+organization is far too costly for the systems analyst. Copying reports, asking employees for valuable 
+time, and duplicating unnecessary surveys would result in much needless expense. Sampling helps 
+accelerate the process by gathering selected data rather than all data for the entire population. In 
+addition, the systems analyst is spared the burden of analyzing data from the entire population.
+Effectiveness in data gathering is an important consideration as well. Sampling can help 
+improve effectiveness if information that is more accurate can be obtained. Such sampling 
+is accomplished, for example, by talking to fewer employees but asking them more detailed 
+questions. In addition, if fewer people are interviewed, the systems analyst can afford the time 
+to follow up on missing or incomplete data, thus improving the effectiveness of data gathering.
+office tidy will probably enjoy the humor in this video, while people 
+who prefer to make their space comfortable and familiar may find 
+the manager in this video obnoxious and even cruel. After you view 
+the video, please reflect on the following questions:
+1. Some people will state that “A cluttered desk suggests a 
+cluttered mind.” The comeback can be “Empty desk, empty 
+mind.” Which statement resonates with you? Why?
+2. An employee leaves customer files on their desk, writes their 
+password on a sticky note and fastens it on their computer 
+display, and places sensitive photos on their desk. What 
+should we be concerned about?
+3. If a company issues a policy that employees must declutter 
+their offices, how can the company examine their own 
+practices, for example, by decluttering their signage on 
+bulletin boards and wording in memos?
+4. Examining a person’s office can reveal many things about 
+how they process, store, and use data. Why is it important to 
+understand that people are unique and have different ways  
+to do their work?
+SYSTEMS SCENARIO  
+Surveying the Cluttered Desk
+In this chapter you learn about unobtrusive ways to gather information. 
+One of the approaches is to use observation to understand the 
+organizational environment. This chapter’s video is about decluttering 
+the office of data. While the manager in the video is relentless in 
+requiring employees to clean up their messes, employee’s personal 
+lives and their comfort level is ignored. Someone who keeps their 
+To view the video for this scenario,  
+see eText Chapter 5.
+Seven Dimensions/Boclips
+
+
+===== BOOK PAGE 142 =====
+
+142    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+Finally, data-gathering bias can be reduced by sampling. When the systems analyst interviews 
+an executive of the corporation, for example, the executive is involved with the project because 
+this person has already given a certain amount of time to the project and would like it to succeed. 
+When the systems analyst asks for an opinion about a permanent feature of the current informa-
+tion system, the executive interviewed may provide a biased evaluation because there is little 
+possibility of changing it.
+Sampling Design
+A systems analyst must follow four steps to design a good sample:
+1. Determine the data to be collected or described.
+2. Determine the population to be sampled.
+3. Choose the type of sample.
+4. Decide on the sample size.
+These steps are described in detail in the following subsections.
+Determining the Data to Be Collected or Described. A systems analyst needs a realistic plan about 
+what will be done with the data collected. If irrelevant data are gathered, then time and money are 
+wasted in the collection, storage, and analysis of useless data.
+The duties and responsibilities of the systems analyst at this point are to identify the variables, 
+attributes, and associated data items that need to be gathered in the sample. The objectives of the 
+study must be considered, as well as the type of data-gathering method (for example, investigation, 
+interviews, questionnaires, and observation) to be used. The kinds of information sought when 
+using each of these methods are discussed in more detail in this and subsequent chapters.
+Determining the Population to Be Sampled. Next, a systems analyst must determine the size of 
+the population. In the case of hard data, the systems analyst needs to decide, for example, whether 
+data from the last two months are sufficient or whether an entire year’s worth of reports is needed 
+for analysis.
+Similarly, when deciding whom to interview, the systems analyst has to determine whether the 
+population should include only one level in the organization or all the levels. Perhaps the analyst 
+will need to go outside the system and include the reactions of customers, vendors, suppliers, or 
+competitors as well. These decisions are explored in more detail in upcoming sections.
+Choosing the Type of Sample. A systems analyst can use one of four main types of samples, as 
+shown in Figure 5.1. They are convenience, purposive, simple random, and complex random. 
+Convenience samples are unrestricted and nonprobability samples. A sample could be called a 
+convenience sample if, for example, the systems analyst posts a notice on the company’s intranet 
+asking for everyone interested in working with the new sales performance reports to come to a 
+FIGURE 5.1
+Four main types of samples a 
+systems analyst has available. Sample elements are
+   selected directly
+   without restrictions
+Convenience Simple random
+Sample elements are
+   selected according
+   to speciﬁc criteria
+Complex random
+(systematic, stratiﬁed,
+and cluster)
+Purposive
+Not Based on Probability Based on Probability
+The systems
+analyst should
+use a complex
+random sample
+if possible.
+
+
+===== BOOK PAGE 143 =====
+
+CHAPTER 5  •  InfoRMATIon G ATHERInG : UnobTRUsIvE  METHods     143
+meeting Tuesday morning. Obviously, this sample is the easiest to arrange, but it is also the least 
+reliable. A purposive sample  is based on judgment. The systems analyst chooses a group of 
+individuals who appear knowledgeable and who are interested in the new information system. 
+Although this sample is based on criteria—knowledge about and interest in the new system—
+purposive sampling is also a nonprobability sample and is only moderately reliable. If the analyst 
+chooses a simple random sample, the sample must come from a numbered list of the population 
+to ensure that each document or person in the population has an equal chance of being selected. 
+This step often is not practical, especially when sampling involves documents and reports. 
+Complex random samples that are most appropriate for a systems analyst are (1) systematic 
+sampling, (2) stratified sampling, and (3) cluster sampling.
+In the simplest method of probability sampling, systematic sampling, the systems analyst 
+would, for example, choose to interview every kth person on a list of company employees. This 
+method has certain disadvantages, however. The analyst would not want to use it to select every 
+kth day for a sample because of the potential periodicity problem. Furthermore, a systems analyst 
+would not use this approach if the list were ordered (for example, a list of banks, from the smallest 
+to the largest) because bias would be introduced.
+Stratified samples are perhaps the most important tool for a systems analyst. Stratification 
+is the process of identifying subpopulations, or strata, and then selecting objects or people for 
+sampling in these subpopulations. Stratification is often essential if the systems analyst is to 
+gather data efficiently. For example, if the analyst seeks opinions from a wide range of employees 
+on different levels of the organization, systematic sampling selects a disproportionate number 
+of employees from the operational control level. A stratified sample compensates for this. 
+Stratification also is called for when a systems analyst wants to use different methods to collect 
+data from different subgroups. For example, the analyst may use a survey to gather data from 
+middle managers but use personal interviews to gather similar data from executives.
+Sometimes a systems analyst must select a group of people or documents to study. This 
+process is referred to as cluster sampling. Suppose an organization has 20 help desks scattered 
+across the country. The analyst may select one or two of these help desks, under the assumption 
+that they are typical of all the help desks.
+Deciding on the Sample Size. If everyone in the population viewed the world the same way 
+or if each of the documents in a population contained exactly the same information as every 
+other document, a sample size of one would be sufficient. Of course, this is not the case, so it is 
+necessary to set a sample size greater than one but less than the size of the population itself.
+It is important to remember that the absolute number is more important in sampling than the 
+percentage of the population. We can obtain satisfactory results sampling 20 people in 200 or 
+20 people in 2,000,000.
+The Sample Size Decision
+The sample size often depends on the cost involved or the time required by the systems analyst, 
+or even the time available from people in the organization. This subsection provides guidelines 
+for determining the required sample size under ideal conditions—for example, to determine what 
+percentage of input forms contain errors or what proportion of people to interview.
+A systems analyst follows seven steps, some of which involve subjective judgments, to 
+determine the required sample size:
+1. Determine the attribute (in this case, the type of errors to look for).
+2. Locate the database or reports in which the attribute can be found.
+3. Examine the attribute. Estimate p, the proportion of the population having the attribute.
+4. Make the subjective decision regarding the acceptable interval estimate, i.
+5. Choose the confidence level and look up the confidence coefficient (z value) in a table.
+6. Calculate pσ , the standard error of the proportion, as follows:
+i
+zpσ=
+7. Determine the necessary sample size, n, using the following formula:
+n pp1 1
+p
+2
+()= −
+σ +
+
+
+===== BOOK PAGE 144 =====
+
+144    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+The first step, of course, is to determine which attribute to sample. Once this is done, find out 
+where these data are stored, perhaps in a database, on a form, or in a report.
+It is important to estimate p, the proportion of the population having the attribute, to set the 
+appropriate sample size. Many textbooks on systems analysis suggest using a heuristic of 0.25 for 
+()pp1– . This value almost always results in a sample size larger than necessary because 0.25 
+is the maximum value of ()pp1– , which occurs only when =p 0.50.  When =p 0.10, as is 
+more often the case, ()pp1–  becomes 0.09, resulting in a much smaller sample size.
+Steps 4 and 5 are subjective decisions. The acceptable interval estimate of ±0.10 means 
+the analyst is willing to accept an error of no more than 0.10 in either direction from the actual 
+proportion, p. The confidence level is the desired degree of certainty, such as 95 percent. Once 
+the confidence level is chosen, the confidence coefficient (also called a z value) can be looked up 
+in a table similar to the one found in this chapter.
+Steps 6 and 7 complete the process by taking the parameters found or set in Steps 3 through 
+5 and entering them into two equations to eventually solve the required sample size.
+Sylva glances at him furtively and begins to interrupt, “It’s a 
+little out of our area of consulting expertise, but I understand that 
+fake fur doesn’t ever really break down after it’s discarded and can 
+be bad for the environment. But there’s a company working with 
+a popular designer now that’s developing a corn-based material 
+for faux fur that’s supposed to be a better alternative for the 
+environment. So, there is hope for increased sales in the longer term. 
+That aside, for your current project, it will take months to talk to 
+everyone, and purchasing may come apart at the seams unless they 
+know soon what . . . ”
+Pelt interrupts, “I don’t care how long it takes if we get the right 
+answers. But they have to be right. Not knowing how to solve this 
+dilemma about fake furs is making me feel like a leopard without 
+its spots.”
+Sylva talks to Sam Pelt a bit longer and then ends the interview 
+by saying, “I’ll talk it all over with the other analysts at the office 
+and let you know what we come up with. I think we can outfox the 
+other furriers if we use software to help us sample opinions rather 
+than trapping unsuspecting customers into giving an opinion. But 
+I’ll let you know what they say. This much is for sure: if we can 
+sample and not talk to everybody before deciding, every coat you 
+sell will have a silver lining.”
+As one of the systems analysts who is part of Sylva Foxx’s firm, 
+suggest some ways that Sam Pelt can use software to adequately 
+sample the opinions of his customers, store managers, buyers, and 
+any others you feel will be instrumental in making the strategic 
+decision regarding the stocking of fake or faux furs in what has 
+always been a genuine fur store. In a paragraph, suggest a type of 
+sample for each group and justify it. The constraints you are subject 
+to include the need to act quickly to remain competitive, the need 
+to retain a low profile, so competing furriers are unaware of your 
+fact gathering, and the need to keep costs of data gathering to a 
+reasonable level.
+CONSULTING OPPORTUNITY 5.1 
+Trapping a Sample
+“Real or fake? Fake or real? Who would have thought it, even 
+five years ago?” howls Sam Pelt, a furrier who owns stores in New 
+York, Washington, D.C., Beverly Hills, and Copenhagen. Sylva 
+Foxx, a systems analyst with her own consulting firm, is talking 
+with Sam for the first time. Currently, P & P, Ltd. (which stands 
+for Pelt and Pelt’s son) is using a networked computer that supports 
+package software for a select customer mailing list, accounts pay-
+able and accounts receivable, and payroll.
+Sam is interested in making some strategic decisions that will 
+ultimately affect the purchasing of goods for his four fur stores. 
+Sales for real fur were down about 40 percent over the last two 
+decades due to shifts in consumer perspectives on the desirability 
+of using real fur in fashion coupled with new international regu-
+lations prohibiting the farming of animals for their fur. Although 
+the computer might help, Sam believes other approaches should be 
+considered as well.
+Sam continues, “I think we should talk to all the customers 
+when they come in the door. Get their opinions. You know, some 
+of them are getting very upset about wearing fur from endangered 
+species. They’re very environmentally minded. They prefer fake to 
+real if they can save a baby animal. Some even like fakes better, 
+calling them ‘fun furs.’ And I can charge almost the same for a good 
+look-alike. Also, some countries already banned fur farming, so we 
+have to be careful not to offend international customers.”
+“It’s a very fuzzy proposition, though. If I get too far away 
+from my suppliers of pelts, I may not get what I want when I need 
+it. They see the fake fur people as worms, worse than moths! If  
+I deal with them, the real fur suppliers might not talk to me. They 
+can be animals. On the other hand, I feel strange showing fakes in 
+my stores. All these years, we’ve prided ourselves on having only 
+the genuine article.”
+Sam continues, in a nearly seamless monologue, “I want to talk 
+to each and every employee too.”
+
+
+===== BOOK PAGE 145 =====
+
+CHAPTER 5  •  InfoRMATIon G ATHERInG : UnobTRUsIvE  METHods     145
+FIGURE 5.2
+A systems analyst can use a table 
+of area under a normal curve to 
+look up a value once the confi-
+dence level is decided.99% 2.58
+98 2.33
+97 2.17
+96 2.05
+95 1.96
+90 1.65
+80 1.28
+50 0.67
+Conﬁdence
+Level
+Conﬁdence
+Coefﬁcient
+(z value)
+First decide on
+the conﬁdence
+level …
+… then look up
+the z value. 
+Example
+The foregoing steps can best be illustrated by an example. Suppose the A. Sembly Company, a 
+large manufacturer of shelving products, asks you to determine what percentage of orders contain 
+errors. You agree to do this job and perform the following steps:
+1. Determine that you will be looking for orders that contain mistakes in names, addresses, 
+quantities, or model numbers.
+2. Locate copies of order forms from the past six months.
+3. Examine some of the order forms and conclude that only about 5 percent (0.05) contain 
+errors.
+4. Make a subjective decision that the acceptable interval estimate will be ±0.0 2.
+5. Choose a confidence level of 95 percent. Look up the confidence coefficient (z value) in 
+Figure 5.2. The z value equals 1.96.
+6. Calculate σ p as follows:
+σ= ==i
+z
+0.02
+1.96 0.0102p
+7. Determine the necessary sample size, n, as follows:
+() ()
+() ()
+= −
+σ += +=n pp1 1 0.05 0.95
+0.0102 0.0102 1 458
+p
+2
+The conclusion, then, is to set the sample size at 458. Obviously, a greater confidence level 
+or a smaller acceptable interval estimate would require a larger sample size. If we keep the 
+acceptable interval estimate the same but increase the confidence level to 99 percent (with a z 
+value of 2.58), the necessary sample size becomes 1,827, a figure much larger than the 458 we 
+originally decided to sample.
+Determining Sample Size When Interviewing. There are no magic formulas to help a systems 
+analyst set the sample size for interviewing. The overriding variable that determines how many 
+people a systems analyst should interview in depth is the time an interview takes. A true in-depth 
+interview and a follow-up interview are very time-consuming for both the interviewer and the 
+participant.
+A good rule of thumb is to interview at least three people at every level of the organization and 
+at least one from each of the organization’s functional areas (as described in Chapter 2) who will 
+work directly with a new or updated system. Remember also that it is not necessary to interview 
+more people just because it is a larger organization. If the stratified sample is done properly, a 
+small number of people will adequately represent the entire organization.
+
+
+===== BOOK PAGE 146 =====
+
+146    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+Analyzing Quantitative Documents
+Investigation is the act of discovery and analysis of data. When investigating evidence in an 
+organization, an analyst acts like Sherlock Holmes, the fabled detective from 221B Baker Street.
+As a systems analyst works to understand users, their organization, and its information 
+requirements, it becomes important to examine different types of hard data that offer information 
+unavailable through any other method of data gathering. Hard data reveal where the organization 
+has been and where its members believe it is going. To piece together an accurate picture, the 
+analyst needs to examine both quantitative and qualitative hard data.
+Many quantitative documents are available for interpretation in any business, and they 
+include reports used for decision making, performance reports, records, and a variety of forms. 
+All of these documents are targeted for specific purposes and audiences.
+Systematically Examining Quantitative Documents
+A systems analyst needs to obtain some of the documents used in running the business. These 
+documents often are paper reports regarding the status of inventory, sales, production, and 
+employee and customer satisfaction. Many of these reports are not complex, and they can provide 
+feedback for quick action. For example, a sales report may summarize the amount sold and the 
+type of sales. In addition, sales reports might include graphical output comparing revenue and 
+income over a set number of periods. Such reports enable the decision maker to spot trends easily.
+Production reports include recent costs, current inventory, labor, and plant information. 
+Service reports include the delivery of services and reports on employee performance and customer 
+satisfaction. In addition to using these key reports, decision makers use many summary reports 
+to provide background information, spot exceptions to normal occurrences, and afford strategic 
+overviews of organization plans. The following reports, records, and forms deserve special attention.
+Performances Reports. Most performance reports take the general form of actual versus intended 
+performance. One important function of performance reports is to assess the size of the gap 
+between actual and intended performance. It is important to be able to determine whether that 
+gap is widening or narrowing as an overall trend in whatever performance is being measured. 
+Figure 5.3 shows a clear improvement in sales performance over two to three months. The 
+analyst will want to note whether a performance measurement is available and adequate for key 
+organization areas.
+FIGURE 5.3
+A performance report showing 
+improvement.
+Number of
+Batches
+Produced
+Number of
+Batches
+Rejected
+Percentage Amount
+Away from
+5% Goal
+Week Rejected
+2/2 245 19 7.8 2.8
+2/9 229 19 8.3 3.3
+2/16 219 14 6.3 1.3
+2/23 252 13 5.2 0.2
+3/2 245 13 5.3 0.3
+3/9 260 13 5.0 * * * 
+3/16 275 14 5.1 0.1
+3/23 260 13 5.0 * * * 
+3/30 260 13 5.0 * * * 
+4/6 244 12 4.9 * * * 
+4/13 242 11 4.5 * * * 
+4/20 249 11 4.4 * * * 
+4/27 249 11 4.4 * * * 
+      * * * indicates met or exceeded the < 5% goal
+Performance
+reports
+show goals …
+… and trends.
+
+
+===== BOOK PAGE 147 =====
+
+CHAPTER 5  •  InfoRMATIon G ATHERInG : UnobTRUsIvE  METHods     147
+Records. Records provide periodic updates of what is occurring in the business. If the record 
+is updated in a timely fashion by a careful recorder, it can provide much useful information 
+to a systems analyst. Figure 5.4 is a manually completed payment record for an apartment 
+rental. An analyst can inspect a record in different ways, many of which are indicative of their 
+usability:
+1. Checking for errors in amounts and totals
+2. Looking for opportunities for improving the recording form design
+3. Observing the number and type of transactions
+4. Watching for instances in which the computer can simplify the work through calculations 
+and other data manipulation
+Data Capture Forms. Before you set out to change the information flows in an organization, 
+you need to be able to understand the system that is currently in place. Check with managers to 
+determine which forms are available online to customers as well as those that are exclusively used 
+internally by employees. You or one of your team members may want to download, collect, and 
+catalog a blank copy of each form (official or unofficial) that is in use. (Sometimes businesses have 
+a person already charged with forms management, who would be your first source for actual forms 
+in use.) Remember to print out any web-based forms that require users to print them. Alternatively, 
+electronic versions that can be submitted via the web or email can be identified and stored in a 
+database for later inspection.
+Blank forms, along with their instructions for completion and distribution, can be compared 
+with filled-in forms to see whether any data items are consistently left blank on the forms; 
+whether the people who are supposed to receive the forms actually do get them; and if they 
+follow standard procedures for using, storing, and discarding them. When creating a catalog 
+“I agree,” says Rod. “When I come back from my analysis of 
+these figures,” he says, indicating a large stack of material he has 
+unearthed from Fields field offices, “we’ll be able to deliver.”
+Three weeks later, Rod returns to Clay with wilting confidence. 
+“I don’t know what to make of all this. I can’t seem to get at what’s 
+causing the company’s growth, or how it’s managed. They’ve been 
+expanding, but I’ve been through all the figures, and nothing really 
+seems to make sense yet.”
+Clay listens empathetically and then says, “You’ve given me a 
+germ of an idea. What we need is some cross-pollination, a breath of 
+fresh air. We need to dig a little deeper. Did you examine anything 
+but their bottom line?”
+Rod looks startled and replies, “No, I—uh—what do you 
+mean?”
+How can Clay Potts tactfully explain to Rod Golden that exam-
+ination of qualitative as well as quantitative documents could be 
+important in delivering an accurate assessment of Fields’ potential 
+to be a more fruitful enterprise? In a paragraph, recommend some 
+specific documents that should be read. List the specific steps Rod 
+should follow in evaluating qualitative documents obtained from 
+Fields. Write a paragraph to explain how qualitative documents help 
+in presenting an overall account of Fields’ success.
+CONSULTING OPPORTUNITY 5.2 
+A Rose by Any Other Name . . . Or Quality, Not Quantities
+“I think we have everything we need. I’ve sampled financial 
+statements, sales figures for each branch, waste for each shop—we 
+have it all. With all these numbers, we should be able to figure 
+out how to keep Fields in the green, or at least at the forefront of 
+the flower business. We can even show Seymour Fields himself 
+how his new computer system can make it all happen,” says Rod 
+Golden, a junior systems analyst working for a medium-sized con-
+sulting group.
+The firm, under the supervision of its head systems analyst Clay 
+Potts, has been working on a systems project for the entire chain of 
+15 successful florist shops and indoor floral markets called Fields. 
+Each of three Midwestern cities has five Fields outlets.
+“Although it’s just a budding enterprise now, eventually we 
+want to grow with offshoots to half a dozen states,” says Seymour 
+Fields, the owner. “I want to reap the benefits of all the happiness 
+we’ve sown so far. I think we can do it by playing my hunches about 
+what is the best time to purchase flowers at each European market 
+we buy from, and then we should prune back our purchases.”
+“Over the past three years, I’ve written lots of memos to our 
+managers about this plan. They’ve written some good ones back 
+too. I think we’re ready to stake out some territory on this soon,” 
+continues Seymour, painting a rosy picture of Fields’ future.
+
+
+===== BOOK PAGE 148 =====
+
+148    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+of forms to help you understand the information flow currently in use in the business, follow 
+these steps:
+1. Collect examples of all the forms in use, whether officially sanctioned by the business or 
+not (official versus bootleg forms).
+2. Note the type of form (printed in-house, handwritten, computer-generated in-house, online 
+forms, web fill-in forms, printed externally and purchased, and so forth).
+3. Document the intended distribution pattern.
+4. Compare the intended distribution pattern with who actually receives the form.
+Although this procedure is time-consuming, it is useful. Another approach is to sample 
+data-capture forms that have already been completed. Remember to check databases that store 
+consumer data when sampling input from ecommerce transactions. An analyst must keep in mind 
+many particular questions, as illustrated in Figure 5.5. They include the following aspects of 
+human–computer interaction (HCI) relating to usability, aesthetics, and usefulness:
+1. Is the form filled out in its entirety? If not, what items have been omitted and are they 
+consistently omitted? Why?
+2. Are some forms never used? Why? (Check the design and appropriateness of each form for 
+its purported function.)
+FIGURE 5.4
+A manually completed payment record.
+PAYMENT RECORD: T o t. 31175/0 + 81299 + Rent = TOTAL INITIAL PAYMENT REQUIRED: 
+855 55 910 H/S dep. 4
+Date Date Receipt Paid to Total Secur- Clean- 31700 81299 Other Amount Balance
+Due Paid Number Noon Rent ity ing Tax Dates Amt. Descr . Am t . Paid Due
+TV 10/3 MO! 8/28 8/28 106642 9 /30 1031.32 202 115 44.20 25 4 1 4 .82 15 1430.52 0
+10/1 10/3 107503 10/31 91 0 910 0
+11/1 11/1 10935 11/16 485.28 485.28 0
+C1H/S9-16 11/17 11/8 11200 11/23 212.31 212.31 0
+Bill 1 MO 11/24
+Prorated
+H/S should be
+created toward
+refund deposit
+BLDG. # NAME
+Orig. Move-in Date d Exp. x #
+Base Refrig- Furni- Total Secur- Clean- 31700 Daily
+Rent erator ture Rent ity ing Tax Rate
+8-28 same 1
+Kendall 1st
+PROJ. NAME # KEY SIGNATURE
+RENT POTENTIAL 1175/0 81299 PRORATE
+A/C Util. HMSR T.V. Maid 31175/0 81299 Days Totals
+DEPOSIT
+POTENTIAL
+Deposits
+Memo Only 31175/0
+OAK. FC 562
+H/Srent 30.33 1.30 91039
+200 115 31.63 340
+910 1430.52
+15.00
+121.32
+5.20
+Check for errors.
+Look for
+opportunities
+for improvement
+in design.
+Observe the
+number and type
+of transactions.
+Watch for places
+the computer can
+simplify the work.
+
+
+===== BOOK PAGE 149 =====
+
+CHAPTER 5  •  InfoRMATIon G ATHERInG : UnobTRUsIvE  METHods     149
+3. Are all copies of forms circulated to the proper people or filed appropriately? If not, why 
+not? Can people who must access online forms do so? Check on permissions needed and 
+whether links to forms are functioning properly.
+4. If a paper form is offered as an alternative to a web-based form, compare the completion 
+rates for both.
+5. Are “unofficial” or bootleg forms being used on a regular basis? (This may indicate a 
+problem in standard procedures or may indicate political battles in the organization over 
+who is controlling the type of input and who enters data.)
+ANALYZING QUALITATIVE DOCUMENTS
+Qualitative documents include written email messages, memos, signs on bulletin boards and in 
+work areas, web pages, procedure manuals, and policy handbooks. Many of these documents are 
+rich in details that reveal the expectations for behavior of others that their writers’ hold and the 
+ways in which users expect to interact with information technologies.
+FIGURE 5.5
+Questions to ask about official 
+and bootleg forms that are already 
+filled out.
+Date Store Name Store Number
+Item Requested Cases Item Requested Cases
+Milk (1/2 gals.) Milk (quarts)
+Whole Whole
+2% 2%
+1% 1%
+Skim Skim
+Buttermilk Buttermilk
+Chocolate Chocolate
+Yogurt
+Plain Pineappl e
+Vanilla Dutch Appl e
+Peach Banana
+Blueberry Mixed Frui t
+Boysenberr y Raspberr y
+Strawber ry Lemon
+Ice Cream
+Deluxe Pints Deluxe Quarts
+D eluxe 1/2 Gallons Premium Pints
+Skinny Minnies Premium Quarts
+Requested by (employee number)       Total Cases Ordered
+Reason for Shortage
+Driver Number Route Number
+Farmfresh
+Reorder of Shorted Dairy Products
+Store Date Driver
+Dai ry  manager’s initials
+Oﬃcial form can
+overwhelm people
+by asking for too
+much information.
+There may be
+no logical order
+to the form.
+Is the total
+really needed?
+“Bootleg” forms
+arise to simplify
+the problem.
+Cases neededProduct shorted
+
+
+===== BOOK PAGE 150 =====
+
+150    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+Systematically Examining Qualitative Documents
+Although many systems analysts are apprehensive about analyzing qualitative documents, they 
+need not be. Several guidelines can help analysts take a systematic approach to this sort of analysis. 
+Many of these relate to the affective, emotional, and motivational aspects of HCI, as well as to 
+interpersonal relationships in the organization:
+1. Examine documents for key or guiding metaphors.
+2. Look for insiders versus outsiders or an “us against them” mentality.
+3. List terms that characterize good or evil and appear repeatedly in documents.
+4. Look for the use of meaningful messages and graphics posted on common areas or on web 
+pages.
+5. Recognize a sense of humor if present.
+It is important to examine documents for key or guiding metaphors because language shapes 
+behavior; thus, the metaphors we employ are critical. For example, an organization that discusses 
+employees as “part of a great machine” or “cogs in a wheel” might be taking a mechanistic view of 
+the organization. Notice that the guiding metaphor in the memo in Figure 5.6  is “We’re one big happy 
+family.” An analyst can use this information to predict the kinds of metaphors that will be persuasive 
+in the organization. Obviously, if one department is battling another, it may be impossible to gain any 
+cooperation on a systems project until the politics are resolved in a satisfactory manner. Assessing 
+the use of humor provides a quick and accurate barometer of many HCI, interpersonal, and organi-
+zational variables, including which subculture a person belongs to and what kind of morale exists.
+Memos. Along with the five preceding guidelines, an analyst should consider who sends memos 
+(check email threads) and who receives them. Typically, most information flows downward and 
+horizontally rather than upward in organizations, and extensive email systems mean messages 
+are sent to many work groups and individuals. Memos reveal a lively, continuing dialogue in 
+the organization. Analysis of memo content provides the analyst with a clear idea of the values, 
+attitudes, and beliefs of organization members.
+Signs or Posters on Bulletin Boards or in Work Areas. Although signs may seem incidental to 
+what is happening in an organization, they serve as subtle reinforcers of values to those who read 
+them. Slogans posted such as “Quality Is Forever” or “Safety First” give an analyst a sense of the 
+official organizational culture.
+Corporate Websites. An analyst should view websites used for business-to-consumer (B2C) 
+ecommerce as well as those used for business-to-business (B2B) ecommerce. Examine the 
+contents for metaphors, humor, use of design features (such as color, graphics, animation, and 
+FIGURE 5.6
+Analysis of memos provides 
+insight into the metaphors that 
+guide the organization’s thinking.
+MEMO
+To : All Night Call Desk Staﬀ
+From: S. Leep, Night  Manager
+Date: 2/15/2023
+Re: Get Acquainted Party T onight
+It’s a pleasure to welcome two new 11-7 Call Desk staﬀ members,
+Twyla Ti ne and Al Knight.  I’m sure they’ll enjoy working
+here. Being together in the wee hours makes us feel like
+one big happy family. Remember for your breaks tonight
+that some of the crew has brought in food. Help yourself
+to the spread you ﬁnd in the break room, and welcome to
+the clan, Twyla and Al.
+
+
+===== BOOK PAGE 151 =====
+
+CHAPTER 5  •  InfoRMATIon G ATHERInG : UnobTRUsIvE  METHods     151
+hyperlinks), and the meaning and clarity of any messages provided. Think about the website from 
+three dimensions: technical, aesthetic, and managerial. Are there discrepancies between the stated 
+goals of the organization and what is presented to the intended viewer? How much customization 
+of the website is available for each user? How much personalization of the website is possible? If 
+the analyst is not designing ecommerce sites for the organization, how does what the analyst sees 
+on its website affect the systems being investigated? Remember to note the level of interactivity 
+of the website(s), the accessibility of the visuals and text, and the security level. Many of these 
+metrics are available from the company’s internet provider, and they can provide a different look 
+at the company. Analysts should ask for access to this type of data if it is thought to be relevant 
+to the systems being proposed.
+Manuals. Other qualitative documents an analyst should examine are organizational manuals, 
+including manuals for computer operating procedures and online manuals. Analyze manuals 
+following the five guidelines spelled out previously. Remember that manuals present the “ideal,” 
+the way machines and people are expected to behave. Many manuals are now developed for use 
+on the web, which increases the likelihood that they will be consulted. It is important to recall that 
+printed manuals are rarely kept current and are sometimes relegated to shelves, unused.
+Policy Handbooks. The last type of qualitative document we consider is the policy handbook. 
+Although these documents typically cover broad areas of employee and corporate behavior, a 
+systems analyst is primarily concerned with those that address policies about computer services, 
+use, access, security, and charges. Examining policies allows a systems analyst to gain awareness 
+of the values, attitudes, and beliefs guiding the corporation.
+USING TEXT ANALYTICS
+Text analytics is software that can analyze unstructured qualitative data from any source, 
+including transcripts of interviews, written reports, or customers’ communication collected 
+through email, wikis, blogs, chat rooms, and other social networking sites. These data provide 
+analysts and decision makers with insights about the organization. You may have the opportunity 
+to develop systems that help an organization’s users interpret and understand the unstructured 
+data in their companies. Unstructured, qualitative, or “soft” data are generated through blogs, chat 
+rooms, questionnaires using open-ended questions, online discussions conducted on the web, and 
+exchanges occurring on social media such as Facebook, YouTube, WhatsApp, Instagram, Weixin, 
+WeChat, TikTok, and other web-generated dialogues between customers and an organization. Text 
+analytics can help organizational decision makers realize valuable insights from unstructured data 
+into what customers are thinking about the organization, the values and actions of the company, 
+and customer or vendor motivations for beginning, maintaining, improving, or discontinuing 
+a relationship. (In contrast, you learn in Chapter 13 that structured data is well organized and 
+searchable by standard queries and algorithms through data analytics. An example is data 
+stored in a relational database or data gathered from machine sensors. The largest portion of an 
+organization’s information comes from this type of analysis.)
+Many large and small analytics software solutions are available, both proprietary and open 
+source. If you have been active in helping an organization develop and implement an online 
+presence, then incorporating text analytics into the new systems makes a lot of sense. As you 
+design systems to support an online presence, text analytics should be included to help the 
+company make use of its online presence.
+Text analytics provide insights for an organization’s members who want to have a rapid 
+and visual yet decidedly qualitative approach to analyzing text data. Leximancer, a powerful 
+text-analytics software tool from an Australian company, offers a straightforward approach for 
+which no setup is required. Rather, the role of the organizational user who will use the software 
+is to contribute relevant knowledge about what is to be fed into the system, so concepts and other 
+diagrams generated by the software are useful.
+In general terms, users of Leximancer software submit documents and then omit words they 
+don’t want to include in analysis (such as a  and the); then, the software performs a keyword 
+count. The body of the text is then broken up into segments, and the concepts that result form a 
+“thesaurus” of words that journey through the text document together.
+
+
+===== BOOK PAGE 152 =====
+
+152    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+Figure 5.7 shows a concept map generated with some interview data from the Open Source 
+Communities project, creating a different visual display of the text from interviews. As mentioned 
+previously, submitting your documents to the software generates a concept map. Notice how 
+different the data appear, with the user’s thesaurus words, such as Linux, projects, trying, and 
+process conceptually hanging together and the term community separate but related to those 
+concepts through people.
+Figure 5.8 shows the ranked concepts for the Open Source Communities project using 
+Leximancer. This ranked bar chart format shows the most prominent concepts within the 
+designated category. Notice the prominence of the relationship between the category “community” 
+FIGURE 5.7
+Concept map showing prominence 
+and relationships of concepts in 
+Open Source Communities project 
+interview data. (Copyright © by 
+Leximancer Pty Ltd. Reprinted 
+with permission.)
+FIGURE 5.8
+Ranked concepts for categories overview for the Open Source Communities project using the Leximancer 
+Insight Dashboard. (Copyright © by Leximancer Pty Ltd. Reprinted with permission.)
+Category: community
+Concept Rel Freq
+(%) Prominence
+2development 4.1
+2information 4.1
+4source 2.9
+< 1system 0.0
+< 1project 0.0
+< 1team 0.0
+< 1organization 0.0
+< 1
+Strength
+(%)
+5
+5
+4
+< 1
+< 1
+< 1
+< 1
+< 1product 0.0
+11 4
+5 3
+5 2
+< 1 < 1
+< 1 < 1
+< 1 < 1
+< 1 < 1
+< 1 < 1
+project
+system
+source
+team
+organization
+development
+product
+information
+Category: license
+Concept Rel Freq
+(%)
+Strength
+(%) Prominence
+8.6
+7.1
+3.7
+0.0
+0.0
+0.0
+0.0
+0.0
+
+
+===== BOOK PAGE 153 =====
+
+CHAPTER 5  •  InfoRMATIon G ATHERInG : UnobTRUsIvE  METHods     153
+and the use of the word development. The user can visually see the prominent relationship between 
+the category “license” and use of the word project.
+Your expertise in designing an interface as well as the system is especially critical here. Part 
+of what you must do is demonstrate to the organization the value of using analysis of unstructured, 
+qualitative data to identify and predict future trends in customer, vendor, and supplier behavior. 
+Another important element is to design the human activities surrounding the use of text-analytics 
+software. Incorporating the tools is not enough. Remember that you are not just converting 
+qualitative data to quantitative data. Instead, you are developing systems that include text analytics 
+software as a useful means to an end. Include guidelines and suggestions for how decision makers 
+should view the qualitative results, how they might interpret the qualitative results, and how the 
+evidence from those results can be used to make well-reasoned, logically based recommendations, 
+which in turn can be acted on to improve the organization.
+PROCESS MINING
+As you can see, there are many ways a systems analyst can unobtrusively study an organization 
+and determine where it is possible to make improvements. An analyst looks at the current state 
+of a system, in other words, describes the system “as is” before they suggest what “should be.”
+Analyzing existing systems can be very time-consuming and costly, so if the analysis can 
+be done automatically, it would be valuable in many ways. One method, called process mining, 
+is an automated, unobtrusive process that scans processes found through APIs (application pro-
+gramming interfaces) in packages from company software products such as SAP, Salesforce, and 
+Oracle, among others, and identifying where problems may exist. These enterprise applications 
+record all activities, which are the data used in process mining.
+One organization that stands out in process mining is Celonis (www.celonis.com), which 
+controls over 60 percent of the process mining market, and is acknowledged as the leader in 
+process mining technology by The Gartner Goup (2019). However, there are other companies 
+such as UIPath, Fluxicon, and QPR Software competing in this space to provide process mining as 
+well. With apps from these providers, systems analysts can analyze the data collected by enterprise 
+applications and determine the root cause of the problems a company has encountered.
+Celonis defines process mining as “an analytical discipline for discovering, monitoring, and 
+improving business processes as they actually are- not as you think they might be” (ww.celonis.com). 
+The Gartner Group (www.gartnergroup.com) states that process mining “provides visibility and 
+understanding of actual business operations and processes by applying a set of algorithms to events.”
+According to UIPath.com, there are four steps to process mining:
+1. Discover
+2. Optimize/Automate
+3. Monitor
+4. Act
+In the Discover step, the process-mining app reads the data collected from enterprise systems 
+and creates an event log, keeping track of what event happened and when an event happened. 
+During this step, a path is drawn, showing bottlenecks, variations, and exceptions.
+In the Optimize/Automate step, improvement takes place. While it might be possible to retrain 
+employees to perform tasks in a better way, this may be the opportune time to automate some of 
+the tasks. Automation may be less expensive and more sustainable than retraining employees.
+In the Monitor step, the systems analyst needs to observe and determine what effect the 
+optimize/automate phase had on the path. It is possible, for example, that automating just moved 
+the bottleneck further down the path.
+The fourth step, Act, gives the company the incentive to move forward with any changes that 
+are needed based on the previous steps. Companies can search for new technological solutions to 
+adopt, can call for new legislation, or make changes that will affect their bottom line.
+Let’s look at a customer fulfilment and invoicing system. Suppose a company wants to know 
+how the system is performing from day-to-day. The questions can include the following, as well 
+as other questions: Are the processes running smoothly? Are there any bottlenecks in creating 
+orders? Are deliveries going out to customers on time? Are customers getting billed properly? Is 
+the company receiving payments on time? Are customers delaying payments?
+
+
+===== BOOK PAGE 154 =====
+
+154    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+Process mining can be used to monitor whether the processes consistently handle the volume 
+of transactions from day to day, monitor order time from beginning to end, track deliveries that 
+go out late, monitor invoice creation and distribution time, and determine payments outstanding. 
+A decision maker can determine what is causing the most problems and take the action necessary 
+to get the processes running smoothly.
+Some of these remedies can be automated, while other problems may need to be handled by 
+employees. For instance, if a company wants to make sure that a customer has paid the last invoice 
+before making another shipment, an employee can examine the data on a day-by-day basis and 
+adjust the delivery date. This, however, is time-consuming. With process mining, the application 
+could see data from SAP and automatically determine whether the customer is paid up and auto-
+matically adjust the ship date accordingly.
+According to Shah (2022), “process mining is a family of techniques that bridges technical 
+data analysis and business impact.” As a professor who researches and teaches process mining, 
+Shah notes that Celonis process mining “offers a way to quantify carbon footprints at much deeper 
+levels of operations than traditional dashboards.”
+Some of the ways in which Celonis process mining can help organizations is to enable 
+analysts to 1) conduct an analysis of root causes of wastefulness and inefficiencies in processes, 2) 
+recommend improvements to organizations that mitigate identified wastefulness and inefficiencies, 
+and 3) provide the quantifiable impacts of proposed changes on the organization.
+Figure 5.9 features an example from Celonis. The figure shows that the process is too 
+complicated and may be causing delays, returns, and billing issues. The ideal path is a vertical 
+line consisting of the following processes: “Create Sales Order,” “Generate Delivery Document,” 
+“Release Delivery,” “Ship Goods,” and “Send invoice.” Every time an activity branches out from 
+a straight, vertical path, it means that the system “as is” is inefficient and needs action. Activities 
+like “Approve Credit Check” and “Change Price” are examples of inefficient processes. Under the 
+column titled “Impact,” the cost of late deliveries, returns, and unbilled orders are clearly marked.
+Simulation can be useful here as well. Figure 5.10 shows the results of a simulation (the path 
+on the right) compared to a system identified through process mining (the path on the left). The 
+simulation shows potential improvement in process time cycles and process cost distribution.
+In addition to process mining, there is task mining. Task mining is an unobtrusive desktop 
+capture of the tasks performed by an organization’s employees. Task mining makes it possible 
+FIGURE 5.9
+This screen from Celonis software shows bottlenecks in the process. (Courtesy: Celonis)
+
+
+===== BOOK PAGE 155 =====
+
+CHAPTER 5  •  InfoRMATIon G ATHERInG : UnobTRUsIvE  METHods     155
+to see what individuals are doing. Like process mining, it is possible to figure out what can be 
+improved. Taken together, process mining and task mining are valued ways to keep all systems 
+running smoothly. Examples of popular task-mining software include Microsoft Viva, Allactivity, 
+and Activtrak. Task mining is part of a broader activity called workplace analytics.
+One of the keys to Celonis’ approach to users is the formation of its global academic alliance 
+for process and task mining. Over 700 academic institutions involved with this alliance are training 
+undergraduates and graduate students in the essentials of process mining, including process 
+discovery, analysis building, conformance checking, and process automation, so the availability 
+of specialized training you require for process mining should become accessible in the next 
+few years.
+WORKFORCE ANALYTICS
+Managers would like to ensure that they have the right employees for the task on hand and that 
+employees are treated equally by sharing the workload. They would also like to be able to monitor 
+employee performance or determine the value of an application the organization has subscribed 
+to. Generally, it would be ideal to boost productivity overall. The COVID-19 pandemic has made 
+companies more aware of balance, utility, and productivity, and the emphasis on workforce 
+management will prominently figure into the future of organizations.
+In the past, managers could observe employees at their desks as well as observing teams in 
+meetings. Remote work encouraged different ways to assess productivity, but even if everyone 
+returns to the office, workforce analytics have now become most sophisticated and more revealing.
+One answer is to automate collecting information about workloads and performance. 
+Workforce analytics can be used for the following:
+1. Ensuring the right workers are in the right place
+2. Balancing the workload among the staff
+3. Comparing workers’ or team’s performance
+4. Realizing where bottlenecks in workflows occur
+5. Determining which apps are used more than others
+6. Realizing which apps deliver more productivity
+FIGURE 5.10
+This simulation from Celonis software shows the results of removing bottlenecks. (Courtesy: Celonis)
+
+
+===== BOOK PAGE 156 =====
+
+156    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+One example of workforce management is ActivTrak, a workforce and productivity soft-
+ware as a service platform. In addition to collecting data on the workforce and processing that 
+information to accomplish the objectives mentioned earlier, they maintain they are committed to 
+safeguarding data privacy and security of employees and customers of the company.
+ActivTrak claims to accomplish this without:
+1. Email monitoring
+2. Keystroke logging
+3. Personal device monitoring
+4. Access to the employee’s camera
+5. Video recording
+Workforce management should not be about surveillance or spying. Workforce analytics 
+processes the data it collects in order to gain insights on how work is done, what tools and apps 
+are used to get work done, how teams interact, and to identify where improvement is possible. 
+After further analysis, a manager can determine whether any changes are needed.
+Understanding Application Usage and Website Visits
+ActivTrak can automatically classify apps and websites as being productive or nonproductive and 
+even categorize apps by type (such as email, meeting apps, customer relationship apps, and so on) 
+in order to get insights into how time is spent. A systems analyst may want to ask questions like 
+“Which communication tools are employees using most: email, messaging, or collaboration?”  
+or “How does application usage vary by individual?” Figure 5.11 is an ActivTrak report that 
+shows which websites were visited most and gives a breakdown by person per hour in order to 
+understand current website visiting.
+FIGURE 5.11
+This ActivTrak report shows which sites were visited by the employees. (Images courtesy of ActivTrak, 2022)
+
+
+===== BOOK PAGE 157 =====
+
+CHAPTER 5  •  InfoRMATIon G ATHERInG : UnobTRUsIvE  METHods     157
+For reports like this, it is possible then to identify what activities are consuming the most 
+amount of time. A manager can identify a situation where distractions take place (relying on social 
+media apps or email, for example). In addition, analytics can help a manager determine whether 
+there are apps with redundant functions. If two subscription apps accomplish the same tasks, 
+perhaps one can be eliminated.
+Identifying When and Why Workers Lose Focus
+On any workday it is easy to lose focus on the tasks that will solve the organization’s problems. 
+For example, employees can find themselves multitasking by searching information or joining in a 
+conversation via Zoom or Slack. Workforce-analytics software can help identify those distractions. 
+Figure 5.12 shows a dashboard created by ActivTrak that breaks activities into focused activities, 
+collaborative activities, and multitasking activities for every hour of the workday. Systems analysts 
+can ask “What time of day are employees most productive versus least productive?” or “Are the 
+workers online and engaged during critical business hours or do we need to adjust our staffing 
+model?” A systems analyst or manager can find this useful in increasing future productivity. Their 
+goal is to improve performance while creating a healthy work environment.
+Comparing the Performance of Teams
+Workforce analytics can clearly demonstrate the performance difference between two teams.  
+A systems analyst may ask questions such as: “How does one team’s data compare to another 
+team’s data?” or “How do our most productive members work, and can we model their behavior 
+for the benefit of other members?”
+FIGURE 5.12
+This ActivTrak dashboard shows focused, collaboration, and multitasking hours per day. (Images courtesy of ActivTrak, 2022)
+
+
+===== BOOK PAGE 158 =====
+
+158    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+By viewing the teams side by side (see Figure 5.13), it is possible to see how teams can 
+improve. Dashboards like this can hold a significant amount of data for comparison purposes. 
+This dashboard looks at team performance, individual performance of selected team members, 
+top categories of apps, top activities and apps, and the time spent on average. A manager can use 
+this information to coach selected teams.
+In summary, workforce analytics has become valuable for managers and systems analysts 
+who want to understand what happens in a normal workday and who want to ensure that workers 
+are in the right place performing the right tasks. They may want to improve work balance or assess 
+team performance. They may want to identify bottlenecks and suggest improvements. Analysts 
+may also want to determine which apps are being used, which are redundant, and what apps can 
+be acquired in order to improve performance.
+OBSERVING A DECISION MAKER’S BEHAVIOR
+Observing decision makers—their physical environment and their interaction with their physical, 
+ergonomic environment—is an important, unobtrusive method a systems analyst may use to 
+gain insight into what is actually done, not just what is documented or explained. In addition, 
+through observation of the decision maker, an analyst can see firsthand the relationships that exist 
+between decision makers and other members of the organization. Observation of decision makers’ 
+interactions with technologies also reveals important clues regarding HCI concerns, such as how 
+well the system fits with the user.
+FIGURE 5.13
+Workforce analytics can be used to compare teams in an organization. (Images courtesy of ActivTrak, 2022)
+
+
+===== BOOK PAGE 159 =====
+
+CHAPTER 5  •  InfoRMATIon G ATHERInG : UnobTRUsIvE  METHods     159
+Observing a Typical Manager’s Decision-Making Activities
+Managers’ workdays have been described as a series of interruptions punctuated by short bursts of 
+work. In other words, pinning down what a manager “does” is a slippery proposition, even under the 
+best of circumstances. A systems analyst can grasp how managers characterize their work by using 
+interactive interviews and questionnaires. Observation, however, allows the analyst to see firsthand 
+how managers gather, process, share, and use information and technology to get work done.
+Although it is possible to describe and document how managers make decisions using boxes 
+and arrows, we are primarily describing humans and their activities. Therefore, we suggest that 
+systems analysts use a more humanistic approach to describe what managers do. This method 
+is called the analyst’s playscript. With this technique, the “actor” is the decision maker who is 
+observed “acting” or making decisions. When you set up a playscript, you list the actor in the 
+left-hand column and all of their actions in the right-hand column, as shown in Figure 5.14. All 
+activities are recorded with action verbs; for example, a decision maker would be described as 
+“talking,” “sampling,” “corresponding,” and “deciding.”
+Using a playscript is an organized and systematic approach that demands that the analyst 
+be able to understand and articulate the action taken by each observed decision maker. This 
+approach eventually assists the systems analyst in determining what information is required for 
+FIGURE 5.14
+A sample page from an analyst’s 
+playscript describing decision 
+making.
+Playscript
+Analysis
+Company:
+Analyst:
+Scenario:
+Date:
+Solid Steel Shelving Quality Assurance
+L. Bracket 1/3/2023
+Quality Assurance Asks shop ﬂoor supervisor for the day’s
+Manager production report
+Shop Floor Prints out daily computerized production
+Supervisor report
+Discusses recurring problems in production
+runs with quality assurance (QA) manager
+Quality Assurance Reads production report
+Manager
+Compares current report with other reports
+from the same week
+Inputs data from daily production run into
+QA model on computer
+Observes onscreen results of QA model
+Calls steel suppliers to discuss deviations
+from quality standards
+Shop Floor Attends meeting on new quality speciﬁcations
+Supervisor with quality assurance manager and vice
+president of production
+Quality Assurance Drafts letter to inform suppliers on new
+Manager quality speciﬁcations agreed on in meeting
+Sends draft to vice president via email
+Vice President of Reads drafted letter
+Production
+Returns corrections and comments via email
+Quality Assurance Reads corrected letter on email
+Manager
+Rewrites letter to reﬂect changes
+Decision Maker (Actor) Information-Related Activity (Script)
+
+
+===== BOOK PAGE 160 =====
+
+160    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+major or frequent decisions made by the observed people. For instance, from the quality assurance 
+manager example in the playscript, it is clear that even though this decision maker is on the 
+middle management level, the person requires a fair amount of external information to perform 
+the required activities of this specific job.
+OBSERVING THE PHYSICAL ENVIRONMENT
+Observing the activities of decision makers is just one way to assess their information requirements. 
+Observing the physical environment where decision makers work also reveals much about their 
+human information requirements. Most often, such observation means systematically examining 
+the offices of decision makers because offices constitute their primary workplace. Decision makers 
+influence and are in turn influenced by, their physical environments and by their interactions with 
+the technology that take place there. Many HCI concerns can be identified through structured 
+observation and confirmed using other techniques, such as interviews, questionnaires, or process 
+and task mining.
+Structured Observation of the Environment
+Film critics sometimes use a structured form of criticism called mise-en-scène analysis to 
+systematically assess what is in a single shot of the film. They look at editing, camera angle, set 
+decor, and the actors and their costumes to find out whether they are shaping the meaning of the 
+film as intended by the director. Sometimes the film’s mise-en-scène will contradict what is said 
+in the dialogue. For information requirements analysis, a systems analyst can take on a role similar 
+to that of the film critic. It often is possible to observe the particulars of the surroundings that 
+will confirm or negate the organizational narrative (also called stories or dialogue) that is found 
+through interviews or questionnaires.
+With the advent of lengthy meetings and news reports provided via Zoom from one’s dwelling 
+due to the COVID-19 pandemic, an entire Twitter account called Room Rater, a humorous website, 
+emerged to provide a scaled ranking from 1 to 10 of people’s video-conferencing backgrounds and 
+what they meant. Observational skills became the pathway to some fun. Observers even offered 
+FIGURE 5.15
+Seven concrete observable ele-
+ments of STROBE and examples 
+of questions an analyst may want 
+to ask.
+Ofﬁce location
+Who has the corner ofﬁce? Are the key
+decision makers dispersed over separate
+ﬂoors?
+Desk placement
+Does the placement of the desk encourage
+communication? Does the placement
+demonstrate power?
+Stationary equipment
+Does the decision maker prefer to gather
+and store information personally? Is the
+storage area large or small?
+Props
+Is there evidence that the decision maker
+uses a PC, smartphone, or tablet computer
+in the ofﬁce?
+External information sources
+Ofﬁce lighting and color
+Clothing worn by decision makers
+Does the decision maker get much
+information from external sources such as
+trade journals or the Web?
+Is the lighting set up to do detailed work or
+more appropriate for casual communication?
+Are the colors warm and inviting?
+Does the decision maker show power by
+wearing authoritative clothing? Are employees
+required to wear uniforms?
+Questions an Analyst Might InvestigateObservable Element
+
+
+===== BOOK PAGE 161 =====
+
+CHAPTER 5  •  InfoRMATIon G ATHERInG : UnobTRUsIvE  METHods     161
+suggestions for “improvements,” such as including artwork or a plant in one’s background to 
+improve their score.
+The method we recommend for observation is called STRuctured OBservation of the 
+Environment, referred to as STROBE. Successful application of STROBE requires that an analyst 
+explicitly observe seven concrete elements commonly found in offices. The seven observable 
+elements and some key questions that may arise are listed in Figure 5.15. These elements can 
+reveal much about the way a decision maker gathers, processes, stores, and shares information, 
+as well as information about the decision maker’s credibility in the workplace.
+Through the use of STROBE, a systems analyst can gain a better understanding of how man-
+agers gather, process, store, and use information. A summary of the characteristics exhibited by 
+decision makers and the corresponding observable elements is shown in Figure 5.16.
+Collecting data unobtrusively seems easy until one realizes that 
+all the data collected must be organized, stored, and retrieved for 
+analysis. A very helpful app for Macs is DEVONthink Pro, where a 
+systems analyst can collect all types of data from Microsoft Office 
+files, photos, music, RSS feeds, and other snippets of information. 
+The analyst can accumulate these items into a global mailbox, then 
+organize, group, and tag this information. DEVONthink Pro can also 
+keep track of web pages, images, emails, and PDFs. A built-in OCR 
+reader helps input pages directly. It also has a built-in web browser 
+and allows searches using multiple search engines. A document can 
+belong to many groups. This is accomplished by creating replicants, 
+which are simple pointers to an original file, so the analyst doesn’t 
+need to store multiple copies of the document. 
+When it is time to access the information, DEVONthink Pro 
+can help a systems analyst search, classify, and show relationships 
+among items with the help of built-in artificial intelligence, moving 
+items to groups the item best fits. DEVONthink Pro doesn’t help an 
+analyst determine the sample size or keep track of errors, but it does 
+help the analyst collect, store, retrieve, use, and share the informa-
+tion gathered in new and unexpected ways.
+MAC APPEAL
+FIGURE 5. MAC
+DEVONthink Pro is a useful app to collect and retrieve information on Macs. (Screenshot from DEVONthink Pro. 
+Copyright © by DEVONtechnologies. Reprinted by permission.)
+
+
+===== BOOK PAGE 162 =====
+
+162    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+FIGURE 5.16 
+A summary of decision maker 
+characteristics that correspond to 
+observable elements in the physi-
+cal environment.
+Gathers information informally
+Seeks extraorganization information
+Processes data personally
+Stores information personally
+Exercises power in decision making
+Exhibits credibility in decision making
+Shares information with others
+Warm, incandescent lighting and colors
+Trade journals present in ofﬁce
+PCs, or tablet computers present in ofﬁce
+Equipment/ﬁles present in ofﬁce
+Desk placed for power
+Wears authoritative clothing
+Ofﬁce easily accessible
+Corresponding Elements
+in the Physical EnvironmentCharacteristics of Decision Makers
+FIGURE 5.17 
+An anecdotal list with symbols for 
+use in applying STROBE.
+Anecdotal List with Symbols for Applying STROBE
+Narrative Portrayed by
+Organization Members
+Oﬃce Location
+and Equipment
+Oﬃce Lighting,
+Color, and Graphics
+Clothing of the
+Decision Maker
+Key
+Conﬁrm the narrative
+Negate or reverse the narrative
+Cue to look further
+Modify the narrative
+Supplement the narrative
+Information is readily
+ﬂowing on all levels.
+Adams says, “I ﬁgure out
+the percentages myself.”
+Vinnie says, “I like to read
+up on these things.”
+Ed says, “The right hand
+doesn’t always know what
+the left hand is doing.”
+Adams says, “Our company
+doesn’t change much.”
+The operations staﬀ
+works all night sometimes.
+Vinnie says, “We do things
+the way Mr . Adams wants to.”
+Julie says, “Stanley doesn’t
+seem to care sometimes.”
+
+
+===== BOOK PAGE 163 =====
+
+CHAPTER 5  •  InfoRMATIon G ATHERInG : UnobTRUsIvE  METHods     163
+Applying STROBE
+One way to implement STROBE is through the use of an anecdotal checklist with meaningful 
+shorthand symbols. This approach to STROBE was useful in ascertaining the information 
+requirements for four key decision makers in a franchise clothing store.
+In Figure 5.17, the system analysts used five shorthand symbols to evaluate how observation 
+of the STROBE elements compared with the organization narrative generated through interviews. 
+The five symbols are as follows:
+1. A check mark means the narrative is confirmed.
+2. An “X” means the narrative is reversed.
+3. An oval or eye-shaped symbol serves as a cue for the systems analyst to look further.
+4. A square means observation of the STROBE elements modifies the narrative.
+5. A circle means the narrative is supplemented by what is observed.
+When STROBE is implemented in this manner, the analyst first writes down key organizational 
+themes growing out of interviews. Then they observe and record the elements of STROBE. The 
+analyst then compares the narrative and observations and uses one of the five appropriate symbols 
+to characterize the relationship. The analyst thus creates a table that first documents and then aids 
+in the analysis of observations.
+Summary
+This chapter has covered unobtrusive methods for information gathering, including sampling, investigation of 
+quantitative and qualitative data in current and archived forms, process and task mining, workplace analytics, 
+and observation of the decision maker’s activities through the use of the analyst’s playscript, as well as obser-
+vation of the decision maker’s physical environment (in person or virtually) through the use of STROBE.
+The process of systematically selecting representative elements of a population is called sampling. The 
+purpose of sampling is to select and study documents such as emails, invoices, sales reports, and memos, 
+or perhaps to select and interview, give surveys to, or observe members of the organization. Sampling can 
+reduce cost, speed data gathering, potentially make the study more effective, and possibly reduce the bias 
+in the study.
+A systems analyst must follow four steps in designing a good sample: (1) determine the population 
+itself, (2) determine the type of sample, (3) calculate the sample size, and (4) plan the data that need to be 
+collected or described.
+The types of samples useful to a systems analyst are convenience samples, purposive samples, simple 
+random samples, and complex random samples. The last type includes the subcategories of systematic 
+sampling and stratified sampling. There are several guidelines to follow when determining sample size.
+Systems analysts need to investigate current and archival data and forms that reveal where the 
+organization has been and where its members believe it is going. Text analytics uses software to examine 
+unstructured, qualitative data from blogs, wikis, social media sites, and other online customer interactions 
+to support decision makers in interpreting qualitative material.
+Both quantitative and qualitative documents need to be analyzed. Because documents are persuasive 
+messages, it must be recognized that changing them might well change the organization.
+Analysts can use process mining to automatically and unobtrusively scan processes found through APIs 
+in enterprise software products such as SAP, Salesforce, Oracle, and so on and identify where problems 
+may exist. These enterprise applications record all activities, which are the data used in process mining. 
+Four steps to process mining (Uipath.com) include (1) Discover, (2) Optimize/Automate, (3) Monitor, and  
+(4) Act. Task mining uses desktop capture to automatically see what individuals are doing and figure out 
+what processes can be improved.
+Analysts can use workforce analytics to gather data unobtrusively and automatically about workloads 
+and performance in order to answer questions such as, Are the right workers in the right place? Is workload 
+balanced among staff? How do workers’ and teams’ performances compare? What bottlenecks are occurring 
+in workflows? Which apps are used more than others? And which apps deliver more productivity to the team?
+Analysts use observation as an information-gathering technique. Through observation, they gain insight 
+into what is actually done as users interact with information technology. One way to describe how decision 
+makers behave is to use an analyst’s playscript that documents each of the major players’ activities.
+In addition to observing a decision maker’s behavior, a systems analyst should observe the decision 
+maker’s surroundings for important clues as to how well the system fits the user. One method is STROBE. 
+A systems analyst uses STROBE in the same way that a film critic uses a method called mise-en-scène 
+analysis to analyze a shot in a film.
+
+
+===== BOOK PAGE 164 =====
+
+164    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+Review Questions
+1. Define what is meant by sampling.
+2. List four reasons a systems analyst would want to sample data or select representative people to interview.
+3. What are the four steps to follow to design a good sample?
+4. List the three approaches to complex random sampling.
+5. Define what is meant by stratification of samples.
+6. What effect on sample size does using a greater confidence level have when sampling attribute data?
+7. What is the overriding variable that determines how many people a systems analyst should interview 
+in depth?
+8. What is text analytics?
+9. What are the sources of big data for text analytics that an analyst might use? List them.
+10. What is process mining?
+11. What sources of data are used in process mining?
+12. List four steps to process mining.
+13. What is task mining?
+14. What sources of data are used in task mining?
+15. What are workforce analytics?
+16. What five questions about individuals or teams can use of workforce analytics answer?
+17. What information about a decision maker does an analyst seek to gain from observation?
+18. List five steps to help an analyst observe a decision maker’s typical activities.
+19. In the technique known as the analyst’s playscript, who is the actor?
+20. In an analyst’s playscript, what information about managers is recorded in the right-hand column?
+21. Noting that the idea of STROBE originally came from the world of film, what does the systems ana-
+lyst’s role resemble?
+22. List the seven concrete elements of a decision maker’s physical environment that a systems analyst 
+can observe using STROBE.
+Problems
+1. Leigh Mutchler is concerned that too many forms are being filled out incorrectly. She feels that about 
+8 percent of all the forms have errors.
+a. How large a sample size should Leigh use to be 99 percent certain the interval estimate will be 
+within + or 0.02?
+b. How large a sample size should Leigh use to be 90 percent certain the interval estimate will be 
+within 0.02?
+c. Explain the difference between parts a and b in words.
+d. Suppose Leigh will accept a confidence level of 95 percent with an interval level within 0.02. 
+What will the sample size of forms be now?
+Keywords and Phrases
+analyst’s playscript
+business-to-business (B2B) ecommerce
+business-to-consumer (B2C) ecommerce
+cluster sampling
+complex random sample
+confidence level
+convenience sample
+process mining
+purposive sample
+qualitative documents
+quantitative documents
+sampling
+simple random sample
+stratified sampling
+STROBE
+systematic sampling
+task mining
+text analytics
+workforce analytics
+A systems analyst can observe and interpret several concrete elements in the decision maker’s 
+environment. These elements include (1) office location, (2) placement of the decision maker’s desk,  
+(3) stationary office equipment, (4) props such as handheld devices and PCs, (5) external information sources 
+such as trade journals and use of the web, (6) office lighting and color, and (7) clothing worn by the decision 
+maker. A systems analyst can use STROBE to gain a better understanding of how decision makers actually 
+gather, process, store, and share information in order to get their work done.
+
+
+===== BOOK PAGE 165 =====
+
+CHAPTER 5  •  InfoRMATIon G ATHERInG : UnobTRUsIvE  METHods     165
+2. “I see that you have quite a few papers there. What all do you have in there?” asks Ali Vedadi, head 
+of the management information systems task force that is the liaison group between your system’s 
+group and Sawder’s Furniture Company. You are shuffling a large bundle of papers as you prepare to 
+leave the building.
+“Well, I’ve got some financial statements, production reports from the last six months, and some 
+performance reports that Merrill gave me that cover goals and work performance over the last six 
+months,” you reply as some of the papers fall to the floor. “Why do you ask?”
+Ali takes the papers from you and puts them on the nearest desk. He answers, “Because you 
+don’t need all this junk. You’re here to do one thing, and that’s talk to us, the users. Bet you can’t read 
+one thing in there that’ll make a difference.”
+a. The only way to convince Ali of the importance of each document is to tell him what you are 
+looking for in each one. In a paragraph, explain what each kind of document contributes to a 
+systems analyst’s understanding of the business.
+b. While you are speaking with Ali, you realize that you actually need other quantitative documents 
+as well. List any you are missing.
+3. You’ve sampled the email messages that have been sent to several middle managers of Sawder’s 
+Furniture Company, which ships build-your-own particleboard furniture across the United States. 
+Here is one that repeats a message found in several other memos:
+To: Sid, Ernie, Carl
+From: Imogene
+Re: Computer/printer supplies
+Date: November 10, 2022
+It has come to my attention that I have been waging a war against requests for computer and 
+printer supplies (ink cartridges, toner, paper, and so on) that are all out of proportion to what has 
+been negotiated for in the current budget. Because we’re all good soldiers here, I hope you will take 
+whatever our supply sergeant says is standard issue. Please, no “midnight requisitioning*” to make 
+up for shortages. Thanks for being Gl in this regard; it makes the battle easier for us all.
+a. What metaphor(s) is (are) being used? List the predominant metaphor and other phrases that play 
+on that theme. *(Note that “midnight requisitioning” is military slang for the unauthorized taking 
+of supplies at night from a crew for use in one’s own unit – a form of petty thievery.)
+b. If you found repeated evidence of this idea in other email messages, what interpretation would 
+you have? Use a paragraph to explain.
+c. In a paragraph, describe how the people in your systems analysis group can use the information 
+from the email messages to shape their systems project for Sawder’s.
+d. In interviews with Sid, Ernie, and Carl, there has been no mention of problems with obtaining 
+enough computer and printer supplies. In a paragraph, discuss why such problems may not come 
+up in interviews and discuss the value of examining email messages and other memos in addition 
+to interviewing.
+4. “Here’s the main policy manual we’ve put together over the years for system users,” says Botong 
+Xue, as he blows the dust off the manual and hands it to you. Botong is a document keeper for 
+the systems department of Prechter and Gumbel, a large manufacturer of health and beauty aids. 
+“Everything any user of any part of the system needs to know is in what I call the Blue Book. I mean, 
+it’s chockablock with policies. It’s so big that I’m the only one with a complete copy. It costs too 
+much to reproduce it.” You thank Botong and lug the heavy volume with you. When you read through 
+it, you are astonished at what it contains. Most pages begin with a message such as: “This page 
+supersedes page 23.1 in manual V ol. II. Discard previous inserts; do not use.”
+a. List your observations about the frequency of use of the Blue Book.
+b. How user friendly are the updates in the manual? Write a sentence explaining your answer.
+c. Write a paragraph commenting on the wisdom of having all-important policies for all systems 
+users in one printed book.
+d. Suggest a solution that incorporates the use of online policy manuals for some users.
+e. Write a paragraph about how text analytics could help the organization do a review of the 
+content of employee policies posted online. Write a second paragraph stating whether you would 
+recommend this approach and state why or why not.
+5. “I think I’ll be able to remember almost everything he does,” says Feng Xu. He is about to interview 
+Anwuli Emem, vice president of strategic planning of Steak Your Claim, a plant-based restaurant 
+chain with 130 locations specializing in serving meat alternatives in family settings. “I mean, I’ve got 
+a good memory. I think it’s much more important to listen to what she says than to observe what she 
+does anyway.” One of your systems analysis team members, Feng, has been talking with you about 
+the desirability of writing down his observations of Anwuli’s office and activities during the interview.
+a. In a paragraph, persuade Feng that listening is not enough in interviews and that observing and 
+recording those observations are also important.
+
+
+===== BOOK PAGE 166 =====
+
+166    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+b. Feng seems to have accepted your idea that observation is important but still doesn’t know what 
+to observe. Make a list of items and behaviors to observe, and in a sentence beside each behavior, 
+indicate what information Feng should hope to gain through observation of it.
+6. “We’re a progressive company, always looking to be ahead of the power curve. We’ll give anything 
+a whirl if it’ll put us ahead of the competition, and that includes every one of us,” says I. B. Daring, 
+an executive with Michigan Manufacturing (2M). You are interviewing him as a preliminary step in 
+a systems project, one in which his subordinates have expressed interest. As you listen to I. B., you 
+look around his office to see that most of the information he has stored on shelves can be classified as 
+internal procedures manuals. In addition, you notice a PC on a back table of I. B.’s office. The display 
+screen is covered with dust, and the manuals stacked beside the PC are still encased in their original 
+shrink-wrap. Even though you know that 2M uses an intranet, no cables are visible going to or from 
+I. B.’s PC. On the wall behind I. B.’s massive mahogany desk you see five framed oil portraits of 
+2M’s founders, all clustered around a gold plaque bearing the corporate slogan, which states, “Make 
+sure you’re right, then go ahead.”
+a. What is the organizational narrative or story line as portrayed by I. B. Daring? Rephrase it in your 
+own words.
+b. List the elements of STROBE that you have observed during your interview with I. B.
+c. Next to each element of STROBE that you have observed, write a sentence on how you would 
+interpret it.
+d. Construct a table with the organizational story line down the left-hand side of the page and the 
+elements of STROBE across the top. Using the symbols from the “anecdotal list” application of 
+STROBE, indicate the relationship between the organizational story line as portrayed by I. B. and 
+each element you have observed (that is, indicate whether each element of STROBE confirms, 
+reverses, causes you to look further, modifies, or supplements the narrative).
+e. Based on your STROBE observations and your interview, state in a paragraph what problems 
+you are able to anticipate in getting a new system approved by I. B. and others. In a sentence or 
+two, discuss how your diagnosis might have been different if you had only talked to I. B. over the 
+phone or had read his written comments on a systems proposal.
+Group Projects
+1. Assume that your group will serve as a systems analysis and design team for a project designed 
+to computerize or enhance all business aspects of a 15-year-old national U.S. trucking firm called 
+Maverick Transport. Maverick is a less-than-a-truckload carrier. The people in management work 
+from the philosophy of just in time (JIT), in which they have created a partnership that includes 
+the shipper, the receiver, and the carrier (Maverick Transport) for the purpose of transporting and 
+delivering the materials required JIT for their use on the production line. Maverick maintains 626 
+tractors for hauling freight and has 45,000 square feet of warehouse space and 21,000 square feet of 
+office space.
+a. Along with your group members, develop a list of sources of archival data that should be checked 
+when analyzing the information requirements of Maverick.
+b. When this list is complete, devise a sampling scheme that would permit your group to get a clear 
+picture of the company without having to read each document generated in its 15-year history.
+2. Assign each group member (or team of group members) to research a process-mining company, 
+Celonis, UIPath, Fluxicon, or QPR Software. Each team member should report back to the group, 
+writing one page (1) summarizing the features of the process-mining company they researched,  
+(2) stating who the company’s target audience is (size of firm and industry, for example), (3) who 
+some of their current clients are, and (4) whether they would recommend adoption of this specific 
+process-mining software to supplement unobtrusive identification of system problems.
+3. Arrange to visit a local organization that is expanding or otherwise enhancing its information 
+systems. To allow your group to practice the various observation methods described in this chapter, 
+assign either of these two methods to each team member: developing the analyst’s (1) playscript 
+or (2) using STROBE. Many of these strategies can be employed during one-on-one interviews, 
+whereas some require formal organizational meetings. To accomplish several objectives during 
+your visit to the organization, schedule your visit at a time that allows all team members to try their 
+assigned method of observation. Using multiple methods such as interviewing and observation (often 
+simultaneously) is the only cost-effective way to get a true, timely picture of the organization’s 
+information requirements. Alternatively, if you are working on this problem as a face-to face group in 
+a school or university setting, arrange to visit one of your school or university’s departments during 
+working hours and follow the instructions given above.
+
+
+===== BOOK PAGE 167 =====
+
+CHAPTER 5  •  InfoRMATIon G ATHERInG : UnobTRUsIvE  METHods     167
+4. The members of your group should meet and discuss their findings after completing Group Project 
+2. Were there any surprises? Did the information garnered through observation confirm, reverse, or 
+negate what was learned in interviews? Were any of the findings from the observational methods 
+in direct conflict with each other? Work with your group to develop a list of ways to address any 
+puzzling information (for example, by doing follow-up interviews). Write down the list and share it 
+with the entire group.
+5. With your group, research software solutions that can help analysts keep track of a variety of data 
+such as observations, surveys, and so on. (Hint: One app is Devonthink Professional Office high-
+lighted in Mac Appeal in this chapter.) Allow each group member to work on their own to find a suit-
+able package, noting advantages and drawbacks. Take about 20 minutes to do so. Once your research 
+is completed, collaborate on creating a table of all the software found by team members. List each 
+piece of software and also give advantages and drawbacks of each.
+Selected Bibliography
+AllActivity. (2022, January 7). The 7 best task mining tools for small businesses in 2021 [Blog post]. 
+https://allactivity.com/blog/the-7-best-task-mining-tools-for-small-businesses/
+Ball, A., Lewis, N., and Miller, M. A. (2022). The rise and fall of the real fur industry in the US Insider. 
+https://www.businessinsider.com/rise-and-fall-fur-industry-faux-mink-2022-2
+Chan, G. (2021, April 8). A room with a view: The Twitter account that spent a year staring into people’s 
+homes. The Guardian. https://www.theguardian.com/fashion/2021/apr/08/a-room-with-a-view-the- 
+twitter-account-that-spent-a-year-staring-into-peoples-homes
+Cooper, D. R., & Schindler, P. S. (2013). Business Research Methods (12th ed.). McGraw-Hill/Irwin.
+Davenport, T. H., & Spanyi, A. (2019). What process mining is, and why companies should do it. Harvard 
+Business Review. https://hbr.org/2019/04/what-process-mining-is-and-why-companies-should-do-it
+Edgington, T. M. (2011). Introducing text analytics as a graduate business school course. Journal of 
+Information Technology Education, 10, 207–234.
+Edwards, A., & Talbot, R. (1994). The hard-pressed researcher. Longman.
+The Gartner Group. The Gartner Market Guide for Process Mining (2019). www.gartnergroup.com
+Halper, B. F. (2008, October 14). Leximancer—concept maps for text analytics and the customer insight 
+portal. fbhalper.wordpress.com/2008/10/14/leximancer-concept-maps-and-the-customer-insight- 
+portal/
+Kendall, J. E. (1997). Examining the relationship between computer cartoons and factors in information 
+systems use, success, and failure: Visual evidence of met and unmet expectations. The DATA BASE 
+for Advances in Information Systems, 28(2), 113–126.
+Kendall, J. E., & Kendall, K. E. (1993). Metaphors and methodologies: Living beyond the systems 
+machine. MIS Quarterly, 17(2), 149–171.
+Kendall J. E., & Kendall, K. E. (1994). Metaphors and their meaning for information systems 
+development. European Journal of Information Systems, 3(1), 37–47.
+Kendall, K. E., & Kendall, J. E. (1981). Observing organizational environments: A systematic approach 
+for information analysts. MIS Quarterly, 5(1), 43–55.
+Kendall, K. E., & Kendall, J. E. (1984). STROBE: A structured approach to the observation of the 
+decision-making environment. Information & Management, 7(1), 1–11.
+Kendall, K. E., & Kendall, J. E. (1984). Structured observation of the decision-making environment:  
+A validity and reliability assessment. Decision Sciences, 15(1), 107–118.
+Markus, M. L., & Lee, A. S. (2000). Special issue on intensive research in information systems: Using 
+qualitative, interpretive, and case methods to study information technology—Second installment. 
+MIS Quarterly, 24(1), 1.
+Schultze, U. (2000). A confessional account of an ethnography about knowledge work. MIS Quarterly, 
+24(1), 3–41.
+Shah, V . (2022). Connecting Local Communities and University Students Through Application of Process 
+Mining: A Success Story of CMU and Celonis. Unpublished manuscript.
+Shultis, R. L. (1964). “Playscript”—A new tool accountants need. NAA Bulletin, 45(12), 3–10.
+Webb, E. J., Campbell, D. T., Schwartz, R. D., & Sechrest, L. (1999). Unobtrusive measures (rev. ed.). 
+Sage.
+
+
+===== BOOK PAGE 168 =====
+
+168
+Agile Modeling, Prototyping, 
+and Scrum
+LEARNING OBJECTIVES
+Once you have mastered the material in this chapter, you will be able to:
+1 Understand the concept of prototyping and be able to identify the four main types of 
+prototyping.
+2 Understand agile modeling and the core values, principles, and practices that differentiate 
+it from other development methodologies.
+3 Grasp the concept of user stories and why they have value.
+4 Appreciate Scrum as an agile method to improve development of complex projects.
+5 Learn about DevOps as a cultural shift in the way to organize rapid systems development 
+and operations.
+6 Understand what no-code software development is and what it means to systems design.
+7 Learn how Work Management Systems can be helpful in Agile Software Development.
+8 Be able to compare agile modeling and structured methods and grasp the lessons learned 
+from adopting agile methods.
+This chapter explores the agile methodology, which is a collection of innovative, user-
+centered approaches to systems development. It has become the predominant approach 
+to systems development, especially when used in a hybrid approach with selected systems 
+development life cycle processes. You learn the values and principles, activities, resources, 
+practices, processes, and tools associated with agile methodologies. Agile approaches have 
+their roots in prototyping, so this chapter begins with prototyping to provide a proper context 
+for understanding, and then it takes up the agile approach later in the chapter.
+User stories are casual explanations of a requested software feature expressed in the  
+language of a user. They are the beginning point for a series of interactions between 
+the user and the developer. Each user story should stand on its own without other user 
+stories, is negotiable among the project stakeholders, and should focus on the user’s 
+requirements and how they relate to business value.
+Agile modeling is distinct from structured methods as a systems development 
+approach that helps develop systems rapidly. Scrum is an agile method that is suitable 
+for more complex systems projects. Using Scrum, a limited number of features or tasks 
+are selected for completion in a sprint, typically lasting two to four weeks. The result of the 
+sprint is a potentially shippable product. Once the sprint ends, the process begins again 
+6
+CHAPTER
+

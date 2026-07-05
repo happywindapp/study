@@ -1,0 +1,1633 @@
+
+===== BOOK PAGE 26 =====
+
+26    PART I  •  SYSTEMS ANALYSIS FUNDAMENTALS
+ORGANIZATIONS AS SYSTEMS
+Organizations and their members are usefully conceptualized as systems designed to accomplish 
+predetermined goals and objectives through people and other resources that they employ. Orga-
+nizations are composed of smaller, interrelated systems (departments, units, divisions, and so on) 
+that serve specialized functions. Typical functions include accounting, marketing, production, IT 
+support, operations, legal, and management. Specialized functions (smaller systems) are eventu-
+ally reintegrated through various ways to form an effective organizational whole.
+The significance of conceptualizing organizations as complex systems is that systems prin-
+ciples allow insight into how organizations work. To ascertain information requirements properly 
+and to design appropriate information systems, it is of primary importance to understand the 
+organization as a whole. All systems are composed of subsystems (which include information 
+systems); therefore, when studying an organization, we also examine how smaller systems are 
+involved and how they function.
+Interrelatedness and Interdependence of Systems
+All systems and subsystems are interrelated and interdependent. This fact has important impli-
+cations both for organizations and for systems analysts who seek to help them better achieve their 
+goals. When any element of a system is changed or eliminated, the rest of the system’s elements 
+and subsystems are also significantly affected.
+For example, suppose managers of an organization decide not to hire administrative assistants 
+any longer and to replace their functions with networked PCs. This decision has the potential to 
+significantly affect not only the administrative assistants and the managers but also all the orga-
+nization’s members who built up communications networks with the now-departed assistants.
+All systems process inputs from their environments. Processes change or transform inputs 
+into outputs. Whenever you examine a system, check to see what is being changed or processed. 
+If nothing is changed, you may not be identifying a process. Typical processes in systems include 
+verifying, updating, and printing.
+Another aspect of organizations as systems is that all systems are contained by boundar -
+ies separating them from their environments. Organizational boundaries exist on a continuum 
+ranging from extremely permeable to almost impermeable. To continue to adapt and survive, 
+a humorous way. As implied in the video, as a systems analyst you 
+need to research and ask questions about other cultures you work in 
+and observe, follow local customs, and learn from other cultures to 
+work with project teams and clients harmoniously. After you view 
+the video, please reflect on the following questions:
+1. How can you, as a systems analyst, learn about different 
+global cultures?
+2. How can you use observation to avoid being viewed as 
+behaving inappropriately in a culture that is not your own?
+3. What are some of the mistakes that employees made in 
+the video when they first showed up at the meeting about 
+global cultural awareness? How can mistakes like that be 
+avoided?
+4. What are some ways that you as a systems analyst can 
+respect differences in global cultures through your actions 
+(for example, during interactions in meetings or in your 
+designs of systems, screens, or forms)?
+SYSTEMS SCENARIO  
+Increasing Organizational and Global Cultural Awareness
+This chapter presents organizations and their members as systems, 
+demonstrating how we can model systems. Organizational culture 
+influences information systems design as does the broader culture. 
+In this video, the topic of increasing our global cultural aware-
+ness to make our systems projects run more easily is presented in 
+To view the video for this scenario, 
+see eText Chapter 2. 
+Seven Dimensions/Boclips
+
+
+===== BOOK PAGE 27 =====
+
+CHAPTER 2  •  UNDERSTANDINg AND  MODELINg OR g ANIzATIONAL  S YSTEMS     27
+organizations must be able first to import people, raw materials, and information through their 
+boundaries (inputs) and then to exchange their finished products, services, or information with 
+the outside world (outputs).
+Feedback is one form of system control. As systems, all organizations use planning and 
+control to manage their resources effectively. Figure 2.1 shows how system outputs are used as 
+feedback that compares performance with goals. This comparison, in turn, helps managers formu-
+late more specific goals as inputs. An example is a U.S. manufacturing company that produces red, 
+white, and, blue weight-training sets as well as gunmetal-gray sets. The company finds that one  
+year after the Summer Olympics, very few red, white, and blue sets are purchased. Production 
+managers use this information as feedback to make decisions about what quantities of each color 
+to produce. Feedback in this instance is useful for planning and control.
+The ideal system, however, self-corrects or self-regulates in such a way that decisions on typi-
+cal occurrences are not required. An example is a supply-chain system for production planning that 
+considers current and projected demand and formulates a proposed solution as output. An Italian 
+knitwear manufacturer that markets its clothing in the United States has just such a system. This 
+company produces most of its sweaters in undyed white shades, uses its computerized inventory 
+information system to find out what colors are selling best, and then dyes sweaters in hot-selling 
+colors immediately before shipping them.
+FIGURE 2.1
+System outputs serve as feedback 
+that compares performance with 
+goals.
+Goals
+System
+OutputsInputs
+8. Personalizing the look and feel of the website for different 
+customers
+Zara Berry read the list and contemplated it for a while. “It 
+is obvious that ecommerce is more complex than I thought,” she 
+says. You can help the owners of Marathon Vitamin Shops in the 
+following ways:
+1. Make a list of the elements that are interrelated or interde-
+pendent. Then write a paragraph stating why it is critical to 
+monitor these elements closely.
+2. Decide on the boundaries and ultimate scope of the system. 
+Write a paragraph expressing an opinion on which elements 
+are critical for Marathon Vitamin Shops and which elements 
+can be explored later.
+3. Suggest which elements should be handled in-house and 
+which should be outsourced to another company that may 
+be better able to handle the job. Justify your suggestions in 
+two paragraphs, one for the in-house jobs and one for the 
+outsourced tasks.
+CONSULTING OPPORTUNITY 2.1 
+The E in Vitamin E Stands for Ecommerce
+“Our retail shops and mail-order division are quite healthy,” 
+says Zara Berry, one of the owners of Marathon Vitamin Shops, 
+“but to be competitive, we must establish an ecommerce website.” 
+Her father, a co-owner, exclaims, “I agree, but where do we start?” 
+The elder Berry knew, of course, that it wasn’t a case of setting up 
+a website and asking customers to order off the website. He identi-
+fied eight different parts to ecommerce and realized that they were 
+all part of a larger system. In other words, all the parts had to work 
+together to create a strong package. His list of elements essential to 
+ecommerce included the following:
+1. Attracting customers to an ecommerce website
+2. Informing customers about products and services  
+offered
+3. Allowing customers to customize products online
+4. Completing transactions with customers
+5. Accepting payment from customers in a variety of forms
+6. Supporting customers after the sale via the website
+7. Arranging for the delivery of goods and services
+
+
+===== BOOK PAGE 28 =====
+
+28    PART I  •  SYSTEMS ANALYSIS FUNDAMENTALS
+Feedback is received from within the organization and from the outside environments around 
+it. Anything external to an organization’s boundaries is an environment. Numerous environments, 
+with varying degrees of stability, constitute the milieu in which organizations exist.
+Among these environments are (1) the environment of the community in which the organi-
+zation is physically located, which is shaped by the size of its population and its demographic 
+profile, including factors such as education and average income; (2) the economic environment, 
+influenced by market factors, including competition; (3) the political environment, controlled 
+through state and local governments; and (4) the legal environment, issuing federal, state, regional, 
+and local laws and guidelines. Although changes in environment status can be planned for, they 
+often cannot be directly controlled by the organization.
+Related and similar to the concept of external boundary permeability is the concept of internal 
+openness or closedness of organizations. Openness and closedness also exist on a continuum 
+because there is no such thing as an absolutely open or a completely closed organization.
+Virtual Organizations and Virtual Teams
+Not all organizations or parts of organizations are visible in a physical location. Entire organiza-
+tions or units of organizations can now possess virtual components that permit them to change 
+configurations to adapt to changing project or marketplace demands. Virtual enterprises use net-
+works of computers and communications technology to bring people with specific skills together 
+electronically to work on projects that are not physically located in the same place. Information 
+technology enables coordination of these remote team members. Virtual teams often spring up 
+in already-established organizations; in some instances, however, organizations of remote workers 
+have been able to succeed without the traditional investment in a physical facility.
+The potential benefits of virtual organizations include the possibility of reducing costs of 
+physical facilities, more rapid response to customer needs, and helping virtual employees to 
+achieve a work–life balance. Just how important it will be to meet the social needs of virtual work-
+ers is still open to research and debate. One example of a need for tangible identification with a 
+culture arose when students who were enrolled in an online virtual university, with no physical 
+campus (or sports teams), kept requesting items such as sweatshirts, coffee mugs, and pennants 
+with the virtual university’s logo imprinted on them. These items are meaningful cultural artifacts 
+that traditional brick-and-mortar schools have long provided.
+Many systems analysis and design teams are now able to work virtually and, in fact, many 
+of them marked the path for other types of employees to follow in accomplishing work virtually. 
+Some applications permit analysts who are providing technical assistance over the web to “see” 
+the software and hardware configuration of the user requesting help, in this way creating an ad 
+hoc virtual team composed of the analyst and the user. During the height of the global pandemic, 
+when many workers could not meet in person, they were still able to work virtually or “remotely.” 
+Some of these efforts were so successful in promoting work–life balance that workers opted for 
+remote work or hybrid work as a preferred option to daily commutes to physical office buildings 
+(Henderson 2021).
+Taking a Systems Perspective
+Taking a systems perspective allows systems analysts to start broadly clarifying and understanding 
+the various businesses with which they will come into contact. It is important that members of 
+subsystems realize that their work is interrelated. Notice in Figure 2.2 that the outputs from the 
+production subsystems serve as inputs for marketing and that the outputs of marketing serve as 
+new inputs for production. Neither subsystem can properly accomplish its goals without the other.
+Problems occur when managers possess a different picture of the importance of their own 
+functional subsystem. In Figure 2.3 you can see that the marketing manager’s personal perspec-
+tive shows the business as driven by marketing, with all other functional areas interrelated but 
+not of central importance. By the same token, the perspective of a production manager positions 
+production at the center of the business, with all other functional areas driven by it.
+The relative importance of functional areas as revealed in the personal perspectives of manag-
+ers takes on added significance when managers rise to the top through the ranks, becoming strate-
+gic managers. They can create problems if they overemphasize their prior functional information 
+requirements in relation to the broader needs of the organization.
+
+
+===== BOOK PAGE 29 =====
+
+CHAPTER 2  •  UNDERSTANDINg AND  MODELINg OR g ANIzATIONAL  S YSTEMS     29
+FIGURE 2.2
+Outputs from one department 
+serve as inputs for another, such 
+that subsystems are interrelated.
+Marketing
+Production
+Outputs from
+marketing
+become the inputs
+for production.
+Outputs from
+production
+become the inputs
+for marketing.
+FIGURE 2.3
+A depiction of the personal 
+ perspective of functional managers 
+shows that they feature their own 
+functional area as central to the 
+organization.
+DistributionProduction
+MarketingPurchasing
+How a Marketing Manager May View the Organization
+Marketing
+Finance
+Production
+Distribution
+How a Production Manager May See the Organization
+Finance
+Purchasing
+Enterprise Systems: Viewing the Organization as a System
+Enterprise system, or enterprise resource planning (ERP), describes an integrated organization 
+(enterprise) information system. Specifically, ERP is software that helps the flow of information 
+between the functional areas in the organization. Rather than being developed in-house, the system 
+is usually purchased from one of the software development companies well known for its ERP
+
+
+===== BOOK PAGE 30 =====
+
+30    PART I  •  SYSTEMS ANALYSIS FUNDAMENTALS
+packages, such as SAP or Oracle Cloud. The product is then customized to fit the requirements 
+of a particular company. Typically, the vendor requires commitment from the organization in 
+terms of specialized user or analyst training. Over the last decade, ERP systems are moving to 
+cloud computing.
+ERP has taken root in many large companies and is spreading to small and medium-sized 
+enterprises as well. Most of the lessons systems analysts have learned are applicable to implement-
+ing enterprise systems. However, as an analyst you need to recognize and act on the similarities 
+and differences between implementing networked information systems and implementing an ERP.
+One of the major differences is that rather than redesigning business processes based on a 
+logical analysis of those processes and how they support the business strategy, and then choosing 
+the IT to support those processes, a large installation of ERP can reverse this by requiring the 
+implementation of new business processes that are embedded in the technology provided. Often-
+times you will be part of an internal systems team whose main job is to look after the interface 
+between legacy systems and the ERP being installed.
+Enterprise implementations are complex and intense endeavors that result in tremendous 
+organization change. They can affect every aspect of the organization, including the design of 
+employees’ work, the skills required to become competent in one’s job, and even the strategic 
+positioning of the company. Implementing an ERP has become increasingly complex. Many issues 
+present important hurdles to clear if the ERP installation is to be declared a success; these include 
+user acceptance, integration with legacy systems, and the supply chain; upgrading functionality 
+(and complexity) of ERP modules; reorganizing work life of users and decision makers; expanded 
+reach across several organizations (as part of the IT supply chain); and strategic repositioning of 
+the company adopting an ERP.
+New research has shown that ERP implementations can result in making employees more 
+effective and efficient two or three years after the installation, but it is in the planning and early 
+stages of ERP that a deep analysis examines how the new enterprise system will affect the daily 
+lives and jobs of employees involved in the new system (such as discussed in Chapter 14 on HCI 
+and usability issues). ERP systems are best considered as real game changers when it comes to 
+the job design of employees (including systems analysts) and as a moving force that can alter the 
+strategic approaches to change that the organization takes.
+DEPICTING SYSTEMS GRAPHICALLY
+A system or subsystem as it exists within a corporate organization may be graphically depicted in 
+several ways. The various graphical models show the boundaries of the system and the informa-
+tion used in the system.
+Systems and the Context-Level Data Flow Diagram
+The first model is the context-level data flow diagram. Data flow diagrams focus on the data 
+flowing into and out of the system and the processing (transforming) of the data. These basic 
+components of every computer program can be described in detail and used to analyze a system 
+for accuracy and completeness.
+As shown in Figure 2.4, the context-level data flow diagram employs only three symbols: (1) 
+a rectangle with rounded corners, (2) a square with two shaded edges, and (3) an arrow. Processes 
+transform incoming data into outgoing information, and the content level has only one process, 
+representing the entire system. The external entity represents any entity that supplies or receives 
+information from the system but is not a part of the system. This entity may be a person, a group 
+of people, a corporate position or department, or other systems. The lines that connect the external 
+entities to the process are called data flows, and they represent movement of data.
+An example of a context-level data flow diagram is found in Figure 2.5. This example repre-
+sents the most basic elements of an airline reservation system and shows the system before (when 
+a travel agent acted as intermediary) and after direct online booking was made possible. In the 
+before diagram, the passenger (an entity) initiates a travel request (data flow). The context-level 
+diagram doesn’t show enough detail to indicate exactly what happens (it isn’t supposed to), but we 
+can see that the passenger’s preferences and the available flights are sent to the travel agent, which 
+sends ticketing information back to the process. We can also see that the passenger reservation 
+is sent to the airline. The second context-level diagram shows what happens when the passenger
+
+
+===== BOOK PAGE 31 =====
+
+CHAPTER 2  •  UNDERSTANDINg AND  MODELINg OR g ANIzATIONAL  S YSTEMS     31
+FIGURE 2.4
+The basic symbols of a data flow 
+diagram.A process means that some action
+or group of actions take place.
+An entity is a person, group,
+department, or any system that
+either receives or originates
+information or data.
+A data ﬂow shows that information
+is being passed from or to a 
+process.
+FIGURE 2.5
+A context-level data flow diagram 
+for an airline reservation system.
+Context-level Diagram Including the Travel Agent as Intermediary
+0
+Airline
+Travel Request
+Ticketing Conﬁrmation
+Ticketing Request
+Travel
+Agent
+Available Flights
+Airline
+Reservation
+System
+Passenger
+ReservationScheduled Flights
+Passenger
+Travel Request
+Context-level Diagram Showing Direct Online Booking
+Ticketing Conﬁrmation Airline
+0
+Airline
+Reservation
+System
+Passenger Reservation
+Scheduled Flights
+Passenger
+
+
+===== BOOK PAGE 32 =====
+
+32    PART I  •  SYSTEMS ANALYSIS FUNDAMENTALS
+books directly with an online system. The context-level data flow diagram serves as a good start-
+ing point for drawing the use case diagram (discussed later in this chapter).
+In Chapter 7, we will see that a data flow contains much information. For example, the passen-
+ger reservation contains the passenger’s name, airline, flight number(s), date(s) of travel, price, seat-
+ing preference, and so on. For now, however, we are concerned mainly with how a context-level data 
+flow diagram defines the boundaries of the system. In the preceding example, only reservations are 
+part of the process. Other decisions that the airline would make (for example, purchasing airplanes, 
+changing schedules, pricing, and hiring additional flight crew members) are not part of this system.
+The context-level data flow diagram is one way to show the scope of the system, or what 
+is to be included in the system. The external entities are outside the scope and something over 
+which the system has no control.
+Systems and the Entity-Relationship Model
+Another way a systems analyst can show the scope of a system and define proper system bound-
+aries is to use an entity-relationship (E-R) model. The elements that make up an organizational 
+system can be referred to as entities. An entity may be a person, a place, or a thing, such as a 
+passenger on an airline, a destination, or a plane. Alternatively, an entity may be an event, such 
+as the end of the month, a sales period, or a machine breakdown. A relationship is the association 
+that describes the interaction among the entities.
+There are many different conventions for drawing E-R diagrams (with names such as crow’s 
+foot, arrow, or Bachman notation). In this book, we use crow’s foot notation. For now, we assume 
+that an entity is a plain rectangular box.
+Figure 2.6 illustrates a simple E-R diagram. Two entities are linked together by a line. In 
+this example, the end of the line is marked with two short parallel marks (| |), signifying that this 
+relationship is one-to-one. Thus, exactly one employee is assigned to one phone extension. No 
+one shares the same phone extension in this office.
+The red arrows are not part of the E-R diagram; they are present to demonstrate how to read 
+the diagram. The phrase on the right side of the line is read from top to bottom as follows: “One 
+EMPLOYEE is assigned to one PHONE EXTENSION.” On the left side, as you read from bottom 
+to top, the arrow says, “One PHONE EXTENSION is listed for one EMPLOYEE.”
+Figure 2.7 shows another relationship. The crow’s foot notation (>—+) is obvious on this 
+diagram, and this particular example is a many-to-one example. As you read from left to right, 
+the arrow signifies, “Many EMPLOYEES are members of a DEPARTMENT.” As you read from 
+right to left, it implies, “One DEPARTMENT contains many EMPLOYEES.”
+Notice that when a many-to-one relationship is present, the grammar changes from “is” to 
+“are,” even though the singular “is” is written on the line. The crow’s foot and the single mark 
+does not literally mean that this end of the relationship must be a mandatory “many.” Instead, they 
+imply that this end could be anything from one to many.
+Figure 2.8 elaborates on this scheme. Here we have listed a number of typical entity rela -
+tionships. The first is a one-to-one relationship: “An EMPLOYEE is assigned to an OFFICE.”  
+FIGURE 2.6
+An E-R diagram showing a one-
+to-one relationship.
+Employee
+Phone Extension
+One
+EMPLOYEE
+is assignedto one
+PHONE
+EXTENSION.
+One
+PHONE
+EXTENSIONis
+listed
+for one
+EMPLOYEE.
+is
+listed
+for
+is
+assigned
+to
+
+
+===== BOOK PAGE 33 =====
+
+CHAPTER 2  •  UNDERSTANDINg AND  MODELINg OR g ANIzATIONAL  S YSTEMS     33
+FIGURE 2.7
+An E-R diagram showing a many-
+to-one relationship.
+Department
+is a member of
+contains
+Employee
+Many EMPLOYEES
+are members of a
+DEPARTMENT .
+One DEPARTMENTcontains many
+EMPLOYEES.
+FIGURE 2.8
+Examples of different types of 
+relationships in E-R diagrams.
+Passenger Destination
+is assigned to
+is occupied by
+is assigned to
+will be developed by
+is undergoing
+is being done to
+is assigned to
+is called on by
+has
+is assigned to
+is ﬂying to
+will be visited by
+will serve
+is served by
+Employee Oﬃce
+Systems Analyst
+Distribution Center
+Salesperson Customer
+Home Oﬃce Employee
+Machine
+Project
+Cargo Aircraft
+Scheduled
+Maintenance
+
+
+===== BOOK PAGE 34 =====
+
+34    PART I  •  SYSTEMS ANALYSIS FUNDAMENTALS
+The second is a one-to-many relationship: “One CARGO AIRCRAFT will serve one or more 
+DISTRIBUTION CENTERs.” The third one is slightly different because it has a circle at one end. 
+It can be read as “A SYSTEMS ANALYST may be assigned to MANY PROJECTs,” meaning that 
+the analyst can be assigned to no projects [that is what the circle (O), for zero, is for], one project, 
+or many projects. Likewise, the circle (O) indicates that none is possible in the next relationship. 
+Recall that the short mark means one. Therefore, we can read it as follows: “A MACHINE may 
+or may not be undergoing SCHEDULED MAINTENANCE.” Notice that the line is written as “is 
+undergoing,” but the end marks on the line indicate that either no maintenance (O) or maintenance 
+(I) is actually going on.
+The next relationship states, “One or many SALESPEOPLE (plural of SALESPERSON) are 
+assigned to one or more CUSTOMERs.” It is the classic many-to-many relationship. The next 
+relationship can be read as follows: “The HOME OFFICE can have one or many EMPLOYEEs” 
+or “One or more EMPLOYEEs may or may not be assigned to the HOME OFFICE.” Once again, 
+the I and O together imply a Boolean situation—in other words, one or zero.
+The final relationship shown here can be read as, “Many PASSENGERs are flying to many 
+DESTINATIONs.” Some people prefer this symbol [>—+] to indicate a mandatory “many” 
+ condition. (Would it ever be possible to have only one passenger or only one destination?) Even 
+so, some CASE tools such as Visible Analyst do not offer this possibility because the optional 
+one-or-many condition as shown in the SALESPERSON–CUSTOMER relationship will do.
+Up to now we have modeled all our relationships using one simple rectangle and a line. This 
+method works well when we are examining the relationships of real things such as real people, 
+places, and things. Sometimes, though, we create new items in the process of developing an 
+information system. Some examples are invoices, receipts, files, and databases. When we want 
+to describe how a person relates to a receipt, for example, it becomes convenient to indicate the 
+receipt in a different way. There are three different types of entities: the fundamental entity, the 
+associative entity, and the attributive entity. These are depicted in Figure 2.9.
+An associative entity can exist only if it is connected to at least two other entities. For that 
+reason, some call it a gerund, a junction, an intersection, or a concatenated entity. This wording 
+makes sense because a receipt wouldn’t be necessary unless there were a customer and a sales-
+person making the transaction.
+Another type of entity is an attributive entity. When an analyst wants to show data that are 
+completely dependent on the existence of a fundamental entity, an attributive entity should be 
+used. For example, if a library has multiple copies of the same book, an attributive entity can be 
+used to designate which copy of the book is being checked out. The attributive entity is useful for 
+showing repeating groups of data. For example, suppose we are going to model the relationships 
+that exist when a patron gets tickets to a concert or a show. The entities seem obvious at first: “a 
+PATRON and a CONCERT/SHOW,” as shown in Figure 2.10. What sort of relationship exists?
+At first glance, we see that the PATRON gets a reservation for a CONCERT/SHOW, and the 
+CONCERT/SHOW can be said to have made a booking for a PATRON.
+The process isn’t that simple, of course, and the E-R diagram need not be that simple either. 
+The PATRON actually makes a RESERV ATION, as shown in Figure 2.11. The RESERV ATION 
+FIGURE 2.9
+Three different types of entities 
+used in E-R diagrams.
+Fundamental
+Entity
+Associative
+Entity
+Usually a real entity: a person, 
+place, or thing
+Something created that joins 
+two entities
+Something useful in describing
+attributes, especially repeating
+groups
+Attributive
+Entity
+
+
+===== BOOK PAGE 35 =====
+
+CHAPTER 2  •  UNDERSTANDINg AND  MODELINg OR g ANIzATIONAL  S YSTEMS     35
+FIGURE 2.10
+The first attempt at drawing an 
+E-R diagram.
+Patron
+Concert/Show
+makes a
+reservation
+for
+makes
+a
+booking
+for
+Here is
+my ﬁrst
+attempt.
+            Ken
+is for a CONCERT/SHOW. The CONCERT/SHOW holds the RESERV ATION, and the 
+ RESERV ATION is in the name of the PATRON. We added an associative entity here because 
+a RESERV ATION was created due to the information system required to relate the PATRON and 
+the CONCERT/SHOW.
+Again, this process is quite simple, but because concerts and shows have many performancs, 
+the E-R diagram is drawn once more in Figure 2.12. Here we add an attributive entity to han-
+dle the many performances of the CONCERT/SHOW. In this case the RESERV ATION is made 
+for a particular PERFORMANCE, and the PERFORMANCE is one of many that belong to a 
+specific CONCERT/SHOW. In turn, the CONCERT/SHOW has many performances, and one 
+ PERFORMANCE has a RESERV ATION that is in the name of a particular PATRON.
+FIGURE 2.11
+Improving the E-R diagram by 
+adding an associative entry called 
+RESERV ATION.
+Concert/Show
+makes
+Patron
+is in
+the
+name
+of
+is for
+a
+I’ve added
+an associative
+entity.
+               Julie
+has
+Reservation
+
+
+===== BOOK PAGE 36 =====
+
+36    PART I  •  SYSTEMS ANALYSIS FUNDAMENTALS
+To the right of this E-R diagram is a set of data attributes that make up each of the entities. 
+Some entities may have attributes in common. The attributes that are underlined can be searched 
+for. The attributes are referred to as keys and are discussed in Chapter 13.
+Systems designers often use E-R diagrams to help model a file or a database. It is even more 
+important, however, that a systems analyst understand both the entities and relationships in the 
+organizational system very early. In sketching out some basic E-R diagrams, the analyst needs to:
+1. List the entities in the organization to gain a better understanding of the organization.
+2. Choose key entities to narrow the scope of the problem to a manageable and meaningful 
+dimension.
+3. Identify what the primary entity should be.
+4. Confirm the results of steps 1 through 3 through other data-gathering methods (investiga-
+tion, interviewing, administering questionnaires, observation, and prototyping), as dis-
+cussed in Chapters 4 through 6.
+It is critical that a systems analyst begin to draw E-R diagrams upon entering an organiza-
+tion rather than waiting until the database needs to be designed. These E-R diagrams help the 
+analyst understand what business the organization is actually in, determine the size and scope of 
+FIGURE 2.12
+A more complete E-R diagram, 
+showing data attributes of the 
+entities.
+Concert/Show
+has
+has belongs to
+Performance
+makes
+Patron
+Reservation
+is in
+the
+name
+of
+is
+made
+for
+Patron-name
+Patron-address
+Patron-phone
+Patron-credit-card
+Reservation-number
+Patron-name
+Performance-number
+Concert/show
+Date
+Time
+Location
+Price
+Performance-number
+Concert/show
+Date
+Time
+Location
+Price-options
+Concert/show
+Concert-details
+Dates-of-event
+Location
+
+
+===== BOOK PAGE 37 =====
+
+CHAPTER 2  •  UNDERSTANDINg AND  MODELINg OR g ANIzATIONAL  S YSTEMS     37
+Microsoft Visio makes it easy for a systems analyst to draw E-R dia-
+grams as well as most of the other diagrams found in this text, but it 
+is available only for PCs. Mac users have an alternative, Omni Graffle 
+Professional. OmniGraffle is easier to use than Microsoft Visio 
+because its drag-and-drop interface is smoother and more intuitive.
+It also features a “smart guide” that uses pop-up distance mark-
+ers to help position the symbols in the correct places. Many sym-
+bols, such as those used in E-R diagrams, are built in.
+MAC APPEAL
+FIGURE 2. MAC
+OmniGraffle from The Omni Group is an easy-to-use and powerful drawing package. (Used by permission 
+of the Omni Group.)
+the problem, and discern whether the right problem is being addressed. The E-R diagrams need 
+to be confirmed or revised as the data-gathering process takes place.
+USE CASE MODELING
+Originally introduced as a diagram for use in object-oriented unified modeling language (UML), 
+use cases are now being used regardless of the approach to systems development. A use case 
+ diagram can be used as part of the systems development life cycle (SDLC) approach or in 
+agile modeling methodology. The word use is pronounced as a noun (“yoos”) rather than a verb 
+(“yooz”). A use case model describes what a system does without describing how the system 
+does it; that is, it is a logical model of the system. (Logical and conceptual models are further 
+discussed in Chapter 7.) A use case model reflects the view of a system from the perspective of a 
+user outside the system (that is, the system requirements).
+
+
+===== BOOK PAGE 38 =====
+
+38    PART I  •  SYSTEMS ANALYSIS FUNDAMENTALS
+An analyst develops use cases in a cooperative effort with the business experts who help 
+define the requirements of the system. A use case model provides an effective means of commu-
+nication between the business team and the development team. A use case model partitions the 
+way the system works into behaviors, services, and responses (the use cases) that are significant 
+to the users of the system.
+From the perspective of an actor (or user), a use case should produce something of value. 
+Therefore, the analyst must determine what is important to the user and remember to include it in 
+the use case diagram. For example, is entering a password something of value to the user? It may 
+be included if the user has a concern about security or if it is critical to the success of the project.
+Use Case Symbols
+A use case diagram contains the actor and use case symbols, along with connecting lines. Actors 
+are similar to external entities; they exist outside the system. The term actor refers to a particular 
+role of a user of the system. For example, an actor may be an employee but also may be a customer 
+at the company store. Even though it is the same person in the real world, it is represented as two 
+different symbols on a use case diagram because the person interacts with the system in different 
+roles. The actor exists outside the system and interacts with the system in a specific way. An actor 
+can be a human, another system, or a device such as a keyboard or a web connection. Actors can 
+initiate an instance of a use case. An actor may interact with one or more use cases, and a use case 
+may involve one or more actors.
+Actors may be divided into two groups. Primary actors supply data or receive information 
+from the system. Some users directly interact with the system (system actors), but primary actors 
+also may be businesspeople who do not directly interact with the system but have a stake in it. 
+Primary actors are important because they are the people who use the system and can provide 
+details on what the use case should do. They also can provide a list of goals and priorities. Sup-
+porting actors (also called secondary actors) help to keep the system running or provide other 
+services. These are the analysts, coders, people who run the help desk, and so on.
+Sometimes it is useful to create an actor profile that lists the actors, their background, and 
+their skills in a simple table format. This may be useful to understand how the actor interacts 
+with the system. An example is an Order Processing Specialist. The profile would be, “A routine 
+user of the software, familiar with minor features, order exceptions, and order customization.” It 
+is also useful to list the actors and their goals and priorities. Each goal may become a use case.
+A use case provides developers with a view of what the users want. It is free of technical or 
+implementation details. We can think of a use case as a sequence of transactions in a system. The 
+use case model is based on the interactions and relationships of individual use cases.
+A use case always describes three things: an actor that initiates an event, the event that triggers 
+a use case, and the use case that performs the actions triggered by the event. In a use case, an actor 
+using the system initiates an event that begins a related series of interactions in the system. A use 
+case documents a single transaction or event. An event is an input to the system that happens at a 
+specific time and place and causes the system to do something.
+It is better to create fewer use cases rather than more. Often queries and reports are not 
+included; 20 use cases (and no more than 40 or 50) are sufficient for a large system. Use cases 
+also may be nested, if needed. Some use cases use the verb manage to group use cases for adding, 
+deleting, and changing into another, lower-level, use case diagram. You can include a use case 
+on several diagrams, but the actual use case is defined only once in the repository. A use case is 
+named with a verb and a noun.
+Use Case Relationships
+Active relationships are referred to as behavioral relationships and are used primarily in use case 
+diagrams. There are four basic types of behavioral relationships: communicates, includes, extends, 
+and generalizes. Notice that all these terms are action verbs. Figure 2.13 shows the arrows and 
+lines used to diagram each of the four types of behavioral relationships. The four relationships 
+are described next.
+Communicates. The behavioral relationship communicates is used to connect an actor to a use case. 
+Remember that the task of a use case is to give some sort of result that is beneficial to the actor in 
+the system. Therefore, it is important to document these relationships between actors and use cases.
+
+
+===== BOOK PAGE 39 =====
+
+CHAPTER 2  •  UNDERSTANDINg AND  MODELINg OR g ANIzATIONAL  S YSTEMS     39
+In our first example, a Student communicates with Enroll in Course. Examples of some compo-
+nents of a student enrollment example are shown in the use case diagrams in Figure 2.14.
+Includes. The includes relationship (also called the uses relationship) describes the situation in 
+which a use case contains behavior that is common to more than one use case. In other words, the 
+common use case is included in the other use cases. A dotted arrow that points to the common 
+use case indicates the includes relationship. An example would be a use case Pay Student Fees 
+that is included in Enroll in Course and Arrange Housing because in both cases students must 
+pay their fees. Pay Student Fees may be used by several use cases. The arrow points toward the 
+common use case.
+Extends. The extends relationship describes the situation in which one use case possesses the 
+behavior that allows the new use case to handle a variation or an exception from the basic use case. 
+FIGURE 2.13
+Four types of UML behavioral relationships and the arrows and lines used to represent the relationships.
+Relationship
+Communicates
+Includes
+Symbol
+An actor is connected to a use case using a line with
+no arrowheads.
+A use case contains a behavior that is common to more than one
+other use case. The arrow points to the common use case.
+Generalizes One UML “thing” is more general than another “thing.”
+The arrow points to the general “thing.”
+Extends A different use case handles exceptions from the basic use case.
+The arrow points from the extended to the basic use case.
+Meaning
+<< include >>
+<< extend >>
+FIGURE 2.14
+Examples of use cases and behav-
+ioral relationships for student 
+enrollment.<< include >>
+<< include >>
+Enroll
+in Course
+Includes
+Relationship
+Arrange
+Housing
+Pay Student
+Fees
+<< extend >> Pay Student
+Fees
+Extends
+Relationship
+student states
+amount of coverage
+Student Health
+Insurance
+Communicates
+Relationship
+Enroll
+in Course
+Student
+Part-time
+Student
+ Student
+Generalizes
+Relationship
+
+
+===== BOOK PAGE 40 =====
+
+40    PART I  •  SYSTEMS ANALYSIS FUNDAMENTALS
+For example, the extended use case Student Health Insurance extends the basic use case Pay 
+Student Fees. The arrow goes from the extended to the basic use case.
+Generalizes. The generalizes relationship implies that one thing is more typical than the other 
+thing. This relationship may exist between two actors or two use cases. For example, a Part-time 
+Student generalizes a Student. Similarly, some of the university employees are professors. The 
+arrow points to the general thing.
+Developing System Scope
+The scope of a system defines its boundaries: what is in scope—or inside the system—and what 
+is out of scope. The project usually has a budget that helps to define scope, as well as start and 
+end times. Actors are always outside the scope of the system. The communicates lines that con-
+nect actors to the use cases are the boundaries and define the scope. Because a use case diagram 
+is created early in the system’s life cycle, the budget, starting time, and ending time may change 
+as the project progresses. As the analyst learns more about the system, the use case diagrams, use 
+case, and scope may change.
+Developing Use Case Diagrams
+The primary use case consists of a standard flow of events in the system that describes a standard 
+system behavior. The primary use case represents the normal, expected, and successful comple-
+tion of the use case.
+When diagramming a use case, start by asking the users to list everything the system should 
+do for them. This can be done using interviews, in a joint application design session (as described 
+in Chapter 4), or through other facilitated team sessions. The analyst may also use agile stories 
+sessions (described in Chapter 6) to develop use cases. Write down who is involved with each use 
+case and the responsibilities or services the use case must provide to actors or other systems. In 
+the initial phases, this may be a partial list that is expanded in the later analysis phases. Use the 
+following guidelines:
+1. Review the business specifications and identify the actors involved.
+2. Identify the high-level events and develop the primary use cases that describe those events 
+and how the actors initiate them. Carefully examine the roles played by the actors to iden-
+tify all the possible primary use cases initiated by each actor. Use cases with little or no 
+user interaction do not have to be shown.
+3. Review each primary use case to determine the possible variations of flow through the use 
+case. From this analysis, establish the alternative paths. Because the flow of events is usu-
+ally different in each case, look for activities that could succeed or fail. Also look for any 
+branches in the use case logic in which different outcomes are possible.
+If a context-level data flow diagram has been created, it can be a starting point for creating 
+a use case. The external entities are potential actors. Then examine the data flow to determine 
+whether it would initiate a use case or be produced by a use case.
+Figure 2.15 is an example of a use case diagram representing a system used to plan a confer-
+ence. The actors are the Conference Chair, responsible for planning and managing the confer -
+ence, and the conference Participant, Speakers, a Keynote Speaker, Hotel Reservations, and a 
+Caterer. Actors represent the role the user plays, and the Caterer may be either a hotel employee 
+or an external catering service.
+Both the Conference Chair and the Caterer are involved in planning meals and banquets. 
+The Conference Chair is also responsible for arranging speakers. The Participant registers for 
+the conference. Notice that the Reserve Room use case is involved in an includes relationship with 
+the Arrange Speaker and Register for Conference use cases because both speakers and partici-
+pants will need lodging. The Arrange Language Translation use case extends the Register for 
+Conference use case because not all participants will require language translation services. The 
+Speaker actor is a generalization of Keynote Speaker.
+Developing Use Case Scenarios
+Each use case has a description. We refer to the description as a use case scenario. As mentioned, 
+the primary use case represents the standard flow of events in the system, and alternative paths
+
+
+===== BOOK PAGE 41 =====
+
+CHAPTER 2  •  UNDERSTANDINg AND  MODELINg OR g ANIzATIONAL  S YSTEMS     41
+describe variations to the behavior. Use case scenarios may describe what happens if an item 
+purchased is out of stock or if a credit card company rejects a customer’s requested purchase.
+There is no standardized use case scenario format, so each organization is faced with speci-
+fying what standards should be included. Often the use cases are documented using a template 
+predetermined by the organization, which makes the use cases easier to read and provides stan-
+dardized information for each use case in the model.
+Use Case Levels
+You may want to create use cases for different levels. One method (defined by Alistair Cockburn) 
+uses the following altitude metaphors:
+1. White is the highest level, like clouds. This is the enterprise level, and there may be only 
+four to five use cases at this level for the entire organization. Examples might be to adver-
+tise goods, sell goods to customers, manage inventory, manage the supply chain, and opti-
+mize shipping.
+2. Kite is lower than white but still a high level, providing an overview. The kite use case may 
+be at the business unit or department level and is a summary of goals. Examples would be 
+to register students, or, if working with a travel company, to make an airline, hotel, car, or 
+cruise reservation.
+3. Blue is at sea level and is customarily used to depict user goals. This level often has the 
+greatest interest for users and is easiest for a business to understand. It is usually writ-
+ten for a business activity, and each person should be able to do one blue-level activity in 
+FIGURE 2.15
+A use case diagram representing a 
+system used to plan a conference.
+Caterer
+Conference
+Chair
+Hotel
+Reservations
+Arrange
+Speaker
+Plan
+Catering
+<< include >>
+Reserve
+Room
+<< include >>
+<< extend >>
+Participant
+Register for
+Conference
+Keynote
+Speaker
+Speaker
+Arrange Language
+Translation
+
+
+===== BOOK PAGE 42 =====
+
+42    PART I  •  SYSTEMS ANALYSIS FUNDAMENTALS
+anywhere from 2 to 20 minutes. Examples are register a continuing student, add a new cus-
+tomer, place an item in a shopping cart, and order checkout.
+4. Indigo or fish is a use case that shows lots of detail, often at a functional or subfunctional 
+level. Examples are choose a class, pay academic fees, look up the airport code for a given 
+city, and produce a list of customers after entering a name.
+5. Black or clam, like the bottom of the ocean, are the most detailed use cases, at a subfunc-
+tion level. Examples might be to validate secure logon, add a new field using dynamic 
+HTML, or use Ajax to update a web page in a small way.
+A use case scenario example is shown in Figure 2.16. Some of the areas included are optional 
+and may not be used by all organizations. The three main areas are:
+1. An area header that contains case identifiers and initiators
+2. Steps performed
+3. A footer area that contains preconditions, assumptions, questions, and other information
+FIGURE 2.16
+A use case scenario is divided 
+into three sections: identification 
+and initiation; steps performed; 
+and conditions, assumptions, and 
+questions.
+Use case name: Register for Conference UniqueID:    Conf RG 003
+Area:
+Actor(s):
+Description:
+Triggering Event:
+Preconditions:
+Postconditions:
+Assumptions:
+Steps Performed (Main Path)
+Conference Planning
+Participant has already registered and has created a user account.
+Participant has a browser and a valid userID and password.
+Participant has successfully registered for the conference.
+Success Guarantee: Participant has registered for the conference and is enrolled in all selected sessions.
+Minimum Guarantee: Participant was able to logon.
+Requirements Met: Allow conference participants to be able to register for the conference using a secure website.
+Outstanding Issues: How should a rejected credit card be handled?
+Priority: High
+Risk: Medium
+Participant uses Conference Registration website, enters userID and password, and clicks the logon button.
+  1. Participant logs in using the secure web server.
+  2. Participant record is read and password is veriﬁed.
+  3. Participant and session information is displayed on the 
+     Registration web page.
+  4. Participant enters information on the Registration Web form
+      and clicks Submit button.
+  5. Registration information is validated on the Web server.
+  6. Registration Conﬁrmation page is displayed to conﬁrm 
+      registration information.
+  7. Credit card is charged for registration fees.
+  8. Add Registration Journal record is written.
+userID, Password
+Participant Record, userID, Password
+Participant Record, Session Record
+Registration Web Form
+Registration Web Form
+Conﬁrmation Web Page
+Secure Credit Card Web Page
+Conﬁrmation Web Page
+  9. Registration record is updated on the Registration Master. Conﬁrmation Web Page, Registration Record
+10. Session record is updated for each selected session on
+      the Session Master.
+Conﬁrmation Web Page, Session Record
+11. Participant record is updated for the participant on
+      the Participant Master.
+Conﬁrmation Web Page, Participant Record
+12. Successful Registration Conﬁrmation web page is sent to
+      the participant.
+Registration Record Conﬁrmation Number
+Trigger type:
+Participant
+Stakeholder: Conference Sponsor, Conference Speakers
+Level: Blue
+Allow conference participant to register online for the conference using a secure website.
+Information for Steps
+External Temporal
+
+
+===== BOOK PAGE 43 =====
+
+CHAPTER 2  •  UNDERSTANDINg AND  MODELINg OR g ANIzATIONAL  S YSTEMS     43
+The first area, use case identifiers and initiators, orients the reader, and contains the use case 
+name and a unique ID; the application area or system that this use case belongs to; the actors 
+involved in the use case; and the stakeholders that have a high level of interest in the use case. 
+Some stakeholders never interact directly with the system, such as the stockholders, the board of 
+directors, or the sales manager. Each primary actor is a stakeholder but is not listed in the stake-
+holder area. The first area should therefore include the level (blue, kite, and so on) and a brief 
+description of what the use case accomplishes.
+The header concludes with the initiating (triggering) event—that is, what caused the use case 
+to start—and the type of trigger, either external or temporal. External events are those started by 
+an actor, either a person or another system requesting information, such as an airline reservation 
+system requesting flight information from an airline system. Temporal events are those that are 
+triggered or started by time. Events occur at a specific time, such as sending an email about special 
+offers once a week on a Sunday evening, sending bills on a specific day, or generating government 
+statistics on a specified date every quarter.
+The second area of the use case includes the steps performed and the information required 
+for each of the steps. These statements represent the standard flow of events and the steps taken 
+for the successful completion of the use case. It is desirable to write up a use case for the main 
+path and then to write up one for each of the alternative paths separately rather than using 
+IF . . . THEN . . . statements. Steps are numbered with an integer. The steps may come from 
+a detailed interview with users or may be derived from agile modeling stories (as described in 
+Chapter 6). These steps should be reviewed with the users for clarification.
+The analyst should examine each of the steps and determine the information required for each 
+step. If the analysts cannot determine the information, they should schedule a follow-up inter -
+view with the user. Some use case descriptions include extensions or alternative scenarios, with 
+the exceptions as additional sections following the standard flow of events. These are numbered 
+with an integer, decimal point, and another integer, such as 3.1, 3.2, 3.3, and so on. These are 
+steps that may or may not be used. Analysts and users can brainstorm what can go wrong with 
+the main path, and they may uncover important details and conditions. It is necessary to work 
+with the users to determine what to do when these conditions occur. This helps to detect errors 
+earlier in the life cycle.
+Figure 2.17 illustrates how logic and alternative scenarios can be included in the middle sec-
+tion of a use case. In this airline example, notice that Step 1 is made up of smaller steps, many 
+of which are preceded by an “if.” These are still on the main path but occur only if the condition 
+is met. For example, if there are many airports that serve a city, then all the airports will be dis-
+played. Extensions or alternate scenarios can appear here as well. For this airline, other scenarios 
+include flight selection, seat selection, and meal selection. Use cases may even include iterative 
+or looping steps.
+The third area of the use case includes:
+• Preconditions, or the condition of the system before the use case may be performed, which 
+may be another use case. An example might be, “The viewer has successfully logged into 
+the system,” or it might be the successful completion of another use case.
+• Postconditions, or the state of the system after the use case has finished, which include 
+output people have received, transmissions to other systems, and data that have been cre-
+ated or updated. These relate to the goals or user requirements from a problem defini-
+tion (described in Chapter 3) or to agile stories (described in Chapter 6).
+• Assumptions made that would affect the method of the use case and that could stipulate 
+required technology, such as the minimum technology requirements in a browser or even a 
+specific or higher version of a browser. An assumption might be that cookies or JavaScript 
+are enabled. The analyst must determine what to do if the assumptions are not met. When 
+using Google Maps, JavaScript must be enabled; if it is not enabled, the map will not dis-
+play. Netflix requires cookies. Good web pages will detect that an assumption has not been 
+met and notify the viewer with a message, including information on how to turn on cookies 
+or JavaScript for different browsers.
+• Minimal guarantee, which is the minimum promised to the users. They may not be happy 
+with this result, and it may be that nothing happens.
+
+
+===== BOOK PAGE 44 =====
+
+44    PART I  •  SYSTEMS ANALYSIS FUNDAMENTALS
+FIGURE 2.17
+Use cases can include conditional 
+steps as well as extensions or 
+alternative scenarios.
+Steps Performed (Main Path) Information for Steps 
+1. Enter departing and arriving airports, dates of travel Airport Locations 
+    1.1. If an airport code is entered, display matching name, city, country 
+    1.2. If a city is entered, ﬁnd all matching cities  
+    1.3. Customer selects a city  
+    1.4. If there is more than one airport for the city, display airports 
+    1.5. Client selects an airport   
+    1.6. Insert the airport code (3 characters)  
+    1.7. Display the matching airport country, city, and airport name 
+2. Find all matching ﬂights with available seats Flight Information 
+3.  Customer selects ﬂight 
+4. Customer logs on Customer Logon 
+5. Customer selects passenger names Passenger Records 
+6. Seating chart is displayed showing all available seats Plane Number, Seating Chart, Available Seats 
+7. Customer selects seat(s) for each passenger 
+8. Display conﬁrmation and credit card page 
+9. Credit card veriﬁed  
+10. Email conﬁrmation sent 
+11. Airline reservation made  
+Extensions or Alternative Scenarios
+Flight Selection 
+1.  A list of ﬂights displays 
+2.  Customer selects a ﬂight 
+3.   Request is sent to airline 
+4.   Flight is already full 
+Seat Selection 
+1.  A list of ﬂights displays 
+2.  Customer selects a ﬂight 
+3.   Request is sent to airline 
+4.   Seat reservations are retrieved 
+5.   Seating chart is displayed 
+6.   Customer cannot ﬁnd an acceptable seat 
+Meal Selection for International Flights 
+1. Customer selects meal from drop-down list Available Airline Meal List 
+2. Record is updated with meal selection Customer Meal Record 
+• Success guarantee, which is what would satisfy the users, and it is usually that the goal of 
+the use case has been met.
+• Any outstanding issues or questions that must be answered before implementation of the 
+use case.
+• An optional statement of priority of the use case, which may come from a problem defini-
+tion or user requirements.
+• An optional statement of risk involved in creating the use case.
+The Requirements Met area links the use case to user requirements or objectives from a 
+problem definition. Once you develop the use case scenarios, be sure to review your results with 
+the business experts to verify and refine the use cases, if needed.
+In the use case scenario called Register for Conference, the only actor involved is the 
+ Participant. The overall area is Conference Planning, and the use case is triggered by the par-
+ticipant logging on to the Registration web page. The Steps Performed area lists the sequence 
+of events that must occur for a successful conference registration. Notice that the information
+
+
+===== BOOK PAGE 45 =====
+
+CHAPTER 2  •  UNDERSTANDINg AND  MODELINg OR g ANIzATIONAL  S YSTEMS     45
+needed to perform each of the steps is listed on the right. This may include web pages and forms, 
+as well as database tables and records.
+The Preconditions area in the footer section of the use case scenario lists what must 
+occur before the participant can register for a conference. In this example, the participant must 
+have already signed up as a member of the society and have a valid userID and password. The 
+ Postconditions area lists what has been accomplished by the use case. The Assumptions area lists 
+any basic premises the analyst assumes are fulfilled by the actor beforehand. The Requirements 
+Met area shows why this use case is important and necessary for the business area to be successful. 
+Priority is an indication of which use cases should be developed first and which may be delayed. 
+Risk is a rough assessment of whether there may be problems or difficulties developing the use 
+case. In this case, the risk is medium because the registration use case requires a secure server 
+and is accepting credit card information.
+Creating Use Case Descriptions
+Use the following four steps to create use case descriptions:
+1. Use agile stories, problem definition objectives, user requirements, or a features list as a 
+starting point.
+2. Ask about the tasks that must be done to accomplish the transaction. Ask if the use case 
+reads any data or updates any tables.
+3. Find out if there are any iterative or looping actions.
+4. The use case ends when the customer goal is complete.
+Why Use Case Diagrams Are Helpful
+No matter what method you use to develop your system (traditional SDLC methods, agile meth-
+ods, or object-oriented methods), you will find that use cases are valuable. The use case diagrams 
+identify all the actors in the problem domain, and a systems analyst can concentrate on what 
+people want and need to use the system, extend their capabilities, and enjoy their interaction with 
+technology. The main reasons for writing use cases are shown in Figure 2.18.
+The actions that need to be completed are also clearly shown on the use case diagram. This 
+not only makes it easy for the analyst to identify processes, but it also aids in communication with 
+other analysts on the team and with business executives.
+The use case scenario is worthwhile. A lot of the information the users impart to the analyst 
+already takes the form of stories, and it is easy to capture the stories on a use case scenario form. 
+The use case scenario always documents the triggering event so that an analyst can trace the steps 
+that led to other use cases. Because the steps performed are noted, it is possible to employ use 
+case scenarios to write logical processes.
+Use case diagrams are becoming popular because of their simplicity and lack of techni-
+cal detail. They are used to show the scope of a system, along with the major features of the 
+system and the actors who work with those major features. The users see the system, and they 
+can react to it and provide feedback. They also may help to determine whether to build or buy 
+the software.
+FIGURE 2.18
+Reasons for writing use cases.
+• Use cases effectively communicate systems requirements because the diagrams are 
+ kept simple.
+• Use cases allow people to tell stories.
+• Use case stories make sense to nontechnical people.
+• Use cases do not depend on a special language.
+• Use cases can describe most functional requirements (such as interactions between
+ actors and applications).
+• Use cases can describe nonfunctional requirements (such as performance and 
+ maintainability) through the use of stereotypes.
+• Use cases help analysts deﬁne boundaries.
+• Use cases can be traceable, allowing analysts to identify links between use cases and 
+ other design and documentation tools.
+Reasons for Writing Use Cases
+
+
+===== BOOK PAGE 46 =====
+
+46    PART I  •  SYSTEMS ANALYSIS FUNDAMENTALS
+LEVELS OF MANAGEMENT
+Management in organizations exists on three broad, horizontal levels: operational control, 
+managerial planning and control (middle management), and strategic management, as shown in 
+ Figure 2.19. Each level carries its own responsibilities, and all work toward achieving organization 
+goals and objectives in their own ways.
+Operational control forms the bottom tier of three-tiered management. Operations manag-
+ers make decisions using predetermined rules that have predictable outcomes when implemented 
+correctly. They make decisions that affect implementation in work scheduling, inventory control, 
+shipping, receiving, and control of processes such as production. Operations managers oversee 
+the operating details of the organization.
+Middle management forms the second, or intermediate, tier of the three-tiered management 
+system. Middle managers make short-term planning and control decisions about how resources 
+may best be allocated to meet organizational objectives.
+Strategic management is the third level of three-tiered management control. Strategic man-
+agers look outward from the organization to the future, making decisions that will guide middle 
+and operations managers in the months and years ahead.
+Strategic managers work in a highly uncertain decision-making environment. There are sharp 
+contrasts among the decision makers on many dimensions. For instance, strategic managers have 
+multiple decision objectives, whereas operations managers have single ones. It is often difficult 
+for high-level managers to identify problems, but it is easy for operations managers to do so. 
+Strategic managers are faced with semistructured problems, whereas lower-level managers deal 
+mostly with structured problems.
+The alternative solutions to a problem facing strategic managers are often difficult to articu-
+late, but the alternatives that operations managers work with are usually easy to enumerate. Stra-
+tegic managers most often make one-time decisions, whereas the decisions made by operations 
+managers tend to be repetitive.
+Implications for Information Systems Development
+Each of the three management levels has different implications for developing information sys-
+tems. Some of the information requirements for managers are clear-cut, whereas others are fuzzy 
+and overlapping.
+Operations managers need internal information that is of a repetitive, low-level nature. They 
+are highly dependent on information that captures current performance, and they are frequent users 
+of online, real-time information resources. The need of operations managers for past performance 
+information and periodic information is only moderate. They have little use for external informa-
+tion that allows future projections.
+On the next management level, middle managers need both short- and longer-term informa-
+tion. Due to the troubleshooting nature of their jobs, middle managers experience extremely high 
+FIGURE 2.19
+Management in organizations 
+exists on three horizontal levels: 
+operational control, managerial 
+planning and control, and strategic 
+management.
+Operational Control
+Managerial
+Planning and Control
+Strategic
+Management
+
+
+===== BOOK PAGE 47 =====
+
+CHAPTER 2  •  UNDERSTANDINg AND  MODELINg OR g ANIzATIONAL  S YSTEMS     47
+needs for information in real time. To control properly, they also need current information on 
+performance as measured against set standards. Middle managers are highly dependent on internal 
+information. In contrast to operations managers, they have a high need for historical information, 
+along with information that allows for the prediction of future events and simulation of numerous 
+possible scenarios.
+Strategic managers differ somewhat from both middle and operations managers in their 
+information requirements. They are highly dependent on information from external sources that 
+supply news of market trends and the strategies of competing corporations. Because the task of 
+managing strategically demands projections into the uncertain future, strategic managers have a 
+high need for information of a predictive nature and information that allows creation of many 
+different “what if” scenarios. They also need accurate assessments of risk, including those posed 
+to security of information systems. Strategic managers also exhibit strong needs for periodically 
+reported information as they seek to adapt to fast-moving changes.
+Collaborative Design
+Collaborative design has many meanings in many fields, such as architecture, engineering, and 
+information systems. In systems analysis and design, collaborative design means that stakehold-
+ers who are external (outside clients) as well as those who are internal to the company follow 
+processes to share in designing a system that meets their goals. Internally, collaborators can come 
+from different levels of the organization’s hierarchy, including strategic, managerial, and opera-
+tions, or from different departments of the same organizational level.
+Researchers have found that many internal design collaborations rely on power relationships 
+and information flows, which could be based in part on hierarchical relationships in the organiza-
+tion (Levina 2005; Phelps 2012). Information systems projects may go more smoothly if those in 
+the lower ranks of the organization, say graphics designers, are given the opportunity to use their 
+expertise to create initial designs that are then examined by those who are not directly in graphic 
+design but are higher up in the IT department or organization. Researchers also found that giving 
+power to those who possess technical or strategic expertise in preference to graphic designers 
+when using structured methods to begin a project may cause problems in the collaboration (Levina 
+2005; Phelps 2012). For external collaborations, it is suggested that attention be paid to including 
+Three weeks later, an assistant to Richard’s supervisor, Carol 
+Vaness, appears. Richard is happy to see a familiar face, greeting 
+her with, “Hi, Carol. What’s new?”
+“Same old thing,” Carol sighs. “Well, I guess it isn’t old to 
+you because you’re the newcomer. But I need all those pesky pink 
+forms.”
+Almost in shock, Richard exchanges looks with Harry, then 
+mumbles, “You’re kidding, of course.”
+Carol looks more serious than Richard ever thought possi-
+ble, replying, “No joke. I summarize all the pink forms from all 
+the brokers, and then my totals are compared with computerized 
+stock purchase information. It’s part of our routine, three-month 
+audit for transaction accuracy. My work depends on yours. Didn’t  
+Ms. McCue explain that to you when you started?”
+What systems concept did Richard and Harry ignore when toss-
+ing out the pink forms? What are the possible ramifications for sys-
+tems analysts if general systems concepts are ignored?
+CONSULTING OPPORTUNITY 2.2 
+Where There’s Carbon, There’s a Copy
+“I don’t know what we do with the pink ones yet,” Richard 
+ Russell admitted. “They’re part of a quadruplicate form that rips 
+apart. All I know is that we keep them for the filing clerk, and he 
+files them when he has time.”
+Richard is a newly hired junior account executive for Carbon, 
+Carbon & Rippy, a brokerage house. You are walking through the 
+steps he takes in making a stock purchase “official” because his boss 
+has asked you to streamline the process whereby stock purchase 
+information is stored in the computer system and retrieved.
+After you leave, Richard continues thinking about the pink 
+forms. He tells his clerk, Harry Schultz, “In my two months here, I 
+haven’t seen anyone use those. They take up my time and yours, not 
+to mention all the filing space. Let’s pitch them.”
+Richard and Harry proceed to open all the old files kept by 
+Richard’s predecessor and throw out the filed pink forms, along with 
+those accumulated but not yet filed. It takes hours, but they make a 
+lot of room. “Definitely worth the time,” Richard reassures Harry.
+
+
+===== BOOK PAGE 48 =====
+
+48    PART I  •  SYSTEMS ANALYSIS FUNDAMENTALS
+relevant stakeholders in appropriate information flows as well as emphasizing the relationships 
+that are formed between external and internal participants.
+ORGANIZATIONAL CULTURE
+Organizational culture is an established area of research that has grown remarkably in the past 
+decades. Just as it is appropriate to think of organizations as including many technologies, it is 
+similarly appropriate to see them as hosts to multiple, often competing subcultures.
+There is still little agreement on what precisely constitutes an organizational subculture. It is 
+agreed, however, that competing subcultures may be in conflict, attempting to gain adherents to 
+their vision of what the organization should be. Research is in progress to determine the effects 
+of virtual organizations and virtual teams on the creation of subcultures when members do not 
+share a physical workspace but share tasks.
+Rather than think about culture as a whole, it is more useful to think about the researchable 
+determinants of subcultures, such as shared verbal and nonverbal symbolism. Verbal symbolism 
+includes shared language used to construct, convey, and preserve subcultural myths, metaphors, 
+visions, and humor. Nonverbal symbolism includes shared artifacts, rites, and ceremonies; cloth-
+ing of decision makers and workers; the use, placement, and decoration of offices; and rituals for 
+celebrating members’ birthdays, promotions, and retirements.
+Subcultures coexist within “official” organizational cultures. The officially sanctioned culture 
+may prescribe a dress code, suitable ways to address superiors and coworkers, and proper ways to 
+deal with the outside public. Subcultures may be powerful determinants of information require-
+ments, availability, and use.
+Organizational members may belong to one or more subcultures in the organization. Subcul-
+tures may exert a powerful influence on member behavior, including sanctions for or against the 
+use of information systems.
+Understanding and recognizing predominant organizational subcultures may help a systems 
+analyst overcome the resistance to change that arises when a new information system is installed. 
+For example, the analyst might devise user training to address specific concerns of organizational 
+subcultures.
+of employees between accounting, production, and marketing so 
+that we could share newly computerized inventory and sales figures 
+across the organization. They claimed that committees such as that 
+would cut down on needless duplication of output, and each func-
+tional area would be better integrated with all the rest.”
+Paul picks up the story, saying, “It was fair—oh, for a while—
+and the employees shared information, but the reason you’re here is 
+that the employees said they didn’t have time for committee meet-
+ings and were uncomfortable sharing information with people from 
+other departments who were further up the ladder than they were 
+here at Pyramid.”
+According to Paul and Ceil, what were the effects of installing 
+a management information system at Pyramid, Inc. that required 
+people to share information in ways that were not consistent with 
+their structure? Propose some general ways to resolve this problem 
+so Pyramid employees can still obtain the sales and inventory fig-
+ures they need.
+CONSULTING OPPORTUNITY 2.3 
+Pyramid Power
+“We really look up to you,” says Paul LeGon. As a systems 
+analyst, you have been invited to help Pyramid, Inc., a small, inde-
+pendent book-publishing firm that specializes in paperback books 
+outside the publishing mainstream.
+Paul continues, “We deal with what some folks think are fringe 
+topics. You know, pyramid power, end-of-the-world prophecies, 
+and healthier living by thinking of the color pink. Sometimes when 
+people see our books, they just shake their heads and say, ‘Tut—  
+uncommon topic.’ But we’re not tied to any particular philosophy, 
+and we’ve been very successful. So much so that because I’m 24, 
+people call me the ‘boy king.’ ” Paul pauses to decipher your reaction.
+Paul continues, “I’m at the top as president, and functional  
+areas such as editorial, accounting, production, and marketing are 
+under me.”
+Paul’s assistant, Ceil Toom, who has been listening quietly up 
+to now, barges in with her comments: “The last systems experts that 
+did a project for us recommended the creation of liaison committees
+
+
+===== BOOK PAGE 49 =====
+
+CHAPTER 2  •  UNDERSTANDINg AND  MODELINg OR g ANIzATIONAL  S YSTEMS     49
+Technology’s Impact on Culture
+Technology is changing the culture of organizations and teams. Slack is an employer-sanctioned 
+social media platform, or workplace-messaging app. Conversations between coworkers can be 
+public, private, or something in between. Conversations can be put together as a group or as a 
+person-to-person conversation. Channels can be devoted to seemingly trivial concerns such as 
+popular snacks or employee cafeteria food, but its main purpose is to foster collaboration and com-
+munication among officer workers. It is less formal than email and might be more popular with 
+those in the millennial age group (“2022 State of the Digital Workplace” 2022). Slack can shape a 
+culture, and it can become an office culture complete with programmable pranks, featuring fewer 
+formal interactions than email and helping team members to avoid the difficulty of expressing 
+themselves face-to-face in a meeting or even one to one.
+Slack has both public and private channels. Public channels are open to all Slack team mem-
+bers, and messages posted to them are archived (stored and kept) and are searchable by the entire 
+work team. Private channels are circumscribed so that they are available to a limited number of 
+team members and are joined via invitation only. You must be a private channel member to be 
+able to view and search the contents of the private channel. Slack also has direct messages (DM) 
+or group messages (group DMs) that are used for rapid, private messaging between two or more 
+members of a work team. Their searchability depends on whether you are a recipient of the DM, 
+in which case you can view and search the contents. Slack and many other technology-based tools 
+can be very helpful in team communication.
+Summary
+There are three broad organizational fundamentals to consider when analyzing and designing information 
+systems: the concept of organizations as systems, the various levels of management, and the overall orga-
+nizational culture.
+Organizations are complex systems composed of interrelated and interdependent subsystems. In addi-
+tion, systems and subsystems are characterized by their internal environments on a continuum from open 
+to closed. An open system allows free passage of resources (people, information, materials) through its 
+boundaries; closed systems do not permit free flow of input or output. Organizations and teams also can 
+be organized virtually, with remote members who are not in the same physical workspace connected elec-
+tronically. Enterprise resource planning systems are integrated organization (enterprise) information systems 
+developed with customized, proprietary software that help the flow of information between the functional 
+areas in the organization.
+There are many ways to graphically depict the system. An analyst should choose among these tools 
+early on to get an overview of the system. These approaches include drawing context-level data flow dia-
+grams, capturing relationships early on with E-R diagrams, and drawing use case diagrams or writing use 
+case scenarios based on user stories. Using these diagrams and techniques at the beginning of analysis can 
+help the analyst define the boundaries and scope of the system and can help bring into focus which people 
+and systems are external to the system being developed.
+E-R diagrams help a systems analyst understand the entities and relationships that comprise an organiza-
+tional system. E-R diagrams can depict a one-to-one relationship, a one-to-many relationship, a many-to-one 
+relationship, and a many-to-many relationship.
+The three levels of managerial control are operational, middle management, and strategic. The time 
+horizon of decision making is different for each level.
+Organizational cultures and subcultures are important determinants of how people use information 
+and information systems. By grounding information systems in the context of the organization as a larger 
+system, it is possible to realize that numerous factors are important and should be considered when ascer -
+taining information requirements and designing and implementing information systems. Technology such 
+as the work-based social platform Slack can be used to create or reinforce elements of the organization’s 
+culture or subculture.
+Keywords and Phrases
+actor
+associative entity
+attributive entity
+closedness
+collaborative design
+context-level data flow diagram
+crow’s foot notation
+direct message (DM)
+
+
+===== BOOK PAGE 50 =====
+
+50    PART I  •  SYSTEMS ANALYSIS FUNDAMENTALS
+enterprise resource planning (ERP)
+enterprise systems
+entity (fundamental entity)
+entity-relationship (E-R) model
+environment
+feedback
+interdependent
+interrelatedness
+middle management
+openness
+operational control
+organizational boundaries
+organizational culture
+organizational subculture
+scope of the system
+Slack
+strategic management
+systems
+use case
+use case diagram
+use case scenario
+virtual enterprise
+virtual organization
+virtual team
+Review Questions
+1. What are the three groups of organizational fundamentals that carry implications for the development 
+of information systems?
+2. What is meant by saying that organizational subsystems are interrelated and interdependent?
+3. Define the term organizational boundary.
+4. What are the two main purposes of feedback in organizations?
+5. Define openness in an organizational environment.
+6. Define closedness in an organizational environment.
+7. What is the difference between a traditional organization and a virtual one?
+8. What are the potential benefits and a drawback of a virtual organization?
+9. Give an example of how systems analysts could work with users as a virtual team.
+10. What are enterprise resource planning (ERP) systems?
+11. What is the main difference between doing business process analysis for ERP and for other types of 
+systems?
+12. What problems do analysts often encounter when they try to implement an ERP package?
+13. What are the two symbols on a use case diagram, and what do they represent?
+14. What is a use case scenario?
+15. What are the three main parts of a use case scenario?
+16. What are the four steps in creating use case descriptions?
+17. What are the five altitude metaphors for describing use case on different levels? What do they represent?
+18. What does a process represent on a context-level data flow diagram?
+19. What is an entity on a data flow diagram?
+20. What is meant by the term entity-relationship diagram?
+21. What symbols are used to draw E-R diagrams?
+22. List the types of E-R diagrams.
+23. How do an entity, an associative entity, and an attributive entity differ?
+24. List the three broad, horizontal levels of management in organizations.
+25. Who should be involved in collaborative design of information systems?
+26. How can understanding organizational subcultures help in the design of information systems?
+27. How can systems analysis team members use Slack to build or reinforce an organizational culture or 
+subculture?
+Problems
+1. “It’s hard to focus on what we want to achieve. I look at what our real competitors, the convenience 
+stores, are doing and think we should copy that. Then a hundred customers come in, and I listen to 
+each of them, and they say we should keep our little store the same, with friendly clerks and old-fash-
+ioned cash registers. Then, when I pick up a copy of SuperMarket News, they say that the wave of the 
+future is super grocery stores, with no individual prices marked, UPC scanners replacing clerks, and 
+everything self serve. I’m pulled in so many directions I can’t really settle on a strategy for our gro-
+cery store,” admits Addana Abara, owner and manager of Always Open Grocery Store.
+In a paragraph, apply the concept of permeable organizational boundaries to analyze Addana’s 
+problem in focusing on organization objectives.
+2. Write seven sentences explaining the right-to-left relationships in Figure 2.8.
+3. Draw an entity-relationship diagram of a patient–doctor relationship.
+
+
+===== BOOK PAGE 51 =====
+
+CHAPTER 2  •  UNDERSTANDINg AND  MODELINg OR g ANIzATIONAL  S YSTEMS     51
+a. Which of the types of E-R diagrams is it?
+b. In a sentence or two, explain why the patient–doctor relationship is diagrammed in this way.
+4. You began drawing E-R diagrams soon after your entry into the health maintenance organization for 
+which you’re designing a system. Your team member is skeptical about using E-R diagrams before 
+the design of the database is begun.
+a. In a paragraph, persuade your team member that early use of E-R diagrams is worthwhile.
+b. Write a brief tutorial or create a brief Microsoft PowerPoint presentation explaining how to draw 
+an E-R diagram to the project manager of the health maintenance organization. Define any techni-
+cal terms to help them understand E-R diagrams.
+5. Meilin is a decision maker for Ushi Plant-Based Foods. Because there are several suppliers of ingre-
+dients and their prices fluctuate, she has come up with several different formulations for the variety 
+of meat substitutes that she makes, depending on the availability of particular proteins from particular 
+suppliers. She then orders ingredients accordingly twice a week. Even though she cannot predict 
+when ingredients will become available at a particular price, her ordering of supplies can be consid-
+ered routine.
+a. On what level of management is Meilin working? Explain in a paragraph.
+b. What attributes of her job would have to change before you would categorize her as working on a 
+different level of management? List them.
+6. Many of the people who work at Ushi’s (Problem 5) are extremely dedicated to Ushi’s and have 
+devoted their lives to the company. Others feel that the company is behind the times and should use 
+more sophisticated production systems, information systems, supply-chain management, and social 
+media to make the company more competitive. Members of a third group feel that what they do is 
+unappreciated. Describe the various subcultures in words. Assign them each a descriptive name based 
+on their characterizations of the company.
+7. Gabriela, a member of the human resources department at the Garcia Manufacturing Company, is 
+constantly being asked by employees how much is taken out of their paychecks for insurance, taxes, 
+medical, mandatory retirement, and voluntary retirement. “It takes up to a few hours every day,” 
+says Gaby.
+She would like the company to have a web system that would allow employees to use a secure 
+logon to view the information. Gaby wants the system to interface with health and dental insurance 
+companies to obtain the amount remaining in the employees’ medical accounts for the year. She would 
+also like to obtain retirement amounts saved, along with investment results. Gabriela has a high regard 
+for privacy and wants the system to have employees register and give permission to obtain financial 
+amounts from the dental insurance and retirement companies. Draw a use case diagram representing 
+the activities of this employee benefits system.
+8. Write up a use case scenario for the use case diagram you constructed for Garcia Manufacturing.
+9. At what level are you creating your use case for Garcia Manufacturing? Choose one of the five alti-
+tude metaphors and explain why you chose it.
+10. Create a context-level data flow diagram for the employee benefits system in Problem 7. Make any 
+assumptions you need about the data to and from the central process.
+a. Do you find this to be better than or not as good at explaining the system compared to the use case 
+and use case scenarios? Explain your view in a paragraph.
+b. Write a brief tutorial or create a short Microsoft PowerPoint presentation for Gabriela on how 
+to draw context-level diagrams. Be sure to define any technical terms, as well as the reasons for 
+drawing a context-level diagram early in your visits to Garcia Manufacturing.
+11. Draw a use case and write up a use case scenario for getting two or three email accounts. Think about 
+the steps that are needed to ensure security.
+12. Draw a use case and write up a use case scenario for a user who is trying to logon to a secure site that 
+they subscribe to, but who has forgotten their password.
+13. Research work-sanctioned social media platforms that are available in your area. Choose one (Slack, 
+for example) and write two paragraphs discussing (1) the benefits and (2) the drawbacks. Finally, in 
+a paragraph, write an opinion about whether you would like to work in a company that uses Slack or 
+another work-sanctioned social media solution, and state why or why not.
+Group Projects
+1. Break up into groups of five. Assign one person to act as the website designer, one to write copy 
+for a company’s product, one to keep track of customer payments, one to monitor distribution, and 
+one to satisfy customers who have questions about using the product. Then select a simple product 
+(one that does not have too many versions). Good examples are a digital camera, a beach towel, a
+
+
+===== BOOK PAGE 52 =====
+
+52    PART I  •  SYSTEMS ANALYSIS FUNDAMENTALS
+box of candy, or a specialty travel hat (rainproof or sunblocker). Now spend 20 minutes trying to 
+explain to the website designer what to include on the website. Include ideas for product descriptions, 
+ including photos or graphics and other content. Describe in about three paragraphs what experience 
+your group had in coordinating. Elaborate on the interrelatedness of subsystems in the organization 
+(your group).
+2. In a small group, develop a use case and a use case scenario for making air, hotel, and car reserva-
+tions for domestic travel.
+3. Change your answer in Group Project 2 to include foreign travel. How do the use case and use case 
+scenario change?
+4. With your group, draw a context-level data flow diagram of your school’s or university’s registration 
+system.
+a. Label each entity and process.
+b. Discuss with your group why there appear to be different ways to draw the diagram. Reach con-
+sensus as a group about the best way to draw the diagram and defend your choice in a paragraph.
+c. Now, working with your group, follow the appropriate steps for developing an E-R diagram and 
+create one for your school or university registration system. Make sure your group labels the rela-
+tionship you depict as to whether it is one-to-one, one-to-many, many-to-one, or many-to-many.
+5. Research Slack, the work group social media platform, with your group.
+a. In a paragraph, answer the questions: How does an organization subscribe to it? What are the ben-
+efits? What are the drawbacks?
+b. Have your group write two paragraphs: One on the benefits and one on the drawbacks of using 
+work-sanctioned social media such as Slack.
+c. In a third paragraph, conclude your write-up by offering a recommendation on whether or not to 
+adopt Slack for your in-class group (assume that the necessary hardware and software resources 
+are available to support it).
+Selected Bibliography
+2022 State of the Digital Workplace & Modern Intranet Report. (2020). https://www.akumina.com/
+resources/2022-state-of-digital-workplace-report.
+Bleeker, S. E. (1994). The virtual organization. Futurist, 28(2), 9–14.
+Chen, P. (1976). The entity-relationship model—towards a unified view of data. ACM Transactions on 
+Database Systems, 1, 9–36.
+Ching, C., Holsapple, C. W., & Whinston, A. B. (1996). Toward IT support for coordination in network 
+organizations. Information Management, 30(4), 179–199.
+Cockburn, A. Use case icons. (n.d.). http://alistair.cockburn.us/Use+case+icons?version=8339&diff=8339
+&with=6296.
+Davis, G. B., & Olson, M. H. (1985). Management information systems, conceptual foundations, struc-
+ture, and development (2nd ed.). McGraw-Hill.
+Gaan, N. (2019). Collaborative tools and virtual team effectiveness: An inductive approach in India’s soft-
+ware sector. In P. Seetharaman & J. Cranefield (Eds.), Information systems: Debates, applications 
+and impacts (pp. 183–209). Routlege.
+Galbraith, J. R. (1977) Organizational design. Addison-Wesley.
+Grabski, S. V ., Leech, S. A., & Schmidt, P. J. (2011). A review of ERP research: A future agenda for 
+accounting information systems. Journal of Information Systems, 25(1), 37–78.
+Kähkönen, T., Alanne, A., Pekkola, S., & Smolander, K. (2017). Explaining the challenges in ERP devel-
+opment networks with triggers, root causes, and consequences. Communications of the Association 
+for Information Systems, 40, Article 11. http://aisel.aisnet.org/cais/vol40/iss1/11.
+Kendall, K. E., Buffington, J. R., & Kendall, J. E. (1987). The relationship of organizational subcultures to 
+DSS user satisfaction. Human Systems Management, 7(1), 31–39.
+Kulak, D., & Guiney, E. (2004). Use cases: Requirement in context (2nd ed.). Addison-Wesley 
+Professional.
+Levina, N. (2005). Collaborating on multiparty information systems development projects: A collective 
+reflection-in-action view. Information Systems Research, 16(2), 109–130.
+Morris, M. G., & Venkatesh, V . (2010). Job characteristics and job satisfaction: Understanding the role of 
+enterprise resource planning system implementation. MIS Quarterly, 34(1), 143–161.
+Henderson, T. (2021, September 9). In-person workers are slow to return to jobs, data 
+shows. https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2021/09/09/
+in-person-workers-are-slow-to-return-to-jobs-data-shows.
+
+
+===== BOOK PAGE 53 =====
+
+CHAPTER 2  •  UNDERSTANDINg AND  MODELINg OR g ANIzATIONAL  S YSTEMS     53
+Phelps, A. F. (2012). The collective potential: A holistic approach to managing information flow in collab-
+orative design and construction environments (Kindle ed.). Turning Point Press.
+Warkentin, M., Sayeed, L., & Hightower, R. (1999). Virtual teams versus face-to-face teams: An explor-
+atory study of a web-based conference system. In K. E. Kendall (Ed.), Emerging information tech-
+nologies: Improving decisions, cooperation, and infrastructure (pp. 241–262). Sage.
+Weilbach, L., Hattingh, M., & Pillay, K. (2021). Using design patterns to teach conceptual entity relation-
+ship (ER) data modelling. In Y . M. Huang, C. F. Lai, & T. Rocha (Eds.), Innovative technologies and 
+learning. Springer.
+Yager, S. E. (1997). Everything’s coming up virtual. XRDS: Crossroads, 4(1), 20–24.
+
+
+===== BOOK PAGE 54 =====
+
+54
+Project Management
+LEARNING OBJECTIVES
+Once you have mastered the material in this chapter, you will be able to:
+1 Understand how projects are initiated and selected.
+2 Learn how to determine the feasibility of a proposed project.
+3 Determine hardware and software needs and alternatives.
+4 Take part in identifying, forecasting, and comparing costs and benefits.
+5 Learn how to manage time and activities.
+6 Demonstrate how to perform project scheduling.
+7 Realize what it takes to control a project.
+8 Know how to manage a project team.
+9 Prepare an effective systems proposal, concentrating on both content and design.
+Initiating projects, determining project feasibility, scheduling projects, estimating costs, 
+budgeting, and planning, and then managing activities and team members for productivity 
+are all important capabilities for a systems analyst to master. As such, they are considered 
+project management fundamentals.
+A systems project begins with problems or with opportunities for improvement in a 
+business that come up as the organization adapts to change. The increasing popularity of 
+ecommerce means that some fundamental changes are occurring as businesses either 
+originate their enterprises on or move their internal operations and external relationships 
+to the web. Changes that require a systems solution occur in the legal environment as well 
+as in the industry’s environment. A systems analyst works with users to create a problem 
+definition that reflects current business systems and concerns.
+Once a project is suggested, the systems analyst works quickly with decision makers 
+to determine whether the project is feasible. When a project is approved for a full systems 
+study, the project activities are scheduled using tools such as Gantt charts and network 
+diagrams (also called Program Evaluation and Review Technique [PERT] diagrams) so that 
+the project can be completed on time. Part of ensuring the productivity of systems analysis 
+team members is effectively managing their scheduled activities. This chapter is devoted 
+to a discussion of project management fundamentals.
+3 
+CHAPTER
+

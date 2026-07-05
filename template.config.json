@@ -1,0 +1,36 @@
+{
+  "_readme": "Fill this ONE file, then run: pwsh scripts/apply-template.ps1 . Service names live ONLY in 'services' (DRY). 'scalars' = project/external identity. 'tokenMap' wires inline doc tokens to a service field via @svc:<key>:<field>. Use-time tokens like {{repo}} {{host}} {{port}} are left untouched.",
+
+  "scalars": {
+    "workspace-root": "d:/_Study",
+    "company": "Personal Study",
+    "team-email": "it.dev.team@hsc.com.vn",
+    "core-system": "N/A",
+    "exchange": "N/A",
+    "depository": "N/A"
+  },
+
+  "tokenMap": {
+    "service-a": "@svc:api:name",
+    "service-b": "@svc:web:name",
+    "frontend-app": "@svc:web:name",
+    "admin-app": "@svc:web:name",
+    "gateway-service": "@svc:edge:name",
+    "middleware-service": "@svc:edge:name",
+    "oms-service": "@svc:api:name",
+    "stp-service": "@svc:api:name",
+    "fix-gateway": "@svc:edge:name"
+  },
+
+  "services": [
+    { "key": "web",  "name": "StudyWeb",     "tier": "frontend", "stack": "React/TypeScript", "repo": "d:/_Study/projects/study-web",     "baseUrlEnv": "WEB_URL" },
+    { "key": "edge", "name": "StudyGateway", "tier": "bff",      "stack": "Node/Express",     "repo": "d:/_Study/projects/study-gateway", "baseUrlEnv": "GATEWAY_URL" },
+    { "key": "api",  "name": "StudyApi",     "tier": "domain",   "stack": "Node/NestJS",      "repo": "d:/_Study/projects/study-api",     "baseUrlEnv": "API_URL" }
+  ],
+
+  "datastores": [
+    { "key": "pg", "type": "PostgreSQL", "envPrefix": "PG" }
+  ],
+
+  "messaging": []
+}

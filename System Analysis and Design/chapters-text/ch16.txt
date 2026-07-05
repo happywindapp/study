@@ -1,0 +1,2546 @@
+
+===== BOOK PAGE 500 =====
+
+500    PART V  •  QUALITY ASSURANCE AND IMPLEMENTATION
+THE TOTAL QUALITY MANAGEMENT APPROACH
+Total quality management (TQM) is essential throughout all the systems development steps. 
+According to Evans and Lindsay (2015), the primary elements of TQM are meaningful only 
+when they occur in an organizational context that supports a comprehensive quality effort. It is 
+in this context that the elements of customer focus, strategic planning and leadership, continuous 
+improvement, empowerment, and teamwork are united to change employees’ behavior and, ulti-
+mately, the organization’s course. Notice that the concept of quality has broadened over the years 
+to reflect an organizational rather than exclusively a production approach. Instead of conceiving 
+of quality as controlling the number of defective products produced, quality is now thought of as 
+an evolutionary process toward perfection, referred to as TQM.
+Systems analysts must be aware of the factors that are driving the interest in quality. It is 
+important to realize that the increasing commitment of businesses to TQM fits extraordinarily well 
+into the overall objectives for systems analysis and design.
+Six Sigma
+The advent of Six Sigma has changed the approach to quality management. Systems analysts and 
+systems users need to be aware of Six Sigma and apply some of the principles to their systems 
+analysis projects. Originally developed by Motorola in the 1980s, Six Sigma is more than a 
+methodology; it is a culture built on quality. The goal of Six Sigma is to eliminate all defects. 
+This applies to any product, service, or process. In operations management textbooks from the 
+1970s to the end of the twentieth century, quality control was expressed in terms of three stan-
+dard deviations from the mean, or three sigma, which equals about 67,000 defects per 1 million 
+opportunities. Six Sigma implies a goal of no more than 3.4 defects per 1 million opportunities.
+Six Sigma is a top-down approach. It requires a CEO to adopt the philosophy and an executive 
+to serve as project champion. Six Sigma can be summarized as a methodology. The steps of Six 
+Sigma are shown in Figure 16.1. Six Sigma, however, is much more than a methodology; it is a 
+philosophy and a culture. For more information on Six Sigma and quality management, visit the 
+website for the Juran Center at the Carlson School of Management at the University of Minnesota, 
+Twin Cities (https://carlsonschool.umn.edu/faculty-research/juran-research-center/about-us).  
+In 2002 the Juran Center issued a proclamation to support and encourage quality. The authors of 
+this book signed the charter at that time, and we agree wholeheartedly with its principles.
+systems analyst serving as a project manager you can usefully 
+frame managing remotely within a quality context. This is done 
+to improve the quality of the remote project team’s relationships 
+and deliverables. After you view the video, please reflect on the 
+following questions:
+1. What are some ways to build quality into managing project 
+team members who are working remotely?
+2. What can systems analysts do to improve the quality of their 
+own personal skills for managing remotely?
+3. How is quality assessment of outcomes different in face-to  
+face-interactions with project teams versus managing 
+remotely?
+4. What parts of managing remotely are the most challenging 
+for instilling quality practices? While your thoughts might 
+first go to technology, what are additional communication 
+issues that need attention when managing remotely?
+SYSTEMS SCENARIO  
+Instilling Quality into Working Remotely
+This chapter frames systems development with a total quality 
+approach to software design, documentation, and testing. In 
+this video, the topic of putting quality into managing remotely 
+is explored in a humorous way. As implied in the video, as a 
+To view the video for this scenario, 
+see eText Chapter 16.
+Seven Dimensions/Boclips
+
+
+===== BOOK PAGE 501 =====
+
+CHAPTER 16  •  QUALITY  A SSURANCE  AND  IMPLEMENTATION      501
+The late Dr. Joseph M. Juran (1964) said, “All quality improvement occurs on a project-by-
+project basis and in no other way” (Section 5, p. 5.8). Systems analysts, project managers, and 
+users should take that to heart.
+Responsibility for Total Quality Management
+Practically speaking, a large portion of the responsibility for the quality of information systems 
+(IS) rests with systems users and management. Two things must happen for TQM to become a 
+reality with systems projects. First, the full organizational support of management must exist, 
+which is a departure from merely endorsing the newest management gimmick. Such support 
+means establishing a context for management personnel to consider seriously how the quality of 
+IS and information itself affects their work.
+Early commitment to quality from analysts and business users is necessary to achieve the goal 
+of quality. This commitment results in exerting an evenly paced effort toward quality throughout 
+the systems development life cycle (SDLC), and it stands in stark contrast to having to pour huge 
+amounts of effort into ironing out problems at the end of the project.
+Organization support for quality in management information systems (MIS) can be achieved 
+by providing on-the-job time for IS quality circles, which consist of six to eight organization 
+peers specifically charged with considering both how to improve IS and how to implement 
+improvements.
+Through work in IS quality circles or through other mechanisms already in place, manage-
+ment and users must develop guidelines for quality standards of IS. Preferably, standards will 
+be reshaped every time a new system or major modification is to be formally proposed by the 
+systems analysis team.
+Hammering out quality standards is not easy, but it is possible and has been done. Part of 
+a systems analyst’s job is to encourage users to crystallize their expectations about IS and their 
+interactions with them.
+Departmental quality standards must then be communicated through feedback to the systems 
+analysis team. The team is often surprised at what has developed. Expectations typically are 
+FIGURE 16.1
+Every systems analyst should 
+understand the methodology and 
+philosophy of Six Sigma.
+6
+Standardize
+the Changes
+3
+Analyze
+the Causes
+1
+Deﬁne
+the Problem
+7
+Draw
+Conclusions
+2
+Observe
+the Problem
+Six Sigma
+4
+Act on
+the Causes
+5
+Study
+the Results
+
+
+===== BOOK PAGE 502 =====
+
+502    PART V  •  QUALITY ASSURANCE AND IMPLEMENTATION
+less complex than what experienced analysts know can be done with a system. In addition, 
+human issues that have been overlooked or underrated by the analysis team may be designated 
+as extremely pressing in users’ quality standards. Getting users involved in spelling out quality 
+standards for IS will help an analyst avoid expensive mistakes in unwanted or unnecessary  
+systems development.
+Structured Walkthrough
+One of the strongest quality management actions a systems analysis team can take is to do 
+structured walkthroughs routinely. Conducting structured walkthroughs is a way of using peer 
+reviewers to monitor a system’s programming and overall development, point out problems, and 
+allow the programmer or analyst who is responsible for that portion of the system to make suitable 
+changes.
+Structured walkthroughs involve at least four people: the person responsible for the part of 
+the system or subsystem being reviewed (a programmer or analyst), a walkthrough coordinator, 
+a programmer or analyst peer, and a peer who takes notes about suggestions.
+Each person attending a walkthrough has a special role to play. The coordinator is there to 
+ensure that the others adhere to any roles assigned to them and that any activities scheduled are 
+accomplished. The programmer or analyst is there to listen, not to defend their thinking, rationalize 
+a problem, or argue. The programmer or analyst peer is present to point out errors or potential 
+problems, not to specify how the problems should be remedied. The notetaker records what is said 
+so that the others present can interact without encumbrance.
+Structured walkthroughs fit well in a TQM approach when performed throughout the SDLC. 
+The time they take should be short—half an hour to an hour at most—which means they must be 
+well coordinated. Figure 16.2 shows a form that is useful in organizing the structured walkthrough 
+and reporting its results. Because walkthroughs take time, it is important not to overuse them.
+You can use structured walkthroughs as a way to obtain (and then act on) valuable feed-
+back from a perspective that you lack. As with all other quality assurance measures, the point of 
+walkthroughs is to evaluate a product systematically on an ongoing basis rather than wait until 
+completion of the system.
+Top-Down Systems Design and Development
+Many companies first introduced computer systems on the lowest level of the organization. 
+This is where the immediate benefits to computerization are most observable and cost-effective. 
+Businesses often take this approach to systems development by going out and acquiring, for 
+example, commercial off-the-shelf (COTS) software for accounting, a different package for pro-
+duction scheduling, and another one for marketing.
+When in-house programming is done with a bottom-up approach, it is difficult to interface 
+the subsystems so that they perform smoothly as a system. Interface bugs are enormously costly 
+to correct, and many of them are not uncovered until programming is complete, when analysts 
+are trying to meet a deadline in putting the system together. At this juncture, there is little time, 
+budget, or user patience for the debugging of delicate interfaces that have been ignored.
+Although each small subsystem appears to get the working software that it wants, when the 
+overall system is considered, there are severe limitations to taking a bottom-up approach. One is 
+that there is a duplication of effort in purchasing software and even in entering data. Another is that 
+worthless data are entered into the system. A third, and perhaps the most serious, drawback of the 
+bottom-up approach is that, although small clusters of users’ needs may have been met, overall 
+organization objectives are not considered and hence cannot be met.
+Top-down design allows a systems analyst to ascertain overall organization objectives first, 
+as well as to ascertain how they are best met in an overall system. Then the analyst divides that 
+system into subsystems and their requirements.
+Top-down design is compatible with the general systems thinking that was discussed in 
+Chapter 2. When systems analysts employ a top-down approach, they are thinking about the inter-
+relationships and interdependencies of subsystems as they fit into the existing organization. The 
+top-down approach also provides desirable emphasis on synergy, or the interfaces that systems 
+and their subsystems require, which is lacking in the bottom-up approach. It helps to answer the 
+question of how teams must work together to accomplish their goals.
+
+
+===== BOOK PAGE 503 =====
+
+CHAPTER 16  •  QUALITY  A SSURANCE  AND  IMPLEMENTATION      503
+The advantages of using a top-down approach to systems design include avoiding the chaos 
+of attempting to design a system all at once. As we have seen, planning and implementing MIS 
+is incredibly complex. Attempting to get all subsystems in place and running at once is agreeing 
+to fail.
+A second advantage of taking a top-down approach to design is that it enables separate 
+systems analysis teams to work in parallel on different but necessary subsystems, which can save 
+a great deal of time. The use of teams for subsystems design is particularly well suited to a total 
+quality assurance approach.
+A third advantage is that a top-down approach avoids a major problem associated with a 
+bottom-up approach. It prevents systems analysts from getting so mired in detail that they lose 
+sight of what the system is supposed to do.
+Total quality management and the top-down approach to design can go hand in hand. The top-
+down approach provides the systems group with a ready-made division of users into task forces 
+(specialized teams of users) for subsystems. Task forces set up in this manner can then serve a 
+dual function as quality circles for the MIS. The necessary structure for quality assurance is then 
+in place, as is proper motivation for getting the subsystem to accomplish the department goals 
+that are important to the users involved.
+FIGURE 16.2
+A form to document structured 
+walkthroughs; walkthroughs can 
+be done whenever a portion of 
+coding, a system, or a subsystem 
+is complete.
+Report to Management
+on Structured Walkthrough
+Project Name:  
+Signature of Coordinator:
+Date Report Is Filed:      /     /           
+Project Number:
+Date of Walkthrough:     /    /
+Time:
+Walkthrough Coordinator:
+List of Participants:
+Comments:
+Action Recommended (Check One):
+   (  )  ACCEPT WORK AS FOUND
+   (  )  REVISE WORK
+   (  )  REVISE WORK AND CONDUCT
+     FOLLOW-UP WALKTHROUGH
+   (  )  REJECT WORK
+Portion (Description) of Work Examined:
+
+
+===== BOOK PAGE 504 =====
+
+504    PART V  •  QUALITY ASSURANCE AND IMPLEMENTATION
+Using Structure Charts to Design Modular Systems
+With the top-down design approach, the modular approach is useful in programming. This 
+approach involves breaking the programming into logical, manageable portions, or modules. 
+This kind of programming works well with top-down design because it emphasizes the interfaces 
+between modules and does not neglect them until later in systems development. Ideally, each 
+individual module should be functionally cohesive so that it is charged with accomplishing only 
+one function.
+Modular program design has three main advantages. First, modules are easier to write and 
+debug because they are virtually self-contained. Tracing an error in a module is less complicated 
+because a problem in one module should not cause problems in others.
+A second advantage of modular design is that modules are easier to maintain. Modifications 
+will usually be limited to a few modules and will not be spread over an entire program.
+A third advantage of modular design is that modules are easier to grasp because they are 
+self-contained subsystems. Hence, a reader can pick up a code listing of a module and understand 
+its function.
+Some guidelines for modular programming include the following:
+1. Keep each module to a manageable size (ideally including only one function).
+2. Pay particular attention to the critical interfaces (the data and control variables passed to 
+other modules).
+3. Minimize the number of modules the user must modify when making changes.
+4. Maintain the hierarchical relationships set up in the top-down phases.
+The recommended tool for designing a modular, top-down system is called a structure chart.  
+A structure chart is simply a diagram consisting of rectangular boxes, which represent the modules, 
+and connecting arrows.
+Figure 16.3 shows a structure chart for changing a customer record, involving seven modules 
+that are labeled 000, 100, 110, 120, and so on. Higher-level modules are numbered by 100s, and 
+lower-level modules are numbered by 10s. This numbering allows programmers to insert modules 
+it’s all together. All you’re doing is making waves. You’re acting as 
+if they actually value our input. I wouldn’t give them the time of day, 
+let alone do their work for them. They’re so smart, let them figure 
+out what we need.”
+Portia looks at Merle blankly, then starts getting a little 
+angry. “We’ve been on the task force for four weeks,” she says. 
+“You’ve sat in on four meetings. We’re the ones who know 
+the business. The whole idea of TQM is to tell them what we 
+need, what we’re satisfied with. If we don’t tell them what 
+we need, then we can’t complain. I’m bringing it up the next 
+time we meet.”
+How effective do you think Merle will be in communicating her 
+standards of quality to the systems analysis team and members of 
+the IS task force? Respond in a paragraph. If systems analysts are 
+able to perceive Merle’s unwillingness to work with the task force 
+on developing quality standards, what would you say to convince 
+her of the importance of user involvement in TQM? Make a list 
+of arguments supporting the use of TQM. How can the systems 
+analysis team respond to the concerns Portia is bringing up? In a 
+paragraph, devise a response.
+CONSULTING OPPORTUNITY 16.1 
+The Quality of MIS Is Not Strained
+“Merle, come here and take a look at these end-of-the-week 
+reports,” Portia pleads. As one of the managers on the six-person 
+IS task force/quality assurance committee, Portia, who is from the 
+marketing department, has been examining the system output that 
+has been produced by the prototype. The systems analysis team has 
+asked her to review the output.
+Merle Chant walks over to Portia’s desk and takes a look at the pro-
+spectus she’s holding. “Why, what’s wrong?” she asks. “It looks okay 
+to me. I think you’re taking this task force deal too much to heart. We’re 
+supposed to get our other work done as well, you know.” Merle turns 
+to leave and returns to her desk slightly perturbed at being interrupted.
+“Merle, have a little mercy. It is really silly to put up with these 
+reports the way they are. I can’t find anything I need, and then I’m 
+supposed to tell everyone else in the department what part of the 
+report to read. I, for one, am disappointed. This report is slipshod. 
+It doesn’t make any sense to me. It’s a rehash of the output we’re 
+getting now. Actually, it looks worse. I am going to bring this up at 
+the next task force meeting,” Portia proclaims insistently.
+Merle turns to face her, saying, “Quality is their responsibility, 
+Portia. If the system isn’t giving us good reports, they’ll fix it when
+
+
+===== BOOK PAGE 505 =====
+
+CHAPTER 16  •  QUALITY  A SSURANCE  AND  IMPLEMENTATION      505
+using a number between the adjacent module numbers. For example, a module inserted between 
+modules 110 and 120 would receive number 115.
+Off to the sides of the connecting lines, two types of arrows are drawn. The arrows with the 
+empty circles are called data couples, and the arrows with the filled-in circles are called control 
+flags or switches. A switch is the same as a control flag except that it is limited to two values: 
+either yes or no. These arrows indicate that something is passed either down to the lower module 
+or up to the upper one.
+Ideally, an analyst should keep this coupling to a minimum. The fewer data couples and 
+control flags one has in the system, the easier it is to change it. When these modules are actually 
+programmed, it is important to pass the least number of data couples between modules.
+Even more important is that numerous control flags should be avoided. Control is designed to 
+be passed from lower-level modules to those higher in the structure. On rare occasions, however, it 
+will be necessary to pass control downward in the structure. When control is passed downward, a 
+low-level module is allowed to make a decision, and the result is a module that performs two dif-
+ferent tasks. This result violates the ideal of a functional module: it should perform only one task.
+Even when a structure chart accomplishes all the purposes for which it was drawn, the struc-
+ture chart cannot stand alone as the sole design and documentation technique. First, it doesn’t 
+show the order in which the modules should be executed (a data flow diagram will accomplish 
+that). Second, it doesn’t show enough detail (structured English will accomplish that).
+An analyst who needs to complete a structured walkthrough might 
+find it useful to take along the iPhone app Things. When the ana-
+lyst returns to the office, they can upload the information to the 
+desktop version. Using Things is just another way to get organized.  
+The Things app allows the user to organize tasks into categories so 
+that the user has a better understanding of the tasks. In the example 
+in Figure 16.MAC, the user creates a walkthrough for a new release 
+of the company website.
+MAC APPEAL
+FIGURE 16. MAC
+Things for Mac by Cultured Code (http://culturedcode.com). (Screenshot from 
+THINGS courtesy of Cultured Code GmbH & Co. KG. Reproduced with permission.)
+
+
+===== BOOK PAGE 506 =====
+
+506    PART V  •  QUALITY ASSURANCE AND IMPLEMENTATION
+Service-Oriented Architecture
+Modular development has led to the concept of service-oriented architecture (SOA), which is 
+very different from the modules in the structure chart. Instead of being hierarchical as in the top-
+down approach found in structure charts, the SOA approach is to make individual SOA services 
+that are unassociated or only loosely coupled to one another.
+Each service executes one action. One service may return the number of days in this month; 
+another may tell us whether this is a leap year; a third service may reserve five nights in a hotel 
+room from the end of February to the beginning of March. Although the third service needs 
+to know the values obtained from the first and second services, they are independent of one 
+another. Each service can be used in other applications within the organization or even in other 
+organizations.
+Service-oriented architecture is simply a group of services that can be called upon to provide 
+specific functions. Rather than including calls to other services, a service can use certain defined 
+protocols to communicate with other services.
+Figure 16.4 shows how services are called upon throughout the system. Services can be general 
+in nature and can be outsourced or even made available on the web. Other services are more spe-
+cialized and oriented toward the business itself. These enterprise-based services provide business 
+rules and differentiate one business from another. Services can be called on at a specific time and 
+can be called on repeatedly in many application modules.
+The burden of connecting services in a useful fashion, a process called orchestration, is 
+placed on a systems designer. This can even be accomplished by selecting services from a menu 
+of services and monitoring them by setting up an SOA dashboard.
+To set up SOA, the services must be:
+1. Modular
+2. Reusable
+3. Able to work together with other modules (interoperable)
+4. Able to be categorized and identified
+FIGURE 16.3
+A structure chart encourages top-down design using modules.
+000
+Change
+Customer
+Master
+100
+Change
+Customer
+Record
+130
+Print Customer
+Not Found
+Error Line
+140
+Format New
+Customer Master
+150
+Rewrite
+Customer
+Master
+120
+Read Customer
+Master
+110
+Read Change
+Customer
+Transaction
+Changed
+Customer
+Master
+Changed
+Customer
+Master
+Customer
+Master
+Customer
+Master
+Customer
+Number
+Customer
+Number
+Record
+Found Switch
+Change
+Transaction
+Record
+End of
+File
+Switch
+Change
+Transaction
+Record
+
+
+===== BOOK PAGE 507 =====
+
+CHAPTER 16  •  QUALITY  A SSURANCE  AND  IMPLEMENTATION      507
+5. Able to be monitored
+6. Compliant with industry-specific standards
+The advantages of reusability and interoperability are obvious, but SOA is not without chal-
+lenges. First, industry standards must be agreed upon. Next, a library must be maintained so 
+developers can find the services they need. Finally, security and privacy can be issues when 
+using software developed by someone else. Advocates of SOA claim that it has made many of 
+the features found in Web 2.0 possible. Others have called cloud computing an offspring of SOA.
+DOCUMENTATION APPROACHES
+A total quality assurance effort requires that programs be documented properly. Software, 
+systems, and formal and informal procedures need to be documented so that systems can be 
+maintained and improved. Documentation allows users, programmers, and analysts to “see” the 
+system and its software and procedures without having to interact with it.
+Turnover of information service personnel has traditionally been high in comparison with 
+other organizational departments, so chances are that the people who conceived of and installed 
+the original system will not be the same ones who maintain it. Consistent, well-updated docu-
+mentation will shorten the number of hours required for new people to learn the system before 
+performing maintenance.
+Systems and programs are undocumented or underdocumented for many reasons. Some of 
+the problems reside with the systems and programs themselves, others with systems analysts and 
+programmers.
+Systems analysts may fail to document systems properly because they do not have the time 
+or are not rewarded for time spent documenting. Some analysts do not document because they 
+dread doing so or think it is not their real work. Furthermore, many analysts are reticent about 
+documenting systems that are not their own, perhaps fearing reprisals if they include incorrect 
+material about someone else’s system. Defenders of the SDLC approach remind us that documen-
+tation accomplished by means of a computer-aided software engineering tool during the analysis 
+phases can address many of these problems. In the agile approach, although it is a collaboration 
+by the “product owners, designers, and developers,” it is ultimately the sofrtware creator who is 
+responsible for documentation (Spies, 2021).
+Procedure Manuals
+Procedure manuals are common organizational documents that most people have seen. They are 
+the English-language component of documentation, although they may also contain program 
+codes, flowcharts, and so on. Manuals are intended to communicate to those who use them.  
+FIGURE 16.4
+Modules in service-oriented 
+architecture are independent and 
+can be ubiquitous.
+Web-based Services
+Enterprise-based Services
+The Application Modules That Comprise a System
+
+
+===== BOOK PAGE 508 =====
+
+508    PART V  •  QUALITY ASSURANCE AND IMPLEMENTATION
+They may contain background comments, steps required to accomplish different transactions, 
+instructions on how to recover from problems, and what to do next if something isn’t working (trou-
+bleshooting). Many manuals are now available online, with hypertext capability that facilitates use.
+A straightforward, standardized approach to creating user support documentation is desirable. 
+To be useful, user documentation must be kept up to date. Use of the web has revolutionized the 
+speed with which assistance can be obtained by users. Many software developers have moved user 
+support—complete with manuals, FAQ pages, online chat, and user communities—to the web.
+Key sections of a manual should include an introduction, how to use the software, what to 
+do if things go wrong, a technical reference section, an index, and information on how to contact 
+the software or equipment manufacturer. The biggest complaints with procedure manuals are that 
+(1) they are poorly organized, (2) it is hard to find needed information in them, (3) the specific 
+case in question does not appear in the manual, and (4) the manual is not written in plain English.
+The FOLKLORE Method
+FOLKLORE is a systems documentation technique that was created to supplement some of 
+the techniques just covered. Even with the plethora of techniques available, many systems are 
+inadequately documented or not documented at all. FOLKLORE gathers information that is often 
+shared among users but is seldom written down.
+FOLKLORE was first developed in the 1980s by Kendall and Losee (1986), well before the 
+creation of blogs and user communities. FOLKLORE has two main advantages over commonly 
+found user communities: (1) it is structured, resulting in more organized and more complete 
+documentation, and (2) it encourages someone familiar with the software to seek out information 
+rather than depend on users to come forth on their own.
+FOLKLORE is a systematic technique, based on traditional methods used in gathering folk-
+lore about people and legends. This approach to systems documentation requires an analyst to 
+interview users, investigate existing documentation in files, and observe the processing of informa-
+tion. The objective is to gather information corresponding to one of four categories: customs, tales, 
+sayings, and art forms. Figure 16.5 suggests how each category relates to the documentation of IS.
+When documenting customs, an analyst (or other folklorist) tries to capture in writing what 
+users are currently doing to get all programs to run without problems. An example of a custom is: 
+“Usually, we take two days to update the monthly records because the task is quite large. We run 
+commercial accounts on day one and save the others for the next day.”
+Tales are stories that users tell regarding how the system worked. The usefulness of the tale, 
+of course, depends on the user’s memory and is at best an opinion about how the program worked. 
+As we saw in Chapter 4, stories typically have a beginning, a middle, and an end. So, we would 
+have a story about a problem (the beginning), a description of the effects (the middle), and the 
+solution (the end). Stories often have a hero (also called the protagonist) who is likely the teller 
+of the tale.
+Sayings are brief statements representing generalizations or advice. We have many sayings 
+in everyday life. In the United States we say, “April showers bring May flowers” or “A stitch in 
+FIGURE 16.5
+Customs, tales, sayings, and art 
+forms used in the FOLKLORE 
+method of documentation apply 
+to IS.
+CUSTOMS
+Descriptions of how
+users currently get
+the system to run.
+FOLKLORE
+TALES
+Stories about how
+users were able to get
+the system to work.
+ART FORMS
+Diagrams, tables,
+and ﬂowcharts.
+SAYINGS
+“Do this and it works.”
+
+
+===== BOOK PAGE 509 =====
+
+CHAPTER 16  •  QUALITY  A SSURANCE  AND  IMPLEMENTATION      509
+time saves nine.” In systems documentation, we have many sayings, such as “Omit this section 
+of code, and the program will bomb” or “Always back up frequently.” Users like to give advice, 
+and an analyst should try to capture this advice and include it in FOLKLORE documentation. 
+User stories that were gleaned in interviewing during the analysis portion of the project may still 
+be relevant here.
+Gathering art forms is another important activity of traditional folklorists, and a systems 
+analyst should understand its importance too. Flowcharts, diagrams, and tables that users draw 
+sometimes may be better or more useful than flowcharts drawn by the original system author. 
+Analysts will often find such art posted on bulletin boards, or they may ask the users to clean out 
+their files and retrieve any useful diagrams.
+Contributors to a FOLKLORE document do not have to document the entire system, only 
+the parts they know about. Just like with web-based support communities, the danger of relying 
+on FOLKLORE is that the information gathered from users may be correct, partially correct, 
+or incorrect.
+Choosing a Design and Documentation Technique
+The techniques discussed in this chapter are extremely valuable as design tools, memory aids, 
+productivity tools, and as a means of reducing dependencies on key staff members. A systems 
+analyst, however, is faced with a difficult decision regarding which method to adopt. The following 
+is a set of guidelines to help an analyst use the appropriate technique. A systems analyst should 
+choose a technique that:
+1. Is compatible with existing documentation.
+2. Is understood by others in the organization (or is easily taught to others).
+3. Allows you to return to working on the system after you have been away from it for a 
+period of time.
+4. Is suitable for the size of the system on which you are working.
+5. Allows for a structured design approach if that is considered to be more important than 
+other factors.
+6. Allows for easy modification.
+Dhara Gunseyin, a senior advertising executive, seems slightly 
+upset, stating, “I learned about flowcharting from the first systems 
+analysts we had years ago. Don’t you people do that anymore?  
+I think they work best.”
+What was at first a friendly meeting suddenly seems to 
+have reached an impasse. The participants are looking at each 
+other warily. As a systems analyst who has worked on many 
+different projects with many different kinds of people, you real -
+ize that the group is looking to you to make some reasonable 
+suggestions.
+Based on what you know about the various documentation 
+techniques, what technique(s) would you propose to the members 
+of the group? How will the technique(s) you propose overcome 
+some of the concerns they have voiced? What process will you 
+use to decide on appropriate techniques? Compose your answer 
+in one page.
+CONSULTING OPPORTUNITY 16.2 
+Write Is Right
+“It’s so easy to understand. I say if everybody uses pseudo-code, 
+we won’t have trouble, you know, with things not being standard-
+ized,” says Al Gorithm, a new computer programmer who will be 
+working with your systems analysis team. Al is speaking at an infor-
+mal meeting among three members of the team, a six-person MIS 
+task force from the advertising department, and two programmers, 
+who were all working to develop an IS for advertising personnel.
+Zola Aro, an advertising account executive and one of the 
+members of the MIS task force, looks up in surprise. “What is this 
+method called?” The two programmers reply at the same time: 
+“Pseudo-code.” Zola looks unimpressed and says, “That doesn’t 
+say anything to me.”
+Neeva Phail, one of the systems analysts, begins explaining: 
+“It probably won’t matter one way or the other what we use, if—”
+Flo Chart, another systems analyst, breaks in saying, “I hate 
+pseudo-code.” She looks hopefully at the computer programmers. 
+“I’m sure we can agree on a better technique.”
+
+
+===== BOOK PAGE 510 =====
+
+510    PART V  •  QUALITY ASSURANCE AND IMPLEMENTATION
+REQUIREMENTS TRACEABILITY
+Related to both documentation (discussed in the previous section) and testing (discussed in the 
+following section) is requirements traceability. Traceability has been accomplished by manually 
+keeping track of requirements in a traceability matrix that can be maintained in Microsoft Excel. It 
+complements other documentation techniques that are part of the SDLC. Agile methods are now 
+keeping track of requirements using traceabilty software such as Jama Software, which interface 
+with other apps to produce an automated traceability matrix and exception report (Weigers, 2022). 
+Still, accurate traceability remains a challenge (Kannenberg & Saiedian, 2009).
+Requirements traceability follows the life of a requirement in both directions. Ideally, a 
+requirement can be traced back to a business objective and forward to a successfully deployed 
+product. It may seem that keeping track of the linkages and relationships of the system is difficult 
+but getting organized early can prevent problems and save time later on in the project.
+Traceability can be forward and backward, but since they either come to or from require-
+ments, there are really four types, as shown in Figure 16.6.
+1. Forward TO requirements traceability originates from customer needs and proceeds to 
+requirements. Since customer needs change over time, forward traceability allows the ana-
+lyst to follow the path to the requirement so it can be changed as well.
+2. Forward FROM traceability starts with the requirements and follows what happens down-
+stream to things like test cases. This is because when a requirement changes, it needs to be 
+tested and verified.
+3. Backward FROM requirements traceability is needed to explain the purpose of the 
+requirement. It is linked to the use case that explains how the requirement originated.
+4. Backward TO requirements traceability begins at the work performed and traces the work 
+back to the requirement. It allows an analyst to see the performed work and determine 
+which requirements had part of the work. If the work wasn’t complete, the analyst would 
+be able to locate anything that was missing in the requirement.
+Knowing forward and backward traceability, the systems analyst can diagram the system 
+and also create a traceability matrix, which can be used as a checklist as well as documentation 
+for the system.
+FIGURE 16.6
+Traceability involves four different 
+opportunities
+Forward FROM Requirements
+Requirement Test Cases
+Backwards TO Requirements
+Requirement Performed Work
+Forward TO Requirements
+RequirementCustomer
+Needs
+Backwards FROM Requirements
+RequirementUser Cases
+
+
+===== BOOK PAGE 511 =====
+
+CHAPTER 16  •  QUALITY  A SSURANCE  AND  IMPLEMENTATION      511
+Figure 16.7 is an example of a traceability matrix. Because there are so many requirements, 
+test cases, and responsible people, a matrix in table form works better than diagrams. Here each 
+requirement is traceable to its business objective, test cases, and performed work.
+Jama Software is currently the dominant company that manages traceability. In addition to 
+having a set of tools to document, diagram, and create traceability matrices, Jama can integrate 
+with other major tools in the software industry. One of these tools is Jira software, mentioned 
+earlier in the book. This interchange allows live traceability and efficiency. Jama also extends 
+functionality by producing dashboards like the one pictured in Figure 16.8. This dashboard 
+manages traceability exceptions.
+Planning for traceability has some advantages:
+1. It ensures that the final product is linked with an original business objective and customer 
+needs, test cases, use cases, and performed work.
+2. It saves time and money if there is an issue since the links have already been created. It is 
+always more difficult to figure out the relationships after the work is done.
+3. If a customer wants to change a feature, the links and relationships tell which requirements 
+need to be changed to achieve the customer’s wishes.
+4. If the performed work is not up to expectations, the analyst can easily determine which 
+requirement can be changed.
+FIGURE 16.7
+An example of a traceability 
+matrix.
+B#
+1
+R#
+R1
+R2
+Requirement
+Customer wants to sign on
+Customer wants to pay
+TC#
+TC1
+TC2
+TC3
+TC4
+TC5
+TC6
+TC7
+Test Case Description
+With ID and password
+With ID, wrong password
+With wrong ID
+By Credit Card
+By Debit Card
+By Apple Pay
+By Gift Card
+Person Responsible
+Adya
+Adya
+Adya
+Sadoughi
+Sadoughi
+Niederman
+Sadoughi
+Status
+In Process
+In Process
+In Process
+Done
+Done
+Done
+Done
+FIGURE 16.8
+A traceability exception dashboard from Jama. Courtesy: Jama Software
+
+
+===== BOOK PAGE 512 =====
+
+512    PART V  •  QUALITY ASSURANCE AND IMPLEMENTATION
+TESTING, MAINTENANCE, AND AUDITING
+Once an analyst has designed and coded the system, testing, maintenance, and auditing of it are 
+prime considerations.
+The Testing Process
+All of a system’s newly written or modified application programs—as well as new procedure 
+manuals, new hardware, and all system interfaces—must be tested thoroughly. Haphazard, trial-
+and-error testing will not suffice. Testing is done throughout systems development, not just at the 
+end. It is meant to turn up previously unknown problems, not to demonstrate the perfection of 
+programs, manuals, or equipment.
+Although testing is tedious, it is an essential series of steps that helps ensure the quality of the 
+eventual system. It is far less disruptive to test beforehand than to have a poorly tested system fail 
+after installation. Testing is accomplished on subsystems or program modules as work progresses. 
+Testing is done on many different levels at various intervals. Before a system is put into produc-
+tion, all programs must be desk checked, checked with test data, and checked to see whether the 
+modules work together with one another as planned.
+A system as a working whole must also be tested. Included here are testing the interfaces 
+between subsystems, the correctness of output, and the usefulness and understandability of 
+systems documentation and output. Programmers, analysts, operators, and users all play different 
+roles in the various aspects of testing, as shown in Figure 16.9. Testing of hardware is typically 
+provided as a service by vendors of equipment, who will run their own tests on equipment when 
+it is delivered on-site.
+Program Testing with Test Data. Much of the responsibility for program testing resides with 
+the original author(s) of each program. A systems analyst serves as an advisor and coordinator 
+for program testing. In this capacity, an analyst works to ensure that correct testing techniques are 
+implemented by programmers but probably does not personally carry out this level of checking.
+At this stage, computer programmers must first desk-check their programs to verify the way 
+the system will work. In desk checking, the coder follows each step in the program on paper to 
+check whether the routine works as it is written.
+Next, computer programmers must create both valid and invalid test data. These data are then 
+run to see whether base routines work and also to catch errors. If output from main modules is 
+satisfactory, you can add more test data and check other modules. Created test data should test 
+possible minimum and maximum values as well as all possible variations in format and codes. File 
+output from test data must be carefully verified. It should never be assumed that data contained 
+in a file are correct just because a file was created and accessed.
+FIGURE 16.9
+Programmers, analysts, operators, 
+and users all play different roles in 
+testing software and systems.
+TESTING
+Full Systems
+Testing with
+Live Data
+USERS
+ANALYSTS
+Link Testing
+with Test Data
+Program Testing
+with Test Data
+Full Systems
+Testing with
+Test Data
+OPERATORS
+PROGRAMMERS
+
+
+===== BOOK PAGE 513 =====
+
+CHAPTER 16  •  QUALITY  A SSURANCE  AND  IMPLEMENTATION      513
+Throughout this process, a systems analyst checks output for errors, advising the computer 
+programmer of any needed corrections. An analyst will usually not recommend or create test data 
+for program testing but might point out to the computer programmer omissions of data types to 
+be added in later tests.
+Link Testing with Test Data. When programs pass desk checking and checking with test data, 
+they must go through link testing, which is also referred to as string testing. Link testing checks 
+to see whether programs that are interdependent work together as planned.
+An analyst creates special test data that cover a variety of processing situations for link testing. 
+First, typical test data are processed to see if the system can handle normal transactions, those that 
+would make up the bulk of its load. If the system works with normal transactions, variations are 
+added, including invalid data used to ensure that the system can properly detect errors.
+Full Systems Testing with Test Data. When link tests are satisfactorily concluded, a system as a 
+complete entity must be tested. At this stage, operators and end users become actively involved in 
+testing. Test data, created by the systems analysis team for the express purpose of testing system 
+objectives, are used.
+As can be expected, a number of factors must be considered when systems testing with 
+test data:
+1. Examine whether operators have adequate documentation in procedure manuals (hard copy 
+or online) to afford correct and efficient operation.
+2. Check whether procedure manuals are clear enough in communicating how data should be 
+prepared for input.
+3. Ascertain whether workflows necessitated by the new or modified system actually “flow.”
+4. Determine whether output is correct and whether users understand that this output is, in all 
+likelihood, as it will look in its final form.
+Remember to schedule adequate time for systems testing. Unfortunately, this step is often dropped 
+if system installation is lagging behind the target date.
+Systems testing includes reaffirming the quality standards for system performance that were 
+set up when the initial system specifications were written. Everyone involved should once again 
+agree on how to determine whether the system is doing what it is supposed to do. This step will 
+include measures of error, timeliness, ease of use, proper ordering of transactions, acceptable 
+downtime, and understandable procedure manuals.
+Full Systems Testing with Live Data. When systems tests using test data prove satisfactory, it is 
+a good idea to try the new system with several passes on what is called live data, data that have 
+been successfully processed through the existing system. This step allows an accurate comparison 
+of the new system’s output with what you know to be correctly processed output, as well as a good 
+idea for testing how actual data will be handled. Obviously, this step is not possible when creating 
+entirely new outputs (for instance, output from an ecommerce transaction from a new corporate 
+website). As with test data, only small amounts of live data are used in this kind of system testing.
+Although much thought is given to user–system interaction (see Chapter 14), you can never 
+fully predict the wide range of differences in the way users will interact with a system. It is not 
+enough to interview users about how they are interacting with the system; you must observe them 
+firsthand.
+Items to watch for are ease of learning the system and user reaction to system feedback, 
+including what happens when an error message is received and when the user is informed that 
+the system is executing their commands. Be particularly sensitive to how users react to system 
+response time and to the language of responses. Also, listen to what users say about the system as 
+they encounter it. Any real problems need to be addressed before the system is put into production, 
+not just glossed over as adjustments to the system that users and operators ought to make on  
+their own.
+Procedure manuals, just like computer software, also need to be tested. Although manuals can 
+be proofread by support staff and checked for technical accuracy by the systems analysis team, the 
+only real way to test them is to have users and operators try them, preferably during full systems 
+testing with live data. Consider user suggestions and incorporate them into the final versions of 
+web pages, printed manuals, Read Me files, and other documentation.
+
+
+===== BOOK PAGE 514 =====
+
+514    PART V  •  QUALITY ASSURANCE AND IMPLEMENTATION
+Behavior-Driven Development
+Behavior-driven development (BDD) is a method that develops software by putting features to 
+the test and determining which features succeed, which features fail, and which features may be 
+missing. Developers will initially write failing unit tests. Then they will write and rewrite code 
+until the code passes.
+Behavior-driven development consists of both unit testing and acceptance testing. Unit testing, 
+a type of testing that ensures that each unit of software performs properly, involves writing code to 
+test functions and features in software. Acceptance testing is usually done by business customers 
+and acceptance criteria is best written as a user story. A user story can be collaborative, taking into 
+consideration the developer and the customer. A user story can start with the following: “I am a 
+customer. I would like {this feature}, so it can help me with {a decision}.” Both the developers 
+and customers can be involved. In addition to unit and acceptance testing, BDD asks the question, 
+Does the system exhibit the behavior desired?
+The British Broadcasting Corporation maintains an open source application called ShouldIT. 
+This application allows a developer to write tests in any framework in any language and it will 
+inform the developer which features passed, which failed, and, through visualization, make the 
+developer realize whether a feature is missing. It can be found on GitHub.
+Behavior-driven development has some advantages as well as disadvantages. Advantages 
+include:
+• It might speed up testing.
+• Debugging processes are usually easier.
+• Costs of fixing a problem are less than maintenance later on.
+• There is added confidence that the software will function properly.
+Stan contemplates the chart momentarily, and then states, 
+“Something’s got to go. Let’s see here . . . maybe move testing of 
+the accounting module to—”
+Lou interrupts, saying bluntly, “Nope, already thought of 
+that, both Santina Stanford and Jacqueline Binet from accounting 
+are out of town in August. Maybe we can skip that portion of 
+the testing. They’ve been really cooperative. I don’t think they’d 
+object if we just ‘do it for real’ and test as we actually go into 
+production.”
+“I think that’s a good idea, Lou,” Stan agrees, trying to make 
+up for his earlier jokes. “We haven’t had any real trouble with 
+that, and the computer programmers sure are confident. That way 
+we could stay on schedule with everything else. I vote for not  
+testing the accounting portion, but just sort of winging it when 
+it starts up.”
+As the most senior member of the team present, what can you 
+do to convince Lou and Stan about the importance of testing the 
+accounting module with live data? What can systems analysts do in 
+planning their time to allow adequate time for testing with test and 
+live data? What are some of the possible problems the team mem-
+bers may encounter if they do not test the system completely with 
+live data before putting the system into production? Realistically, 
+are there steps in the systems analysis and design process that can 
+be collapsed to bring a delayed project in on time? Respond to these 
+questions in two double-spaced pages.
+CONSULTING OPPORTUNITY 16.3 
+Cramming for Your Systems Test
+“We’re strapped for time. Just look at this projection,” says 
+Lou Scuntroll, the newest member of your systems analysis team, 
+showing you the PERT diagram that the team has been using to 
+project when the new system would be up and running. “We can’t 
+possibly make the July target date for testing with live data. We’re 
+running three weeks behind because of that slow equipment ship-
+ment. It was supposed to be here from Guadalajara by now.”
+As one of the systems analysts who has seen deadlines come 
+and go on other projects, you try to remain calm and to size up 
+the situation carefully before you speak. Slowly, you question Lou 
+about the possibility of delaying testing.
+Lou replies, “If we try to push the testing off until the first 
+weeks of August, two key people from accounting are going to be 
+out on vacation.” Lou is visibly upset at the possibility of missing 
+the deadline.
+Stan Dards, another junior member of your systems analysis 
+team, enters Lou’s office. “You two look terrible. Things are going 
+okay, aren’t they? I’m not reassigned to program a payroll applica-
+tion again, am I?”
+Lou looks up, obviously neither appreciating Stan’s sense of 
+humor nor what seems like his single-minded self-concern. “Good 
+thing you came in when you did. We’ve got some big decisions to 
+make about scheduling.” Lou holds up the PERT diagram for Stan’s 
+inspection. “Notice the July test date. Notice that there is no way we 
+can make it. Any bright ideas?”
+
+
+===== BOOK PAGE 515 =====
+
+CHAPTER 16  •  QUALITY  A SSURANCE  AND  IMPLEMENTATION      515
+While disadvantages include:
+• BDD tests only test sets of data and their functionality, not the entire system in use.
+• Since testing involves writing more code (that will later be removed) in order to test the 
+software, it can add complexity.
+• Tests will not identify every bug.
+• Developers should not assume that systems are documented sufficiently if they rely solely 
+on BDD testing outcomes and descriptions.
+Maintenance Practices
+Your objective as a systems analyst should be to install or modify systems that have a reasonably 
+useful life. You want to create a system whose design is comprehensive and farsighted enough to 
+serve current and projected user needs for several years to come. Part of your expertise should 
+be used to project what those needs might be and then build flexibility and adaptability into 
+the system. The better the system design, the easier it will be to maintain and the less money the 
+business will have to spend on maintenance.
+Reducing maintenance costs is a major concern, and software maintenance alone can devour 
+upward of 50 percent of the total data processing budget for a business. Excessive maintenance 
+costs reflect directly back on the system’s designer; approximately 70 percent of software errors 
+have been attributed to inappropriate software design. From a systems perspective, it makes sense 
+that detecting and correcting software design errors early on is less costly than letting errors 
+remain unnoticed until maintenance is necessary.
+Maintenance is performed most often to improve the existing software rather than to respond 
+to a crisis or a system failure. Maintenance is also done to update software in response to the 
+changing organization. This work is not as substantial as enhancing the software, but it must be 
+done. Emergency and adaptive maintenance comprises less than half of all systems maintenance.
+Part of a systems analyst’s job is to ensure that there are adequate channels and procedures 
+in place to permit feedback about—and subsequent response to—maintenance needs. Users must 
+be able to communicate problems and suggestions easily to those who will be maintaining the 
+system. Solutions are to provide users email access to technical support and to give them proper 
+authorization to download product updates or patches from the Web.
+Auditing
+Auditing is yet another way of ensuring the quality of the information contained in a system. 
+Broadly defined, auditing refers to having an expert (who is not involved in setting up or using 
+a system) examine information to ascertain its reliability. Whether or not information is found to 
+be reliable, the finding on its reliability is communicated to others for the purpose of making the 
+system’s information more useful to them.
+For IS, there are generally two kinds of auditors: internal and external. Whether both are 
+necessary for the system you design depends on what kind of system it is. Internal auditors work 
+for the same organization that owns the IS, whereas external (also called independent) auditors 
+are hired from the outside.
+External auditors are used when the IS processes data that influences a company’s financial 
+statements. External auditors audit the system to ensure the fairness of the financial statements being 
+produced. They also may be brought in if something out of the ordinary is occurring that involves 
+company employees, such as suspected computer fraud or embezzlement of corporate funds.
+Internal auditors study the controls used in the IS to make sure they are adequate and are 
+doing what they are purported to be doing. They also test the adequacy of security controls. 
+Although they work for the same organization, internal auditors do not report to the people 
+responsible for the system they are auditing. The work of internal auditors is often more in-depth 
+than that of external auditors.
+IMPLEMENTING DISTRIBUTED SYSTEMS
+If the reliability of a telecommunications network is high, it is possible to have distributed systems 
+for businesses, a setup that can be conceived of as an application of telecommunications. The 
+concept of distributed systems is used in many different ways. Here it will be taken in a broad
+
+
+===== BOOK PAGE 516 =====
+
+516    PART V  •  QUALITY ASSURANCE AND IMPLEMENTATION
+sense, including workstations that can communicate with each other and data processors, as well 
+as different hierarchical architectural configurations of data processors that communicate with 
+each other and that have differing data storage capabilities.
+In this model, the processing functions are delegated either to clients (users) or to servers, 
+depending on which machines are most suitable for executing the work. In this type of architecture, 
+the client portion of a network application will run on the client system, with the server part of the 
+application running on the file server. With a client/server model, users interact with limited parts 
+of the application, including the user interface, data input, database queries, and report generation. 
+Controlling user access to centralized databases, retrieving or processing data, and other functions 
+(such as managing peripheral devices) are handled by the server.
+Client/Server Technology
+The client/server model, client/server computing, client/server technology, and client/server 
+architecture all refer to a design model that can be thought of as applications running on a network. 
+In very basic terms, you can picture the client requesting—and the server executing or in some 
+way fulfilling—the request. This would be considered two-tiered client/server architecture.
+A more involved configuration uses three sets of computers to accomplish retrieval, 
+processing, storage, and receiving of data. Figure 16.10 shows a three-tiered client/server model. 
+FIGURE 16.10
+A three-tiered client/server configuration.
+Web Server
+(handles web-based
+exchange of information)
+Client Computers
+(the means of input and
+display of information)
+Application Server
+(processes data to and from
+the client computers and the
+database Server)
+Database Server
+(stores and
+retrieves data)
+
+
+===== BOOK PAGE 517 =====
+
+CHAPTER 16  •  QUALITY  A SSURANCE  AND  IMPLEMENTATION      517
+In this figure, client computers access three different tiers of servers: web servers, which handle 
+web-based exchange of information; application servers, which process data to and from the client 
+computers and the database server; and the database server, which stores and receives data. The 
+computers on the network are programmed to perform work efficiently by dividing up processing 
+tasks among clients and servers.
+When you think of the client/server model, you should think of a system that accentuates 
+the users as the center of the work, with their interaction with data as the key concept. Although 
+there are two elements working—the client and the server—it is the intent of the client/server 
+model that users view it as one system. Indeed, the hope is that users are unaware of how the 
+client/server network is performing its distributed processing; it should have the look and feel of a 
+unified system. In a peer-to-peer network, PCs can act as either the server or the client, depending 
+on the requirements of the application.
+Clients as Part of the Client/Server Model. When you see the term client, you might be tempted 
+to think of people or users; for example, we speak of “clients of our consulting practice.” In the 
+client/server model, however, the term client refers not to people but to networked machines that 
+are typical points of entry to the client/server system that is used by humans. Therefore, clients 
+could be networked desktop computers, a workstation, notebook computers, or any other way in 
+which the user can enter the system.
+Using a graphical user interface, individuals typically interface directly only with the client 
+part. Client workstations use smaller programs that reside in the client to do front-end processing 
+(as opposed to the back-end processing mentioned later), including communicating with the user. 
+If an application is called a client-based application, the application resides in a client computer 
+and cannot be accessed by other users on the network.
+Weighing the Advantages and Disadvantages of the Client/Server Model. Early adopters of the 
+client/server model found that this model was not always the best solution to an organization’s 
+computing problems. Often, the systems designer is asked to endorse a client/server model that is 
+already in the works. Just as with any other corporate computing proposal that you did not have 
+an active part in creating, you must review the plan carefully. Will the organization’s culture sup-
+port a client/server model? What kinds of changes must be made in the informal culture and in 
+the formal work procedures before a client/server model can be used to its full potential? What 
+should your role as a systems analyst be in this situation?
+Although lower processing costs are cited as a benefit of the client/server model, there is 
+very little actual data available to prove it (even though there is some anecdotal evidence to sup-
+port this claim). There are well-documented high start-up or switch-over costs associated with a 
+movement to a client/server architecture. Applications for the client/server model must be written 
+as two separate software components, each running on separate machines, but they must appear as 
+if they are operating as one application. Using the client/server model, however, affords greater 
+computer power and greater opportunity to customize applications than other options.
+Although networks can be characterized by their shape or topology, they are also discussed in 
+terms of their geographic coverage and the kinds of services they offer. Standard types of networks 
+include a wide area network (W AN) and a local area network (LAN). LANs are standard for 
+linking local computers or terminals within a department, building, or several buildings of an 
+organization. WANs can serve users over several miles or across entire continents.
+Networking is now technically, economically, and operationally feasible for small offices as 
+well, and it provides a solution that analysts must consider for small businesses. One of the costly 
+aspects of implementing a LAN is that each time it is moved, it must be rewired. Some organi-
+zations are coping with this by setting up a high-speed, wireless local area network (WLAN). 
+More specifically, these wireless networks are called Wi-Fi.
+Network Modeling
+Because networking has become so important, a systems designer needs to consider network design. 
+Whether a systems designer is involved with decisions about the configurations of networks or 
+worries about hardware, such as routers and bridges that must be in place when networks meet, 
+the systems designer must always consider the logical design of networks.
+An analyst should adopt a set of symbols such as the ones in Figure 16.11 to model a 
+network. It is useful to have distinct symbols to distinguish among hubs, external networks, and
+
+
+===== BOOK PAGE 518 =====
+
+518    PART V  •  QUALITY ASSURANCE AND IMPLEMENTATION
+workstations (PCs, laptops, and so on). It is also useful to adopt a convention for illustrating 
+multiple networks and workstations. The first step is to draw a network decomposition diagram 
+that provides an overview of the system. Next, draw a hub connectivity diagram. Finally, explode 
+the hub connectivity diagram to show the various workstations and how they are to be connected.
+Drawing a Network Decomposition Diagram. We can illustrate drawing a network decomposi-
+tion model by referring once again to the World’s Trend Catalog Division example from earlier 
+chapters. World’s Trend sells fashionable men’s, women’s, and children’s clothing online and via 
+mail and phone orders. Start by drawing a circle and labeling it “World’s Trend Network.” Now 
+draw a number of circles below the first one, as shown in Figure 16.12. These circles represent 
+hubs for the Marketing Division and each of the three order-entry and distribution centers (the 
+U.S. Division, the Canadian Division, and the Mexican Division).
+Extend this drawing further by drawing another level. This time, add the workstations. For 
+example, the Marketing Division has two workstations connected to it, whereas the U.S. Division 
+has 33 workstations on its LAN (Administration, the Warehouse, the Order-Entry Manager, and 
+30 Order-Entry Clerks). This network is simplified for the purpose of providing a readily under-
+standable example.
+Creating a Hub Connectivity Diagram. A hub connectivity diagram is useful for showing how the 
+major hubs are connected. At World’s Trend, shown in Figure 16.13, four major hubs are all con-
+nected to one another. In addition, there are external hubs (suppliers) that need to be notified when 
+inventory drops below a certain point, and so on. Each of the three country divisions are connected 
+to the 21 suppliers; the Marketing Division, however, does not need to be connected to suppliers.
+To produce an effective hub connectivity diagram, start by drawing all the hubs. Then experi-
+ment (perhaps sketching it first on a sheet of paper) to see which links are necessary. Once that is 
+done, redraw the diagram so it is attractive and communicates well to users.
+Exploding the Hub Connectivity Diagram into a Workstation Connectivity Diagram. The purpose 
+of network modeling is to show the connectivity of workstations in some detail. Therefore, you 
+need to explode the hub connectivity diagram. Figure 16.14 shows the 33 workstations for the 
+U.S. Division and how they are to be connected.
+FIGURE 16.11
+Use special symbols when 
+drawing network decomposition 
+and hub connectivity diagrams.
+Hub or Local Area Network
+External Network
+Multiple External Networks with Similar Functions
+Workstation
+Multiple Workstations with Similar Functions
+
+
+===== BOOK PAGE 519 =====
+
+CHAPTER 16  •  QUALITY  A SSURANCE  AND  IMPLEMENTATION      519
+FIGURE 16.12
+A network decomposition diagram 
+for World’s Trend.
+World’s
+Trend
+Network
+Marketing
+Division
+U.S.
+Division
+Canadian
+Division
+Mexican
+Division
+Administra-
+tion
+U.S.
+Warehouse
+Order-
+Entry
+Manager
+Order-
+Entry Clerks
+(30)
+Canadian
+Warehouse
+Order-Entry
+Manager
+Order-Entry
+Clerks
+(8)
+Mexican
+Warehouse
+Order-Entry
+Manager
+Order-Entry
+Clerks
+(4)
+Advertising
+Manager
+Catalog
+Publications
+Suppliers
+(21)
+FIGURE 16.13
+A hub connectivity diagram for 
+World’s Trend.
+Marketing
+Division
+Mexican
+Division
+Canadian
+Division
+U.S.
+Division
+50 miles
+625 miles
+1–3,500 miles 
+1 0–3,500 miles 
+2,750 miles
+50–3,500 miles Suppliers
+(21)
+The diagrams for this level are drawn by examining the third level of the network decomposi-
+tion diagram. Group items such as Order-Entry Manager and Order-Entry Clerks together because 
+they must be connected. Use a special symbol to show multiple workstations and indicate in 
+parentheses the number of similar workstations. In our example, there are 30 Order-Entry Clerks.
+Place workstations that must be connected to other hubs on the perimeter of the diagram. 
+In this way, it will be easier to represent these connections using arrows. Draw the external
+
+
+===== BOOK PAGE 520 =====
+
+520    PART V  •  QUALITY ASSURANCE AND IMPLEMENTATION
+connections in a different color or use thicker arrows. External connections are usually long 
+distance. For example, Administration is connected to the Marketing Division, which is 50 miles 
+away, and also to the Canadian and Mexican Divisions. The Warehouse needs to communicate 
+directly with the Canadian and Mexican warehouses in case it is possible to obtain the merchan-
+dise from another warehouse. The Order-Entry Manager and Order-Entry Clerks do not have to 
+be connected to anyone outside their LAN.
+TRAINING USERS
+Systems analysts engage in an educational process with users that is called training. Users have 
+been involved throughout the SDLC processes, or in the agile approach of having an on-site 
+customer, so by now an analyst should have an accurate assessment of the users who must be 
+trained.
+In the implementation of large projects, an analyst often will be managing the training rather 
+than personally being involved in it. One of the most prized assets an analyst can bring to any 
+training situation is the ability to see the system from the user’s viewpoint. An analyst must never 
+forget what it is like to face a new system. Those recollections can help analysts empathize with 
+users and facilitate their training.
+Training Strategies
+Training strategies are determined by who is being trained and who will train them. An analyst 
+will want to ensure that anyone whose work is affected by the new IS is properly trained by the 
+appropriate trainer.
+Whom to Train. All people who will have primary or secondary use of a system must be 
+trained. They include everyone from data-entry personnel to those who will use output to 
+make decisions without personally using a computer. The amount of training a system requires 
+depends on how much someone’s job will change because of the new interactions required by 
+the revised system.
+Ensure that users of different skill levels and job interests are separated. It is certain trouble 
+to include novices in the same training sessions as experts because novices are quickly lost and 
+experts are rapidly bored with basics. Both groups are then lost.
+FIGURE 16.14
+A workstation connectivity 
+diagram for World’s Trend.
+300 feet
+250
+f e e t
+200–250 feet
+50–100 feet500 feet
+To Canadian Division
+575 miles
+50–3,500 miles
+To Suppliers
+50 miles
+To Marketing Division
+To Mexican Division
+2,800 miles
+To Canadian Division
+575 miles
+To Mexican Division
+2,800 miles
+Order-
+Entry
+Manager
+Order-Entry
+Clerks
+(30)
+Administra-
+tion
+Ware-
+house
+
+
+===== BOOK PAGE 521 =====
+
+CHAPTER 16  •  QUALITY  A SSURANCE  AND  IMPLEMENTATION      521
+People Who Train Users. For a large project, many different trainers may be used, depending on 
+how many users must be trained and who they are. Possible training sources include the following:
+1. Vendors
+2. Systems analysts
+3. External paid trainers
+4. In-house trainers
+5. Other system users
+This list gives just a few of the options an analyst has in planning for and providing training.
+Large vendors often provide off-site one- or two-day training sessions on their equipment 
+as part of the service benefits offered when corporations purchase expensive COTS software. 
+These sessions include both lectures and hands-on training in a focused environment. They also 
+may extend the experience with online user groups, dedicated blogs, or annual user conferences.
+Because systems analysts know the organization’s people and the system, they can provide 
+good training. The use of analysts for training purposes depends on their availability because they 
+are also expected to oversee the complete implementation process.
+External paid trainers are sometimes brought into an organization to help with training. They 
+may have broad experience in teaching people how to use a variety of computers, but they may 
+not give the hands-on training that is needed for some users. In addition, they may not be able to 
+custom-tailor their presentations enough to make them meaningful to users.
+Full-time, in-house trainers are usually familiar with the skills and learning preferences of 
+personnel and can tailor materials to their needs. One of the drawbacks of in-house trainers is that 
+they may possess expertise in areas other than IS and may therefore lack the depth of technical 
+expertise that users require.
+It is also possible to have any of these trainers train a small group of people from each func-
+tional area that will be using the new IS. These people can, in turn, train the remaining users. This 
+approach works well if the original trainees have access to materials and trainers as resources 
+when they themselves are providing training. Otherwise, it might degenerate into a trial-and-error 
+situation rather than a structured one.
+Guidelines for Training
+An analyst has four major guidelines for setting up training: (1) establish measurable objectives, 
+(2) use appropriate training methods, (3) select suitable training sites, and (4) employ understand-
+able training materials.
+Training Objectives. Who is being trained in large part dictates the training objectives. Training 
+objectives for each group must be spelled out clearly. Well-defined objectives are of enormous 
+help in letting trainees know what is expected of them. In addition, objectives allow evaluation 
+of training when it is complete. For example, operators must know such basics as turning on the 
+machine, what to do when common errors occur, basic troubleshooting, and how to end an entry.
+Training Methods. Each user and operator will need slightly different training. To some extent, their 
+jobs determine what they need to know, and their personalities, experience, and backgrounds deter-
+mine how they learn best. Some users learn best by seeing, others by hearing, and still others by doing. 
+Because it is often not possible to customize training for an individual, using a combination of methods 
+may be the best way to proceed. That way, most users are reached through one method or another.
+Methods for those who learn best by seeing include demonstrations of equipment and exposure 
+to training manuals. Those who learn best by hearing will benefit from lectures about procedures, 
+discussions, and question-and-answer sessions among trainers and trainees. Those who learn best 
+by doing need hands-on experience with new equipment. For jobs such as that of computer opera-
+tor, hands-on experience is essential, whereas a quality assurance manager for a production line 
+may only need to see output, learn how to interpret it, and know when it is scheduled to arrive.
+Training Sites.  Training takes place in many different locations, some of which are more 
+conducive to learning than others. Large computer vendors provide special off-site locations at 
+which operable equipment is maintained free of charge. Their trainers offer hands-on experience 
+with software and hardware, as well as seminars in settings that allow users to concentrate on 
+learning the new system. One of the disadvantages of off-site training is that users are away from 
+the organization context in which they must eventually perform.
+
+
+===== BOOK PAGE 522 =====
+
+522    PART V  •  QUALITY ASSURANCE AND IMPLEMENTATION
+On-site training in the users’ organization is possible with several different kinds of trainers. 
+The advantage is that users see the equipment placed as it will be when it is fully operational in the 
+organization context. A serious disadvantage is that trainees often feel guilty about not fulfilling 
+their regular job duties if they remain on-site for training. Thus, full concentration on training 
+may not be possible.
+Off-site training sites are available for a fee through consultants and vendors. Training sites 
+can be set up in places with rented meeting space, such as a hotel, or may even be permanent 
+facilities maintained by the trainers. These arrangements allow workers to be free from regular 
+job demands, but they may not provide equipment for hands-on training.
+Training Materials. In planning for the training of users, systems analysts must realize the impor-
+tance of well-prepared training materials. These materials include training manuals; training cases, 
+in which users are assigned to work through a case that incorporates most of the commonly 
+encountered interactions with the system; and prototypes and mockups of output. Users of larger 
+systems sometimes will be able to train on elaborate web-based simulations or software that is 
+identical to what is being written or purchased. Most COTS software vendors provide online tuto-
+rials that illustrate basic functions, and vendors may maintain websites that feature pages devoted 
+to FAQs, which can be downloaded and printed. Changes to manuals can be gleaned from many 
+vendors’ websites.
+The user’s understanding of a system depends on training materials being clearly written 
+for the correct audience with a minimum of jargon. Training materials should be well indexed 
+and available to everyone who needs them. A summary of considerations for training objectives, 
+methods, sites, and materials is provided in Figure 16.15.
+CONVERSION TO A NEW SYSTEM
+A third approach to implementing a system is to physically convert an old IS to a new or modified 
+one. Many conversion strategies are available to analysts, as well as a contingency approach that 
+considers several user and organization variables in deciding which conversion strategy to use. 
+There is no single best way to proceed with conversion. The importance of adequate planning and 
+with whom you have been working. Both Laurie and Wade have 
+come to the team privately with different concerns.
+Wade told you, “I’m mad that I have to type in my own data in the 
+sessions. The Mississippi will freeze solid before I ever do that on my 
+job. I’ve got to know when to expect output and how to interpret it when 
+it comes. I’m not spending time in training sessions if I can’t get that.”
+Laurie, who shares training sessions with Wade, also complained 
+to your group, “We should be getting more hands-on training. All 
+we hear is a bunch of lectures. Not only that, but the people in the 
+group like to spin these ‘fish stories’ about what happened to them 
+with the old system. It’s boring. I want to know how to operate the 
+thing. It’s bait and switch if you ask me. I’m not learning what you 
+said I would, and besides, with all those managers in there, I feel 
+like a fish out of water.”
+What problems are occurring with the training sessions? How 
+can they be addressed given the scheduling constraints mentioned? 
+What basic advice on setting up training sessions did your team 
+ignore? Write a one-page response to these questions.
+CONSULTING OPPORTUNITY 16.4 
+You Can Lead a Fish to Water . . . but You Can’t Make It Drink
+S am Monroe, Belle Uga, Wally Ide, and you make up a four-
+member systems analysis team that is developing an IS to help 
+managers monitor and control water temperature, the number 
+of fish released, and other factors at a large commercial fish 
+hatchery. (They were last seen in “To Hatch a Fish,” Consulting 
+Opportunity 6.3, when they asked you, as their fourth member, 
+to help solve a problem involving the timely delivery of a 
+system prototype.)
+With your input, the team successfully turned the tide of 
+the earlier dilemma, and the project has continued. Now you are 
+discussing the training that you have begun to undertake for managers 
+and other systems users. Due to some scheduling difficulties, you 
+have decided to cut down on the number of training sessions offered, 
+which has resulted in users at a variety of levels of management 
+and computer expertise being in the same training sessions in  
+some instances.
+Laurie Hook, one of the operators who is being trained, has been 
+in the same training “tank” with Wade Boot, one of the managers
+
+
+===== BOOK PAGE 523 =====
+
+CHAPTER 16  •  QUALITY  A SSURANCE  AND  IMPLEMENTATION      523
+scheduling conversion with the strategic involvement of users (which often takes many weeks), 
+file backup, and adequate security cannot be overemphasized.
+Conversion Strategies
+The five strategies for converting from the old system to the new one are shown in Figure 16.16:
+1. Direct changeover
+2. Parallel conversion
+3. Gradual, or phased, conversion
+4. Modular conversion
+5. Distributed conversion
+Each of the five conversion approaches is described separately in the following subsections.
+Direct Changeover. Conversion by direct changeover means that, on a specified date, users stop 
+using the old system, and the new system is put into use. Direct changeover can be successful 
+only if extensive testing is done beforehand, and it works best when some delays in processing 
+can be tolerated. Direct changeover is considered a risky approach to conversion. Disruption to 
+the work environment may occur if users resent being forced to use an unfamiliar system, without 
+recourse. Finally, there is no adequate way to compare new results with old.
+Parallel Conversion. Parallel conversion refers to running an old system and a new system at the 
+same time, in parallel. When the same results can be gained over time, the new system continues to 
+be used and the old one is stopped. One advantage of running both systems in parallel is the pos-
+sibility of checking new data against old data to catch any errors in processing in the new system.  
+FIGURE 16.15
+Appropriate training objectives, 
+methods, sites, and materials 
+depend on many factors.
+Elements Relevant Factors
+Training Objectives
+Training Methods
+Depend on requirements of user’s job
+Depend on user’s job, personality, background, and experience;
+use combination of lecture, demonstration, hands-on, and study
+Depend on training objectives, cost, availability; free vendor sites
+with operable equipment; in-house installation; rented facilities
+Depend on user’s needs; operating manuals, cases, prototypes
+of equipment and output; online tutorials
+Training Sites
+Training Materials
+FIGURE 16.16
+Five conversion strategies for IS.
+Direct Changeover
+Distributed Conversion
+Modular Conversion
+Gradual Conversion
+Parallel Conversion
+Conversion Method                 Changes Over Time
+
+
+===== BOOK PAGE 524 =====
+
+524    PART V  •  QUALITY ASSURANCE AND IMPLEMENTATION
+The main disadvantages include the cost of running two systems at the same time and the burden 
+on employees by virtually doubling their workload during conversion.
+Gradual Conversion. Gradual, or phased, conversion attempts to combine the best features of  
+the two previously mentioned plans without incurring all the risks. In this plan, the volume 
+of transactions handled by the new system is gradually increased as the system is phased in. 
+The advantages of this approach include allowing users to get used to the system gradually, the 
+possibility of detecting and recovering from errors without a lot of downtime, and the ability to 
+add features one by one. Agile methodologies tend to use this conversion approach.
+Modular Conversion. Modular conversion uses the building of self-contained, operational sub-
+systems to change from old systems to new in a gradual manner. As each module is modified and 
+accepted, it is put into use. One advantage is that each module is thoroughly tested before being 
+used. Another advantage is that users are familiar with each module as it becomes operational. 
+Their feedback has helped determine the final attributes of the system. Object-oriented method-
+ologies often use this approach.
+Distributed Conversion. Distributed conversion refers to a situation in which many installations 
+of the same system are contemplated, as is the case in banking or in franchises such as restaurants 
+or clothing stores. One entire conversion is done (with any of the four approaches considered 
+previously) at one site. When that conversion is successfully completed, other conversions are 
+done for other sites. An advantage of distributed conversion is that problems can be detected and 
+contained rather than inflicted simultaneously on all sites. A disadvantage is that even when one 
+conversion is successful, each site will have its own people and culture, along with regional and 
+local peculiarities to work through, and they must be handled accordingly.
+Other Conversion Considerations
+Conversion entails other details for an analyst, including the following:
+1. Ordering equipment (up to three months ahead of planned conversion). Any slowdowns or 
+changes in the supply chain need to be accommodated in this planning as well.
+2. Ordering any necessary materials that are externally supplied to the IS, such as toner 
+cartridges, paper, preprinted forms, and storage media. Again, be mindful of slowdowns 
+brought on by supply-chain issues.
+3. Appointing a manager to supervise, or personally supervising, the preparation of the instal-
+lation site.
+4. Planning, scheduling, and supervising programmers and data entry personnel who must 
+convert all relevant files and databases.
+For many implementations, the chief roles of the systems analyst are to accurately estimate 
+the time needed for each activity, appoint people to manage each subproject, and coordinate their  
+work. For smaller projects, much of the conversion work is done by the analyst. Many of the 
+project management techniques discussed in Chapter 3, such as Gantt charts, PERT, function 
+point analysis, and successfully communicating with team members, are useful for planning and 
+controlling implementation.
+Organizational Metaphors and Their Relationship to  
+Successful Systems
+Be aware of organizational metaphors when implementing a just-developed system. Our 
+research in North America has suggested that the success or failure of a system may be related to 
+the metaphors used by organizational members.
+When people in an organization describe the company as a zoo, you can infer that the atmo-
+sphere is chaotic; if they describe it as a machine, everything is working in an orderly fashion. 
+When the predominant metaphor is war, journey, or jungle, the environment is chaotic, as with the 
+zoo. The war and journey metaphors are oriented toward an organization goal, however, whereas 
+the zoo and jungle metaphors are not.
+Metaphors such as society, family, and the game also signify order and rules. Although the 
+machine and game metaphors are goal oriented, the society and zoo metaphors do not stress
+
+
+===== BOOK PAGE 525 =====
+
+CHAPTER 16  •  QUALITY  A SSURANCE  AND  IMPLEMENTATION      525
+the company’s goal but instead allow individuals in the corporation to set their own standards and  
+rewards. Another metaphor, organism, appears balanced between order and chaos, corporate  
+and individual goals.
+Our research suggests that the success or failure of a system may have something to do with 
+the predominant metaphor. Figure 16.17 shows that a traditional MIS will tend to succeed when the  
+predominant metaphor is society, machine, or family, but it might not succeed if the metaphor is 
+war or jungle (two chaotic metaphors). Notice, however, that competitive systems will most likely 
+succeed if the metaphor is war.
+Positive metaphors appear to be game, organism, and machine. Negative metaphors appear to 
+be jungle and zoo. The others (journey, war, society, and family) show mixed success, depending 
+on the type of IS being developed. More research needs to be done in this area. In the meantime, 
+systems analysts should be aware that metaphors communicated in interviews could be meaningful 
+and may even be a factor that contributes to the success of the IS implementation.
+SECURITY CONCERNS FOR TRADITIONAL AND  
+WEB-BASED SYSTEMS
+Security of computer facilities, stored data, and the information generated is part of a successful 
+conversion. Recognition of the need for security is a natural outgrowth of the belief that informa-
+tion is a key organizational resource. With increasingly complex transactions and many innova-
+tive exchanges, the web has brought heightened security concerns to the IS professional’s world.
+It is useful to think of security of systems, data, and information on an imaginary continuum 
+from totally secure to totally open. Although there is no such thing as a totally secure system, the 
+actions analysts and users take are meant to move systems toward the secure end of the continuum 
+by lessening the system’s vulnerability. It should be noted that as more people in the organiza-
+tion gain greater computer power, gain access to the web, or connect to intranets and extranets, 
+security becomes increasingly difficult and complex. The rise of widespread remote or hybrid 
+(part in person, part remote) work in the emergence of the COVID-19 pandemic also increased 
+security risks. Sometimes, organizations will hire a security consultant to work with a systems 
+analyst when security is crucial to successful operations.
+Security is the responsibility of all those who come into contact with the system and is 
+only as good as the laxest behavior or policy in the organization. Security has three interrelated 
+FIGURE 16.17
+Organizational metaphors may 
+contribute to the success or failure 
+of an IS.
+Success less
+likely with these
+metaphors
+Success more
+likely with these
+metaphors
+War
+Jungle
+War
+Journey
+Jungle
+Zoo
+Family
+Society
+Machine
+Family
+Society
+Organism
+Traditional MIS
+Decision Support Systems
+Expert Systems/Al
+Society
+Zoo
+Zoo
+Family
+Society
+Journey
+Zoo
+Game
+Organism
+Machine
+Journey
+Game
+Organism
+War
+Game
+Organism
+Organism
+Game
+Cooperative Systems
+Competitive Systems
+Executive Information Systems
+Type of Information System
+
+
+===== BOOK PAGE 526 =====
+
+526    PART V  •  QUALITY ASSURANCE AND IMPLEMENTATION
+aspects: physical, logical, and behavioral. All three must work together if the quality of security 
+is to remain high.
+Physical Security
+Physical security refers to securing the computer facility, its equipment, and software through 
+physical means. It can include controlling access to the computer room by means of machine-
+readable badges, biometric systems, or a human sign-in/sign-out system, as well as using closed-
+circuit television cameras to monitor computer areas, backing up data frequently, and storing 
+backups in a fireproof, waterproof area, often at a secure off-site location, or using data storage 
+provided by cloud vendors.
+In addition, small computer equipment should be secured so that a typical user cannot move 
+it, and it should be guaranteed uninterrupted power. Alarms that notify appropriate people of fire, 
+flood, or unauthorized human intrusion must be in working order at all times.
+Decisions about physical security should be made along with users when an analyst is 
+planning for computer facilities and equipment purchases. Obviously, physical security can be 
+much tighter if anticipated in advance of installation and if computer rooms are specially equipped 
+for security when they are constructed rather than outfitted as an afterthought.
+Logical Security
+Logical security refers to logical controls in the software itself. The logical controls familiar to 
+most users are passwords or authorization codes of some sort. When used, they permit the user 
+with the correct password to enter the system or a particular part of a database.
+Passwords, however, are treated cavalierly in many organizations. Employees have been 
+overheard yelling a password across crowded offices, taping passwords to their display screens, 
+and sharing personal passwords with authorized employees who have forgotten their own.
+Special encryption software has been developed to protect commercial transactions on 
+the Web, and business transactions are proliferating. Internet fraud is also up sharply, however. 
+Few authorities are trained in catching internet criminals, and a “wild west” or “last frontier” 
+mentality is clearly evidenced in those instances when authorities have been able to apprehend 
+web criminals.
+One way for networks to cut down on the risk of exposure to security challenges from the 
+outside world is to build a firewall or firewall system. A firewall constructs a barricade between 
+an internal organization’s network and an external (inter)network, such as the internet. The 
+internal network is assumed to be trustworthy and secure, whereas the internet is not. Firewalls 
+are intended to prevent communication into or out of the network that has not been authorized 
+and that is not wanted. A firewall system is not a perfect remedy for organization and internet 
+security; it is, however, an additional layer of security that is now widely endorsed. There is no 
+fully integrated way to address security problems with internal and external networks, but they 
+do deserve analysts’ attention when planning any new or improved systems.
+Logical and physical controls are important but clearly not enough to provide adequate secu-
+rity. Behavioral changes are also necessary.
+Behavioral Security
+The behavioral expectations of an organization are implicit in its policy manuals and even on 
+signs posted in workrooms and lunchrooms, as we saw in Chapter 5. The behavior that organiza-
+tion members internalize, however, is also critical to the success of security efforts. (One reason 
+firewalls are not attack-proof is that many attacks to IS come from within the organization.)
+Security can begin with screening employees who will eventually have access to computers, 
+data, and information to ensure that their interests are consistent with the organization’s interests 
+and that they fully understand the importance of carrying through on security procedures. Policies 
+regarding security must be written, distributed, and updated so employees are fully aware of 
+expectations and responsibilities. Typically, a systems analyst will first have contact with the 
+behavioral aspects of security. Some organizations have written rules or policies prohibiting 
+employees from surfing the web during work hours, or even prohibiting web surfing altogether if 
+company equipment is involved. Other corporations use software locks to limit access to websites 
+judged to be objectionable in the workplace, such as game, gambling, or pornographic sites.
+
+
+===== BOOK PAGE 527 =====
+
+CHAPTER 16  •  QUALITY  A SSURANCE  AND  IMPLEMENTATION      527
+Part of behavioral security is monitoring behavior at irregular intervals to ascertain that 
+proper procedures are being followed and to correct any behaviors that may have eroded with 
+time. Having a system log the number of unsuccessful sign-on attempts of users is one way to 
+monitor whether unauthorized users are attempting to sign on to the system. Periodic and frequent 
+inventorying of equipment and software is desirable. In addition, unusually long sessions or 
+atypical after-hours access to the system should be examined.
+Employees should clearly understand what is expected of them, what is prohibited, and the 
+extent of their rights and responsibilities. For example, in the United States and the European 
+Union, employers are legally obligated to disclose all monitoring that is being done or that is 
+being contemplated, and they must supply the rationale behind it. Such disclosure should include 
+whether there is use of video cameras, software, and phone monitoring. Other countries have their 
+own laws regarding legal usage of these devices and software for monitoring.
+Output generated by a system must be recognized for its potential to put an organization at 
+risk in some circumstances. Controls for output include displays that can only be accessed via 
+password, the classification of information (that is, to whom it can be distributed and when), and 
+secure storage of printed and stored documents, no matter what their format.
+In some cases, provisions must be made for shredding documents that are classified or pro-
+prietary. Shredding or pulverization services can be contracted from an outside firm that, for a fee, 
+will shred magnetic media, printer cartridges, and paper. A large corporation may shred upward 
+of 76,000 pounds of output in a variety of media annually.
+Two-Factor Authentication for Improved Security
+When used for securing computer systems or mobile devices, two-factor authentication (2FA) 
+is a two-step verification or dual-factor authentication security process where users give 
+two unique authetification factors to verify their authorization to access a system or software 
+(techtarget.com). Using two-factor authentification, the user chooses two or three of the following: 
+something they know, something they possess, or something they are . In the future, analysts 
+may seek three-factor authentication, which means that users will need to possess a physical 
+token and a password, used along with biometric data, instances of which are retinal scans, 
+voiceprints, and scans of fingerprints.
+Special Security Considerations for Ecommerce
+It is well known that intruders can violate the integrity of any computer system. Analysts need to 
+take a series of precautions to protect the computer network from both internal and external web 
+security threats. A number of actions and products can help:
+1. Software that can detect and remove malware.
+2. Email filtering products that provide policy-based email and email attachment scanning 
+and filtering to protect companies against both incoming and outgoing email. Incoming 
+scanning protects against spam (unsolicited email such as advertising) attacks, and outgo-
+ing scanning protects against the loss of proprietary information.
+3. URL filtering products that provide employees with access to the web by user, by groups 
+of users, by computers, by the time, or by the day of the week.
+4. Firewalls, gateways, and virtual private networks that prevent hackers from gaining back-
+door access to a corporate network.
+5. Intrusion detection and antiphishing products that continually monitor usage, provide mes-
+sages and reports, and suggest actions to take.
+6. Vulnerability management products that assess the potential risks in a system and discover 
+and report vulnerabilities. Some products correlate the vulnerabilities to make it easier to 
+find the root cause of the security breach. Risk cannot be eliminated, but this software can 
+help manage the risk by balancing security risk versus the financial bottom line.
+7. Security technologies such as SSL/TLS (Secure Sockets Layer and the preferred Transport 
+Layer Security) for authentication and to encrypt and protect data sent over the internet or 
+a network.
+8. Encryption technologies such as secure electronic transaction.
+9. Public key infrastructure (PKI) and digital certificates (obtained from a company such 
+as VeriSign). Use of digital certificates ensures that the reported sender of the message is 
+really the company that sent the message.
+
+
+===== BOOK PAGE 528 =====
+
+528    PART V  •  QUALITY ASSURANCE AND IMPLEMENTATION
+Implementation Concerns for the Internet of Things
+With so many applications and devices featuring internet connectivity, it is inevitable that you will 
+be faced with designing networks (or partial networks) that have the capability to connect with 
+the larger Internet of Things (IoT), which includes among other devices:
+• Digital assistants
+• Thermostats
+• Automobiles
+• More advanced sensors for climate and hospital environments
+• Microcontrollers
+• Communication technology
+It is imperative that a solid business reason or clear return on investment (ROI) can be estab-
+lished for the implementation of IoT. As this is being written, a majority of business leaders cannot 
+see a clear ROI for IoT. A clear goal for undertaking an IoT project must be established. Analysts 
+can facilitate decision makers’ understanding of the benefits of undertaking development of IoT 
+for the organization.
+Because of their sophisticated and complex nature, the chips that are the cornerstone of these 
+technologies have been slowed in the global supply chain due to the pandemic and other world-
+wide challenges. Less complex chips, such as those needed for CPUs, while facing supply-chain 
+issues, have not been as drastically affected and will be in readier supply.
+Unfortunately, the push for connectivity through IoT has not been met with an equally robust 
+determination to secure IoT. All of the devices that are capable of being added to IoT send and 
+receive data via the internet. Setting up security for computer networks is second nature for 
+systems analysts. However, the same cannot be said for the Internet of Things, which might be 
+created in an ad hoc way. The FBI has taken this threat seriously and has even issued warnings to 
+consumers that their home devices are not secure and are vulnerable through the connection of 
+unsecured devices to the internet. Hackers can easily find a way into a home office router.
+Unauthorized devices can be added to IoT without proper planning (or even automatically) 
+by those in the organization eager to be part of a network. Unsecured devices are susceptible to 
+hackers who can easily get a path to corporate or personal routers if precautions are not taken.
+Cybersecurity planning should be embedded in systems planning from the inception of the 
+proposed project so that it is integrated, and associated costs are planned for as well. Devices 
+should be added slowly and monitored throughout the life cycle. Teams versed in IoT should be 
+included in any planning and implementation projects.
+Here is a list of precautions systems analysts can take to reduce the risk of cybercrime associ-
+ated with IoT implementation:
+1. Inventory all devices involved in IoT.
+2. Ensure that all devices identified are trustworthy.
+3. Identify risk threats posed by any vulnerable devices.
+4. Mitigate any risks with tracking and appropriate upgrades and/or deletions.
+5. Monitor all devices for cyber risks throughout the life cycle of IoT.
+Privacy Considerations for Ecommerce
+The other side of security is privacy. To make a website more secure, you must ask the user or 
+customer to give up some privacy.
+Web designers recognize that the company for which you design exercises a great deal of power 
+over the data its customers are providing. The same tenets of ethical and legal behavior apply to 
+website design as to the design of any traditional application that accepts personal data from custom-
+ers. The Web, however, allows the data to be collected faster and allows different data to be collected 
+(such as the browsing habits of the customer). In general, information technology makes it possible 
+to store more data in data warehouses, process that data, and distribute the data more widely.
+Every company for which you design an ecommerce application should adopt a privacy 
+policy. Here are some guidelines:
+1. Start with a corporate policy on privacy. Make sure it is prominently displayed on the 
+website so all customers can access the policy whenever they complete a transaction.
+
+
+===== BOOK PAGE 529 =====
+
+CHAPTER 16  •  QUALITY  A SSURANCE  AND  IMPLEMENTATION      529
+2. Ask only for information the application requires to complete the transaction at hand. For 
+example, is it necessary to the transaction to ask a person’s age or gender?
+3. Make it optional for customers to fill out personal information on the website. Some 
+customers do not mind receiving targeted messages, but you should always give customers 
+an opportunity to maintain the confidentiality of their personal data by not responding.
+4. Use sources that allow you to obtain anonymous information about classes of customers. 
+There are companies that offer audience profiling technology and technology solutions 
+for management of advertisements, their targeting, and their delivery. They do so by 
+maintaining a dynamic database of consumer profiles without linking them to individuals, 
+thereby respecting customers’ rights to privacy.
+5. Be ethical. Avoid the latest cheap trick that permits your client to gather information about 
+the customer in highly suspect ways. Tricks such as screen scraping (capturing remotely 
+what is on a customer’s screen) and email cookie grabbing are clear violations of privacy 
+and may prove to be illegal as well.
+A coordinated policy of security and privacy is essential. It is essential to establish these 
+policies and adhere to them when implementing an ecommerce application.
+Disaster Recovery Planning
+No matter how diligently you and your organizational colleagues work to ensure the security and 
+stability of systems, all employees and systems are inevitably vulnerable to some kind of natural 
+or human-caused disaster that threatens security as well as the functioning of the business. Some 
+disasters are quite common, such as power outages. We can assess the probability of some disas-
+ters occurring, such as a hurricane or an earthquake. However, many disasters are unexpected in 
+their timing or their severity, perhaps even causing loss of life, creating chaos for people and the 
+organization itself.
+The fields of disaster preparedness and disaster recovery are interdependent, and they 
+build on each other. Disaster preparedness includes what a company should do if it encounters a 
+crisis. The field of disaster recovery is focused on how a business can continue in the aftermath of 
+a disaster and how it can restore essential systems in the IT infrastructure. This section focuses on 
+disaster recovery as it relates to IS. The traditional disaster recovery process consists of planning, 
+a walkthrough, practice drills, and recovery from the disaster.
+When hit with a disaster, a company stands to lose people, money, reputation, and its own 
+assets, as well as those of its clients. It is important to do the right things to minimize potential 
+losses. Analysts should determine what the organization’s level of disaster planning is and how 
+well articulated the role of IS is in their disaster response and recovery plans. The key questions 
+analysts must ask early on are (1) whether employees know where to go and (2) what to do in 
+the face of a disaster. The answers to these questions will guide further planning. Conventional 
+wisdom provides seven elements to consider during and after a disaster. As you will see, many of 
+them involve IS and relate specifically to the planning required of the systems analyst:
+1. Identify the teams responsible for managing a crisis.
+2. Eliminate single points of failure.
+3. Determine data replication technologies that match the organization’s timetable for getting 
+systems up and running.
+4. Create detailed relocation and transportation plans.
+5. Establish multiple communication channels among employees and consultants who are on-
+site, such as analysis teams.
+6. Provide recovery solutions that include an off-site location.
+7. Ensure the physical and psychological well-being of employees and others who may be 
+physically present at the work site when a disaster hits.
+The disaster preparedness plan should identify who, in the event of a disaster, is responsible 
+for making several pivotal decisions. These include decisions about whether business operations 
+will continue, how to support communications (both computer and voice), where people will 
+be sent if the business is uninhabitable, where personnel will go in an emergency, seeing to the 
+personal and psychological needs of the people present in the business and those who might be 
+working virtually, and restoring the main computing and work environments.
+
+
+===== BOOK PAGE 530 =====
+
+530    PART V  •  QUALITY ASSURANCE AND IMPLEMENTATION
+Redundancy of data provides the key for eliminating single points of failure for servers 
+running web applications. An analyst can be especially helpful in setting up this type of backup 
+and redundancy.
+The advent of open source, software-defined storage has meant a streamlining of storage 
+operations, greater efficiency, and lower costs. Some industry analysts predict that Storage as a 
+Service (STaaS), where organizations can just rent the storage they need, will eventually take over 
+the work of storage area networks (SANs) during the coming decade (Robb, 2022). In the past, 
+some businesses used SANs to get away from some of the unreliability associated with physical 
+tape backups and storage. Synchronous remote replication, also called data mirroring, for nearly 
+real-time backup also gained favor in the past. However, if companies are farther than 100 miles 
+away from the site, the data mirroring process can be affected. Asynchronous remote replication 
+sends data to a secondary storage location at designated time intervals. Online options are avail-
+able for small businesses too.
+An organization should develop and distribute a one-page memo that contains evacuation 
+routes and employee assembly points. This should be distributed to everyone in the organization. 
+The three common choices are to send employees home, to have them remain on-site, or to relo-
+cate them to a recovery facility set up to continue operations. The entire gamut of transportation 
+options should be considered when developing this memo.
+Organization and analysis team members must be able to communicate in the event that 
+typical email is disrupted. If email is unavailable for broadcasting an emergency message, an 
+emergency information web page or emergency hotline can serve as a viable alternative. Recently, 
+some software companies have started offering a suite of software tools that permits ad hoc 
+communication by emergency response agencies that allows them to rapidly set up secure V oIP, web 
+connectivity, and Wi-Fi hot spot capabilities. Wider availability and lower prices will undoubtedly 
+bring these important communication capabilities to other types of organizations in the future.
+Agua concurs, saying, “It would be music to my ears, it would 
+be really sweet if they would work with us to spot trends and 
+changes—and then respond quickly.”
+Stern’s, based in Blackpool, England, is a European beverage 
+maker and the developer and producer of Sipps. Sipps is a sweet, 
+fruit-flavored, nonalcoholic, noncarbonated drink served chilled 
+or with ice, and it is particularly popular when the weather is 
+hot. Sipps has sold briskly in Europe and grown in popularity 
+in the United States since its introduction five years ago, but 
+the company has had a difficult time adequately managing 
+inventory and keeping up with U.S. customer demand, which is 
+affected by seasonal temperature fluctuations. Places with year-
+round, warm-temperature climates and lots of tourists (such as 
+Florida and California) have large standing orders, but other 
+areas of the country could benefit from a less cumbersome, 
+more responsive order-placing process. A network of local 
+distributors located throughout the United States and Canada  
+distributes Sipps.
+Devise a systems solution that will address the problems 
+discussed there. (Hint: The technology is important, but so is the 
+way people can use it.) Your solution should stress collaboration, 
+flexibility, adaptability, and access. Use network diagramming to 
+illustrate your solution. In a few paragraphs, write a rationale for 
+why your solution should be chosen.
+CONSULTING OPPORTUNITY 16.5 
+The Sweet Smell of Success
+S olana Agua, who represents one of the many U.S. distributors 
+of the European soft drink Sipps, gazes unhappily at the weather 
+app on her smartphone, which shows a map of the United States 
+saturated with dark red, indicating that most of the country is 
+experiencing an early spring heat wave, with no signs of a letup. 
+Holding up the screen of her smartphone as she speaks to the 
+assembled systems group, she says, “It’s the best thing that could 
+happen to us, or at least it should be. But when we had to place our 
+orders three months ago, we had no idea that this spring monster 
+heat wave was going to devour the country this way!” Nodding her 
+head toward a picture of their European plant hung on the wall, she 
+continues, “We need to be able to tell them when things are hot over 
+here so we can get enough product. Otherwise, we’ll miss out every 
+time. This happened two years ago, and it just about ruined us.
+“Each of us distributors meets with our district managers to 
+do three-month planning. When we agree, we email our orders to 
+European headquarters. They make their own adjustments, bottle 
+the drinks, and then we get our modified orders about 9 to 15 weeks 
+later. But we need ways to tell them what’s going on now. Why, we 
+even have some new superstores that are opening up here. They 
+should know we have extra-high demand.”
+Corky, her assistant, agrees, saying, “Yeah, they should at least 
+look at our past sales around this time of year. Some springs are hot, 
+others are just average.”
+
+
+===== BOOK PAGE 531 =====
+
+CHAPTER 16  •  QUALITY  A SSURANCE  AND  IMPLEMENTATION      531
+To better protect an organization’s backup systems and to ensure the continued, uninterrupted 
+flow of banking transactions in the event of a disaster, regulations in the United States stipulate 
+that off-site bank locations must be at least 100 miles away from the original site. Paper files and 
+backups also present a monumental problem and are highly vulnerable to natural and human-
+caused disasters; organizations are strongly encouraged to create a plan that helps them move 
+toward a digital documentation project that is meant to convert all of their paper documents to 
+electronic formats within three to five years of inception (Stephens, 2003).
+Support for people working at an organization that experiences a disaster is paramount. There 
+must be plentiful and easily available water, especially if employees are unable to leave the site for 
+a number of days due to outside weather conditions or partial building collapses. Although food 
+is important, water is more so. Employees should be issued a safety kit containing water, a dust 
+mask, a flashlight, glow sticks, and a whistle. One way to learn what should comprise a personal 
+workspace disaster supplies kit is to go to the American Red Cross website (www.redcross.org), 
+which provides details for support during disasters and in their aftermath.
+EVALUATION
+Throughout the SDLC, an analyst, management, and users have been evaluating the evolving IS 
+and networks to give feedback for their eventual improvement. Evaluation is called for following 
+system implementation as well.
+Evaluation Techniques
+Recognizing that ongoing evaluation of IS and networks is important; many evaluation techniques 
+have been devised. These techniques include cost–benefit analysis (as discussed in Chapter 3); 
+models that attempt to estimate the value of a decision based on the effects of revised informa-
+tion using information theory, simulation, or Bayesian statistics; user evaluations that emphasize 
+implementation problems and user involvement; and IS utility approaches that examine the prop-
+erties of information.
+Each type of evaluation serves a different purpose and has inherent drawbacks. Cost–
+benefit analysis may be difficult to apply because IS provide information about objectives for 
+the first time, making it impossible to compare performance before and after implementation 
+of the system or distributed network. The revised decision evaluation approach presents 
+difficulty because all variables involved with the design, development, and implementation of 
+the IS cannot be calculated or quantified. The user involvement approach yields some insight 
+for new projects by providing a checklist of potentially dysfunctional behavior by various 
+organizational members, but it stresses implementation over other aspects of IS design. The 
+IS utility approach to evaluation can be more comprehensive than the others if it is expanded 
+and systematically applied.
+The Information System Utility Approach
+The information system utility approach for evaluating IS can be a comprehensive and fruitful 
+technique for measuring the success of a developed system. It can serve as a guide in the develop-
+ment of any future projects an analyst might undertake as well.
+Utilities of information include possession, form, place, and time. To evaluate the IS compre-
+hensively, these utilities must be expanded to include actualization utility and goal utility. Then the 
+utilities can be seen to address adequately the questions of who (possession), what (form), where 
+(place), when (time), how (actualization), and why (goal). An example of this information utility 
+approach is illustrated in the evaluation of a blood inventory system in Figure 16.18.
+An IS can be evaluated as successful if it possesses all six of these utilities. If the system 
+module is judged as “poor” in providing one of the utilities, the entire module will be destined to 
+fail. A partial or “fair” attainment of a utility will result in a partially successful module. If the IS 
+module is judged as “good” in providing every utility, the module is a success.
+Possession Utility. Possession utility answers the question of who should receive output, or, in 
+other words, who should be responsible for making decisions. Information has no value in the 
+hands of someone who lacks the power to make improvements in the system or someone who 
+lacks the ability to use the information productively.
+
+
+===== BOOK PAGE 532 =====
+
+532    PART V  •  QUALITY ASSURANCE AND IMPLEMENTATION
+Form Utility. Form utility answers the question of what kind of output is distributed to the deci-
+sion maker. The documents must be useful for a particular decision maker in terms of document 
+format and the jargon used. Acronyms and column headings must be meaningful to the user. 
+Furthermore, information itself must be in an appropriate form. For example, the user should 
+not have to divide one number by another to obtain a ratio. Instead, a ratio should be calculated 
+and prominently displayed. At the other extreme is the presentation of too much irrelevant data. 
+Information overload certainly decreases the value of an IS.
+Place Utility. Place utility answers the question of where the information is distributed. 
+Information must be delivered to the location where the decision is made. More detailed reports 
+or previous management reports should be filed or stored to facilitate future access.
+Time Utility. Time utility answers the question of when information is delivered. Information 
+must arrive before a decision is made. Late information has no utility. At the other extreme is the 
+delivery of information too far in advance of the decision. Reports may become inaccurate or may 
+be forgotten if delivered prematurely.
+Actualization Utility. Actualization utility involves how the information is introduced and used by 
+the decision maker. First, the IS has value if it possesses the ability to be implemented. Second, 
+actualization utility implies that an IS has value if it is maintained after its designers depart, or if 
+a one-time use of the IS obtains satisfactory and long-lasting results.
+Goal Utility. Goal utility answers the “why” of IS by asking whether the output has value in 
+helping the organization obtain its objectives. The goal of the IS must not only be in line with the 
+goals of decision makers but it must also reflect their priorities.
+FIGURE 16.18
+Evaluating a blood inventory information and decision support system using the information system utility approach.
+Information
+Systems 
+Modules
+Form 
+Utility
+Time 
+Utility
+Place 
+Utility
+Possession 
+Utility
+Actualization
+Utility
+Goal 
+Utility
+Inventory 
+Lists
+Success
+Good. Acronyms
+used were the same 
+as shipping codes.
+As systems grew,
+too much  information
+was  presented; this
+overload called 
+for summary 
+information.
+Poor. The people
+who allocated
+blood mistrusted
+the mysterious
+numbers produced
+by the computer.
+Good. Reports
+were received
+at least one
+hour before 
+scheduled
+shipments on 
+a daily basis.
+Good. Inventory
+lists were printed at
+the regional blood
+center. Lists were 
+delivered to hospitals
+with the current
+shipments.
+Good. Implemen-
+tation was easy
+because hospitals
+found the inven-
+tory lists to be
+extremely useful.
+Good. The  same
+people who origi-
+nally kept manual
+records received
+these reports.
+Good. Information
+about the location
+of particular units
+was made
+available.
+Poor. This was
+not an immediate
+goal of the blood
+region. Shipping
+costs were passed
+on to patients.
+Poor. Too many
+people were in-
+volved with blood
+inventories to be
+able to participate
+in the design of
+the system.
+Fair. Adminis-
+trators responsible
+for daily blood
+allocation received
+the original.
+Good. Printed at 
+blood center.
+Good. Reports
+were provided
+one hour before
+allocation deci-
+sions were made.
+Heuristic 
+Allocation 
+Failure
+Good. Shortages
+were prevented by
+calling in more
+donors.
+Good. Output
+design could
+have been more
+participative.
+Good. Adminis-
+trators concerned
+with distribution
+and collections
+received the report. 
+Good. Printed at 
+blood center.
+Good. Forecasts
+were updated
+daily.
+Good. A forecast
+was issued for
+each blood type.
+Short-Term
+Forecasting
+Success
+Good. Summary
+reports helped
+reduce outdating
+and prevent
+shortages.
+Good. Blood
+administrators
+participated in
+the design of the
+reports.
+Good. Blood admin-
+istrators who origin-
+ally kept manual
+reports received
+these reports.
+Good. Summary
+reports were
+printed at the
+center where
+they were 
+needed. 
+Good. Same 
+as  listings.
+Good. Summary report
+was designed to exact
+format speciﬁcations
+of manual summary 
+reports developed by 
+the blood administrator
+for city hospitals.
+Management
+Summary
+Reports
+Success
+
+
+===== BOOK PAGE 533 =====
+
+CHAPTER 16  •  QUALITY  A SSURANCE  AND  IMPLEMENTATION      533
+EVALUATING CORPORATE WEBSITES
+Evaluating the corporate website analysts are developing or maintaining is an important part of any 
+successful implementation effort. Analysts can use the IS utility approach previously described 
+to assess the aesthetic qualities, content, and delivery of the site. An analyst or a web developer 
+should go one step further and analyze web traffic as well.
+A visitor to the website can generate a large amount of useful information to analyze. This 
+information can be gathered automatically by capturing information about the source, including 
+the previous website the user visited and the keywords used to find the site; the information also 
+can be obtained through using cookies (files left on a user’s computer about when they last were 
+on the site).
+An analyst or a web developer can gain valuable information by using a service such as 
+Telium. (Although some services might be free, the pay services usually provide the detail needed 
+to evaluate a site in depth. The cost is an ongoing budget item for maintaining the website.) 
+Information to help you evaluate your client’s site and make improvements is plentiful and easy 
+to obtain. The seven essential items are described next.
+1. Know how often your client’s website is visited. The number of hits a website had in the 
+past few days, the number of visitor sessions, and the number of pages visited are a few of 
+the general things you need to know.
+2. Learn details about specific pages on the site. It is possible to get statistics on the most 
+requested pages, most requested topics, top paths a visitor takes through the client’s web-
+site, or even the most downloaded files. If the website is a commercial one, shopping cart 
+reports can show how many visitors were converted into buyers and how many abandoned 
+their carts or failed to complete the checkout process.
+3. Find out more about the website’s visitors. Visitor demographics and information such 
+as the number of visits by a particular visitor in a period of time, whether the visitor is a 
+new or a returning one, and who the top visitors are is all valuable information when evalu-
+ating a website.
+4. Discover whether visitors can properly fill out the forms you designed. If the error 
+rate is high, redesign the form and see what happens. Analysis of the statistics will reveal 
+whether bad form design was to blame for errors in response.
+5. Find out who is referring website visitors to the client’s site. Find out which sites are 
+responsible for referring visitors to the client’s website. Get statistics on the top referring 
+site, the top search engines leading to the site, and the keywords visitors used to locate your 
+client’s website. After promoting a site, you can use web traffic analysis to track whether 
+the site promotion really made a difference.
+time or anything. We never really did get into the nitty-gritty about 
+the finished system with that consulting team. I feel as if we had to 
+hire your group just to mop up after what they left.”
+After further discussions with Stan Lessink and Jill Oh, the 
+company’s chief programmers, you realize that the team that did 
+the initial installation had no evaluation mechanism. Suggest a suit-
+able framework for evaluating the kinds of concerns Marc raised 
+about the system. Outline it in a page. What are the problems that 
+can occur when a system is not evaluated systematically? Respond 
+in a paragraph.
+CONSULTING OPPORTUNITY 16.6 
+Mopping Up with the New System
+“I don’t know what happened. When the new system was installed, 
+the systems analysts made a clean getaway, as far as I can tell,”  
+says Marc Schnieder, waxing philosophic. Recall that he is owner of the  
+Marc Schnieder Janitorial Supply Company. (You last met Marc in 
+Consulting Opportunity 13.1, in which you helped him with his data 
+storage needs. In the interim, he has had a new IS installed.)
+“The systems analysis team asked us some questions about how 
+we liked the new system,” Marc supplies eagerly. “We didn’t really 
+know how to tell them that the output wasn’t as spotless as we’d like. 
+I mean, it’s confusing. It isn’t getting to the right people at the right
+
+
+===== BOOK PAGE 534 =====
+
+534    PART V  •  QUALITY ASSURANCE AND IMPLEMENTATION
+6. Determine what browsers visitors are using. By knowing what browsers are being used, 
+you can add browser-specific features that improve the look and feel of the site and encour-
+age visitors to stay longer, thereby improving the stickiness of the site. It helps to know 
+whether visitors are using current or outdated browsers.
+7. Find out whether the client’s website visitors are interested in advertising. Finally, find 
+out whether visitors to the site are interested in the ad campaigns you have on your site, 
+such as offering a product on sale for a specific period.
+Web activity services can be helpful in evaluating whether a site is meeting its stated objectives in 
+terms of traffic, advertising effectiveness, employee productivity, and return on investment. It is 
+one of the ways an analyst can evaluate whether the corporate web presence is meeting manage-
+ment goals and whether it accurately portrays the organization’s vision.
+Summary
+A systems analyst can ensure total quality management for analyzing and designing information systems 
+in many ways. Six Sigma is a culture, philosophy, methodology, and approach to quality that has as its goal 
+the elimination of all defects. A tool for designing a top-down, modular system is called a structure chart. 
+Service-oriented architecture is an approach that uses independent services to perform various functions. 
+Two of the structured techniques that can aid a systems analyst are procedure manuals and FOLKLORE. 
+Systems analysts must choose a technique that fits in well with what was previously used in the organization 
+and that allows flexibility and easy modification.
+Requirements traceability can be considered part of documentation. It follows the life of a requirement 
+in both directions. Ideally, a requirement can be traced back to a business objective and forward to a success-
+fully deployed product. Ther are four types of traceability: foreword TO requirements traceability, forward 
+FROM traceability, backward FROM requirements traceability, and backward TO requirements traceability.
+Testing of specific programs, subsystems, and total systems is essential to quality. System maintenance 
+is an important consideration. Both internal and external auditors are used to determine the reliability of 
+the system’s information. They communicate their audit findings to others to improve the usefulness of the 
+system’s information.
+Behavior-driven development is a method that develops software by putting features to the test and 
+determining which features succeed, which features fail, and which features may be missing. Developers 
+will initially write failing unit tests. Then they will write and rewrite code until the code passes.
+Implementation is the process of ensuring that information systems and networks are operational and 
+then involving well-trained users in their operation. In large systems projects, the primary role of an analyst 
+is overseeing implementation by correctly estimating the time needed and then supervising the installation 
+of equipment for information systems.
+Distributed systems take advantage of telecommunications technology and database management to 
+interconnect people manipulating some of the same data in meaningful but different ways. As hardware 
+and software are evaluated, a systems analyst also needs to consider the costs and benefits of employing a 
+distributed system to fulfill user requirements. One of the most popular ways to approach distributed systems 
+is through the use of a client/server model.
+Enterprise resource planning systems are developed for use via the cloud. Standard types of organization 
+networks include the local area network and the wide area network. Using a top-down approach, analysts 
+can use five symbols to help draw network decomposition and hub connectivity diagrams.
+Training users and personnel to interact with the information system is an important part of implementation 
+because users usually must be able to run the system without the intervention of an analyst. Conversion is 
+the process of changing from an old information system to a new one. The five conversion strategies are 
+direct changeover, parallel conversion, phased or gradual conversion, modular conversion, and distributed 
+conversion. Research suggests that systems analysts can improve the chances that newly implemented systems 
+will be accepted if they develop systems with predominant organization metaphors in mind.
+Security of data and systems has taken on increased importance for analysts who are designing more 
+ecommerce applications. Security has several facets—physical, logical, and behavioral—that must all work 
+together. Analysts can take a number of precautions, such as virus protection software, email filtering, URL 
+filters, firewalls, gateways, virtual private networks, intrusion detection products, SSL/TSL, secure electronic 
+transaction, and the use of a public key infrastructure to improve privacy, confidentiality, and the security of 
+systems, networks, data, individuals, and organizations. Two-factor authentication, also known as two-step 
+verification or dual-factor authentication, means that the user provides two unique authentification factors 
+to identify themselves and gain access to systems or software. It is considered to be more secure than use of 
+a single password to gain access. Three-factor authentication is on the horizon. In addition to implementing
+
+
+===== BOOK PAGE 535 =====
+
+CHAPTER 16  •  QUALITY  A SSURANCE  AND  IMPLEMENTATION      535
+these security behaviors, every company for which you design an ecommerce application should adopt a 
+privacy policy following five guidelines.
+Analysts are increasingly tasked with developing networks of devices that can connect with the Internet 
+of Things (IoT). It is imperative that a solid business reason or clear return on investment (ROI) can be 
+established for the implementation of IoT, which is fraught with security concerns.
+Even when you take all possible measures to ensure system security, privacy, and stability, all employ-
+ees and systems are vulnerable to natural or human-caused disasters. Disaster recovery is focused on how a 
+business can continue after a disaster has hit and how it can restore essential IT infrastructure.
+Many different evaluation approaches are available, including cost–benefit analysis, the revised decision 
+evaluation approach, and user involvement evaluations. The information system utility framework is a direct 
+way to evaluate a new system based on the six utilities of possession, form, place, time, actualization, and goal.
+Keywords and Phrases
+Behavior-driven development (BDD)
+behavioral security
+bottom-up approach
+client/server model
+control flag (switch)
+data couple
+desk check
+direct changeover
+disaster preparedness
+disaster recovery
+distributed conversion
+dual-factor authentication
+email filtering products
+encryption software
+external auditor
+firewall or firewall system
+FOLKLORE
+gradual or phased conversion
+hub connectivity
+information system utility
+internal auditor
+Internet of Things (IoT)
+IS quality circle
+link testing (string testing)
+live data
+local area network (LAN)
+logical security
+modular approach
+modular conversion
+network decomposition
+network modeling
+orchestration (as part of SOA)
+organizational metaphors
+parallel conversion
+physical security
+privacy policy
+program testing 
+public key infrastructure (PKI)
+requirements traceability
+Secure Sockets Layer/Transport Layer 
+Security (SSL/TLS)
+service-oriented architecture (SOA)
+Six Sigma
+storage area networks (SANs)
+Storage as a Service (STaaS)
+structure chart
+structured walkthrough
+test data
+three-factor authentication
+top-down design
+total quality management (TQM)
+two-factor authentication (2FA)
+two-step verification
+URL filtering products
+virus protection software
+web traffic analysis
+wide area network (WAN)
+wireless local area network (WLAN)
+Review Questions
+1. What are the three broad approaches available to a systems analyst for attaining quality in newly 
+developed systems?
+2. Who or what is the most important factor in establishing and evaluating the quality of information 
+systems (IS) or decision support systems? Why?
+3. Define the total quality management approach as it applies to the analysis and design of IS.
+4. What is meant by the term Six Sigma?
+5. What is an IS quality circle?
+6. Define what is meant by doing a structured walkthrough. Who should be involved? When should 
+structured walkthroughs be done?
+7. List the advantages of taking a top-down approach to design.
+8. Define modular design.
+9. List four guidelines for correct modular programming.
+10. Name the two types of arrows used in structure charts.
+
+
+===== BOOK PAGE 536 =====
+
+536    PART V  •  QUALITY ASSURANCE AND IMPLEMENTATION
+11. What is service-oriented architecture?
+12. Give two reasons that support the necessity of well-developed systems and software documentation.
+13. In what four categories does the FOLKLORE documentation method collect information?
+14. List six guidelines for choosing a design and documentation technique.
+15. What is requirements traceability?
+16. How is requirements traceability accomplished in the SDLC?
+17. How is requiremenets traceability accomplished in the agile approach?
+18. Whose primary responsibility is it to test computer programs?
+19. What is the difference between test data and live data?
+20. What are four advantages of using behavior-driven development?
+21. What are the two types of systems auditors?
+22. List the four approaches to system implementation.
+23. Describe what is meant by a distributed system.
+24. What is the client/server model?
+25. Describe how a client is different from a user.
+26. What is distributed computing?
+27. What are the advantages of using a client/server approach?
+28. What are the disadvantages of using a client/server approach?
+29. Who should be trained to use the new or modified IS?
+30. List the five possible sources of training for users of IS.
+31. List the five conversion strategies for converting old IS to new ones.
+32. List the nine organizational metaphors and the hypothesized success of each type of system given 
+their presence.
+33. Define the terms physical, logical, and behavioral security and give an example of each one that 
+illustrates the differences among them.
+34. What is two-factor authentication?
+35. Define encryption software.
+36. What is a firewall or firewall system?
+37. List five of the measures an analyst can take to improve the security, privacy, and confidentiality of 
+data, systems, networks, individuals, and organizations that use ecommerce web applications.
+38. List five guidelines for designing a corporate privacy policy for ecommerce applications.
+39. Name at least five devices that can be part of the Internet of Things (IoT).
+40. What are five precautions the analyst can take to reduce the risk of cybercrime associated with IoT 
+implementation?
+41. Briefly describe the differences between disaster preparedness and disaster recovery.
+42. What is STaaS?
+43. List and describe the utilities of IS that can be used to evaluate the IS.
+44. What are seven essential items that an analyst should include in performing a website  
+traffic analysis?
+Problems
+1. One of your systems analysis team members has been discouraging user input on quality standards, 
+arguing that because you are the experts, you are really the only ones who know what constitutes 
+a quality system. In a paragraph, explain to your team member why getting user input is critical to 
+system quality. Use an example.
+2. Write a detailed table of contents for a procedure manual that explains to users how to log onto your 
+school’s computer network, as well as the school’s network policies (who is an authorized user, and 
+so on). Make sure the manual is written with the user in mind.
+3. Your systems analysis team is close to completing a system for Azuka Theatre. Kevin is quite confident 
+that the programs he has written for Azuka’s inventory system used for keeping track of stage scenery 
+and props will perform as required because they are similar to programs he has done before. Your team 
+has been very busy and would ideally like to begin full systems testing as soon as possible. Mark, 
+Rebecca, Reva, and Quinn, four of your junior team members, have proposed the following:
+a. Skip desk checking of the programs (because similar programs were checked in other 
+installations; Kevin has agreed).
+b. Do link testing with large amounts of data to prove that the system will work.
+c. Do full systems testing with large amounts of live data to show that the system is working.
+  Respond to each of the three steps in their proposed test schedule. Use a paragraph to explain your 
+response.
+
+
+===== BOOK PAGE 537 =====
+
+CHAPTER 16  •  QUALITY  A SSURANCE  AND  IMPLEMENTATION      537
+4. Propose a revised testing plan for Azuka Theatre (Problem 3). Break down your plan into a sequence 
+of detailed steps and use a paragraph to write a memo justifying why the new plan is superior to the 
+one Mark and the other junior team members proposed.
+5. NJ Builders is a family-owned, medium-sized construction company doing residential and 
+commercial construction and remodeling in New Jersey. Their field staff including their project 
+consultant use iPads to take pictures and measurements of room dimensions on-site during the 
+bidding process and also before-and-after pictures of any construction jobs they complete.  
+The manager of field operations uses email and a mobile phone, as does her sister who is the 
+president of the firm. Their offices, staffed by their brother who is the accountant and administrator, 
+maintain two small networks at their two office locations, one at the shore and one in the New Jersey 
+suburbs outside of Philadelphia. Sensitive consumer financial data as well as information on home 
+security systems at residences and construction proposals and bids are maintained in a database.  
+They are always up to date on the latest residential construction trends and feel their computer 
+systems should reflect that too. They’ve heard a lot about cloud computing and would like to try it.
+a. Prepare a list of factors they should consider in choosing cloud computing, along with a list of 
+advantages and disadvantages.
+b. In a paragraph, explain the difference between a private cloud and a public cloud.
+c. In a paragraph, write a recommendation for upgrading the NJ Builders’ networks that includes 
+moving to cloud computing and specifies whether a private, public, or hybrid cloud option would 
+be the ideal one for them.
+6. Draw a local area network or some other configuration of distributed processing using the client/
+server approach to solve some of the data-sharing problems that Mariama Kah Architects, a top 
+commercial architectural firm, is having. It wants to be able to allow teams of architects to work on 
+blueprints at headquarters, let the construction supervisor enter last-minute changes to plans under 
+construction from the field, and permit clients to view plans from almost anywhere. Currently, 
+the company has a LAN for the architects who are in one city (Philadelphia) that lets them share 
+some drawing tools and any updates team members make with architects in other cities (New 
+York; V oorhees, New Jersey; Carmel, Indiana; and Vancouver, Washington). The supervisor uses a 
+notebook computer, cannot make any changes, and is not connected to a database. Clients view plans 
+on displays, but sales representatives are not able to enter modifications to show them what would 
+happen if a wall were moved or a roof line altered. List the problems the company is encountering, 
+analyze the symptoms, think of a solution, and then start drawing. (Hint: More than one network may 
+be necessary, and not all problems will be amenable to a systems solution.)
+7. Create a disaster recovery plan for one of the networks you recommended to Mariama Kah Architects 
+in Problem 6.
+8. Cramtrack, the regional commuter train system that runs between southern New Jersey and New York 
+City’s Penn Station, is trying to train users of its newly installed computer system. For the users to 
+get the proper training, the systems analysts involved with the project sent a memo to the heads of 
+the four departments that include both primary and secondary users. The memo said in part, “Only 
+people who feel as if they require training need to make reservations for off-site training; all others 
+should learn the system as they work with it on the job.” Only three of a possible 42 users signed 
+up. The analysts were satisfied that the memo effectively screened people who needed training from 
+those who did not.
+a. In a paragraph, explain how the systems analysts got off track in their approach to training.
+b. Outline the steps you would take to ensure that the right people at Cramtrack are trained.
+c. Suggest in a paragraph how the web and/or a new mobile app might be used to assist in training 
+for Cramtrack.
+9. A beautiful, full-color brochure arrived on Allen Johnston’s desk describing Shropshire Company’s 
+off-site training program and facilities in glowing terms. It showed happy users at computers and 
+professional-looking trainers leaning over them with concerned looks. Allen ran excitedly into Kim’s 
+office and told her, “We’ve got to use these people. This place looks terrific!” Kim was not persuaded 
+by the brochure but didn’t know what to say in defense of the on-site training for users she had 
+already authorized.
+a. In a few sentences, help Kim argue the usefulness of on-site training with in-house trainers in 
+contrast to off-site training with externally hired trainers.
+b. If Allen does decide on Shropshire Company’s training, what should he do to verify that this 
+company is indeed the right place to train the company’s IS users? Make a list of actions he should 
+take.
+10. “Just a little longer . . . I want to be sure this is working correctly before I change over,” says 
+Ebele, the owner of three bathroom accessories boutiques called Tub ’n Stuff. Her accountant, 
+who helped her set up a new accounting IS, is desperately trying to persuade Ebele to change over
+
+
+===== BOOK PAGE 538 =====
+
+538    PART V  •  QUALITY ASSURANCE AND IMPLEMENTATION
+completely to the new system. Ebele has insisted on running the old and new systems in parallel 
+for an entire year.
+a. Briefly describe the general problems involved in using a parallel conversion strategy for 
+implementing a new IS.
+b. In a paragraph, try to convince the owner of Tub ’n Stuff that a year of running a system in parallel 
+is too long. Suggest a way to end Tub ’n Stuff’s dual systems that will provide enough reassurance 
+to Ebele. (Assume that the new system is reliable.)
+11. Draft a plan to perform web traffic analysis for the ecommerce application developed for Marathon 
+Vitamin Shops. (See Consulting Opportunities 1.1, 13.2, and 14.5 for more information about the 
+organization, their products, and their goals.) Your plan should take the form of a written report to  
+the owner of the chain, Bill Berry. Be sure to indicate what statistics you will monitor and why they 
+are important for Marathon Vitamin Shops to know.
+12. Ayman’s Office Supplies Company recently had a new IS installed to help its managers, Omar, Julie, 
+and Adam, with inventory. In speaking with the managers, you notice that they seem disgruntled with 
+the system output, which is a series of displays that show current inventory, customer and supplier 
+addresses, and so on. All screens need to be accessed through several special commands and the use 
+of a password. The managers had several opinions about the system but had no systematic way to 
+evaluate it.
+a. Devise a checklist or form that helps Ayman’s managers evaluate the utilities of an IS.
+b. Suggest a second way to evaluate the IS.
+Group Projects
+1. Ben Menk is the general manager for the world-famous Le Corked restaurant. His IS was developed 
+over time by a small firm, Amanda Systems, and, as it exists now, consists of two computer systems 
+that do not communicate with one another. One system handles reservations and maintains a data-
+base of customers’ preferences (likes, dislikes, food allergies), birthdates, anniversaries, and other 
+information. The other system, designed by Todd Fuller, Inc., assigns each party to a table on a given 
+night. In your group, use a top-down approach to identify the modules that would be necessary to 
+accomplish everything Ben wants to do using only one computer system, from making reservations 
+to ordering food. From your own experience, determine what systems are necessary to operate a fine-
+dining establishment, then describe the modules and how and when you would use them.
+2. Divide your group into two subgroups and have one subgroup interview the members of the other 
+subgroup about experiences they encountered registering for a class. Design questions to elicit infor-
+mation on customs, tales, sayings, and art forms that will help document the registration process at 
+your school.
+3. Reunite your group to develop a web page for a short excerpt for a FOLKLORE manual that 
+documents the process of registering for a class, one based on the FOLKLORE passed on in the 
+interviews in Group Project 2. Remember to include examples of customs, tales, sayings, and 
+art forms.
+Selected Bibliography
+Aten, J. (2019, December 9). The FBI is warning that your smart home devices aren’t secure. Here’s what 
+you should do about it. Inc. https://www.inc.com/jason-aten/the-fbi-is-warning-that-your-smart-
+home-devices-arent-secure-heres-what-you-should-do-about-it.html
+Azad, M. H. (2011, Febraury 6). Say hello to behavior driven development part I. https://www.code 
+project.com/Articles/148043/Say-Hello-To-Behavior-Driven-Development-BDD-Part
+Evans, J. R., & Lindsay, W. M. (2015). An introduction to Six Sigma and process improvement (2nd ed.). 
+Cengage Learning.
+Hardware trends in 2022 and beyond. (n.d.). https://swzd.com/resources/
+hardware-trends-in-2022-and-beyond/
+Hecht, J. A. (2002). Business continuity management. Communications of the AIS, 8, Article 30.
+Juran, J. M. (1964). Managerial breakthrough. McGraw-Hill.
+Kannenberg, A., & Saiedian, H. (2009). Why software requirements traceability remains a challenge. 
+Journal of Defense Software Engineering, 22, 14–19.
+Kendall, K. E. (1980). Evaluation of a regional blood distribution information system. International 
+Journal of Physical Distribution and Materials Management, 10(7), 457–466.
+Kendall, J. E., & Kendall, K. E. (June 1993). Metaphors and methodologies: Living beyond the systems 
+machine. MIS Quarterly, 17(2), 149–171.
+
+
+===== BOOK PAGE 539 =====
+
+CHAPTER 16  •  QUALITY  A SSURANCE  AND  IMPLEMENTATION      539
+Kendall, K. E., Kendall, J. E., & Lee, K. C. (2005). Understanding disaster recovery planning through 
+a theatre metaphor: Rehearsing for a show that might never open. Communications of AIS, 16, 
+1001–1012.
+Kendall, K. E., & Losee, R. (1986). Information system FOLKLORE: A new technique for system  
+documentation. Information and Management, 10(2), 103–111.
+Lübke, D. and van Lessen, T. (2016). Modeling test cases in BPMN for behavior-driven development. 
+IEEE Software, 33 (5), 15–21.
+McFarland, R. (2014). Information security basics: Fundamental reading for InfoSec including the CISSP , 
+CISM, CCNA-Security certification exams (Kindle ed.). Amazon Digital Services.
+Oetzel, M. C., & Spiekermann, S. (2013). A systematic methodology for privacy impact assessments: A 
+design science approach. European Journal of Information Systems, 23, 126–150.
+Robb, D. (2022, April 14). 5 storage area network (SAN) trends in 2022. https://www.enterprisestorage 
+forum.com/networking/storage-area-network-trends/
+Rosencrance, L., Loshin, P., & Cobb, M. (2021, July). What is two-factor authentication and why is it 
+used? https://www.techtarget.com/searchsecurity/definition/two-factor-authentication
+Sazzarin, A. (2021, August 4). 4 challenges for IoT implementation - and how to overcome them [Blog]. 
+https://www.siemens-advanta.com/blog/IOT-challenges
+Spies, A. (2021, August 24). Who is responsible for technical documentation during development. https://
+workingmouse.com.au/way-of-working/
+SSL.com Support Team (2021). SSL/TLS Best Practices for 2021. https://www.ssl.com/guide/ssl-best- 
+practices/
+Steele, B. A. (2019, December 3). Tech Tuesday: Internet of Things (IOT). https://www.fbi.gov/contact-us/
+field-offices/portland/news/press-releases/tech-tuesday-internet-of-things-iot
+Stephens, D. O. (2003). Protecting records in the face of chaos, calamity, and cataclysm. Information 
+Management Journal, 37(1), 33–40.
+Vigliarolo, B. (2021, November 4). 2022 will be the year of convergence between edge, IoT and 
+networking tech, Forrester predicts. https://www.techrepublic.com/article/2022-will-be-the-year-of-
+convergence-between-edge-iot-and-networking-tech-forrester-predicts/?
+Warkentin, M., Moore, R. S., Bekkering, E., & Johnston, A. C. (2009). Analysis of systems development 
+project risks: An integrative framework. DATA BASE for Advances in Information Systems, 40(2), 
+8–21.
+Wiegers, K. (2022). Requirements Traceability and Embedded Systems: A Key to Success. file:///Users/
+iMacJulie/Dropbox/My%20Mac%20(iMac.fios-router.home)/Downloads/requirements-traceability-
+and-embedded-systems.pdf
+Zmud, R. W., & Cox, J. F. (1979). The implementation process: A change approach. MIS Quarterly, 3(2), 
+35–44.
+

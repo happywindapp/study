@@ -1,0 +1,1902 @@
+
+===== BOOK PAGE 109 =====
+
+CHAPTER 4  •  InfoRMATIon G ATHERInG : InTERACTIvE  METHods     109
+INTERVIEWING
+Before you interview someone, you must, in effect, interview yourself. You need to know 
+your biases and how they will affect your perceptions. Although robust research is underway 
+(Greenwald & Lai, 2020; Mason, 2020) to understand implicit biases and how they affect social 
+interaction, no research-based remedies for tasks such as interviewing have been established. 
+(Rather, the emphasis has shifted to eliminating discretion in such things as personnel decision 
+making). However, suffice it to say that your education, intellect, upbringing, emotions, and 
+ethical framework all serve as powerful filters for what you will be hearing in your interviews.
+Thoroughly think through an interview before you go. Visualize why you are going, what 
+you will ask, and what will make it a successful interview in your eyes. You must anticipate how 
+to make the interview fulfilling for the individual you interview as well.
+An information-gathering interview is a directed conversation with a specific purpose that 
+uses a question-and-answer format. In the interview, you want to get the opinions of the inter -
+viewee and their feelings about the current state of the system, organizational and personal goals, 
+and informal procedures for interacting with information technologies.
+Above all, seek the opinions of the person you are interviewing. Opinions may be more 
+important and more revealing than facts. For example, imagine asking the owner of a traditional 
+store that has recently added an online store how many customer refunds are typically given for 
+web transactions each week. The owner replies, “About 20 to 25 a week.” When you monitor 
+the transactions and discover that the average is only 10.5 per week, you might conclude that the 
+owner is overstating the facts and the problem.
+Imagine instead that you ask the owner what the major concerns are and the owner replies, 
+“In my opinion, customer returns of goods purchased over the web are way too high.” By seeking 
+opinions rather than facts, you discover a key problem that the owner wants addressed.
+In addition to opinions, you should try to capture the feelings of the interviewee. Remember 
+that the interviewee knows the organization better than you do. You can understand the organiza-
+tion’s culture more fully by listening to the feelings of the responder.
+Goals are important information that can be gleaned from interviews. Facts that you obtain 
+from hard data may explain past performance, but goals project the organization’s future. Try to 
+find out as many of the organization’s goals as possible from interviewing. You may not be able 
+to determine goals through any other data-gathering methods.
+interacting with other organizational members. You can clarify what 
+you have said in your interactions, reflect on how a teammate has 
+responded, ask whether they are open to receiving advice from you 
+(infrequently), and use probing questions to investigate whether 
+you are understanding what your teammate has said. After you view 
+the video, please reflect on the following questions:
+1. There are some phases that the video suggests enacting to 
+improve interaction with a coworker. What is the difference 
+between the clarifying and reflecting phases?
+2. Some of the advice in the video is to “avoid the urge to 
+give advice.” Why is this important in a relationship with a 
+teammate?
+3. Write a standard question to ask a team member before you 
+offer advice.
+4. If your teammates and coworkers feel as if they are listened 
+to, how does that enable you to respond thoughtfully to what 
+they are saying?
+SYSTEMS SCENARIO  
+Interacting Thoughtfully
+This chapter introduces interactive methods the analyst can use for 
+gathering information from users and teammates. In this video, the 
+topic of responding thoughtfully to coworkers and team members is 
+explored in a humorous way. As implied in the video, as a systems 
+analyst you need to be responsive and be a good listener when 
+To view the video for this scenario,  
+see eText Chapter 4.
+Seven Dimensions/Boclips
+
+
+===== BOOK PAGE 110 =====
+
+110    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+The interview is also a valuable opportunity to explore key human–computer interaction 
+(HCI) concerns, including ergonomic aspects, system usability, how pleasing and enjoyable the 
+system is, and how useful it is in supporting individual tasks.
+In the interview, you are setting up a relationship with someone who is probably a stranger to 
+you. You need to build trust and understanding quickly, but at the same time, you must maintain 
+control of the interview. You also need to sell the system by providing needed information to 
+your interviewee. Do so by planning for the interview before you go so that conducting it is 
+second nature to you. Later in the chapter, we discuss joint application design (JAD) (pro-
+nounced “jad,” rhymes with add), which can serve as an alternative to one-on-one interviewing 
+in certain situations.
+Five Steps in Interview Preparation
+The five major steps in interview preparation are shown in Figure 4.1. These steps include a range 
+of activities, from gathering basic background material to deciding who to interview.
+Reading Background Material. It’s important to read and understand as much background infor-
+mation about the interviewees and their organization as possible. This material often can be 
+obtained on the corporate website, from a current annual report, a corporate newsletter, or any 
+publications sent out to explain the organization to the public. Check the internet for any corporate 
+information, such as information from Standard & Poor’s.
+As you read through this material, be particularly sensitive to the language organization 
+members use in describing themselves and their organization. What you are trying to do is build 
+up a common vocabulary that will eventually enable you to phrase interview questions in a way 
+that is understandable to your interviewee. Another benefit of researching your organization is to 
+optimize the time you spend in interviews; without such preparation, you may waste time asking 
+general background questions.
+Establishing Interviewing Objectives. Use the background information you gathered as well as 
+your own experience to establish interview objectives. There should be four to six key areas con-
+cerning HCI, information processing, and decision-making behavior about which you will want 
+to ask questions. These areas include HCI concerns (the usefulness and usability of the system; 
+how it fits physical aspects; how it suits a user’s cognitive capabilities; whether it is engaging 
+or aesthetically pleasing; and whether using the system is rewarded with desired consequences), 
+information sources, information formats, decision-making frequency, qualities of information, 
+and decision-making style.
+Deciding Whom to Interview. When deciding whom to interview, include key people at all levels 
+who will be affected by the system in some manner. Strive for a balance that addresses as many 
+users’ needs as possible. Your organization contact will also have some ideas about who should 
+be interviewed.
+Preparing the Interviewee. Prepare the person to be interviewed by calling ahead or sending an 
+email message and allowing the interviewee time to think about the interview. If you are doing 
+an in-depth interview, it is permissible to email your questions ahead of time to allow the inter -
+viewee time to think over their responses. Because there are many objectives to fulfill in the 
+interview (including building trust and observing the workplace), interviews should typically be 
+conducted in person and not via email.
+With the advent of the Covid-19 pandemic along with prohibitions against meeting in person, 
+many interviews are now conducted via Zoom, Google Meet, Microsoft Teams, or other popular 
+FIGURE 4.1
+Steps a systems analyst follows in 
+planning an interview. 1.    Read background material.
+2.    Establish interviewing objectives.
+3.    Decide whom to interview.
+4.    Prepare the interviewee.
+5.    Decide on question types and structure.
+Steps in Planning the Interview
+
+
+===== BOOK PAGE 111 =====
+
+CHAPTER 4  •  InfoRMATIon G ATHERInG : InTERACTIvE  METHods     111
+free and paid video-calling and video-conferencing options. Research suggests that overusing 
+video conferencing can lead to exhaustion in unexpected ways; a scale has been developed to 
+measure Zoom fatigue called the Zoom Exhaustion and Fatigue scale (Fauville et al., 2021). 
+In-person and online interviews should therefore be kept to 45 minutes or an hour at most. No 
+matter how much your interviewees seem to want to extend the interview beyond this limit, 
+remember that when they spend time with you, they are not doing their other work. If interviews 
+go over an hour, it is likely that the interviewees will resent the intrusion, whether or not they 
+articulate their resentment.
+Deciding on Question Types and Structure. Write questions to cover the key areas of HCI and 
+decision making that you discovered when you ascertained interview objectives. Proper question-
+ing techniques are the heart of interviewing. Questions have some basic forms you need to know. 
+The two basic question types are open-ended and closed. Each question type can accomplish 
+something a little different from the other, and each has benefits and drawbacks. You need to think 
+about the effect each question type will have.
+It is possible to structure your interview in three different patterns: a pyramid structure, a 
+funnel structure, or a diamond structure. Each is appropriate under different conditions and serves 
+a different function, and each one is discussed later in this chapter.
+Question Types
+You will use three main question types when you construct your interview: open-ended questions, 
+closed questions, and probes. Each question type is useful in different situations and at specific 
+times during the interview. In addition, each type of question elicits different information from 
+the person you are interviewing.
+Open-Ended Questions. Open-ended questions include those such as “What do you think about 
+putting all the managers on an intranet?” “Please explain how you make a scheduling decision,” 
+and “In what ways does the system extend your capability to do tasks that would not be possible 
+otherwise?” Consider the term open-ended. “Open” actually describes the interviewee’s options 
+for responding. They are open. The response can be two words or two paragraphs. Some examples 
+of open-ended questions are found in Figure 4.2.
+The benefits of using open-ended questions are numerous and include the following:
+1. Putting the interviewee at ease
+2. Allowing the interviewer to pick up on the interviewee’s vocabulary, which reflects their 
+education, values, attitudes, and beliefs
+3. Providing richness of detail
+4. Revealing avenues of further questioning that otherwise may go untapped
+5. Making the interview more interesting for the interviewee
+6. Allowing more spontaneity
+7. Making phrasing easier for the interviewer
+8. Using them in a pinch if the interviewer is caught unprepared
+As you can see, there are several advantages to using open-ended questions. There are, 
+however, also many drawbacks:
+1. Asking questions that may result in too much irrelevant detail
+2. Possibly losing control of the interview
+FIGURE 4.2
+Open-ended interview questions 
+allow the respondent open options 
+for responding. These examples 
+were selected from different 
+interviews and are not shown in 
+any particular order.
+Open-Ended Interview Questions
+• What’s your opinion of the current state of business-to-business
+ ecommerce in your ﬁrm?
+• What are the critical objectives of your department?
+• Once the data are submitted via the website, how are they processed?
+• Describe the monitoring process that is available online.
+• What are some of the common data entry errors made in this department?
+• What are the biggest frustrations you’ve experienced during the transition
+ to ecommerce?
+
+
+===== BOOK PAGE 112 =====
+
+112    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+3. Allowing responses that may take too much time for the amount of useful information 
+gained
+4. Potentially seeming that the interviewer is unprepared
+5. Possibly giving the impression that the interviewer is on a “fishing expedition,” with no 
+real objective for the interview
+You must carefully consider the implications of using open-ended questions for interviewing.
+Closed Questions. The alternative to open-ended questions is found in the other basic question 
+type: closed questions. Such questions are of the basic form “Is it easy to use the current system?” 
+and “How many subordinates do you have?” The possible responses are closed to the interviewee 
+because they can only reply with a finite number, such as “None,” “One,” or “Fifteen.” Some 
+examples of closed questions can be found in Figure 4.3.
+A closed question limits the responses available to the interviewee. You may be familiar with 
+closed questions through multiple-choice exams in college. You are given a question and five 
+responses, but you are not allowed to write down your own response and get credit for correctly 
+answering the question.
+A special kind of closed question is the dichotomous closed question. This type of question 
+limits the interviewee even further by allowing only a choice on either pole, such as yes or no, 
+true or false, or agree or disagree. Examples of dichotomous questions can be found in Figure 4.4.
+The benefits of using closed questions of either type include the following:
+1. Saving time
+2. Easily comparing interviews
+3. Getting to the point
+4. Keeping control over the interview
+5. Covering lots of ground quickly
+6. Getting to relevant data
+The drawbacks of using closed questions are substantial, however. They include the following:
+1. Boring for the interviewee
+2. Failing to obtain rich detail (because the interviewer supplies the frame of reference for the 
+interviewee)
+3. Failing to address the main ideas for the preceding reason
+4. Failing to build rapport between interviewer and interviewee
+Thus, as an interviewer, you must think carefully about the question types you will use.
+FIGURE 4.3
+Closed interview questions limit 
+the respondent’s options. These 
+examples were selected from 
+different interviews and are not 
+shown in any particular order.
+Closed Interview Questions
+•  How many times a week is the project repository updated?
+•  On average, how many calls does the call center receive monthly?
+•  Which of the following sources of information is most valuable to you?
+        8  Completed customer complaint forms
+        8  Email complaints from consumers who visit the website
+        8  Face-to-face interaction with customers
+        8  Returned merchandise
+•  List your top two priorities for improving the technology infrastructure.
+•  Who receives this input?
+FIGURE 4.4
+Dichotomous interview questions 
+are a special kind of closed 
+question. These examples were 
+selected from different interviews 
+and are not shown in any 
+particular order.
+Dichotomous Interview Questions
+•  Do you use the Web to provide information to vendors?
+•  Do you agree or disagree that ecommerce on the Web lacks security?
+•  Do you want to receive a printout of your account status every month?
+•  Does your website maintain a FAQ page for employees with payroll
+ questions?
+•  Is this form complete?
+
+
+===== BOOK PAGE 113 =====
+
+CHAPTER 4  •  InfoRMATIon G ATHERInG : InTERACTIvE  METHods     113
+Both open-ended and closed questions have advantages and drawbacks, as shown in 
+Figure 4.5. Notice that choosing one question type over the other involves a trade-off; although 
+an open-ended question affords breadth and depth of reply, responses to open-ended questions 
+are difficult to analyze.
+Probes. A third type of question is the probe, or follow-up. The strongest probe is the simplest—
+the question “Why?” Other probes are “Please provide an example of a time you did not find the 
+system trustworthy” and “Please elaborate on that for me.” Some examples of probing questions 
+can be found in Figure 4.6. The purpose of a probe is to go beyond the initial answer to get more 
+meaning, to clarify, and to draw out and expand on the interviewee’s point. Probes may be either 
+open-ended or closed questions.
+It is essential to probe. Most beginning interviewers are reticent about probing and conse-
+quently accept superficial answers. They are usually grateful that employees have granted inter-
+views and feel somewhat obligated to accept unqualified statements politely.
+Arranging Questions in a Logical Sequence
+Just as there are two generally recognized ways of reasoning—inductive and deductive—there 
+are two similar ways of organizing your interviews. A third way combines both inductive and 
+deductive patterns.
+Using a Pyramid Structure. Inductive organization of interview questions can be visualized as 
+having a pyramid shape. Using this form, the interviewer begins with very detailed, often closed, 
+questions. The interviewer then expands the topics by allowing open-ended questions and more 
+generalized responses, as shown in Figure 4.7.
+FIGURE 4.6
+Probes allow a systems analyst 
+to follow up on questions to get 
+more detailed responses. These 
+examples were selected from 
+different interviews and are not 
+shown in any particular order.
+Probes
+•
+•
+•
+•
+•
+•
+Why?
+Give an example of how ecommerce has been integrated into your
+business processes.
+Please give an illustration of the security problems you are experiencing
+with your online bill payment system.
+You mentioned both an intranet and an extranet solution. Please give an
+example of how you think each differs.
+What makes you feel that way?
+Tell me step by step what happens after a customer clicks the “Submit”
+button on the Web registration form.
+FIGURE 4.5
+Attributes of open-ended and 
+closed questions.
+ClosedOpen-Ended
+Low
+Low
+Low
+Much
+Much
+Diﬃcult
+High
+High
+High
+Little
+Little
+EasyEase of Analysis
+Reliability of Data
+Eﬃcient Use of Ti me 
+Precision of Data
+Breadth and Depth
+Interviewer Skill Required
+
+
+===== BOOK PAGE 114 =====
+
+114    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+You should use a pyramid structure if you believe your interviewee needs to warm up to the 
+topic. Using a pyramid structure for question sequencing is also useful when you want an ending 
+determination about the topic. Such is the case in the final question in Figure 4.7, “In general, how 
+do you feel about the security of data versus the importance of internet access?”
+problems presented by managers, and interacting with club mem-
+bers. His time is short, and to compensate for that, he has become 
+an extremely well-organized, efficient divisional manager. He 
+cannot grant you a lot of interview time. However, his input is 
+important, and he feels he would be the main beneficiary of the 
+proposed system.
+What type of interview question might be most suitable for your 
+interview with Gen? Why is this type most appropriate? How will 
+your choice of question type affect the amount of time you spend 
+in preparation for interviewing Gen? Write 5 to 10 questions of this 
+type. What other techniques might you use to supplement informa-
+tion unavailable through that type of question? Write a paragraph 
+to explain.
+CONSULTING OPPORTUNITY 4.1 
+Strengthening Your Question Types
+Strongbodies, a large local chain of sports clubs, has experienced 
+phenomenal growth in the past five years. Management would like 
+to refine its decision-making process for purchasing new body-
+building equipment by developing a dashboard. Currently, managers 
+listen to customers, attend trade shows, look at advertisements, and 
+put in requests for new equipment purchases based on their subjec-
+tive perceptions. These are then approved or denied by Li Gen.
+Gen is the first person you will interview. He is a 37-year-old 
+division manager who runs five area clubs. He travels all over the 
+city to their widespread locations. He keeps an office at the East 
+location, although he is there less than a quarter of the time.
+In addition, when Gen is present at a club, he is busy 
+answering business-related phone calls, solving on-the-spot 
+FIGURE 4.7
+The pyramid structure for 
+interviewing goes from specific 
+ to general questions. What
+speciﬁcally is
+the problem you
+are experiencing
+with your ﬁrewall?
+Have you considered other methods
+to improve the security of
+corporate data?
+What do you think would make 
+security more eﬀective here?
+In general, how do you feel about the security of
+data versus the importance of internet access?
+… and end
+with a
+general
+one.
+Pyramid
+structures
+start with a
+speciﬁc question …
+
+
+===== BOOK PAGE 115 =====
+
+CHAPTER 4  •  InfoRMATIon G ATHERInG : InTERACTIvE  METHods     115
+Using a Funnel Structure. In this form, the interviewer takes a deductive approach by beginning 
+with generalized, open-ended questions and then narrowing the possible responses by using closed 
+questions. This interview structure can be thought of as funnel shaped, as depicted in Figure 4.8. 
+Using the funnel structure method provides an easy, nonthreatening way to begin an interview. 
+A funnel-shaped question sequence is also useful when the interviewee feels emotional about the 
+topic and needs freedom to express those emotions.
+Using a Diamond-Shaped Structure. Often a combination of the pyramid and funnel structures, 
+resulting in a diamond-shaped structure, is best. This structure entails beginning in a very 
+specific way, then examining general issues, and finally coming to a very specific conclusion, as 
+shown in Figure 4.9.
+The interviewer begins with easy, closed questions that provide a warm-up to the interview 
+process. In the middle of the interview, the interviewee is asked for opinions on broad topics that 
+obviously have no “right” answer. The interviewer then narrows the questions again to get specific 
+questions answered, thus providing closure for both the interviewee and the interviewer. The 
+diamond structure combines the strengths of the other two approaches but has the disadvantage 
+of taking longer to implement than either other structure.
+The end of the interview is a natural place to ask one key question: “Is there anything we 
+haven’t touched on that you feel is important for me to know?” Considered a formula question 
+by the interviewee most of the time, the response will often be “No.” You are interested in the 
+other times, when this question opens the proverbial floodgates and much new data are presented.
+As you conclude the interview, summarize and provide feedback on your overall impressions. 
+Inform the interviewee about the subsequent steps to take and what you and other team members 
+will do next. Ask the interviewee with whom you should talk next. Set up future appointment times 
+for follow-up interviews, thank the interviewee for their time, and shake hands.
+Writing the Interview Report
+Although the interview itself is complete, your work on the interview data is just beginning. You 
+need to capture the essence of the interview through a written report. It is imperative that you write 
+the interview report as soon as possible after the interview. This step is another way you can 
+ensure quality of interview data. The longer you wait to write up your interview, the more suspect 
+the quality of your data becomes.
+After this initial summary, go into more detail, noting main points of the interview and your 
+own opinions. Review the interview report with the respondent at a follow-up meeting. This step 
+helps clarify the meaning the interviewee had in mind and lets the interviewee know that you are 
+interested enough to take the time to understand their point of view and perceptions.
+FIGURE 4.8
+The funnel structure for 
+interviewing begins with broad 
+questions and then funnels to 
+specific questions.
+What items will be available for
+purchase on the website?
+What are your reactions to the new
+Web-based procurement system?
+    
+Is there any essential
+item that has been
+excluded from
+the site?
+What departments are involved in implementing it? 
+… and end with
+a speciﬁc one.
+Funnel structures
+begin with a
+general question …
+
+
+===== BOOK PAGE 116 =====
+
+116    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+LISTENING TO STORIES
+Stories originate in the workplace, and many are shared with, and repeated by, coworkers. Orga-
+nizational stories, like myths and fables, are used to relay some kind of information. This shared 
+information is usually considered important enough to build an entire story around it, and when a 
+story is told and retold, even handed down over time, the story takes on a mythic quality. Isolated 
+stories are welcome when you are looking for facts, and enduring stories capture all aspects of the 
+organization. Enduring stories are the ones a systems analyst should be seeking.
+Although structured interviews have many advantages, including the ability to ask many peo-
+ple the same set of questions, they may not produce the rich detail you need to design your system.
+Suppose the developer is faced with the task of analyzing and redesigning a system. The 
+developer can learn from experiences the organization encountered in their previous design proj-
+ect. It would be helpful to identify people who had lived through that experience. They may have 
+valuable insights that will help the developer with the new project.
+It is difficult for the developer to generate a list of interview questions because the problems 
+encountered, the obstacles cleared, and the learning that took place are unknown to the developer. 
+By encouraging stories, however, these experiences may be brought out, maybe not at first, but as 
+the story is being told. Patience is a key value for the listener.
+The developer may be able to understand the behavior and the values of organization mem-
+bers by listening. By listening carefully to organization members, the developer can get a much 
+better understanding of the strategic objectives, potential obstacles, decisions, and lessons learned.
+It might be apparent that listening to stories is not efficient. It takes considerably more time 
+than asking interview questions. However, listening to stories may be more rewarding. Stories are 
+more easily remembered than interview responses, so in some ways, that makes up for the fact 
+that it takes time to listen.
+FIGURE 4.9
+The diamond-shaped structure 
+for interviewing combines the 
+pyramid and funnel structures.
+What ﬁve
+kinds of information
+are tracked by the free
+website usage service you use?
+What are the promotional activities you
+feature on your website in exchange for this service?
+What is the value of the usage information to you as a Web developer?
+What are two surprising items concerning end user
+behavior on your site that you have discovered
+by using this service?
+Are “cookies” a better
+way to measure
+end user site
+usage?
+… and end with a
+speciﬁc question.
+… move toward
+general
+questions …
+Diamond
+structures begin
+with a speciﬁc
+question …
+
+
+===== BOOK PAGE 117 =====
+
+CHAPTER 4  •  InfoRMATIon G ATHERInG : InTERACTIvE  METHods     117
+that information to better control the production of the company’s 
+large product line (it includes whole, skim, 2 percent, and 1 percent 
+milk, half-and-half, cottage cheese, yogurt, and frozen novelties). 
+Sales managers are currently sending their sales figures via the web 
+to corporate headquarters, 600 miles away, and even the production 
+of online reports seems slow. You will base your ad-libbed questions 
+on what you have just found out on the tour.
+In the few minutes before your interview begins, decide on a 
+structure for it: funnel, pyramid, or diamond. In a paragraph, justify 
+why you would proceed with the interview structure you have cho-
+sen based on the unusual context of this interview. Write a series 
+of questions and organize them in the structure you have chosen.
+CONSULTING OPPORTUNITY 4.2 
+Skimming the Surface
+You are about to leave SureCheck Dairy after a preliminary tour 
+when another member of your systems analysis team calls you at 
+the dairy to say they cannot make their interview appointment 
+with the plant manager because of illness. The plant manager is 
+extremely busy, and you want to keep their enthusiasm for the project 
+going by doing things as scheduled. You also realize that without the 
+initial interview data, the rest of your data gathering will be slowed. 
+Although you have no interview questions prepared, you make the 
+decision to go ahead and interview the plant manager on the spot.
+You have learned that sales managers at SureCheck are all inter-
+ested in processing their own data and producing their own reports 
+on quantities and kinds of dairy products sold so that they can use 
+Stories Are Made Up of Elements
+Storytellers often make themselves the hero, or protagonist, of the story. This is not unusual, and 
+it is not a drawback. When storytellers put themselves into the center of the story, the struggles 
+they encounter are their own battles. They become real to the listener, who can empathize with 
+the storytellers.
+An example of a story is shown in Figure 4.10. All stories have these elements:
+1. The call to adventure
+2. The quest
+3. The struggle
+4. The transformation
+5. The resolution
+6. The moral
+7. The epilogue
+A typical story starts with a reason an opportunity was noticed or a problem needed addressing. 
+This is the call to adventure, and there is never a simple solution. No one tells a story such as, “It 
+was drafty last night, so I got up and shut the window.” That is a statement, not a story. Stories 
+have twists and turns, advances and setbacks, learning and decision making.
+The quest in a story implies that there is something worth finding or achieving. In explaining 
+the quest, the storyteller enumerates the organization’s objectives. It is worthwhile to undergo 
+hardship if there is a worthwhile goal.
+Next comes the struggle. Listen to hear who the storyteller names as villains. Is it government 
+regulation, external competition, or other members of the organization? It helps to understand 
+what obstacles may exist now.
+If a solution existed, the problem would be solved, and the story would end here, but sim-
+ply pushing a metaphorical boulder out of the way does not typically solve problems. Usually, 
+something within the organization, or even the protagonist, must change. Problems are solved by 
+process or behavior changes rather than by product changes, and this is revealed in this part of the 
+story. Storytellers also reveal their own weaknesses. In this revelatory approach, the storyteller 
+describes overcoming this weakness, even undergoing a phenomenal transformation. Once the 
+hero undergoes the transformation, it becomes possible to solve the problem.
+The resolution comes when the storyteller tells whether the quest succeeded. It is possible 
+that the storyteller may be telling you how a technology adoption failed, but you are more likely 
+to hear a positive story.
+
+
+===== BOOK PAGE 118 =====
+
+118    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+Usually, a moral is important to the story. The reason for the moral is to tell others how to 
+behave and, furthermore, what values they should possess. It is a statement of the lessons learned.
+Finally, the story may end with an epilogue. A happy resolution when the problem was first 
+solved may be changed with the passage of time. Competition, customer preferences, improved 
+hardware, and social, environmental, or legal issues that have occurred since the successful imple-
+mentation may be creating new obstacles for the organization. Perhaps that is why the developer 
+has been called in to change the system again.
+Reasons for Telling Stories
+The rich information an analyst gets from listening carefully to the stories is in itself valuable, 
+but the analyst shouldn’t stop there. The information gleaned from the stories will make more 
+sense and be more valuable if seen in context. Why did the storyteller tell this story? In child-
+hood, we are told stories and fables so that we adopt good values. For example, the fables “The 
+Grasshopper and the Ant” or “The Hare and the Tortoise” are commonly told in English-speaking 
+cultures. The former teaches us the importance of good work habits, and the latter emphasizes 
+what happens if we are overconfident. Do business stories have the same purpose?
+Business stories are a little more complex. We can break down stories into four important 
+main types:
+1. Experiential stories
+2. Explanatory stories
+3. Validating stories
+4. Prescriptive stories
+FIGURE 4.10
+Story elements and  
+corresponding examples. 
+Quotation from Thomas (2016).
+Story element Example from “Open source software opens door to Web design career” by Mark 
+Thomas (2016)
+The call to 
+adventure
+“I was fascinated and envious—I wanted to be able to create those exciting images 
+with their grungy textures, characters lifted from games, dramatic lighting, and 
+emphatic quotes. Other people didn’t seem to find it difficult to finish them, but I 
+had no idea where to even start.”
+The quest
+“I was going to have to learn this discipline properly. Such things are not achieved 
+overnight, of course, and so began a long quest to find, practice, and learn from 
+every design resource I could find.”
+The struggle
+“Researching the topic, I realized that I had used the wrong tool for the job. Exas-
+perated and in no small way desperate, I began looking for a package I could turn 
+to, to rescue the situation. Time was pressing and, even if I could find an answer 
+in time, as the now self-proclaimed designer in the team I would have to learn it 
+double-quick.”
+The 
+transformation
+“Taking stock for a moment, I began to wonder if it was possible to begin a business 
+operation based on the open source software I was now developing in confidence 
+and ability with. It became an ambition.”
+The resolution
+“In 2009, I designed and built a website for the bakery that went on to supply our 
+wedding cake, saving us money and introducing new customers to their business, 
+too. In 2010, I created all the artwork for our wedding stationery. Later the same 
+year, I registered my UK company and began providing Web design services to local 
+companies who needed designs for their websites, which I then started to code.”
+The moral
+“To me, open source software means opportunity. It means education, freedom, 
+commitment, collaboration and challenges. I went from knowing nothing whatsoever 
+about design and coding to starting my own Web design business and capturing local 
+clients who were happy with the things I’ve made for them and unconcerned by the 
+tools I’d used to do it.”
+The epilogue
+“And even though my day job prevents me from publishing anywhere near the 
+number of blog articles I want to (for which I apologize to my readers—you are not 
+forgotten), it still manages nearly 3,000 visitors a month, and I regularly receive 
+requests for tutorials from around the world, which I will get around to at some 
+point.”
+
+
+===== BOOK PAGE 119 =====
+
+CHAPTER 4  •  InfoRMATIon G ATHERInG : InTERACTIvE  METHods     119
+Experiential stories describe what life is like in the organization. Explanatory stories go a 
+little further, suggesting that there is an explanation for behavior or a reason for the decisions 
+made within the organization. Validating stories are used to convince people that the organiza-
+tion made the correct decision, or they are used to express and maintain the existing values of 
+the organization. Prescriptive stories are the organizational equivalent of childhood fables. These 
+stories suggest how everyone in the organization should behave. It is helpful for the developer to 
+know why a storyteller is telling their story.
+Systems analysts can use storytelling as a complement to other information-gathering meth-
+ods such as interviewing, JAD, and surveys. You need to engage organization participants by 
+reacting to stories, matching one story to another by recounting it to other participants, and even 
+collaborating with the participant to reframe and understand organization stories. It is a good way 
+to deeply understand some of the problems associated with information systems use, systems 
+development, systems adoption, and designing for your intended audience.
+We have observed that many of the stories systems analysts have reported on in the past have 
+been mere fragments of stories. The intent or purpose of the story is not understood, and therefore 
+the analyst is not able to fully understand the importance of the story. The systems analyst needs 
+to listen to the story as a whole to truly understand its content and purpose.
+JOINT APPLICATION DESIGN
+No matter how adept you become as an interviewer, you will inevitably experience situations 
+in which one-on-one interviews do not seem to be as useful as you would like. Personal inter -
+views are time-consuming and subject to error, and their data are prone to misinterpretation. IBM 
+developed an alternative approach to interviewing users one by one, called joint application 
+design (JAD). The motivations for using JAD are to cut the time (and hence the cost) required 
+for personal interviews, to improve the quality of the results of information requirements assess-
+ment, and to create more user identification with new information systems as a result of the 
+participative processes.
+Although JAD can be substituted for personal interviews at any appropriate juncture during 
+the systems development life cycle, it has usually been employed as a technique that allows you, 
+as a systems analyst, to accomplish requirements analysis and to design the user interface jointly 
+with users in a group setting. The many intricacies of this approach can be learned only in a com-
+merical seminar demonstrating proprietary methods. We can, however, convey enough information 
+about JAD here to make you aware of some of its benefits and drawbacks in comparison with 
+one-on-one interviews.
+Conditions That Support the Use of JAD
+The following list of conditions will help you decide when the use of JAD may be fruitful. 
+Consider using joint application design when:
+1. User groups are restless and want something new, not a standard solution to a typical 
+problem.
+2. The organization culture supports joint problem-solving behaviors among multiple levels 
+of employees.
+3. Analysts forecast that the number of ideas generated via one-on-one interviews will not be 
+as plentiful as the number of ideas possible from an extended group exercise.
+4. Organization workflow permits the absence of key personnel during a two- to four-day 
+block of time.
+Who Is Involved?
+Joint application design sessions include a variety of participants—analysts, users, executives, and 
+so on—who contribute different backgrounds and skills to the sessions. Your primary concern here 
+is that all project team members are committed to the JAD approach and become involved. Choose 
+an executive sponsor, a senior person who will introduce and conclude the JAD session. Prefer -
+ably, select an executive from the user group who has some sort of authority over the information 
+systems (IS) people working on the project. This person will be an important, visible symbol of 
+organizational commitment to the systems project.
+
+
+===== BOOK PAGE 120 =====
+
+120    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+At least one IS analyst should be present, but the analyst usually takes a passive role, unlike 
+traditional interviewing in which the analyst controls the interaction. As the project analyst, you 
+should be present during JAD to listen to what users say and what they require. In addition, 
+you will want to give an expert opinion about any disproportionate costs of solutions proposed 
+during the JAD session itself. Without this kind of immediate feedback, unrealistic solutions with 
+excessive costs may creep into the proposal and prove costly to discourage later on.
+From eight to a dozen users, of any rank, can be chosen to participate in JAD sessions. Try to 
+select users who can articulate what information they need to perform their jobs as well as what 
+they desire in a new or improved computer system.
+The session leader should not be an expert in systems analysis and design but, rather, someone 
+who has excellent communication skills to facilitate appropriate interactions. Note that you do not 
+want to use a session leader who reports to another person in the group. To avoid this possibility, 
+an organization may want to retain an outside management consultant to serve as session leader. 
+The point is to get a person who can bring the group’s attention to important systems issues, 
+satisfactorily negotiate and resolve conflicts, and help group members reach a consensus.
+Your JAD session should also include one or two observers who are analysts or technical 
+experts from other functional areas to offer technical explanations and advice to the group during 
+the sessions. In addition, one scribe from the IS department should attend the JAD sessions to 
+formally write down everything that is done.
+Where to Hold JAD Meetings
+If at all possible, we recommend holding the two- to four-day sessions off-site, away from the 
+organization, in comfortable surroundings. Some groups use executive centers or even group 
+decision support facilities that are available at major universities. The idea is to minimize the 
+daily distractions and responsibilities of the participants’ regular work. Good video call options 
+to replace in-person JAD sessions (during a pandemic, for example) have not been researched. 
+Therefore, consider that the timing should be such that all participants can meet face to face. The 
+room itself should comfortably hold the number of people invited. Minimal presentation support 
+equipment includes two projectors to connect to two laptops, iPads, or PCs; a whiteboard; a flip 
+chart; and easy access to a copier. Group decision support rooms also provide networked PCs, a 
+projection system, and software written to facilitate group interaction while minimizing unpro-
+ductive group behaviors.
+Schedule your JAD session when all participants can commit to attending. Do not hold the 
+sessions unless everyone who has been invited can actually attend. This rule is critical to the suc-
+cess of the sessions. Ensure that every participant receives an agenda before the meeting and 
+consider holding an orientation meeting for a half day one week or so before the workshop so that 
+those involved know what is expected of them. Such a premeeting allows you to move rapidly and 
+act confidently once the actual meeting is convened.
+Accomplishing a Structured Analysis of Project Activities
+IBM recommends that the JAD sessions examine these points in the proposed systems project: 
+planning, receiving, receipt processing/tracking, monitoring, assigning, recording, sending, and  
+evaluating. For each topic, the questions who, what, how, where, and why should be asked 
+and answered as well. Clearly, ad hoc interactive systems such as recommender systems and 
+other types of systems dependent on decision-maker style (including prototype systems) are not 
+as easily analyzed with the structured approach of JAD.
+As the analyst involved with the JAD sessions, you should receive the notes of the scribe and 
+prepare a specifications document based on what happened at the meeting. Systematically present 
+the management objectives as well as the scope and boundaries of the project. Specifics of the 
+system, including details on screen and report layouts, should also be included.
+Potential Benefits of Using JAD in Place of Traditional Interviewing
+There are four major potential benefits that you, the users, and your systems analysis team should 
+consider when you weigh the possibilities of using JAD. The first potential benefit is time savings 
+over traditional one-on-one interviews. Some organizations have estimated that JAD sessions have 
+provided a 15 percent time savings over the traditional approach.
+
+
+===== BOOK PAGE 121 =====
+
+CHAPTER 4  •  InfoRMATIon G ATHERInG : InTERACTIvE  METHods     121
+Hand in hand with time savings is the rapid development possible via JAD. Because user 
+interviews are not accomplished serially over a period of weeks or months, the development can 
+proceed much more quickly.
+A third benefit to weigh is the possibility of improved ownership of the information system. 
+Analysts are always striving to involve users in meaningful ways and to encourage users to take 
+early ownership of the systems being designed. Due to its interactive nature and high visibility, 
+JAD helps users become involved early in systems projects and treats their feedback seriously. 
+Working through a JAD session eventually helps reflect user ideas in the final design.
+A final benefit of participating in JAD sessions is the creative development of designs. The 
+interactive character of JAD has a great deal in common with brainstorming techniques that gener-
+ate new ideas and new combinations of ideas because of the dynamic and stimulating environment. 
+Designs evolve through facilitated interactions rather than in relative isolation.
+Potential Drawbacks of Using JAD
+There are three drawbacks or pitfalls that you should weigh when making a decision on whether 
+to do traditional one-on-one interviews or use JAD. The first drawback is that JAD requires the 
+commitment of a large block of time from all participants. Because JAD requires a two- to four-
+day commitment, it is not possible to do any other activities concurrently or to time-shift any 
+activities, as is typically done in one-on-one interviewing.
+A second pitfall occurs if preparation for the JAD sessions is inadequate in any regard or if the 
+follow-up report and documentation of specifications is incomplete. In these instances, resulting 
+designs could be less than satisfactory. Many variables need to come together correctly for JAD 
+to be successful. Conversely, many things can go wrong. The success of designs resulting from 
+JAD sessions is less predictable than that achieved through standard interviews.
+Finally, the necessary organizational skills and organization culture may not be sufficiently 
+developed to enable the concerted effort required to be productive in a JAD setting. In the end you 
+will have to judge whether the organization is truly committed to, and prepared for, this approach.
+USING QUESTIONNAIRES
+The use of questionnaires is an information-gathering technique that allows systems analysts 
+to study attitudes, beliefs, behavior, and characteristics of several key people in the organization 
+who may be affected by the current and proposed systems. Attitudes are what people in the 
+organization say they want (in a new system, for instance); beliefs are what people think is actu-
+ally true; behavior is what organization members do, and characteristics are properties of people 
+or things.
+team who worked here a dozen years ago. I still keep them because 
+you never know when you’ll need them as a guide. It’s definitely 
+survival of the fittest around here.”
+Identify the overriding metaphor Zhenya is using to describe 
+the reports she is receiving and the accessibility of information in 
+them. In a paragraph, describe how this step helps you understand 
+Zhenya’s attitude toward any work proposed by your systems analy-
+sis team. In a paragraph, adopt Zhenya’s metaphor and extend it in 
+a more positive sense during your interview with her by writing six 
+interview questions based on her metaphor.
+CONSULTING OPPORTUNITY 4.3 
+A Systems Analyst, I Presume?
+“Know what I think of the work the last systems analyst team 
+did? The proliferation of PDF reports created a jungle on my desk-
+top. To figure out the cost of raw materials to us, I have to cut my way 
+through the overgrowth of data, hacking my path with drill-down 
+capabilities that I have had to create for myself. I delete everything 
+that’s irrelevant. Sometimes I rip out the excess vegetation until  
+I see the numbers I need on my screen,” says Zhenya Sui, account-
+ing supervisor for Zenith Glass Company. As you interview her, 
+she points unhappily to an untidy stack of old printouts sprouting 
+beside her desk. “Those were output from the work of a systems
+
+
+===== BOOK PAGE 122 =====
+
+122    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+Responses gained through questionnaires (also called surveys) using closed questions can 
+be quantified. If you are surveying people via email or the web, you can use software to turn 
+electronic responses directly into data tables for analysis using a spreadsheet application or sta-
+tistical software package. Responses to questionnaires using open-ended questions are analyzed 
+and interpreted in other ways. Answers to questions on attitudes and beliefs are sensitive to the 
+wording chosen by the systems analyst.
+Using questionnaires, the analyst may be seeking to quantify what was found in interviews. 
+In addition, questionnaires may be used to determine how widespread or limited a sentiment 
+expressed in an interview really is. Conversely, questionnaires can be used to survey a large sample 
+of system users to sense problems or raise important issues before interviews are scheduled.
+Throughout this chapter, we compare and contrast questionnaires with interviews. There 
+are many similarities between the two techniques, and perhaps the ideal would be to use them in 
+conjunction with each other, either following up unclear questionnaire responses with an inter -
+view or designing the questionnaire based on what is discovered in the interview. Each technique, 
+however, has its own specific functions, and it is not always necessary or desirable to use both.
+Planning for the Use of Questionnaires
+At first glance, using questionnaires may seem to be a quick way to gather massive amounts of 
+data about how users assess the current system, about what problems they are experiencing with 
+their work, and about what people expect from a new or modified system. Although it is true that 
+you can gather a lot of information through questionnaires without spending time in face-to-face 
+interviews, developing a useful questionnaire takes extensive planning time in its own right. When 
+you decide to survey users via email or the web, you face additional planning considerations con-
+cerning confidentiality, authentication of identity, and problems of multiple responses.
+You must first decide what you are attempting to gain through using a survey. For instance, if 
+you want to know what percentage of users prefers a frequently asked questions page as a means 
+of learning about new software packages, a questionnaire might be the right technique. If you 
+want an in-depth analysis of a manager’s decision-making process, conducting an interview is a 
+better choice.
+Here are some guidelines to help you decide whether the use of questionnaires is appropriate. 
+Consider using questionnaires if:
+1. The people you need to question are widely dispersed (as in different branches of the same 
+corporation)
+2. Many people are involved in the systems project, and it is meaningful to know what 
+proportion of a given group (for example, management) approves or disapproves of a 
+particular feature of the proposed system
+3. You are doing an exploratory study and want to gauge overall opinion before the systems 
+project is given any specific direction
+4. You wish to be certain that any problems with the current system are identified and 
+addressed in follow-up interviews
+Once you have determined that you have good cause to use a questionnaire and have 
+pinpointed the objectives to be fulfilled through its use, you can begin formulating questions.
+Writing Questions
+The biggest difference between the questions used for most interviews and those used on question-
+naires is that interviewing permits interaction between the questions and their meanings. In an 
+interview, the analyst has an opportunity to refine a question, define an unclear term, change the 
+course of questioning, respond to a puzzled look from the interviewee, and generally control 
+the context.
+Few of these opportunities are possible on a questionnaire. Thus, for an analyst, questions 
+must be transparently clear, the flow of the questionnaire cogent, the respondent’s questions antici-
+pated, and the administration of the questionnaire planned in detail. (A respondent is a person who 
+responds to or answers the questionnaire.)
+The basic question types used on the questionnaire are open-ended and closed, as discussed 
+for interviewing. Due to the constraints placed on questionnaires, some additional discussion of 
+question types is warranted.
+
+
+===== BOOK PAGE 123 =====
+
+CHAPTER 4  •  InfoRMATIon G ATHERInG : InTERACTIvE  METHods     123
+Open-Ended Questions. Recall that open-ended questions (or statements) are those that leave 
+all possible response options open to the respondent. For example, open-ended questions on a 
+questionnaire might read, “Describe any problems you are currently experiencing with output 
+reports” or “In your opinion, how helpful are the online user manuals for the current system’s 
+accounting application?”
+When you write open-ended questions for a questionnaire, anticipate what kind of response 
+you will get. For instance, if you ask a question such as, “How do you feel about the system?” the 
+responses are apt to be too broad for accurate interpretation or comparison. Therefore, even when 
+you write an open-ended question, it must be narrow enough to guide respondents to answer in a 
+specific way. (Examples of open-ended questions can be found in Figure 4.11.)
+Open-ended questions are particularly well suited to situations in which you want to get at 
+organization members’ opinions about some aspect of the system, whether product or process. In 
+such cases, you will want to use open-ended questions when it is impossible to list effectively all 
+the possible responses to the question.
+FIGURE 4.11
+Open-ended questions used for 
+questionnaires.
+53. What are the most frequent problems you
+experience with computer output?
+A.
+B.
+C.
+54. Of the problems you listed above, what is the single
+most troublesome?
+55. Why?
+Below are questions about yourself. Please ﬁll in the
+blanks to the best of your ability.
+67. How long have you worked for this company? 
+Years and Months
+68. How long have you worked in the same industry? 
+Years and Months
+69. In what other industries have you worked? 
+Open-ended
+questions can
+ask the
+respondent
+for lists …
+… or detailed
+responses …
+… or short
+answers.
+
+
+===== BOOK PAGE 124 =====
+
+124    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+Closed Questions. Recall that closed questions (or statements) limit or close the response options 
+available to the respondent. For example, in Figure 4.12, the statement in question 23 (“Below are 
+the six software packages currently available. Please check the software package(s) you person-
+ally use most frequently.”) is closed. Notice that respondents are not asked why the package is 
+preferred, nor are they asked to select more than one, even if that is a more representative response.
+A systems analyst should use closed questions when it is possible to effectively list all the 
+possible responses to the question and when all the listed responses are mutually exclusive so that 
+choosing one precludes choosing any of the others.
+Use closed questions when you want to survey a large sample of people. The reason becomes 
+obvious when you start imagining how the data you are collecting will look. If you use only open-
+ended questions for hundreds of people, correct analysis and interpretation of their responses 
+becomes impossible without the aid of a computerized content analysis program or some type of 
+text analytics software.
+FIGURE 4.12
+Closed questions on 
+questionnaires help ensure 
+responses.
+ Answer questions 23 and 24 by checking the appropriate box.
+23. Below are the six software packages currently
+available. Please check the software package(s)
+you personally use most frequently.
+[ ] Microsoft Excel [ ] Microsoft Access
+[ ] Microsoft PowerPoint [ ] Microsoft Project
+[ ] Oracle SCM [ ] Visible Analyst
+24. “The sales ﬁgures are usually late. ”
+[ ] Agree [ ] Disagree
+Answer questions 25 and 26 by circling the appropriate number.
+25. “When the sales ﬁgures are prepared by computer data
+services they are late.”
+Never Rarely Sometimes Often Always
+1 2 3 4 5
+High School
+Marketing
+Operations
+Investments
+The division I am currently in is called
+Answer questions 45–48 by circling the appropriate response. 
+Closed questions
+may require the
+respondent to
+check a box …
+… or circle a
+number …
+… or circle the
+answer itself.
+Some College 
+46.
+45.
+My educational background can best be described as 
+Master’s Degree or Higher
+Bachelor’s Degree
+
+
+===== BOOK PAGE 125 =====
+
+CHAPTER 4  •  InfoRMATIon G ATHERInG : InTERACTIvE  METHods     125
+There are trade-offs involved in choosing either open-ended or closed questions for use on 
+questionnaires. Figure 4.13 summarizes these trade-offs. Notice that responses to open-ended 
+questions can help analysts gain rich, exploratory insights as well as breadth and depth on a topic. 
+Although open-ended questions can be written easily, analyzing responses to them is difficult and 
+time-consuming.
+When we refer to the writing of closed questions with either ordered or unordered answers, 
+we often refer to the process as scaling. The use of scales in surveys is discussed in detail in a 
+later section.
+Word Choice. Just as with interviews, the language of questionnaires is an extremely important 
+aspect of their effectiveness. Even if a systems analyst has a standard set of questions concerning 
+systems development, it is wise to write them to reflect the business’s own terminology.
+Respondents appreciate the efforts of someone who bothers to write a questionnaire reflecting 
+their own language usage. For instance, if the business uses the term supervisors instead of 
+managers or units rather than departments, incorporating the preferred terms into the question-
+naire helps respondents relate to the meaning of the questions. Responses will be easier to interpret 
+accurately, and respondents will be more enthusiastic overall.
+To check whether language used on the questionnaire is that of the respondents, try some 
+sample questions on a pilot (test) group. Ask them to pay particular attention to the appropriate-
+ness of the wording and to change any words that do not ring true.
+Here are some guidelines to use when choosing language for your questionnaire:
+1. Use the language of respondents whenever possible. Keep wording simple.
+2. Be specific rather than vague in your wording. Avoid overly specific questions as well.
+3. Keep questions short.
+4. Do not patronize respondents by talking down to them through low-level language  
+choices.
+5. Avoid bias in wording. Avoiding bias includes avoiding objectionable questions. You can 
+have a team member review your language just to make sure biases aren’t creeping in.
+6. Target questions to the correct respondents (that is, those who can respond). Don’t assume 
+too much knowledge.
+7. Ensure that questions are technically accurate before including them.
+8. Use software to check whether the reading level is appropriate for the respondents.
+Using Scales in Questionnaires. Scaling is the process of assigning numbers or other symbols to 
+an attribute or a characteristic for the purpose of measuring that attribute or characteristic. Scales 
+are often arbitrary and may not be unique. For example, temperature is measured in a number 
+of ways; the two most common are the Fahrenheit scale (where water freezes at 32 degrees and 
+boils at 212 degrees) and the Celsius scale (where freezing occurs at 0 degrees and boiling at 
+100 degrees).
+FIGURE 4.13
+Trade-offs between the use of 
+open-ended and closed questions 
+on questionnaires.
+Open-Ended Closed
+Slow Fast
+High Low
+High Low
+Easy Diﬃcult
+Diﬃcult Easy
+Speed of Completion
+Exploratory Nature
+Breadth and Depth
+Ease of Preparation
+Ease of Analysis
+
+
+===== BOOK PAGE 126 =====
+
+126    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+“Rich Kleintz,” By and Sal call out in unison.
+“Well, as you can see, it’s not telling us anything!” Penny 
+exclaims.
+Penny and her staff are dissatisfied with the responses they have 
+received on the unbearable questionnaire, and they feel that the 
+responses are unrealistic reflections of the amount of information 
+account executives want. In a paragraph, state why these problems 
+are occurring. On a separate sheet, change the scaling of the ques-
+tions to avoid these problems.
+CONSULTING OPPORTUNITY 4.4 
+The Unbearable Questionnaire
+“I’m going to go into a depression or at least a slump if someone 
+doesn’t figure this out soon,” says Penny Stox, office manager for 
+Carbon, Carbon, & Rippy, a large brokerage firm. Penny is sitting 
+across a conference table from you and two of her most produc-
+tive account executives, By Lowe and Sal Hy. You are all mulling 
+over the responses to a questionnaire that has been distributed among 
+the firm’s account executives, which is shown in Figure 4.C1.
+“We need a crystal ball to understand these,” By and Sal call 
+out together.
+“Maybe it reflects some sort of optimistic cycle or something,” 
+Penny says as she reads more of the responses. “Who designed this 
+gem, anyway?”
+FIGURE 4. C1
+A questionnaire developed for 
+the brokerage firm Carbon, 
+Carbon, & Rippy by Rich 
+Kleintz.
+5. Point and Figure Charts
+About
+Less the Same More
+1 2 3 4 5
+6. Computerized Portfolio Analysis
+About
+Less the Same More
+1 2 3 4 5
+7. Hot Tips
+About
+Less the Same More
+1 2 3 4 5
+Circle the appropriate number for each source of information described.
+1. Industry Reports
+About
+Less the Same More
+1 2 3 4 5
+2. Trend Analysis
+About
+Less the Same More
+1 2 3 4 5
+3. Computer-Generated Graphs
+About
+Less the Same More
+1 2 3 4 5
+4. Investment Advisory Services
+About
+Less the Same More
+1 2 3 4 5
+We need to
+change this
+questionnaire.
+      -Penny
+
+
+===== BOOK PAGE 127 =====
+
+CHAPTER 4  •  InfoRMATIon G ATHERInG : InTERACTIvE  METHods     127
+Measurement. Systems analysts commonly use two different forms of measurement scales:
+1. Nominal scales
+2. Interval scales
+Nominal scales are used to classify things. A question such as the following uses a nominal scale:
+What type of software do you use the most?
+=1A word processo r
+=2A spreadsheet
+=3 A databa se
+=4 An emai lp rogram
+Obviously, nominal scales are the weakest forms of measurement. Generally, all an analyst can 
+do with them is obtain totals for each classification.
+In interval scales, the intervals between each pair of numbers are equal. Due to this char -
+acteristic, mathematical operations can be performed on the questionnaire data, resulting in a 
+more complete analysis. Examples of interval scales are the Fahrenheit and Celsius scales, which 
+measure temperature.
+By anchoring the scale on either end, the analyst may want to assume that the respondent 
+perceives the intervals to be equal when they respond to this question:
+How useful is the support given by the Technical Support Group?
+Not Useful at All Extremely Useful
+1 2 3 4 5
+If the systems analyst makes this assumption, more quantitative analysis is possible.
+Validity and Reliability. There are two measures of performance in constructing scales: validity 
+and reliability. A systems analyst should be aware of these concerns.
+Validity is the degree to which a question measures what the analyst intends for it to measure. 
+For example, if the purpose of the questionnaire is to determine whether the organization is ready 
+for a major change in computer operations, do the questions measure that?
+Reliability measures consistency. If a questionnaire was administered once and then again 
+under the same conditions and if the same results were obtained both times, the instrument is said 
+to have external consistency. If the questionnaire contains subparts and these parts have equivalent 
+results, the instrument is said to have internal consistency. Both external and internal consistency 
+are important.
+Constructing Scales. The actual construction of scales is a serious task. Careless construction of 
+scales can result in the following problems:
+1. Leniency
+2. Central tendency
+3. Halo effect
+Leniency is a problem caused by respondents who are easy raters. A systems analyst can 
+avoid the problem of leniency by moving the “average” category to the left (or right) of center.
+Central tendency is a problem that occurs when respondents rate everything as average. 
+The analyst can improve the scale (1) by making the differences smaller at the two ends, (2) by 
+adjusting the strength of the descriptors, or (3) by creating a scale with more points.
+The halo effect is a problem that arises when the impression formed in one question carries 
+into the next question. For example, if you are rating an employee about whom you have a very 
+favorable impression, you may give a high rating in every category or trait, regardless of whether 
+it is a strong point of the employee’s. The solution is to place one trait and several employees on 
+each page rather than one employee and several traits on a page.
+
+
+===== BOOK PAGE 128 =====
+
+128    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+Designing Questionnaires
+Many of the same principles that are relevant to the design of forms for data input (as covered in 
+Chapter 12) are important in designing questionnaires as well. Although the intent of a question-
+naire is to gather information on attitudes, beliefs, behavior, and characteristics whose impact 
+may substantially alter users’ work, respondents are not always motivated to respond. Remember 
+that organization members on the whole tend to receive too many surveys, many of which are ill 
+conceived and trivial.
+A well-designed, relevant questionnaire can help overcome some of the resistance to 
+responding. Here are some rules for designing a good questionnaire:
+1. Allow ample white space.
+2. Allow ample space to write or type in responses.
+3. Make it easy for respondents to clearly mark their answers.
+4. Be consistent in style.
+When you design questionnaires for the web, apply the same rules you use when designing 
+paper questionnaires. Most software packages allow you to insert one of the commonly used data 
+entry formats shown in Figure 4.14. Following the four guidelines should help you gain a better 
+response rate to the questionnaire.
+Question Order. There is no best way to order questions on a questionnaire. Once again, as you 
+order questions, you must think about your objectives in using the questionnaire and then deter-
+mine the function of each question in helping you to achieve your objectives. It is also important 
+to see the questionnaire through the respondents’ eyes. Some guidelines for ordering questions are:
+1. Place questions that are important to respondents first.
+2. Cluster items of similar content together.
+3. Introduce less controversial questions first.
+You want respondents to feel as unthreatened by and as interested in the questions being asked as 
+possible without getting overwrought about a particular issue.
+Administering Questionnaires
+The topic of administering questionnaires centers around two main questions: “Who in the organiza-
+tion should receive the questionnaire?” and “How should the questionnaire be administered?” Both 
+questions are worth considering carefully before a questionnaire is sent. Doing so will help you 
+better visualize and anticipate the data you are trying to collect with the questionnaire, and it also 
+will help you plan ahead so that appropriate timing is observed in administering the questionnaire.
+FIGURE 4.14
+When designing a web survey, 
+keep in mind that there are 
+different ways to capture 
+responses.
+One-line text box
+Name PurposeAppearance
+Scrolling text box
+Check box
+Radio button
+Drop-down menu
+Push button
+Used to obtain a small amount of text and
+limit the answer to a few words
+Used to obtain one or more paragraphs of text
+Used to obtain a yes-no answer (e.g., Do you
+wish to be included on the mailing list?)
+Used to obtain a yes-no or true-false answer
+Used to obtain more consistent results
+(Respondent is able to choose the appropriate
+answer from a predetermined list [e.g., a list of
+state abbreviations])
+Most often used for an action (e.g., a respondent
+pushes a button marked “Submit” or “Clear”)
+
+
+===== BOOK PAGE 129 =====
+
+CHAPTER 4  •  InfoRMATIon G ATHERInG : InTERACTIvE  METHods     129
+Respondents. Deciding who will receive the questionnaire is handled in conjunction with the task 
+of setting up objectives for its results. Sampling, which is covered in Chapter 5, helps a systems 
+analyst determine what sort of representation is necessary and hence what kind of respondents 
+should receive the questionnaire.
+Recipients are often chosen as representative because of their rank, length of service with 
+the company, job duties, or special interest in the current or proposed system. Be sure to include 
+enough respondents to allow for a reasonable sample in the event that some questionnaires are not 
+returned or some response sheets are incorrectly completed and thus must be discarded.
+“Can I bounce this off you?” he asks Terri Towell, the leader of the 
+systems analysis team. “It’s a questionnaire I designed for distribu-
+tion to all spa managers.”
+Ever the good sport, Terri tells Tennys that she’d love to take a 
+look at the form. But back in the office, Terri puts the ball in your 
+court. Systematically critique Tennys’s technique, as depicted in 
+Figure 4.C2, and explain to him point by point what it needs to be 
+a matchless questionnaire with a winning form. Building on your 
+critique, tell Tennys what he should do to rewrite the form as a web 
+survey instead.
+CONSULTING OPPORTUNITY 4.5 
+Order in the Courts
+“I love my work,” Tennys says, beginning the interview with a 
+volley. “It’s a lot like a game. I keep my eye on the ball and never 
+look back,” he continues. Tennyson “Tennys” Courts is a manager 
+for Global Health Spas, Inc., which has popular health and recre-
+ation spas worldwide.
+“Now that I’ve finished my MBA, I feel like I’m on top of the 
+world with Global,” Tennys says. “I think I can really help this outfit 
+shape up with its computers and health spas.”
+Tennys is attempting to help your systems group, which 
+is developing a cloud-based system to be used by all 80 outlets. 
+FIGURE 4. C2
+A questionnaire developed for managers of Global Health Spas by Tennys Courts.
+QUESTIONNAIRE FOR ALL MANAGERS OF HEALTH SPAS
+***URGENT***FILL OUT IMMEDIATELY AND RETURN
+PERSONALLY TO YOUR DIVISION MANAGER. YOUR NEXT
+PAYCHECK WILL BE WITHHELD UNTIL IT IS CONFIRMED
+THAT YOU HAVE TURNED THIS IN.
+In 10 words or fewer, what complaints have you lodged about
+the current computer system in the last six months to a year?
+Are there others who feel the same way in your outlet as you
+do? Who? List their names and positions.
+1.                                                      2.
+3.                                                      4.
+5.
+7.
+What is the biggest problem you have when communicating
+your information requirements to headquarters? Describe it
+brieﬂy.
+How much computer downtime did you experience last year?
+1 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - 9 - 10 -
+Is there any computer equipment you never use?
+Description          Serial Number
+Do you want it removed?  Agree       Neutral       Disagree
+In your opinion, what’s next as far as computers and Global
+Health Spas are concerned?
+Thanks for ﬁlling this out.  • • • • • • • • • • • • • • 
+T erri
+     Please help
+me improve this
+form.
+     T ennys
+
+
+===== BOOK PAGE 130 =====
+
+130    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+Methods of Administering a Questionnaire. A systems analyst has several options for administer-
+ing a questionnaire, and the choice of administration method is often determined by the existing 
+business situation. Options for administering the questionnaire include the following:
+1. Convening all concerned respondents at one time.
+2. Handing out blank questionnaires personally and taking back completed ones.
+3. Allowing respondents to self-administer the questionnaire at work and drop it in a centrally 
+located box.
+4. Mailing questionnaires to employees at branch sites and supplying a deadline, instructions, 
+and return postage.
+5. Administering the questionnaire electronically either via email or on the web.
+Each of these five methods has advantages and disadvantages. Most commonly, respondents 
+are allowed to self-administer a questionnaire. Response rates with this method are a little lower 
+than with the other methods because people may forget about the form, lose it, or purposely ignore 
+it. Self-administration, however, allows people to feel that their anonymity is ensured and may 
+result in less guarded answers from some respondents. Both email and web surveys fall into the 
+category of self-administered questionnaires.
+Administering a questionnaire electronically, either via email or posted on the web, is one way 
+to quickly reach current system users. Costs of duplication are minimized. In addition, responses 
+can be made at the convenience of the respondent and then can be automatically collected and 
+stored electronically. Some software permits respondents to begin answering a survey, save their 
+answers, and return to it for completion if they are interrupted. Reminders to respondents can 
+be easily and inexpensively sent via email, as can notifications to the analyst about when the 
+respondent has opened the email. Some software now turns email data into data tables for use in 
+spreadsheet or statistical analysis software. One of the popular services for creating and adminis-
+tering online surveys is a company called SurveyMonkey (see www.surveymonkey.com). It is a 
+cloud-based Software as a Service company that acquired an email marketing services company 
+called Intuit MailChimp to add to its product offerings. MailChimp allows organizations to send 
+email newsletters and design, send, and track email campaigns.
+Research shows that respondents are willing to answer questions about highly sensitive 
+matters via the internet. Thus, questions that may be difficult to pose in person regarding systems 
+problems may be acceptable to ask on a web survey.
+REQUIREMENTS PRIORITIZATION
+Systems analysts have introduced another topic, called requirements prioritization. It is 
+a confusing name because the term requirements used here is different from the information 
+requirements we have been discussing in this chapter. When determining information require -
+ments, we’ve been listening to our clients to determine their goals and their fears, the policies 
+and procedures that are part of their organization, and the information that is needed to develop 
+or improve their current systems.
+Requirements prioritization now involves the client or customer as well. Interviewing and 
+administering questionnaires are not effective ways to ask a customer which features they desire in 
+the final product. Asking a client what feature is least important in developing their website would be 
+awkward at best and perhaps unanswerable by a customer who hasn’t thought about specific features.
+In this section we use the terms “requirements,” “features,” and “deliverables” interchangeably. 
+We will assume there are 24 statements of requirements for illustrating these methods.
+Six methods used for requirements prioritization are:
+1. Simple ranking
+2. 100-token method
+3. MoSCoW method
+4. Urgent/Important Matrix
+5. Analytic hierarchy processing
+6. Q-sort
+These six methods are pictured in Figure 4.15.
+
+
+===== BOOK PAGE 131 =====
+
+CHAPTER 4  •  InfoRMATIon G ATHERInG : InTERACTIvE  METHods     131
+Simple Ranking
+By using simple ranking, a systems analyst can simply ask all interested parties to rank-order 
+a list of requirements under consideration by assigning a 1 to the most desirable requirement and a 
+10 to the least desirable. While it is possible to accomplish this with 10 requirements, this method 
+breaks down when attempting to evaluate 24 alternatives.
+What if you were asked to rank all the restaurants you’ve ever dined in? Do you feel comfort-
+able giving each one a number? After the first few, does this process seem boring and futile? Does 
+it make a difference if a restaurant is number 20 or 21? Now the process isn’t so simple. Most 
+people aren’t good at making and ordering a long list of any sort.
+100-Token Method
+In the 100-token method, suppose an analyst set out 24 glasses on a table, one for each require-
+ment, and gave each participant 100 tokens to distribute among the 24 glasses according to what 
+they perceive to be the importance of the requirement. The participant may put all 100 tokens 
+into one glass if they want or put an equal number of tokens in each glass, but those acts would 
+mean they are letting other participants prioritize the requirements. But saying this requirement 
+is worth x number of tokens for each of the 24 requirements is easier than assigning a rank to 
+each requirement.
+One problem is that putting a token in a glass can be anonymous. We lose the information 
+regarding which department placed the tokens, yet we know that multidepartment buy-in is 
+FIGURE 4.15
+Six methods used for requirements 
+prioritization.
+M
+100-Token Method
+Simple Ranking
+MoScoW method
+S
+C
+W
+I/Nu I/u
+Urgent/Important Matrix
+AHP Q- SORT
+NI/Nu NI/u
+
+
+===== BOOK PAGE 132 =====
+
+132    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+a good predictor of success. Using different-colored tokens for each department may be use-
+ful, but this method is still very simplistic. Most assume there are better ways to prioritize 
+requirements.
+MoSCoW Method
+Rather than asking participants to rank everything, the MoSCoW method asks participants to put 
+the requirement into one of four “buckets” or categories:
+1. Must
+2. Should
+3. Could
+4. Won’t
+Note that the uppercase letters M, S, C, and W stand for the four categories. Must means that 
+a requirement must be completed for the project to be considered a success. Should means that the 
+requirement should be included if there is time and money available to do so, but if they are not, 
+the project can still be deemed a success. Could means that after all the must and should catego-
+ries have been completed, a requirement could be considered. It might add some value but does 
+not have to be included. Won’t requirements are those that will not be adopted at this time.
+One criticism of this method is that once a requirement is considered a won’t requirement, it 
+will never have a chance of being implemented. Another criticism is that categories are too broad, 
+and a systems analyst will not be able to tell priorities within the large categories.
+Urgent/Important Matrix
+A similar approach to MoSCoW is called the Urgent/Important Matrix, which can be drawn on 
+a whiteboard. The horizonal x-axis is meant to show urgency and the vertical y-axis represents 
+importance. Participants would write the requirement or a code assignment to that requirement in 
+the quadrant they felt it belonged.
+An analyst would tackle the requirements that are deemed both important and urgent by 
+most of the participants. Then the analyst might want to consider those requirements that are 
+marked “Not important but urgent” so that additional goals can be met before the release date. 
+At some point in the future those activities deemed both not important and not urgent should not 
+be considered.
+Analytic Hierarchy Processing (AHP)
+A much more complex method is called analytic hierarchy processing (AHP), which presents 
+pairs of alternatives to participants and has the participant decide which of the two are more 
+important. If we have 24 requirements, we start by making 12 comparisons, then work our way 
+up to the final pairwise comparison. Doing that over and over will eventually produce a ranked 
+list of requirements.
+This method is time-consuming but has shown good results for large, important decisions. An 
+analyst seeking the opinions of participants can make this fun by using a metaphor of a tournament 
+(like the NCAA March Madness basketball event in the United States) where the winners move 
+up to another game and the losers drop out.
+Q-Sorts
+Q-sorts involve sorting a deck of cards of requirements into piles and therefore is similar to the 
+100-token and MoSCoW methods. It differs from these methods because the participant must 
+place a certain number of requirements in each pile. The number of requirements a participant 
+will place in each pile are not the same. Rather, they are arranged like a normal distribution for 
+24 requirements. The piles from the right (most important) to the left (least important) should 
+hold 2, 5, 10, 5, and 2, respectively.
+While performing the Q-sort, participants will move cards back and forth among piles. In 
+our example, if pile 5 already had two requirements, but the participant felt that the one in their 
+hands was more appropriate for pile 5, they would look at the other requirements and determine 
+which one needed to be moved from pile 5 to pile 4. It is clear that this comparison is similar to 
+the pair-wise comparisons using AHP mentioned before.
+
+
+===== BOOK PAGE 133 =====
+
+CHAPTER 4  •  InfoRMATIon G ATHERInG : InTERACTIvE  METHods     133
+There are advantages to using Q-sorts:
+1. To a participant, there is no pressure on getting it right the first time. Requirements can be 
+moved interactively from one pile to another.
+2. By requiring the participants to sort statements into a forced normal distribution, many 
+of the problems associated with questionnaires (e.g., central tendency, leniency) can be 
+avoided.
+3. An analyst can identify participants that have similar attitudes by examining how they 
+sorted the deck of requirements, even if they are from different departments or units.
+4. Finally, participants usually think it’s fun to arrange and rearrange these requirements from 
+one pile to another.
+One disadvantage of a Q-sort is that all of the requirements must be pre-printed on cards so 
+that they can be sorted easily.
+In the foregoing section we provided six unique methods to do requirements prioritization. 
+Be wary of the path of least resistance. The simplest method to get set up and to administer will 
+not necessarily yield the highest-quality results. It’s better to know the culture of the organiza-
+tion first, then choose a method that equates with the extent of effort organizational members are 
+willing to give to produce useful requirements prioritization.
+Summary
+This chapter covers four of the key interactive methods for information gathering that the systems analyst 
+can use: interviewing, joint application design, construction of questionnaires, and six methods of require-
+ments or features prioritization. During the process of interviewing, a systems analyst should listen for 
+human–computer interaction (HCI) concerns related to ergonomics, aesthetics, usability, and usefulness, as 
+well as goals, feelings, opinions, and informal procedures in interviews with organization decision makers. 
+Interviews are planned question-and-answer dialogues between two people. An analyst can use an interview 
+to develop a relationship with a client, to observe the workplace, and to collect data. Interviews should pref-
+erably be conducted in person, although in times of exigencies that prevent face-to-face contact, there are 
+robust video-calling platforms like Zoom, Microsoft Teams, and so on that can be used.
+The five steps to take in planning an interview are to read background material, establish interviewing 
+objectives, decide who to interview, prepare the interviewee, and decide on question types and structure.
+Questions are of two basic types: open-ended or closed. Open-ended questions leave open all response 
+options for the interviewee. Closed questions limit the possible options for response. Probes or follow-
+up questions can be either open-ended or closed, but either way, they ask the respondent for a more 
+detailed reply.
+Interviews can be structured in three basic ways: pyramid, funnel, or diamond. Pyramid structures begin 
+with detailed, closed questions and broaden to more generalized questions. Funnel structures begin with 
+open-ended, general questions and then funnel down to more specific, closed questions. Diamond-shaped 
+structures combine the strengths of the other two structures, but they take longer to conduct. Trade-offs are 
+involved when deciding how structured to make interview questions and question sequences.
+To cut both the time and cost of personal interviews, analysts may want to consider joint application 
+design (JAD) instead. Using JAD, analysts can both analyze human information requirements and design 
+a user interface with users in a group setting. Careful assessment of the particular organization culture will 
+help an analyst judge whether JAD is suitable.
+By using questionnaires (surveys), systems analysts can gather data on HCI concerns, attitudes, beliefs, 
+behavior, and characteristics from key people in the organization. Surveys are useful if people in the orga-
+nization are widely dispersed, if many people are involved with the systems project, if exploratory work is 
+necessary before recommending alternatives, and if there is a need for problem sensing before interviews 
+are conducted.
+Once objectives for the survey are set, the analyst can begin writing either open-ended or closed ques-
+tions. Ideally, the questions should be simple, specific, short, free of bias, not patronizing, technically accu-
+rate, addressed to those who are knowledgeable, and written at an appropriate reading level. The systems 
+analyst may want to use scales either to measure the attitudes or characteristics of respondents or to have 
+respondents act as judges for the subject of the questionnaire. Scaling is the process of assigning numbers 
+or other symbols to an attribute or characteristic.
+Consistent control of the questionnaire format and style can result in a better response rate. Web surveys 
+can be designed to encourage consistent responses. In addition, the meaningful ordering and clustering of
+
+
+===== BOOK PAGE 134 =====
+
+134    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+questions is important for helping respondents understand the questionnaire. Surveys can be administered 
+in a variety of ways, including electronically via email or the web or with the analyst present in a group of 
+users. Software or Software as a Service is available to automatically create, distribute, and then tabulate 
+email or web responses.
+Systems analysts can use storytelling as a complement to other information-gathering methods. 
+You need to involve users by reacting to stories, matching one story to another by recounting it to other 
+participants, and even collaborating with the participant to reframe and understand organization stories. It is 
+a useful way to understand problems associated with the use of technology, systems development, systems 
+adoption, and systems design. The systems analyst needs to listen to the story as a whole to truly understand 
+its content and purpose.
+Systems analysts can use one of the six methods of requirements prioritization—simple ranking, 
+the 100-token method, the MoSCoW method, Urgent/Important Matrix, analytic hierarchy processing, or 
+Q-sort—to help users prioritize what software features they identify as most important in a proposed system.
+Keywords and Phrases
+analytic hierarchy processing (AHP)
+central tendency
+closed questions
+diamond-shaped structure
+dichotomous closed questions
+funnel structure
+halo effect
+interval scale
+joint application design (JAD)
+leniency
+MoSCoW method 
+nominal scale
+100-token method
+open-ended questions
+probes
+pyramid structure
+Q-sort
+questionnaire
+reliability
+requirements prioritization
+simple ranking
+stories
+validity
+video calling
+video conferencing
+Zoom fatigue
+Review Questions
+1. What kinds of information should be sought in interviews?
+2. List the five steps in interview preparation.
+3. List two popular video-conferencing platforms.
+4. What is “Zoom fatigue”?
+5. Define what is meant by open-ended interview questions. List eight benefits and five drawbacks of 
+using them.
+6. When are open-ended questions appropriate for use in interviewing?
+7. Define what is meant by closed interview questions. List six benefits and four drawbacks of using 
+them.
+8. When are closed questions appropriate for use in interviewing?
+9. What is a probing question? What is the purpose of using a probing question in interviews?
+10. Define what is meant by pyramid structure. When is it useful to employ this structure in interviews?
+11. Define what is meant by funnel structure. When is it useful to employ this structure in interviews?
+12. Define what is meant by diamond-shaped structure. When is it useful to employ this structure in 
+interviews?
+13. What are seven elements common to stories told by users in the organization?
+14. What are the four reasons users tell stories to analysts?
+15. Define joint application design (JAD).
+16. List the situations that warrant use of JAD in place of personal organization interviews.
+17. List the potential benefits of using JAD.
+18. List the three potential drawbacks of using JAD as an alternative to personal interviews.
+19. What kinds of information is a systems analyst seeking by using questionnaires or surveys?
+20. List four situations in which the use of questionnaires is appropriate.
+21. What are the two basic question types used on questionnaires?
+22. List two reasons a systems analyst would use a closed question on a questionnaire.
+23. List two reasons a systems analyst would use an open-ended question on a questionnaire.
+24. What are the seven guidelines for choosing language for a questionnaire?
+
+
+===== BOOK PAGE 135 =====
+
+CHAPTER 4  •  InfoRMATIon G ATHERInG : InTERACTIvE  METHods     135
+25. Define what is meant by scaling.
+26. What are two kinds of information or scales that systems analysts most commonly use?
+27. What are nominal scales used for?
+28. Give an example of an interval scale.
+29. When should an analyst use an interval scale?
+30. Define reliability as it refers to the construction of scales.
+31. Define validity as it refers to the construction of scales.
+32. List three problems that can occur because of careless construction of scales.
+33. What four actions can be taken to ensure that a questionnaire’s format is conducive to a good 
+response rate?
+34. Which questions should be placed first on a questionnaire?
+35. Why should questions on similar topics be clustered together?
+36. What is an appropriate placement for controversial questions?
+37. List five methods for administering a questionnaire.
+38. What considerations are necessary when questionnaires are web based?
+39. What are the six methods of requirements prioritization an analyst can use to help users prioritize 
+software features?
+40. Which method is preferred for determining requirements prioritization?
+41. List a drawback of each of the six requirements prioritization methods.
+42. What are the four advantages of Q-sorting?
+Problems
+1. As part of your systems analysis project to update the automated accounting functions for Xanadu 
+Corporation, a manufacturer of digital cameras, you will interview Nawaf Aljohani, the chief accoun-
+tant. Write four to six interview objectives covering his use of information sources, information for-
+mats, decision-making frequency, desired qualities of information, and decision-making style.
+a. In a paragraph, write down how you will approach Nawaf to set up an interview.
+b. State which structure you will choose for this interview. Why?
+c. Nawaf has four subordinates who also use the system. Would you interview them also? Why or 
+why not?
+d. Would you also try to interview customers (visitors to the website)? Are there better ways to get 
+the opinions of customers? Why or why not?
+e. Write three open-ended questions that you will email to Nawaf prior to your interview. Write a 
+sentence explaining why it is preferable to conduct an interview in person or on a video call rather 
+than via email.
+f. Describe how you would ask Nawaf to tell a relevant story. What seven elements should you listen for?
+2. Here are five questions written by one of your systems analysis team members. Her interviewee is 
+the local manager of LOWCO, an outlet of a national discount chain, who has asked you to work on 
+a management information system to provide inventory information. Review these questions for your 
+team member.
+1. When was the last time you thought seriously about your decision-making process?
+2. Who are the troublemakers in your store—I mean the ones who will show the most resistance to 
+changes in the system that I have proposed?
+3. Are there any decisions you need more information about before you can make them?
+4. You don’t have any major problems with the current inventory control system, do you?
+5. Tell me a little about the output you’d like to see.
+a. Rewrite each question, so it is more effective in eliciting information.
+b. Order your questions in either a pyramid, funnel, or diamond-shaped structure and label the 
+questions with the name of the structure you used.
+c. What guidelines can you give your team member for improving her interviewing questions in 
+the future? Make a list of them.
+3. Ever since you walked through the door, your interviewee, Robin Tang, has been shuffling papers, 
+looking at his watch, and drumming on his desk with his fingers. Based on what you know about 
+interviews, you guess that Robin is nervous because of the other work he needs to do. In a paragraph, 
+describe how you would deal with this situation so that the interview can be accomplished with 
+Robin’s full attention. (Robin cannot reschedule the interview for a different day.)
+4. Write a series of six closed questions that cover the subject of decision-making style for the manager 
+described in Problem 2.
+5. Write a series of six open-ended questions that cover the subject of decision-making style for the 
+manager described in Problem 2.
+
+
+===== BOOK PAGE 136 =====
+
+136    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+6. Examine the interview structure presented in the sequencing of the following questions:
+1. How long have you been in this position?
+2. What are your key responsibilities?
+3. What reports do you receive?
+4. How do you view the goals of your department?
+5. How would you describe your decision-making process?
+6. How can that process best be supported?
+7. How frequently do you make those decisions?
+8. Who is consulted when you make a decision?
+9. What is the one decision you make that is essential to departmental functioning?
+a. What structure is being used? How can you tell?
+b. Restructure the interview by changing the sequence of the questions (you may omit some, if 
+necessary). Label the reordered questions with the name of the structure you have used.
+7. The following is the first interview report filed by one of your systems analysis team members:  
+“In my opinion, the interview went very well. The subject allowed me to talk with him for an hour 
+and a half. He told me the whole history of the business, which was very interesting. The subject also 
+mentioned that things have not changed all that much since he has been with the firm which is about 
+16 years. We are meeting again soon to finish the interview because we did not have time to go into 
+the questions I prepared.”
+a. In two paragraphs, critique the interview report. What critical information is missing?
+b. What information is extraneous to the interview report?
+c. If what is reported really occurred, what three suggestions do you have to help your teammate 
+conduct a better interview next time?
+d. How could the interviewer get the interviewee to share a relevant story?
+8. Shan Xiao is a newly hired systems analyst with your group. Shan has always felt that questionnaires 
+are a waste. Now that you will be doing a systems project for Ground Ride Sharing (GRS), a national 
+ride-sharing firm with branches and employees in 130 cities, you want to use a questionnaire to elicit 
+some opinions about the current and proposed systems.
+a. Based on what you know about Shan and GRS, list three persuasive reasons Shan should use a 
+survey for this study.
+b. Given your careful arguments, Shan has agreed to use a questionnaire but strongly urges that all 
+questions be open-ended so as not to constrain the respondents. In a paragraph, persuade Shan 
+that closed questions are useful as well. Be sure to point out the trade-offs involved with each 
+question type.
+9. “Every time we get consultants in here, they pass out some goofy questionnaire that has no meaning 
+to us at all. Why don’t they bother to personalize it, at least a little?” asks Raj Sharman, head of emer-
+gency systems. You are discussing the possibility of beginning a systems project with Pohattan Power 
+Company (PPC) of Far Meltway, New Jersey.
+a. What steps will you follow to customize a standardized questionnaire?
+b. What are the advantages of adapting a questionnaire to a particular organization? What are the 
+disadvantages?
+c. How could soliciting stories from users before writing the questionnaire make it more relevant?
+10. A sample question from the draft of the AlwaysOn Power Company questionnaire reads:
+I have been with the company:
+20–upward years
+10–15 years upward
+5–10 years upward
+Less than a year
+Check one that most applies.
+a. What kind of a scale is the question’s author using?
+b. What errors have been made in the construction of the question, and what might be the possible 
+responses?
+c. Rewrite the question to achieve clearer results.
+d. Where should the question you’ve written appear on the questionnaire?
+11. Also included on the PPC questionnaire is this question:
+When residential customers call, I always direct them to our website to get an answer.
+Sometimes Never Always Usually
+1 2 3 4
+a. What type of scale is this intended to be?
+b. Rewrite the question and possible responses to achieve better results.
+
+
+===== BOOK PAGE 137 =====
+
+CHAPTER 4  •  InfoRMATIon G ATHERInG : InTERACTIvE  METHods     137
+12. Figure 4.EX1 is a questionnaire designed by an employee of Green Toe Textiles, which specializes 
+in manufacturing men’s socks. Di Wooly wrote the questionnaire because, as the office manager at 
+headquarters in Juniper, Tennessee, she is concerned with the proposed purchase and implementation 
+of a new computer system.
+a. Provide a one-sentence critique for each question given.
+b. In a paragraph, critique the layout and style in terms of white space used, room for responses, ease 
+of responding, and so on.
+13. Based on what you surmise Di Wooly is trying to get through the questionnaire, rewrite and reor-
+der the questions (use both open-ended and closed questions) so that they follow good practice and 
+result in useful information for the systems analysts. Indicate next to each question that you write 
+whether it is open-ended or closed and write a sentence indicating why you have written the question 
+this way.
+14. Redesign the questionnaire you created for Di Wooly in Problem 13 for use in an email. Write a para-
+graph that says what changes were necessary to accommodate email users.
+15. Redesign the questionnaire you created for Di Wooly in Problem 13 as a web survey. Write a para-
+graph that says what changes were necessary to accommodate web users.
+Group Projects
+1. With your group members, role-play a series of interviews with various system users at Maverick 
+Transport. Each member of your group should choose one of the following roles: company president, 
+information technology director, dispatcher, customer service agent, or truck driver. Those group 
+members playing roles of Maverick Transport employees should attempt to briefly describe their job 
+responsibilities, goals, and informational needs.
+Remaining group members should play the roles of systems analysts and devise interview ques-
+tions for each employee. If there are enough people in your group, each analyst may be assigned to 
+interview a different employee. Those playing the roles of systems analysts should work together 
+to develop common questions that they will ask, as well as questions tailored to each individual 
+employee. Be sure to include open-ended, closed, and probing questions in your interviews.
+Maverick Transport is attempting to change from outdated and unreliable technology to more 
+state-of-the-art, dependable technology. The company is seeking to move from PCs connected to 
+a mainframe because it wants to use tablets to improve worker mobility, and it is also interested in 
+investigating a cloud-based system for tracking freight and drivers. In addition, the company is inter-
+ested in pursuing ways to cut down on the immense storage requirements and difficult access of the 
+troublesome handwritten, multipart forms that accompany each shipment.
+2. Conduct all five interviews in a role-playing exercise. If there are more than 10 people in your group, 
+permit two or more analysts to ask questions. Remember to devote part of the interview to asking for 
+and listening to stories from each interviewee.
+FIGURE 4. EX1
+A questionnaire developed by  
+Di Wooly.
+Hi! All Employees
+What’s new? According to the grapevine, I hear we’re in for a new computer. Here
+are some questions for you to think about.
+a. How long have you used the old computer?
+b. How often does it go down?
+c.  Who repairs it for you?
+d. When was the last time you suggested a new improvement to the computer
+    system and it was put into use? What was it?
+e. When was the last time you suggested a new improvement to the computer
+    system and nobody used it? What was it?
+f. Do you use a VDT or printer or both?
+g. How fast do you type?
+h. How many people need to access the database regularly at your branch? Is there
+    anyone not using the computer now who would like to?
+
+
+===== BOOK PAGE 138 =====
+
+138    PART II  •  InfoRMATIon  REQUIREMEnTs  AnALY sIs
+3. With your group, write a plan for a JAD session that takes the place of personal interviews. Include 
+relevant participants, suggested setting, and so on.
+4. Using the interview data you gained from the group exercise on Maverick Transport in Group Project 1, 
+meet with your group to brainstorm the design of a questionnaire for the hundreds of truck drivers 
+that Maverick Transport employs. Recall that Maverick is interested in implementing a cloud-based 
+system for tracking freight and drivers. There are other systems that may affect the drivers as well.  
+As your group constructs the questionnaire, consider the drivers’ familiarity with the proposed 
+technology as well as the time constraints the drivers are under for completing such a form.
+5. Using the interview data you gained from the group exercise on Maverick Transport in Group Proj-
+ect 1, your group should meet to design an email or web questionnaire for surveying the company’s 
+20 programmers (15 of whom have been hired in the past year) about their skills, ideas for new or 
+enhanced systems, and so on. Investigate the web survey options available at SurveyMonkey.com. 
+As your group constructs the computer programmer survey, consider what you have learned about 
+users in the other interviews as well as what vision the director of information technology has for the 
+company.
+6. Divide your group into three distinct teams considering the case of a large manufacturer and online 
+seller of sports clothing and health accessories called Ganymede Fitness. They manufacture and 
+sell clothing including shirts, shorts, pants, and headbands and some fitness technology products. 
+They are a privately held, global company headquartered in Seattle, Washington, that has a corporate 
+slogan stating, “Helping the world get fit, happy, and healthy, one person at a time.”
+a. Assign team members so that there are an equal number of team members in each of the following 
+three groups:
+Team 1 systems analysts. This team should take the position of systems analysts who have been 
+asked to gather feelings of two groups—Team 2, the consumers of Ganymede Fitness products 
+and their website content, and Team 3, the Ganymede Fitness ecommerce managers, who were 
+asked about the usefulness of recommendation systems and ratings systems for online shop-
+ping. Eventually, the analysts will be tasked with designing recommendation systems and rating 
+systems for Ganymede Fitness.
+Team 2 Ganymede Fitness product users and website users. This team is made up of avid 
+users of Ganymede Fitness products (which are only available on their website), many of whom 
+have been with them since their opening in 2010. They have eagerly adopted all of the products 
+Ganymede Fitness offered, most recently their fitness technology products.
+Team 3 Ganymede Fitness ecommerce managers. This team is composed of ecommerce man-
+agers who work for Ganymede Fitness and are charged with keeping the ecommerce portion of 
+the website up to date. They would like to know more about their customers so that the website 
+becomes more personalized with recommendations for purchases and ratings of their products. 
+They would also like to find out from the systems analysts what the possibilities are for improving 
+their website.
+b. Each team should meet virtually or face to face and reaffirm their purpose as a team. During their 
+initial meeting, Team 1 should prepare a series of interview questions for both Teams 2 and 3. 
+Team 1 of systems analysts should prepare a list of six open-ended questions for the users and 
+a list of six open-ended questions for the ecommerce managers. Team 2 of product and website 
+users should discuss and create a common list of sports clothing and health accessories they have 
+purchased or would consider purchasing online and what their favorite features of each product 
+are. Team 3 of ecommerce managers should write six interview questions for Team 1 about what 
+kind of support for online purchases, including ratings and recommendations, they can provide. 
+Team 3 should also prepare six questions for Team 2 about their website preferences.
+c. Once each team has completed their assignment, they should meet face to face or in a monitored 
+chat room (using whatever technology is available to the class) to role-play the tasks and per-
+spectives outlined for each team in part a. Team 1 should take the lead and begin interviewing 
+members of Team 2. Team 3 should join in asking any questions that have not yet been asked of 
+Team 2, and also following up on the initial questions with probing questions. Team 1 should 
+move to the next phase and ask their prepared questions of Team 3 about how useful ratings and 
+recommendations would be to the Ganymede Fitness website. Assigning a scribe or note taker for 
+each team to write notes about answers will help move the process along for the last step.
+d. Each of the three teams should meet separately (face to face or online) as a team to discuss what 
+they learned in response to their questions. Each team should write a brief one-page report that 
+includes the date, time of day, length of interview, and participants in the interview. The one-page 
+report should include a summary of key information learned in the interview, and also include a 
+list of any points that were raised but that still need to be clarified.
+7. To extend exercise 6 above, teams working on the Ganymede Fitness case can share their written 
+reports with the other two teams (via posting on the course website or via email) to compare where
+
+
+===== BOOK PAGE 139 =====
+
+CHAPTER 4  •  InfoRMATIon G ATHERInG : InTERACTIvE  METHods     139
+they are in terms of understanding the usefulness of improving the ecommerce website for Ganymede 
+Fitness with product ratings and recommendations. Teams can make a brief oral presentation of what 
+they learned in the interview process, including (1) any suggestions for new material for the website 
+and (2) any follow-up questions they would like to ask and which team members they would like to 
+ask additional questions.
+8. Each of the three teams working on the Ganymede Fitness case should design an online survey 
+based on their experience with conducting interviews. The online survey should be developed for 
+a specific audience, either Team 2 of Ganymede Fitness product and website users or Team 3 of 
+Ganymede Fitness ecommerce managers. The online survey should pose both open-ended and closed 
+questions about the desirability of adding product rankings and recommendations to the Ganymede 
+Fitness website.
+Selected Bibliography
+Ackroyd, S., & Hughes, J. A. (1992). Data collection in context (2nd ed.). Addison-Wesley.
+Alvesson, M. (2010). Interpreting interviews. Sage.
+Cash, C. J., & Stewart Jr., W. B. (2010). Interviewing principles and practices (13th ed.). McGraw-Hill.
+Cooper, D. R., & Schindler, P. S. (2013). Business research methods (12th ed.). McGraw-Hill/Irwin.
+Deetz, S. (1995). Transforming communication, transforming business: Building responsive and respon-
+sible workplaces. Hampton Press.
+Eisenhower's Urgent/Important Principle. (n.d.). https://www.mindtools.com/pages/article/newHTE 
+_91.htm.
+Emerick, D., Round, K., & Joyce, S. (2000). Exploring web marketing and project management.  
+Prentice Hall, Englewood Cliffs, NJ.
+Fauville, G., Luo, M., Queiroz, A. C. M., Bailenson, J. N., & Hancock, J. (2021). Zoom Exhaustion &  
+Fatigue Scale. Computers in Human Behavior Reports, 4, 100119.
+Gane, C. (1987). Rapid system development: using structured techniques and relational technology.  
+Rapid System Development.
+Greenwald, A. G., & Lai, C. K. (2020). Implicit social cognition. Annual Review of Psychology, 71, 
+419–445.
+GVU WWW Survey Through 1998. (1998). www.cc.gatech.edu/gvu/user_surveys/survey-1998-10/.
+Hennel, P., & Rosenkranz, C. (2021). Investigating the “socio” in socio-technical development: The case 
+for psychological safety in agile information systems development. Project Management Journal, 
+52(1) 11–30.
+Hessler, R. M. (1992). Social research methods. West.
+Joint application design (GUIDE Publication GPP-147). (1986). GUIDE International.
+Kendall, J. E., & Kendall, K. E. (2012). Storytelling as a qualitative method for IS research: Heralding the 
+heroic and echoing the mythic. Australasian Journal of Information Systems, 17(2), 161–187.
+Kendall, J. E., & Kendall, K. E. (2017). Enhancing executive online education using storytelling: An 
+approach to strengthening online social presence. Decision Sciences Journal of Innovative Education, 
+15(1), 62–81.
+Mason, B. (2020, June 4). Q & A – Psychologist Anthony Greenwald curbing implicit bias: 
+What works and what doesn’t. Knowable. https://knowablemagazine.org/article/mind/2020/
+how-to-curb-implicit-bias.
+Peterson, R. A. (2000). Constructing effective questionnaires. Sage.
+Strauss, J., & Frost, R. (2013). E-marketing (7th ed.). Routledge.
+Thomas, M. (2016, April 1). Open source software opens door to web design career. https://opensource 
+.com/life/16/4/my-open-source-story-mark-thomas.
+Wansink, B., Sudman, S., & Bradburn, N. M. (2004). Asking questions: The definitive guide to question-
+naire design—for market research, political polls, and social and health questionnaires (2nd ed.). 
+Wiley, 2004.
+Woo, K. (2022, April 14). Best Zoom alternatives for video calling. https://www.tomsguide.com/news 
+/best-zoom-alternatives.
+
+
+===== BOOK PAGE 140 =====
+
+140
+Information Gathering: 
+Unobtrusive Methods
+LEARNING OBJECTIVES
+Once you have mastered the material in this chapter, you will be able to:
+1 Learn how to construct useful samples of people, documents, and events.
+2 Learn how to analyze quantitative documents with the goal of improving their design.
+3 Analyze qualitative documents for useful clues that will help you understand the current 
+situation.
+4 Be able to interpret managers' and customers' messages, interviews, and communications 
+using text analytics.
+5 Understand what process mining is and how it can be used to determine any bottlenecks, 
+variations, or exceptions.
+6 Learn how workplace analytics can monitor and improve on worker and team 
+participation.
+7 Observe decision makers’ behavior and create an analyst's playscript to observe decision 
+makers' activities.
+8 Observe the physical environment by applying the STROBE technique to observe and 
+interpret.
+Just by being present in an organization, a systems analyst changes it. However, unobtrusive 
+methods such as sampling, investigating, and observing a decision maker’s behavior and 
+interacting with their physical environment are less disruptive than other ways of eliciting human 
+information requirements. Text analytics is software that can analyze qualitative data from any 
+unstructured written source. Interviews, written reports, or customers’ communication collected 
+through wikis, blogs, chat rooms, and other social networking sites provide analysts and decision 
+makers with insights about the organization. Process-mining and task-mining applications can 
+unobtrusively and automatically gather data about processes from enterprise systems like 
+SAP and others. Workplace analytics can monitor and improve worker and team participation 
+while still protecting privacy and confidentiality. They help to identify problems and recommend 
+improvements to processes. Unobtrusive methods are insufficient information-gathering 
+methods when used alone. Rather, they should be used in conjunction with one or more interactive 
+methods such as those studied in the previous chapter. This is called a multiple methods approach. 
+Using both interactive and unobtrusive methods in approaching an organization is a wise practice 
+that will result in a more complete picture of human information requirements.
+5
+CHAPTER
+
