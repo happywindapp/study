@@ -15,10 +15,6 @@ plans/reports/*
 !plans/reports/.gitkeep
 
 # Office / temp artifacts
-*.xlsx
-*.docx
-*.pptx
-*.pdf
 *.log
 tmp_extract/
 tmp/
